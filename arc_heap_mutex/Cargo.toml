@@ -1,5 +1,5 @@
 [package]
-name = "mapped_stack_mutex"
+name = "arc_heap_mutex"
 version = "0.1.0"
 authors = ["skeet"]
 edition = "2018"
