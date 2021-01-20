@@ -1,5 +1,5 @@
 [package]
-name = "oneway_thread_access"
+name = "stack_map_and_mutate"
 version = "0.1.0"
 authors = ["Scott Carrion <scott.carrion@icloud.com>"]
 edition = "2018"

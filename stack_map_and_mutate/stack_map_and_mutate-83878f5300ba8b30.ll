@@ -1,9 +1,9 @@
-; ModuleID = '20fe6vsojjsfsq37'
-source_filename = "20fe6vsojjsfsq37"
+; ModuleID = 'xi6b3w2bcfqoah1'
+source_filename = "xi6b3w2bcfqoah1"
 target datalayout = "e-m:e-p270:32:32-p271:32:32-p272:64:64-i64:64-f80:128-n8:16:32:64-S128"
 target triple = "x86_64-unknown-linux-gnu"
 
-%"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 16:3], ()>::{closure#0}]" = type { [0 x i64], i64*, [0 x i64], i64*, [0 x i64], i64*, [0 x i8], i8, [7 x i8] }
+%"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 18:3], ()>::{closure#0}]" = type { [0 x i64], i64*, [0 x i64], i64*, [0 x i64], i64*, [0 x i8], i8, [7 x i8] }
 %"std::io::Error" = type { [0 x i64], %"std::io::error::Repr", [0 x i64] }
 %"std::io::error::Repr" = type { [0 x i8], i8, [15 x i8] }
 %"std::fmt::Formatter" = type { [0 x i64], { i64, i64 }, [0 x i64], { i64, i64 }, [0 x i64], { {}*, [3 x i64]* }, [0 x i32], i32, [0 x i32], i32, [0 x i8], i8, [7 x i8] }
@@ -40,7 +40,7 @@ target triple = "x86_64-unknown-linux-gnu"
 %"libc::unix::linux_like::linux::pthread_mutex_t" = type { [0 x i8], [40 x i8], [0 x i8] }
 %"core::fmt::Opaque" = type {}
 %"std::panic::Location" = type { [0 x i64], { [0 x i8]*, i64 }, [0 x i32], i32, [0 x i32], i32, [0 x i32] }
-%"std::panicking::r#try::Data<std::panic::AssertUnwindSafe<[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 16:3], ()>::{closure#0}::{closure#0}]>, ()>" = type { [2 x i64] }
+%"std::panicking::r#try::Data<std::panic::AssertUnwindSafe<[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 18:3], ()>::{closure#0}::{closure#0}]>, ()>" = type { [2 x i64] }
 %"std::mem::ManuallyDrop<()>" = type { [0 x i8], {}, [0 x i8] }
 %"std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>::Ok" = type { [0 x i8], {}, [0 x i8] }
 %"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>::Some" = type { [1 x i64], { i8*, i8* }, [0 x i64] }
@@ -67,29 +67,37 @@ target triple = "x86_64-unknown-linux-gnu"
 %"unwind::libunwind::_Unwind_Exception" = type { [0 x i64], i64, [0 x i64], void (i32, %"unwind::libunwind::_Unwind_Exception"*)*, [0 x i64], [6 x i64], [0 x i64] }
 %"unwind::libunwind::_Unwind_Context" = type { [0 x i8] }
 
-@vtable.0 = private unnamed_addr constant { void (%"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 16:3], ()>::{closure#0}]"*)*, i64, i64, void (%"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 16:3], ()>::{closure#0}]"*)* } { void (%"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 16:3], ()>::{closure#0}]"*)* @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNCINvMNtCs2bNvlddUlXM_3std6threadNtBM_7Builder15spawn_uncheckedNCNvCs37qxPUa7whq_20oneway_thread_access4main0uE0EB1L_, i64 32, i64 8, void (%"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 16:3], ()>::{closure#0}]"*)* @_RNSNvYNCINvMNtCs2bNvlddUlXM_3std6threadNtBa_7Builder15spawn_uncheckedNCNvCs37qxPUa7whq_20oneway_thread_access4main0uE0INtNtNtCs3p84KrD9aKt_4core3ops8function6FnOnceuE9call_once6vtableB19_ }, align 8, !dbg !0
-@vtable.1 = private unnamed_addr constant { void (i64**)*, i64, i64, i32 (i64**)*, i32 (i64**)*, i32 (i64**)* } { void (i64**)* @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNCINvNtCs2bNvlddUlXM_3std2rt10lang_startuE0ECs37qxPUa7whq_20oneway_thread_access, i64 8, i64 8, i32 (i64**)* @_RNCINvNtCs2bNvlddUlXM_3std2rt10lang_startuE0Cs37qxPUa7whq_20oneway_thread_access, i32 (i64**)* @_RNCINvNtCs2bNvlddUlXM_3std2rt10lang_startuE0Cs37qxPUa7whq_20oneway_thread_access, i32 (i64**)* @_RNSNvYNCINvNtCs2bNvlddUlXM_3std2rt10lang_startuE0INtNtNtCs3p84KrD9aKt_4core3ops8function6FnOnceuE9call_once6vtableCs37qxPUa7whq_20oneway_thread_access }, align 8, !dbg !288
-@alloc49 = private unnamed_addr constant <{ [22 x i8] }> <{ [22 x i8] c"failed to spawn thread" }>, align 1
-@alloc56 = private unnamed_addr constant <{ [77 x i8] }> <{ [77 x i8] c"/rustc/e38fb306b7f5e65cca34df2dab1f0db15e1defb4/library/std/src/thread/mod.rs" }>, align 1
-@alloc51 = private unnamed_addr constant <{ i8*, [16 x i8] }> <{ i8* getelementptr inbounds (<{ [77 x i8] }>, <{ [77 x i8] }>* @alloc56, i32 0, i32 0, i32 0), [16 x i8] c"M\00\00\00\00\00\00\00l\02\00\00\1D\00\00\00" }>, align 8
-@alloc53 = private unnamed_addr constant <{ [43 x i8] }> <{ [43 x i8] c"called `Option::unwrap()` on a `None` value" }>, align 1
-@vtable.2 = private unnamed_addr constant { void (%"std::io::Error"*)*, i64, i64, i1 (%"std::io::Error"*, %"std::fmt::Formatter"*)* } { void (%"std::io::Error"*)* @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNtNtNtCs2bNvlddUlXM_3std2io5error5ErrorECs37qxPUa7whq_20oneway_thread_access, i64 16, i64 8, i1 (%"std::io::Error"*, %"std::fmt::Formatter"*)* @"_ZN58_$LT$std..io..error..Error$u20$as$u20$core..fmt..Debug$GT$3fmt17h9846d30f97792c23E" }, align 8, !dbg !299
-@alloc55 = private unnamed_addr constant <{ i8*, [16 x i8] }> <{ i8* getelementptr inbounds (<{ [77 x i8] }>, <{ [77 x i8] }>* @alloc56, i32 0, i32 0, i32 0), [16 x i8] c"M\00\00\00\00\00\00\00\E1\04\00\00\1C\00\00\00" }>, align 8
-@alloc57 = private unnamed_addr constant <{ i8*, [16 x i8] }> <{ i8* getelementptr inbounds (<{ [77 x i8] }>, <{ [77 x i8] }>* @alloc56, i32 0, i32 0, i32 0), [16 x i8] c"M\00\00\00\00\00\00\00\E2\04\00\000\00\00\00" }>, align 8
-@alloc24 = private unnamed_addr constant <{ [0 x i8] }> zeroinitializer, align 1
-@alloc58 = private unnamed_addr constant <{ [41 x i8] }> <{ [41 x i8] c"there is no such thing as a relaxed fence" }>, align 1
-@alloc59 = private unnamed_addr constant <{ [79 x i8] }> <{ [79 x i8] c"/rustc/e38fb306b7f5e65cca34df2dab1f0db15e1defb4/library/core/src/sync/atomic.rs" }>, align 1
-@alloc60 = private unnamed_addr constant <{ i8*, [16 x i8] }> <{ i8* getelementptr inbounds (<{ [79 x i8] }>, <{ [79 x i8] }>* @alloc59, i32 0, i32 0, i32 0), [16 x i8] c"O\00\00\00\00\00\00\00n\0A\00\00\18\00\00\00" }>, align 8
-@alloc2 = private unnamed_addr constant <{ [22 x i8] }> <{ [22 x i8] c"Parent says: myvar is " }>, align 1
-@alloc20 = private unnamed_addr constant <{ [1 x i8] }> <{ [1 x i8] c"\0A" }>, align 1
-@alloc3 = private unnamed_addr constant <{ i8*, [8 x i8], i8*, [8 x i8] }> <{ i8* getelementptr inbounds (<{ [22 x i8] }>, <{ [22 x i8] }>* @alloc2, i32 0, i32 0, i32 0), [8 x i8] c"\16\00\00\00\00\00\00\00", i8* getelementptr inbounds (<{ [1 x i8] }>, <{ [1 x i8] }>* @alloc20, i32 0, i32 0, i32 0), [8 x i8] c"\01\00\00\00\00\00\00\00" }>, align 8
-@alloc18 = private unnamed_addr constant <{ [21 x i8] }> <{ [21 x i8] c"Child says: myvar is " }>, align 1
-@alloc19 = private unnamed_addr constant <{ i8*, [8 x i8], i8*, [8 x i8] }> <{ i8* getelementptr inbounds (<{ [21 x i8] }>, <{ [21 x i8] }>* @alloc18, i32 0, i32 0, i32 0), [8 x i8] c"\15\00\00\00\00\00\00\00", i8* getelementptr inbounds (<{ [1 x i8] }>, <{ [1 x i8] }>* @alloc20, i32 0, i32 0, i32 0), [8 x i8] c"\01\00\00\00\00\00\00\00" }>, align 8
+@vtable.0 = private unnamed_addr constant { void (%"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 18:3], ()>::{closure#0}]"*)*, i64, i64, void (%"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 18:3], ()>::{closure#0}]"*)* } { void (%"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 18:3], ()>::{closure#0}]"*)* @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNCINvMNtCs2bNvlddUlXM_3std6threadNtBM_7Builder15spawn_uncheckedNCNvCsdT7u4N7w2iC_20stack_map_and_mutate4main0uE0EB1L_, i64 32, i64 8, void (%"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 18:3], ()>::{closure#0}]"*)* @_RNSNvYNCINvMNtCs2bNvlddUlXM_3std6threadNtBa_7Builder15spawn_uncheckedNCNvCsdT7u4N7w2iC_20stack_map_and_mutate4main0uE0INtNtNtCs3p84KrD9aKt_4core3ops8function6FnOnceuE9call_once6vtableB19_ }, align 8, !dbg !0
+@vtable.1 = private unnamed_addr constant { void (i64**)*, i64, i64, i32 (i64**)*, i32 (i64**)*, i32 (i64**)* } { void (i64**)* @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNCINvNtCs2bNvlddUlXM_3std2rt10lang_startuE0ECsdT7u4N7w2iC_20stack_map_and_mutate, i64 8, i64 8, i32 (i64**)* @_RNCINvNtCs2bNvlddUlXM_3std2rt10lang_startuE0CsdT7u4N7w2iC_20stack_map_and_mutate, i32 (i64**)* @_RNCINvNtCs2bNvlddUlXM_3std2rt10lang_startuE0CsdT7u4N7w2iC_20stack_map_and_mutate, i32 (i64**)* @_RNSNvYNCINvNtCs2bNvlddUlXM_3std2rt10lang_startuE0INtNtNtCs3p84KrD9aKt_4core3ops8function6FnOnceuE9call_once6vtableCsdT7u4N7w2iC_20stack_map_and_mutate }, align 8, !dbg !288
+@alloc60 = private unnamed_addr constant <{ [22 x i8] }> <{ [22 x i8] c"failed to spawn thread" }>, align 1
+@alloc67 = private unnamed_addr constant <{ [77 x i8] }> <{ [77 x i8] c"/rustc/e38fb306b7f5e65cca34df2dab1f0db15e1defb4/library/std/src/thread/mod.rs" }>, align 1
+@alloc62 = private unnamed_addr constant <{ i8*, [16 x i8] }> <{ i8* getelementptr inbounds (<{ [77 x i8] }>, <{ [77 x i8] }>* @alloc67, i32 0, i32 0, i32 0), [16 x i8] c"M\00\00\00\00\00\00\00l\02\00\00\1D\00\00\00" }>, align 8
+@alloc64 = private unnamed_addr constant <{ [43 x i8] }> <{ [43 x i8] c"called `Option::unwrap()` on a `None` value" }>, align 1
+@vtable.2 = private unnamed_addr constant { void (%"std::io::Error"*)*, i64, i64, i1 (%"std::io::Error"*, %"std::fmt::Formatter"*)* } { void (%"std::io::Error"*)* @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNtNtNtCs2bNvlddUlXM_3std2io5error5ErrorECsdT7u4N7w2iC_20stack_map_and_mutate, i64 16, i64 8, i1 (%"std::io::Error"*, %"std::fmt::Formatter"*)* @"_ZN58_$LT$std..io..error..Error$u20$as$u20$core..fmt..Debug$GT$3fmt17h9846d30f97792c23E" }, align 8, !dbg !299
+@alloc66 = private unnamed_addr constant <{ i8*, [16 x i8] }> <{ i8* getelementptr inbounds (<{ [77 x i8] }>, <{ [77 x i8] }>* @alloc67, i32 0, i32 0, i32 0), [16 x i8] c"M\00\00\00\00\00\00\00\E1\04\00\00\1C\00\00\00" }>, align 8
+@alloc68 = private unnamed_addr constant <{ i8*, [16 x i8] }> <{ i8* getelementptr inbounds (<{ [77 x i8] }>, <{ [77 x i8] }>* @alloc67, i32 0, i32 0, i32 0), [16 x i8] c"M\00\00\00\00\00\00\00\E2\04\00\000\00\00\00" }>, align 8
+@alloc35 = private unnamed_addr constant <{ [0 x i8] }> zeroinitializer, align 1
+@alloc69 = private unnamed_addr constant <{ [41 x i8] }> <{ [41 x i8] c"there is no such thing as a relaxed fence" }>, align 1
+@alloc70 = private unnamed_addr constant <{ [79 x i8] }> <{ [79 x i8] c"/rustc/e38fb306b7f5e65cca34df2dab1f0db15e1defb4/library/core/src/sync/atomic.rs" }>, align 1
+@alloc71 = private unnamed_addr constant <{ i8*, [16 x i8] }> <{ i8* getelementptr inbounds (<{ [79 x i8] }>, <{ [79 x i8] }>* @alloc70, i32 0, i32 0, i32 0), [16 x i8] c"O\00\00\00\00\00\00\00n\0A\00\00\18\00\00\00" }>, align 8
+@alloc2 = private unnamed_addr constant <{ [40 x i8] }> <{ [40 x i8] c"Parent says: Before increment, myvar is " }>, align 1
+@alloc31 = private unnamed_addr constant <{ [1 x i8] }> <{ [1 x i8] c"\0A" }>, align 1
+@alloc3 = private unnamed_addr constant <{ i8*, [8 x i8], i8*, [8 x i8] }> <{ i8* getelementptr inbounds (<{ [40 x i8] }>, <{ [40 x i8] }>* @alloc2, i32 0, i32 0, i32 0), [8 x i8] c"(\00\00\00\00\00\00\00", i8* getelementptr inbounds (<{ [1 x i8] }>, <{ [1 x i8] }>* @alloc31, i32 0, i32 0, i32 0), [8 x i8] c"\01\00\00\00\00\00\00\00" }>, align 8
+@alloc74 = private unnamed_addr constant <{ [11 x i8] }> <{ [11 x i8] c"src/main.rs" }>, align 1
+@alloc73 = private unnamed_addr constant <{ i8*, [16 x i8] }> <{ i8* getelementptr inbounds (<{ [11 x i8] }>, <{ [11 x i8] }>* @alloc74, i32 0, i32 0, i32 0), [16 x i8] c"\0B\00\00\00\00\00\00\00\18\00\00\00\05\00\00\00" }>, align 8
+@str.3 = internal constant [28 x i8] c"attempt to add with overflow"
+@alloc8 = private unnamed_addr constant <{ [39 x i8] }> <{ [39 x i8] c"Parent says: After increment, myvar is " }>, align 1
+@alloc9 = private unnamed_addr constant <{ i8*, [8 x i8], i8*, [8 x i8] }> <{ i8* getelementptr inbounds (<{ [39 x i8] }>, <{ [39 x i8] }>* @alloc8, i32 0, i32 0, i32 0), [8 x i8] c"'\00\00\00\00\00\00\00", i8* getelementptr inbounds (<{ [1 x i8] }>, <{ [1 x i8] }>* @alloc31, i32 0, i32 0, i32 0), [8 x i8] c"\01\00\00\00\00\00\00\00" }>, align 8
+@alloc25 = private unnamed_addr constant <{ [39 x i8] }> <{ [39 x i8] c"Child says: Before increment, myvar is " }>, align 1
+@alloc26 = private unnamed_addr constant <{ i8*, [8 x i8], i8*, [8 x i8] }> <{ i8* getelementptr inbounds (<{ [39 x i8] }>, <{ [39 x i8] }>* @alloc25, i32 0, i32 0, i32 0), [8 x i8] c"'\00\00\00\00\00\00\00", i8* getelementptr inbounds (<{ [1 x i8] }>, <{ [1 x i8] }>* @alloc31, i32 0, i32 0, i32 0), [8 x i8] c"\01\00\00\00\00\00\00\00" }>, align 8
+@alloc75 = private unnamed_addr constant <{ i8*, [16 x i8] }> <{ i8* getelementptr inbounds (<{ [11 x i8] }>, <{ [11 x i8] }>* @alloc74, i32 0, i32 0, i32 0), [16 x i8] c"\0B\00\00\00\00\00\00\00\10\00\00\00\09\00\00\00" }>, align 8
+@alloc29 = private unnamed_addr constant <{ [38 x i8] }> <{ [38 x i8] c"Child says: After increment, myvar is " }>, align 1
+@alloc30 = private unnamed_addr constant <{ i8*, [8 x i8], i8*, [8 x i8] }> <{ i8* getelementptr inbounds (<{ [38 x i8] }>, <{ [38 x i8] }>* @alloc29, i32 0, i32 0, i32 0), [8 x i8] c"&\00\00\00\00\00\00\00", i8* getelementptr inbounds (<{ [1 x i8] }>, <{ [1 x i8] }>* @alloc31, i32 0, i32 0, i32 0), [8 x i8] c"\01\00\00\00\00\00\00\00" }>, align 8
 @__rustc_debug_gdb_scripts_section__ = linkonce_odr unnamed_addr constant [34 x i8] c"\01gdb_load_rust_pretty_printers.py\00", section ".debug_gdb_scripts", align 1
 
-; <std::thread::Builder>::spawn_unchecked::<oneway_thread_access::main::{closure#0}, ()>
+; <std::thread::Builder>::spawn_unchecked::<stack_map_and_mutate::main::{closure#0}, ()>
 ; Function Attrs: nonlazybind uwtable
-define internal void @_RINvMNtCs2bNvlddUlXM_3std6threadNtB3_7Builder15spawn_uncheckedNCNvCs37qxPUa7whq_20oneway_thread_access4main0uEB12_(%"std::result::Result<std::thread::JoinHandle<()>, std::io::Error>"* noalias nocapture sret dereferenceable(40) %0, %"std::thread::Builder"* noalias nocapture dereferenceable(40) %self, i8 %f) unnamed_addr #0 personality i32 (i32, i32, i64, %"unwind::libunwind::_Unwind_Exception"*, %"unwind::libunwind::_Unwind_Context"*)* @rust_eh_personality !dbg !388 {
+define internal void @_RINvMNtCs2bNvlddUlXM_3std6threadNtB3_7Builder15spawn_uncheckedNCNvCsdT7u4N7w2iC_20stack_map_and_mutate4main0uEB12_(%"std::result::Result<std::thread::JoinHandle<()>, std::io::Error>"* noalias nocapture sret dereferenceable(40) %0, %"std::thread::Builder"* noalias nocapture dereferenceable(40) %self, i8 %f) unnamed_addr #0 personality i32 (i32, i32, i64, %"unwind::libunwind::_Unwind_Exception"*, %"unwind::libunwind::_Unwind_Context"*)* @rust_eh_personality !dbg !388 {
 start:
   %val.dbg.spill = alloca i64, align 8
   %1 = alloca i128, align 8
@@ -107,13 +115,13 @@ start:
   %_37 = alloca %"std::io::Error", align 8
   %_36 = alloca %"std::io::Error", align 8
   %err = alloca %"std::io::Error", align 8
-  %_33 = alloca %"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 16:3], ()>::{closure#0}]", align 8
+  %_33 = alloca %"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 18:3], ()>::{closure#0}]", align 8
   %_27 = alloca %"std::result::Result<std::sys::unix::thread::Thread, std::io::Error>", align 8
   %_26 = alloca %"std::result::Result<std::sys::unix::thread::Thread, std::io::Error>", align 8
   %_24 = alloca { i64, i64 }, align 8
   %_23 = alloca %"std::thread::JoinInner<()>", align 8
   %_22 = alloca %"std::thread::JoinHandle<()>", align 8
-  %main = alloca %"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 16:3], ()>::{closure#0}]", align 8
+  %main = alloca %"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 18:3], ()>::{closure#0}]", align 8
   %_18 = alloca i64*, align 8
   %_17 = alloca i64*, align 8
   %output_capture = alloca i64*, align 8
@@ -134,7 +142,7 @@ start:
   call void @llvm.dbg.declare(metadata i64** %my_packet, metadata !477, metadata !DIExpression()), !dbg !496
   call void @llvm.dbg.declare(metadata i64** %their_packet, metadata !479, metadata !DIExpression()), !dbg !497
   call void @llvm.dbg.declare(metadata i64** %output_capture, metadata !481, metadata !DIExpression()), !dbg !498
-  call void @llvm.dbg.declare(metadata %"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 16:3], ()>::{closure#0}]"* %main, metadata !483, metadata !DIExpression()), !dbg !499
+  call void @llvm.dbg.declare(metadata %"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 18:3], ()>::{closure#0}]"* %main, metadata !483, metadata !DIExpression()), !dbg !499
   call void @llvm.dbg.declare(metadata %"std::io::Error"* %err, metadata !485, metadata !DIExpression()), !dbg !500
   store i8 0, i8* %_42, align 1, !dbg !501
   store i8 0, i8* %_46, align 1, !dbg !501
@@ -158,7 +166,7 @@ start:
   store i64 %stack_size.1, i64* %11, align 8, !dbg !502
   call void @llvm.dbg.declare(metadata { i64, i64 }* %stack_size.dbg.spill, metadata !470, metadata !DIExpression()), !dbg !504
 ; invoke <core::option::Option<usize>>::unwrap_or_else::<std::sys_common::thread::min_stack>
-  %stack_size = invoke i64 @_RINvMNtCs3p84KrD9aKt_4core6optionINtB3_6OptionjE14unwrap_or_elseNvNtNtCs2bNvlddUlXM_3std10sys_common6thread9min_stackECs37qxPUa7whq_20oneway_thread_access(i64 %stack_size.0, i64 %stack_size.1)
+  %stack_size = invoke i64 @_RINvMNtCs3p84KrD9aKt_4core6optionINtB3_6OptionjE14unwrap_or_elseNvNtNtCs2bNvlddUlXM_3std10sys_common6thread9min_stackECsdT7u4N7w2iC_20stack_map_and_mutate(i64 %stack_size.0, i64 %stack_size.1)
           to label %bb1 unwind label %cleanup, !dbg !505
 
 bb1:                                              ; preds = %start
@@ -175,7 +183,7 @@ bb1:                                              ; preds = %start
 bb2:                                              ; preds = %bb1
   store i64* %14, i64** %my_thread, align 8, !dbg !508
 ; invoke <std::thread::Thread as core::clone::Clone>::clone
-  %15 = invoke nonnull i64* @_RNvXsk_NtCs2bNvlddUlXM_3std6threadNtB5_6ThreadNtNtCs3p84KrD9aKt_4core5clone5Clone5cloneCs37qxPUa7whq_20oneway_thread_access(i64** noalias readonly align 8 dereferenceable(8) %my_thread)
+  %15 = invoke nonnull i64* @_RNvXsk_NtCs2bNvlddUlXM_3std6threadNtB5_6ThreadNtNtCs3p84KrD9aKt_4core5clone5Clone5cloneCsdT7u4N7w2iC_20stack_map_and_mutate(i64** noalias readonly align 8 dereferenceable(8) %my_thread)
           to label %bb3 unwind label %cleanup2, !dbg !509
 
 bb3:                                              ; preds = %bb2
@@ -184,18 +192,18 @@ bb3:                                              ; preds = %bb2
   %16 = bitcast %"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"* %_13 to i64*, !dbg !511
   store i64 0, i64* %16, align 8, !dbg !511
 ; invoke <core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>>::new
-  invoke void @_RNvMsJ_NtCs3p84KrD9aKt_4core4cellINtB5_10UnsafeCellINtNtB7_6option6OptionINtNtB7_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB7_3any3AnyNtNtB7_6marker4SendEL_EEEE3newCs37qxPUa7whq_20oneway_thread_access(%"std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>"* noalias nocapture sret dereferenceable(24) %_12, %"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"* noalias nocapture dereferenceable(24) %_13)
+  invoke void @_RNvMsJ_NtCs3p84KrD9aKt_4core4cellINtB5_10UnsafeCellINtNtB7_6option6OptionINtNtB7_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB7_3any3AnyNtNtB7_6marker4SendEL_EEEE3newCsdT7u4N7w2iC_20stack_map_and_mutate(%"std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>"* noalias nocapture sret dereferenceable(24) %_12, %"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"* noalias nocapture dereferenceable(24) %_13)
           to label %bb4 unwind label %cleanup3, !dbg !512
 
 bb4:                                              ; preds = %bb3
 ; invoke <alloc::sync::Arc<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>>>::new
-  %17 = invoke nonnull i64* @_RNvMsa_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtBL_6option6OptionINtNtBL_6result6ResultuINtNtB7_5boxed3BoxDNtNtBL_3any3AnyNtNtBL_6marker4SendEL_EEEEE3newCs37qxPUa7whq_20oneway_thread_access(%"std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>"* noalias nocapture dereferenceable(24) %_12)
+  %17 = invoke nonnull i64* @_RNvMsa_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtBL_6option6OptionINtNtBL_6result6ResultuINtNtB7_5boxed3BoxDNtNtBL_3any3AnyNtNtBL_6marker4SendEL_EEEEE3newCsdT7u4N7w2iC_20stack_map_and_mutate(%"std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>"* noalias nocapture dereferenceable(24) %_12)
           to label %bb5 unwind label %cleanup3, !dbg !513
 
 bb5:                                              ; preds = %bb4
   store i64* %17, i64** %my_packet, align 8, !dbg !513
 ; invoke <alloc::sync::Arc<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>> as core::clone::Clone>::clone
-  %18 = invoke nonnull i64* @_RNvXsk_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtBL_6option6OptionINtNtBL_6result6ResultuINtNtB7_5boxed3BoxDNtNtBL_3any3AnyNtNtBL_6marker4SendEL_EEEEENtNtBL_5clone5Clone5cloneCs37qxPUa7whq_20oneway_thread_access(i64** noalias readonly align 8 dereferenceable(8) %my_packet)
+  %18 = invoke nonnull i64* @_RNvXsk_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtBL_6option6OptionINtNtBL_6result6ResultuINtNtB7_5boxed3BoxDNtNtBL_3any3AnyNtNtBL_6marker4SendEL_EEEEENtNtBL_5clone5Clone5cloneCsdT7u4N7w2iC_20stack_map_and_mutate(i64** noalias readonly align 8 dereferenceable(8) %my_packet)
           to label %bb6 unwind label %cleanup4, !dbg !514
 
 bb6:                                              ; preds = %bb5
@@ -212,7 +220,7 @@ bb7:                                              ; preds = %bb6
   store i64* %21, i64** %output_capture, align 8, !dbg !517
   store i8 1, i8* %_42, align 1, !dbg !518
 ; invoke <core::option::Option<alloc::sync::Arc<std::sync::mutex::Mutex<alloc::vec::Vec<u8>>>> as core::clone::Clone>::clone
-  %_19 = invoke i64* @_RNvXs8_NtCs3p84KrD9aKt_4core6optionINtB5_6OptionINtNtCs8RW06R9lH2S_5alloc4sync3ArcINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtBP_3vec3VechEEEENtNtB7_5clone5Clone5cloneCs37qxPUa7whq_20oneway_thread_access(i64** noalias readonly align 8 dereferenceable(8) %output_capture)
+  %_19 = invoke i64* @_RNvXs8_NtCs3p84KrD9aKt_4core6optionINtB5_6OptionINtNtCs8RW06R9lH2S_5alloc4sync3ArcINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtBP_3vec3VechEEEENtNtB7_5clone5Clone5cloneCsdT7u4N7w2iC_20stack_map_and_mutate(i64** noalias readonly align 8 dereferenceable(8) %output_capture)
           to label %bb8 unwind label %cleanup6, !dbg !519
 
 bb8:                                              ; preds = %bb7
@@ -223,7 +231,7 @@ bb8:                                              ; preds = %bb7
 bb9:                                              ; preds = %bb8
   store i64* %22, i64** %_18, align 8, !dbg !520
 ; invoke core::ptr::drop_in_place::<core::option::Option<alloc::sync::Arc<std::sync::mutex::Mutex<alloc::vec::Vec<u8>>>>>
-  invoke void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_6option6OptionINtNtCs8RW06R9lH2S_5alloc4sync3ArcINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtB17_3vec3VechEEEEECs37qxPUa7whq_20oneway_thread_access(i64** %_18)
+  invoke void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_6option6OptionINtNtCs8RW06R9lH2S_5alloc4sync3ArcINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtB17_3vec3VechEEEEECsdT7u4N7w2iC_20stack_map_and_mutate(i64** %_18)
           to label %bb10 unwind label %cleanup6, !dbg !521
 
 bb10:                                             ; preds = %bb9
@@ -231,39 +239,39 @@ bb10:                                             ; preds = %bb9
   store i8 0, i8* %_42, align 1, !dbg !522
   store i8 0, i8* %_46, align 1, !dbg !522
   store i8 0, i8* %_43, align 1, !dbg !522
-  %23 = bitcast %"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 16:3], ()>::{closure#0}]"* %main to i64**, !dbg !522
+  %23 = bitcast %"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 18:3], ()>::{closure#0}]"* %main to i64**, !dbg !522
   %24 = load i64*, i64** %their_thread, align 8, !dbg !522, !nonnull !4
   store i64* %24, i64** %23, align 8, !dbg !522
-  %25 = getelementptr inbounds %"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 16:3], ()>::{closure#0}]", %"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 16:3], ()>::{closure#0}]"* %main, i32 0, i32 3, !dbg !522
+  %25 = getelementptr inbounds %"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 18:3], ()>::{closure#0}]", %"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 18:3], ()>::{closure#0}]"* %main, i32 0, i32 3, !dbg !522
   %26 = load i64*, i64** %output_capture, align 8, !dbg !522
   store i64* %26, i64** %25, align 8, !dbg !522
-  %27 = getelementptr inbounds %"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 16:3], ()>::{closure#0}]", %"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 16:3], ()>::{closure#0}]"* %main, i32 0, i32 7, !dbg !522
+  %27 = getelementptr inbounds %"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 18:3], ()>::{closure#0}]", %"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 18:3], ()>::{closure#0}]"* %main, i32 0, i32 7, !dbg !522
   store i8 %f, i8* %27, align 8, !dbg !522
-  %28 = getelementptr inbounds %"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 16:3], ()>::{closure#0}]", %"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 16:3], ()>::{closure#0}]"* %main, i32 0, i32 5, !dbg !522
+  %28 = getelementptr inbounds %"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 18:3], ()>::{closure#0}]", %"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 18:3], ()>::{closure#0}]"* %main, i32 0, i32 5, !dbg !522
   %29 = load i64*, i64** %their_packet, align 8, !dbg !522, !nonnull !4
   store i64* %29, i64** %28, align 8, !dbg !522
-  %30 = bitcast %"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 16:3], ()>::{closure#0}]"* %_33 to i8*, !dbg !523
-  %31 = bitcast %"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 16:3], ()>::{closure#0}]"* %main to i8*, !dbg !523
+  %30 = bitcast %"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 18:3], ()>::{closure#0}]"* %_33 to i8*, !dbg !523
+  %31 = bitcast %"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 18:3], ()>::{closure#0}]"* %main to i8*, !dbg !523
   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 8 %30, i8* align 8 %31, i64 32, i1 false), !dbg !523
-  call void @llvm.dbg.declare(metadata %"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 16:3], ()>::{closure#0}]"* %_33, metadata !524, metadata !DIExpression()), !dbg !535
+  call void @llvm.dbg.declare(metadata %"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 18:3], ()>::{closure#0}]"* %_33, metadata !524, metadata !DIExpression()), !dbg !535
 ; invoke alloc::alloc::exchange_malloc
-  %32 = invoke i8* @_RNvNtCs8RW06R9lH2S_5alloc5alloc15exchange_mallocCs37qxPUa7whq_20oneway_thread_access(i64 32, i64 8)
-          to label %_RNvMNtCs8RW06R9lH2S_5alloc5boxedINtB2_3BoxNCINvMNtCs2bNvlddUlXM_3std6threadNtBK_7Builder15spawn_uncheckedNCNvCs37qxPUa7whq_20oneway_thread_access4main0uE0E3newB1J_.exit unwind label %cleanup6, !dbg !537
+  %32 = invoke i8* @_RNvNtCs8RW06R9lH2S_5alloc5alloc15exchange_mallocCsdT7u4N7w2iC_20stack_map_and_mutate(i64 32, i64 8)
+          to label %_RNvMNtCs8RW06R9lH2S_5alloc5boxedINtB2_3BoxNCINvMNtCs2bNvlddUlXM_3std6threadNtBK_7Builder15spawn_uncheckedNCNvCsdT7u4N7w2iC_20stack_map_and_mutate4main0uE0E3newB1J_.exit unwind label %cleanup6, !dbg !537
 
-_RNvMNtCs8RW06R9lH2S_5alloc5boxedINtB2_3BoxNCINvMNtCs2bNvlddUlXM_3std6threadNtBK_7Builder15spawn_uncheckedNCNvCs37qxPUa7whq_20oneway_thread_access4main0uE0E3newB1J_.exit: ; preds = %bb10
-  %33 = bitcast i8* %32 to %"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 16:3], ()>::{closure#0}]"*, !dbg !537
-  %34 = bitcast %"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 16:3], ()>::{closure#0}]"* %_33 to i8*, !dbg !538
+_RNvMNtCs8RW06R9lH2S_5alloc5boxedINtB2_3BoxNCINvMNtCs2bNvlddUlXM_3std6threadNtBK_7Builder15spawn_uncheckedNCNvCsdT7u4N7w2iC_20stack_map_and_mutate4main0uE0E3newB1J_.exit: ; preds = %bb10
+  %33 = bitcast i8* %32 to %"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 18:3], ()>::{closure#0}]"*, !dbg !537
+  %34 = bitcast %"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 18:3], ()>::{closure#0}]"* %_33 to i8*, !dbg !538
   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 8 %32, i8* align 8 %34, i64 32, i1 false), !dbg !538
   br label %bb11, !dbg !539
 
-bb11:                                             ; preds = %_RNvMNtCs8RW06R9lH2S_5alloc5boxedINtB2_3BoxNCINvMNtCs2bNvlddUlXM_3std6threadNtBK_7Builder15spawn_uncheckedNCNvCs37qxPUa7whq_20oneway_thread_access4main0uE0E3newB1J_.exit
-  %35 = bitcast %"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 16:3], ()>::{closure#0}]"* %33 to {}*, !dbg !540
+bb11:                                             ; preds = %_RNvMNtCs8RW06R9lH2S_5alloc5boxedINtB2_3BoxNCINvMNtCs2bNvlddUlXM_3std6threadNtBK_7Builder15spawn_uncheckedNCNvCsdT7u4N7w2iC_20stack_map_and_mutate4main0uE0E3newB1J_.exit
+  %35 = bitcast %"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 18:3], ()>::{closure#0}]"* %33 to {}*, !dbg !540
   %36 = bitcast {}* %35 to i8*, !dbg !540
   %_31.0 = bitcast i8* %36 to {}*, !dbg !540
   %37 = getelementptr inbounds { {}*, [3 x i64]* }, { {}*, [3 x i64]* }* %2, i32 0, i32 0, !dbg !541
   store {}* %_31.0, {}** %37, align 8, !dbg !541
   %38 = getelementptr inbounds { {}*, [3 x i64]* }, { {}*, [3 x i64]* }* %2, i32 0, i32 1, !dbg !541
-  store [3 x i64]* bitcast ({ void (%"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 16:3], ()>::{closure#0}]"*)*, i64, i64, void (%"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 16:3], ()>::{closure#0}]"*)* }* @vtable.0 to [3 x i64]*), [3 x i64]** %38, align 8, !dbg !541
+  store [3 x i64]* bitcast ({ void (%"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 18:3], ()>::{closure#0}]"*)*, i64, i64, void (%"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 18:3], ()>::{closure#0}]"*)* }* @vtable.0 to [3 x i64]*), [3 x i64]** %38, align 8, !dbg !541
   %39 = getelementptr inbounds { {}*, [3 x i64]* }, { {}*, [3 x i64]* }* %2, i32 0, i32 0, !dbg !541
   %_30.0 = load {}*, {}** %39, align 8, !dbg !541, !nonnull !4
   %40 = getelementptr inbounds { {}*, [3 x i64]* }, { {}*, [3 x i64]* }* %2, i32 0, i32 1, !dbg !541
@@ -277,7 +285,7 @@ bb12:                                             ; preds = %bb11
 
 bb13:                                             ; preds = %bb12
 ; invoke <core::result::Result<std::sys::unix::thread::Thread, std::io::error::Error> as core::ops::try::Try>::into_result
-  invoke void @_RNvXsw_NtCs3p84KrD9aKt_4core6resultINtB5_6ResultNtNtNtNtCs2bNvlddUlXM_3std3sys4unix6thread6ThreadNtNtNtBS_2io5error5ErrorENtNtNtB7_3ops3try3Try11into_resultCs37qxPUa7whq_20oneway_thread_access(%"std::result::Result<std::sys::unix::thread::Thread, std::io::Error>"* noalias nocapture sret dereferenceable(24) %_26, %"std::result::Result<std::sys::unix::thread::Thread, std::io::Error>"* noalias nocapture dereferenceable(24) %_27)
+  invoke void @_RNvXsw_NtCs3p84KrD9aKt_4core6resultINtB5_6ResultNtNtNtNtCs2bNvlddUlXM_3std3sys4unix6thread6ThreadNtNtNtBS_2io5error5ErrorENtNtNtB7_3ops3try3Try11into_resultCsdT7u4N7w2iC_20stack_map_and_mutate(%"std::result::Result<std::sys::unix::thread::Thread, std::io::Error>"* noalias nocapture sret dereferenceable(24) %_26, %"std::result::Result<std::sys::unix::thread::Thread, std::io::Error>"* noalias nocapture dereferenceable(24) %_27)
           to label %bb14 unwind label %cleanup6, !dbg !542
 
 bb14:                                             ; preds = %bb13
@@ -348,7 +356,7 @@ bb17:                                             ; preds = %bb14
   %71 = bitcast %"std::io::Error"* %_37 to i128*, !dbg !500
   %72 = load i128, i128* %71, align 8, !dbg !500
 ; invoke <std::io::error::Error as core::convert::From<std::io::error::Error>>::from
-  %73 = invoke i128 @_RNvXs2_NtCs3p84KrD9aKt_4core7convertNtNtNtCs2bNvlddUlXM_3std2io5error5ErrorINtB5_4FromBy_E4fromCs37qxPUa7whq_20oneway_thread_access(i128 %72)
+  %73 = invoke i128 @_RNvXs2_NtCs3p84KrD9aKt_4core7convertNtNtNtCs2bNvlddUlXM_3std2io5error5ErrorINtB5_4FromBy_E4fromCsdT7u4N7w2iC_20stack_map_and_mutate(i128 %72)
           to label %bb18 unwind label %cleanup7, !dbg !500
 
 bb18:                                             ; preds = %bb17
@@ -359,20 +367,20 @@ bb18:                                             ; preds = %bb17
   %76 = bitcast %"std::io::Error"* %_36 to i128*, !dbg !556
   %77 = load i128, i128* %76, align 8, !dbg !556
 ; invoke <core::result::Result<std::thread::JoinHandle<()>, std::io::error::Error> as core::ops::try::Try>::from_error
-  invoke void @_RNvXsw_NtCs3p84KrD9aKt_4core6resultINtB5_6ResultINtNtCs2bNvlddUlXM_3std6thread10JoinHandleuENtNtNtBP_2io5error5ErrorENtNtNtB7_3ops3try3Try10from_errorCs37qxPUa7whq_20oneway_thread_access(%"std::result::Result<std::thread::JoinHandle<()>, std::io::Error>"* noalias nocapture sret dereferenceable(40) %0, i128 %77)
+  invoke void @_RNvXsw_NtCs3p84KrD9aKt_4core6resultINtB5_6ResultINtNtCs2bNvlddUlXM_3std6thread10JoinHandleuENtNtNtBP_2io5error5ErrorENtNtNtB7_3ops3try3Try10from_errorCsdT7u4N7w2iC_20stack_map_and_mutate(%"std::result::Result<std::thread::JoinHandle<()>, std::io::Error>"* noalias nocapture sret dereferenceable(40) %0, i128 %77)
           to label %bb19 unwind label %cleanup7, !dbg !556
 
 bb19:                                             ; preds = %bb18
   store i8 0, i8* %_42, align 1, !dbg !552
   store i8 0, i8* %_43, align 1, !dbg !553
 ; invoke core::ptr::drop_in_place::<alloc::sync::Arc<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>>>
-  invoke void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc4sync3ArcINtNtB4_4cell10UnsafeCellINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtBL_5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEEEECs37qxPUa7whq_20oneway_thread_access(i64** %my_packet)
+  invoke void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc4sync3ArcINtNtB4_4cell10UnsafeCellINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtBL_5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEEEECsdT7u4N7w2iC_20stack_map_and_mutate(i64** %my_packet)
           to label %bb20 unwind label %cleanup8, !dbg !557
 
 bb20:                                             ; preds = %bb19
   store i8 0, i8* %_44, align 1, !dbg !554
 ; invoke core::ptr::drop_in_place::<std::thread::Thread>
-  invoke void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNtNtCs2bNvlddUlXM_3std6thread6ThreadECs37qxPUa7whq_20oneway_thread_access(i64** %my_thread)
+  invoke void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNtNtCs2bNvlddUlXM_3std6thread6ThreadECsdT7u4N7w2iC_20stack_map_and_mutate(i64** %my_thread)
           to label %bb21 unwind label %cleanup9, !dbg !558
 
 bb21:                                             ; preds = %bb20
@@ -384,32 +392,32 @@ bb22:                                             ; preds = %bb15, %bb21
 
 bb23:                                             ; preds = %cleanup8
 ; call core::ptr::drop_in_place::<std::thread::Thread>
-  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNtNtCs2bNvlddUlXM_3std6thread6ThreadECs37qxPUa7whq_20oneway_thread_access(i64** %my_thread) #12, !dbg !558
+  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNtNtCs2bNvlddUlXM_3std6thread6ThreadECsdT7u4N7w2iC_20stack_map_and_mutate(i64** %my_thread) #13, !dbg !558
   br label %bb24, !dbg !558
 
 bb24:                                             ; preds = %cleanup9, %bb23
 ; call core::ptr::drop_in_place::<core::result::Result<std::thread::JoinHandle<()>, std::io::error::Error>>
-  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_6result6ResultINtNtCs2bNvlddUlXM_3std6thread10JoinHandleuENtNtNtB17_2io5error5ErrorEECs37qxPUa7whq_20oneway_thread_access(%"std::result::Result<std::thread::JoinHandle<()>, std::io::Error>"* %0) #12, !dbg !555
+  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_6result6ResultINtNtCs2bNvlddUlXM_3std6thread10JoinHandleuENtNtNtB17_2io5error5ErrorEECsdT7u4N7w2iC_20stack_map_and_mutate(%"std::result::Result<std::thread::JoinHandle<()>, std::io::Error>"* %0) #13, !dbg !555
   br label %bb30, !dbg !555
 
 bb25:                                             ; preds = %cleanup7
 ; call core::ptr::drop_in_place::<alloc::sync::Arc<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>>>
-  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc4sync3ArcINtNtB4_4cell10UnsafeCellINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtBL_5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEEEECs37qxPUa7whq_20oneway_thread_access(i64** %my_packet) #12, !dbg !557
+  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc4sync3ArcINtNtB4_4cell10UnsafeCellINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtBL_5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEEEECsdT7u4N7w2iC_20stack_map_and_mutate(i64** %my_packet) #13, !dbg !557
   br label %bb26, !dbg !557
 
 bb26:                                             ; preds = %bb25
 ; call core::ptr::drop_in_place::<std::thread::Thread>
-  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNtNtCs2bNvlddUlXM_3std6thread6ThreadECs37qxPUa7whq_20oneway_thread_access(i64** %my_thread) #12, !dbg !558
+  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNtNtCs2bNvlddUlXM_3std6thread6ThreadECsdT7u4N7w2iC_20stack_map_and_mutate(i64** %my_thread) #13, !dbg !558
   br label %bb31, !dbg !558
 
 bb27:                                             ; preds = %bb34, %bb35, %cleanup4
 ; call core::ptr::drop_in_place::<alloc::sync::Arc<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>>>
-  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc4sync3ArcINtNtB4_4cell10UnsafeCellINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtBL_5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEEEECs37qxPUa7whq_20oneway_thread_access(i64** %my_packet) #12, !dbg !557
+  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc4sync3ArcINtNtB4_4cell10UnsafeCellINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtBL_5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEEEECsdT7u4N7w2iC_20stack_map_and_mutate(i64** %my_packet) #13, !dbg !557
   br label %bb37, !dbg !557
 
 bb28:                                             ; preds = %bb36, %bb37, %cleanup2
 ; call core::ptr::drop_in_place::<std::thread::Thread>
-  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNtNtCs2bNvlddUlXM_3std6thread6ThreadECs37qxPUa7whq_20oneway_thread_access(i64** %my_thread) #12, !dbg !558
+  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNtNtCs2bNvlddUlXM_3std6thread6ThreadECsdT7u4N7w2iC_20stack_map_and_mutate(i64** %my_thread) #13, !dbg !558
   br label %bb39, !dbg !558
 
 bb29:                                             ; preds = %bb31, %bb38, %bb39
@@ -431,7 +439,7 @@ bb31:                                             ; preds = %bb26
 
 bb32:                                             ; preds = %bb33
 ; call core::ptr::drop_in_place::<core::option::Option<alloc::sync::Arc<std::sync::mutex::Mutex<alloc::vec::Vec<u8>>>>>
-  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_6option6OptionINtNtCs8RW06R9lH2S_5alloc4sync3ArcINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtB17_3vec3VechEEEEECs37qxPUa7whq_20oneway_thread_access(i64** %output_capture) #12, !dbg !552
+  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_6option6OptionINtNtCs8RW06R9lH2S_5alloc4sync3ArcINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtB17_3vec3VechEEEEECsdT7u4N7w2iC_20stack_map_and_mutate(i64** %output_capture) #13, !dbg !552
   br label %bb35, !dbg !552
 
 bb33:                                             ; preds = %cleanup6
@@ -441,7 +449,7 @@ bb33:                                             ; preds = %cleanup6
 
 bb34:                                             ; preds = %bb35
 ; call core::ptr::drop_in_place::<alloc::sync::Arc<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>>>
-  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc4sync3ArcINtNtB4_4cell10UnsafeCellINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtBL_5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEEEECs37qxPUa7whq_20oneway_thread_access(i64** %their_packet) #12, !dbg !553
+  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc4sync3ArcINtNtB4_4cell10UnsafeCellINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtBL_5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEEEECsdT7u4N7w2iC_20stack_map_and_mutate(i64** %their_packet) #13, !dbg !553
   br label %bb27, !dbg !553
 
 bb35:                                             ; preds = %bb32, %bb33, %cleanup5
@@ -451,7 +459,7 @@ bb35:                                             ; preds = %bb32, %bb33, %clean
 
 bb36:                                             ; preds = %bb37
 ; call core::ptr::drop_in_place::<std::thread::Thread>
-  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNtNtCs2bNvlddUlXM_3std6thread6ThreadECs37qxPUa7whq_20oneway_thread_access(i64** %their_thread) #12, !dbg !554
+  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNtNtCs2bNvlddUlXM_3std6thread6ThreadECsdT7u4N7w2iC_20stack_map_and_mutate(i64** %their_thread) #13, !dbg !554
   br label %bb28, !dbg !554
 
 bb37:                                             ; preds = %bb27, %cleanup3
@@ -461,7 +469,7 @@ bb37:                                             ; preds = %bb27, %cleanup3
 
 bb38:                                             ; preds = %bb39
 ; call core::ptr::drop_in_place::<core::option::Option<alloc::string::String>>
-  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_6option6OptionNtNtCs8RW06R9lH2S_5alloc6string6StringEECs37qxPUa7whq_20oneway_thread_access(%"std::option::Option<std::string::String>"* %name) #12, !dbg !555
+  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_6option6OptionNtNtCs8RW06R9lH2S_5alloc6string6StringEECsdT7u4N7w2iC_20stack_map_and_mutate(%"std::option::Option<std::string::String>"* %name) #13, !dbg !555
   br label %bb29, !dbg !555
 
 bb39:                                             ; preds = %bb28, %cleanup
@@ -572,9 +580,9 @@ cleanup9:                                         ; preds = %bb20
   br label %bb24
 }
 
-; <std::thread::Builder>::spawn::<oneway_thread_access::main::{closure#0}, ()>
+; <std::thread::Builder>::spawn::<stack_map_and_mutate::main::{closure#0}, ()>
 ; Function Attrs: nonlazybind uwtable
-define internal void @_RINvMNtCs2bNvlddUlXM_3std6threadNtB3_7Builder5spawnNCNvCs37qxPUa7whq_20oneway_thread_access4main0uEBR_(%"std::result::Result<std::thread::JoinHandle<()>, std::io::Error>"* noalias nocapture sret dereferenceable(40) %0, %"std::thread::Builder"* noalias nocapture dereferenceable(40) %self, i8 %f) unnamed_addr #0 !dbg !562 {
+define internal void @_RINvMNtCs2bNvlddUlXM_3std6threadNtB3_7Builder5spawnNCNvCsdT7u4N7w2iC_20stack_map_and_mutate4main0uEBR_(%"std::result::Result<std::thread::JoinHandle<()>, std::io::Error>"* noalias nocapture sret dereferenceable(40) %0, %"std::thread::Builder"* noalias nocapture dereferenceable(40) %self, i8 %f) unnamed_addr #0 !dbg !562 {
 start:
   %f.dbg.spill = alloca i8, align 1
   %_3 = alloca %"std::thread::Builder", align 8
@@ -584,8 +592,8 @@ start:
   %1 = bitcast %"std::thread::Builder"* %_3 to i8*, !dbg !568
   %2 = bitcast %"std::thread::Builder"* %self to i8*, !dbg !568
   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 8 %1, i8* align 8 %2, i64 40, i1 false), !dbg !568
-; call <std::thread::Builder>::spawn_unchecked::<oneway_thread_access::main::{closure#0}, ()>
-  call void @_RINvMNtCs2bNvlddUlXM_3std6threadNtB3_7Builder15spawn_uncheckedNCNvCs37qxPUa7whq_20oneway_thread_access4main0uEB12_(%"std::result::Result<std::thread::JoinHandle<()>, std::io::Error>"* noalias nocapture sret dereferenceable(40) %0, %"std::thread::Builder"* noalias nocapture dereferenceable(40) %_3, i8 %f), !dbg !568
+; call <std::thread::Builder>::spawn_unchecked::<stack_map_and_mutate::main::{closure#0}, ()>
+  call void @_RINvMNtCs2bNvlddUlXM_3std6threadNtB3_7Builder15spawn_uncheckedNCNvCsdT7u4N7w2iC_20stack_map_and_mutate4main0uEB12_(%"std::result::Result<std::thread::JoinHandle<()>, std::io::Error>"* noalias nocapture sret dereferenceable(40) %0, %"std::thread::Builder"* noalias nocapture dereferenceable(40) %_3, i8 %f), !dbg !568
   br label %bb1, !dbg !568
 
 bb1:                                              ; preds = %start
@@ -594,7 +602,7 @@ bb1:                                              ; preds = %start
 
 ; <[u8]>::get_unchecked_mut::<usize>
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal align 1 dereferenceable(1) i8* @_RINvMNtCs3p84KrD9aKt_4core5sliceSh17get_unchecked_mutjECs37qxPUa7whq_20oneway_thread_access([0 x i8]* nonnull align 1 %self.0, i64 %self.1, i64 %index) unnamed_addr #1 !dbg !570 {
+define internal align 1 dereferenceable(1) i8* @_RINvMNtCs3p84KrD9aKt_4core5sliceSh17get_unchecked_mutjECsdT7u4N7w2iC_20stack_map_and_mutate([0 x i8]* nonnull align 1 %self.0, i64 %self.1, i64 %index) unnamed_addr #1 !dbg !570 {
 start:
   %index.dbg.spill = alloca i64, align 8
   %self.dbg.spill = alloca { [0 x i8]*, i64 }, align 8
@@ -606,7 +614,7 @@ start:
   store i64 %index, i64* %index.dbg.spill, align 8
   call void @llvm.dbg.declare(metadata i64* %index.dbg.spill, metadata !583, metadata !DIExpression()), !dbg !587
 ; call <usize as core::slice::index::SliceIndex<[u8]>>::get_unchecked_mut
-  %_6 = call i8* @_RNvXs0_NtNtCs3p84KrD9aKt_4core5slice5indexjINtB5_10SliceIndexShE17get_unchecked_mutCs37qxPUa7whq_20oneway_thread_access(i64 %index, [0 x i8]* %self.0, i64 %self.1), !dbg !588
+  %_6 = call i8* @_RNvXs0_NtNtCs3p84KrD9aKt_4core5slice5indexjINtB5_10SliceIndexShE17get_unchecked_mutCsdT7u4N7w2iC_20stack_map_and_mutate(i64 %index, [0 x i8]* %self.0, i64 %self.1), !dbg !588
   br label %bb1, !dbg !588
 
 bb1:                                              ; preds = %start
@@ -615,7 +623,7 @@ bb1:                                              ; preds = %start
 
 ; <core::option::Option<core::ptr::non_null::NonNull<u8>>>::ok_or::<core::alloc::AllocError>
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal i8* @_RINvMNtCs3p84KrD9aKt_4core6optionINtB3_6OptionINtNtNtB5_3ptr8non_null7NonNullhEE5ok_orNtNtB5_5alloc10AllocErrorECs37qxPUa7whq_20oneway_thread_access(i8* %0) unnamed_addr #1 personality i32 (i32, i32, i64, %"unwind::libunwind::_Unwind_Exception"*, %"unwind::libunwind::_Unwind_Context"*)* @rust_eh_personality !dbg !590 {
+define internal i8* @_RINvMNtCs3p84KrD9aKt_4core6optionINtB3_6OptionINtNtNtB5_3ptr8non_null7NonNullhEE5ok_orNtNtB5_5alloc10AllocErrorECsdT7u4N7w2iC_20stack_map_and_mutate(i8* %0) unnamed_addr #1 personality i32 (i32, i32, i64, %"unwind::libunwind::_Unwind_Exception"*, %"unwind::libunwind::_Unwind_Context"*)* @rust_eh_personality !dbg !590 {
 start:
   %1 = alloca { i8*, i32 }, align 8
   %v.dbg.spill = alloca i8*, align 8
@@ -682,7 +690,7 @@ bb8:                                              ; preds = %bb1, %bb3
 
 ; <core::option::Option<usize>>::unwrap_or_else::<std::sys_common::thread::min_stack>
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal i64 @_RINvMNtCs3p84KrD9aKt_4core6optionINtB3_6OptionjE14unwrap_or_elseNvNtNtCs2bNvlddUlXM_3std10sys_common6thread9min_stackECs37qxPUa7whq_20oneway_thread_access(i64 %0, i64 %1) unnamed_addr #1 personality i32 (i32, i32, i64, %"unwind::libunwind::_Unwind_Exception"*, %"unwind::libunwind::_Unwind_Context"*)* @rust_eh_personality !dbg !643 {
+define internal i64 @_RINvMNtCs3p84KrD9aKt_4core6optionINtB3_6OptionjE14unwrap_or_elseNvNtNtCs2bNvlddUlXM_3std10sys_common6thread9min_stackECsdT7u4N7w2iC_20stack_map_and_mutate(i64 %0, i64 %1) unnamed_addr #1 personality i32 (i32, i32, i64, %"unwind::libunwind::_Unwind_Exception"*, %"unwind::libunwind::_Unwind_Context"*)* @rust_eh_personality !dbg !643 {
 start:
   %2 = alloca { i8*, i32 }, align 8
   %x.dbg.spill = alloca i64, align 8
@@ -709,7 +717,7 @@ start:
 bb1:                                              ; preds = %start
   store i8 0, i8* %_7, align 1, !dbg !659
 ; call <std::sys_common::thread::min_stack as core::ops::function::FnOnce<()>>::call_once
-  %7 = call i64 @_RNvYNvNtNtCs2bNvlddUlXM_3std10sys_common6thread9min_stackINtNtNtCs3p84KrD9aKt_4core3ops8function6FnOnceuE9call_onceCs37qxPUa7whq_20oneway_thread_access(), !dbg !659
+  %7 = call i64 @_RNvYNvNtNtCs2bNvlddUlXM_3std10sys_common6thread9min_stackINtNtNtCs3p84KrD9aKt_4core3ops8function6FnOnceuE9call_onceCsdT7u4N7w2iC_20stack_map_and_mutate(), !dbg !659
   store i64 %7, i64* %3, align 8, !dbg !659
   br label %bb4, !dbg !659
 
@@ -755,7 +763,7 @@ bb9:                                              ; preds = %bb4, %bb3
 
 ; <core::alloc::layout::Layout>::for_value_raw::<alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>>>
 ; Function Attrs: nonlazybind uwtable
-define internal { i64, i64 } @_RINvMNtNtCs3p84KrD9aKt_4core5alloc6layoutNtB3_6Layout13for_value_rawINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtB7_4cell10UnsafeCellINtNtB7_6option6OptionINtNtB7_6result6ResultuINtNtB19_5boxed3BoxDNtNtB7_3any3AnyNtNtB7_6marker4SendEL_EEEEEECs37qxPUa7whq_20oneway_thread_access(%"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"* %t) unnamed_addr #0 !dbg !668 {
+define internal { i64, i64 } @_RINvMNtNtCs3p84KrD9aKt_4core5alloc6layoutNtB3_6Layout13for_value_rawINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtB7_4cell10UnsafeCellINtNtB7_6option6OptionINtNtB7_6result6ResultuINtNtB19_5boxed3BoxDNtNtB7_3any3AnyNtNtB7_6marker4SendEL_EEEEEECsdT7u4N7w2iC_20stack_map_and_mutate(%"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"* %t) unnamed_addr #0 !dbg !668 {
 start:
   %align.dbg.spill = alloca i64, align 8
   %size.dbg.spill = alloca i64, align 8
@@ -764,12 +772,12 @@ start:
   store %"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"* %t, %"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"** %t.dbg.spill, align 8
   call void @llvm.dbg.declare(metadata %"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"** %t.dbg.spill, metadata !681, metadata !DIExpression()), !dbg !685
 ; call core::mem::size_of_val_raw::<alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>>>
-  %_5 = call i64 @_RINvNtCs3p84KrD9aKt_4core3mem15size_of_val_rawINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtB4_4cell10UnsafeCellINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtBN_5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEEEECs37qxPUa7whq_20oneway_thread_access(%"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"* %t), !dbg !686
+  %_5 = call i64 @_RINvNtCs3p84KrD9aKt_4core3mem15size_of_val_rawINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtB4_4cell10UnsafeCellINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtBN_5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEEEECsdT7u4N7w2iC_20stack_map_and_mutate(%"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"* %t), !dbg !686
   br label %bb1, !dbg !686
 
 bb1:                                              ; preds = %start
 ; call core::mem::align_of_val_raw::<alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>>>
-  %_7 = call i64 @_RINvNtCs3p84KrD9aKt_4core3mem16align_of_val_rawINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtB4_4cell10UnsafeCellINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtBO_5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEEEECs37qxPUa7whq_20oneway_thread_access(%"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"* %t), !dbg !687
+  %_7 = call i64 @_RINvNtCs3p84KrD9aKt_4core3mem16align_of_val_rawINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtB4_4cell10UnsafeCellINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtBO_5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEEEECsdT7u4N7w2iC_20stack_map_and_mutate(%"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"* %t), !dbg !687
   br label %bb2, !dbg !687
 
 bb2:                                              ; preds = %bb1
@@ -786,7 +794,7 @@ bb2:                                              ; preds = %bb1
   store i64 %align, i64* %align.dbg.spill, align 8, !dbg !691
   call void @llvm.dbg.declare(metadata i64* %align.dbg.spill, metadata !684, metadata !DIExpression()), !dbg !692
 ; call <core::alloc::layout::Layout>::from_size_align_unchecked
-  %4 = call { i64, i64 } @_RNvMNtNtCs3p84KrD9aKt_4core5alloc6layoutNtB2_6Layout25from_size_align_uncheckedCs37qxPUa7whq_20oneway_thread_access(i64 %size, i64 %align), !dbg !693
+  %4 = call { i64, i64 } @_RNvMNtNtCs3p84KrD9aKt_4core5alloc6layoutNtB2_6Layout25from_size_align_uncheckedCsdT7u4N7w2iC_20stack_map_and_mutate(i64 %size, i64 %align), !dbg !693
   %5 = extractvalue { i64, i64 } %4, 0, !dbg !693
   %6 = extractvalue { i64, i64 } %4, 1, !dbg !693
   br label %bb3, !dbg !693
@@ -799,7 +807,7 @@ bb3:                                              ; preds = %bb2
 
 ; <core::alloc::layout::Layout>::for_value_raw::<alloc::sync::ArcInner<std::sync::mutex::Mutex<alloc::vec::Vec<u8>>>>
 ; Function Attrs: nonlazybind uwtable
-define internal { i64, i64 } @_RINvMNtNtCs3p84KrD9aKt_4core5alloc6layoutNtB3_6Layout13for_value_rawINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtB19_3vec3VechEEEECs37qxPUa7whq_20oneway_thread_access(%"alloc::sync::ArcInner<std::sync::Mutex<std::vec::Vec<u8>>>"* %t) unnamed_addr #0 !dbg !695 {
+define internal { i64, i64 } @_RINvMNtNtCs3p84KrD9aKt_4core5alloc6layoutNtB3_6Layout13for_value_rawINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtB19_3vec3VechEEEECsdT7u4N7w2iC_20stack_map_and_mutate(%"alloc::sync::ArcInner<std::sync::Mutex<std::vec::Vec<u8>>>"* %t) unnamed_addr #0 !dbg !695 {
 start:
   %align.dbg.spill = alloca i64, align 8
   %size.dbg.spill = alloca i64, align 8
@@ -808,12 +816,12 @@ start:
   store %"alloc::sync::ArcInner<std::sync::Mutex<std::vec::Vec<u8>>>"* %t, %"alloc::sync::ArcInner<std::sync::Mutex<std::vec::Vec<u8>>>"** %t.dbg.spill, align 8
   call void @llvm.dbg.declare(metadata %"alloc::sync::ArcInner<std::sync::Mutex<std::vec::Vec<u8>>>"** %t.dbg.spill, metadata !699, metadata !DIExpression()), !dbg !703
 ; call core::mem::size_of_val_raw::<alloc::sync::ArcInner<std::sync::mutex::Mutex<alloc::vec::Vec<u8>>>>
-  %_5 = call i64 @_RINvNtCs3p84KrD9aKt_4core3mem15size_of_val_rawINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtBN_3vec3VechEEEECs37qxPUa7whq_20oneway_thread_access(%"alloc::sync::ArcInner<std::sync::Mutex<std::vec::Vec<u8>>>"* %t), !dbg !704
+  %_5 = call i64 @_RINvNtCs3p84KrD9aKt_4core3mem15size_of_val_rawINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtBN_3vec3VechEEEECsdT7u4N7w2iC_20stack_map_and_mutate(%"alloc::sync::ArcInner<std::sync::Mutex<std::vec::Vec<u8>>>"* %t), !dbg !704
   br label %bb1, !dbg !704
 
 bb1:                                              ; preds = %start
 ; call core::mem::align_of_val_raw::<alloc::sync::ArcInner<std::sync::mutex::Mutex<alloc::vec::Vec<u8>>>>
-  %_7 = call i64 @_RINvNtCs3p84KrD9aKt_4core3mem16align_of_val_rawINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtBO_3vec3VechEEEECs37qxPUa7whq_20oneway_thread_access(%"alloc::sync::ArcInner<std::sync::Mutex<std::vec::Vec<u8>>>"* %t), !dbg !705
+  %_7 = call i64 @_RINvNtCs3p84KrD9aKt_4core3mem16align_of_val_rawINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtBO_3vec3VechEEEECsdT7u4N7w2iC_20stack_map_and_mutate(%"alloc::sync::ArcInner<std::sync::Mutex<std::vec::Vec<u8>>>"* %t), !dbg !705
   br label %bb2, !dbg !705
 
 bb2:                                              ; preds = %bb1
@@ -830,7 +838,7 @@ bb2:                                              ; preds = %bb1
   store i64 %align, i64* %align.dbg.spill, align 8, !dbg !709
   call void @llvm.dbg.declare(metadata i64* %align.dbg.spill, metadata !702, metadata !DIExpression()), !dbg !710
 ; call <core::alloc::layout::Layout>::from_size_align_unchecked
-  %4 = call { i64, i64 } @_RNvMNtNtCs3p84KrD9aKt_4core5alloc6layoutNtB2_6Layout25from_size_align_uncheckedCs37qxPUa7whq_20oneway_thread_access(i64 %size, i64 %align), !dbg !711
+  %4 = call { i64, i64 } @_RNvMNtNtCs3p84KrD9aKt_4core5alloc6layoutNtB2_6Layout25from_size_align_uncheckedCsdT7u4N7w2iC_20stack_map_and_mutate(i64 %size, i64 %align), !dbg !711
   %5 = extractvalue { i64, i64 } %4, 0, !dbg !711
   %6 = extractvalue { i64, i64 } %4, 1, !dbg !711
   br label %bb3, !dbg !711
@@ -843,7 +851,7 @@ bb3:                                              ; preds = %bb2
 
 ; <core::alloc::layout::Layout>::for_value_raw::<alloc::sync::ArcInner<std::thread::Inner>>
 ; Function Attrs: nonlazybind uwtable
-define internal { i64, i64 } @_RINvMNtNtCs3p84KrD9aKt_4core5alloc6layoutNtB3_6Layout13for_value_rawINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerNtNtCs2bNvlddUlXM_3std6thread5InnerEECs37qxPUa7whq_20oneway_thread_access(%"alloc::sync::ArcInner<std::thread::Inner>"* %t) unnamed_addr #0 !dbg !713 {
+define internal { i64, i64 } @_RINvMNtNtCs3p84KrD9aKt_4core5alloc6layoutNtB3_6Layout13for_value_rawINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerNtNtCs2bNvlddUlXM_3std6thread5InnerEECsdT7u4N7w2iC_20stack_map_and_mutate(%"alloc::sync::ArcInner<std::thread::Inner>"* %t) unnamed_addr #0 !dbg !713 {
 start:
   %align.dbg.spill = alloca i64, align 8
   %size.dbg.spill = alloca i64, align 8
@@ -852,12 +860,12 @@ start:
   store %"alloc::sync::ArcInner<std::thread::Inner>"* %t, %"alloc::sync::ArcInner<std::thread::Inner>"** %t.dbg.spill, align 8
   call void @llvm.dbg.declare(metadata %"alloc::sync::ArcInner<std::thread::Inner>"** %t.dbg.spill, metadata !717, metadata !DIExpression()), !dbg !721
 ; call core::mem::size_of_val_raw::<alloc::sync::ArcInner<std::thread::Inner>>
-  %_5 = call i64 @_RINvNtCs3p84KrD9aKt_4core3mem15size_of_val_rawINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerNtNtCs2bNvlddUlXM_3std6thread5InnerEECs37qxPUa7whq_20oneway_thread_access(%"alloc::sync::ArcInner<std::thread::Inner>"* %t), !dbg !722
+  %_5 = call i64 @_RINvNtCs3p84KrD9aKt_4core3mem15size_of_val_rawINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerNtNtCs2bNvlddUlXM_3std6thread5InnerEECsdT7u4N7w2iC_20stack_map_and_mutate(%"alloc::sync::ArcInner<std::thread::Inner>"* %t), !dbg !722
   br label %bb1, !dbg !722
 
 bb1:                                              ; preds = %start
 ; call core::mem::align_of_val_raw::<alloc::sync::ArcInner<std::thread::Inner>>
-  %_7 = call i64 @_RINvNtCs3p84KrD9aKt_4core3mem16align_of_val_rawINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerNtNtCs2bNvlddUlXM_3std6thread5InnerEECs37qxPUa7whq_20oneway_thread_access(%"alloc::sync::ArcInner<std::thread::Inner>"* %t), !dbg !723
+  %_7 = call i64 @_RINvNtCs3p84KrD9aKt_4core3mem16align_of_val_rawINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerNtNtCs2bNvlddUlXM_3std6thread5InnerEECsdT7u4N7w2iC_20stack_map_and_mutate(%"alloc::sync::ArcInner<std::thread::Inner>"* %t), !dbg !723
   br label %bb2, !dbg !723
 
 bb2:                                              ; preds = %bb1
@@ -874,7 +882,7 @@ bb2:                                              ; preds = %bb1
   store i64 %align, i64* %align.dbg.spill, align 8, !dbg !727
   call void @llvm.dbg.declare(metadata i64* %align.dbg.spill, metadata !720, metadata !DIExpression()), !dbg !728
 ; call <core::alloc::layout::Layout>::from_size_align_unchecked
-  %4 = call { i64, i64 } @_RNvMNtNtCs3p84KrD9aKt_4core5alloc6layoutNtB2_6Layout25from_size_align_uncheckedCs37qxPUa7whq_20oneway_thread_access(i64 %size, i64 %align), !dbg !729
+  %4 = call { i64, i64 } @_RNvMNtNtCs3p84KrD9aKt_4core5alloc6layoutNtB2_6Layout25from_size_align_uncheckedCsdT7u4N7w2iC_20stack_map_and_mutate(i64 %size, i64 %align), !dbg !729
   %5 = extractvalue { i64, i64 } %4, 0, !dbg !729
   %6 = extractvalue { i64, i64 } %4, 1, !dbg !729
   br label %bb3, !dbg !729
@@ -887,7 +895,7 @@ bb3:                                              ; preds = %bb2
 
 ; <core::ptr::unique::Unique<dyn core::any::Any + core::marker::Send>>::cast::<u8>
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal nonnull i8* @_RINvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB6_6UniqueDNtNtBa_3any3AnyNtNtBa_6marker4SendEL_E4casthECs37qxPUa7whq_20oneway_thread_access(i8* nonnull %self.0, i64* noalias readonly align 8 dereferenceable(24) %self.1) unnamed_addr #1 !dbg !731 {
+define internal nonnull i8* @_RINvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB6_6UniqueDNtNtBa_3any3AnyNtNtBa_6marker4SendEL_E4casthECsdT7u4N7w2iC_20stack_map_and_mutate(i8* nonnull %self.0, i64* noalias readonly align 8 dereferenceable(24) %self.1) unnamed_addr #1 !dbg !731 {
 start:
   %self.dbg.spill = alloca { i8*, i64* }, align 8
   %0 = getelementptr inbounds { i8*, i64* }, { i8*, i64* }* %self.dbg.spill, i32 0, i32 0
@@ -896,7 +904,7 @@ start:
   store i64* %self.1, i64** %1, align 8
   call void @llvm.dbg.declare(metadata { i8*, i64* }* %self.dbg.spill, metadata !746, metadata !DIExpression()), !dbg !749
 ; call <core::ptr::unique::Unique<dyn core::any::Any + core::marker::Send>>::as_ptr
-  %2 = call { {}*, [3 x i64]* } @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueDNtNtB9_3any3AnyNtNtB9_6marker4SendEL_E6as_ptrCs37qxPUa7whq_20oneway_thread_access(i8* nonnull %self.0, i64* noalias readonly align 8 dereferenceable(24) %self.1), !dbg !750
+  %2 = call { {}*, [3 x i64]* } @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueDNtNtB9_3any3AnyNtNtB9_6marker4SendEL_E6as_ptrCsdT7u4N7w2iC_20stack_map_and_mutate(i8* nonnull %self.0, i64* noalias readonly align 8 dereferenceable(24) %self.1), !dbg !750
   %_3.0 = extractvalue { {}*, [3 x i64]* } %2, 0, !dbg !750
   %_3.1 = extractvalue { {}*, [3 x i64]* } %2, 1, !dbg !750
   br label %bb1, !dbg !750
@@ -904,7 +912,7 @@ start:
 bb1:                                              ; preds = %start
   %_2 = bitcast {}* %_3.0 to i8*, !dbg !750
 ; call <core::ptr::unique::Unique<u8>>::new_unchecked
-  %3 = call nonnull i8* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniquehE13new_uncheckedCs37qxPUa7whq_20oneway_thread_access(i8* %_2), !dbg !751
+  %3 = call nonnull i8* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniquehE13new_uncheckedCsdT7u4N7w2iC_20stack_map_and_mutate(i8* %_2), !dbg !751
   br label %bb2, !dbg !751
 
 bb2:                                              ; preds = %bb1
@@ -913,7 +921,7 @@ bb2:                                              ; preds = %bb1
 
 ; <core::ptr::unique::Unique<dyn std::error::Error + core::marker::Send + core::marker::Sync>>::cast::<u8>
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal nonnull i8* @_RINvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB6_6UniqueDNtNtCs2bNvlddUlXM_3std5error5ErrorNtNtBa_6marker4SendNtB1s_4SyncEL_E4casthECs37qxPUa7whq_20oneway_thread_access(i8* nonnull %self.0, i64* noalias readonly align 8 dereferenceable(24) %self.1) unnamed_addr #1 !dbg !753 {
+define internal nonnull i8* @_RINvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB6_6UniqueDNtNtCs2bNvlddUlXM_3std5error5ErrorNtNtBa_6marker4SendNtB1s_4SyncEL_E4casthECsdT7u4N7w2iC_20stack_map_and_mutate(i8* nonnull %self.0, i64* noalias readonly align 8 dereferenceable(24) %self.1) unnamed_addr #1 !dbg !753 {
 start:
   %self.dbg.spill = alloca { i8*, i64* }, align 8
   %0 = getelementptr inbounds { i8*, i64* }, { i8*, i64* }* %self.dbg.spill, i32 0, i32 0
@@ -922,7 +930,7 @@ start:
   store i64* %self.1, i64** %1, align 8
   call void @llvm.dbg.declare(metadata { i8*, i64* }* %self.dbg.spill, metadata !767, metadata !DIExpression()), !dbg !769
 ; call <core::ptr::unique::Unique<dyn std::error::Error + core::marker::Send + core::marker::Sync>>::as_ptr
-  %2 = call { {}*, [3 x i64]* } @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueDNtNtCs2bNvlddUlXM_3std5error5ErrorNtNtB9_6marker4SendNtB1r_4SyncEL_E6as_ptrCs37qxPUa7whq_20oneway_thread_access(i8* nonnull %self.0, i64* noalias readonly align 8 dereferenceable(24) %self.1), !dbg !770
+  %2 = call { {}*, [3 x i64]* } @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueDNtNtCs2bNvlddUlXM_3std5error5ErrorNtNtB9_6marker4SendNtB1r_4SyncEL_E6as_ptrCsdT7u4N7w2iC_20stack_map_and_mutate(i8* nonnull %self.0, i64* noalias readonly align 8 dereferenceable(24) %self.1), !dbg !770
   %_3.0 = extractvalue { {}*, [3 x i64]* } %2, 0, !dbg !770
   %_3.1 = extractvalue { {}*, [3 x i64]* } %2, 1, !dbg !770
   br label %bb1, !dbg !770
@@ -930,7 +938,7 @@ start:
 bb1:                                              ; preds = %start
   %_2 = bitcast {}* %_3.0 to i8*, !dbg !770
 ; call <core::ptr::unique::Unique<u8>>::new_unchecked
-  %3 = call nonnull i8* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniquehE13new_uncheckedCs37qxPUa7whq_20oneway_thread_access(i8* %_2), !dbg !771
+  %3 = call nonnull i8* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniquehE13new_uncheckedCsdT7u4N7w2iC_20stack_map_and_mutate(i8* %_2), !dbg !771
   br label %bb2, !dbg !771
 
 bb2:                                              ; preds = %bb1
@@ -939,19 +947,19 @@ bb2:                                              ; preds = %bb1
 
 ; <core::ptr::unique::Unique<alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>>>>::cast::<u8>
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal nonnull i8* @_RINvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB6_6UniqueINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtBa_4cell10UnsafeCellINtNtBa_6option6OptionINtNtBa_6result6ResultuINtNtBW_5boxed3BoxDNtNtBa_3any3AnyNtNtBa_6marker4SendEL_EEEEEE4casthECs37qxPUa7whq_20oneway_thread_access(i64* nonnull %self) unnamed_addr #1 !dbg !773 {
+define internal nonnull i8* @_RINvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB6_6UniqueINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtBa_4cell10UnsafeCellINtNtBa_6option6OptionINtNtBa_6result6ResultuINtNtBW_5boxed3BoxDNtNtBa_3any3AnyNtNtBa_6marker4SendEL_EEEEEE4casthECsdT7u4N7w2iC_20stack_map_and_mutate(i64* nonnull %self) unnamed_addr #1 !dbg !773 {
 start:
   %self.dbg.spill = alloca i64*, align 8
   store i64* %self, i64** %self.dbg.spill, align 8
   call void @llvm.dbg.declare(metadata i64** %self.dbg.spill, metadata !781, metadata !DIExpression()), !dbg !783
 ; call <core::ptr::unique::Unique<alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>>>>::as_ptr
-  %_3 = call %"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtB9_4cell10UnsafeCellINtNtB9_6option6OptionINtNtB9_6result6ResultuINtNtBV_5boxed3BoxDNtNtB9_3any3AnyNtNtB9_6marker4SendEL_EEEEEE6as_ptrCs37qxPUa7whq_20oneway_thread_access(i64* nonnull %self), !dbg !784
+  %_3 = call %"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtB9_4cell10UnsafeCellINtNtB9_6option6OptionINtNtB9_6result6ResultuINtNtBV_5boxed3BoxDNtNtB9_3any3AnyNtNtB9_6marker4SendEL_EEEEEE6as_ptrCsdT7u4N7w2iC_20stack_map_and_mutate(i64* nonnull %self), !dbg !784
   br label %bb1, !dbg !784
 
 bb1:                                              ; preds = %start
   %_2 = bitcast %"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"* %_3 to i8*, !dbg !784
 ; call <core::ptr::unique::Unique<u8>>::new_unchecked
-  %0 = call nonnull i8* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniquehE13new_uncheckedCs37qxPUa7whq_20oneway_thread_access(i8* %_2), !dbg !785
+  %0 = call nonnull i8* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniquehE13new_uncheckedCsdT7u4N7w2iC_20stack_map_and_mutate(i8* %_2), !dbg !785
   br label %bb2, !dbg !785
 
 bb2:                                              ; preds = %bb1
@@ -960,19 +968,19 @@ bb2:                                              ; preds = %bb1
 
 ; <core::ptr::unique::Unique<std::io::error::Custom>>::cast::<u8>
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal nonnull i8* @_RINvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB6_6UniqueNtNtNtCs2bNvlddUlXM_3std2io5error6CustomE4casthECs37qxPUa7whq_20oneway_thread_access(i64* nonnull %self) unnamed_addr #1 !dbg !787 {
+define internal nonnull i8* @_RINvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB6_6UniqueNtNtNtCs2bNvlddUlXM_3std2io5error6CustomE4casthECsdT7u4N7w2iC_20stack_map_and_mutate(i64* nonnull %self) unnamed_addr #1 !dbg !787 {
 start:
   %self.dbg.spill = alloca i64*, align 8
   store i64* %self, i64** %self.dbg.spill, align 8
   call void @llvm.dbg.declare(metadata i64** %self.dbg.spill, metadata !799, metadata !DIExpression()), !dbg !801
 ; call <core::ptr::unique::Unique<std::io::error::Custom>>::as_ptr
-  %_3 = call %"std::io::error::Custom"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueNtNtNtCs2bNvlddUlXM_3std2io5error6CustomE6as_ptrCs37qxPUa7whq_20oneway_thread_access(i64* nonnull %self), !dbg !802
+  %_3 = call %"std::io::error::Custom"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueNtNtNtCs2bNvlddUlXM_3std2io5error6CustomE6as_ptrCsdT7u4N7w2iC_20stack_map_and_mutate(i64* nonnull %self), !dbg !802
   br label %bb1, !dbg !802
 
 bb1:                                              ; preds = %start
   %_2 = bitcast %"std::io::error::Custom"* %_3 to i8*, !dbg !802
 ; call <core::ptr::unique::Unique<u8>>::new_unchecked
-  %0 = call nonnull i8* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniquehE13new_uncheckedCs37qxPUa7whq_20oneway_thread_access(i8* %_2), !dbg !803
+  %0 = call nonnull i8* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniquehE13new_uncheckedCsdT7u4N7w2iC_20stack_map_and_mutate(i8* %_2), !dbg !803
   br label %bb2, !dbg !803
 
 bb2:                                              ; preds = %bb1
@@ -981,19 +989,19 @@ bb2:                                              ; preds = %bb1
 
 ; <core::ptr::unique::Unique<std::sys::unix::mutex::Mutex>>::cast::<u8>
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal nonnull i8* @_RINvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB6_6UniqueNtNtNtNtCs2bNvlddUlXM_3std3sys4unix5mutex5MutexE4casthECs37qxPUa7whq_20oneway_thread_access(i64* nonnull %self) unnamed_addr #1 !dbg !805 {
+define internal nonnull i8* @_RINvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB6_6UniqueNtNtNtNtCs2bNvlddUlXM_3std3sys4unix5mutex5MutexE4casthECsdT7u4N7w2iC_20stack_map_and_mutate(i64* nonnull %self) unnamed_addr #1 !dbg !805 {
 start:
   %self.dbg.spill = alloca i64*, align 8
   store i64* %self, i64** %self.dbg.spill, align 8
   call void @llvm.dbg.declare(metadata i64** %self.dbg.spill, metadata !817, metadata !DIExpression()), !dbg !819
 ; call <core::ptr::unique::Unique<std::sys::unix::mutex::Mutex>>::as_ptr
-  %_3 = call %"std::sys::unix::mutex::Mutex"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueNtNtNtNtCs2bNvlddUlXM_3std3sys4unix5mutex5MutexE6as_ptrCs37qxPUa7whq_20oneway_thread_access(i64* nonnull %self), !dbg !820
+  %_3 = call %"std::sys::unix::mutex::Mutex"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueNtNtNtNtCs2bNvlddUlXM_3std3sys4unix5mutex5MutexE6as_ptrCsdT7u4N7w2iC_20stack_map_and_mutate(i64* nonnull %self), !dbg !820
   br label %bb1, !dbg !820
 
 bb1:                                              ; preds = %start
   %_2 = bitcast %"std::sys::unix::mutex::Mutex"* %_3 to i8*, !dbg !820
 ; call <core::ptr::unique::Unique<u8>>::new_unchecked
-  %0 = call nonnull i8* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniquehE13new_uncheckedCs37qxPUa7whq_20oneway_thread_access(i8* %_2), !dbg !821
+  %0 = call nonnull i8* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniquehE13new_uncheckedCsdT7u4N7w2iC_20stack_map_and_mutate(i8* %_2), !dbg !821
   br label %bb2, !dbg !821
 
 bb2:                                              ; preds = %bb1
@@ -1002,7 +1010,7 @@ bb2:                                              ; preds = %bb1
 
 ; <core::ptr::unique::Unique<[u8]>>::cast::<u8>
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal nonnull i8* @_RINvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB6_6UniqueShE4casthECs37qxPUa7whq_20oneway_thread_access(i8* nonnull %self.0, i64 %self.1) unnamed_addr #1 !dbg !823 {
+define internal nonnull i8* @_RINvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB6_6UniqueShE4casthECsdT7u4N7w2iC_20stack_map_and_mutate(i8* nonnull %self.0, i64 %self.1) unnamed_addr #1 !dbg !823 {
 start:
   %self.dbg.spill = alloca { i8*, i64 }, align 8
   %0 = getelementptr inbounds { i8*, i64 }, { i8*, i64 }* %self.dbg.spill, i32 0, i32 0
@@ -1011,7 +1019,7 @@ start:
   store i64 %self.1, i64* %1, align 8
   call void @llvm.dbg.declare(metadata { i8*, i64 }* %self.dbg.spill, metadata !837, metadata !DIExpression()), !dbg !839
 ; call <core::ptr::unique::Unique<[u8]>>::as_ptr
-  %2 = call { [0 x i8]*, i64 } @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueShE6as_ptrCs37qxPUa7whq_20oneway_thread_access(i8* nonnull %self.0, i64 %self.1), !dbg !840
+  %2 = call { [0 x i8]*, i64 } @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueShE6as_ptrCsdT7u4N7w2iC_20stack_map_and_mutate(i8* nonnull %self.0, i64 %self.1), !dbg !840
   %_3.0 = extractvalue { [0 x i8]*, i64 } %2, 0, !dbg !840
   %_3.1 = extractvalue { [0 x i8]*, i64 } %2, 1, !dbg !840
   br label %bb1, !dbg !840
@@ -1019,7 +1027,7 @@ start:
 bb1:                                              ; preds = %start
   %_2 = bitcast [0 x i8]* %_3.0 to i8*, !dbg !840
 ; call <core::ptr::unique::Unique<u8>>::new_unchecked
-  %3 = call nonnull i8* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniquehE13new_uncheckedCs37qxPUa7whq_20oneway_thread_access(i8* %_2), !dbg !841
+  %3 = call nonnull i8* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniquehE13new_uncheckedCsdT7u4N7w2iC_20stack_map_and_mutate(i8* %_2), !dbg !841
   br label %bb2, !dbg !841
 
 bb2:                                              ; preds = %bb1
@@ -1028,18 +1036,18 @@ bb2:                                              ; preds = %bb1
 
 ; <core::ptr::unique::Unique<u8>>::cast::<u8>
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal nonnull i8* @_RINvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB6_6UniquehE4casthECs37qxPUa7whq_20oneway_thread_access(i8* nonnull %self) unnamed_addr #1 !dbg !843 {
+define internal nonnull i8* @_RINvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB6_6UniquehE4casthECsdT7u4N7w2iC_20stack_map_and_mutate(i8* nonnull %self) unnamed_addr #1 !dbg !843 {
 start:
   %self.dbg.spill = alloca i8*, align 8
   store i8* %self, i8** %self.dbg.spill, align 8
   call void @llvm.dbg.declare(metadata i8** %self.dbg.spill, metadata !847, metadata !DIExpression()), !dbg !849
 ; call <core::ptr::unique::Unique<u8>>::as_ptr
-  %_3 = call i8* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniquehE6as_ptrCs37qxPUa7whq_20oneway_thread_access(i8* nonnull %self), !dbg !850
+  %_3 = call i8* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniquehE6as_ptrCsdT7u4N7w2iC_20stack_map_and_mutate(i8* nonnull %self), !dbg !850
   br label %bb1, !dbg !850
 
 bb1:                                              ; preds = %start
 ; call <core::ptr::unique::Unique<u8>>::new_unchecked
-  %0 = call nonnull i8* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniquehE13new_uncheckedCs37qxPUa7whq_20oneway_thread_access(i8* %_3), !dbg !851
+  %0 = call nonnull i8* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniquehE13new_uncheckedCsdT7u4N7w2iC_20stack_map_and_mutate(i8* %_3), !dbg !851
   br label %bb2, !dbg !851
 
 bb2:                                              ; preds = %bb1
@@ -1048,19 +1056,19 @@ bb2:                                              ; preds = %bb1
 
 ; <core::ptr::non_null::NonNull<alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>>>>::cast::<u8>
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal nonnull i8* @_RINvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB6_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtBa_4cell10UnsafeCellINtNtBa_6option6OptionINtNtBa_6result6ResultuINtNtBZ_5boxed3BoxDNtNtBa_3any3AnyNtNtBa_6marker4SendEL_EEEEEE4casthECs37qxPUa7whq_20oneway_thread_access(i64* nonnull %self) unnamed_addr #1 !dbg !853 {
+define internal nonnull i8* @_RINvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB6_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtBa_4cell10UnsafeCellINtNtBa_6option6OptionINtNtBa_6result6ResultuINtNtBZ_5boxed3BoxDNtNtBa_3any3AnyNtNtBa_6marker4SendEL_EEEEEE4casthECsdT7u4N7w2iC_20stack_map_and_mutate(i64* nonnull %self) unnamed_addr #1 !dbg !853 {
 start:
   %self.dbg.spill = alloca i64*, align 8
   store i64* %self, i64** %self.dbg.spill, align 8
   call void @llvm.dbg.declare(metadata i64** %self.dbg.spill, metadata !858, metadata !DIExpression()), !dbg !859
 ; call <core::ptr::non_null::NonNull<alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>>>>::as_ptr
-  %_3 = call %"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtB9_4cell10UnsafeCellINtNtB9_6option6OptionINtNtB9_6result6ResultuINtNtBY_5boxed3BoxDNtNtB9_3any3AnyNtNtB9_6marker4SendEL_EEEEEE6as_ptrCs37qxPUa7whq_20oneway_thread_access(i64* nonnull %self), !dbg !860
+  %_3 = call %"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtB9_4cell10UnsafeCellINtNtB9_6option6OptionINtNtB9_6result6ResultuINtNtBY_5boxed3BoxDNtNtB9_3any3AnyNtNtB9_6marker4SendEL_EEEEEE6as_ptrCsdT7u4N7w2iC_20stack_map_and_mutate(i64* nonnull %self), !dbg !860
   br label %bb1, !dbg !860
 
 bb1:                                              ; preds = %start
   %_2 = bitcast %"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"* %_3 to i8*, !dbg !860
 ; call <core::ptr::non_null::NonNull<u8>>::new_unchecked
-  %0 = call nonnull i8* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullhE13new_uncheckedCs37qxPUa7whq_20oneway_thread_access(i8* %_2), !dbg !861
+  %0 = call nonnull i8* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullhE13new_uncheckedCsdT7u4N7w2iC_20stack_map_and_mutate(i8* %_2), !dbg !861
   br label %bb2, !dbg !861
 
 bb2:                                              ; preds = %bb1
@@ -1069,19 +1077,19 @@ bb2:                                              ; preds = %bb1
 
 ; <core::ptr::non_null::NonNull<alloc::sync::ArcInner<std::sync::mutex::Mutex<alloc::vec::Vec<u8>>>>>::cast::<u8>
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal nonnull i8* @_RINvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB6_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtBZ_3vec3VechEEEE4casthECs37qxPUa7whq_20oneway_thread_access(i64* nonnull %self) unnamed_addr #1 !dbg !863 {
+define internal nonnull i8* @_RINvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB6_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtBZ_3vec3VechEEEE4casthECsdT7u4N7w2iC_20stack_map_and_mutate(i64* nonnull %self) unnamed_addr #1 !dbg !863 {
 start:
   %self.dbg.spill = alloca i64*, align 8
   store i64* %self, i64** %self.dbg.spill, align 8
   call void @llvm.dbg.declare(metadata i64** %self.dbg.spill, metadata !867, metadata !DIExpression()), !dbg !869
 ; call <core::ptr::non_null::NonNull<alloc::sync::ArcInner<std::sync::mutex::Mutex<alloc::vec::Vec<u8>>>>>::as_ptr
-  %_3 = call %"alloc::sync::ArcInner<std::sync::Mutex<std::vec::Vec<u8>>>"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtBY_3vec3VechEEEE6as_ptrCs37qxPUa7whq_20oneway_thread_access(i64* nonnull %self), !dbg !870
+  %_3 = call %"alloc::sync::ArcInner<std::sync::Mutex<std::vec::Vec<u8>>>"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtBY_3vec3VechEEEE6as_ptrCsdT7u4N7w2iC_20stack_map_and_mutate(i64* nonnull %self), !dbg !870
   br label %bb1, !dbg !870
 
 bb1:                                              ; preds = %start
   %_2 = bitcast %"alloc::sync::ArcInner<std::sync::Mutex<std::vec::Vec<u8>>>"* %_3 to i8*, !dbg !870
 ; call <core::ptr::non_null::NonNull<u8>>::new_unchecked
-  %0 = call nonnull i8* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullhE13new_uncheckedCs37qxPUa7whq_20oneway_thread_access(i8* %_2), !dbg !871
+  %0 = call nonnull i8* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullhE13new_uncheckedCsdT7u4N7w2iC_20stack_map_and_mutate(i8* %_2), !dbg !871
   br label %bb2, !dbg !871
 
 bb2:                                              ; preds = %bb1
@@ -1090,19 +1098,19 @@ bb2:                                              ; preds = %bb1
 
 ; <core::ptr::non_null::NonNull<alloc::sync::ArcInner<std::thread::Inner>>>::cast::<u8>
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal nonnull i8* @_RINvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB6_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerNtNtCs2bNvlddUlXM_3std6thread5InnerEE4casthECs37qxPUa7whq_20oneway_thread_access(i64* nonnull %self) unnamed_addr #1 !dbg !873 {
+define internal nonnull i8* @_RINvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB6_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerNtNtCs2bNvlddUlXM_3std6thread5InnerEE4casthECsdT7u4N7w2iC_20stack_map_and_mutate(i64* nonnull %self) unnamed_addr #1 !dbg !873 {
 start:
   %self.dbg.spill = alloca i64*, align 8
   store i64* %self, i64** %self.dbg.spill, align 8
   call void @llvm.dbg.declare(metadata i64** %self.dbg.spill, metadata !877, metadata !DIExpression()), !dbg !879
 ; call <core::ptr::non_null::NonNull<alloc::sync::ArcInner<std::thread::Inner>>>::as_ptr
-  %_3 = call %"alloc::sync::ArcInner<std::thread::Inner>"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerNtNtCs2bNvlddUlXM_3std6thread5InnerEE6as_ptrCs37qxPUa7whq_20oneway_thread_access(i64* nonnull %self), !dbg !880
+  %_3 = call %"alloc::sync::ArcInner<std::thread::Inner>"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerNtNtCs2bNvlddUlXM_3std6thread5InnerEE6as_ptrCsdT7u4N7w2iC_20stack_map_and_mutate(i64* nonnull %self), !dbg !880
   br label %bb1, !dbg !880
 
 bb1:                                              ; preds = %start
   %_2 = bitcast %"alloc::sync::ArcInner<std::thread::Inner>"* %_3 to i8*, !dbg !880
 ; call <core::ptr::non_null::NonNull<u8>>::new_unchecked
-  %0 = call nonnull i8* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullhE13new_uncheckedCs37qxPUa7whq_20oneway_thread_access(i8* %_2), !dbg !881
+  %0 = call nonnull i8* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullhE13new_uncheckedCsdT7u4N7w2iC_20stack_map_and_mutate(i8* %_2), !dbg !881
   br label %bb2, !dbg !881
 
 bb2:                                              ; preds = %bb1
@@ -1111,7 +1119,7 @@ bb2:                                              ; preds = %bb1
 
 ; <core::fmt::ArgumentV1>::new::<u8>
 ; Function Attrs: nonlazybind uwtable
-define internal { i8*, i64* } @_RINvMs_NtCs3p84KrD9aKt_4core3fmtNtB5_10ArgumentV13newhECs37qxPUa7whq_20oneway_thread_access(i8* noalias readonly align 1 dereferenceable(1) %x, i1 (i8*, %"std::fmt::Formatter"*)* nonnull %f) unnamed_addr #0 !dbg !883 {
+define internal { i8*, i64* } @_RINvMs_NtCs3p84KrD9aKt_4core3fmtNtB5_10ArgumentV13newhECsdT7u4N7w2iC_20stack_map_and_mutate(i8* noalias readonly align 1 dereferenceable(1) %x, i1 (i8*, %"std::fmt::Formatter"*)* nonnull %f) unnamed_addr #0 !dbg !883 {
 start:
   %0 = alloca %"core::fmt::Opaque"*, align 8
   %1 = alloca i1 (%"core::fmt::Opaque"*, %"std::fmt::Formatter"*)*, align 8
@@ -1150,7 +1158,7 @@ bb2:                                              ; preds = %bb1
 
 ; std::rt::lang_start::<()>
 ; Function Attrs: nonlazybind uwtable
-define hidden i64 @_RINvNtCs2bNvlddUlXM_3std2rt10lang_startuECs37qxPUa7whq_20oneway_thread_access(void ()* nonnull %main, i64 %argc, i8** %argv) unnamed_addr #0 !dbg !924 {
+define hidden i64 @_RINvNtCs2bNvlddUlXM_3std2rt10lang_startuECsdT7u4N7w2iC_20stack_map_and_mutate(void ()* nonnull %main, i64 %argc, i8** %argv) unnamed_addr #0 !dbg !924 {
 start:
   %argv.dbg.spill = alloca i8**, align 8
   %argc.dbg.spill = alloca i64, align 8
@@ -1173,15 +1181,15 @@ bb1:                                              ; preds = %start
   ret i64 %1, !dbg !940
 }
 
-; std::panic::catch_unwind::<std::panic::AssertUnwindSafe<<std::thread::Builder>::spawn_unchecked<oneway_thread_access::main::{closure#0}, ()>::{closure#0}::{closure#0}>, ()>
+; std::panic::catch_unwind::<std::panic::AssertUnwindSafe<<std::thread::Builder>::spawn_unchecked<stack_map_and_mutate::main::{closure#0}, ()>::{closure#0}::{closure#0}>, ()>
 ; Function Attrs: nonlazybind uwtable
-define internal { i8*, i8* } @_RINvNtCs2bNvlddUlXM_3std5panic12catch_unwindINtB2_16AssertUnwindSafeNCNCINvMNtB4_6threadNtB1c_7Builder15spawn_uncheckedNCNvCs37qxPUa7whq_20oneway_thread_access4main0uE00EuEB1X_(i8 %f) unnamed_addr #0 !dbg !941 {
+define internal { i8*, i8* } @_RINvNtCs2bNvlddUlXM_3std5panic12catch_unwindINtB2_16AssertUnwindSafeNCNCINvMNtB4_6threadNtB1c_7Builder15spawn_uncheckedNCNvCsdT7u4N7w2iC_20stack_map_and_mutate4main0uE00EuEB1X_(i8 %f) unnamed_addr #0 !dbg !941 {
 start:
   %f.dbg.spill = alloca i8, align 1
   store i8 %f, i8* %f.dbg.spill, align 1
   call void @llvm.dbg.declare(metadata i8* %f.dbg.spill, metadata !956, metadata !DIExpression()), !dbg !960
-; call std::panicking::try::<(), std::panic::AssertUnwindSafe<<std::thread::Builder>::spawn_unchecked<oneway_thread_access::main::{closure#0}, ()>::{closure#0}::{closure#0}>>
-  %0 = call { i8*, i8* } @_RINvNtCs2bNvlddUlXM_3std9panicking3tryuINtNtB4_5panic16AssertUnwindSafeNCNCINvMNtB4_6threadNtB1f_7Builder15spawn_uncheckedNCNvCs37qxPUa7whq_20oneway_thread_access4main0uE00EEB20_(i8 %f), !dbg !961
+; call std::panicking::try::<(), std::panic::AssertUnwindSafe<<std::thread::Builder>::spawn_unchecked<stack_map_and_mutate::main::{closure#0}, ()>::{closure#0}::{closure#0}>>
+  %0 = call { i8*, i8* } @_RINvNtCs2bNvlddUlXM_3std9panicking3tryuINtNtB4_5panic16AssertUnwindSafeNCNCINvMNtB4_6threadNtB1f_7Builder15spawn_uncheckedNCNvCsdT7u4N7w2iC_20stack_map_and_mutate4main0uE00EEB20_(i8 %f), !dbg !961
   %1 = extractvalue { i8*, i8* } %0, 0, !dbg !961
   %2 = extractvalue { i8*, i8* } %0, 1, !dbg !961
   br label %bb1, !dbg !961
@@ -1192,9 +1200,9 @@ bb1:                                              ; preds = %start
   ret { i8*, i8* } %4, !dbg !962
 }
 
-; std::thread::spawn::<oneway_thread_access::main::{closure#0}, ()>
+; std::thread::spawn::<stack_map_and_mutate::main::{closure#0}, ()>
 ; Function Attrs: nonlazybind uwtable
-define internal void @_RINvNtCs2bNvlddUlXM_3std6thread5spawnNCNvCs37qxPUa7whq_20oneway_thread_access4main0uEBD_(%"std::thread::JoinHandle<()>"* noalias nocapture sret dereferenceable(32) %0, i8 %f) unnamed_addr #0 personality i32 (i32, i32, i64, %"unwind::libunwind::_Unwind_Exception"*, %"unwind::libunwind::_Unwind_Context"*)* @rust_eh_personality !dbg !963 {
+define internal void @_RINvNtCs2bNvlddUlXM_3std6thread5spawnNCNvCsdT7u4N7w2iC_20stack_map_and_mutate4main0uEBD_(%"std::thread::JoinHandle<()>"* noalias nocapture sret dereferenceable(32) %0, i8 %f) unnamed_addr #0 personality i32 (i32, i32, i64, %"unwind::libunwind::_Unwind_Exception"*, %"unwind::libunwind::_Unwind_Context"*)* @rust_eh_personality !dbg !963 {
 start:
   %1 = alloca { i8*, i32 }, align 8
   %f.dbg.spill = alloca i8, align 1
@@ -1211,13 +1219,13 @@ start:
 
 bb1:                                              ; preds = %start
   store i8 0, i8* %_7, align 1, !dbg !970
-; invoke <std::thread::Builder>::spawn::<oneway_thread_access::main::{closure#0}, ()>
-  invoke void @_RINvMNtCs2bNvlddUlXM_3std6threadNtB3_7Builder5spawnNCNvCs37qxPUa7whq_20oneway_thread_access4main0uEBR_(%"std::result::Result<std::thread::JoinHandle<()>, std::io::Error>"* noalias nocapture sret dereferenceable(40) %_2, %"std::thread::Builder"* noalias nocapture dereferenceable(40) %_3, i8 %f)
+; invoke <std::thread::Builder>::spawn::<stack_map_and_mutate::main::{closure#0}, ()>
+  invoke void @_RINvMNtCs2bNvlddUlXM_3std6threadNtB3_7Builder5spawnNCNvCsdT7u4N7w2iC_20stack_map_and_mutate4main0uEBR_(%"std::result::Result<std::thread::JoinHandle<()>, std::io::Error>"* noalias nocapture sret dereferenceable(40) %_2, %"std::thread::Builder"* noalias nocapture dereferenceable(40) %_3, i8 %f)
           to label %bb2 unwind label %cleanup, !dbg !969
 
 bb2:                                              ; preds = %bb1
 ; invoke <core::result::Result<std::thread::JoinHandle<()>, std::io::error::Error>>::expect
-  invoke void @_RNvMs3_NtCs3p84KrD9aKt_4core6resultINtB5_6ResultINtNtCs2bNvlddUlXM_3std6thread10JoinHandleuENtNtNtBP_2io5error5ErrorE6expectCs37qxPUa7whq_20oneway_thread_access(%"std::thread::JoinHandle<()>"* noalias nocapture sret dereferenceable(32) %0, %"std::result::Result<std::thread::JoinHandle<()>, std::io::Error>"* noalias nocapture dereferenceable(40) %_2, [0 x i8]* noalias nonnull readonly align 1 bitcast (<{ [22 x i8] }>* @alloc49 to [0 x i8]*), i64 22, %"std::panic::Location"* noalias readonly align 8 dereferenceable(24) bitcast (<{ i8*, [16 x i8] }>* @alloc51 to %"std::panic::Location"*))
+  invoke void @_RNvMs3_NtCs3p84KrD9aKt_4core6resultINtB5_6ResultINtNtCs2bNvlddUlXM_3std6thread10JoinHandleuENtNtNtBP_2io5error5ErrorE6expectCsdT7u4N7w2iC_20stack_map_and_mutate(%"std::thread::JoinHandle<()>"* noalias nocapture sret dereferenceable(32) %0, %"std::result::Result<std::thread::JoinHandle<()>, std::io::Error>"* noalias nocapture dereferenceable(40) %_2, [0 x i8]* noalias nonnull readonly align 1 bitcast (<{ [22 x i8] }>* @alloc60 to [0 x i8]*), i64 22, %"std::panic::Location"* noalias readonly align 8 dereferenceable(24) bitcast (<{ i8*, [16 x i8] }>* @alloc62 to %"std::panic::Location"*))
           to label %bb3 unwind label %cleanup, !dbg !969
 
 bb3:                                              ; preds = %bb2
@@ -1252,9 +1260,9 @@ cleanup:                                          ; preds = %bb2, %bb1, %start
   br label %bb6
 }
 
-; std::panicking::try::<(), std::panic::AssertUnwindSafe<<std::thread::Builder>::spawn_unchecked<oneway_thread_access::main::{closure#0}, ()>::{closure#0}::{closure#0}>>
+; std::panicking::try::<(), std::panic::AssertUnwindSafe<<std::thread::Builder>::spawn_unchecked<stack_map_and_mutate::main::{closure#0}, ()>::{closure#0}::{closure#0}>>
 ; Function Attrs: nonlazybind uwtable
-define internal { i8*, i8* } @_RINvNtCs2bNvlddUlXM_3std9panicking3tryuINtNtB4_5panic16AssertUnwindSafeNCNCINvMNtB4_6threadNtB1f_7Builder15spawn_uncheckedNCNvCs37qxPUa7whq_20oneway_thread_access4main0uE00EEB20_(i8 %f) unnamed_addr #0 !dbg !974 {
+define internal { i8*, i8* } @_RINvNtCs2bNvlddUlXM_3std9panicking3tryuINtNtB4_5panic16AssertUnwindSafeNCNCINvMNtB4_6threadNtB1f_7Builder15spawn_uncheckedNCNvCsdT7u4N7w2iC_20stack_map_and_mutate4main0uE00EEB20_(i8 %f) unnamed_addr #0 !dbg !974 {
 start:
   %slot.dbg.spill.i = alloca { i8*, i64* }, align 8
   %value.dbg.spill.i = alloca i8, align 1
@@ -1262,11 +1270,11 @@ start:
   %1 = alloca i32, align 4
   %data_ptr.dbg.spill = alloca i8*, align 8
   %f.dbg.spill = alloca i8, align 1
-  %data = alloca %"std::panicking::r#try::Data<std::panic::AssertUnwindSafe<[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 16:3], ()>::{closure#0}::{closure#0}]>, ()>", align 8
+  %data = alloca %"std::panicking::r#try::Data<std::panic::AssertUnwindSafe<[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 18:3], ()>::{closure#0}::{closure#0}]>, ()>", align 8
   %2 = alloca { i8*, i8* }, align 8
   store i8 %f, i8* %f.dbg.spill, align 1
   call void @llvm.dbg.declare(metadata i8* %f.dbg.spill, metadata !978, metadata !DIExpression()), !dbg !1005
-  call void @llvm.dbg.declare(metadata %"std::panicking::r#try::Data<std::panic::AssertUnwindSafe<[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 16:3], ()>::{closure#0}::{closure#0}]>, ()>"* %data, metadata !979, metadata !DIExpression()), !dbg !1006
+  call void @llvm.dbg.declare(metadata %"std::panicking::r#try::Data<std::panic::AssertUnwindSafe<[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 18:3], ()>::{closure#0}::{closure#0}]>, ()>"* %data, metadata !979, metadata !DIExpression()), !dbg !1006
   store i8 %f, i8* %value.dbg.spill.i, align 1
   call void @llvm.dbg.declare(metadata i8* %value.dbg.spill.i, metadata !1007, metadata !DIExpression()), !dbg !1013
   store i8 %f, i8* %0, align 1, !dbg !1015
@@ -1274,12 +1282,12 @@ start:
   br label %bb1, !dbg !1017
 
 bb1:                                              ; preds = %start
-  %4 = bitcast %"std::panicking::r#try::Data<std::panic::AssertUnwindSafe<[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 16:3], ()>::{closure#0}::{closure#0}]>, ()>"* %data to i8*, !dbg !1018
+  %4 = bitcast %"std::panicking::r#try::Data<std::panic::AssertUnwindSafe<[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 18:3], ()>::{closure#0}::{closure#0}]>, ()>"* %data to i8*, !dbg !1018
   store i8 %3, i8* %4, align 8, !dbg !1018
-  %data_ptr = bitcast %"std::panicking::r#try::Data<std::panic::AssertUnwindSafe<[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 16:3], ()>::{closure#0}::{closure#0}]>, ()>"* %data to i8*, !dbg !1019
+  %data_ptr = bitcast %"std::panicking::r#try::Data<std::panic::AssertUnwindSafe<[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 18:3], ()>::{closure#0}::{closure#0}]>, ()>"* %data to i8*, !dbg !1019
   store i8* %data_ptr, i8** %data_ptr.dbg.spill, align 8, !dbg !1019
   call void @llvm.dbg.declare(metadata i8** %data_ptr.dbg.spill, metadata !1002, metadata !DIExpression()), !dbg !1020
-  %5 = call i32 @__rust_try(void (i8*)* @_RINvNvNtCs2bNvlddUlXM_3std9panicking3try7do_callINtNtB6_5panic16AssertUnwindSafeNCNCINvMNtB6_6threadNtB1o_7Builder15spawn_uncheckedNCNvCs37qxPUa7whq_20oneway_thread_access4main0uE00EuEB29_, i8* %data_ptr, void (i8*, i8*)* @_RINvNvNtCs2bNvlddUlXM_3std9panicking3try8do_catchINtNtB6_5panic16AssertUnwindSafeNCNCINvMNtB6_6threadNtB1p_7Builder15spawn_uncheckedNCNvCs37qxPUa7whq_20oneway_thread_access4main0uE00EuEB2a_), !dbg !1021
+  %5 = call i32 @__rust_try(void (i8*)* @_RINvNvNtCs2bNvlddUlXM_3std9panicking3try7do_callINtNtB6_5panic16AssertUnwindSafeNCNCINvMNtB6_6threadNtB1o_7Builder15spawn_uncheckedNCNvCsdT7u4N7w2iC_20stack_map_and_mutate4main0uE00EuEB29_, i8* %data_ptr, void (i8*, i8*)* @_RINvNvNtCs2bNvlddUlXM_3std9panicking3try8do_catchINtNtB6_5panic16AssertUnwindSafeNCNCINvMNtB6_6threadNtB1p_7Builder15spawn_uncheckedNCNvCsdT7u4N7w2iC_20stack_map_and_mutate4main0uE00EuEB2a_), !dbg !1021
   store i32 %5, i32* %1, align 4, !dbg !1021
   %_9 = load i32, i32* %1, align 4, !dbg !1021
   br label %bb2, !dbg !1021
@@ -1293,7 +1301,7 @@ bb3:                                              ; preds = %bb2
   br label %bb5, !dbg !1030
 
 bb4:                                              ; preds = %bb2
-  %7 = bitcast %"std::panicking::r#try::Data<std::panic::AssertUnwindSafe<[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 16:3], ()>::{closure#0}::{closure#0}]>, ()>"* %data to { i8*, i64* }*, !dbg !1031
+  %7 = bitcast %"std::panicking::r#try::Data<std::panic::AssertUnwindSafe<[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 18:3], ()>::{closure#0}::{closure#0}]>, ()>"* %data to { i8*, i64* }*, !dbg !1031
   %8 = getelementptr inbounds { i8*, i64* }, { i8*, i64* }* %7, i32 0, i32 0, !dbg !1031
   %_17.0 = load i8*, i8** %8, align 8, !dbg !1031, !nonnull !4
   %9 = getelementptr inbounds { i8*, i64* }, { i8*, i64* }* %7, i32 0, i32 1, !dbg !1031
@@ -1338,7 +1346,7 @@ bb7:                                              ; preds = %bb5, %bb6
 
 ; core::intrinsics::copy_nonoverlapping::<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal void @_RINvNtCs3p84KrD9aKt_4core10intrinsics19copy_nonoverlappingINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEECs37qxPUa7whq_20oneway_thread_access(%"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"* %src, %"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"* %dst, i64 %count) unnamed_addr #1 !dbg !1049 {
+define internal void @_RINvNtCs3p84KrD9aKt_4core10intrinsics19copy_nonoverlappingINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEECsdT7u4N7w2iC_20stack_map_and_mutate(%"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"* %src, %"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"* %dst, i64 %count) unnamed_addr #1 !dbg !1049 {
 start:
   %count.dbg.spill = alloca i64, align 8
   %dst.dbg.spill = alloca %"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"*, align 8
@@ -1361,7 +1369,7 @@ bb1:                                              ; preds = %start
 
 ; core::intrinsics::copy_nonoverlapping::<core::option::Option<std::sys::unix::thread::Thread>>
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal void @_RINvNtCs3p84KrD9aKt_4core10intrinsics19copy_nonoverlappingINtNtB4_6option6OptionNtNtNtNtCs2bNvlddUlXM_3std3sys4unix6thread6ThreadEECs37qxPUa7whq_20oneway_thread_access({ i64, i64 }* %src, { i64, i64 }* %dst, i64 %count) unnamed_addr #1 !dbg !1065 {
+define internal void @_RINvNtCs3p84KrD9aKt_4core10intrinsics19copy_nonoverlappingINtNtB4_6option6OptionNtNtNtNtCs2bNvlddUlXM_3std3sys4unix6thread6ThreadEECsdT7u4N7w2iC_20stack_map_and_mutate({ i64, i64 }* %src, { i64, i64 }* %dst, i64 %count) unnamed_addr #1 !dbg !1065 {
 start:
   %count.dbg.spill = alloca i64, align 8
   %dst.dbg.spill = alloca { i64, i64 }*, align 8
@@ -1382,9 +1390,9 @@ bb1:                                              ; preds = %start
   ret void, !dbg !1080
 }
 
-; core::intrinsics::copy_nonoverlapping::<std::panic::AssertUnwindSafe<<std::thread::Builder>::spawn_unchecked<oneway_thread_access::main::{closure#0}, ()>::{closure#0}::{closure#0}>>
+; core::intrinsics::copy_nonoverlapping::<std::panic::AssertUnwindSafe<<std::thread::Builder>::spawn_unchecked<stack_map_and_mutate::main::{closure#0}, ()>::{closure#0}::{closure#0}>>
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal void @_RINvNtCs3p84KrD9aKt_4core10intrinsics19copy_nonoverlappingINtNtCs2bNvlddUlXM_3std5panic16AssertUnwindSafeNCNCINvMNtBZ_6threadNtB1N_7Builder15spawn_uncheckedNCNvCs37qxPUa7whq_20oneway_thread_access4main0uE00EEB2y_(i8* %src, i8* %dst, i64 %count) unnamed_addr #1 !dbg !1081 {
+define internal void @_RINvNtCs3p84KrD9aKt_4core10intrinsics19copy_nonoverlappingINtNtCs2bNvlddUlXM_3std5panic16AssertUnwindSafeNCNCINvMNtBZ_6threadNtB1N_7Builder15spawn_uncheckedNCNvCsdT7u4N7w2iC_20stack_map_and_mutate4main0uE00EEB2y_(i8* %src, i8* %dst, i64 %count) unnamed_addr #1 !dbg !1081 {
 start:
   %count.dbg.spill = alloca i64, align 8
   %dst.dbg.spill = alloca i8*, align 8
@@ -1405,7 +1413,7 @@ bb1:                                              ; preds = %start
 
 ; core::intrinsics::copy_nonoverlapping::<u8>
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal void @_RINvNtCs3p84KrD9aKt_4core10intrinsics19copy_nonoverlappinghECs37qxPUa7whq_20oneway_thread_access(i8* %src, i8* %dst, i64 %count) unnamed_addr #1 !dbg !1095 {
+define internal void @_RINvNtCs3p84KrD9aKt_4core10intrinsics19copy_nonoverlappinghECsdT7u4N7w2iC_20stack_map_and_mutate(i8* %src, i8* %dst, i64 %count) unnamed_addr #1 !dbg !1095 {
 start:
   %count.dbg.spill = alloca i64, align 8
   %dst.dbg.spill = alloca i8*, align 8
@@ -1426,7 +1434,7 @@ bb1:                                              ; preds = %start
 
 ; core::mem::size_of_val_raw::<alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>>>
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal i64 @_RINvNtCs3p84KrD9aKt_4core3mem15size_of_val_rawINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtB4_4cell10UnsafeCellINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtBN_5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEEEECs37qxPUa7whq_20oneway_thread_access(%"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"* %val) unnamed_addr #1 !dbg !1107 {
+define internal i64 @_RINvNtCs3p84KrD9aKt_4core3mem15size_of_val_rawINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtB4_4cell10UnsafeCellINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtBN_5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEEEECsdT7u4N7w2iC_20stack_map_and_mutate(%"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"* %val) unnamed_addr #1 !dbg !1107 {
 start:
   %0 = alloca i64, align 8
   %val.dbg.spill = alloca %"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"*, align 8
@@ -1442,7 +1450,7 @@ bb1:                                              ; preds = %start
 
 ; core::mem::size_of_val_raw::<alloc::sync::ArcInner<std::sync::mutex::Mutex<alloc::vec::Vec<u8>>>>
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal i64 @_RINvNtCs3p84KrD9aKt_4core3mem15size_of_val_rawINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtBN_3vec3VechEEEECs37qxPUa7whq_20oneway_thread_access(%"alloc::sync::ArcInner<std::sync::Mutex<std::vec::Vec<u8>>>"* %val) unnamed_addr #1 !dbg !1116 {
+define internal i64 @_RINvNtCs3p84KrD9aKt_4core3mem15size_of_val_rawINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtBN_3vec3VechEEEECsdT7u4N7w2iC_20stack_map_and_mutate(%"alloc::sync::ArcInner<std::sync::Mutex<std::vec::Vec<u8>>>"* %val) unnamed_addr #1 !dbg !1116 {
 start:
   %0 = alloca i64, align 8
   %val.dbg.spill = alloca %"alloc::sync::ArcInner<std::sync::Mutex<std::vec::Vec<u8>>>"*, align 8
@@ -1458,7 +1466,7 @@ bb1:                                              ; preds = %start
 
 ; core::mem::size_of_val_raw::<alloc::sync::ArcInner<std::thread::Inner>>
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal i64 @_RINvNtCs3p84KrD9aKt_4core3mem15size_of_val_rawINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerNtNtCs2bNvlddUlXM_3std6thread5InnerEECs37qxPUa7whq_20oneway_thread_access(%"alloc::sync::ArcInner<std::thread::Inner>"* %val) unnamed_addr #1 !dbg !1124 {
+define internal i64 @_RINvNtCs3p84KrD9aKt_4core3mem15size_of_val_rawINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerNtNtCs2bNvlddUlXM_3std6thread5InnerEECsdT7u4N7w2iC_20stack_map_and_mutate(%"alloc::sync::ArcInner<std::thread::Inner>"* %val) unnamed_addr #1 !dbg !1124 {
 start:
   %0 = alloca i64, align 8
   %val.dbg.spill = alloca %"alloc::sync::ArcInner<std::thread::Inner>"*, align 8
@@ -1474,7 +1482,7 @@ bb1:                                              ; preds = %start
 
 ; core::mem::align_of_val_raw::<alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>>>
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal i64 @_RINvNtCs3p84KrD9aKt_4core3mem16align_of_val_rawINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtB4_4cell10UnsafeCellINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtBO_5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEEEECs37qxPUa7whq_20oneway_thread_access(%"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"* %val) unnamed_addr #1 !dbg !1132 {
+define internal i64 @_RINvNtCs3p84KrD9aKt_4core3mem16align_of_val_rawINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtB4_4cell10UnsafeCellINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtBO_5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEEEECsdT7u4N7w2iC_20stack_map_and_mutate(%"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"* %val) unnamed_addr #1 !dbg !1132 {
 start:
   %0 = alloca i64, align 8
   %val.dbg.spill = alloca %"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"*, align 8
@@ -1490,7 +1498,7 @@ bb1:                                              ; preds = %start
 
 ; core::mem::align_of_val_raw::<alloc::sync::ArcInner<std::sync::mutex::Mutex<alloc::vec::Vec<u8>>>>
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal i64 @_RINvNtCs3p84KrD9aKt_4core3mem16align_of_val_rawINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtBO_3vec3VechEEEECs37qxPUa7whq_20oneway_thread_access(%"alloc::sync::ArcInner<std::sync::Mutex<std::vec::Vec<u8>>>"* %val) unnamed_addr #1 !dbg !1138 {
+define internal i64 @_RINvNtCs3p84KrD9aKt_4core3mem16align_of_val_rawINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtBO_3vec3VechEEEECsdT7u4N7w2iC_20stack_map_and_mutate(%"alloc::sync::ArcInner<std::sync::Mutex<std::vec::Vec<u8>>>"* %val) unnamed_addr #1 !dbg !1138 {
 start:
   %0 = alloca i64, align 8
   %val.dbg.spill = alloca %"alloc::sync::ArcInner<std::sync::Mutex<std::vec::Vec<u8>>>"*, align 8
@@ -1506,7 +1514,7 @@ bb1:                                              ; preds = %start
 
 ; core::mem::align_of_val_raw::<alloc::sync::ArcInner<std::thread::Inner>>
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal i64 @_RINvNtCs3p84KrD9aKt_4core3mem16align_of_val_rawINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerNtNtCs2bNvlddUlXM_3std6thread5InnerEECs37qxPUa7whq_20oneway_thread_access(%"alloc::sync::ArcInner<std::thread::Inner>"* %val) unnamed_addr #1 !dbg !1144 {
+define internal i64 @_RINvNtCs3p84KrD9aKt_4core3mem16align_of_val_rawINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerNtNtCs2bNvlddUlXM_3std6thread5InnerEECsdT7u4N7w2iC_20stack_map_and_mutate(%"alloc::sync::ArcInner<std::thread::Inner>"* %val) unnamed_addr #1 !dbg !1144 {
 start:
   %0 = alloca i64, align 8
   %val.dbg.spill = alloca %"alloc::sync::ArcInner<std::thread::Inner>"*, align 8
@@ -1522,13 +1530,13 @@ bb1:                                              ; preds = %start
 
 ; core::mem::drop::<alloc::sync::Weak<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>>>
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal void @_RINvNtCs3p84KrD9aKt_4core3mem4dropINtNtCs8RW06R9lH2S_5alloc4sync4WeakINtNtB4_4cell10UnsafeCellINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtBB_5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEEEECs37qxPUa7whq_20oneway_thread_access(i64* nonnull %0) unnamed_addr #1 !dbg !1150 {
+define internal void @_RINvNtCs3p84KrD9aKt_4core3mem4dropINtNtCs8RW06R9lH2S_5alloc4sync4WeakINtNtB4_4cell10UnsafeCellINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtBB_5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEEEECsdT7u4N7w2iC_20stack_map_and_mutate(i64* nonnull %0) unnamed_addr #1 !dbg !1150 {
 start:
   %_x = alloca i64*, align 8
   store i64* %0, i64** %_x, align 8
   call void @llvm.dbg.declare(metadata i64** %_x, metadata !1157, metadata !DIExpression()), !dbg !1160
 ; call core::ptr::drop_in_place::<alloc::sync::Weak<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>>>
-  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc4sync4WeakINtNtB4_4cell10UnsafeCellINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtBL_5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEEEECs37qxPUa7whq_20oneway_thread_access(i64** %_x), !dbg !1161
+  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc4sync4WeakINtNtB4_4cell10UnsafeCellINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtBL_5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEEEECsdT7u4N7w2iC_20stack_map_and_mutate(i64** %_x), !dbg !1161
   br label %bb1, !dbg !1161
 
 bb1:                                              ; preds = %start
@@ -1537,13 +1545,13 @@ bb1:                                              ; preds = %start
 
 ; core::mem::drop::<alloc::sync::Weak<std::sync::mutex::Mutex<alloc::vec::Vec<u8>>>>
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal void @_RINvNtCs3p84KrD9aKt_4core3mem4dropINtNtCs8RW06R9lH2S_5alloc4sync4WeakINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtBB_3vec3VechEEEECs37qxPUa7whq_20oneway_thread_access(i64* nonnull %0) unnamed_addr #1 !dbg !1163 {
+define internal void @_RINvNtCs3p84KrD9aKt_4core3mem4dropINtNtCs8RW06R9lH2S_5alloc4sync4WeakINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtBB_3vec3VechEEEECsdT7u4N7w2iC_20stack_map_and_mutate(i64* nonnull %0) unnamed_addr #1 !dbg !1163 {
 start:
   %_x = alloca i64*, align 8
   store i64* %0, i64** %_x, align 8
   call void @llvm.dbg.declare(metadata i64** %_x, metadata !1170, metadata !DIExpression()), !dbg !1173
 ; call core::ptr::drop_in_place::<alloc::sync::Weak<std::sync::mutex::Mutex<alloc::vec::Vec<u8>>>>
-  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc4sync4WeakINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtBL_3vec3VechEEEECs37qxPUa7whq_20oneway_thread_access(i64** %_x), !dbg !1174
+  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc4sync4WeakINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtBL_3vec3VechEEEECsdT7u4N7w2iC_20stack_map_and_mutate(i64** %_x), !dbg !1174
   br label %bb1, !dbg !1174
 
 bb1:                                              ; preds = %start
@@ -1552,13 +1560,13 @@ bb1:                                              ; preds = %start
 
 ; core::mem::drop::<alloc::sync::Weak<std::thread::Inner>>
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal void @_RINvNtCs3p84KrD9aKt_4core3mem4dropINtNtCs8RW06R9lH2S_5alloc4sync4WeakNtNtCs2bNvlddUlXM_3std6thread5InnerEECs37qxPUa7whq_20oneway_thread_access(i64* nonnull %0) unnamed_addr #1 !dbg !1176 {
+define internal void @_RINvNtCs3p84KrD9aKt_4core3mem4dropINtNtCs8RW06R9lH2S_5alloc4sync4WeakNtNtCs2bNvlddUlXM_3std6thread5InnerEECsdT7u4N7w2iC_20stack_map_and_mutate(i64* nonnull %0) unnamed_addr #1 !dbg !1176 {
 start:
   %_x = alloca i64*, align 8
   store i64* %0, i64** %_x, align 8
   call void @llvm.dbg.declare(metadata i64** %_x, metadata !1183, metadata !DIExpression()), !dbg !1186
 ; call core::ptr::drop_in_place::<alloc::sync::Weak<std::thread::Inner>>
-  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc4sync4WeakNtNtCs2bNvlddUlXM_3std6thread5InnerEECs37qxPUa7whq_20oneway_thread_access(i64** %_x), !dbg !1187
+  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc4sync4WeakNtNtCs2bNvlddUlXM_3std6thread5InnerEECsdT7u4N7w2iC_20stack_map_and_mutate(i64** %_x), !dbg !1187
   br label %bb1, !dbg !1187
 
 bb1:                                              ; preds = %start
@@ -1567,7 +1575,7 @@ bb1:                                              ; preds = %start
 
 ; core::mem::swap::<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal void @_RINvNtCs3p84KrD9aKt_4core3mem4swapINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEECs37qxPUa7whq_20oneway_thread_access(%"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"* align 8 dereferenceable(24) %x, %"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"* align 8 dereferenceable(24) %y) unnamed_addr #1 !dbg !1189 {
+define internal void @_RINvNtCs3p84KrD9aKt_4core3mem4swapINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEECsdT7u4N7w2iC_20stack_map_and_mutate(%"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"* align 8 dereferenceable(24) %x, %"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"* align 8 dereferenceable(24) %y) unnamed_addr #1 !dbg !1189 {
 start:
   %y.dbg.spill = alloca %"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"*, align 8
   %x.dbg.spill = alloca %"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"*, align 8
@@ -1576,7 +1584,7 @@ start:
   store %"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"* %y, %"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"** %y.dbg.spill, align 8
   call void @llvm.dbg.declare(metadata %"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"** %y.dbg.spill, metadata !1195, metadata !DIExpression()), !dbg !1197
 ; call core::ptr::swap_nonoverlapping_one::<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>
-  call void @_RINvNtCs3p84KrD9aKt_4core3ptr23swap_nonoverlapping_oneINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEECs37qxPUa7whq_20oneway_thread_access(%"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"* %x, %"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"* %y), !dbg !1198
+  call void @_RINvNtCs3p84KrD9aKt_4core3ptr23swap_nonoverlapping_oneINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEECsdT7u4N7w2iC_20stack_map_and_mutate(%"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"* %x, %"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"* %y), !dbg !1198
   br label %bb1, !dbg !1198
 
 bb1:                                              ; preds = %start
@@ -1585,7 +1593,7 @@ bb1:                                              ; preds = %start
 
 ; core::mem::swap::<core::option::Option<std::sys::unix::thread::Thread>>
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal void @_RINvNtCs3p84KrD9aKt_4core3mem4swapINtNtB4_6option6OptionNtNtNtNtCs2bNvlddUlXM_3std3sys4unix6thread6ThreadEECs37qxPUa7whq_20oneway_thread_access({ i64, i64 }* align 8 dereferenceable(16) %x, { i64, i64 }* align 8 dereferenceable(16) %y) unnamed_addr #1 !dbg !1200 {
+define internal void @_RINvNtCs3p84KrD9aKt_4core3mem4swapINtNtB4_6option6OptionNtNtNtNtCs2bNvlddUlXM_3std3sys4unix6thread6ThreadEECsdT7u4N7w2iC_20stack_map_and_mutate({ i64, i64 }* align 8 dereferenceable(16) %x, { i64, i64 }* align 8 dereferenceable(16) %y) unnamed_addr #1 !dbg !1200 {
 start:
   %y.dbg.spill = alloca { i64, i64 }*, align 8
   %x.dbg.spill = alloca { i64, i64 }*, align 8
@@ -1594,7 +1602,7 @@ start:
   store { i64, i64 }* %y, { i64, i64 }** %y.dbg.spill, align 8
   call void @llvm.dbg.declare(metadata { i64, i64 }** %y.dbg.spill, metadata !1206, metadata !DIExpression()), !dbg !1208
 ; call core::ptr::swap_nonoverlapping_one::<core::option::Option<std::sys::unix::thread::Thread>>
-  call void @_RINvNtCs3p84KrD9aKt_4core3ptr23swap_nonoverlapping_oneINtNtB4_6option6OptionNtNtNtNtCs2bNvlddUlXM_3std3sys4unix6thread6ThreadEECs37qxPUa7whq_20oneway_thread_access({ i64, i64 }* %x, { i64, i64 }* %y), !dbg !1209
+  call void @_RINvNtCs3p84KrD9aKt_4core3ptr23swap_nonoverlapping_oneINtNtB4_6option6OptionNtNtNtNtCs2bNvlddUlXM_3std3sys4unix6thread6ThreadEECsdT7u4N7w2iC_20stack_map_and_mutate({ i64, i64 }* %x, { i64, i64 }* %y), !dbg !1209
   br label %bb1, !dbg !1209
 
 bb1:                                              ; preds = %start
@@ -1603,19 +1611,19 @@ bb1:                                              ; preds = %start
 
 ; core::mem::take::<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal void @_RINvNtCs3p84KrD9aKt_4core3mem4takeINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEECs37qxPUa7whq_20oneway_thread_access(%"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"* noalias nocapture sret dereferenceable(24) %0, %"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"* align 8 dereferenceable(24) %dest) unnamed_addr #1 !dbg !1211 {
+define internal void @_RINvNtCs3p84KrD9aKt_4core3mem4takeINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEECsdT7u4N7w2iC_20stack_map_and_mutate(%"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"* noalias nocapture sret dereferenceable(24) %0, %"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"* align 8 dereferenceable(24) %dest) unnamed_addr #1 !dbg !1211 {
 start:
   %dest.dbg.spill = alloca %"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"*, align 8
   %_3 = alloca %"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>", align 8
   store %"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"* %dest, %"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"** %dest.dbg.spill, align 8
   call void @llvm.dbg.declare(metadata %"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"** %dest.dbg.spill, metadata !1215, metadata !DIExpression()), !dbg !1216
 ; call <core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>> as core::default::Default>::default
-  call void @_RNvXs9_NtCs3p84KrD9aKt_4core6optionINtB5_6OptionINtNtB7_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB7_3any3AnyNtNtB7_6marker4SendEL_EEENtNtB7_7default7Default7defaultCs37qxPUa7whq_20oneway_thread_access(%"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"* noalias nocapture sret dereferenceable(24) %_3), !dbg !1217
+  call void @_RNvXs9_NtCs3p84KrD9aKt_4core6optionINtB5_6OptionINtNtB7_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB7_3any3AnyNtNtB7_6marker4SendEL_EEENtNtB7_7default7Default7defaultCsdT7u4N7w2iC_20stack_map_and_mutate(%"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"* noalias nocapture sret dereferenceable(24) %_3), !dbg !1217
   br label %bb1, !dbg !1217
 
 bb1:                                              ; preds = %start
 ; call core::mem::replace::<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>
-  call void @_RINvNtCs3p84KrD9aKt_4core3mem7replaceINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEECs37qxPUa7whq_20oneway_thread_access(%"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"* noalias nocapture sret dereferenceable(24) %0, %"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"* align 8 dereferenceable(24) %dest, %"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"* noalias nocapture dereferenceable(24) %_3), !dbg !1218
+  call void @_RINvNtCs3p84KrD9aKt_4core3mem7replaceINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEECsdT7u4N7w2iC_20stack_map_and_mutate(%"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"* noalias nocapture sret dereferenceable(24) %0, %"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"* align 8 dereferenceable(24) %dest, %"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"* noalias nocapture dereferenceable(24) %_3), !dbg !1218
   br label %bb2, !dbg !1218
 
 bb2:                                              ; preds = %bb1
@@ -1624,20 +1632,20 @@ bb2:                                              ; preds = %bb1
 
 ; core::mem::take::<core::option::Option<std::sys::unix::thread::Thread>>
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal { i64, i64 } @_RINvNtCs3p84KrD9aKt_4core3mem4takeINtNtB4_6option6OptionNtNtNtNtCs2bNvlddUlXM_3std3sys4unix6thread6ThreadEECs37qxPUa7whq_20oneway_thread_access({ i64, i64 }* align 8 dereferenceable(16) %dest) unnamed_addr #1 !dbg !1220 {
+define internal { i64, i64 } @_RINvNtCs3p84KrD9aKt_4core3mem4takeINtNtB4_6option6OptionNtNtNtNtCs2bNvlddUlXM_3std3sys4unix6thread6ThreadEECsdT7u4N7w2iC_20stack_map_and_mutate({ i64, i64 }* align 8 dereferenceable(16) %dest) unnamed_addr #1 !dbg !1220 {
 start:
   %dest.dbg.spill = alloca { i64, i64 }*, align 8
   store { i64, i64 }* %dest, { i64, i64 }** %dest.dbg.spill, align 8
   call void @llvm.dbg.declare(metadata { i64, i64 }** %dest.dbg.spill, metadata !1224, metadata !DIExpression()), !dbg !1225
 ; call <core::option::Option<std::sys::unix::thread::Thread> as core::default::Default>::default
-  %0 = call { i64, i64 } @_RNvXs9_NtCs3p84KrD9aKt_4core6optionINtB5_6OptionNtNtNtNtCs2bNvlddUlXM_3std3sys4unix6thread6ThreadENtNtB7_7default7Default7defaultCs37qxPUa7whq_20oneway_thread_access(), !dbg !1226
+  %0 = call { i64, i64 } @_RNvXs9_NtCs3p84KrD9aKt_4core6optionINtB5_6OptionNtNtNtNtCs2bNvlddUlXM_3std3sys4unix6thread6ThreadENtNtB7_7default7Default7defaultCsdT7u4N7w2iC_20stack_map_and_mutate(), !dbg !1226
   %_3.0 = extractvalue { i64, i64 } %0, 0, !dbg !1226
   %_3.1 = extractvalue { i64, i64 } %0, 1, !dbg !1226
   br label %bb1, !dbg !1226
 
 bb1:                                              ; preds = %start
 ; call core::mem::replace::<core::option::Option<std::sys::unix::thread::Thread>>
-  %1 = call { i64, i64 } @_RINvNtCs3p84KrD9aKt_4core3mem7replaceINtNtB4_6option6OptionNtNtNtNtCs2bNvlddUlXM_3std3sys4unix6thread6ThreadEECs37qxPUa7whq_20oneway_thread_access({ i64, i64 }* align 8 dereferenceable(16) %dest, i64 %_3.0, i64 %_3.1), !dbg !1227
+  %1 = call { i64, i64 } @_RINvNtCs3p84KrD9aKt_4core3mem7replaceINtNtB4_6option6OptionNtNtNtNtCs2bNvlddUlXM_3std3sys4unix6thread6ThreadEECsdT7u4N7w2iC_20stack_map_and_mutate({ i64, i64 }* align 8 dereferenceable(16) %dest, i64 %_3.0, i64 %_3.1), !dbg !1227
   %2 = extractvalue { i64, i64 } %1, 0, !dbg !1227
   %3 = extractvalue { i64, i64 } %1, 1, !dbg !1227
   br label %bb2, !dbg !1227
@@ -1650,7 +1658,7 @@ bb2:                                              ; preds = %bb1
 
 ; core::mem::replace::<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal void @_RINvNtCs3p84KrD9aKt_4core3mem7replaceINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEECs37qxPUa7whq_20oneway_thread_access(%"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"* noalias nocapture sret dereferenceable(24) %0, %"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"* align 8 dereferenceable(24) %dest, %"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"* noalias nocapture dereferenceable(24) %src) unnamed_addr #1 personality i32 (i32, i32, i64, %"unwind::libunwind::_Unwind_Exception"*, %"unwind::libunwind::_Unwind_Context"*)* @rust_eh_personality !dbg !1229 {
+define internal void @_RINvNtCs3p84KrD9aKt_4core3mem7replaceINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEECsdT7u4N7w2iC_20stack_map_and_mutate(%"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"* noalias nocapture sret dereferenceable(24) %0, %"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"* align 8 dereferenceable(24) %dest, %"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"* noalias nocapture dereferenceable(24) %src) unnamed_addr #1 personality i32 (i32, i32, i64, %"unwind::libunwind::_Unwind_Exception"*, %"unwind::libunwind::_Unwind_Context"*)* @rust_eh_personality !dbg !1229 {
 start:
   %1 = alloca { i8*, i32 }, align 8
   %dest.dbg.spill = alloca %"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"*, align 8
@@ -1658,7 +1666,7 @@ start:
   call void @llvm.dbg.declare(metadata %"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"** %dest.dbg.spill, metadata !1233, metadata !DIExpression()), !dbg !1235
   call void @llvm.dbg.declare(metadata %"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"* %src, metadata !1234, metadata !DIExpression()), !dbg !1236
 ; invoke core::mem::swap::<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>
-  invoke void @_RINvNtCs3p84KrD9aKt_4core3mem4swapINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEECs37qxPUa7whq_20oneway_thread_access(%"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"* align 8 dereferenceable(24) %dest, %"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"* align 8 dereferenceable(24) %src)
+  invoke void @_RINvNtCs3p84KrD9aKt_4core3mem4swapINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEECsdT7u4N7w2iC_20stack_map_and_mutate(%"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"* align 8 dereferenceable(24) %dest, %"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"* align 8 dereferenceable(24) %src)
           to label %bb1 unwind label %cleanup, !dbg !1237
 
 bb1:                                              ; preds = %start
@@ -1669,7 +1677,7 @@ bb1:                                              ; preds = %start
 
 bb2:                                              ; preds = %cleanup
 ; call core::ptr::drop_in_place::<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>
-  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEECs37qxPUa7whq_20oneway_thread_access(%"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"* %src) #12, !dbg !1240
+  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEECsdT7u4N7w2iC_20stack_map_and_mutate(%"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"* %src) #13, !dbg !1240
   br label %bb3, !dbg !1240
 
 bb3:                                              ; preds = %bb2
@@ -1695,7 +1703,7 @@ cleanup:                                          ; preds = %start
 
 ; core::mem::replace::<core::option::Option<std::sys::unix::thread::Thread>>
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal { i64, i64 } @_RINvNtCs3p84KrD9aKt_4core3mem7replaceINtNtB4_6option6OptionNtNtNtNtCs2bNvlddUlXM_3std3sys4unix6thread6ThreadEECs37qxPUa7whq_20oneway_thread_access({ i64, i64 }* align 8 dereferenceable(16) %dest, i64 %0, i64 %1) unnamed_addr #1 personality i32 (i32, i32, i64, %"unwind::libunwind::_Unwind_Exception"*, %"unwind::libunwind::_Unwind_Context"*)* @rust_eh_personality !dbg !1242 {
+define internal { i64, i64 } @_RINvNtCs3p84KrD9aKt_4core3mem7replaceINtNtB4_6option6OptionNtNtNtNtCs2bNvlddUlXM_3std3sys4unix6thread6ThreadEECsdT7u4N7w2iC_20stack_map_and_mutate({ i64, i64 }* align 8 dereferenceable(16) %dest, i64 %0, i64 %1) unnamed_addr #1 personality i32 (i32, i32, i64, %"unwind::libunwind::_Unwind_Exception"*, %"unwind::libunwind::_Unwind_Context"*)* @rust_eh_personality !dbg !1242 {
 start:
   %2 = alloca { i8*, i32 }, align 8
   %dest.dbg.spill = alloca { i64, i64 }*, align 8
@@ -1708,7 +1716,7 @@ start:
   call void @llvm.dbg.declare(metadata { i64, i64 }** %dest.dbg.spill, metadata !1246, metadata !DIExpression()), !dbg !1248
   call void @llvm.dbg.declare(metadata { i64, i64 }* %src, metadata !1247, metadata !DIExpression()), !dbg !1249
 ; invoke core::mem::swap::<core::option::Option<std::sys::unix::thread::Thread>>
-  invoke void @_RINvNtCs3p84KrD9aKt_4core3mem4swapINtNtB4_6option6OptionNtNtNtNtCs2bNvlddUlXM_3std3sys4unix6thread6ThreadEECs37qxPUa7whq_20oneway_thread_access({ i64, i64 }* align 8 dereferenceable(16) %dest, { i64, i64 }* align 8 dereferenceable(16) %src)
+  invoke void @_RINvNtCs3p84KrD9aKt_4core3mem4swapINtNtB4_6option6OptionNtNtNtNtCs2bNvlddUlXM_3std3sys4unix6thread6ThreadEECsdT7u4N7w2iC_20stack_map_and_mutate({ i64, i64 }* align 8 dereferenceable(16) %dest, { i64, i64 }* align 8 dereferenceable(16) %src)
           to label %bb1 unwind label %cleanup, !dbg !1250
 
 bb1:                                              ; preds = %start
@@ -1722,7 +1730,7 @@ bb1:                                              ; preds = %start
 
 bb2:                                              ; preds = %cleanup
 ; call core::ptr::drop_in_place::<core::option::Option<std::sys::unix::thread::Thread>>
-  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_6option6OptionNtNtNtNtCs2bNvlddUlXM_3std3sys4unix6thread6ThreadEECs37qxPUa7whq_20oneway_thread_access({ i64, i64 }* %src) #12, !dbg !1253
+  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_6option6OptionNtNtNtNtCs2bNvlddUlXM_3std3sys4unix6thread6ThreadEECsdT7u4N7w2iC_20stack_map_and_mutate({ i64, i64 }* %src) #13, !dbg !1253
   br label %bb3, !dbg !1253
 
 bb3:                                              ; preds = %bb2
@@ -1748,7 +1756,7 @@ cleanup:                                          ; preds = %start
 
 ; core::ptr::drop_in_place::<dyn core::any::Any + core::marker::Send>
 ; Function Attrs: nonlazybind uwtable
-define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_ECs37qxPUa7whq_20oneway_thread_access({}* %_1.0, [3 x i64]* noalias readonly align 8 dereferenceable(24) %_1.1) unnamed_addr #0 !dbg !1255 {
+define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_ECsdT7u4N7w2iC_20stack_map_and_mutate({}* %_1.0, [3 x i64]* noalias readonly align 8 dereferenceable(24) %_1.1) unnamed_addr #0 !dbg !1255 {
 start:
   %_1.dbg.spill = alloca { {}*, [3 x i64]* }, align 8
   %0 = alloca {}, align 1
@@ -1769,7 +1777,7 @@ bb1:                                              ; preds = %start
 
 ; core::ptr::drop_in_place::<dyn std::error::Error + core::marker::Send + core::marker::Sync>
 ; Function Attrs: nonlazybind uwtable
-define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeDNtNtCs2bNvlddUlXM_3std5error5ErrorNtNtB4_6marker4SendNtB1h_4SyncEL_ECs37qxPUa7whq_20oneway_thread_access({}* %_1.0, [3 x i64]* noalias readonly align 8 dereferenceable(24) %_1.1) unnamed_addr #0 !dbg !1266 {
+define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeDNtNtCs2bNvlddUlXM_3std5error5ErrorNtNtB4_6marker4SendNtB1h_4SyncEL_ECsdT7u4N7w2iC_20stack_map_and_mutate({}* %_1.0, [3 x i64]* noalias readonly align 8 dereferenceable(24) %_1.1) unnamed_addr #0 !dbg !1266 {
 start:
   %_1.dbg.spill = alloca { {}*, [3 x i64]* }, align 8
   %0 = alloca {}, align 1
@@ -1790,7 +1798,7 @@ bb1:                                              ; preds = %start
 
 ; core::ptr::drop_in_place::<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>>
 ; Function Attrs: nonlazybind uwtable
-define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_4cell10UnsafeCellINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEEECs37qxPUa7whq_20oneway_thread_access(%"std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>"* %_1) unnamed_addr #0 !dbg !1276 {
+define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_4cell10UnsafeCellINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEEECsdT7u4N7w2iC_20stack_map_and_mutate(%"std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>"* %_1) unnamed_addr #0 !dbg !1276 {
 start:
   %_1.dbg.spill = alloca %"std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>"*, align 8
   %0 = alloca {}, align 1
@@ -1798,7 +1806,7 @@ start:
   call void @llvm.dbg.declare(metadata %"std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>"** %_1.dbg.spill, metadata !1281, metadata !DIExpression()), !dbg !1282
   %1 = bitcast %"std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>"* %_1 to %"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"*, !dbg !1282
 ; call core::ptr::drop_in_place::<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>
-  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEECs37qxPUa7whq_20oneway_thread_access(%"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"* %1), !dbg !1282
+  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEECsdT7u4N7w2iC_20stack_map_and_mutate(%"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"* %1), !dbg !1282
   br label %bb1, !dbg !1282
 
 bb1:                                              ; preds = %start
@@ -1807,7 +1815,7 @@ bb1:                                              ; preds = %start
 
 ; core::ptr::drop_in_place::<core::cell::UnsafeCell<alloc::vec::Vec<u8>>>
 ; Function Attrs: nonlazybind uwtable
-define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_4cell10UnsafeCellINtNtCs8RW06R9lH2S_5alloc3vec3VechEEECs37qxPUa7whq_20oneway_thread_access(%"std::cell::UnsafeCell<std::vec::Vec<u8>>"* %_1) unnamed_addr #0 !dbg !1283 {
+define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_4cell10UnsafeCellINtNtCs8RW06R9lH2S_5alloc3vec3VechEEECsdT7u4N7w2iC_20stack_map_and_mutate(%"std::cell::UnsafeCell<std::vec::Vec<u8>>"* %_1) unnamed_addr #0 !dbg !1283 {
 start:
   %_1.dbg.spill = alloca %"std::cell::UnsafeCell<std::vec::Vec<u8>>"*, align 8
   %0 = alloca {}, align 1
@@ -1815,7 +1823,7 @@ start:
   call void @llvm.dbg.declare(metadata %"std::cell::UnsafeCell<std::vec::Vec<u8>>"** %_1.dbg.spill, metadata !1288, metadata !DIExpression()), !dbg !1291
   %1 = bitcast %"std::cell::UnsafeCell<std::vec::Vec<u8>>"* %_1 to %"std::vec::Vec<u8>"*, !dbg !1291
 ; call core::ptr::drop_in_place::<alloc::vec::Vec<u8>>
-  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc3vec3VechEECs37qxPUa7whq_20oneway_thread_access(%"std::vec::Vec<u8>"* %1), !dbg !1291
+  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc3vec3VechEECsdT7u4N7w2iC_20stack_map_and_mutate(%"std::vec::Vec<u8>"* %1), !dbg !1291
   br label %bb1, !dbg !1291
 
 bb1:                                              ; preds = %start
@@ -1824,7 +1832,7 @@ bb1:                                              ; preds = %start
 
 ; core::ptr::drop_in_place::<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>
 ; Function Attrs: nonlazybind uwtable
-define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEECs37qxPUa7whq_20oneway_thread_access(%"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"* %_1) unnamed_addr #0 !dbg !1292 {
+define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEECsdT7u4N7w2iC_20stack_map_and_mutate(%"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"* %_1) unnamed_addr #0 !dbg !1292 {
 start:
   %_1.dbg.spill = alloca %"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"*, align 8
   %0 = alloca {}, align 1
@@ -1842,13 +1850,13 @@ bb2:                                              ; preds = %start
   %3 = bitcast %"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"* %_1 to %"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>::Some"*, !dbg !1297
   %4 = getelementptr inbounds %"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>::Some", %"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>::Some"* %3, i32 0, i32 1, !dbg !1297
 ; call core::ptr::drop_in_place::<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>
-  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEECs37qxPUa7whq_20oneway_thread_access({ i8*, i8* }* %4), !dbg !1297
+  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEECsdT7u4N7w2iC_20stack_map_and_mutate({ i8*, i8* }* %4), !dbg !1297
   br label %bb1, !dbg !1297
 }
 
 ; core::ptr::drop_in_place::<core::option::Option<alloc::sync::Arc<std::sync::mutex::Mutex<alloc::vec::Vec<u8>>>>>
 ; Function Attrs: nonlazybind uwtable
-define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_6option6OptionINtNtCs8RW06R9lH2S_5alloc4sync3ArcINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtB17_3vec3VechEEEEECs37qxPUa7whq_20oneway_thread_access(i64** %_1) unnamed_addr #0 !dbg !1298 {
+define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_6option6OptionINtNtCs8RW06R9lH2S_5alloc4sync3ArcINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtB17_3vec3VechEEEEECsdT7u4N7w2iC_20stack_map_and_mutate(i64** %_1) unnamed_addr #0 !dbg !1298 {
 start:
   %_1.dbg.spill = alloca i64**, align 8
   %0 = alloca {}, align 1
@@ -1866,13 +1874,13 @@ bb1:                                              ; preds = %bb2, %start
 
 bb2:                                              ; preds = %start
 ; call core::ptr::drop_in_place::<alloc::sync::Arc<std::sync::mutex::Mutex<alloc::vec::Vec<u8>>>>
-  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc4sync3ArcINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtBL_3vec3VechEEEECs37qxPUa7whq_20oneway_thread_access(i64** %_1), !dbg !1306
+  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc4sync3ArcINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtBL_3vec3VechEEEECsdT7u4N7w2iC_20stack_map_and_mutate(i64** %_1), !dbg !1306
   br label %bb1, !dbg !1306
 }
 
 ; core::ptr::drop_in_place::<core::option::Option<alloc::string::String>>
 ; Function Attrs: nonlazybind uwtable
-define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_6option6OptionNtNtCs8RW06R9lH2S_5alloc6string6StringEECs37qxPUa7whq_20oneway_thread_access(%"std::option::Option<std::string::String>"* %_1) unnamed_addr #0 !dbg !1307 {
+define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_6option6OptionNtNtCs8RW06R9lH2S_5alloc6string6StringEECsdT7u4N7w2iC_20stack_map_and_mutate(%"std::option::Option<std::string::String>"* %_1) unnamed_addr #0 !dbg !1307 {
 start:
   %_1.dbg.spill = alloca %"std::option::Option<std::string::String>"*, align 8
   %0 = alloca {}, align 1
@@ -1892,13 +1900,13 @@ bb2:                                              ; preds = %start
   %5 = bitcast %"std::option::Option<std::string::String>"* %_1 to %"std::option::Option<std::string::String>::Some"*, !dbg !1315
   %6 = bitcast %"std::option::Option<std::string::String>::Some"* %5 to %"std::string::String"*, !dbg !1315
 ; call core::ptr::drop_in_place::<alloc::string::String>
-  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNtNtCs8RW06R9lH2S_5alloc6string6StringECs37qxPUa7whq_20oneway_thread_access(%"std::string::String"* %6), !dbg !1315
+  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNtNtCs8RW06R9lH2S_5alloc6string6StringECsdT7u4N7w2iC_20stack_map_and_mutate(%"std::string::String"* %6), !dbg !1315
   br label %bb1, !dbg !1315
 }
 
 ; core::ptr::drop_in_place::<core::option::Option<std::ffi::c_str::CString>>
 ; Function Attrs: nonlazybind uwtable
-define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_6option6OptionNtNtNtCs2bNvlddUlXM_3std3ffi5c_str7CStringEECs37qxPUa7whq_20oneway_thread_access({ i8*, i64 }* %_1) unnamed_addr #0 !dbg !1316 {
+define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_6option6OptionNtNtNtCs2bNvlddUlXM_3std3ffi5c_str7CStringEECsdT7u4N7w2iC_20stack_map_and_mutate({ i8*, i64 }* %_1) unnamed_addr #0 !dbg !1316 {
 start:
   %_1.dbg.spill = alloca { i8*, i64 }*, align 8
   %0 = alloca {}, align 1
@@ -1916,13 +1924,13 @@ bb1:                                              ; preds = %bb2, %start
 
 bb2:                                              ; preds = %start
 ; call core::ptr::drop_in_place::<std::ffi::c_str::CString>
-  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNtNtNtCs2bNvlddUlXM_3std3ffi5c_str7CStringECs37qxPUa7whq_20oneway_thread_access({ i8*, i64 }* %_1), !dbg !1324
+  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNtNtNtCs2bNvlddUlXM_3std3ffi5c_str7CStringECsdT7u4N7w2iC_20stack_map_and_mutate({ i8*, i64 }* %_1), !dbg !1324
   br label %bb1, !dbg !1324
 }
 
 ; core::ptr::drop_in_place::<core::option::Option<std::sys::unix::thread::Thread>>
 ; Function Attrs: nonlazybind uwtable
-define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_6option6OptionNtNtNtNtCs2bNvlddUlXM_3std3sys4unix6thread6ThreadEECs37qxPUa7whq_20oneway_thread_access({ i64, i64 }* %_1) unnamed_addr #0 !dbg !1325 {
+define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_6option6OptionNtNtNtNtCs2bNvlddUlXM_3std3sys4unix6thread6ThreadEECsdT7u4N7w2iC_20stack_map_and_mutate({ i64, i64 }* %_1) unnamed_addr #0 !dbg !1325 {
 start:
   %_1.dbg.spill = alloca { i64, i64 }*, align 8
   %0 = alloca {}, align 1
@@ -1940,13 +1948,13 @@ bb2:                                              ; preds = %start
   %3 = bitcast { i64, i64 }* %_1 to %"std::option::Option<std::sys::unix::thread::Thread>::Some"*, !dbg !1330
   %4 = getelementptr inbounds %"std::option::Option<std::sys::unix::thread::Thread>::Some", %"std::option::Option<std::sys::unix::thread::Thread>::Some"* %3, i32 0, i32 1, !dbg !1330
 ; call core::ptr::drop_in_place::<std::sys::unix::thread::Thread>
-  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNtNtNtNtCs2bNvlddUlXM_3std3sys4unix6thread6ThreadECs37qxPUa7whq_20oneway_thread_access(i64* %4), !dbg !1330
+  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNtNtNtNtCs2bNvlddUlXM_3std3sys4unix6thread6ThreadECsdT7u4N7w2iC_20stack_map_and_mutate(i64* %4), !dbg !1330
   br label %bb1, !dbg !1330
 }
 
 ; core::ptr::drop_in_place::<core::result::Result<std::thread::JoinHandle<()>, std::io::error::Error>>
 ; Function Attrs: nonlazybind uwtable
-define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_6result6ResultINtNtCs2bNvlddUlXM_3std6thread10JoinHandleuENtNtNtB17_2io5error5ErrorEECs37qxPUa7whq_20oneway_thread_access(%"std::result::Result<std::thread::JoinHandle<()>, std::io::Error>"* %_1) unnamed_addr #0 !dbg !1331 {
+define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_6result6ResultINtNtCs2bNvlddUlXM_3std6thread10JoinHandleuENtNtNtB17_2io5error5ErrorEECsdT7u4N7w2iC_20stack_map_and_mutate(%"std::result::Result<std::thread::JoinHandle<()>, std::io::Error>"* %_1) unnamed_addr #0 !dbg !1331 {
 start:
   %_1.dbg.spill = alloca %"std::result::Result<std::thread::JoinHandle<()>, std::io::Error>"*, align 8
   %0 = alloca {}, align 1
@@ -1964,20 +1972,20 @@ bb2:                                              ; preds = %start
   %3 = bitcast %"std::result::Result<std::thread::JoinHandle<()>, std::io::Error>"* %_1 to %"std::result::Result<std::thread::JoinHandle<()>, std::io::Error>::Ok"*, !dbg !1339
   %4 = getelementptr inbounds %"std::result::Result<std::thread::JoinHandle<()>, std::io::Error>::Ok", %"std::result::Result<std::thread::JoinHandle<()>, std::io::Error>::Ok"* %3, i32 0, i32 1, !dbg !1339
 ; call core::ptr::drop_in_place::<std::thread::JoinHandle<()>>
-  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs2bNvlddUlXM_3std6thread10JoinHandleuEECs37qxPUa7whq_20oneway_thread_access(%"std::thread::JoinHandle<()>"* %4), !dbg !1339
+  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs2bNvlddUlXM_3std6thread10JoinHandleuEECsdT7u4N7w2iC_20stack_map_and_mutate(%"std::thread::JoinHandle<()>"* %4), !dbg !1339
   br label %bb1, !dbg !1339
 
 bb3:                                              ; preds = %start
   %5 = bitcast %"std::result::Result<std::thread::JoinHandle<()>, std::io::Error>"* %_1 to %"std::result::Result<std::thread::JoinHandle<()>, std::io::Error>::Err"*, !dbg !1339
   %6 = getelementptr inbounds %"std::result::Result<std::thread::JoinHandle<()>, std::io::Error>::Err", %"std::result::Result<std::thread::JoinHandle<()>, std::io::Error>::Err"* %5, i32 0, i32 1, !dbg !1339
 ; call core::ptr::drop_in_place::<std::io::error::Error>
-  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNtNtNtCs2bNvlddUlXM_3std2io5error5ErrorECs37qxPUa7whq_20oneway_thread_access(%"std::io::Error"* %6), !dbg !1339
+  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNtNtNtCs2bNvlddUlXM_3std2io5error5ErrorECsdT7u4N7w2iC_20stack_map_and_mutate(%"std::io::Error"* %6), !dbg !1339
   br label %bb1, !dbg !1339
 }
 
 ; core::ptr::drop_in_place::<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>
 ; Function Attrs: nonlazybind uwtable
-define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEECs37qxPUa7whq_20oneway_thread_access({ i8*, i8* }* %_1) unnamed_addr #0 !dbg !1340 {
+define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEECsdT7u4N7w2iC_20stack_map_and_mutate({ i8*, i8* }* %_1) unnamed_addr #0 !dbg !1340 {
 start:
   %_1.dbg.spill = alloca { i8*, i8* }*, align 8
   %0 = alloca {}, align 1
@@ -1996,13 +2004,13 @@ bb1:                                              ; preds = %bb2, %start
 bb2:                                              ; preds = %start
   %5 = bitcast { i8*, i8* }* %_1 to { {}*, [3 x i64]* }*, !dbg !1346
 ; call core::ptr::drop_in_place::<alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>
-  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EECs37qxPUa7whq_20oneway_thread_access({ {}*, [3 x i64]* }* %5), !dbg !1346
+  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EECsdT7u4N7w2iC_20stack_map_and_mutate({ {}*, [3 x i64]* }* %5), !dbg !1346
   br label %bb1, !dbg !1346
 }
 
 ; core::ptr::drop_in_place::<std::thread::JoinHandle<()>>
 ; Function Attrs: nonlazybind uwtable
-define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs2bNvlddUlXM_3std6thread10JoinHandleuEECs37qxPUa7whq_20oneway_thread_access(%"std::thread::JoinHandle<()>"* %_1) unnamed_addr #0 !dbg !1347 {
+define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs2bNvlddUlXM_3std6thread10JoinHandleuEECsdT7u4N7w2iC_20stack_map_and_mutate(%"std::thread::JoinHandle<()>"* %_1) unnamed_addr #0 !dbg !1347 {
 start:
   %_1.dbg.spill = alloca %"std::thread::JoinHandle<()>"*, align 8
   %0 = alloca {}, align 1
@@ -2010,7 +2018,7 @@ start:
   call void @llvm.dbg.declare(metadata %"std::thread::JoinHandle<()>"** %_1.dbg.spill, metadata !1352, metadata !DIExpression()), !dbg !1354
   %1 = bitcast %"std::thread::JoinHandle<()>"* %_1 to %"std::thread::JoinInner<()>"*, !dbg !1354
 ; call core::ptr::drop_in_place::<std::thread::JoinInner<()>>
-  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs2bNvlddUlXM_3std6thread9JoinInneruEECs37qxPUa7whq_20oneway_thread_access(%"std::thread::JoinInner<()>"* %1), !dbg !1354
+  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs2bNvlddUlXM_3std6thread9JoinInneruEECsdT7u4N7w2iC_20stack_map_and_mutate(%"std::thread::JoinInner<()>"* %1), !dbg !1354
   br label %bb1, !dbg !1354
 
 bb1:                                              ; preds = %start
@@ -2019,14 +2027,14 @@ bb1:                                              ; preds = %start
 
 ; core::ptr::drop_in_place::<std::thread::Packet<()>>
 ; Function Attrs: nonlazybind uwtable
-define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs2bNvlddUlXM_3std6thread6PacketuEECs37qxPUa7whq_20oneway_thread_access(i64** %_1) unnamed_addr #0 !dbg !1355 {
+define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs2bNvlddUlXM_3std6thread6PacketuEECsdT7u4N7w2iC_20stack_map_and_mutate(i64** %_1) unnamed_addr #0 !dbg !1355 {
 start:
   %_1.dbg.spill = alloca i64**, align 8
   %0 = alloca {}, align 1
   store i64** %_1, i64*** %_1.dbg.spill, align 8
   call void @llvm.dbg.declare(metadata i64*** %_1.dbg.spill, metadata !1360, metadata !DIExpression()), !dbg !1363
 ; call core::ptr::drop_in_place::<alloc::sync::Arc<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>>>
-  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc4sync3ArcINtNtB4_4cell10UnsafeCellINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtBL_5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEEEECs37qxPUa7whq_20oneway_thread_access(i64** %_1), !dbg !1363
+  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc4sync3ArcINtNtB4_4cell10UnsafeCellINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtBL_5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEEEECsdT7u4N7w2iC_20stack_map_and_mutate(i64** %_1), !dbg !1363
   br label %bb1, !dbg !1363
 
 bb1:                                              ; preds = %start
@@ -2035,7 +2043,7 @@ bb1:                                              ; preds = %start
 
 ; core::ptr::drop_in_place::<std::thread::JoinInner<()>>
 ; Function Attrs: nonlazybind uwtable
-define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs2bNvlddUlXM_3std6thread9JoinInneruEECs37qxPUa7whq_20oneway_thread_access(%"std::thread::JoinInner<()>"* %_1) unnamed_addr #0 personality i32 (i32, i32, i64, %"unwind::libunwind::_Unwind_Exception"*, %"unwind::libunwind::_Unwind_Context"*)* @rust_eh_personality !dbg !1364 {
+define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs2bNvlddUlXM_3std6thread9JoinInneruEECsdT7u4N7w2iC_20stack_map_and_mutate(%"std::thread::JoinInner<()>"* %_1) unnamed_addr #0 personality i32 (i32, i32, i64, %"unwind::libunwind::_Unwind_Exception"*, %"unwind::libunwind::_Unwind_Context"*)* @rust_eh_personality !dbg !1364 {
 start:
   %0 = alloca { i8*, i32 }, align 8
   %_1.dbg.spill = alloca %"std::thread::JoinInner<()>"*, align 8
@@ -2044,7 +2052,7 @@ start:
   call void @llvm.dbg.declare(metadata %"std::thread::JoinInner<()>"** %_1.dbg.spill, metadata !1369, metadata !DIExpression()), !dbg !1372
   %2 = bitcast %"std::thread::JoinInner<()>"* %_1 to { i64, i64 }*, !dbg !1372
 ; invoke core::ptr::drop_in_place::<core::option::Option<std::sys::unix::thread::Thread>>
-  invoke void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_6option6OptionNtNtNtNtCs2bNvlddUlXM_3std3sys4unix6thread6ThreadEECs37qxPUa7whq_20oneway_thread_access({ i64, i64 }* %2)
+  invoke void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_6option6OptionNtNtNtNtCs2bNvlddUlXM_3std3sys4unix6thread6ThreadEECsdT7u4N7w2iC_20stack_map_and_mutate({ i64, i64 }* %2)
           to label %bb6 unwind label %cleanup, !dbg !1372
 
 bb1:                                              ; preds = %bb3
@@ -2062,25 +2070,25 @@ bb2:                                              ; preds = %bb5
 bb3:                                              ; preds = %cleanup1, %bb4
   %9 = getelementptr inbounds %"std::thread::JoinInner<()>", %"std::thread::JoinInner<()>"* %_1, i32 0, i32 5, !dbg !1372
 ; call core::ptr::drop_in_place::<std::thread::Packet<()>>
-  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs2bNvlddUlXM_3std6thread6PacketuEECs37qxPUa7whq_20oneway_thread_access(i64** %9) #12, !dbg !1372
+  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs2bNvlddUlXM_3std6thread6PacketuEECsdT7u4N7w2iC_20stack_map_and_mutate(i64** %9) #13, !dbg !1372
   br label %bb1, !dbg !1372
 
 bb4:                                              ; preds = %cleanup
   %10 = getelementptr inbounds %"std::thread::JoinInner<()>", %"std::thread::JoinInner<()>"* %_1, i32 0, i32 3, !dbg !1372
 ; call core::ptr::drop_in_place::<std::thread::Thread>
-  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNtNtCs2bNvlddUlXM_3std6thread6ThreadECs37qxPUa7whq_20oneway_thread_access(i64** %10) #12, !dbg !1372
+  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNtNtCs2bNvlddUlXM_3std6thread6ThreadECsdT7u4N7w2iC_20stack_map_and_mutate(i64** %10) #13, !dbg !1372
   br label %bb3, !dbg !1372
 
 bb5:                                              ; preds = %bb6
   %11 = getelementptr inbounds %"std::thread::JoinInner<()>", %"std::thread::JoinInner<()>"* %_1, i32 0, i32 5, !dbg !1372
 ; call core::ptr::drop_in_place::<std::thread::Packet<()>>
-  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs2bNvlddUlXM_3std6thread6PacketuEECs37qxPUa7whq_20oneway_thread_access(i64** %11), !dbg !1372
+  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs2bNvlddUlXM_3std6thread6PacketuEECsdT7u4N7w2iC_20stack_map_and_mutate(i64** %11), !dbg !1372
   br label %bb2, !dbg !1372
 
 bb6:                                              ; preds = %start
   %12 = getelementptr inbounds %"std::thread::JoinInner<()>", %"std::thread::JoinInner<()>"* %_1, i32 0, i32 3, !dbg !1372
 ; invoke core::ptr::drop_in_place::<std::thread::Thread>
-  invoke void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNtNtCs2bNvlddUlXM_3std6thread6ThreadECs37qxPUa7whq_20oneway_thread_access(i64** %12)
+  invoke void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNtNtCs2bNvlddUlXM_3std6thread6ThreadECsdT7u4N7w2iC_20stack_map_and_mutate(i64** %12)
           to label %bb5 unwind label %cleanup1, !dbg !1372
 
 cleanup:                                          ; preds = %start
@@ -2108,7 +2116,7 @@ cleanup1:                                         ; preds = %bb6
 
 ; core::ptr::drop_in_place::<alloc::vec::Vec<u8>>
 ; Function Attrs: nonlazybind uwtable
-define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc3vec3VechEECs37qxPUa7whq_20oneway_thread_access(%"std::vec::Vec<u8>"* %_1) unnamed_addr #0 personality i32 (i32, i32, i64, %"unwind::libunwind::_Unwind_Exception"*, %"unwind::libunwind::_Unwind_Context"*)* @rust_eh_personality !dbg !1373 {
+define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc3vec3VechEECsdT7u4N7w2iC_20stack_map_and_mutate(%"std::vec::Vec<u8>"* %_1) unnamed_addr #0 personality i32 (i32, i32, i64, %"unwind::libunwind::_Unwind_Exception"*, %"unwind::libunwind::_Unwind_Context"*)* @rust_eh_personality !dbg !1373 {
 start:
   %0 = alloca { i8*, i32 }, align 8
   %_1.dbg.spill = alloca %"std::vec::Vec<u8>"*, align 8
@@ -2116,7 +2124,7 @@ start:
   store %"std::vec::Vec<u8>"* %_1, %"std::vec::Vec<u8>"** %_1.dbg.spill, align 8
   call void @llvm.dbg.declare(metadata %"std::vec::Vec<u8>"** %_1.dbg.spill, metadata !1378, metadata !DIExpression()), !dbg !1379
 ; invoke <alloc::vec::Vec<u8> as core::ops::drop::Drop>::drop
-  invoke void @_RNvXsm_NtCs8RW06R9lH2S_5alloc3vecINtB5_3VechENtNtNtCs3p84KrD9aKt_4core3ops4drop4Drop4dropCs37qxPUa7whq_20oneway_thread_access(%"std::vec::Vec<u8>"* align 8 dereferenceable(24) %_1)
+  invoke void @_RNvXsm_NtCs8RW06R9lH2S_5alloc3vecINtB5_3VechENtNtNtCs3p84KrD9aKt_4core3ops4drop4Drop4dropCsdT7u4N7w2iC_20stack_map_and_mutate(%"std::vec::Vec<u8>"* align 8 dereferenceable(24) %_1)
           to label %bb4 unwind label %cleanup, !dbg !1379
 
 bb1:                                              ; preds = %bb3
@@ -2134,13 +2142,13 @@ bb2:                                              ; preds = %bb4
 bb3:                                              ; preds = %cleanup
   %8 = bitcast %"std::vec::Vec<u8>"* %_1 to { i8*, i64 }*, !dbg !1379
 ; call core::ptr::drop_in_place::<alloc::raw_vec::RawVec<u8>>
-  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc7raw_vec6RawVechEECs37qxPUa7whq_20oneway_thread_access({ i8*, i64 }* %8) #12, !dbg !1379
+  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc7raw_vec6RawVechEECsdT7u4N7w2iC_20stack_map_and_mutate({ i8*, i64 }* %8) #13, !dbg !1379
   br label %bb1, !dbg !1379
 
 bb4:                                              ; preds = %start
   %9 = bitcast %"std::vec::Vec<u8>"* %_1 to { i8*, i64 }*, !dbg !1379
 ; call core::ptr::drop_in_place::<alloc::raw_vec::RawVec<u8>>
-  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc7raw_vec6RawVechEECs37qxPUa7whq_20oneway_thread_access({ i8*, i64 }* %9), !dbg !1379
+  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc7raw_vec6RawVechEECsdT7u4N7w2iC_20stack_map_and_mutate({ i8*, i64 }* %9), !dbg !1379
   br label %bb2, !dbg !1379
 
 cleanup:                                          ; preds = %start
@@ -2157,14 +2165,14 @@ cleanup:                                          ; preds = %start
 
 ; core::ptr::drop_in_place::<alloc::sync::Arc<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>>>
 ; Function Attrs: nonlazybind uwtable
-define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc4sync3ArcINtNtB4_4cell10UnsafeCellINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtBL_5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEEEECs37qxPUa7whq_20oneway_thread_access(i64** %_1) unnamed_addr #0 !dbg !1380 {
+define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc4sync3ArcINtNtB4_4cell10UnsafeCellINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtBL_5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEEEECsdT7u4N7w2iC_20stack_map_and_mutate(i64** %_1) unnamed_addr #0 !dbg !1380 {
 start:
   %_1.dbg.spill = alloca i64**, align 8
   %0 = alloca {}, align 1
   store i64** %_1, i64*** %_1.dbg.spill, align 8
   call void @llvm.dbg.declare(metadata i64*** %_1.dbg.spill, metadata !1385, metadata !DIExpression()), !dbg !1388
 ; call <alloc::sync::Arc<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>> as core::ops::drop::Drop>::drop
-  call void @_RNvXsp_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtBL_6option6OptionINtNtBL_6result6ResultuINtNtB7_5boxed3BoxDNtNtBL_3any3AnyNtNtBL_6marker4SendEL_EEEEENtNtNtBL_3ops4drop4Drop4dropCs37qxPUa7whq_20oneway_thread_access(i64** align 8 dereferenceable(8) %_1), !dbg !1388
+  call void @_RNvXsp_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtBL_6option6OptionINtNtBL_6result6ResultuINtNtB7_5boxed3BoxDNtNtBL_3any3AnyNtNtBL_6marker4SendEL_EEEEENtNtNtBL_3ops4drop4Drop4dropCsdT7u4N7w2iC_20stack_map_and_mutate(i64** align 8 dereferenceable(8) %_1), !dbg !1388
   br label %bb1, !dbg !1388
 
 bb1:                                              ; preds = %start
@@ -2173,14 +2181,14 @@ bb1:                                              ; preds = %start
 
 ; core::ptr::drop_in_place::<alloc::sync::Arc<std::sync::mutex::Mutex<alloc::vec::Vec<u8>>>>
 ; Function Attrs: nonlazybind uwtable
-define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc4sync3ArcINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtBL_3vec3VechEEEECs37qxPUa7whq_20oneway_thread_access(i64** %_1) unnamed_addr #0 !dbg !1389 {
+define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc4sync3ArcINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtBL_3vec3VechEEEECsdT7u4N7w2iC_20stack_map_and_mutate(i64** %_1) unnamed_addr #0 !dbg !1389 {
 start:
   %_1.dbg.spill = alloca i64**, align 8
   %0 = alloca {}, align 1
   store i64** %_1, i64*** %_1.dbg.spill, align 8
   call void @llvm.dbg.declare(metadata i64*** %_1.dbg.spill, metadata !1394, metadata !DIExpression()), !dbg !1395
 ; call <alloc::sync::Arc<std::sync::mutex::Mutex<alloc::vec::Vec<u8>>> as core::ops::drop::Drop>::drop
-  call void @_RNvXsp_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtB7_3vec3VechEEENtNtNtCs3p84KrD9aKt_4core3ops4drop4Drop4dropCs37qxPUa7whq_20oneway_thread_access(i64** align 8 dereferenceable(8) %_1), !dbg !1395
+  call void @_RNvXsp_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtB7_3vec3VechEEENtNtNtCs3p84KrD9aKt_4core3ops4drop4Drop4dropCsdT7u4N7w2iC_20stack_map_and_mutate(i64** align 8 dereferenceable(8) %_1), !dbg !1395
   br label %bb1, !dbg !1395
 
 bb1:                                              ; preds = %start
@@ -2189,14 +2197,14 @@ bb1:                                              ; preds = %start
 
 ; core::ptr::drop_in_place::<alloc::sync::Arc<std::thread::Inner>>
 ; Function Attrs: nonlazybind uwtable
-define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc4sync3ArcNtNtCs2bNvlddUlXM_3std6thread5InnerEECs37qxPUa7whq_20oneway_thread_access(i64** %_1) unnamed_addr #0 !dbg !1396 {
+define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc4sync3ArcNtNtCs2bNvlddUlXM_3std6thread5InnerEECsdT7u4N7w2iC_20stack_map_and_mutate(i64** %_1) unnamed_addr #0 !dbg !1396 {
 start:
   %_1.dbg.spill = alloca i64**, align 8
   %0 = alloca {}, align 1
   store i64** %_1, i64*** %_1.dbg.spill, align 8
   call void @llvm.dbg.declare(metadata i64*** %_1.dbg.spill, metadata !1401, metadata !DIExpression()), !dbg !1404
 ; call <alloc::sync::Arc<std::thread::Inner> as core::ops::drop::Drop>::drop
-  call void @_RNvXsp_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcNtNtCs2bNvlddUlXM_3std6thread5InnerENtNtNtCs3p84KrD9aKt_4core3ops4drop4Drop4dropCs37qxPUa7whq_20oneway_thread_access(i64** align 8 dereferenceable(8) %_1), !dbg !1404
+  call void @_RNvXsp_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcNtNtCs2bNvlddUlXM_3std6thread5InnerENtNtNtCs3p84KrD9aKt_4core3ops4drop4Drop4dropCsdT7u4N7w2iC_20stack_map_and_mutate(i64** align 8 dereferenceable(8) %_1), !dbg !1404
   br label %bb1, !dbg !1404
 
 bb1:                                              ; preds = %start
@@ -2205,14 +2213,14 @@ bb1:                                              ; preds = %start
 
 ; core::ptr::drop_in_place::<alloc::sync::Weak<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>>>
 ; Function Attrs: nonlazybind uwtable
-define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc4sync4WeakINtNtB4_4cell10UnsafeCellINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtBL_5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEEEECs37qxPUa7whq_20oneway_thread_access(i64** %_1) unnamed_addr #0 !dbg !1405 {
+define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc4sync4WeakINtNtB4_4cell10UnsafeCellINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtBL_5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEEEECsdT7u4N7w2iC_20stack_map_and_mutate(i64** %_1) unnamed_addr #0 !dbg !1405 {
 start:
   %_1.dbg.spill = alloca i64**, align 8
   %0 = alloca {}, align 1
   store i64** %_1, i64*** %_1.dbg.spill, align 8
   call void @llvm.dbg.declare(metadata i64*** %_1.dbg.spill, metadata !1410, metadata !DIExpression()), !dbg !1411
 ; call <alloc::sync::Weak<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>> as core::ops::drop::Drop>::drop
-  call void @_RNvXsw_NtCs8RW06R9lH2S_5alloc4syncINtB5_4WeakINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtBM_6option6OptionINtNtBM_6result6ResultuINtNtB7_5boxed3BoxDNtNtBM_3any3AnyNtNtBM_6marker4SendEL_EEEEENtNtNtBM_3ops4drop4Drop4dropCs37qxPUa7whq_20oneway_thread_access(i64** align 8 dereferenceable(8) %_1), !dbg !1411
+  call void @_RNvXsw_NtCs8RW06R9lH2S_5alloc4syncINtB5_4WeakINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtBM_6option6OptionINtNtBM_6result6ResultuINtNtB7_5boxed3BoxDNtNtBM_3any3AnyNtNtBM_6marker4SendEL_EEEEENtNtNtBM_3ops4drop4Drop4dropCsdT7u4N7w2iC_20stack_map_and_mutate(i64** align 8 dereferenceable(8) %_1), !dbg !1411
   br label %bb1, !dbg !1411
 
 bb1:                                              ; preds = %start
@@ -2221,14 +2229,14 @@ bb1:                                              ; preds = %start
 
 ; core::ptr::drop_in_place::<alloc::sync::Weak<std::sync::mutex::Mutex<alloc::vec::Vec<u8>>>>
 ; Function Attrs: nonlazybind uwtable
-define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc4sync4WeakINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtBL_3vec3VechEEEECs37qxPUa7whq_20oneway_thread_access(i64** %_1) unnamed_addr #0 !dbg !1412 {
+define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc4sync4WeakINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtBL_3vec3VechEEEECsdT7u4N7w2iC_20stack_map_and_mutate(i64** %_1) unnamed_addr #0 !dbg !1412 {
 start:
   %_1.dbg.spill = alloca i64**, align 8
   %0 = alloca {}, align 1
   store i64** %_1, i64*** %_1.dbg.spill, align 8
   call void @llvm.dbg.declare(metadata i64*** %_1.dbg.spill, metadata !1417, metadata !DIExpression()), !dbg !1418
 ; call <alloc::sync::Weak<std::sync::mutex::Mutex<alloc::vec::Vec<u8>>> as core::ops::drop::Drop>::drop
-  call void @_RNvXsw_NtCs8RW06R9lH2S_5alloc4syncINtB5_4WeakINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtB7_3vec3VechEEENtNtNtCs3p84KrD9aKt_4core3ops4drop4Drop4dropCs37qxPUa7whq_20oneway_thread_access(i64** align 8 dereferenceable(8) %_1), !dbg !1418
+  call void @_RNvXsw_NtCs8RW06R9lH2S_5alloc4syncINtB5_4WeakINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtB7_3vec3VechEEENtNtNtCs3p84KrD9aKt_4core3ops4drop4Drop4dropCsdT7u4N7w2iC_20stack_map_and_mutate(i64** align 8 dereferenceable(8) %_1), !dbg !1418
   br label %bb1, !dbg !1418
 
 bb1:                                              ; preds = %start
@@ -2237,14 +2245,14 @@ bb1:                                              ; preds = %start
 
 ; core::ptr::drop_in_place::<alloc::sync::Weak<std::thread::Inner>>
 ; Function Attrs: nonlazybind uwtable
-define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc4sync4WeakNtNtCs2bNvlddUlXM_3std6thread5InnerEECs37qxPUa7whq_20oneway_thread_access(i64** %_1) unnamed_addr #0 !dbg !1419 {
+define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc4sync4WeakNtNtCs2bNvlddUlXM_3std6thread5InnerEECsdT7u4N7w2iC_20stack_map_and_mutate(i64** %_1) unnamed_addr #0 !dbg !1419 {
 start:
   %_1.dbg.spill = alloca i64**, align 8
   %0 = alloca {}, align 1
   store i64** %_1, i64*** %_1.dbg.spill, align 8
   call void @llvm.dbg.declare(metadata i64*** %_1.dbg.spill, metadata !1424, metadata !DIExpression()), !dbg !1425
 ; call <alloc::sync::Weak<std::thread::Inner> as core::ops::drop::Drop>::drop
-  call void @_RNvXsw_NtCs8RW06R9lH2S_5alloc4syncINtB5_4WeakNtNtCs2bNvlddUlXM_3std6thread5InnerENtNtNtCs3p84KrD9aKt_4core3ops4drop4Drop4dropCs37qxPUa7whq_20oneway_thread_access(i64** align 8 dereferenceable(8) %_1), !dbg !1425
+  call void @_RNvXsw_NtCs8RW06R9lH2S_5alloc4syncINtB5_4WeakNtNtCs2bNvlddUlXM_3std6thread5InnerENtNtNtCs3p84KrD9aKt_4core3ops4drop4Drop4dropCsdT7u4N7w2iC_20stack_map_and_mutate(i64** align 8 dereferenceable(8) %_1), !dbg !1425
   br label %bb1, !dbg !1425
 
 bb1:                                              ; preds = %start
@@ -2253,7 +2261,7 @@ bb1:                                              ; preds = %start
 
 ; core::ptr::drop_in_place::<alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>
 ; Function Attrs: nonlazybind uwtable
-define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EECs37qxPUa7whq_20oneway_thread_access({ {}*, [3 x i64]* }* %_1) unnamed_addr #0 personality i32 (i32, i32, i64, %"unwind::libunwind::_Unwind_Exception"*, %"unwind::libunwind::_Unwind_Context"*)* @rust_eh_personality !dbg !1426 {
+define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EECsdT7u4N7w2iC_20stack_map_and_mutate({ {}*, [3 x i64]* }* %_1) unnamed_addr #0 personality i32 (i32, i32, i64, %"unwind::libunwind::_Unwind_Exception"*, %"unwind::libunwind::_Unwind_Context"*)* @rust_eh_personality !dbg !1426 {
 start:
   %0 = alloca { i8*, i32 }, align 8
   %_1.dbg.spill = alloca { {}*, [3 x i64]* }*, align 8
@@ -2289,7 +2297,7 @@ bb3:                                              ; preds = %start
   %18 = getelementptr inbounds { i8*, i64* }, { i8*, i64* }* %15, i32 0, i32 1, !dbg !1432
   %19 = load i64*, i64** %18, align 8, !dbg !1432, !nonnull !4
 ; call alloc::alloc::box_free::<dyn core::any::Any + core::marker::Send, alloc::alloc::Global>
-  call void @_RINvNtCs8RW06R9lH2S_5alloc5alloc8box_freeDNtNtCs3p84KrD9aKt_4core3any3AnyNtNtBI_6marker4SendEL_NtB2_6GlobalECs37qxPUa7whq_20oneway_thread_access(i8* nonnull %17, i64* noalias readonly align 8 dereferenceable(24) %19), !dbg !1432
+  call void @_RINvNtCs8RW06R9lH2S_5alloc5alloc8box_freeDNtNtCs3p84KrD9aKt_4core3any3AnyNtNtBI_6marker4SendEL_NtB2_6GlobalECsdT7u4N7w2iC_20stack_map_and_mutate(i8* nonnull %17, i64* noalias readonly align 8 dereferenceable(24) %19), !dbg !1432
   br label %bb1, !dbg !1432
 
 bb4:                                              ; preds = %cleanup
@@ -2299,7 +2307,7 @@ bb4:                                              ; preds = %cleanup
   %23 = getelementptr inbounds { i8*, i64* }, { i8*, i64* }* %20, i32 0, i32 1, !dbg !1432
   %24 = load i64*, i64** %23, align 8, !dbg !1432, !nonnull !4
 ; call alloc::alloc::box_free::<dyn core::any::Any + core::marker::Send, alloc::alloc::Global>
-  call void @_RINvNtCs8RW06R9lH2S_5alloc5alloc8box_freeDNtNtCs3p84KrD9aKt_4core3any3AnyNtNtBI_6marker4SendEL_NtB2_6GlobalECs37qxPUa7whq_20oneway_thread_access(i8* nonnull %22, i64* noalias readonly align 8 dereferenceable(24) %24) #12, !dbg !1432
+  call void @_RINvNtCs8RW06R9lH2S_5alloc5alloc8box_freeDNtNtCs3p84KrD9aKt_4core3any3AnyNtNtBI_6marker4SendEL_NtB2_6GlobalECsdT7u4N7w2iC_20stack_map_and_mutate(i8* nonnull %22, i64* noalias readonly align 8 dereferenceable(24) %24) #13, !dbg !1432
   br label %bb2, !dbg !1432
 
 cleanup:                                          ; preds = %start
@@ -2316,7 +2324,7 @@ cleanup:                                          ; preds = %start
 
 ; core::ptr::drop_in_place::<alloc::boxed::Box<dyn std::error::Error + core::marker::Send + core::marker::Sync>>
 ; Function Attrs: nonlazybind uwtable
-define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtCs2bNvlddUlXM_3std5error5ErrorNtNtB4_6marker4SendNtB1Q_4SyncEL_EECs37qxPUa7whq_20oneway_thread_access({ {}*, [3 x i64]* }* %_1) unnamed_addr #0 personality i32 (i32, i32, i64, %"unwind::libunwind::_Unwind_Exception"*, %"unwind::libunwind::_Unwind_Context"*)* @rust_eh_personality !dbg !1433 {
+define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtCs2bNvlddUlXM_3std5error5ErrorNtNtB4_6marker4SendNtB1Q_4SyncEL_EECsdT7u4N7w2iC_20stack_map_and_mutate({ {}*, [3 x i64]* }* %_1) unnamed_addr #0 personality i32 (i32, i32, i64, %"unwind::libunwind::_Unwind_Exception"*, %"unwind::libunwind::_Unwind_Context"*)* @rust_eh_personality !dbg !1433 {
 start:
   %0 = alloca { i8*, i32 }, align 8
   %_1.dbg.spill = alloca { {}*, [3 x i64]* }*, align 8
@@ -2352,7 +2360,7 @@ bb3:                                              ; preds = %start
   %18 = getelementptr inbounds { i8*, i64* }, { i8*, i64* }* %15, i32 0, i32 1, !dbg !1441
   %19 = load i64*, i64** %18, align 8, !dbg !1441, !nonnull !4
 ; call alloc::alloc::box_free::<dyn std::error::Error + core::marker::Send + core::marker::Sync, alloc::alloc::Global>
-  call void @_RINvNtCs8RW06R9lH2S_5alloc5alloc8box_freeDNtNtCs2bNvlddUlXM_3std5error5ErrorNtNtCs3p84KrD9aKt_4core6marker4SendNtB1e_4SyncEL_NtB2_6GlobalECs37qxPUa7whq_20oneway_thread_access(i8* nonnull %17, i64* noalias readonly align 8 dereferenceable(24) %19), !dbg !1441
+  call void @_RINvNtCs8RW06R9lH2S_5alloc5alloc8box_freeDNtNtCs2bNvlddUlXM_3std5error5ErrorNtNtCs3p84KrD9aKt_4core6marker4SendNtB1e_4SyncEL_NtB2_6GlobalECsdT7u4N7w2iC_20stack_map_and_mutate(i8* nonnull %17, i64* noalias readonly align 8 dereferenceable(24) %19), !dbg !1441
   br label %bb1, !dbg !1441
 
 bb4:                                              ; preds = %cleanup
@@ -2362,7 +2370,7 @@ bb4:                                              ; preds = %cleanup
   %23 = getelementptr inbounds { i8*, i64* }, { i8*, i64* }* %20, i32 0, i32 1, !dbg !1441
   %24 = load i64*, i64** %23, align 8, !dbg !1441, !nonnull !4
 ; call alloc::alloc::box_free::<dyn std::error::Error + core::marker::Send + core::marker::Sync, alloc::alloc::Global>
-  call void @_RINvNtCs8RW06R9lH2S_5alloc5alloc8box_freeDNtNtCs2bNvlddUlXM_3std5error5ErrorNtNtCs3p84KrD9aKt_4core6marker4SendNtB1e_4SyncEL_NtB2_6GlobalECs37qxPUa7whq_20oneway_thread_access(i8* nonnull %22, i64* noalias readonly align 8 dereferenceable(24) %24) #12, !dbg !1441
+  call void @_RINvNtCs8RW06R9lH2S_5alloc5alloc8box_freeDNtNtCs2bNvlddUlXM_3std5error5ErrorNtNtCs3p84KrD9aKt_4core6marker4SendNtB1e_4SyncEL_NtB2_6GlobalECsdT7u4N7w2iC_20stack_map_and_mutate(i8* nonnull %22, i64* noalias readonly align 8 dereferenceable(24) %24) #13, !dbg !1441
   br label %bb2, !dbg !1441
 
 cleanup:                                          ; preds = %start
@@ -2379,7 +2387,7 @@ cleanup:                                          ; preds = %start
 
 ; core::ptr::drop_in_place::<alloc::boxed::Box<std::io::error::Custom>>
 ; Function Attrs: nonlazybind uwtable
-define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc5boxed3BoxNtNtNtCs2bNvlddUlXM_3std2io5error6CustomEECs37qxPUa7whq_20oneway_thread_access(%"std::io::error::Custom"** %_1) unnamed_addr #0 personality i32 (i32, i32, i64, %"unwind::libunwind::_Unwind_Exception"*, %"unwind::libunwind::_Unwind_Context"*)* @rust_eh_personality !dbg !1442 {
+define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc5boxed3BoxNtNtNtCs2bNvlddUlXM_3std2io5error6CustomEECsdT7u4N7w2iC_20stack_map_and_mutate(%"std::io::error::Custom"** %_1) unnamed_addr #0 personality i32 (i32, i32, i64, %"unwind::libunwind::_Unwind_Exception"*, %"unwind::libunwind::_Unwind_Context"*)* @rust_eh_personality !dbg !1442 {
 start:
   %0 = alloca { i8*, i32 }, align 8
   %_1.dbg.spill = alloca %"std::io::error::Custom"**, align 8
@@ -2388,7 +2396,7 @@ start:
   call void @llvm.dbg.declare(metadata %"std::io::error::Custom"*** %_1.dbg.spill, metadata !1447, metadata !DIExpression()), !dbg !1450
   %2 = load %"std::io::error::Custom"*, %"std::io::error::Custom"** %_1, align 8, !dbg !1450, !nonnull !4
 ; invoke core::ptr::drop_in_place::<std::io::error::Custom>
-  invoke void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNtNtNtCs2bNvlddUlXM_3std2io5error6CustomECs37qxPUa7whq_20oneway_thread_access(%"std::io::error::Custom"* %2)
+  invoke void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNtNtNtCs2bNvlddUlXM_3std2io5error6CustomECsdT7u4N7w2iC_20stack_map_and_mutate(%"std::io::error::Custom"* %2)
           to label %bb3 unwind label %cleanup, !dbg !1450
 
 bb1:                                              ; preds = %bb3
@@ -2407,14 +2415,14 @@ bb3:                                              ; preds = %start
   %9 = bitcast %"std::io::error::Custom"** %_1 to i64**, !dbg !1450
   %10 = load i64*, i64** %9, align 8, !dbg !1450, !nonnull !4
 ; call alloc::alloc::box_free::<std::io::error::Custom, alloc::alloc::Global>
-  call void @_RINvNtCs8RW06R9lH2S_5alloc5alloc8box_freeNtNtNtCs2bNvlddUlXM_3std2io5error6CustomNtB2_6GlobalECs37qxPUa7whq_20oneway_thread_access(i64* nonnull %10), !dbg !1450
+  call void @_RINvNtCs8RW06R9lH2S_5alloc5alloc8box_freeNtNtNtCs2bNvlddUlXM_3std2io5error6CustomNtB2_6GlobalECsdT7u4N7w2iC_20stack_map_and_mutate(i64* nonnull %10), !dbg !1450
   br label %bb1, !dbg !1450
 
 bb4:                                              ; preds = %cleanup
   %11 = bitcast %"std::io::error::Custom"** %_1 to i64**, !dbg !1450
   %12 = load i64*, i64** %11, align 8, !dbg !1450, !nonnull !4
 ; call alloc::alloc::box_free::<std::io::error::Custom, alloc::alloc::Global>
-  call void @_RINvNtCs8RW06R9lH2S_5alloc5alloc8box_freeNtNtNtCs2bNvlddUlXM_3std2io5error6CustomNtB2_6GlobalECs37qxPUa7whq_20oneway_thread_access(i64* nonnull %12) #12, !dbg !1450
+  call void @_RINvNtCs8RW06R9lH2S_5alloc5alloc8box_freeNtNtNtCs2bNvlddUlXM_3std2io5error6CustomNtB2_6GlobalECsdT7u4N7w2iC_20stack_map_and_mutate(i64* nonnull %12) #13, !dbg !1450
   br label %bb2, !dbg !1450
 
 cleanup:                                          ; preds = %start
@@ -2431,7 +2439,7 @@ cleanup:                                          ; preds = %start
 
 ; core::ptr::drop_in_place::<alloc::boxed::Box<std::sys::unix::mutex::Mutex>>
 ; Function Attrs: nonlazybind uwtable
-define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc5boxed3BoxNtNtNtNtCs2bNvlddUlXM_3std3sys4unix5mutex5MutexEECs37qxPUa7whq_20oneway_thread_access(%"std::sys::unix::mutex::Mutex"** %_1) unnamed_addr #0 personality i32 (i32, i32, i64, %"unwind::libunwind::_Unwind_Exception"*, %"unwind::libunwind::_Unwind_Context"*)* @rust_eh_personality !dbg !1451 {
+define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc5boxed3BoxNtNtNtNtCs2bNvlddUlXM_3std3sys4unix5mutex5MutexEECsdT7u4N7w2iC_20stack_map_and_mutate(%"std::sys::unix::mutex::Mutex"** %_1) unnamed_addr #0 personality i32 (i32, i32, i64, %"unwind::libunwind::_Unwind_Exception"*, %"unwind::libunwind::_Unwind_Context"*)* @rust_eh_personality !dbg !1451 {
 start:
   %0 = alloca { i8*, i32 }, align 8
   %_1.dbg.spill = alloca %"std::sys::unix::mutex::Mutex"**, align 8
@@ -2456,20 +2464,20 @@ bb3:                                              ; preds = %start
   %8 = bitcast %"std::sys::unix::mutex::Mutex"** %_1 to i64**, !dbg !1459
   %9 = load i64*, i64** %8, align 8, !dbg !1459, !nonnull !4
 ; call alloc::alloc::box_free::<std::sys::unix::mutex::Mutex, alloc::alloc::Global>
-  call void @_RINvNtCs8RW06R9lH2S_5alloc5alloc8box_freeNtNtNtNtCs2bNvlddUlXM_3std3sys4unix5mutex5MutexNtB2_6GlobalECs37qxPUa7whq_20oneway_thread_access(i64* nonnull %9), !dbg !1459
+  call void @_RINvNtCs8RW06R9lH2S_5alloc5alloc8box_freeNtNtNtNtCs2bNvlddUlXM_3std3sys4unix5mutex5MutexNtB2_6GlobalECsdT7u4N7w2iC_20stack_map_and_mutate(i64* nonnull %9), !dbg !1459
   br label %bb1, !dbg !1459
 
 bb4:                                              ; No predecessors!
   %10 = bitcast %"std::sys::unix::mutex::Mutex"** %_1 to i64**, !dbg !1459
   %11 = load i64*, i64** %10, align 8, !dbg !1459, !nonnull !4
 ; call alloc::alloc::box_free::<std::sys::unix::mutex::Mutex, alloc::alloc::Global>
-  call void @_RINvNtCs8RW06R9lH2S_5alloc5alloc8box_freeNtNtNtNtCs2bNvlddUlXM_3std3sys4unix5mutex5MutexNtB2_6GlobalECs37qxPUa7whq_20oneway_thread_access(i64* nonnull %11) #12, !dbg !1459
+  call void @_RINvNtCs8RW06R9lH2S_5alloc5alloc8box_freeNtNtNtNtCs2bNvlddUlXM_3std3sys4unix5mutex5MutexNtB2_6GlobalECsdT7u4N7w2iC_20stack_map_and_mutate(i64* nonnull %11) #13, !dbg !1459
   br label %bb2, !dbg !1459
 }
 
 ; core::ptr::drop_in_place::<alloc::boxed::Box<[u8]>>
 ; Function Attrs: nonlazybind uwtable
-define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc5boxed3BoxShEECs37qxPUa7whq_20oneway_thread_access({ [0 x i8]*, i64 }* %_1) unnamed_addr #0 personality i32 (i32, i32, i64, %"unwind::libunwind::_Unwind_Exception"*, %"unwind::libunwind::_Unwind_Context"*)* @rust_eh_personality !dbg !1460 {
+define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc5boxed3BoxShEECsdT7u4N7w2iC_20stack_map_and_mutate({ [0 x i8]*, i64 }* %_1) unnamed_addr #0 personality i32 (i32, i32, i64, %"unwind::libunwind::_Unwind_Exception"*, %"unwind::libunwind::_Unwind_Context"*)* @rust_eh_personality !dbg !1460 {
 start:
   %0 = alloca { i8*, i32 }, align 8
   %_1.dbg.spill = alloca { [0 x i8]*, i64 }*, align 8
@@ -2497,7 +2505,7 @@ bb3:                                              ; preds = %start
   %11 = getelementptr inbounds { i8*, i64 }, { i8*, i64 }* %8, i32 0, i32 1, !dbg !1468
   %12 = load i64, i64* %11, align 8, !dbg !1468
 ; call alloc::alloc::box_free::<[u8], alloc::alloc::Global>
-  call void @_RINvNtCs8RW06R9lH2S_5alloc5alloc8box_freeShNtB2_6GlobalECs37qxPUa7whq_20oneway_thread_access(i8* nonnull %10, i64 %12), !dbg !1468
+  call void @_RINvNtCs8RW06R9lH2S_5alloc5alloc8box_freeShNtB2_6GlobalECsdT7u4N7w2iC_20stack_map_and_mutate(i8* nonnull %10, i64 %12), !dbg !1468
   br label %bb1, !dbg !1468
 
 bb4:                                              ; No predecessors!
@@ -2507,20 +2515,20 @@ bb4:                                              ; No predecessors!
   %16 = getelementptr inbounds { i8*, i64 }, { i8*, i64 }* %13, i32 0, i32 1, !dbg !1468
   %17 = load i64, i64* %16, align 8, !dbg !1468
 ; call alloc::alloc::box_free::<[u8], alloc::alloc::Global>
-  call void @_RINvNtCs8RW06R9lH2S_5alloc5alloc8box_freeShNtB2_6GlobalECs37qxPUa7whq_20oneway_thread_access(i8* nonnull %15, i64 %17) #12, !dbg !1468
+  call void @_RINvNtCs8RW06R9lH2S_5alloc5alloc8box_freeShNtB2_6GlobalECsdT7u4N7w2iC_20stack_map_and_mutate(i8* nonnull %15, i64 %17) #13, !dbg !1468
   br label %bb2, !dbg !1468
 }
 
 ; core::ptr::drop_in_place::<alloc::raw_vec::RawVec<u8>>
 ; Function Attrs: nonlazybind uwtable
-define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc7raw_vec6RawVechEECs37qxPUa7whq_20oneway_thread_access({ i8*, i64 }* %_1) unnamed_addr #0 !dbg !1469 {
+define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc7raw_vec6RawVechEECsdT7u4N7w2iC_20stack_map_and_mutate({ i8*, i64 }* %_1) unnamed_addr #0 !dbg !1469 {
 start:
   %_1.dbg.spill = alloca { i8*, i64 }*, align 8
   %0 = alloca {}, align 1
   store { i8*, i64 }* %_1, { i8*, i64 }** %_1.dbg.spill, align 8
   call void @llvm.dbg.declare(metadata { i8*, i64 }** %_1.dbg.spill, metadata !1474, metadata !DIExpression()), !dbg !1477
 ; call <alloc::raw_vec::RawVec<u8> as core::ops::drop::Drop>::drop
-  call void @_RNvXs1_NtCs8RW06R9lH2S_5alloc7raw_vecINtB5_6RawVechENtNtNtCs3p84KrD9aKt_4core3ops4drop4Drop4dropCs37qxPUa7whq_20oneway_thread_access({ i8*, i64 }* align 8 dereferenceable(16) %_1), !dbg !1477
+  call void @_RNvXs1_NtCs8RW06R9lH2S_5alloc7raw_vecINtB5_6RawVechENtNtNtCs3p84KrD9aKt_4core3ops4drop4Drop4dropCsdT7u4N7w2iC_20stack_map_and_mutate({ i8*, i64 }* align 8 dereferenceable(16) %_1), !dbg !1477
   br label %bb1, !dbg !1477
 
 bb1:                                              ; preds = %start
@@ -2529,7 +2537,7 @@ bb1:                                              ; preds = %start
 
 ; core::ptr::drop_in_place::<std::sync::mutex::Mutex<alloc::vec::Vec<u8>>>
 ; Function Attrs: nonlazybind uwtable
-define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtCs8RW06R9lH2S_5alloc3vec3VechEEECs37qxPUa7whq_20oneway_thread_access(%"std::sync::Mutex<std::vec::Vec<u8>>"* %_1) unnamed_addr #0 personality i32 (i32, i32, i64, %"unwind::libunwind::_Unwind_Exception"*, %"unwind::libunwind::_Unwind_Context"*)* @rust_eh_personality !dbg !1478 {
+define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtCs8RW06R9lH2S_5alloc3vec3VechEEECsdT7u4N7w2iC_20stack_map_and_mutate(%"std::sync::Mutex<std::vec::Vec<u8>>"* %_1) unnamed_addr #0 personality i32 (i32, i32, i64, %"unwind::libunwind::_Unwind_Exception"*, %"unwind::libunwind::_Unwind_Context"*)* @rust_eh_personality !dbg !1478 {
 start:
   %0 = alloca { i8*, i32 }, align 8
   %_1.dbg.spill = alloca %"std::sync::Mutex<std::vec::Vec<u8>>"*, align 8
@@ -2538,7 +2546,7 @@ start:
   call void @llvm.dbg.declare(metadata %"std::sync::Mutex<std::vec::Vec<u8>>"** %_1.dbg.spill, metadata !1483, metadata !DIExpression()), !dbg !1484
   %2 = bitcast %"std::sync::Mutex<std::vec::Vec<u8>>"* %_1 to i64**, !dbg !1484
 ; invoke core::ptr::drop_in_place::<std::sys_common::mutex::MovableMutex>
-  invoke void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNtNtNtCs2bNvlddUlXM_3std10sys_common5mutex12MovableMutexECs37qxPUa7whq_20oneway_thread_access(i64** %2)
+  invoke void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNtNtNtCs2bNvlddUlXM_3std10sys_common5mutex12MovableMutexECsdT7u4N7w2iC_20stack_map_and_mutate(i64** %2)
           to label %bb4 unwind label %cleanup, !dbg !1484
 
 bb1:                                              ; preds = %bb3
@@ -2556,13 +2564,13 @@ bb2:                                              ; preds = %bb4
 bb3:                                              ; preds = %cleanup
   %9 = getelementptr inbounds %"std::sync::Mutex<std::vec::Vec<u8>>", %"std::sync::Mutex<std::vec::Vec<u8>>"* %_1, i32 0, i32 5, !dbg !1484
 ; call core::ptr::drop_in_place::<core::cell::UnsafeCell<alloc::vec::Vec<u8>>>
-  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_4cell10UnsafeCellINtNtCs8RW06R9lH2S_5alloc3vec3VechEEECs37qxPUa7whq_20oneway_thread_access(%"std::cell::UnsafeCell<std::vec::Vec<u8>>"* %9) #12, !dbg !1484
+  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_4cell10UnsafeCellINtNtCs8RW06R9lH2S_5alloc3vec3VechEEECsdT7u4N7w2iC_20stack_map_and_mutate(%"std::cell::UnsafeCell<std::vec::Vec<u8>>"* %9) #13, !dbg !1484
   br label %bb1, !dbg !1484
 
 bb4:                                              ; preds = %start
   %10 = getelementptr inbounds %"std::sync::Mutex<std::vec::Vec<u8>>", %"std::sync::Mutex<std::vec::Vec<u8>>"* %_1, i32 0, i32 5, !dbg !1484
 ; call core::ptr::drop_in_place::<core::cell::UnsafeCell<alloc::vec::Vec<u8>>>
-  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_4cell10UnsafeCellINtNtCs8RW06R9lH2S_5alloc3vec3VechEEECs37qxPUa7whq_20oneway_thread_access(%"std::cell::UnsafeCell<std::vec::Vec<u8>>"* %10), !dbg !1484
+  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_4cell10UnsafeCellINtNtCs8RW06R9lH2S_5alloc3vec3VechEEECsdT7u4N7w2iC_20stack_map_and_mutate(%"std::cell::UnsafeCell<std::vec::Vec<u8>>"* %10), !dbg !1484
   br label %bb2, !dbg !1484
 
 cleanup:                                          ; preds = %start
@@ -2577,18 +2585,18 @@ cleanup:                                          ; preds = %start
   br label %bb3
 }
 
-; core::ptr::drop_in_place::<<std::thread::Builder>::spawn_unchecked<oneway_thread_access::main::{closure#0}, ()>::{closure#0}>
+; core::ptr::drop_in_place::<<std::thread::Builder>::spawn_unchecked<stack_map_and_mutate::main::{closure#0}, ()>::{closure#0}>
 ; Function Attrs: nonlazybind uwtable
-define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNCINvMNtCs2bNvlddUlXM_3std6threadNtBM_7Builder15spawn_uncheckedNCNvCs37qxPUa7whq_20oneway_thread_access4main0uE0EB1L_(%"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 16:3], ()>::{closure#0}]"* %_1) unnamed_addr #0 personality i32 (i32, i32, i64, %"unwind::libunwind::_Unwind_Exception"*, %"unwind::libunwind::_Unwind_Context"*)* @rust_eh_personality !dbg !1485 {
+define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNCINvMNtCs2bNvlddUlXM_3std6threadNtBM_7Builder15spawn_uncheckedNCNvCsdT7u4N7w2iC_20stack_map_and_mutate4main0uE0EB1L_(%"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 18:3], ()>::{closure#0}]"* %_1) unnamed_addr #0 personality i32 (i32, i32, i64, %"unwind::libunwind::_Unwind_Exception"*, %"unwind::libunwind::_Unwind_Context"*)* @rust_eh_personality !dbg !1485 {
 start:
   %0 = alloca { i8*, i32 }, align 8
-  %_1.dbg.spill = alloca %"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 16:3], ()>::{closure#0}]"*, align 8
+  %_1.dbg.spill = alloca %"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 18:3], ()>::{closure#0}]"*, align 8
   %1 = alloca {}, align 1
-  store %"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 16:3], ()>::{closure#0}]"* %_1, %"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 16:3], ()>::{closure#0}]"** %_1.dbg.spill, align 8
-  call void @llvm.dbg.declare(metadata %"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 16:3], ()>::{closure#0}]"** %_1.dbg.spill, metadata !1490, metadata !DIExpression()), !dbg !1491
-  %2 = bitcast %"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 16:3], ()>::{closure#0}]"* %_1 to i64**, !dbg !1491
+  store %"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 18:3], ()>::{closure#0}]"* %_1, %"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 18:3], ()>::{closure#0}]"** %_1.dbg.spill, align 8
+  call void @llvm.dbg.declare(metadata %"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 18:3], ()>::{closure#0}]"** %_1.dbg.spill, metadata !1490, metadata !DIExpression()), !dbg !1491
+  %2 = bitcast %"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 18:3], ()>::{closure#0}]"* %_1 to i64**, !dbg !1491
 ; invoke core::ptr::drop_in_place::<std::thread::Thread>
-  invoke void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNtNtCs2bNvlddUlXM_3std6thread6ThreadECs37qxPUa7whq_20oneway_thread_access(i64** %2)
+  invoke void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNtNtCs2bNvlddUlXM_3std6thread6ThreadECsdT7u4N7w2iC_20stack_map_and_mutate(i64** %2)
           to label %bb6 unwind label %cleanup, !dbg !1491
 
 bb1:                                              ; preds = %bb3
@@ -2604,27 +2612,27 @@ bb2:                                              ; preds = %bb5
   ret void, !dbg !1491
 
 bb3:                                              ; preds = %cleanup1, %bb4
-  %9 = getelementptr inbounds %"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 16:3], ()>::{closure#0}]", %"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 16:3], ()>::{closure#0}]"* %_1, i32 0, i32 5, !dbg !1491
+  %9 = getelementptr inbounds %"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 18:3], ()>::{closure#0}]", %"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 18:3], ()>::{closure#0}]"* %_1, i32 0, i32 5, !dbg !1491
 ; call core::ptr::drop_in_place::<alloc::sync::Arc<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>>>
-  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc4sync3ArcINtNtB4_4cell10UnsafeCellINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtBL_5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEEEECs37qxPUa7whq_20oneway_thread_access(i64** %9) #12, !dbg !1491
+  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc4sync3ArcINtNtB4_4cell10UnsafeCellINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtBL_5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEEEECsdT7u4N7w2iC_20stack_map_and_mutate(i64** %9) #13, !dbg !1491
   br label %bb1, !dbg !1491
 
 bb4:                                              ; preds = %cleanup
-  %10 = getelementptr inbounds %"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 16:3], ()>::{closure#0}]", %"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 16:3], ()>::{closure#0}]"* %_1, i32 0, i32 3, !dbg !1491
+  %10 = getelementptr inbounds %"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 18:3], ()>::{closure#0}]", %"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 18:3], ()>::{closure#0}]"* %_1, i32 0, i32 3, !dbg !1491
 ; call core::ptr::drop_in_place::<core::option::Option<alloc::sync::Arc<std::sync::mutex::Mutex<alloc::vec::Vec<u8>>>>>
-  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_6option6OptionINtNtCs8RW06R9lH2S_5alloc4sync3ArcINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtB17_3vec3VechEEEEECs37qxPUa7whq_20oneway_thread_access(i64** %10) #12, !dbg !1491
+  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_6option6OptionINtNtCs8RW06R9lH2S_5alloc4sync3ArcINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtB17_3vec3VechEEEEECsdT7u4N7w2iC_20stack_map_and_mutate(i64** %10) #13, !dbg !1491
   br label %bb3, !dbg !1491
 
 bb5:                                              ; preds = %bb6
-  %11 = getelementptr inbounds %"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 16:3], ()>::{closure#0}]", %"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 16:3], ()>::{closure#0}]"* %_1, i32 0, i32 5, !dbg !1491
+  %11 = getelementptr inbounds %"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 18:3], ()>::{closure#0}]", %"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 18:3], ()>::{closure#0}]"* %_1, i32 0, i32 5, !dbg !1491
 ; call core::ptr::drop_in_place::<alloc::sync::Arc<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>>>
-  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc4sync3ArcINtNtB4_4cell10UnsafeCellINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtBL_5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEEEECs37qxPUa7whq_20oneway_thread_access(i64** %11), !dbg !1491
+  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc4sync3ArcINtNtB4_4cell10UnsafeCellINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtBL_5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEEEECsdT7u4N7w2iC_20stack_map_and_mutate(i64** %11), !dbg !1491
   br label %bb2, !dbg !1491
 
 bb6:                                              ; preds = %start
-  %12 = getelementptr inbounds %"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 16:3], ()>::{closure#0}]", %"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 16:3], ()>::{closure#0}]"* %_1, i32 0, i32 3, !dbg !1491
+  %12 = getelementptr inbounds %"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 18:3], ()>::{closure#0}]", %"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 18:3], ()>::{closure#0}]"* %_1, i32 0, i32 3, !dbg !1491
 ; invoke core::ptr::drop_in_place::<core::option::Option<alloc::sync::Arc<std::sync::mutex::Mutex<alloc::vec::Vec<u8>>>>>
-  invoke void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_6option6OptionINtNtCs8RW06R9lH2S_5alloc4sync3ArcINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtB17_3vec3VechEEEEECs37qxPUa7whq_20oneway_thread_access(i64** %12)
+  invoke void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_6option6OptionINtNtCs8RW06R9lH2S_5alloc4sync3ArcINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtB17_3vec3VechEEEEECsdT7u4N7w2iC_20stack_map_and_mutate(i64** %12)
           to label %bb5 unwind label %cleanup1, !dbg !1491
 
 cleanup:                                          ; preds = %start
@@ -2652,7 +2660,7 @@ cleanup1:                                         ; preds = %bb6
 
 ; core::ptr::drop_in_place::<std::rt::lang_start<()>::{closure#0}>
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNCINvNtCs2bNvlddUlXM_3std2rt10lang_startuE0ECs37qxPUa7whq_20oneway_thread_access(i64** %_1) unnamed_addr #1 !dbg !1492 {
+define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNCINvNtCs2bNvlddUlXM_3std2rt10lang_startuE0ECsdT7u4N7w2iC_20stack_map_and_mutate(i64** %_1) unnamed_addr #1 !dbg !1492 {
 start:
   %_1.dbg.spill = alloca i64**, align 8
   %0 = alloca {}, align 1
@@ -2663,7 +2671,7 @@ start:
 
 ; core::ptr::drop_in_place::<std::thread::Inner>
 ; Function Attrs: nonlazybind uwtable
-define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNtNtCs2bNvlddUlXM_3std6thread5InnerECs37qxPUa7whq_20oneway_thread_access(%"std::thread::Inner"* %_1) unnamed_addr #0 !dbg !1501 {
+define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNtNtCs2bNvlddUlXM_3std6thread5InnerECsdT7u4N7w2iC_20stack_map_and_mutate(%"std::thread::Inner"* %_1) unnamed_addr #0 !dbg !1501 {
 start:
   %_1.dbg.spill = alloca %"std::thread::Inner"*, align 8
   %0 = alloca {}, align 1
@@ -2671,7 +2679,7 @@ start:
   call void @llvm.dbg.declare(metadata %"std::thread::Inner"** %_1.dbg.spill, metadata !1506, metadata !DIExpression()), !dbg !1507
   %1 = bitcast %"std::thread::Inner"* %_1 to { i8*, i64 }*, !dbg !1507
 ; call core::ptr::drop_in_place::<core::option::Option<std::ffi::c_str::CString>>
-  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_6option6OptionNtNtNtCs2bNvlddUlXM_3std3ffi5c_str7CStringEECs37qxPUa7whq_20oneway_thread_access({ i8*, i64 }* %1), !dbg !1507
+  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_6option6OptionNtNtNtCs2bNvlddUlXM_3std3ffi5c_str7CStringEECsdT7u4N7w2iC_20stack_map_and_mutate({ i8*, i64 }* %1), !dbg !1507
   br label %bb1, !dbg !1507
 
 bb1:                                              ; preds = %start
@@ -2680,14 +2688,14 @@ bb1:                                              ; preds = %start
 
 ; core::ptr::drop_in_place::<std::thread::Thread>
 ; Function Attrs: nonlazybind uwtable
-define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNtNtCs2bNvlddUlXM_3std6thread6ThreadECs37qxPUa7whq_20oneway_thread_access(i64** %_1) unnamed_addr #0 !dbg !1508 {
+define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNtNtCs2bNvlddUlXM_3std6thread6ThreadECsdT7u4N7w2iC_20stack_map_and_mutate(i64** %_1) unnamed_addr #0 !dbg !1508 {
 start:
   %_1.dbg.spill = alloca i64**, align 8
   %0 = alloca {}, align 1
   store i64** %_1, i64*** %_1.dbg.spill, align 8
   call void @llvm.dbg.declare(metadata i64*** %_1.dbg.spill, metadata !1513, metadata !DIExpression()), !dbg !1516
 ; call core::ptr::drop_in_place::<alloc::sync::Arc<std::thread::Inner>>
-  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc4sync3ArcNtNtCs2bNvlddUlXM_3std6thread5InnerEECs37qxPUa7whq_20oneway_thread_access(i64** %_1), !dbg !1516
+  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc4sync3ArcNtNtCs2bNvlddUlXM_3std6thread5InnerEECsdT7u4N7w2iC_20stack_map_and_mutate(i64** %_1), !dbg !1516
   br label %bb1, !dbg !1516
 
 bb1:                                              ; preds = %start
@@ -2696,7 +2704,7 @@ bb1:                                              ; preds = %start
 
 ; core::ptr::drop_in_place::<alloc::string::String>
 ; Function Attrs: nonlazybind uwtable
-define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNtNtCs8RW06R9lH2S_5alloc6string6StringECs37qxPUa7whq_20oneway_thread_access(%"std::string::String"* %_1) unnamed_addr #0 !dbg !1517 {
+define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNtNtCs8RW06R9lH2S_5alloc6string6StringECsdT7u4N7w2iC_20stack_map_and_mutate(%"std::string::String"* %_1) unnamed_addr #0 !dbg !1517 {
 start:
   %_1.dbg.spill = alloca %"std::string::String"*, align 8
   %0 = alloca {}, align 1
@@ -2704,7 +2712,7 @@ start:
   call void @llvm.dbg.declare(metadata %"std::string::String"** %_1.dbg.spill, metadata !1522, metadata !DIExpression()), !dbg !1523
   %1 = bitcast %"std::string::String"* %_1 to %"std::vec::Vec<u8>"*, !dbg !1523
 ; call core::ptr::drop_in_place::<alloc::vec::Vec<u8>>
-  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc3vec3VechEECs37qxPUa7whq_20oneway_thread_access(%"std::vec::Vec<u8>"* %1), !dbg !1523
+  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc3vec3VechEECsdT7u4N7w2iC_20stack_map_and_mutate(%"std::vec::Vec<u8>"* %1), !dbg !1523
   br label %bb1, !dbg !1523
 
 bb1:                                              ; preds = %start
@@ -2713,7 +2721,7 @@ bb1:                                              ; preds = %start
 
 ; core::ptr::drop_in_place::<std::sys_common::mutex::MovableMutex>
 ; Function Attrs: nonlazybind uwtable
-define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNtNtNtCs2bNvlddUlXM_3std10sys_common5mutex12MovableMutexECs37qxPUa7whq_20oneway_thread_access(i64** %_1) unnamed_addr #0 personality i32 (i32, i32, i64, %"unwind::libunwind::_Unwind_Exception"*, %"unwind::libunwind::_Unwind_Context"*)* @rust_eh_personality !dbg !1524 {
+define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNtNtNtCs2bNvlddUlXM_3std10sys_common5mutex12MovableMutexECsdT7u4N7w2iC_20stack_map_and_mutate(i64** %_1) unnamed_addr #0 personality i32 (i32, i32, i64, %"unwind::libunwind::_Unwind_Exception"*, %"unwind::libunwind::_Unwind_Context"*)* @rust_eh_personality !dbg !1524 {
 start:
   %0 = alloca { i8*, i32 }, align 8
   %_1.dbg.spill = alloca i64**, align 8
@@ -2739,13 +2747,13 @@ bb2:                                              ; preds = %bb4
 bb3:                                              ; preds = %cleanup
   %8 = bitcast i64** %_1 to %"std::sys::unix::mutex::Mutex"**, !dbg !1532
 ; call core::ptr::drop_in_place::<alloc::boxed::Box<std::sys::unix::mutex::Mutex>>
-  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc5boxed3BoxNtNtNtNtCs2bNvlddUlXM_3std3sys4unix5mutex5MutexEECs37qxPUa7whq_20oneway_thread_access(%"std::sys::unix::mutex::Mutex"** %8) #12, !dbg !1532
+  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc5boxed3BoxNtNtNtNtCs2bNvlddUlXM_3std3sys4unix5mutex5MutexEECsdT7u4N7w2iC_20stack_map_and_mutate(%"std::sys::unix::mutex::Mutex"** %8) #13, !dbg !1532
   br label %bb1, !dbg !1532
 
 bb4:                                              ; preds = %start
   %9 = bitcast i64** %_1 to %"std::sys::unix::mutex::Mutex"**, !dbg !1532
 ; call core::ptr::drop_in_place::<alloc::boxed::Box<std::sys::unix::mutex::Mutex>>
-  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc5boxed3BoxNtNtNtNtCs2bNvlddUlXM_3std3sys4unix5mutex5MutexEECs37qxPUa7whq_20oneway_thread_access(%"std::sys::unix::mutex::Mutex"** %9), !dbg !1532
+  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc5boxed3BoxNtNtNtNtCs2bNvlddUlXM_3std3sys4unix5mutex5MutexEECsdT7u4N7w2iC_20stack_map_and_mutate(%"std::sys::unix::mutex::Mutex"** %9), !dbg !1532
   br label %bb2, !dbg !1532
 
 cleanup:                                          ; preds = %start
@@ -2762,7 +2770,7 @@ cleanup:                                          ; preds = %start
 
 ; core::ptr::drop_in_place::<std::io::error::Repr>
 ; Function Attrs: nonlazybind uwtable
-define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNtNtNtCs2bNvlddUlXM_3std2io5error4ReprECs37qxPUa7whq_20oneway_thread_access(%"std::io::error::Repr"* %_1) unnamed_addr #0 !dbg !1533 {
+define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNtNtNtCs2bNvlddUlXM_3std2io5error4ReprECsdT7u4N7w2iC_20stack_map_and_mutate(%"std::io::error::Repr"* %_1) unnamed_addr #0 !dbg !1533 {
 start:
   %_1.dbg.spill = alloca %"std::io::error::Repr"*, align 8
   %0 = alloca {}, align 1
@@ -2783,13 +2791,13 @@ bb2:                                              ; preds = %start
   %3 = bitcast %"std::io::error::Repr"* %_1 to %"std::io::error::Repr::Custom"*, !dbg !1541
   %4 = getelementptr inbounds %"std::io::error::Repr::Custom", %"std::io::error::Repr::Custom"* %3, i32 0, i32 1, !dbg !1541
 ; call core::ptr::drop_in_place::<alloc::boxed::Box<std::io::error::Custom>>
-  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc5boxed3BoxNtNtNtCs2bNvlddUlXM_3std2io5error6CustomEECs37qxPUa7whq_20oneway_thread_access(%"std::io::error::Custom"** %4), !dbg !1541
+  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc5boxed3BoxNtNtNtCs2bNvlddUlXM_3std2io5error6CustomEECsdT7u4N7w2iC_20stack_map_and_mutate(%"std::io::error::Custom"** %4), !dbg !1541
   br label %bb1, !dbg !1541
 }
 
 ; core::ptr::drop_in_place::<std::io::error::Error>
 ; Function Attrs: nonlazybind uwtable
-define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNtNtNtCs2bNvlddUlXM_3std2io5error5ErrorECs37qxPUa7whq_20oneway_thread_access(%"std::io::Error"* %_1) unnamed_addr #0 !dbg !1543 {
+define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNtNtNtCs2bNvlddUlXM_3std2io5error5ErrorECsdT7u4N7w2iC_20stack_map_and_mutate(%"std::io::Error"* %_1) unnamed_addr #0 !dbg !1543 {
 start:
   %_1.dbg.spill = alloca %"std::io::Error"*, align 8
   %0 = alloca {}, align 1
@@ -2797,7 +2805,7 @@ start:
   call void @llvm.dbg.declare(metadata %"std::io::Error"** %_1.dbg.spill, metadata !1548, metadata !DIExpression()), !dbg !1551
   %1 = bitcast %"std::io::Error"* %_1 to %"std::io::error::Repr"*, !dbg !1551
 ; call core::ptr::drop_in_place::<std::io::error::Repr>
-  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNtNtNtCs2bNvlddUlXM_3std2io5error4ReprECs37qxPUa7whq_20oneway_thread_access(%"std::io::error::Repr"* %1), !dbg !1551
+  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNtNtNtCs2bNvlddUlXM_3std2io5error4ReprECsdT7u4N7w2iC_20stack_map_and_mutate(%"std::io::error::Repr"* %1), !dbg !1551
   br label %bb1, !dbg !1551
 
 bb1:                                              ; preds = %start
@@ -2806,7 +2814,7 @@ bb1:                                              ; preds = %start
 
 ; core::ptr::drop_in_place::<std::io::error::Custom>
 ; Function Attrs: nonlazybind uwtable
-define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNtNtNtCs2bNvlddUlXM_3std2io5error6CustomECs37qxPUa7whq_20oneway_thread_access(%"std::io::error::Custom"* %_1) unnamed_addr #0 !dbg !1552 {
+define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNtNtNtCs2bNvlddUlXM_3std2io5error6CustomECsdT7u4N7w2iC_20stack_map_and_mutate(%"std::io::error::Custom"* %_1) unnamed_addr #0 !dbg !1552 {
 start:
   %_1.dbg.spill = alloca %"std::io::error::Custom"*, align 8
   %0 = alloca {}, align 1
@@ -2814,7 +2822,7 @@ start:
   call void @llvm.dbg.declare(metadata %"std::io::error::Custom"** %_1.dbg.spill, metadata !1557, metadata !DIExpression()), !dbg !1558
   %1 = bitcast %"std::io::error::Custom"* %_1 to { {}*, [3 x i64]* }*, !dbg !1558
 ; call core::ptr::drop_in_place::<alloc::boxed::Box<dyn std::error::Error + core::marker::Send + core::marker::Sync>>
-  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtCs2bNvlddUlXM_3std5error5ErrorNtNtB4_6marker4SendNtB1Q_4SyncEL_EECs37qxPUa7whq_20oneway_thread_access({ {}*, [3 x i64]* }* %1), !dbg !1558
+  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtCs2bNvlddUlXM_3std5error5ErrorNtNtB4_6marker4SendNtB1Q_4SyncEL_EECsdT7u4N7w2iC_20stack_map_and_mutate({ {}*, [3 x i64]* }* %1), !dbg !1558
   br label %bb1, !dbg !1558
 
 bb1:                                              ; preds = %start
@@ -2823,7 +2831,7 @@ bb1:                                              ; preds = %start
 
 ; core::ptr::drop_in_place::<std::ffi::c_str::CString>
 ; Function Attrs: nonlazybind uwtable
-define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNtNtNtCs2bNvlddUlXM_3std3ffi5c_str7CStringECs37qxPUa7whq_20oneway_thread_access({ i8*, i64 }* %_1) unnamed_addr #0 personality i32 (i32, i32, i64, %"unwind::libunwind::_Unwind_Exception"*, %"unwind::libunwind::_Unwind_Context"*)* @rust_eh_personality !dbg !1559 {
+define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNtNtNtCs2bNvlddUlXM_3std3ffi5c_str7CStringECsdT7u4N7w2iC_20stack_map_and_mutate({ i8*, i64 }* %_1) unnamed_addr #0 personality i32 (i32, i32, i64, %"unwind::libunwind::_Unwind_Exception"*, %"unwind::libunwind::_Unwind_Context"*)* @rust_eh_personality !dbg !1559 {
 start:
   %0 = alloca { i8*, i32 }, align 8
   %_1.dbg.spill = alloca { i8*, i64 }*, align 8
@@ -2831,7 +2839,7 @@ start:
   store { i8*, i64 }* %_1, { i8*, i64 }** %_1.dbg.spill, align 8
   call void @llvm.dbg.declare(metadata { i8*, i64 }** %_1.dbg.spill, metadata !1564, metadata !DIExpression()), !dbg !1565
 ; invoke <std::ffi::c_str::CString as core::ops::drop::Drop>::drop
-  invoke void @_RNvXs1_NtNtCs2bNvlddUlXM_3std3ffi5c_strNtB5_7CStringNtNtNtCs3p84KrD9aKt_4core3ops4drop4Drop4dropCs37qxPUa7whq_20oneway_thread_access({ i8*, i64 }* align 8 dereferenceable(16) %_1)
+  invoke void @_RNvXs1_NtNtCs2bNvlddUlXM_3std3ffi5c_strNtB5_7CStringNtNtNtCs3p84KrD9aKt_4core3ops4drop4Drop4dropCsdT7u4N7w2iC_20stack_map_and_mutate({ i8*, i64 }* align 8 dereferenceable(16) %_1)
           to label %bb4 unwind label %cleanup, !dbg !1565
 
 bb1:                                              ; preds = %bb3
@@ -2849,13 +2857,13 @@ bb2:                                              ; preds = %bb4
 bb3:                                              ; preds = %cleanup
   %8 = bitcast { i8*, i64 }* %_1 to { [0 x i8]*, i64 }*, !dbg !1565
 ; call core::ptr::drop_in_place::<alloc::boxed::Box<[u8]>>
-  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc5boxed3BoxShEECs37qxPUa7whq_20oneway_thread_access({ [0 x i8]*, i64 }* %8) #12, !dbg !1565
+  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc5boxed3BoxShEECsdT7u4N7w2iC_20stack_map_and_mutate({ [0 x i8]*, i64 }* %8) #13, !dbg !1565
   br label %bb1, !dbg !1565
 
 bb4:                                              ; preds = %start
   %9 = bitcast { i8*, i64 }* %_1 to { [0 x i8]*, i64 }*, !dbg !1565
 ; call core::ptr::drop_in_place::<alloc::boxed::Box<[u8]>>
-  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc5boxed3BoxShEECs37qxPUa7whq_20oneway_thread_access({ [0 x i8]*, i64 }* %9), !dbg !1565
+  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc5boxed3BoxShEECsdT7u4N7w2iC_20stack_map_and_mutate({ [0 x i8]*, i64 }* %9), !dbg !1565
   br label %bb2, !dbg !1565
 
 cleanup:                                          ; preds = %start
@@ -2872,7 +2880,7 @@ cleanup:                                          ; preds = %start
 
 ; core::ptr::drop_in_place::<std::sys::unix::thread::Thread>
 ; Function Attrs: nonlazybind uwtable
-define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNtNtNtNtCs2bNvlddUlXM_3std3sys4unix6thread6ThreadECs37qxPUa7whq_20oneway_thread_access(i64* %_1) unnamed_addr #0 !dbg !1566 {
+define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNtNtNtNtCs2bNvlddUlXM_3std3sys4unix6thread6ThreadECsdT7u4N7w2iC_20stack_map_and_mutate(i64* %_1) unnamed_addr #0 !dbg !1566 {
 start:
   %_1.dbg.spill = alloca i64*, align 8
   %0 = alloca {}, align 1
@@ -2888,7 +2896,7 @@ bb1:                                              ; preds = %start
 
 ; core::ptr::swap_nonoverlapping::<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr19swap_nonoverlappingINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEECs37qxPUa7whq_20oneway_thread_access(%"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"* %x, %"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"* %y, i64 %count) unnamed_addr #1 !dbg !1573 {
+define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr19swap_nonoverlappingINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEECsdT7u4N7w2iC_20stack_map_and_mutate(%"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"* %x, %"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"* %y, i64 %count) unnamed_addr #1 !dbg !1573 {
 start:
   %len.dbg.spill = alloca i64, align 8
   %y.dbg.spill4 = alloca i8*, align 8
@@ -2915,7 +2923,7 @@ bb1:                                              ; preds = %start
   store i64 %len, i64* %len.dbg.spill, align 8, !dbg !1593
   call void @llvm.dbg.declare(metadata i64* %len.dbg.spill, metadata !1584, metadata !DIExpression()), !dbg !1594
 ; call core::ptr::swap_nonoverlapping_bytes
-  call void @_RNvNtCs3p84KrD9aKt_4core3ptr25swap_nonoverlapping_bytesCs37qxPUa7whq_20oneway_thread_access(i8* %x1, i8* %y3, i64 %len), !dbg !1595
+  call void @_RNvNtCs3p84KrD9aKt_4core3ptr25swap_nonoverlapping_bytesCsdT7u4N7w2iC_20stack_map_and_mutate(i8* %x1, i8* %y3, i64 %len), !dbg !1595
   br label %bb2, !dbg !1595
 
 bb2:                                              ; preds = %bb1
@@ -2924,7 +2932,7 @@ bb2:                                              ; preds = %bb1
 
 ; core::ptr::swap_nonoverlapping::<core::option::Option<std::sys::unix::thread::Thread>>
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr19swap_nonoverlappingINtNtB4_6option6OptionNtNtNtNtCs2bNvlddUlXM_3std3sys4unix6thread6ThreadEECs37qxPUa7whq_20oneway_thread_access({ i64, i64 }* %x, { i64, i64 }* %y, i64 %count) unnamed_addr #1 !dbg !1597 {
+define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr19swap_nonoverlappingINtNtB4_6option6OptionNtNtNtNtCs2bNvlddUlXM_3std3sys4unix6thread6ThreadEECsdT7u4N7w2iC_20stack_map_and_mutate({ i64, i64 }* %x, { i64, i64 }* %y, i64 %count) unnamed_addr #1 !dbg !1597 {
 start:
   %len.dbg.spill = alloca i64, align 8
   %y.dbg.spill4 = alloca i8*, align 8
@@ -2951,7 +2959,7 @@ bb1:                                              ; preds = %start
   store i64 %len, i64* %len.dbg.spill, align 8, !dbg !1617
   call void @llvm.dbg.declare(metadata i64* %len.dbg.spill, metadata !1608, metadata !DIExpression()), !dbg !1618
 ; call core::ptr::swap_nonoverlapping_bytes
-  call void @_RNvNtCs3p84KrD9aKt_4core3ptr25swap_nonoverlapping_bytesCs37qxPUa7whq_20oneway_thread_access(i8* %x1, i8* %y3, i64 %len), !dbg !1619
+  call void @_RNvNtCs3p84KrD9aKt_4core3ptr25swap_nonoverlapping_bytesCsdT7u4N7w2iC_20stack_map_and_mutate(i8* %x1, i8* %y3, i64 %len), !dbg !1619
   br label %bb2, !dbg !1619
 
 bb2:                                              ; preds = %bb1
@@ -2960,7 +2968,7 @@ bb2:                                              ; preds = %bb1
 
 ; core::ptr::swap_nonoverlapping_one::<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr23swap_nonoverlapping_oneINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEECs37qxPUa7whq_20oneway_thread_access(%"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"* %x, %"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"* %y) unnamed_addr #1 personality i32 (i32, i32, i64, %"unwind::libunwind::_Unwind_Exception"*, %"unwind::libunwind::_Unwind_Context"*)* @rust_eh_personality !dbg !1621 {
+define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr23swap_nonoverlapping_oneINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEECsdT7u4N7w2iC_20stack_map_and_mutate(%"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"* %x, %"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"* %y) unnamed_addr #1 personality i32 (i32, i32, i64, %"unwind::libunwind::_Unwind_Exception"*, %"unwind::libunwind::_Unwind_Context"*)* @rust_eh_personality !dbg !1621 {
 start:
   %0 = alloca { i8*, i32 }, align 8
   %y.dbg.spill = alloca %"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"*, align 8
@@ -2984,17 +2992,17 @@ bb1:                                              ; preds = %start
 bb2:                                              ; preds = %bb1
   store i8 1, i8* %_18, align 1, !dbg !1634
 ; call core::ptr::read::<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>
-  call void @_RINvNtCs3p84KrD9aKt_4core3ptr4readINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEECs37qxPUa7whq_20oneway_thread_access(%"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"* noalias nocapture sret dereferenceable(24) %z, %"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"* %x), !dbg !1634
+  call void @_RINvNtCs3p84KrD9aKt_4core3ptr4readINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEECsdT7u4N7w2iC_20stack_map_and_mutate(%"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"* noalias nocapture sret dereferenceable(24) %z, %"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"* %x), !dbg !1634
   br label %bb4, !dbg !1634
 
 bb3:                                              ; preds = %bb1
 ; call core::ptr::swap_nonoverlapping::<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>
-  call void @_RINvNtCs3p84KrD9aKt_4core3ptr19swap_nonoverlappingINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEECs37qxPUa7whq_20oneway_thread_access(%"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"* %x, %"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"* %y, i64 1), !dbg !1635
+  call void @_RINvNtCs3p84KrD9aKt_4core3ptr19swap_nonoverlappingINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEECsdT7u4N7w2iC_20stack_map_and_mutate(%"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"* %x, %"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"* %y, i64 1), !dbg !1635
   br label %bb7, !dbg !1635
 
 bb4:                                              ; preds = %bb2
 ; invoke core::intrinsics::copy_nonoverlapping::<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>
-  invoke void @_RINvNtCs3p84KrD9aKt_4core10intrinsics19copy_nonoverlappingINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEECs37qxPUa7whq_20oneway_thread_access(%"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"* %y, %"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"* %x, i64 1)
+  invoke void @_RINvNtCs3p84KrD9aKt_4core10intrinsics19copy_nonoverlappingINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEECsdT7u4N7w2iC_20stack_map_and_mutate(%"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"* %y, %"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"* %x, i64 1)
           to label %bb5 unwind label %cleanup, !dbg !1636
 
 bb5:                                              ; preds = %bb4
@@ -3003,7 +3011,7 @@ bb5:                                              ; preds = %bb4
   %3 = bitcast %"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"* %z to i8*, !dbg !1637
   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 8 %2, i8* align 8 %3, i64 24, i1 false), !dbg !1637
 ; invoke core::ptr::write::<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>
-  invoke void @_RINvNtCs3p84KrD9aKt_4core3ptr5writeINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEECs37qxPUa7whq_20oneway_thread_access(%"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"* %y, %"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"* noalias nocapture dereferenceable(24) %_14)
+  invoke void @_RINvNtCs3p84KrD9aKt_4core3ptr5writeINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEECsdT7u4N7w2iC_20stack_map_and_mutate(%"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"* %y, %"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"* noalias nocapture dereferenceable(24) %_14)
           to label %bb6 unwind label %cleanup, !dbg !1638
 
 bb6:                                              ; preds = %bb5
@@ -3027,7 +3035,7 @@ bb9:                                              ; preds = %bb10, %bb11
 
 bb10:                                             ; preds = %bb11
 ; call core::ptr::drop_in_place::<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>
-  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEECs37qxPUa7whq_20oneway_thread_access(%"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"* %z) #12, !dbg !1639
+  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEECsdT7u4N7w2iC_20stack_map_and_mutate(%"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"* %z) #13, !dbg !1639
   br label %bb9, !dbg !1639
 
 bb11:                                             ; preds = %cleanup
@@ -3049,7 +3057,7 @@ cleanup:                                          ; preds = %bb5, %bb4
 
 ; core::ptr::swap_nonoverlapping_one::<core::option::Option<std::sys::unix::thread::Thread>>
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr23swap_nonoverlapping_oneINtNtB4_6option6OptionNtNtNtNtCs2bNvlddUlXM_3std3sys4unix6thread6ThreadEECs37qxPUa7whq_20oneway_thread_access({ i64, i64 }* %x, { i64, i64 }* %y) unnamed_addr #1 personality i32 (i32, i32, i64, %"unwind::libunwind::_Unwind_Exception"*, %"unwind::libunwind::_Unwind_Context"*)* @rust_eh_personality !dbg !1642 {
+define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr23swap_nonoverlapping_oneINtNtB4_6option6OptionNtNtNtNtCs2bNvlddUlXM_3std3sys4unix6thread6ThreadEECsdT7u4N7w2iC_20stack_map_and_mutate({ i64, i64 }* %x, { i64, i64 }* %y) unnamed_addr #1 personality i32 (i32, i32, i64, %"unwind::libunwind::_Unwind_Exception"*, %"unwind::libunwind::_Unwind_Context"*)* @rust_eh_personality !dbg !1642 {
 start:
   %0 = alloca { i8*, i32 }, align 8
   %y.dbg.spill = alloca { i64, i64 }*, align 8
@@ -3072,18 +3080,18 @@ bb1:                                              ; preds = %start
 bb2:                                              ; preds = %bb1
   store i8 1, i8* %_18, align 1, !dbg !1655
 ; call core::ptr::read::<core::option::Option<std::sys::unix::thread::Thread>>
-  %2 = call { i64, i64 } @_RINvNtCs3p84KrD9aKt_4core3ptr4readINtNtB4_6option6OptionNtNtNtNtCs2bNvlddUlXM_3std3sys4unix6thread6ThreadEECs37qxPUa7whq_20oneway_thread_access({ i64, i64 }* %x), !dbg !1655
+  %2 = call { i64, i64 } @_RINvNtCs3p84KrD9aKt_4core3ptr4readINtNtB4_6option6OptionNtNtNtNtCs2bNvlddUlXM_3std3sys4unix6thread6ThreadEECsdT7u4N7w2iC_20stack_map_and_mutate({ i64, i64 }* %x), !dbg !1655
   store { i64, i64 } %2, { i64, i64 }* %z, align 8, !dbg !1655
   br label %bb4, !dbg !1655
 
 bb3:                                              ; preds = %bb1
 ; call core::ptr::swap_nonoverlapping::<core::option::Option<std::sys::unix::thread::Thread>>
-  call void @_RINvNtCs3p84KrD9aKt_4core3ptr19swap_nonoverlappingINtNtB4_6option6OptionNtNtNtNtCs2bNvlddUlXM_3std3sys4unix6thread6ThreadEECs37qxPUa7whq_20oneway_thread_access({ i64, i64 }* %x, { i64, i64 }* %y, i64 1), !dbg !1656
+  call void @_RINvNtCs3p84KrD9aKt_4core3ptr19swap_nonoverlappingINtNtB4_6option6OptionNtNtNtNtCs2bNvlddUlXM_3std3sys4unix6thread6ThreadEECsdT7u4N7w2iC_20stack_map_and_mutate({ i64, i64 }* %x, { i64, i64 }* %y, i64 1), !dbg !1656
   br label %bb7, !dbg !1656
 
 bb4:                                              ; preds = %bb2
 ; invoke core::intrinsics::copy_nonoverlapping::<core::option::Option<std::sys::unix::thread::Thread>>
-  invoke void @_RINvNtCs3p84KrD9aKt_4core10intrinsics19copy_nonoverlappingINtNtB4_6option6OptionNtNtNtNtCs2bNvlddUlXM_3std3sys4unix6thread6ThreadEECs37qxPUa7whq_20oneway_thread_access({ i64, i64 }* %y, { i64, i64 }* %x, i64 1)
+  invoke void @_RINvNtCs3p84KrD9aKt_4core10intrinsics19copy_nonoverlappingINtNtB4_6option6OptionNtNtNtNtCs2bNvlddUlXM_3std3sys4unix6thread6ThreadEECsdT7u4N7w2iC_20stack_map_and_mutate({ i64, i64 }* %y, { i64, i64 }* %x, i64 1)
           to label %bb5 unwind label %cleanup, !dbg !1657
 
 bb5:                                              ; preds = %bb4
@@ -3093,7 +3101,7 @@ bb5:                                              ; preds = %bb4
   %4 = getelementptr inbounds { i64, i64 }, { i64, i64 }* %z, i32 0, i32 1, !dbg !1658
   %_14.1 = load i64, i64* %4, align 8, !dbg !1658
 ; invoke core::ptr::write::<core::option::Option<std::sys::unix::thread::Thread>>
-  invoke void @_RINvNtCs3p84KrD9aKt_4core3ptr5writeINtNtB4_6option6OptionNtNtNtNtCs2bNvlddUlXM_3std3sys4unix6thread6ThreadEECs37qxPUa7whq_20oneway_thread_access({ i64, i64 }* %y, i64 %_14.0, i64 %_14.1)
+  invoke void @_RINvNtCs3p84KrD9aKt_4core3ptr5writeINtNtB4_6option6OptionNtNtNtNtCs2bNvlddUlXM_3std3sys4unix6thread6ThreadEECsdT7u4N7w2iC_20stack_map_and_mutate({ i64, i64 }* %y, i64 %_14.0, i64 %_14.1)
           to label %bb6 unwind label %cleanup, !dbg !1659
 
 bb6:                                              ; preds = %bb5
@@ -3117,7 +3125,7 @@ bb9:                                              ; preds = %bb10, %bb11
 
 bb10:                                             ; preds = %bb11
 ; call core::ptr::drop_in_place::<core::option::Option<std::sys::unix::thread::Thread>>
-  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_6option6OptionNtNtNtNtCs2bNvlddUlXM_3std3sys4unix6thread6ThreadEECs37qxPUa7whq_20oneway_thread_access({ i64, i64 }* %z) #12, !dbg !1660
+  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_6option6OptionNtNtNtNtCs2bNvlddUlXM_3std3sys4unix6thread6ThreadEECsdT7u4N7w2iC_20stack_map_and_mutate({ i64, i64 }* %z) #13, !dbg !1660
   br label %bb9, !dbg !1660
 
 bb11:                                             ; preds = %cleanup
@@ -3139,7 +3147,7 @@ cleanup:                                          ; preds = %bb5, %bb4
 
 ; core::ptr::slice_from_raw_parts_mut::<u8>
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal { [0 x i8]*, i64 } @_RINvNtCs3p84KrD9aKt_4core3ptr24slice_from_raw_parts_muthECs37qxPUa7whq_20oneway_thread_access(i8* %data, i64 %len) unnamed_addr #1 !dbg !1663 {
+define internal { [0 x i8]*, i64 } @_RINvNtCs3p84KrD9aKt_4core3ptr24slice_from_raw_parts_muthECsdT7u4N7w2iC_20stack_map_and_mutate(i8* %data, i64 %len) unnamed_addr #1 !dbg !1663 {
 start:
   %len.dbg.spill = alloca i64, align 8
   %data.dbg.spill = alloca i8*, align 8
@@ -3174,7 +3182,7 @@ start:
 
 ; core::ptr::read::<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr4readINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEECs37qxPUa7whq_20oneway_thread_access(%"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"* noalias nocapture sret dereferenceable(24) %0, %"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"* %src) unnamed_addr #1 !dbg !1678 {
+define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr4readINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEECsdT7u4N7w2iC_20stack_map_and_mutate(%"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"* noalias nocapture sret dereferenceable(24) %0, %"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"* %src) unnamed_addr #1 !dbg !1678 {
 start:
   %self.dbg.spill.i = alloca %"std::mem::MaybeUninit<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>"*, align 8
   %_3.i = alloca %"std::mem::ManuallyDrop<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>", align 8
@@ -3195,7 +3203,7 @@ bb1:                                              ; preds = %start
 
 bb2:                                              ; preds = %bb1
 ; call core::intrinsics::copy_nonoverlapping::<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>
-  call void @_RINvNtCs3p84KrD9aKt_4core10intrinsics19copy_nonoverlappingINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEECs37qxPUa7whq_20oneway_thread_access(%"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"* %src, %"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"* %2, i64 1), !dbg !1712
+  call void @_RINvNtCs3p84KrD9aKt_4core10intrinsics19copy_nonoverlappingINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEECsdT7u4N7w2iC_20stack_map_and_mutate(%"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"* %src, %"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"* %2, i64 1), !dbg !1712
   br label %bb3, !dbg !1712
 
 bb3:                                              ; preds = %bb2
@@ -3220,7 +3228,7 @@ bb4:                                              ; preds = %bb3
 
 ; core::ptr::read::<core::option::Option<std::sys::unix::thread::Thread>>
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal { i64, i64 } @_RINvNtCs3p84KrD9aKt_4core3ptr4readINtNtB4_6option6OptionNtNtNtNtCs2bNvlddUlXM_3std3sys4unix6thread6ThreadEECs37qxPUa7whq_20oneway_thread_access({ i64, i64 }* %src) unnamed_addr #1 !dbg !1740 {
+define internal { i64, i64 } @_RINvNtCs3p84KrD9aKt_4core3ptr4readINtNtB4_6option6OptionNtNtNtNtCs2bNvlddUlXM_3std3sys4unix6thread6ThreadEECsdT7u4N7w2iC_20stack_map_and_mutate({ i64, i64 }* %src) unnamed_addr #1 !dbg !1740 {
 start:
   %self.dbg.spill.i1 = alloca { i64, i64 }*, align 8
   %slot.dbg.spill.i.i = alloca { i64, i64 }, align 8
@@ -3248,7 +3256,7 @@ bb1:                                              ; preds = %start
 
 bb2:                                              ; preds = %bb1
 ; call core::intrinsics::copy_nonoverlapping::<core::option::Option<std::sys::unix::thread::Thread>>
-  call void @_RINvNtCs3p84KrD9aKt_4core10intrinsics19copy_nonoverlappingINtNtB4_6option6OptionNtNtNtNtCs2bNvlddUlXM_3std3sys4unix6thread6ThreadEECs37qxPUa7whq_20oneway_thread_access({ i64, i64 }* %src, { i64, i64 }* %tmp, i64 1), !dbg !1772
+  call void @_RINvNtCs3p84KrD9aKt_4core10intrinsics19copy_nonoverlappingINtNtB4_6option6OptionNtNtNtNtCs2bNvlddUlXM_3std3sys4unix6thread6ThreadEECsdT7u4N7w2iC_20stack_map_and_mutate({ i64, i64 }* %src, { i64, i64 }* %tmp, i64 1), !dbg !1772
   br label %bb3, !dbg !1772
 
 bb3:                                              ; preds = %bb2
@@ -3280,9 +3288,9 @@ bb4:                                              ; preds = %bb3
   ret { i64, i64 } %21, !dbg !1790
 }
 
-; core::ptr::read::<std::panic::AssertUnwindSafe<<std::thread::Builder>::spawn_unchecked<oneway_thread_access::main::{closure#0}, ()>::{closure#0}::{closure#0}>>
+; core::ptr::read::<std::panic::AssertUnwindSafe<<std::thread::Builder>::spawn_unchecked<stack_map_and_mutate::main::{closure#0}, ()>::{closure#0}::{closure#0}>>
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal i8 @_RINvNtCs3p84KrD9aKt_4core3ptr4readINtNtCs2bNvlddUlXM_3std5panic16AssertUnwindSafeNCNCINvMNtBB_6threadNtB1p_7Builder15spawn_uncheckedNCNvCs37qxPUa7whq_20oneway_thread_access4main0uE00EEB2a_(i8* %src) unnamed_addr #1 !dbg !1791 {
+define internal i8 @_RINvNtCs3p84KrD9aKt_4core3ptr4readINtNtCs2bNvlddUlXM_3std5panic16AssertUnwindSafeNCNCINvMNtBB_6threadNtB1p_7Builder15spawn_uncheckedNCNvCsdT7u4N7w2iC_20stack_map_and_mutate4main0uE00EEB2a_(i8* %src) unnamed_addr #1 !dbg !1791 {
 start:
   %self.dbg.spill.i1 = alloca i8*, align 8
   %slot.dbg.spill.i.i = alloca i8, align 1
@@ -3304,8 +3312,8 @@ bb1:                                              ; preds = %start
   br label %bb2, !dbg !1819
 
 bb2:                                              ; preds = %bb1
-; call core::intrinsics::copy_nonoverlapping::<std::panic::AssertUnwindSafe<<std::thread::Builder>::spawn_unchecked<oneway_thread_access::main::{closure#0}, ()>::{closure#0}::{closure#0}>>
-  call void @_RINvNtCs3p84KrD9aKt_4core10intrinsics19copy_nonoverlappingINtNtCs2bNvlddUlXM_3std5panic16AssertUnwindSafeNCNCINvMNtBZ_6threadNtB1N_7Builder15spawn_uncheckedNCNvCs37qxPUa7whq_20oneway_thread_access4main0uE00EEB2y_(i8* %src, i8* %tmp, i64 1), !dbg !1820
+; call core::intrinsics::copy_nonoverlapping::<std::panic::AssertUnwindSafe<<std::thread::Builder>::spawn_unchecked<stack_map_and_mutate::main::{closure#0}, ()>::{closure#0}::{closure#0}>>
+  call void @_RINvNtCs3p84KrD9aKt_4core10intrinsics19copy_nonoverlappingINtNtCs2bNvlddUlXM_3std5panic16AssertUnwindSafeNCNCINvMNtBZ_6threadNtB1N_7Builder15spawn_uncheckedNCNvCsdT7u4N7w2iC_20stack_map_and_mutate4main0uE00EEB2y_(i8* %src, i8* %tmp, i64 1), !dbg !1820
   br label %bb3, !dbg !1820
 
 bb3:                                              ; preds = %bb2
@@ -3322,7 +3330,7 @@ bb4:                                              ; preds = %bb3
 
 ; core::ptr::write::<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr5writeINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEECs37qxPUa7whq_20oneway_thread_access(%"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"* %dst, %"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"* noalias nocapture dereferenceable(24) %src) unnamed_addr #1 !dbg !1837 {
+define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr5writeINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEECsdT7u4N7w2iC_20stack_map_and_mutate(%"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"* %dst, %"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"* noalias nocapture dereferenceable(24) %src) unnamed_addr #1 !dbg !1837 {
 start:
   %dst.dbg.spill = alloca %"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"*, align 8
   %0 = alloca {}, align 1
@@ -3337,7 +3345,7 @@ start:
 
 ; core::ptr::write::<core::option::Option<std::sys::unix::thread::Thread>>
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr5writeINtNtB4_6option6OptionNtNtNtNtCs2bNvlddUlXM_3std3sys4unix6thread6ThreadEECs37qxPUa7whq_20oneway_thread_access({ i64, i64 }* %dst, i64 %src.0, i64 %src.1) unnamed_addr #1 !dbg !1847 {
+define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr5writeINtNtB4_6option6OptionNtNtNtNtCs2bNvlddUlXM_3std3sys4unix6thread6ThreadEECsdT7u4N7w2iC_20stack_map_and_mutate({ i64, i64 }* %dst, i64 %src.0, i64 %src.1) unnamed_addr #1 !dbg !1847 {
 start:
   %src.dbg.spill = alloca { i64, i64 }, align 8
   %dst.dbg.spill = alloca { i64, i64 }*, align 8
@@ -3358,7 +3366,7 @@ start:
 
 ; core::hint::black_box::<()>
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal void @_RINvNtCs3p84KrD9aKt_4core4hint9black_boxuECs37qxPUa7whq_20oneway_thread_access() unnamed_addr #1 !dbg !1857 {
+define internal void @_RINvNtCs3p84KrD9aKt_4core4hint9black_boxuECsdT7u4N7w2iC_20stack_map_and_mutate() unnamed_addr #1 !dbg !1857 {
 start:
   %dummy = alloca {}, align 1
   call void @llvm.dbg.declare(metadata {}* %dummy, metadata !1863, metadata !DIExpression()), !dbg !1864
@@ -3368,14 +3376,14 @@ start:
 
 ; alloc::rc::is_dangling::<alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>>>
 ; Function Attrs: nonlazybind uwtable
-define internal zeroext i1 @_RINvNtCs8RW06R9lH2S_5alloc2rc11is_danglingINtNtB4_4sync8ArcInnerINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtB15_6option6OptionINtNtB15_6result6ResultuINtNtB4_5boxed3BoxDNtNtB15_3any3AnyNtNtB15_6marker4SendEL_EEEEEECs37qxPUa7whq_20oneway_thread_access(i64* nonnull %ptr) unnamed_addr #0 !dbg !1868 {
+define internal zeroext i1 @_RINvNtCs8RW06R9lH2S_5alloc2rc11is_danglingINtNtB4_4sync8ArcInnerINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtB15_6option6OptionINtNtB15_6result6ResultuINtNtB4_5boxed3BoxDNtNtB15_3any3AnyNtNtB15_6marker4SendEL_EEEEEECsdT7u4N7w2iC_20stack_map_and_mutate(i64* nonnull %ptr) unnamed_addr #0 !dbg !1868 {
 start:
   %address.dbg.spill = alloca i64, align 8
   %ptr.dbg.spill = alloca i64*, align 8
   store i64* %ptr, i64** %ptr.dbg.spill, align 8
   call void @llvm.dbg.declare(metadata i64** %ptr.dbg.spill, metadata !1875, metadata !DIExpression()), !dbg !1878
 ; call <core::ptr::non_null::NonNull<alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>>>>::as_ptr
-  %_4 = call %"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtB9_4cell10UnsafeCellINtNtB9_6option6OptionINtNtB9_6result6ResultuINtNtBY_5boxed3BoxDNtNtB9_3any3AnyNtNtB9_6marker4SendEL_EEEEEE6as_ptrCs37qxPUa7whq_20oneway_thread_access(i64* nonnull %ptr), !dbg !1879
+  %_4 = call %"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtB9_4cell10UnsafeCellINtNtB9_6option6OptionINtNtB9_6result6ResultuINtNtBY_5boxed3BoxDNtNtB9_3any3AnyNtNtB9_6marker4SendEL_EEEEEE6as_ptrCsdT7u4N7w2iC_20stack_map_and_mutate(i64* nonnull %ptr), !dbg !1879
   br label %bb1, !dbg !1879
 
 bb1:                                              ; preds = %start
@@ -3389,14 +3397,14 @@ bb1:                                              ; preds = %start
 
 ; alloc::rc::is_dangling::<alloc::sync::ArcInner<std::sync::mutex::Mutex<alloc::vec::Vec<u8>>>>
 ; Function Attrs: nonlazybind uwtable
-define internal zeroext i1 @_RINvNtCs8RW06R9lH2S_5alloc2rc11is_danglingINtNtB4_4sync8ArcInnerINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtB4_3vec3VechEEEECs37qxPUa7whq_20oneway_thread_access(i64* nonnull %ptr) unnamed_addr #0 !dbg !1883 {
+define internal zeroext i1 @_RINvNtCs8RW06R9lH2S_5alloc2rc11is_danglingINtNtB4_4sync8ArcInnerINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtB4_3vec3VechEEEECsdT7u4N7w2iC_20stack_map_and_mutate(i64* nonnull %ptr) unnamed_addr #0 !dbg !1883 {
 start:
   %address.dbg.spill = alloca i64, align 8
   %ptr.dbg.spill = alloca i64*, align 8
   store i64* %ptr, i64** %ptr.dbg.spill, align 8
   call void @llvm.dbg.declare(metadata i64** %ptr.dbg.spill, metadata !1887, metadata !DIExpression()), !dbg !1890
 ; call <core::ptr::non_null::NonNull<alloc::sync::ArcInner<std::sync::mutex::Mutex<alloc::vec::Vec<u8>>>>>::as_ptr
-  %_4 = call %"alloc::sync::ArcInner<std::sync::Mutex<std::vec::Vec<u8>>>"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtBY_3vec3VechEEEE6as_ptrCs37qxPUa7whq_20oneway_thread_access(i64* nonnull %ptr), !dbg !1891
+  %_4 = call %"alloc::sync::ArcInner<std::sync::Mutex<std::vec::Vec<u8>>>"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtBY_3vec3VechEEEE6as_ptrCsdT7u4N7w2iC_20stack_map_and_mutate(i64* nonnull %ptr), !dbg !1891
   br label %bb1, !dbg !1891
 
 bb1:                                              ; preds = %start
@@ -3410,14 +3418,14 @@ bb1:                                              ; preds = %start
 
 ; alloc::rc::is_dangling::<alloc::sync::ArcInner<std::thread::Inner>>
 ; Function Attrs: nonlazybind uwtable
-define internal zeroext i1 @_RINvNtCs8RW06R9lH2S_5alloc2rc11is_danglingINtNtB4_4sync8ArcInnerNtNtCs2bNvlddUlXM_3std6thread5InnerEECs37qxPUa7whq_20oneway_thread_access(i64* nonnull %ptr) unnamed_addr #0 !dbg !1895 {
+define internal zeroext i1 @_RINvNtCs8RW06R9lH2S_5alloc2rc11is_danglingINtNtB4_4sync8ArcInnerNtNtCs2bNvlddUlXM_3std6thread5InnerEECsdT7u4N7w2iC_20stack_map_and_mutate(i64* nonnull %ptr) unnamed_addr #0 !dbg !1895 {
 start:
   %address.dbg.spill = alloca i64, align 8
   %ptr.dbg.spill = alloca i64*, align 8
   store i64* %ptr, i64** %ptr.dbg.spill, align 8
   call void @llvm.dbg.declare(metadata i64** %ptr.dbg.spill, metadata !1899, metadata !DIExpression()), !dbg !1902
 ; call <core::ptr::non_null::NonNull<alloc::sync::ArcInner<std::thread::Inner>>>::as_ptr
-  %_4 = call %"alloc::sync::ArcInner<std::thread::Inner>"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerNtNtCs2bNvlddUlXM_3std6thread5InnerEE6as_ptrCs37qxPUa7whq_20oneway_thread_access(i64* nonnull %ptr), !dbg !1903
+  %_4 = call %"alloc::sync::ArcInner<std::thread::Inner>"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerNtNtCs2bNvlddUlXM_3std6thread5InnerEE6as_ptrCsdT7u4N7w2iC_20stack_map_and_mutate(i64* nonnull %ptr), !dbg !1903
   br label %bb1, !dbg !1903
 
 bb1:                                              ; preds = %start
@@ -3431,7 +3439,7 @@ bb1:                                              ; preds = %start
 
 ; alloc::alloc::box_free::<dyn std::error::Error + core::marker::Send + core::marker::Sync, alloc::alloc::Global>
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal void @_RINvNtCs8RW06R9lH2S_5alloc5alloc8box_freeDNtNtCs2bNvlddUlXM_3std5error5ErrorNtNtCs3p84KrD9aKt_4core6marker4SendNtB1e_4SyncEL_NtB2_6GlobalECs37qxPUa7whq_20oneway_thread_access(i8* nonnull %0, i64* noalias readonly align 8 dereferenceable(24) %1) unnamed_addr #1 personality i32 (i32, i32, i64, %"unwind::libunwind::_Unwind_Exception"*, %"unwind::libunwind::_Unwind_Context"*)* @rust_eh_personality !dbg !1907 {
+define internal void @_RINvNtCs8RW06R9lH2S_5alloc5alloc8box_freeDNtNtCs2bNvlddUlXM_3std5error5ErrorNtNtCs3p84KrD9aKt_4core6marker4SendNtB1e_4SyncEL_NtB2_6GlobalECsdT7u4N7w2iC_20stack_map_and_mutate(i8* nonnull %0, i64* noalias readonly align 8 dereferenceable(24) %1) unnamed_addr #1 personality i32 (i32, i32, i64, %"unwind::libunwind::_Unwind_Exception"*, %"unwind::libunwind::_Unwind_Context"*)* @rust_eh_personality !dbg !1907 {
 start:
   %layout.dbg.spill = alloca { i64, i64 }, align 8
   %align.dbg.spill = alloca i64, align 8
@@ -3448,7 +3456,7 @@ start:
   call void @llvm.dbg.declare(metadata { i8*, i64* }* %ptr, metadata !1912, metadata !DIExpression()), !dbg !1920
   call void @llvm.dbg.declare(metadata %"std::alloc::Global"* %alloc, metadata !1913, metadata !DIExpression()), !dbg !1921
 ; invoke <core::ptr::unique::Unique<dyn std::error::Error + core::marker::Send + core::marker::Sync>>::as_ref
-  %7 = invoke { {}*, [3 x i64]* } @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueDNtNtCs2bNvlddUlXM_3std5error5ErrorNtNtB9_6marker4SendNtB1r_4SyncEL_E6as_refCs37qxPUa7whq_20oneway_thread_access({ i8*, i64* }* noalias readonly align 8 dereferenceable(16) %ptr)
+  %7 = invoke { {}*, [3 x i64]* } @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueDNtNtCs2bNvlddUlXM_3std5error5ErrorNtNtB9_6marker4SendNtB1r_4SyncEL_E6as_refCsdT7u4N7w2iC_20stack_map_and_mutate({ i8*, i64* }* noalias readonly align 8 dereferenceable(16) %ptr)
           to label %bb1 unwind label %cleanup, !dbg !1922
 
 bb1:                                              ; preds = %start
@@ -3468,7 +3476,7 @@ bb1:                                              ; preds = %start
 
 bb2:                                              ; preds = %bb1
 ; invoke <core::ptr::unique::Unique<dyn std::error::Error + core::marker::Send + core::marker::Sync>>::as_ref
-  %14 = invoke { {}*, [3 x i64]* } @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueDNtNtCs2bNvlddUlXM_3std5error5ErrorNtNtB9_6marker4SendNtB1r_4SyncEL_E6as_refCs37qxPUa7whq_20oneway_thread_access({ i8*, i64* }* noalias readonly align 8 dereferenceable(16) %ptr)
+  %14 = invoke { {}*, [3 x i64]* } @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueDNtNtCs2bNvlddUlXM_3std5error5ErrorNtNtB9_6marker4SendNtB1r_4SyncEL_E6as_refCsdT7u4N7w2iC_20stack_map_and_mutate({ i8*, i64* }* noalias readonly align 8 dereferenceable(16) %ptr)
           to label %bb3 unwind label %cleanup, !dbg !1925
 
 bb3:                                              ; preds = %bb2
@@ -3488,7 +3496,7 @@ bb3:                                              ; preds = %bb2
 
 bb4:                                              ; preds = %bb3
 ; invoke <core::alloc::layout::Layout>::from_size_align_unchecked
-  %21 = invoke { i64, i64 } @_RNvMNtNtCs3p84KrD9aKt_4core5alloc6layoutNtB2_6Layout25from_size_align_uncheckedCs37qxPUa7whq_20oneway_thread_access(i64 %size, i64 %align)
+  %21 = invoke { i64, i64 } @_RNvMNtNtCs3p84KrD9aKt_4core5alloc6layoutNtB2_6Layout25from_size_align_uncheckedCsdT7u4N7w2iC_20stack_map_and_mutate(i64 %size, i64 %align)
           to label %bb5 unwind label %cleanup, !dbg !1928
 
 bb5:                                              ; preds = %bb4
@@ -3504,17 +3512,17 @@ bb5:                                              ; preds = %bb4
   %25 = getelementptr inbounds { i8*, i64* }, { i8*, i64* }* %ptr, i32 0, i32 1, !dbg !1930
   %_17.1 = load i64*, i64** %25, align 8, !dbg !1930, !nonnull !4
 ; invoke <core::ptr::unique::Unique<dyn std::error::Error + core::marker::Send + core::marker::Sync>>::cast::<u8>
-  %_16 = invoke nonnull i8* @_RINvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB6_6UniqueDNtNtCs2bNvlddUlXM_3std5error5ErrorNtNtBa_6marker4SendNtB1s_4SyncEL_E4casthECs37qxPUa7whq_20oneway_thread_access(i8* nonnull %_17.0, i64* noalias readonly align 8 dereferenceable(24) %_17.1)
+  %_16 = invoke nonnull i8* @_RINvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB6_6UniqueDNtNtCs2bNvlddUlXM_3std5error5ErrorNtNtBa_6marker4SendNtB1s_4SyncEL_E4casthECsdT7u4N7w2iC_20stack_map_and_mutate(i8* nonnull %_17.0, i64* noalias readonly align 8 dereferenceable(24) %_17.1)
           to label %bb6 unwind label %cleanup, !dbg !1930
 
 bb6:                                              ; preds = %bb5
 ; invoke <core::ptr::unique::Unique<u8> as core::convert::Into<core::ptr::non_null::NonNull<u8>>>::into
-  %_15 = invoke nonnull i8* @_RNvXs1_NtCs3p84KrD9aKt_4core7convertINtNtNtB7_3ptr6unique6UniquehEINtB5_4IntoINtNtBD_8non_null7NonNullhEE4intoCs37qxPUa7whq_20oneway_thread_access(i8* nonnull %_16)
+  %_15 = invoke nonnull i8* @_RNvXs1_NtCs3p84KrD9aKt_4core7convertINtNtNtB7_3ptr6unique6UniquehEINtB5_4IntoINtNtBD_8non_null7NonNullhEE4intoCsdT7u4N7w2iC_20stack_map_and_mutate(i8* nonnull %_16)
           to label %bb7 unwind label %cleanup, !dbg !1930
 
 bb7:                                              ; preds = %bb6
 ; invoke <alloc::alloc::Global as core::alloc::Allocator>::deallocate
-  invoke void @_RNvXs_NtCs8RW06R9lH2S_5alloc5allocNtB4_6GlobalNtNtCs3p84KrD9aKt_4core5alloc9Allocator10deallocateCs37qxPUa7whq_20oneway_thread_access(%"std::alloc::Global"* noalias nonnull readonly align 1 %alloc, i8* nonnull %_15, i64 %layout.0, i64 %layout.1)
+  invoke void @_RNvXs_NtCs8RW06R9lH2S_5alloc5allocNtB4_6GlobalNtNtCs3p84KrD9aKt_4core5alloc9Allocator10deallocateCsdT7u4N7w2iC_20stack_map_and_mutate(%"std::alloc::Global"* noalias nonnull readonly align 1 %alloc, i8* nonnull %_15, i64 %layout.0, i64 %layout.1)
           to label %bb8 unwind label %cleanup, !dbg !1931
 
 bb8:                                              ; preds = %bb7
@@ -3549,7 +3557,7 @@ cleanup:                                          ; preds = %bb7, %bb6, %bb5, %b
 
 ; alloc::alloc::box_free::<dyn core::any::Any + core::marker::Send, alloc::alloc::Global>
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal void @_RINvNtCs8RW06R9lH2S_5alloc5alloc8box_freeDNtNtCs3p84KrD9aKt_4core3any3AnyNtNtBI_6marker4SendEL_NtB2_6GlobalECs37qxPUa7whq_20oneway_thread_access(i8* nonnull %0, i64* noalias readonly align 8 dereferenceable(24) %1) unnamed_addr #1 personality i32 (i32, i32, i64, %"unwind::libunwind::_Unwind_Exception"*, %"unwind::libunwind::_Unwind_Context"*)* @rust_eh_personality !dbg !1935 {
+define internal void @_RINvNtCs8RW06R9lH2S_5alloc5alloc8box_freeDNtNtCs3p84KrD9aKt_4core3any3AnyNtNtBI_6marker4SendEL_NtB2_6GlobalECsdT7u4N7w2iC_20stack_map_and_mutate(i8* nonnull %0, i64* noalias readonly align 8 dereferenceable(24) %1) unnamed_addr #1 personality i32 (i32, i32, i64, %"unwind::libunwind::_Unwind_Exception"*, %"unwind::libunwind::_Unwind_Context"*)* @rust_eh_personality !dbg !1935 {
 start:
   %layout.dbg.spill = alloca { i64, i64 }, align 8
   %align.dbg.spill = alloca i64, align 8
@@ -3566,7 +3574,7 @@ start:
   call void @llvm.dbg.declare(metadata { i8*, i64* }* %ptr, metadata !1939, metadata !DIExpression()), !dbg !1947
   call void @llvm.dbg.declare(metadata %"std::alloc::Global"* %alloc, metadata !1940, metadata !DIExpression()), !dbg !1948
 ; invoke <core::ptr::unique::Unique<dyn core::any::Any + core::marker::Send>>::as_ref
-  %7 = invoke { {}*, [3 x i64]* } @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueDNtNtB9_3any3AnyNtNtB9_6marker4SendEL_E6as_refCs37qxPUa7whq_20oneway_thread_access({ i8*, i64* }* noalias readonly align 8 dereferenceable(16) %ptr)
+  %7 = invoke { {}*, [3 x i64]* } @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueDNtNtB9_3any3AnyNtNtB9_6marker4SendEL_E6as_refCsdT7u4N7w2iC_20stack_map_and_mutate({ i8*, i64* }* noalias readonly align 8 dereferenceable(16) %ptr)
           to label %bb1 unwind label %cleanup, !dbg !1949
 
 bb1:                                              ; preds = %start
@@ -3586,7 +3594,7 @@ bb1:                                              ; preds = %start
 
 bb2:                                              ; preds = %bb1
 ; invoke <core::ptr::unique::Unique<dyn core::any::Any + core::marker::Send>>::as_ref
-  %14 = invoke { {}*, [3 x i64]* } @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueDNtNtB9_3any3AnyNtNtB9_6marker4SendEL_E6as_refCs37qxPUa7whq_20oneway_thread_access({ i8*, i64* }* noalias readonly align 8 dereferenceable(16) %ptr)
+  %14 = invoke { {}*, [3 x i64]* } @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueDNtNtB9_3any3AnyNtNtB9_6marker4SendEL_E6as_refCsdT7u4N7w2iC_20stack_map_and_mutate({ i8*, i64* }* noalias readonly align 8 dereferenceable(16) %ptr)
           to label %bb3 unwind label %cleanup, !dbg !1952
 
 bb3:                                              ; preds = %bb2
@@ -3606,7 +3614,7 @@ bb3:                                              ; preds = %bb2
 
 bb4:                                              ; preds = %bb3
 ; invoke <core::alloc::layout::Layout>::from_size_align_unchecked
-  %21 = invoke { i64, i64 } @_RNvMNtNtCs3p84KrD9aKt_4core5alloc6layoutNtB2_6Layout25from_size_align_uncheckedCs37qxPUa7whq_20oneway_thread_access(i64 %size, i64 %align)
+  %21 = invoke { i64, i64 } @_RNvMNtNtCs3p84KrD9aKt_4core5alloc6layoutNtB2_6Layout25from_size_align_uncheckedCsdT7u4N7w2iC_20stack_map_and_mutate(i64 %size, i64 %align)
           to label %bb5 unwind label %cleanup, !dbg !1955
 
 bb5:                                              ; preds = %bb4
@@ -3622,17 +3630,17 @@ bb5:                                              ; preds = %bb4
   %25 = getelementptr inbounds { i8*, i64* }, { i8*, i64* }* %ptr, i32 0, i32 1, !dbg !1957
   %_17.1 = load i64*, i64** %25, align 8, !dbg !1957, !nonnull !4
 ; invoke <core::ptr::unique::Unique<dyn core::any::Any + core::marker::Send>>::cast::<u8>
-  %_16 = invoke nonnull i8* @_RINvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB6_6UniqueDNtNtBa_3any3AnyNtNtBa_6marker4SendEL_E4casthECs37qxPUa7whq_20oneway_thread_access(i8* nonnull %_17.0, i64* noalias readonly align 8 dereferenceable(24) %_17.1)
+  %_16 = invoke nonnull i8* @_RINvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB6_6UniqueDNtNtBa_3any3AnyNtNtBa_6marker4SendEL_E4casthECsdT7u4N7w2iC_20stack_map_and_mutate(i8* nonnull %_17.0, i64* noalias readonly align 8 dereferenceable(24) %_17.1)
           to label %bb6 unwind label %cleanup, !dbg !1957
 
 bb6:                                              ; preds = %bb5
 ; invoke <core::ptr::unique::Unique<u8> as core::convert::Into<core::ptr::non_null::NonNull<u8>>>::into
-  %_15 = invoke nonnull i8* @_RNvXs1_NtCs3p84KrD9aKt_4core7convertINtNtNtB7_3ptr6unique6UniquehEINtB5_4IntoINtNtBD_8non_null7NonNullhEE4intoCs37qxPUa7whq_20oneway_thread_access(i8* nonnull %_16)
+  %_15 = invoke nonnull i8* @_RNvXs1_NtCs3p84KrD9aKt_4core7convertINtNtNtB7_3ptr6unique6UniquehEINtB5_4IntoINtNtBD_8non_null7NonNullhEE4intoCsdT7u4N7w2iC_20stack_map_and_mutate(i8* nonnull %_16)
           to label %bb7 unwind label %cleanup, !dbg !1957
 
 bb7:                                              ; preds = %bb6
 ; invoke <alloc::alloc::Global as core::alloc::Allocator>::deallocate
-  invoke void @_RNvXs_NtCs8RW06R9lH2S_5alloc5allocNtB4_6GlobalNtNtCs3p84KrD9aKt_4core5alloc9Allocator10deallocateCs37qxPUa7whq_20oneway_thread_access(%"std::alloc::Global"* noalias nonnull readonly align 1 %alloc, i8* nonnull %_15, i64 %layout.0, i64 %layout.1)
+  invoke void @_RNvXs_NtCs8RW06R9lH2S_5alloc5allocNtB4_6GlobalNtNtCs3p84KrD9aKt_4core5alloc9Allocator10deallocateCsdT7u4N7w2iC_20stack_map_and_mutate(%"std::alloc::Global"* noalias nonnull readonly align 1 %alloc, i8* nonnull %_15, i64 %layout.0, i64 %layout.1)
           to label %bb8 unwind label %cleanup, !dbg !1958
 
 bb8:                                              ; preds = %bb7
@@ -3667,7 +3675,7 @@ cleanup:                                          ; preds = %bb7, %bb6, %bb5, %b
 
 ; alloc::alloc::box_free::<alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>>, alloc::alloc::Global>
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal void @_RINvNtCs8RW06R9lH2S_5alloc5alloc8box_freeINtNtB4_4sync8ArcInnerINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtB14_6option6OptionINtNtB14_6result6ResultuINtNtB4_5boxed3BoxDNtNtB14_3any3AnyNtNtB14_6marker4SendEL_EEEEENtB2_6GlobalECs37qxPUa7whq_20oneway_thread_access(i64* nonnull %0) unnamed_addr #1 personality i32 (i32, i32, i64, %"unwind::libunwind::_Unwind_Exception"*, %"unwind::libunwind::_Unwind_Context"*)* @rust_eh_personality !dbg !1962 {
+define internal void @_RINvNtCs8RW06R9lH2S_5alloc5alloc8box_freeINtNtB4_4sync8ArcInnerINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtB14_6option6OptionINtNtB14_6result6ResultuINtNtB4_5boxed3BoxDNtNtB14_3any3AnyNtNtB14_6marker4SendEL_EEEEENtB2_6GlobalECsdT7u4N7w2iC_20stack_map_and_mutate(i64* nonnull %0) unnamed_addr #1 personality i32 (i32, i32, i64, %"unwind::libunwind::_Unwind_Exception"*, %"unwind::libunwind::_Unwind_Context"*)* @rust_eh_personality !dbg !1962 {
 start:
   %layout.dbg.spill = alloca { i64, i64 }, align 8
   %align.dbg.spill = alloca i64, align 8
@@ -3681,7 +3689,7 @@ start:
   call void @llvm.dbg.declare(metadata i64** %ptr, metadata !1966, metadata !DIExpression()), !dbg !1975
   call void @llvm.dbg.declare(metadata %"std::alloc::Global"* %alloc, metadata !1967, metadata !DIExpression()), !dbg !1976
 ; invoke <core::ptr::unique::Unique<alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>>>>::as_ref
-  %_5 = invoke align 8 dereferenceable(40) %"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtB9_4cell10UnsafeCellINtNtB9_6option6OptionINtNtB9_6result6ResultuINtNtBV_5boxed3BoxDNtNtB9_3any3AnyNtNtB9_6marker4SendEL_EEEEEE6as_refCs37qxPUa7whq_20oneway_thread_access(i64** noalias readonly align 8 dereferenceable(8) %ptr)
+  %_5 = invoke align 8 dereferenceable(40) %"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtB9_4cell10UnsafeCellINtNtB9_6option6OptionINtNtB9_6result6ResultuINtNtBV_5boxed3BoxDNtNtB9_3any3AnyNtNtB9_6marker4SendEL_EEEEEE6as_refCsdT7u4N7w2iC_20stack_map_and_mutate(i64** noalias readonly align 8 dereferenceable(8) %ptr)
           to label %bb1 unwind label %cleanup, !dbg !1977
 
 bb1:                                              ; preds = %start
@@ -3693,7 +3701,7 @@ bb1:                                              ; preds = %start
 
 bb2:                                              ; preds = %bb1
 ; invoke <core::ptr::unique::Unique<alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>>>>::as_ref
-  %_9 = invoke align 8 dereferenceable(40) %"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtB9_4cell10UnsafeCellINtNtB9_6option6OptionINtNtB9_6result6ResultuINtNtBV_5boxed3BoxDNtNtB9_3any3AnyNtNtB9_6marker4SendEL_EEEEEE6as_refCs37qxPUa7whq_20oneway_thread_access(i64** noalias readonly align 8 dereferenceable(8) %ptr)
+  %_9 = invoke align 8 dereferenceable(40) %"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtB9_4cell10UnsafeCellINtNtB9_6option6OptionINtNtB9_6result6ResultuINtNtBV_5boxed3BoxDNtNtB9_3any3AnyNtNtB9_6marker4SendEL_EEEEEE6as_refCsdT7u4N7w2iC_20stack_map_and_mutate(i64** noalias readonly align 8 dereferenceable(8) %ptr)
           to label %bb3 unwind label %cleanup, !dbg !1980
 
 bb3:                                              ; preds = %bb2
@@ -3705,7 +3713,7 @@ bb3:                                              ; preds = %bb2
 
 bb4:                                              ; preds = %bb3
 ; invoke <core::alloc::layout::Layout>::from_size_align_unchecked
-  %4 = invoke { i64, i64 } @_RNvMNtNtCs3p84KrD9aKt_4core5alloc6layoutNtB2_6Layout25from_size_align_uncheckedCs37qxPUa7whq_20oneway_thread_access(i64 %size, i64 %align)
+  %4 = invoke { i64, i64 } @_RNvMNtNtCs3p84KrD9aKt_4core5alloc6layoutNtB2_6Layout25from_size_align_uncheckedCsdT7u4N7w2iC_20stack_map_and_mutate(i64 %size, i64 %align)
           to label %bb5 unwind label %cleanup, !dbg !1983
 
 bb5:                                              ; preds = %bb4
@@ -3718,17 +3726,17 @@ bb5:                                              ; preds = %bb4
   call void @llvm.dbg.declare(metadata { i64, i64 }* %layout.dbg.spill, metadata !1972, metadata !DIExpression()), !dbg !1984
   %_17 = load i64*, i64** %ptr, align 8, !dbg !1985, !nonnull !4
 ; invoke <core::ptr::unique::Unique<alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>>>>::cast::<u8>
-  %_16 = invoke nonnull i8* @_RINvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB6_6UniqueINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtBa_4cell10UnsafeCellINtNtBa_6option6OptionINtNtBa_6result6ResultuINtNtBW_5boxed3BoxDNtNtBa_3any3AnyNtNtBa_6marker4SendEL_EEEEEE4casthECs37qxPUa7whq_20oneway_thread_access(i64* nonnull %_17)
+  %_16 = invoke nonnull i8* @_RINvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB6_6UniqueINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtBa_4cell10UnsafeCellINtNtBa_6option6OptionINtNtBa_6result6ResultuINtNtBW_5boxed3BoxDNtNtBa_3any3AnyNtNtBa_6marker4SendEL_EEEEEE4casthECsdT7u4N7w2iC_20stack_map_and_mutate(i64* nonnull %_17)
           to label %bb6 unwind label %cleanup, !dbg !1985
 
 bb6:                                              ; preds = %bb5
 ; invoke <core::ptr::unique::Unique<u8> as core::convert::Into<core::ptr::non_null::NonNull<u8>>>::into
-  %_15 = invoke nonnull i8* @_RNvXs1_NtCs3p84KrD9aKt_4core7convertINtNtNtB7_3ptr6unique6UniquehEINtB5_4IntoINtNtBD_8non_null7NonNullhEE4intoCs37qxPUa7whq_20oneway_thread_access(i8* nonnull %_16)
+  %_15 = invoke nonnull i8* @_RNvXs1_NtCs3p84KrD9aKt_4core7convertINtNtNtB7_3ptr6unique6UniquehEINtB5_4IntoINtNtBD_8non_null7NonNullhEE4intoCsdT7u4N7w2iC_20stack_map_and_mutate(i8* nonnull %_16)
           to label %bb7 unwind label %cleanup, !dbg !1985
 
 bb7:                                              ; preds = %bb6
 ; invoke <alloc::alloc::Global as core::alloc::Allocator>::deallocate
-  invoke void @_RNvXs_NtCs8RW06R9lH2S_5alloc5allocNtB4_6GlobalNtNtCs3p84KrD9aKt_4core5alloc9Allocator10deallocateCs37qxPUa7whq_20oneway_thread_access(%"std::alloc::Global"* noalias nonnull readonly align 1 %alloc, i8* nonnull %_15, i64 %layout.0, i64 %layout.1)
+  invoke void @_RNvXs_NtCs8RW06R9lH2S_5alloc5allocNtB4_6GlobalNtNtCs3p84KrD9aKt_4core5alloc9Allocator10deallocateCsdT7u4N7w2iC_20stack_map_and_mutate(%"std::alloc::Global"* noalias nonnull readonly align 1 %alloc, i8* nonnull %_15, i64 %layout.0, i64 %layout.1)
           to label %bb8 unwind label %cleanup, !dbg !1986
 
 bb8:                                              ; preds = %bb7
@@ -3763,7 +3771,7 @@ cleanup:                                          ; preds = %bb7, %bb6, %bb5, %b
 
 ; alloc::alloc::box_free::<std::io::error::Custom, alloc::alloc::Global>
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal void @_RINvNtCs8RW06R9lH2S_5alloc5alloc8box_freeNtNtNtCs2bNvlddUlXM_3std2io5error6CustomNtB2_6GlobalECs37qxPUa7whq_20oneway_thread_access(i64* nonnull %0) unnamed_addr #1 personality i32 (i32, i32, i64, %"unwind::libunwind::_Unwind_Exception"*, %"unwind::libunwind::_Unwind_Context"*)* @rust_eh_personality !dbg !1990 {
+define internal void @_RINvNtCs8RW06R9lH2S_5alloc5alloc8box_freeNtNtNtCs2bNvlddUlXM_3std2io5error6CustomNtB2_6GlobalECsdT7u4N7w2iC_20stack_map_and_mutate(i64* nonnull %0) unnamed_addr #1 personality i32 (i32, i32, i64, %"unwind::libunwind::_Unwind_Exception"*, %"unwind::libunwind::_Unwind_Context"*)* @rust_eh_personality !dbg !1990 {
 start:
   %layout.dbg.spill = alloca { i64, i64 }, align 8
   %align.dbg.spill = alloca i64, align 8
@@ -3777,7 +3785,7 @@ start:
   call void @llvm.dbg.declare(metadata i64** %ptr, metadata !1994, metadata !DIExpression()), !dbg !2003
   call void @llvm.dbg.declare(metadata %"std::alloc::Global"* %alloc, metadata !1995, metadata !DIExpression()), !dbg !2004
 ; invoke <core::ptr::unique::Unique<std::io::error::Custom>>::as_ref
-  %_5 = invoke align 8 dereferenceable(24) %"std::io::error::Custom"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueNtNtNtCs2bNvlddUlXM_3std2io5error6CustomE6as_refCs37qxPUa7whq_20oneway_thread_access(i64** noalias readonly align 8 dereferenceable(8) %ptr)
+  %_5 = invoke align 8 dereferenceable(24) %"std::io::error::Custom"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueNtNtNtCs2bNvlddUlXM_3std2io5error6CustomE6as_refCsdT7u4N7w2iC_20stack_map_and_mutate(i64** noalias readonly align 8 dereferenceable(8) %ptr)
           to label %bb1 unwind label %cleanup, !dbg !2005
 
 bb1:                                              ; preds = %start
@@ -3789,7 +3797,7 @@ bb1:                                              ; preds = %start
 
 bb2:                                              ; preds = %bb1
 ; invoke <core::ptr::unique::Unique<std::io::error::Custom>>::as_ref
-  %_9 = invoke align 8 dereferenceable(24) %"std::io::error::Custom"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueNtNtNtCs2bNvlddUlXM_3std2io5error6CustomE6as_refCs37qxPUa7whq_20oneway_thread_access(i64** noalias readonly align 8 dereferenceable(8) %ptr)
+  %_9 = invoke align 8 dereferenceable(24) %"std::io::error::Custom"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueNtNtNtCs2bNvlddUlXM_3std2io5error6CustomE6as_refCsdT7u4N7w2iC_20stack_map_and_mutate(i64** noalias readonly align 8 dereferenceable(8) %ptr)
           to label %bb3 unwind label %cleanup, !dbg !2008
 
 bb3:                                              ; preds = %bb2
@@ -3801,7 +3809,7 @@ bb3:                                              ; preds = %bb2
 
 bb4:                                              ; preds = %bb3
 ; invoke <core::alloc::layout::Layout>::from_size_align_unchecked
-  %4 = invoke { i64, i64 } @_RNvMNtNtCs3p84KrD9aKt_4core5alloc6layoutNtB2_6Layout25from_size_align_uncheckedCs37qxPUa7whq_20oneway_thread_access(i64 %size, i64 %align)
+  %4 = invoke { i64, i64 } @_RNvMNtNtCs3p84KrD9aKt_4core5alloc6layoutNtB2_6Layout25from_size_align_uncheckedCsdT7u4N7w2iC_20stack_map_and_mutate(i64 %size, i64 %align)
           to label %bb5 unwind label %cleanup, !dbg !2011
 
 bb5:                                              ; preds = %bb4
@@ -3814,17 +3822,17 @@ bb5:                                              ; preds = %bb4
   call void @llvm.dbg.declare(metadata { i64, i64 }* %layout.dbg.spill, metadata !2000, metadata !DIExpression()), !dbg !2012
   %_17 = load i64*, i64** %ptr, align 8, !dbg !2013, !nonnull !4
 ; invoke <core::ptr::unique::Unique<std::io::error::Custom>>::cast::<u8>
-  %_16 = invoke nonnull i8* @_RINvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB6_6UniqueNtNtNtCs2bNvlddUlXM_3std2io5error6CustomE4casthECs37qxPUa7whq_20oneway_thread_access(i64* nonnull %_17)
+  %_16 = invoke nonnull i8* @_RINvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB6_6UniqueNtNtNtCs2bNvlddUlXM_3std2io5error6CustomE4casthECsdT7u4N7w2iC_20stack_map_and_mutate(i64* nonnull %_17)
           to label %bb6 unwind label %cleanup, !dbg !2013
 
 bb6:                                              ; preds = %bb5
 ; invoke <core::ptr::unique::Unique<u8> as core::convert::Into<core::ptr::non_null::NonNull<u8>>>::into
-  %_15 = invoke nonnull i8* @_RNvXs1_NtCs3p84KrD9aKt_4core7convertINtNtNtB7_3ptr6unique6UniquehEINtB5_4IntoINtNtBD_8non_null7NonNullhEE4intoCs37qxPUa7whq_20oneway_thread_access(i8* nonnull %_16)
+  %_15 = invoke nonnull i8* @_RNvXs1_NtCs3p84KrD9aKt_4core7convertINtNtNtB7_3ptr6unique6UniquehEINtB5_4IntoINtNtBD_8non_null7NonNullhEE4intoCsdT7u4N7w2iC_20stack_map_and_mutate(i8* nonnull %_16)
           to label %bb7 unwind label %cleanup, !dbg !2013
 
 bb7:                                              ; preds = %bb6
 ; invoke <alloc::alloc::Global as core::alloc::Allocator>::deallocate
-  invoke void @_RNvXs_NtCs8RW06R9lH2S_5alloc5allocNtB4_6GlobalNtNtCs3p84KrD9aKt_4core5alloc9Allocator10deallocateCs37qxPUa7whq_20oneway_thread_access(%"std::alloc::Global"* noalias nonnull readonly align 1 %alloc, i8* nonnull %_15, i64 %layout.0, i64 %layout.1)
+  invoke void @_RNvXs_NtCs8RW06R9lH2S_5alloc5allocNtB4_6GlobalNtNtCs3p84KrD9aKt_4core5alloc9Allocator10deallocateCsdT7u4N7w2iC_20stack_map_and_mutate(%"std::alloc::Global"* noalias nonnull readonly align 1 %alloc, i8* nonnull %_15, i64 %layout.0, i64 %layout.1)
           to label %bb8 unwind label %cleanup, !dbg !2014
 
 bb8:                                              ; preds = %bb7
@@ -3859,7 +3867,7 @@ cleanup:                                          ; preds = %bb7, %bb6, %bb5, %b
 
 ; alloc::alloc::box_free::<std::sys::unix::mutex::Mutex, alloc::alloc::Global>
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal void @_RINvNtCs8RW06R9lH2S_5alloc5alloc8box_freeNtNtNtNtCs2bNvlddUlXM_3std3sys4unix5mutex5MutexNtB2_6GlobalECs37qxPUa7whq_20oneway_thread_access(i64* nonnull %0) unnamed_addr #1 personality i32 (i32, i32, i64, %"unwind::libunwind::_Unwind_Exception"*, %"unwind::libunwind::_Unwind_Context"*)* @rust_eh_personality !dbg !2018 {
+define internal void @_RINvNtCs8RW06R9lH2S_5alloc5alloc8box_freeNtNtNtNtCs2bNvlddUlXM_3std3sys4unix5mutex5MutexNtB2_6GlobalECsdT7u4N7w2iC_20stack_map_and_mutate(i64* nonnull %0) unnamed_addr #1 personality i32 (i32, i32, i64, %"unwind::libunwind::_Unwind_Exception"*, %"unwind::libunwind::_Unwind_Context"*)* @rust_eh_personality !dbg !2018 {
 start:
   %layout.dbg.spill = alloca { i64, i64 }, align 8
   %align.dbg.spill = alloca i64, align 8
@@ -3873,7 +3881,7 @@ start:
   call void @llvm.dbg.declare(metadata i64** %ptr, metadata !2022, metadata !DIExpression()), !dbg !2031
   call void @llvm.dbg.declare(metadata %"std::alloc::Global"* %alloc, metadata !2023, metadata !DIExpression()), !dbg !2032
 ; invoke <core::ptr::unique::Unique<std::sys::unix::mutex::Mutex>>::as_ref
-  %_5 = invoke align 8 dereferenceable(40) %"std::sys::unix::mutex::Mutex"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueNtNtNtNtCs2bNvlddUlXM_3std3sys4unix5mutex5MutexE6as_refCs37qxPUa7whq_20oneway_thread_access(i64** noalias readonly align 8 dereferenceable(8) %ptr)
+  %_5 = invoke align 8 dereferenceable(40) %"std::sys::unix::mutex::Mutex"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueNtNtNtNtCs2bNvlddUlXM_3std3sys4unix5mutex5MutexE6as_refCsdT7u4N7w2iC_20stack_map_and_mutate(i64** noalias readonly align 8 dereferenceable(8) %ptr)
           to label %bb1 unwind label %cleanup, !dbg !2033
 
 bb1:                                              ; preds = %start
@@ -3885,7 +3893,7 @@ bb1:                                              ; preds = %start
 
 bb2:                                              ; preds = %bb1
 ; invoke <core::ptr::unique::Unique<std::sys::unix::mutex::Mutex>>::as_ref
-  %_9 = invoke align 8 dereferenceable(40) %"std::sys::unix::mutex::Mutex"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueNtNtNtNtCs2bNvlddUlXM_3std3sys4unix5mutex5MutexE6as_refCs37qxPUa7whq_20oneway_thread_access(i64** noalias readonly align 8 dereferenceable(8) %ptr)
+  %_9 = invoke align 8 dereferenceable(40) %"std::sys::unix::mutex::Mutex"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueNtNtNtNtCs2bNvlddUlXM_3std3sys4unix5mutex5MutexE6as_refCsdT7u4N7w2iC_20stack_map_and_mutate(i64** noalias readonly align 8 dereferenceable(8) %ptr)
           to label %bb3 unwind label %cleanup, !dbg !2036
 
 bb3:                                              ; preds = %bb2
@@ -3897,7 +3905,7 @@ bb3:                                              ; preds = %bb2
 
 bb4:                                              ; preds = %bb3
 ; invoke <core::alloc::layout::Layout>::from_size_align_unchecked
-  %4 = invoke { i64, i64 } @_RNvMNtNtCs3p84KrD9aKt_4core5alloc6layoutNtB2_6Layout25from_size_align_uncheckedCs37qxPUa7whq_20oneway_thread_access(i64 %size, i64 %align)
+  %4 = invoke { i64, i64 } @_RNvMNtNtCs3p84KrD9aKt_4core5alloc6layoutNtB2_6Layout25from_size_align_uncheckedCsdT7u4N7w2iC_20stack_map_and_mutate(i64 %size, i64 %align)
           to label %bb5 unwind label %cleanup, !dbg !2039
 
 bb5:                                              ; preds = %bb4
@@ -3910,17 +3918,17 @@ bb5:                                              ; preds = %bb4
   call void @llvm.dbg.declare(metadata { i64, i64 }* %layout.dbg.spill, metadata !2028, metadata !DIExpression()), !dbg !2040
   %_17 = load i64*, i64** %ptr, align 8, !dbg !2041, !nonnull !4
 ; invoke <core::ptr::unique::Unique<std::sys::unix::mutex::Mutex>>::cast::<u8>
-  %_16 = invoke nonnull i8* @_RINvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB6_6UniqueNtNtNtNtCs2bNvlddUlXM_3std3sys4unix5mutex5MutexE4casthECs37qxPUa7whq_20oneway_thread_access(i64* nonnull %_17)
+  %_16 = invoke nonnull i8* @_RINvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB6_6UniqueNtNtNtNtCs2bNvlddUlXM_3std3sys4unix5mutex5MutexE4casthECsdT7u4N7w2iC_20stack_map_and_mutate(i64* nonnull %_17)
           to label %bb6 unwind label %cleanup, !dbg !2041
 
 bb6:                                              ; preds = %bb5
 ; invoke <core::ptr::unique::Unique<u8> as core::convert::Into<core::ptr::non_null::NonNull<u8>>>::into
-  %_15 = invoke nonnull i8* @_RNvXs1_NtCs3p84KrD9aKt_4core7convertINtNtNtB7_3ptr6unique6UniquehEINtB5_4IntoINtNtBD_8non_null7NonNullhEE4intoCs37qxPUa7whq_20oneway_thread_access(i8* nonnull %_16)
+  %_15 = invoke nonnull i8* @_RNvXs1_NtCs3p84KrD9aKt_4core7convertINtNtNtB7_3ptr6unique6UniquehEINtB5_4IntoINtNtBD_8non_null7NonNullhEE4intoCsdT7u4N7w2iC_20stack_map_and_mutate(i8* nonnull %_16)
           to label %bb7 unwind label %cleanup, !dbg !2041
 
 bb7:                                              ; preds = %bb6
 ; invoke <alloc::alloc::Global as core::alloc::Allocator>::deallocate
-  invoke void @_RNvXs_NtCs8RW06R9lH2S_5alloc5allocNtB4_6GlobalNtNtCs3p84KrD9aKt_4core5alloc9Allocator10deallocateCs37qxPUa7whq_20oneway_thread_access(%"std::alloc::Global"* noalias nonnull readonly align 1 %alloc, i8* nonnull %_15, i64 %layout.0, i64 %layout.1)
+  invoke void @_RNvXs_NtCs8RW06R9lH2S_5alloc5allocNtB4_6GlobalNtNtCs3p84KrD9aKt_4core5alloc9Allocator10deallocateCsdT7u4N7w2iC_20stack_map_and_mutate(%"std::alloc::Global"* noalias nonnull readonly align 1 %alloc, i8* nonnull %_15, i64 %layout.0, i64 %layout.1)
           to label %bb8 unwind label %cleanup, !dbg !2042
 
 bb8:                                              ; preds = %bb7
@@ -3955,7 +3963,7 @@ cleanup:                                          ; preds = %bb7, %bb6, %bb5, %b
 
 ; alloc::alloc::box_free::<[u8], alloc::alloc::Global>
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal void @_RINvNtCs8RW06R9lH2S_5alloc5alloc8box_freeShNtB2_6GlobalECs37qxPUa7whq_20oneway_thread_access(i8* nonnull %0, i64 %1) unnamed_addr #1 personality i32 (i32, i32, i64, %"unwind::libunwind::_Unwind_Exception"*, %"unwind::libunwind::_Unwind_Context"*)* @rust_eh_personality !dbg !2046 {
+define internal void @_RINvNtCs8RW06R9lH2S_5alloc5alloc8box_freeShNtB2_6GlobalECsdT7u4N7w2iC_20stack_map_and_mutate(i8* nonnull %0, i64 %1) unnamed_addr #1 personality i32 (i32, i32, i64, %"unwind::libunwind::_Unwind_Exception"*, %"unwind::libunwind::_Unwind_Context"*)* @rust_eh_personality !dbg !2046 {
 start:
   %layout.dbg.spill = alloca { i64, i64 }, align 8
   %align.dbg.spill = alloca i64, align 8
@@ -3972,7 +3980,7 @@ start:
   call void @llvm.dbg.declare(metadata { i8*, i64 }* %ptr, metadata !2050, metadata !DIExpression()), !dbg !2058
   call void @llvm.dbg.declare(metadata %"std::alloc::Global"* %alloc, metadata !2051, metadata !DIExpression()), !dbg !2059
 ; invoke <core::ptr::unique::Unique<[u8]>>::as_ref
-  %7 = invoke { [0 x i8]*, i64 } @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueShE6as_refCs37qxPUa7whq_20oneway_thread_access({ i8*, i64 }* noalias readonly align 8 dereferenceable(16) %ptr)
+  %7 = invoke { [0 x i8]*, i64 } @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueShE6as_refCsdT7u4N7w2iC_20stack_map_and_mutate({ i8*, i64 }* noalias readonly align 8 dereferenceable(16) %ptr)
           to label %bb1 unwind label %cleanup, !dbg !2060
 
 bb1:                                              ; preds = %start
@@ -3987,7 +3995,7 @@ bb1:                                              ; preds = %start
 
 bb2:                                              ; preds = %bb1
 ; invoke <core::ptr::unique::Unique<[u8]>>::as_ref
-  %9 = invoke { [0 x i8]*, i64 } @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueShE6as_refCs37qxPUa7whq_20oneway_thread_access({ i8*, i64 }* noalias readonly align 8 dereferenceable(16) %ptr)
+  %9 = invoke { [0 x i8]*, i64 } @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueShE6as_refCsdT7u4N7w2iC_20stack_map_and_mutate({ i8*, i64 }* noalias readonly align 8 dereferenceable(16) %ptr)
           to label %bb3 unwind label %cleanup, !dbg !2063
 
 bb3:                                              ; preds = %bb2
@@ -4002,7 +4010,7 @@ bb3:                                              ; preds = %bb2
 
 bb4:                                              ; preds = %bb3
 ; invoke <core::alloc::layout::Layout>::from_size_align_unchecked
-  %11 = invoke { i64, i64 } @_RNvMNtNtCs3p84KrD9aKt_4core5alloc6layoutNtB2_6Layout25from_size_align_uncheckedCs37qxPUa7whq_20oneway_thread_access(i64 %size, i64 %align)
+  %11 = invoke { i64, i64 } @_RNvMNtNtCs3p84KrD9aKt_4core5alloc6layoutNtB2_6Layout25from_size_align_uncheckedCsdT7u4N7w2iC_20stack_map_and_mutate(i64 %size, i64 %align)
           to label %bb5 unwind label %cleanup, !dbg !2066
 
 bb5:                                              ; preds = %bb4
@@ -4018,17 +4026,17 @@ bb5:                                              ; preds = %bb4
   %15 = getelementptr inbounds { i8*, i64 }, { i8*, i64 }* %ptr, i32 0, i32 1, !dbg !2068
   %_17.1 = load i64, i64* %15, align 8, !dbg !2068
 ; invoke <core::ptr::unique::Unique<[u8]>>::cast::<u8>
-  %_16 = invoke nonnull i8* @_RINvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB6_6UniqueShE4casthECs37qxPUa7whq_20oneway_thread_access(i8* nonnull %_17.0, i64 %_17.1)
+  %_16 = invoke nonnull i8* @_RINvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB6_6UniqueShE4casthECsdT7u4N7w2iC_20stack_map_and_mutate(i8* nonnull %_17.0, i64 %_17.1)
           to label %bb6 unwind label %cleanup, !dbg !2068
 
 bb6:                                              ; preds = %bb5
 ; invoke <core::ptr::unique::Unique<u8> as core::convert::Into<core::ptr::non_null::NonNull<u8>>>::into
-  %_15 = invoke nonnull i8* @_RNvXs1_NtCs3p84KrD9aKt_4core7convertINtNtNtB7_3ptr6unique6UniquehEINtB5_4IntoINtNtBD_8non_null7NonNullhEE4intoCs37qxPUa7whq_20oneway_thread_access(i8* nonnull %_16)
+  %_15 = invoke nonnull i8* @_RNvXs1_NtCs3p84KrD9aKt_4core7convertINtNtNtB7_3ptr6unique6UniquehEINtB5_4IntoINtNtBD_8non_null7NonNullhEE4intoCsdT7u4N7w2iC_20stack_map_and_mutate(i8* nonnull %_16)
           to label %bb7 unwind label %cleanup, !dbg !2068
 
 bb7:                                              ; preds = %bb6
 ; invoke <alloc::alloc::Global as core::alloc::Allocator>::deallocate
-  invoke void @_RNvXs_NtCs8RW06R9lH2S_5alloc5allocNtB4_6GlobalNtNtCs3p84KrD9aKt_4core5alloc9Allocator10deallocateCs37qxPUa7whq_20oneway_thread_access(%"std::alloc::Global"* noalias nonnull readonly align 1 %alloc, i8* nonnull %_15, i64 %layout.0, i64 %layout.1)
+  invoke void @_RNvXs_NtCs8RW06R9lH2S_5alloc5allocNtB4_6GlobalNtNtCs3p84KrD9aKt_4core5alloc9Allocator10deallocateCsdT7u4N7w2iC_20stack_map_and_mutate(%"std::alloc::Global"* noalias nonnull readonly align 1 %alloc, i8* nonnull %_15, i64 %layout.0, i64 %layout.1)
           to label %bb8 unwind label %cleanup, !dbg !2069
 
 bb8:                                              ; preds = %bb7
@@ -4063,7 +4071,7 @@ cleanup:                                          ; preds = %bb7, %bb6, %bb5, %b
 
 ; std::sys_common::backtrace::__rust_begin_short_backtrace::<fn(), ()>
 ; Function Attrs: noinline nonlazybind uwtable
-define internal void @_RINvNtNtCs2bNvlddUlXM_3std10sys_common9backtrace28___rust_begin_short_backtraceFEuuECs37qxPUa7whq_20oneway_thread_access(void ()* nonnull %f) unnamed_addr #2 personality i32 (i32, i32, i64, %"unwind::libunwind::_Unwind_Exception"*, %"unwind::libunwind::_Unwind_Context"*)* @rust_eh_personality !dbg !2073 {
+define internal void @_RINvNtNtCs2bNvlddUlXM_3std10sys_common9backtrace28___rust_begin_short_backtraceFEuuECsdT7u4N7w2iC_20stack_map_and_mutate(void ()* nonnull %f) unnamed_addr #2 personality i32 (i32, i32, i64, %"unwind::libunwind::_Unwind_Exception"*, %"unwind::libunwind::_Unwind_Context"*)* @rust_eh_personality !dbg !2073 {
 start:
   %0 = alloca { i8*, i32 }, align 8
   %f.dbg.spill = alloca void ()*, align 8
@@ -4074,12 +4082,12 @@ start:
   store void ()* %f, void ()** %f.dbg.spill, align 8
   call void @llvm.dbg.declare(metadata void ()** %f.dbg.spill, metadata !2079, metadata !DIExpression()), !dbg !2085
 ; call <fn() as core::ops::function::FnOnce<()>>::call_once
-  call void @_RNvYFEuINtNtNtCs3p84KrD9aKt_4core3ops8function6FnOnceuE9call_onceCs37qxPUa7whq_20oneway_thread_access(void ()* nonnull %f), !dbg !2086
+  call void @_RNvYFEuINtNtNtCs3p84KrD9aKt_4core3ops8function6FnOnceuE9call_onceCsdT7u4N7w2iC_20stack_map_and_mutate(void ()* nonnull %f), !dbg !2086
   br label %bb1, !dbg !2086
 
 bb1:                                              ; preds = %start
 ; invoke core::hint::black_box::<()>
-  invoke void @_RINvNtCs3p84KrD9aKt_4core4hint9black_boxuECs37qxPUa7whq_20oneway_thread_access()
+  invoke void @_RINvNtCs3p84KrD9aKt_4core4hint9black_boxuECsdT7u4N7w2iC_20stack_map_and_mutate()
           to label %bb2 unwind label %cleanup, !dbg !2087
 
 bb2:                                              ; preds = %bb1
@@ -4109,9 +4117,9 @@ cleanup:                                          ; preds = %bb1
   br label %bb3
 }
 
-; std::sys_common::backtrace::__rust_begin_short_backtrace::<oneway_thread_access::main::{closure#0}, ()>
+; std::sys_common::backtrace::__rust_begin_short_backtrace::<stack_map_and_mutate::main::{closure#0}, ()>
 ; Function Attrs: noinline nonlazybind uwtable
-define internal void @_RINvNtNtCs2bNvlddUlXM_3std10sys_common9backtrace28___rust_begin_short_backtraceNCNvCs37qxPUa7whq_20oneway_thread_access4main0uEB1j_(i8 %f) unnamed_addr #2 personality i32 (i32, i32, i64, %"unwind::libunwind::_Unwind_Exception"*, %"unwind::libunwind::_Unwind_Context"*)* @rust_eh_personality !dbg !2091 {
+define internal void @_RINvNtNtCs2bNvlddUlXM_3std10sys_common9backtrace28___rust_begin_short_backtraceNCNvCsdT7u4N7w2iC_20stack_map_and_mutate4main0uEB1j_(i8 %f) unnamed_addr #2 personality i32 (i32, i32, i64, %"unwind::libunwind::_Unwind_Exception"*, %"unwind::libunwind::_Unwind_Context"*)* @rust_eh_personality !dbg !2091 {
 start:
   %0 = alloca { i8*, i32 }, align 8
   %f.dbg.spill = alloca i8, align 1
@@ -4121,13 +4129,13 @@ start:
   call void @llvm.dbg.declare(metadata {}* %result.dbg.spill, metadata !2096, metadata !DIExpression()), !dbg !2098
   store i8 %f, i8* %f.dbg.spill, align 1
   call void @llvm.dbg.declare(metadata i8* %f.dbg.spill, metadata !2095, metadata !DIExpression()), !dbg !2099
-; call oneway_thread_access::main::{closure#0}
-  call void @_RNCNvCs37qxPUa7whq_20oneway_thread_access4main0B3_(i8 %f), !dbg !2100
+; call stack_map_and_mutate::main::{closure#0}
+  call void @_RNCNvCsdT7u4N7w2iC_20stack_map_and_mutate4main0B3_(i8 %f), !dbg !2100
   br label %bb1, !dbg !2100
 
 bb1:                                              ; preds = %start
 ; invoke core::hint::black_box::<()>
-  invoke void @_RINvNtCs3p84KrD9aKt_4core4hint9black_boxuECs37qxPUa7whq_20oneway_thread_access()
+  invoke void @_RINvNtCs3p84KrD9aKt_4core4hint9black_boxuECsdT7u4N7w2iC_20stack_map_and_mutate()
           to label %bb2 unwind label %cleanup, !dbg !2101
 
 bb2:                                              ; preds = %bb1
@@ -4159,7 +4167,7 @@ cleanup:                                          ; preds = %bb1
 
 ; core::sync::atomic::atomic_add::<usize>
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal i64 @_RINvNtNtCs3p84KrD9aKt_4core4sync6atomic10atomic_addjECs37qxPUa7whq_20oneway_thread_access(i64* %dst, i64 %val, i8 %0) unnamed_addr #1 !dbg !2105 {
+define internal i64 @_RINvNtNtCs3p84KrD9aKt_4core4sync6atomic10atomic_addjECsdT7u4N7w2iC_20stack_map_and_mutate(i64* %dst, i64 %val, i8 %0) unnamed_addr #1 !dbg !2105 {
 start:
   %val.dbg.spill = alloca i64, align 8
   %dst.dbg.spill = alloca i64*, align 8
@@ -4231,7 +4239,7 @@ bb12:                                             ; preds = %bb10, %bb6, %bb4, %
 
 ; core::sync::atomic::atomic_sub::<usize>
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal i64 @_RINvNtNtCs3p84KrD9aKt_4core4sync6atomic10atomic_subjECs37qxPUa7whq_20oneway_thread_access(i64* %dst, i64 %val, i8 %0) unnamed_addr #1 !dbg !2127 {
+define internal i64 @_RINvNtNtCs3p84KrD9aKt_4core4sync6atomic10atomic_subjECsdT7u4N7w2iC_20stack_map_and_mutate(i64* %dst, i64 %val, i8 %0) unnamed_addr #1 !dbg !2127 {
 start:
   %val.dbg.spill = alloca i64, align 8
   %dst.dbg.spill = alloca i64*, align 8
@@ -4301,33 +4309,33 @@ bb12:                                             ; preds = %bb10, %bb6, %bb4, %
   ret i64 %8, !dbg !2143
 }
 
-; std::panicking::try::do_call::<std::panic::AssertUnwindSafe<<std::thread::Builder>::spawn_unchecked<oneway_thread_access::main::{closure#0}, ()>::{closure#0}::{closure#0}>, ()>
+; std::panicking::try::do_call::<std::panic::AssertUnwindSafe<<std::thread::Builder>::spawn_unchecked<stack_map_and_mutate::main::{closure#0}, ()>::{closure#0}::{closure#0}>, ()>
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal void @_RINvNvNtCs2bNvlddUlXM_3std9panicking3try7do_callINtNtB6_5panic16AssertUnwindSafeNCNCINvMNtB6_6threadNtB1o_7Builder15spawn_uncheckedNCNvCs37qxPUa7whq_20oneway_thread_access4main0uE00EuEB29_(i8* %data) unnamed_addr #1 !dbg !2144 {
+define internal void @_RINvNvNtCs2bNvlddUlXM_3std9panicking3try7do_callINtNtB6_5panic16AssertUnwindSafeNCNCINvMNtB6_6threadNtB1o_7Builder15spawn_uncheckedNCNvCsdT7u4N7w2iC_20stack_map_and_mutate4main0uE00EuEB29_(i8* %data) unnamed_addr #1 !dbg !2144 {
 start:
   %0 = alloca %"std::mem::ManuallyDrop<()>", align 1
   %f.dbg.spill = alloca i8, align 1
-  %data.dbg.spill3 = alloca %"std::panicking::r#try::Data<std::panic::AssertUnwindSafe<[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 16:3], ()>::{closure#0}::{closure#0}]>, ()>"*, align 8
-  %data.dbg.spill2 = alloca %"std::panicking::r#try::Data<std::panic::AssertUnwindSafe<[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 16:3], ()>::{closure#0}::{closure#0}]>, ()>"*, align 8
+  %data.dbg.spill3 = alloca %"std::panicking::r#try::Data<std::panic::AssertUnwindSafe<[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 18:3], ()>::{closure#0}::{closure#0}]>, ()>"*, align 8
+  %data.dbg.spill2 = alloca %"std::panicking::r#try::Data<std::panic::AssertUnwindSafe<[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 18:3], ()>::{closure#0}::{closure#0}]>, ()>"*, align 8
   %data.dbg.spill = alloca i8*, align 8
   %_11 = alloca {}, align 1
   store i8* %data, i8** %data.dbg.spill, align 8
   call void @llvm.dbg.declare(metadata i8** %data.dbg.spill, metadata !2148, metadata !DIExpression()), !dbg !2157
-  %data1 = bitcast i8* %data to %"std::panicking::r#try::Data<std::panic::AssertUnwindSafe<[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 16:3], ()>::{closure#0}::{closure#0}]>, ()>"*, !dbg !2158
-  store %"std::panicking::r#try::Data<std::panic::AssertUnwindSafe<[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 16:3], ()>::{closure#0}::{closure#0}]>, ()>"* %data1, %"std::panicking::r#try::Data<std::panic::AssertUnwindSafe<[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 16:3], ()>::{closure#0}::{closure#0}]>, ()>"** %data.dbg.spill2, align 8, !dbg !2158
-  call void @llvm.dbg.declare(metadata %"std::panicking::r#try::Data<std::panic::AssertUnwindSafe<[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 16:3], ()>::{closure#0}::{closure#0}]>, ()>"** %data.dbg.spill2, metadata !2149, metadata !DIExpression()), !dbg !2159
-  store %"std::panicking::r#try::Data<std::panic::AssertUnwindSafe<[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 16:3], ()>::{closure#0}::{closure#0}]>, ()>"* %data1, %"std::panicking::r#try::Data<std::panic::AssertUnwindSafe<[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 16:3], ()>::{closure#0}::{closure#0}]>, ()>"** %data.dbg.spill3, align 8, !dbg !2160
-  call void @llvm.dbg.declare(metadata %"std::panicking::r#try::Data<std::panic::AssertUnwindSafe<[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 16:3], ()>::{closure#0}::{closure#0}]>, ()>"** %data.dbg.spill3, metadata !2152, metadata !DIExpression()), !dbg !2161
-  %_7 = bitcast %"std::panicking::r#try::Data<std::panic::AssertUnwindSafe<[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 16:3], ()>::{closure#0}::{closure#0}]>, ()>"* %data1 to i8*, !dbg !2162
-; call <core::mem::manually_drop::ManuallyDrop<std::panic::AssertUnwindSafe<<std::thread::Builder>::spawn_unchecked<oneway_thread_access::main::{closure#0}, ()>::{closure#0}::{closure#0}>>>::take
-  %f = call i8 @_RNvMNtNtCs3p84KrD9aKt_4core3mem13manually_dropINtB2_12ManuallyDropINtNtCs2bNvlddUlXM_3std5panic16AssertUnwindSafeNCNCINvMNtB17_6threadNtB1V_7Builder15spawn_uncheckedNCNvCs37qxPUa7whq_20oneway_thread_access4main0uE00EE4takeB2H_(i8* align 1 dereferenceable(1) %_7), !dbg !2163
+  %data1 = bitcast i8* %data to %"std::panicking::r#try::Data<std::panic::AssertUnwindSafe<[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 18:3], ()>::{closure#0}::{closure#0}]>, ()>"*, !dbg !2158
+  store %"std::panicking::r#try::Data<std::panic::AssertUnwindSafe<[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 18:3], ()>::{closure#0}::{closure#0}]>, ()>"* %data1, %"std::panicking::r#try::Data<std::panic::AssertUnwindSafe<[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 18:3], ()>::{closure#0}::{closure#0}]>, ()>"** %data.dbg.spill2, align 8, !dbg !2158
+  call void @llvm.dbg.declare(metadata %"std::panicking::r#try::Data<std::panic::AssertUnwindSafe<[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 18:3], ()>::{closure#0}::{closure#0}]>, ()>"** %data.dbg.spill2, metadata !2149, metadata !DIExpression()), !dbg !2159
+  store %"std::panicking::r#try::Data<std::panic::AssertUnwindSafe<[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 18:3], ()>::{closure#0}::{closure#0}]>, ()>"* %data1, %"std::panicking::r#try::Data<std::panic::AssertUnwindSafe<[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 18:3], ()>::{closure#0}::{closure#0}]>, ()>"** %data.dbg.spill3, align 8, !dbg !2160
+  call void @llvm.dbg.declare(metadata %"std::panicking::r#try::Data<std::panic::AssertUnwindSafe<[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 18:3], ()>::{closure#0}::{closure#0}]>, ()>"** %data.dbg.spill3, metadata !2152, metadata !DIExpression()), !dbg !2161
+  %_7 = bitcast %"std::panicking::r#try::Data<std::panic::AssertUnwindSafe<[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 18:3], ()>::{closure#0}::{closure#0}]>, ()>"* %data1 to i8*, !dbg !2162
+; call <core::mem::manually_drop::ManuallyDrop<std::panic::AssertUnwindSafe<<std::thread::Builder>::spawn_unchecked<stack_map_and_mutate::main::{closure#0}, ()>::{closure#0}::{closure#0}>>>::take
+  %f = call i8 @_RNvMNtNtCs3p84KrD9aKt_4core3mem13manually_dropINtB2_12ManuallyDropINtNtCs2bNvlddUlXM_3std5panic16AssertUnwindSafeNCNCINvMNtB17_6threadNtB1V_7Builder15spawn_uncheckedNCNvCsdT7u4N7w2iC_20stack_map_and_mutate4main0uE00EE4takeB2H_(i8* align 1 dereferenceable(1) %_7), !dbg !2163
   store i8 %f, i8* %f.dbg.spill, align 1, !dbg !2163
   call void @llvm.dbg.declare(metadata i8* %f.dbg.spill, metadata !2155, metadata !DIExpression()), !dbg !2164
   br label %bb1, !dbg !2163
 
 bb1:                                              ; preds = %start
-; call <std::panic::AssertUnwindSafe<<std::thread::Builder>::spawn_unchecked<oneway_thread_access::main::{closure#0}, ()>::{closure#0}::{closure#0}> as core::ops::function::FnOnce<()>>::call_once
-  call void @_RNvXss_NtCs2bNvlddUlXM_3std5panicINtB5_16AssertUnwindSafeNCNCINvMNtB7_6threadNtB11_7Builder15spawn_uncheckedNCNvCs37qxPUa7whq_20oneway_thread_access4main0uE00EINtNtNtCs3p84KrD9aKt_4core3ops8function6FnOnceuE9call_onceB1M_(i8 %f), !dbg !2165
+; call <std::panic::AssertUnwindSafe<<std::thread::Builder>::spawn_unchecked<stack_map_and_mutate::main::{closure#0}, ()>::{closure#0}::{closure#0}> as core::ops::function::FnOnce<()>>::call_once
+  call void @_RNvXss_NtCs2bNvlddUlXM_3std5panicINtB5_16AssertUnwindSafeNCNCINvMNtB7_6threadNtB11_7Builder15spawn_uncheckedNCNvCsdT7u4N7w2iC_20stack_map_and_mutate4main0uE00EINtNtNtCs3p84KrD9aKt_4core3ops8function6FnOnceuE9call_onceB1M_(i8 %f), !dbg !2165
   br label %bb2, !dbg !2165
 
 bb2:                                              ; preds = %bb1
@@ -4336,30 +4344,30 @@ bb2:                                              ; preds = %bb1
   br label %bb3, !dbg !2172
 
 bb3:                                              ; preds = %bb2
-  %2 = bitcast %"std::panicking::r#try::Data<std::panic::AssertUnwindSafe<[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 16:3], ()>::{closure#0}::{closure#0}]>, ()>"* %data1 to %"std::mem::ManuallyDrop<()>"*, !dbg !2173
+  %2 = bitcast %"std::panicking::r#try::Data<std::panic::AssertUnwindSafe<[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 18:3], ()>::{closure#0}::{closure#0}]>, ()>"* %data1 to %"std::mem::ManuallyDrop<()>"*, !dbg !2173
   ret void, !dbg !2174
 }
 
-; std::panicking::try::do_catch::<std::panic::AssertUnwindSafe<<std::thread::Builder>::spawn_unchecked<oneway_thread_access::main::{closure#0}, ()>::{closure#0}::{closure#0}>, ()>
+; std::panicking::try::do_catch::<std::panic::AssertUnwindSafe<<std::thread::Builder>::spawn_unchecked<stack_map_and_mutate::main::{closure#0}, ()>::{closure#0}::{closure#0}>, ()>
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal void @_RINvNvNtCs2bNvlddUlXM_3std9panicking3try8do_catchINtNtB6_5panic16AssertUnwindSafeNCNCINvMNtB6_6threadNtB1p_7Builder15spawn_uncheckedNCNvCs37qxPUa7whq_20oneway_thread_access4main0uE00EuEB2a_(i8* %data, i8* %payload) unnamed_addr #1 !dbg !2175 {
+define internal void @_RINvNvNtCs2bNvlddUlXM_3std9panicking3try8do_catchINtNtB6_5panic16AssertUnwindSafeNCNCINvMNtB6_6threadNtB1p_7Builder15spawn_uncheckedNCNvCsdT7u4N7w2iC_20stack_map_and_mutate4main0uE00EuEB2a_(i8* %data, i8* %payload) unnamed_addr #1 !dbg !2175 {
 start:
   %value.dbg.spill.i = alloca { {}*, [3 x i64]* }, align 8
   %0 = alloca { i8*, i64* }, align 8
   %obj.dbg.spill = alloca { {}*, [3 x i64]* }, align 8
-  %data.dbg.spill3 = alloca %"std::panicking::r#try::Data<std::panic::AssertUnwindSafe<[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 16:3], ()>::{closure#0}::{closure#0}]>, ()>"*, align 8
-  %data.dbg.spill2 = alloca %"std::panicking::r#try::Data<std::panic::AssertUnwindSafe<[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 16:3], ()>::{closure#0}::{closure#0}]>, ()>"*, align 8
+  %data.dbg.spill3 = alloca %"std::panicking::r#try::Data<std::panic::AssertUnwindSafe<[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 18:3], ()>::{closure#0}::{closure#0}]>, ()>"*, align 8
+  %data.dbg.spill2 = alloca %"std::panicking::r#try::Data<std::panic::AssertUnwindSafe<[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 18:3], ()>::{closure#0}::{closure#0}]>, ()>"*, align 8
   %payload.dbg.spill = alloca i8*, align 8
   %data.dbg.spill = alloca i8*, align 8
   store i8* %data, i8** %data.dbg.spill, align 8
   call void @llvm.dbg.declare(metadata i8** %data.dbg.spill, metadata !2179, metadata !DIExpression()), !dbg !2187
   store i8* %payload, i8** %payload.dbg.spill, align 8
   call void @llvm.dbg.declare(metadata i8** %payload.dbg.spill, metadata !2180, metadata !DIExpression()), !dbg !2188
-  %data1 = bitcast i8* %data to %"std::panicking::r#try::Data<std::panic::AssertUnwindSafe<[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 16:3], ()>::{closure#0}::{closure#0}]>, ()>"*, !dbg !2189
-  store %"std::panicking::r#try::Data<std::panic::AssertUnwindSafe<[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 16:3], ()>::{closure#0}::{closure#0}]>, ()>"* %data1, %"std::panicking::r#try::Data<std::panic::AssertUnwindSafe<[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 16:3], ()>::{closure#0}::{closure#0}]>, ()>"** %data.dbg.spill2, align 8, !dbg !2189
-  call void @llvm.dbg.declare(metadata %"std::panicking::r#try::Data<std::panic::AssertUnwindSafe<[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 16:3], ()>::{closure#0}::{closure#0}]>, ()>"** %data.dbg.spill2, metadata !2181, metadata !DIExpression()), !dbg !2190
-  store %"std::panicking::r#try::Data<std::panic::AssertUnwindSafe<[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 16:3], ()>::{closure#0}::{closure#0}]>, ()>"* %data1, %"std::panicking::r#try::Data<std::panic::AssertUnwindSafe<[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 16:3], ()>::{closure#0}::{closure#0}]>, ()>"** %data.dbg.spill3, align 8, !dbg !2191
-  call void @llvm.dbg.declare(metadata %"std::panicking::r#try::Data<std::panic::AssertUnwindSafe<[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 16:3], ()>::{closure#0}::{closure#0}]>, ()>"** %data.dbg.spill3, metadata !2183, metadata !DIExpression()), !dbg !2192
+  %data1 = bitcast i8* %data to %"std::panicking::r#try::Data<std::panic::AssertUnwindSafe<[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 18:3], ()>::{closure#0}::{closure#0}]>, ()>"*, !dbg !2189
+  store %"std::panicking::r#try::Data<std::panic::AssertUnwindSafe<[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 18:3], ()>::{closure#0}::{closure#0}]>, ()>"* %data1, %"std::panicking::r#try::Data<std::panic::AssertUnwindSafe<[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 18:3], ()>::{closure#0}::{closure#0}]>, ()>"** %data.dbg.spill2, align 8, !dbg !2189
+  call void @llvm.dbg.declare(metadata %"std::panicking::r#try::Data<std::panic::AssertUnwindSafe<[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 18:3], ()>::{closure#0}::{closure#0}]>, ()>"** %data.dbg.spill2, metadata !2181, metadata !DIExpression()), !dbg !2190
+  store %"std::panicking::r#try::Data<std::panic::AssertUnwindSafe<[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 18:3], ()>::{closure#0}::{closure#0}]>, ()>"* %data1, %"std::panicking::r#try::Data<std::panic::AssertUnwindSafe<[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 18:3], ()>::{closure#0}::{closure#0}]>, ()>"** %data.dbg.spill3, align 8, !dbg !2191
+  call void @llvm.dbg.declare(metadata %"std::panicking::r#try::Data<std::panic::AssertUnwindSafe<[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 18:3], ()>::{closure#0}::{closure#0}]>, ()>"** %data.dbg.spill3, metadata !2183, metadata !DIExpression()), !dbg !2192
 ; call std::panicking::try::cleanup
   %1 = call { {}*, [3 x i64]* } @_ZN3std9panicking3try7cleanup17he31b2c2b0a87b8b3E(i8* %payload), !dbg !2193
   %obj.0 = extractvalue { {}*, [3 x i64]* } %1, 0, !dbg !2193
@@ -4393,7 +4401,7 @@ bb1:                                              ; preds = %start
   br label %bb2, !dbg !2208
 
 bb2:                                              ; preds = %bb1
-  %15 = bitcast %"std::panicking::r#try::Data<std::panic::AssertUnwindSafe<[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 16:3], ()>::{closure#0}::{closure#0}]>, ()>"* %data1 to { i8*, i64* }*, !dbg !2209
+  %15 = bitcast %"std::panicking::r#try::Data<std::panic::AssertUnwindSafe<[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 18:3], ()>::{closure#0}::{closure#0}]>, ()>"* %data1 to { i8*, i64* }*, !dbg !2209
   %16 = getelementptr inbounds { i8*, i64* }, { i8*, i64* }* %15, i32 0, i32 0, !dbg !2209
   store i8* %_8.0, i8** %16, align 8, !dbg !2209
   %17 = getelementptr inbounds { i8*, i64* }, { i8*, i64* }* %15, i32 0, i32 1, !dbg !2209
@@ -4401,9 +4409,9 @@ bb2:                                              ; preds = %bb1
   ret void, !dbg !2210
 }
 
-; <std::thread::Builder>::spawn_unchecked::<oneway_thread_access::main::{closure#0}, ()>::{closure#0}
+; <std::thread::Builder>::spawn_unchecked::<stack_map_and_mutate::main::{closure#0}, ()>::{closure#0}
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal void @_RNCINvMNtCs2bNvlddUlXM_3std6threadNtB5_7Builder15spawn_uncheckedNCNvCs37qxPUa7whq_20oneway_thread_access4main0uE0B14_(%"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 16:3], ()>::{closure#0}]"* noalias nocapture dereferenceable(32) %_1) unnamed_addr #1 personality i32 (i32, i32, i64, %"unwind::libunwind::_Unwind_Exception"*, %"unwind::libunwind::_Unwind_Context"*)* @rust_eh_personality !dbg !2211 {
+define internal void @_RNCINvMNtCs2bNvlddUlXM_3std6threadNtB5_7Builder15spawn_uncheckedNCNvCsdT7u4N7w2iC_20stack_map_and_mutate4main0uE0B14_(%"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 18:3], ()>::{closure#0}]"* noalias nocapture dereferenceable(32) %_1) unnamed_addr #1 personality i32 (i32, i32, i64, %"unwind::libunwind::_Unwind_Exception"*, %"unwind::libunwind::_Unwind_Context"*)* @rust_eh_personality !dbg !2211 {
 start:
   %try_result.dbg.spill = alloca { i8*, i8* }, align 8
   %name.dbg.spill = alloca { %"std::ffi::CStr"*, i64 }, align 8
@@ -4417,17 +4425,17 @@ start:
   %_11 = alloca %"std::option::Option<std::ops::Range<usize>>", align 8
   %_8 = alloca i64*, align 8
   %_2 = alloca { i8*, i64 }, align 8
-  call void @llvm.dbg.declare(metadata %"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 16:3], ()>::{closure#0}]"* %_1, metadata !2215, metadata !DIExpression()), !dbg !2229
-  call void @llvm.dbg.declare(metadata %"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 16:3], ()>::{closure#0}]"* %_1, metadata !2216, metadata !DIExpression(DW_OP_plus_uconst, 8)), !dbg !2230
-  call void @llvm.dbg.declare(metadata %"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 16:3], ()>::{closure#0}]"* %_1, metadata !2217, metadata !DIExpression(DW_OP_plus_uconst, 24)), !dbg !2231
-  call void @llvm.dbg.declare(metadata %"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 16:3], ()>::{closure#0}]"* %_1, metadata !2218, metadata !DIExpression(DW_OP_plus_uconst, 16)), !dbg !2232
+  call void @llvm.dbg.declare(metadata %"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 18:3], ()>::{closure#0}]"* %_1, metadata !2215, metadata !DIExpression()), !dbg !2229
+  call void @llvm.dbg.declare(metadata %"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 18:3], ()>::{closure#0}]"* %_1, metadata !2216, metadata !DIExpression(DW_OP_plus_uconst, 8)), !dbg !2230
+  call void @llvm.dbg.declare(metadata %"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 18:3], ()>::{closure#0}]"* %_1, metadata !2217, metadata !DIExpression(DW_OP_plus_uconst, 24)), !dbg !2231
+  call void @llvm.dbg.declare(metadata %"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 18:3], ()>::{closure#0}]"* %_1, metadata !2218, metadata !DIExpression(DW_OP_plus_uconst, 16)), !dbg !2232
   store i8 0, i8* %_24, align 1, !dbg !2233
   store i8 0, i8* %_23, align 1, !dbg !2233
   store i8 0, i8* %_22, align 1, !dbg !2233
   store i8 1, i8* %_22, align 1, !dbg !2233
   store i8 1, i8* %_23, align 1, !dbg !2233
   store i8 1, i8* %_24, align 1, !dbg !2233
-  %_3 = bitcast %"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 16:3], ()>::{closure#0}]"* %_1 to i64**, !dbg !2234
+  %_3 = bitcast %"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 18:3], ()>::{closure#0}]"* %_1 to i64**, !dbg !2234
 ; invoke std::thread::Thread::cname
   %1 = invoke { i8*, i64 } @_ZN3std6thread6Thread5cname17h71e32bb63d4a8fc6E(i64** noalias readonly align 8 dereferenceable(8) %_3)
           to label %bb1 unwind label %cleanup, !dbg !2234
@@ -4464,7 +4472,7 @@ bb4:                                              ; preds = %bb3
 
 bb5:                                              ; preds = %bb4, %bb2
   store i8 0, i8* %_24, align 1, !dbg !2239
-  %11 = getelementptr inbounds %"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 16:3], ()>::{closure#0}]", %"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 16:3], ()>::{closure#0}]"* %_1, i32 0, i32 3, !dbg !2239
+  %11 = getelementptr inbounds %"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 18:3], ()>::{closure#0}]", %"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 18:3], ()>::{closure#0}]"* %_1, i32 0, i32 3, !dbg !2239
   %_9 = load i64*, i64** %11, align 8, !dbg !2239
 ; invoke std::io::stdio::set_output_capture
   %12 = invoke i64* @_ZN3std2io5stdio18set_output_capture17he178fcaf92baad96E(i64* %_9)
@@ -4473,7 +4481,7 @@ bb5:                                              ; preds = %bb4, %bb2
 bb6:                                              ; preds = %bb5
   store i64* %12, i64** %_8, align 8, !dbg !2240
 ; invoke core::ptr::drop_in_place::<core::option::Option<alloc::sync::Arc<std::sync::mutex::Mutex<alloc::vec::Vec<u8>>>>>
-  invoke void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_6option6OptionINtNtCs8RW06R9lH2S_5alloc4sync3ArcINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtB17_3vec3VechEEEEECs37qxPUa7whq_20oneway_thread_access(i64** %_8)
+  invoke void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_6option6OptionINtNtCs8RW06R9lH2S_5alloc4sync3ArcINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtB17_3vec3VechEEEEECsdT7u4N7w2iC_20stack_map_and_mutate(i64** %_8)
           to label %bb7 unwind label %cleanup, !dbg !2241
 
 bb7:                                              ; preds = %bb6
@@ -4483,7 +4491,7 @@ bb7:                                              ; preds = %bb6
 
 bb8:                                              ; preds = %bb7
   store i8 0, i8* %_23, align 1, !dbg !2243
-  %13 = bitcast %"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 16:3], ()>::{closure#0}]"* %_1 to i64**, !dbg !2243
+  %13 = bitcast %"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 18:3], ()>::{closure#0}]"* %_1 to i64**, !dbg !2243
   %_12 = load i64*, i64** %13, align 8, !dbg !2243, !nonnull !4
 ; invoke std::sys_common::thread_info::set
   invoke void @_ZN3std10sys_common11thread_info3set17hf4621192e94d4c56E(%"std::option::Option<std::ops::Range<usize>>"* noalias nocapture dereferenceable(24) %_11, i64* nonnull %_12)
@@ -4491,14 +4499,14 @@ bb8:                                              ; preds = %bb7
 
 bb9:                                              ; preds = %bb8
   store i8 0, i8* %_22, align 1, !dbg !2245
-  %14 = getelementptr inbounds %"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 16:3], ()>::{closure#0}]", %"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 16:3], ()>::{closure#0}]"* %_1, i32 0, i32 7, !dbg !2245
+  %14 = getelementptr inbounds %"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 18:3], ()>::{closure#0}]", %"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 18:3], ()>::{closure#0}]"* %_1, i32 0, i32 7, !dbg !2245
   %15 = load i8, i8* %14, align 8, !dbg !2245
   store i8 %15, i8* %_15, align 1, !dbg !2245
   %16 = load i8, i8* %_15, align 1, !dbg !2246
   store i8 %16, i8* %_14, align 1, !dbg !2246
   %17 = load i8, i8* %_14, align 1, !dbg !2247
-; invoke std::panic::catch_unwind::<std::panic::AssertUnwindSafe<<std::thread::Builder>::spawn_unchecked<oneway_thread_access::main::{closure#0}, ()>::{closure#0}::{closure#0}>, ()>
-  %18 = invoke { i8*, i8* } @_RINvNtCs2bNvlddUlXM_3std5panic12catch_unwindINtB2_16AssertUnwindSafeNCNCINvMNtB4_6threadNtB1c_7Builder15spawn_uncheckedNCNvCs37qxPUa7whq_20oneway_thread_access4main0uE00EuEB1X_(i8 %17)
+; invoke std::panic::catch_unwind::<std::panic::AssertUnwindSafe<<std::thread::Builder>::spawn_unchecked<stack_map_and_mutate::main::{closure#0}, ()>::{closure#0}::{closure#0}>, ()>
+  %18 = invoke { i8*, i8* } @_RINvNtCs2bNvlddUlXM_3std5panic12catch_unwindINtB2_16AssertUnwindSafeNCNCINvMNtB4_6threadNtB1c_7Builder15spawn_uncheckedNCNvCsdT7u4N7w2iC_20stack_map_and_mutate4main0uE00EuEB1X_(i8 %17)
           to label %bb10 unwind label %cleanup, !dbg !2247
 
 bb10:                                             ; preds = %bb9
@@ -4517,24 +4525,24 @@ bb10:                                             ; preds = %bb9
   store i8* %try_result.1, i8** %24, align 8, !dbg !2249
   %25 = bitcast %"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"* %_16 to i64*, !dbg !2249
   store i64 1, i64* %25, align 8, !dbg !2249
-  %_21 = getelementptr inbounds %"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 16:3], ()>::{closure#0}]", %"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 16:3], ()>::{closure#0}]"* %_1, i32 0, i32 5, !dbg !2250
+  %_21 = getelementptr inbounds %"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 18:3], ()>::{closure#0}]", %"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 18:3], ()>::{closure#0}]"* %_1, i32 0, i32 5, !dbg !2250
 ; invoke <alloc::sync::Arc<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>> as core::ops::deref::Deref>::deref
-  %_20 = invoke align 8 dereferenceable(24) %"std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>"* @_RNvXsl_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtBL_6option6OptionINtNtBL_6result6ResultuINtNtB7_5boxed3BoxDNtNtBL_3any3AnyNtNtBL_6marker4SendEL_EEEEENtNtNtBL_3ops5deref5Deref5derefCs37qxPUa7whq_20oneway_thread_access(i64** noalias readonly align 8 dereferenceable(8) %_21)
+  %_20 = invoke align 8 dereferenceable(24) %"std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>"* @_RNvXsl_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtBL_6option6OptionINtNtBL_6result6ResultuINtNtB7_5boxed3BoxDNtNtBL_3any3AnyNtNtBL_6marker4SendEL_EEEEENtNtNtBL_3ops5deref5Deref5derefCsdT7u4N7w2iC_20stack_map_and_mutate(i64** noalias readonly align 8 dereferenceable(8) %_21)
           to label %bb11 unwind label %cleanup1, !dbg !2250
 
 bb11:                                             ; preds = %bb10
 ; invoke <core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>>::get
-  %_18 = invoke %"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"* @_RNvMsK_NtCs3p84KrD9aKt_4core4cellINtB5_10UnsafeCellINtNtB7_6option6OptionINtNtB7_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB7_3any3AnyNtNtB7_6marker4SendEL_EEEE3getCs37qxPUa7whq_20oneway_thread_access(%"std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>"* align 8 dereferenceable(24) %_20)
+  %_18 = invoke %"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"* @_RNvMsK_NtCs3p84KrD9aKt_4core4cellINtB5_10UnsafeCellINtNtB7_6option6OptionINtNtB7_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB7_3any3AnyNtNtB7_6marker4SendEL_EEEE3getCsdT7u4N7w2iC_20stack_map_and_mutate(%"std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>"* align 8 dereferenceable(24) %_20)
           to label %bb12 unwind label %cleanup1, !dbg !2250
 
 bb12:                                             ; preds = %bb11
 ; invoke core::ptr::drop_in_place::<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>
-  invoke void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEECs37qxPUa7whq_20oneway_thread_access(%"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"* %_18)
+  invoke void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEECsdT7u4N7w2iC_20stack_map_and_mutate(%"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"* %_18)
           to label %bb16 unwind label %cleanup2, !dbg !2251
 
 bb13:                                             ; preds = %cleanup1
 ; call core::ptr::drop_in_place::<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>
-  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEECs37qxPUa7whq_20oneway_thread_access(%"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"* %_16) #12, !dbg !2252
+  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEECsdT7u4N7w2iC_20stack_map_and_mutate(%"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"* %_16) #13, !dbg !2252
   br label %bb24, !dbg !2252
 
 bb14:                                             ; preds = %bb18
@@ -4556,18 +4564,18 @@ bb16:                                             ; preds = %bb12
   %34 = bitcast %"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"* %_18 to i8*, !dbg !2251
   %35 = bitcast %"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"* %_16 to i8*, !dbg !2251
   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 8 %34, i8* align 8 %35, i64 24, i1 false), !dbg !2251
-  %36 = getelementptr inbounds %"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 16:3], ()>::{closure#0}]", %"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 16:3], ()>::{closure#0}]"* %_1, i32 0, i32 5, !dbg !2254
+  %36 = getelementptr inbounds %"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 18:3], ()>::{closure#0}]", %"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 18:3], ()>::{closure#0}]"* %_1, i32 0, i32 5, !dbg !2254
 ; call core::ptr::drop_in_place::<alloc::sync::Arc<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>>>
-  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc4sync3ArcINtNtB4_4cell10UnsafeCellINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtBL_5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEEEECs37qxPUa7whq_20oneway_thread_access(i64** %36), !dbg !2254
+  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc4sync3ArcINtNtB4_4cell10UnsafeCellINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtBL_5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEEEECsdT7u4N7w2iC_20stack_map_and_mutate(i64** %36), !dbg !2254
   br label %bb17, !dbg !2254
 
 bb17:                                             ; preds = %bb16
   ret void, !dbg !2255
 
 bb18:                                             ; preds = %bb20, %bb19
-  %37 = getelementptr inbounds %"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 16:3], ()>::{closure#0}]", %"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 16:3], ()>::{closure#0}]"* %_1, i32 0, i32 5, !dbg !2254
+  %37 = getelementptr inbounds %"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 18:3], ()>::{closure#0}]", %"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 18:3], ()>::{closure#0}]"* %_1, i32 0, i32 5, !dbg !2254
 ; call core::ptr::drop_in_place::<alloc::sync::Arc<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>>>
-  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc4sync3ArcINtNtB4_4cell10UnsafeCellINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtBL_5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEEEECs37qxPUa7whq_20oneway_thread_access(i64** %37) #12, !dbg !2254
+  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc4sync3ArcINtNtB4_4cell10UnsafeCellINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtBL_5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEEEECsdT7u4N7w2iC_20stack_map_and_mutate(i64** %37) #13, !dbg !2254
   br label %bb14, !dbg !2254
 
 bb19:                                             ; preds = %bb22, %bb21
@@ -4584,15 +4592,15 @@ bb21:                                             ; preds = %bb23, %bb24
   br i1 %41, label %bb22, label %bb19, !dbg !2254
 
 bb22:                                             ; preds = %bb21
-  %42 = getelementptr inbounds %"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 16:3], ()>::{closure#0}]", %"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 16:3], ()>::{closure#0}]"* %_1, i32 0, i32 3, !dbg !2254
+  %42 = getelementptr inbounds %"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 18:3], ()>::{closure#0}]", %"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 18:3], ()>::{closure#0}]"* %_1, i32 0, i32 3, !dbg !2254
 ; call core::ptr::drop_in_place::<core::option::Option<alloc::sync::Arc<std::sync::mutex::Mutex<alloc::vec::Vec<u8>>>>>
-  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_6option6OptionINtNtCs8RW06R9lH2S_5alloc4sync3ArcINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtB17_3vec3VechEEEEECs37qxPUa7whq_20oneway_thread_access(i64** %42) #12, !dbg !2254
+  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_6option6OptionINtNtCs8RW06R9lH2S_5alloc4sync3ArcINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtB17_3vec3VechEEEEECsdT7u4N7w2iC_20stack_map_and_mutate(i64** %42) #13, !dbg !2254
   br label %bb19, !dbg !2254
 
 bb23:                                             ; preds = %bb24
-  %43 = bitcast %"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 16:3], ()>::{closure#0}]"* %_1 to i64**, !dbg !2254
+  %43 = bitcast %"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 18:3], ()>::{closure#0}]"* %_1 to i64**, !dbg !2254
 ; call core::ptr::drop_in_place::<std::thread::Thread>
-  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNtNtCs2bNvlddUlXM_3std6thread6ThreadECs37qxPUa7whq_20oneway_thread_access(i64** %43) #12, !dbg !2254
+  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNtNtCs2bNvlddUlXM_3std6thread6ThreadECsdT7u4N7w2iC_20stack_map_and_mutate(i64** %43) #13, !dbg !2254
   br label %bb21, !dbg !2254
 
 bb24:                                             ; preds = %bb15, %bb13, %cleanup
@@ -4636,7 +4644,7 @@ cleanup2:                                         ; preds = %bb12
 
 ; std::rt::lang_start::<()>::{closure#0}
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal i32 @_RNCINvNtCs2bNvlddUlXM_3std2rt10lang_startuE0Cs37qxPUa7whq_20oneway_thread_access(i64** noalias readonly align 8 dereferenceable(8) %_1) unnamed_addr #1 !dbg !2256 {
+define internal i32 @_RNCINvNtCs2bNvlddUlXM_3std2rt10lang_startuE0CsdT7u4N7w2iC_20stack_map_and_mutate(i64** noalias readonly align 8 dereferenceable(8) %_1) unnamed_addr #1 !dbg !2256 {
 start:
   %_1.dbg.spill = alloca i64**, align 8
   store i64** %_1, i64*** %_1.dbg.spill, align 8
@@ -4644,44 +4652,44 @@ start:
   %0 = bitcast i64** %_1 to void ()**, !dbg !2263
   %_3 = load void ()*, void ()** %0, align 8, !dbg !2263, !nonnull !4
 ; call std::sys_common::backtrace::__rust_begin_short_backtrace::<fn(), ()>
-  call void @_RINvNtNtCs2bNvlddUlXM_3std10sys_common9backtrace28___rust_begin_short_backtraceFEuuECs37qxPUa7whq_20oneway_thread_access(void ()* nonnull %_3), !dbg !2264
+  call void @_RINvNtNtCs2bNvlddUlXM_3std10sys_common9backtrace28___rust_begin_short_backtraceFEuuECsdT7u4N7w2iC_20stack_map_and_mutate(void ()* nonnull %_3), !dbg !2264
   br label %bb1, !dbg !2264
 
 bb1:                                              ; preds = %start
 ; call <() as std::process::Termination>::report
-  %1 = call i32 @_RNvXsC_NtCs2bNvlddUlXM_3std7processuNtB5_11Termination6reportCs37qxPUa7whq_20oneway_thread_access(), !dbg !2264
+  %1 = call i32 @_RNvXsC_NtCs2bNvlddUlXM_3std7processuNtB5_11Termination6reportCsdT7u4N7w2iC_20stack_map_and_mutate(), !dbg !2264
   br label %bb2, !dbg !2264
 
 bb2:                                              ; preds = %bb1
   ret i32 %1, !dbg !2265
 }
 
-; <std::thread::Builder>::spawn_unchecked::<oneway_thread_access::main::{closure#0}, ()>::{closure#0}::{closure#0}
+; <std::thread::Builder>::spawn_unchecked::<stack_map_and_mutate::main::{closure#0}, ()>::{closure#0}::{closure#0}
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal void @_RNCNCINvMNtCs2bNvlddUlXM_3std6threadNtB7_7Builder15spawn_uncheckedNCNvCs37qxPUa7whq_20oneway_thread_access4main0uE00B16_(i8 %_1) unnamed_addr #1 !dbg !2266 {
+define internal void @_RNCNCINvMNtCs2bNvlddUlXM_3std6threadNtB7_7Builder15spawn_uncheckedNCNvCsdT7u4N7w2iC_20stack_map_and_mutate4main0uE00B16_(i8 %_1) unnamed_addr #1 !dbg !2266 {
 start:
   %_1.dbg.spill = alloca i8, align 1
   store i8 %_1, i8* %_1.dbg.spill, align 1
   call void @llvm.dbg.declare(metadata i8* %_1.dbg.spill, metadata !2270, metadata !DIExpression()), !dbg !2271
-; call std::sys_common::backtrace::__rust_begin_short_backtrace::<oneway_thread_access::main::{closure#0}, ()>
-  call void @_RINvNtNtCs2bNvlddUlXM_3std10sys_common9backtrace28___rust_begin_short_backtraceNCNvCs37qxPUa7whq_20oneway_thread_access4main0uEB1j_(i8 %_1), !dbg !2272
+; call std::sys_common::backtrace::__rust_begin_short_backtrace::<stack_map_and_mutate::main::{closure#0}, ()>
+  call void @_RINvNtNtCs2bNvlddUlXM_3std10sys_common9backtrace28___rust_begin_short_backtraceNCNvCsdT7u4N7w2iC_20stack_map_and_mutate4main0uEB1j_(i8 %_1), !dbg !2272
   br label %bb1, !dbg !2272
 
 bb1:                                              ; preds = %start
   ret void, !dbg !2273
 }
 
-; <<std::thread::Builder>::spawn_unchecked<oneway_thread_access::main::{closure#0}, ()>::{closure#0} as core::ops::function::FnOnce<()>>::call_once::{shim:vtable#0}
+; <<std::thread::Builder>::spawn_unchecked<stack_map_and_mutate::main::{closure#0}, ()>::{closure#0} as core::ops::function::FnOnce<()>>::call_once::{shim:vtable#0}
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal void @_RNSNvYNCINvMNtCs2bNvlddUlXM_3std6threadNtBa_7Builder15spawn_uncheckedNCNvCs37qxPUa7whq_20oneway_thread_access4main0uE0INtNtNtCs3p84KrD9aKt_4core3ops8function6FnOnceuE9call_once6vtableB19_(%"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 16:3], ()>::{closure#0}]"* %_1) unnamed_addr #1 !dbg !2274 {
+define internal void @_RNSNvYNCINvMNtCs2bNvlddUlXM_3std6threadNtBa_7Builder15spawn_uncheckedNCNvCsdT7u4N7w2iC_20stack_map_and_mutate4main0uE0INtNtNtCs3p84KrD9aKt_4core3ops8function6FnOnceuE9call_once6vtableB19_(%"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 18:3], ()>::{closure#0}]"* %_1) unnamed_addr #1 !dbg !2274 {
 start:
-  %_1.dbg.spill = alloca %"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 16:3], ()>::{closure#0}]"*, align 8
+  %_1.dbg.spill = alloca %"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 18:3], ()>::{closure#0}]"*, align 8
   %_2 = alloca {}, align 1
-  store %"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 16:3], ()>::{closure#0}]"* %_1, %"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 16:3], ()>::{closure#0}]"** %_1.dbg.spill, align 8
-  call void @llvm.dbg.declare(metadata %"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 16:3], ()>::{closure#0}]"** %_1.dbg.spill, metadata !2280, metadata !DIExpression()), !dbg !2285
+  store %"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 18:3], ()>::{closure#0}]"* %_1, %"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 18:3], ()>::{closure#0}]"** %_1.dbg.spill, align 8
+  call void @llvm.dbg.declare(metadata %"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 18:3], ()>::{closure#0}]"** %_1.dbg.spill, metadata !2280, metadata !DIExpression()), !dbg !2285
   call void @llvm.dbg.declare(metadata {}* %_2, metadata !2281, metadata !DIExpression()), !dbg !2285
-; call <std::thread::Builder>::spawn_unchecked::<oneway_thread_access::main::{closure#0}, ()>::{closure#0}
-  call void @_RNCINvMNtCs2bNvlddUlXM_3std6threadNtB5_7Builder15spawn_uncheckedNCNvCs37qxPUa7whq_20oneway_thread_access4main0uE0B14_(%"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 16:3], ()>::{closure#0}]"* noalias nocapture dereferenceable(32) %_1), !dbg !2285
+; call <std::thread::Builder>::spawn_unchecked::<stack_map_and_mutate::main::{closure#0}, ()>::{closure#0}
+  call void @_RNCINvMNtCs2bNvlddUlXM_3std6threadNtB5_7Builder15spawn_uncheckedNCNvCsdT7u4N7w2iC_20stack_map_and_mutate4main0uE0B14_(%"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:12:28: 18:3], ()>::{closure#0}]"* noalias nocapture dereferenceable(32) %_1), !dbg !2285
   br label %bb1, !dbg !2285
 
 bb1:                                              ; preds = %start
@@ -4690,7 +4698,7 @@ bb1:                                              ; preds = %start
 
 ; <std::rt::lang_start<()>::{closure#0} as core::ops::function::FnOnce<()>>::call_once::{shim:vtable#0}
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal i32 @_RNSNvYNCINvNtCs2bNvlddUlXM_3std2rt10lang_startuE0INtNtNtCs3p84KrD9aKt_4core3ops8function6FnOnceuE9call_once6vtableCs37qxPUa7whq_20oneway_thread_access(i64** %_1) unnamed_addr #1 !dbg !2286 {
+define internal i32 @_RNSNvYNCINvNtCs2bNvlddUlXM_3std2rt10lang_startuE0INtNtNtCs3p84KrD9aKt_4core3ops8function6FnOnceuE9call_once6vtableCsdT7u4N7w2iC_20stack_map_and_mutate(i64** %_1) unnamed_addr #1 !dbg !2286 {
 start:
   %_1.dbg.spill = alloca i64**, align 8
   %_2 = alloca {}, align 1
@@ -4699,7 +4707,7 @@ start:
   call void @llvm.dbg.declare(metadata {}* %_2, metadata !2291, metadata !DIExpression()), !dbg !2294
   %0 = load i64*, i64** %_1, align 8, !dbg !2294, !nonnull !4
 ; call <std::rt::lang_start<()>::{closure#0} as core::ops::function::FnOnce<()>>::call_once
-  %1 = call i32 @_RNvYNCINvNtCs2bNvlddUlXM_3std2rt10lang_startuE0INtNtNtCs3p84KrD9aKt_4core3ops8function6FnOnceuE9call_onceCs37qxPUa7whq_20oneway_thread_access(i64* nonnull %0), !dbg !2294
+  %1 = call i32 @_RNvYNCINvNtCs2bNvlddUlXM_3std2rt10lang_startuE0INtNtNtCs3p84KrD9aKt_4core3ops8function6FnOnceuE9call_onceCsdT7u4N7w2iC_20stack_map_and_mutate(i64* nonnull %0), !dbg !2294
   br label %bb1, !dbg !2294
 
 bb1:                                              ; preds = %start
@@ -4708,13 +4716,13 @@ bb1:                                              ; preds = %start
 
 ; <core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>::take
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal void @_RNvMNtCs3p84KrD9aKt_4core6optionINtB2_6OptionINtNtB4_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEE4takeCs37qxPUa7whq_20oneway_thread_access(%"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"* noalias nocapture sret dereferenceable(24) %0, %"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"* align 8 dereferenceable(24) %self) unnamed_addr #1 !dbg !2295 {
+define internal void @_RNvMNtCs3p84KrD9aKt_4core6optionINtB2_6OptionINtNtB4_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEE4takeCsdT7u4N7w2iC_20stack_map_and_mutate(%"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"* noalias nocapture sret dereferenceable(24) %0, %"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"* align 8 dereferenceable(24) %self) unnamed_addr #1 !dbg !2295 {
 start:
   %self.dbg.spill = alloca %"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"*, align 8
   store %"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"* %self, %"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"** %self.dbg.spill, align 8
   call void @llvm.dbg.declare(metadata %"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"** %self.dbg.spill, metadata !2297, metadata !DIExpression()), !dbg !2298
 ; call core::mem::take::<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>
-  call void @_RINvNtCs3p84KrD9aKt_4core3mem4takeINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEECs37qxPUa7whq_20oneway_thread_access(%"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"* noalias nocapture sret dereferenceable(24) %0, %"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"* align 8 dereferenceable(24) %self), !dbg !2299
+  call void @_RINvNtCs3p84KrD9aKt_4core3mem4takeINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEECsdT7u4N7w2iC_20stack_map_and_mutate(%"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"* noalias nocapture sret dereferenceable(24) %0, %"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"* align 8 dereferenceable(24) %self), !dbg !2299
   br label %bb1, !dbg !2299
 
 bb1:                                              ; preds = %start
@@ -4723,7 +4731,7 @@ bb1:                                              ; preds = %start
 
 ; <core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>::unwrap
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal { i8*, i8* } @_RNvMNtCs3p84KrD9aKt_4core6optionINtB2_6OptionINtNtB4_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEE6unwrapCs37qxPUa7whq_20oneway_thread_access(%"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"* noalias nocapture dereferenceable(24) %self, %"std::panic::Location"* noalias readonly align 8 dereferenceable(24) %0) unnamed_addr #1 !dbg !2301 {
+define internal { i8*, i8* } @_RNvMNtCs3p84KrD9aKt_4core6optionINtB2_6OptionINtNtB4_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEE6unwrapCsdT7u4N7w2iC_20stack_map_and_mutate(%"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"* noalias nocapture dereferenceable(24) %self, %"std::panic::Location"* noalias readonly align 8 dereferenceable(24) %0) unnamed_addr #1 !dbg !2301 {
 start:
   %val.dbg.spill = alloca { i8*, i8* }, align 8, !dbg !2319
   call void @llvm.dbg.declare(metadata %"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"* %self, metadata !2316, metadata !DIExpression()), !dbg !2319
@@ -4736,7 +4744,7 @@ start:
 
 bb1:                                              ; preds = %start
 ; call core::panicking::panic
-  call void @_ZN4core9panicking5panic17h35b77276aa4b0c12E([0 x i8]* noalias nonnull readonly align 1 bitcast (<{ [43 x i8] }>* @alloc53 to [0 x i8]*), i64 43, %"std::panic::Location"* noalias readonly align 8 dereferenceable(24) %0), !dbg !2321
+  call void @_ZN4core9panicking5panic17h35b77276aa4b0c12E([0 x i8]* noalias nonnull readonly align 1 bitcast (<{ [43 x i8] }>* @alloc64 to [0 x i8]*), i64 43, %"std::panic::Location"* noalias readonly align 8 dereferenceable(24) %0), !dbg !2321
   unreachable, !dbg !2321
 
 bb2:                                              ; preds = %start
@@ -4761,13 +4769,13 @@ bb3:                                              ; preds = %start
 
 ; <core::option::Option<std::sys::unix::thread::Thread>>::take
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal { i64, i64 } @_RNvMNtCs3p84KrD9aKt_4core6optionINtB2_6OptionNtNtNtNtCs2bNvlddUlXM_3std3sys4unix6thread6ThreadE4takeCs37qxPUa7whq_20oneway_thread_access({ i64, i64 }* align 8 dereferenceable(16) %self) unnamed_addr #1 !dbg !2326 {
+define internal { i64, i64 } @_RNvMNtCs3p84KrD9aKt_4core6optionINtB2_6OptionNtNtNtNtCs2bNvlddUlXM_3std3sys4unix6thread6ThreadE4takeCsdT7u4N7w2iC_20stack_map_and_mutate({ i64, i64 }* align 8 dereferenceable(16) %self) unnamed_addr #1 !dbg !2326 {
 start:
   %self.dbg.spill = alloca { i64, i64 }*, align 8
   store { i64, i64 }* %self, { i64, i64 }** %self.dbg.spill, align 8
   call void @llvm.dbg.declare(metadata { i64, i64 }** %self.dbg.spill, metadata !2328, metadata !DIExpression()), !dbg !2329
 ; call core::mem::take::<core::option::Option<std::sys::unix::thread::Thread>>
-  %0 = call { i64, i64 } @_RINvNtCs3p84KrD9aKt_4core3mem4takeINtNtB4_6option6OptionNtNtNtNtCs2bNvlddUlXM_3std3sys4unix6thread6ThreadEECs37qxPUa7whq_20oneway_thread_access({ i64, i64 }* align 8 dereferenceable(16) %self), !dbg !2330
+  %0 = call { i64, i64 } @_RINvNtCs3p84KrD9aKt_4core3mem4takeINtNtB4_6option6OptionNtNtNtNtCs2bNvlddUlXM_3std3sys4unix6thread6ThreadEECsdT7u4N7w2iC_20stack_map_and_mutate({ i64, i64 }* align 8 dereferenceable(16) %self), !dbg !2330
   %1 = extractvalue { i64, i64 } %0, 0, !dbg !2330
   %2 = extractvalue { i64, i64 } %0, 1, !dbg !2330
   br label %bb1, !dbg !2330
@@ -4780,7 +4788,7 @@ bb1:                                              ; preds = %start
 
 ; <core::option::Option<std::sys::unix::thread::Thread>>::unwrap
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal i64 @_RNvMNtCs3p84KrD9aKt_4core6optionINtB2_6OptionNtNtNtNtCs2bNvlddUlXM_3std3sys4unix6thread6ThreadE6unwrapCs37qxPUa7whq_20oneway_thread_access(i64 %0, i64 %1, %"std::panic::Location"* noalias readonly align 8 dereferenceable(24) %2) unnamed_addr #1 !dbg !2332 {
+define internal i64 @_RNvMNtCs3p84KrD9aKt_4core6optionINtB2_6OptionNtNtNtNtCs2bNvlddUlXM_3std3sys4unix6thread6ThreadE6unwrapCsdT7u4N7w2iC_20stack_map_and_mutate(i64 %0, i64 %1, %"std::panic::Location"* noalias readonly align 8 dereferenceable(24) %2) unnamed_addr #1 !dbg !2332 {
 start:
   %val.dbg.spill = alloca i64, align 8
   %self = alloca { i64, i64 }, align 8
@@ -4798,7 +4806,7 @@ start:
 
 bb1:                                              ; preds = %start
 ; call core::panicking::panic
-  call void @_ZN4core9panicking5panic17h35b77276aa4b0c12E([0 x i8]* noalias nonnull readonly align 1 bitcast (<{ [43 x i8] }>* @alloc53 to [0 x i8]*), i64 43, %"std::panic::Location"* noalias readonly align 8 dereferenceable(24) %2), !dbg !2341
+  call void @_ZN4core9panicking5panic17h35b77276aa4b0c12E([0 x i8]* noalias nonnull readonly align 1 bitcast (<{ [43 x i8] }>* @alloc64 to [0 x i8]*), i64 43, %"std::panic::Location"* noalias readonly align 8 dereferenceable(24) %2), !dbg !2341
   unreachable, !dbg !2341
 
 bb2:                                              ; preds = %start
@@ -4815,7 +4823,7 @@ bb3:                                              ; preds = %start
 
 ; <alloc::alloc::Global>::alloc_impl
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal { i8*, i64 } @_RNvMNtCs8RW06R9lH2S_5alloc5allocNtB2_6Global10alloc_implCs37qxPUa7whq_20oneway_thread_access(%"std::alloc::Global"* noalias nonnull readonly align 1 %self, i64 %0, i64 %1, i1 zeroext %zeroed) unnamed_addr #1 !dbg !2346 {
+define internal { i8*, i64 } @_RNvMNtCs8RW06R9lH2S_5alloc5allocNtB2_6Global10alloc_implCsdT7u4N7w2iC_20stack_map_and_mutate(%"std::alloc::Global"* noalias nonnull readonly align 1 %self, i64 %0, i64 %1, i1 zeroext %zeroed) unnamed_addr #1 !dbg !2346 {
 start:
   %ptr.dbg.spill = alloca i8*, align 8
   %val.dbg.spill = alloca i8*, align 8
@@ -4841,7 +4849,7 @@ start:
   call void @llvm.dbg.declare(metadata i8** %raw_ptr, metadata !2373, metadata !DIExpression()), !dbg !2384
   call void @llvm.dbg.declare(metadata %"std::alloc::AllocError"* %err.dbg.spill, metadata !2377, metadata !DIExpression()), !dbg !2385
 ; call <core::alloc::layout::Layout>::size
-  %_4 = call i64 @_RNvMNtNtCs3p84KrD9aKt_4core5alloc6layoutNtB2_6Layout4sizeCs37qxPUa7whq_20oneway_thread_access({ i64, i64 }* noalias readonly align 8 dereferenceable(16) %layout), !dbg !2386
+  %_4 = call i64 @_RNvMNtNtCs3p84KrD9aKt_4core5alloc6layoutNtB2_6Layout4sizeCsdT7u4N7w2iC_20stack_map_and_mutate({ i64, i64 }* noalias readonly align 8 dereferenceable(16) %layout), !dbg !2386
   br label %bb1, !dbg !2386
 
 bb1:                                              ; preds = %start
@@ -4855,12 +4863,12 @@ bb2:                                              ; preds = %bb1
 
 bb3:                                              ; preds = %bb1
 ; call <core::alloc::layout::Layout>::dangling
-  %_7 = call nonnull i8* @_RNvMNtNtCs3p84KrD9aKt_4core5alloc6layoutNtB2_6Layout8danglingCs37qxPUa7whq_20oneway_thread_access({ i64, i64 }* noalias readonly align 8 dereferenceable(16) %layout), !dbg !2391
+  %_7 = call nonnull i8* @_RNvMNtNtCs3p84KrD9aKt_4core5alloc6layoutNtB2_6Layout8danglingCsdT7u4N7w2iC_20stack_map_and_mutate({ i64, i64 }* noalias readonly align 8 dereferenceable(16) %layout), !dbg !2391
   br label %bb4, !dbg !2391
 
 bb4:                                              ; preds = %bb3
 ; call <core::ptr::non_null::NonNull<[u8]>>::slice_from_raw_parts
-  %7 = call { i8*, i64 } @_RNvMs2_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullShE20slice_from_raw_partsCs37qxPUa7whq_20oneway_thread_access(i8* nonnull %_7, i64 0), !dbg !2392
+  %7 = call { i8*, i64 } @_RNvMs2_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullShE20slice_from_raw_partsCsdT7u4N7w2iC_20stack_map_and_mutate(i8* nonnull %_7, i64 0), !dbg !2392
   %_6.0 = extractvalue { i8*, i64 } %7, 0, !dbg !2392
   %_6.1 = extractvalue { i8*, i64 } %7, 1, !dbg !2392
   br label %bb5, !dbg !2392
@@ -4878,7 +4886,7 @@ bb6:                                              ; preds = %bb2
   %11 = getelementptr inbounds { i64, i64 }, { i64, i64 }* %layout, i32 0, i32 1, !dbg !2395
   %_12.1 = load i64, i64* %11, align 8, !dbg !2395, !range !2396
 ; call alloc::alloc::alloc_zeroed
-  %12 = call i8* @_RNvNtCs8RW06R9lH2S_5alloc5alloc12alloc_zeroedCs37qxPUa7whq_20oneway_thread_access(i64 %_12.0, i64 %_12.1), !dbg !2397
+  %12 = call i8* @_RNvNtCs8RW06R9lH2S_5alloc5alloc12alloc_zeroedCsdT7u4N7w2iC_20stack_map_and_mutate(i64 %_12.0, i64 %_12.1), !dbg !2397
   store i8* %12, i8** %raw_ptr, align 8, !dbg !2397
   br label %bb8, !dbg !2397
 
@@ -4888,7 +4896,7 @@ bb7:                                              ; preds = %bb2
   %14 = getelementptr inbounds { i64, i64 }, { i64, i64 }* %layout, i32 0, i32 1, !dbg !2398
   %_13.1 = load i64, i64* %14, align 8, !dbg !2398, !range !2396
 ; call alloc::alloc::alloc
-  %15 = call i8* @_RNvNtCs8RW06R9lH2S_5alloc5alloc5allocCs37qxPUa7whq_20oneway_thread_access(i64 %_13.0, i64 %_13.1), !dbg !2399
+  %15 = call i8* @_RNvNtCs8RW06R9lH2S_5alloc5alloc5allocCsdT7u4N7w2iC_20stack_map_and_mutate(i64 %_13.0, i64 %_13.1), !dbg !2399
   store i8* %15, i8** %raw_ptr, align 8, !dbg !2399
   br label %bb9, !dbg !2399
 
@@ -4901,17 +4909,17 @@ bb9:                                              ; preds = %bb7
 bb10:                                             ; preds = %bb9, %bb8
   %_18 = load i8*, i8** %raw_ptr, align 8, !dbg !2400
 ; call <core::ptr::non_null::NonNull<u8>>::new
-  %_17 = call i8* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullhE3newCs37qxPUa7whq_20oneway_thread_access(i8* %_18), !dbg !2401
+  %_17 = call i8* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullhE3newCsdT7u4N7w2iC_20stack_map_and_mutate(i8* %_18), !dbg !2401
   br label %bb11, !dbg !2401
 
 bb11:                                             ; preds = %bb10
 ; call <core::option::Option<core::ptr::non_null::NonNull<u8>>>::ok_or::<core::alloc::AllocError>
-  %_16 = call i8* @_RINvMNtCs3p84KrD9aKt_4core6optionINtB3_6OptionINtNtNtB5_3ptr8non_null7NonNullhEE5ok_orNtNtB5_5alloc10AllocErrorECs37qxPUa7whq_20oneway_thread_access(i8* %_17), !dbg !2401
+  %_16 = call i8* @_RINvMNtCs3p84KrD9aKt_4core6optionINtB3_6OptionINtNtNtB5_3ptr8non_null7NonNullhEE5ok_orNtNtB5_5alloc10AllocErrorECsdT7u4N7w2iC_20stack_map_and_mutate(i8* %_17), !dbg !2401
   br label %bb12, !dbg !2401
 
 bb12:                                             ; preds = %bb11
 ; call <core::result::Result<core::ptr::non_null::NonNull<u8>, core::alloc::AllocError> as core::ops::try::Try>::into_result
-  %16 = call i8* @_RNvXsw_NtCs3p84KrD9aKt_4core6resultINtB5_6ResultINtNtNtB7_3ptr8non_null7NonNullhENtNtB7_5alloc10AllocErrorENtNtNtB7_3ops3try3Try11into_resultCs37qxPUa7whq_20oneway_thread_access(i8* %_16), !dbg !2401
+  %16 = call i8* @_RNvXsw_NtCs3p84KrD9aKt_4core6resultINtB5_6ResultINtNtNtB7_3ptr8non_null7NonNullhENtNtB7_5alloc10AllocErrorENtNtNtB7_3ops3try3Try11into_resultCsdT7u4N7w2iC_20stack_map_and_mutate(i8* %_16), !dbg !2401
   store i8* %16, i8** %_15, align 8, !dbg !2401
   br label %bb13, !dbg !2401
 
@@ -4932,7 +4940,7 @@ bb14:                                             ; preds = %bb13
   store i8* %val, i8** %ptr.dbg.spill, align 8, !dbg !2403
   call void @llvm.dbg.declare(metadata i8** %ptr.dbg.spill, metadata !2375, metadata !DIExpression()), !dbg !2404
 ; call <core::ptr::non_null::NonNull<[u8]>>::slice_from_raw_parts
-  %20 = call { i8*, i64 } @_RNvMs2_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullShE20slice_from_raw_partsCs37qxPUa7whq_20oneway_thread_access(i8* nonnull %val, i64 %_4), !dbg !2405
+  %20 = call { i8*, i64 } @_RNvMs2_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullShE20slice_from_raw_partsCsdT7u4N7w2iC_20stack_map_and_mutate(i8* nonnull %val, i64 %_4), !dbg !2405
   %_25.0 = extractvalue { i8*, i64 } %20, 0, !dbg !2405
   %_25.1 = extractvalue { i8*, i64 } %20, 1, !dbg !2405
   br label %bb19, !dbg !2405
@@ -4942,12 +4950,12 @@ bb15:                                             ; preds = %bb13
 
 bb16:                                             ; preds = %bb13
 ; call <core::alloc::AllocError as core::convert::From<core::alloc::AllocError>>::from
-  call void @_RNvXs2_NtCs3p84KrD9aKt_4core7convertNtNtB7_5alloc10AllocErrorINtB5_4FromBy_E4fromCs37qxPUa7whq_20oneway_thread_access(), !dbg !2385
+  call void @_RNvXs2_NtCs3p84KrD9aKt_4core7convertNtNtB7_5alloc10AllocErrorINtB5_4FromBy_E4fromCsdT7u4N7w2iC_20stack_map_and_mutate(), !dbg !2385
   br label %bb17, !dbg !2385
 
 bb17:                                             ; preds = %bb16
 ; call <core::result::Result<core::ptr::non_null::NonNull<[u8]>, core::alloc::AllocError> as core::ops::try::Try>::from_error
-  %21 = call { i8*, i64 } @_RNvXsw_NtCs3p84KrD9aKt_4core6resultINtB5_6ResultINtNtNtB7_3ptr8non_null7NonNullShENtNtB7_5alloc10AllocErrorENtNtNtB7_3ops3try3Try10from_errorCs37qxPUa7whq_20oneway_thread_access(), !dbg !2406
+  %21 = call { i8*, i64 } @_RNvXsw_NtCs3p84KrD9aKt_4core6resultINtB5_6ResultINtNtNtB7_3ptr8non_null7NonNullShENtNtB7_5alloc10AllocErrorENtNtNtB7_3ops3try3Try10from_errorCsdT7u4N7w2iC_20stack_map_and_mutate(), !dbg !2406
   store { i8*, i64 } %21, { i8*, i64 }* %2, align 8, !dbg !2406
   br label %bb18, !dbg !2406
 
@@ -4974,15 +4982,15 @@ bb21:                                             ; preds = %bb20, %bb18
   ret { i8*, i64 } %29, !dbg !2407
 }
 
-; <core::mem::manually_drop::ManuallyDrop<std::panic::AssertUnwindSafe<<std::thread::Builder>::spawn_unchecked<oneway_thread_access::main::{closure#0}, ()>::{closure#0}::{closure#0}>>>::take
+; <core::mem::manually_drop::ManuallyDrop<std::panic::AssertUnwindSafe<<std::thread::Builder>::spawn_unchecked<stack_map_and_mutate::main::{closure#0}, ()>::{closure#0}::{closure#0}>>>::take
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal i8 @_RNvMNtNtCs3p84KrD9aKt_4core3mem13manually_dropINtB2_12ManuallyDropINtNtCs2bNvlddUlXM_3std5panic16AssertUnwindSafeNCNCINvMNtB17_6threadNtB1V_7Builder15spawn_uncheckedNCNvCs37qxPUa7whq_20oneway_thread_access4main0uE00EE4takeB2H_(i8* align 1 dereferenceable(1) %slot) unnamed_addr #1 !dbg !2409 {
+define internal i8 @_RNvMNtNtCs3p84KrD9aKt_4core3mem13manually_dropINtB2_12ManuallyDropINtNtCs2bNvlddUlXM_3std5panic16AssertUnwindSafeNCNCINvMNtB17_6threadNtB1V_7Builder15spawn_uncheckedNCNvCsdT7u4N7w2iC_20stack_map_and_mutate4main0uE00EE4takeB2H_(i8* align 1 dereferenceable(1) %slot) unnamed_addr #1 !dbg !2409 {
 start:
   %slot.dbg.spill = alloca i8*, align 8
   store i8* %slot, i8** %slot.dbg.spill, align 8
   call void @llvm.dbg.declare(metadata i8** %slot.dbg.spill, metadata !2414, metadata !DIExpression()), !dbg !2415
-; call core::ptr::read::<std::panic::AssertUnwindSafe<<std::thread::Builder>::spawn_unchecked<oneway_thread_access::main::{closure#0}, ()>::{closure#0}::{closure#0}>>
-  %0 = call i8 @_RINvNtCs3p84KrD9aKt_4core3ptr4readINtNtCs2bNvlddUlXM_3std5panic16AssertUnwindSafeNCNCINvMNtBB_6threadNtB1p_7Builder15spawn_uncheckedNCNvCs37qxPUa7whq_20oneway_thread_access4main0uE00EEB2a_(i8* %slot), !dbg !2416
+; call core::ptr::read::<std::panic::AssertUnwindSafe<<std::thread::Builder>::spawn_unchecked<stack_map_and_mutate::main::{closure#0}, ()>::{closure#0}::{closure#0}>>
+  %0 = call i8 @_RINvNtCs3p84KrD9aKt_4core3ptr4readINtNtCs2bNvlddUlXM_3std5panic16AssertUnwindSafeNCNCINvMNtBB_6threadNtB1p_7Builder15spawn_uncheckedNCNvCsdT7u4N7w2iC_20stack_map_and_mutate4main0uE00EEB2a_(i8* %slot), !dbg !2416
   br label %bb1, !dbg !2416
 
 bb1:                                              ; preds = %start
@@ -4991,7 +4999,7 @@ bb1:                                              ; preds = %start
 
 ; <*mut u8>::guaranteed_eq
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal zeroext i1 @_RNvMNtNtCs3p84KrD9aKt_4core3ptr7mut_ptrOh13guaranteed_eqCs37qxPUa7whq_20oneway_thread_access(i8* %self, i8* %other) unnamed_addr #1 !dbg !2418 {
+define internal zeroext i1 @_RNvMNtNtCs3p84KrD9aKt_4core3ptr7mut_ptrOh13guaranteed_eqCsdT7u4N7w2iC_20stack_map_and_mutate(i8* %self, i8* %other) unnamed_addr #1 !dbg !2418 {
 start:
   %0 = alloca i8, align 1
   %other.dbg.spill = alloca i8*, align 8
@@ -5013,7 +5021,7 @@ bb1:                                              ; preds = %start
 
 ; <*mut u8>::add
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal i8* @_RNvMNtNtCs3p84KrD9aKt_4core3ptr7mut_ptrOh3addCs37qxPUa7whq_20oneway_thread_access(i8* %self, i64 %count) unnamed_addr #1 !dbg !2431 {
+define internal i8* @_RNvMNtNtCs3p84KrD9aKt_4core3ptr7mut_ptrOh3addCsdT7u4N7w2iC_20stack_map_and_mutate(i8* %self, i64 %count) unnamed_addr #1 !dbg !2431 {
 start:
   %count.dbg.spill = alloca i64, align 8
   %self.dbg.spill = alloca i8*, align 8
@@ -5022,7 +5030,7 @@ start:
   store i64 %count, i64* %count.dbg.spill, align 8
   call void @llvm.dbg.declare(metadata i64* %count.dbg.spill, metadata !2436, metadata !DIExpression()), !dbg !2438
 ; call <*mut u8>::offset
-  %0 = call i8* @_RNvMNtNtCs3p84KrD9aKt_4core3ptr7mut_ptrOh6offsetCs37qxPUa7whq_20oneway_thread_access(i8* %self, i64 %count), !dbg !2439
+  %0 = call i8* @_RNvMNtNtCs3p84KrD9aKt_4core3ptr7mut_ptrOh6offsetCsdT7u4N7w2iC_20stack_map_and_mutate(i8* %self, i64 %count), !dbg !2439
   br label %bb1, !dbg !2439
 
 bb1:                                              ; preds = %start
@@ -5031,7 +5039,7 @@ bb1:                                              ; preds = %start
 
 ; <*mut u8>::offset
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal i8* @_RNvMNtNtCs3p84KrD9aKt_4core3ptr7mut_ptrOh6offsetCs37qxPUa7whq_20oneway_thread_access(i8* %self, i64 %count) unnamed_addr #1 !dbg !2441 {
+define internal i8* @_RNvMNtNtCs3p84KrD9aKt_4core3ptr7mut_ptrOh6offsetCsdT7u4N7w2iC_20stack_map_and_mutate(i8* %self, i64 %count) unnamed_addr #1 !dbg !2441 {
 start:
   %0 = alloca i8*, align 8
   %count.dbg.spill = alloca i64, align 8
@@ -5051,7 +5059,7 @@ bb1:                                              ; preds = %start
 
 ; <*mut u8>::is_null
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal zeroext i1 @_RNvMNtNtCs3p84KrD9aKt_4core3ptr7mut_ptrOh7is_nullCs37qxPUa7whq_20oneway_thread_access(i8* %self) unnamed_addr #1 !dbg !2451 {
+define internal zeroext i1 @_RNvMNtNtCs3p84KrD9aKt_4core3ptr7mut_ptrOh7is_nullCsdT7u4N7w2iC_20stack_map_and_mutate(i8* %self) unnamed_addr #1 !dbg !2451 {
 start:
   %self.dbg.spill = alloca i8*, align 8
   store i8* %self, i8** %self.dbg.spill, align 8
@@ -5060,7 +5068,7 @@ start:
 
 bb1:                                              ; preds = %start
 ; call <*mut u8>::guaranteed_eq
-  %0 = call zeroext i1 @_RNvMNtNtCs3p84KrD9aKt_4core3ptr7mut_ptrOh13guaranteed_eqCs37qxPUa7whq_20oneway_thread_access(i8* %self, i8* null), !dbg !2458
+  %0 = call zeroext i1 @_RNvMNtNtCs3p84KrD9aKt_4core3ptr7mut_ptrOh13guaranteed_eqCsdT7u4N7w2iC_20stack_map_and_mutate(i8* %self, i8* null), !dbg !2458
   br label %bb2, !dbg !2458
 
 bb2:                                              ; preds = %bb1
@@ -5069,7 +5077,7 @@ bb2:                                              ; preds = %bb1
 
 ; <core::alloc::layout::Layout>::from_size_align_unchecked
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal { i64, i64 } @_RNvMNtNtCs3p84KrD9aKt_4core5alloc6layoutNtB2_6Layout25from_size_align_uncheckedCs37qxPUa7whq_20oneway_thread_access(i64 %size, i64 %align) unnamed_addr #1 !dbg !2460 {
+define internal { i64, i64 } @_RNvMNtNtCs3p84KrD9aKt_4core5alloc6layoutNtB2_6Layout25from_size_align_uncheckedCsdT7u4N7w2iC_20stack_map_and_mutate(i64 %size, i64 %align) unnamed_addr #1 !dbg !2460 {
 start:
   %align.dbg.spill = alloca i64, align 8
   %size.dbg.spill = alloca i64, align 8
@@ -5079,7 +5087,7 @@ start:
   store i64 %align, i64* %align.dbg.spill, align 8
   call void @llvm.dbg.declare(metadata i64* %align.dbg.spill, metadata !2465, metadata !DIExpression()), !dbg !2467
 ; call <core::num::nonzero::NonZeroUsize>::new_unchecked
-  %_4 = call i64 @_RNvMsx_NtNtCs3p84KrD9aKt_4core3num7nonzeroNtB5_12NonZeroUsize13new_uncheckedCs37qxPUa7whq_20oneway_thread_access(i64 %align), !dbg !2468, !range !2396
+  %_4 = call i64 @_RNvMsx_NtNtCs3p84KrD9aKt_4core3num7nonzeroNtB5_12NonZeroUsize13new_uncheckedCsdT7u4N7w2iC_20stack_map_and_mutate(i64 %align), !dbg !2468, !range !2396
   br label %bb1, !dbg !2468
 
 bb1:                                              ; preds = %start
@@ -5098,7 +5106,7 @@ bb1:                                              ; preds = %start
 
 ; <core::alloc::layout::Layout>::size
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal i64 @_RNvMNtNtCs3p84KrD9aKt_4core5alloc6layoutNtB2_6Layout4sizeCs37qxPUa7whq_20oneway_thread_access({ i64, i64 }* noalias readonly align 8 dereferenceable(16) %self) unnamed_addr #1 !dbg !2471 {
+define internal i64 @_RNvMNtNtCs3p84KrD9aKt_4core5alloc6layoutNtB2_6Layout4sizeCsdT7u4N7w2iC_20stack_map_and_mutate({ i64, i64 }* noalias readonly align 8 dereferenceable(16) %self) unnamed_addr #1 !dbg !2471 {
 start:
   %self.dbg.spill = alloca { i64, i64 }*, align 8
   store { i64, i64 }* %self, { i64, i64 }** %self.dbg.spill, align 8
@@ -5110,7 +5118,7 @@ start:
 
 ; <core::alloc::layout::Layout>::align
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal i64 @_RNvMNtNtCs3p84KrD9aKt_4core5alloc6layoutNtB2_6Layout5alignCs37qxPUa7whq_20oneway_thread_access({ i64, i64 }* noalias readonly align 8 dereferenceable(16) %self) unnamed_addr #1 !dbg !2480 {
+define internal i64 @_RNvMNtNtCs3p84KrD9aKt_4core5alloc6layoutNtB2_6Layout5alignCsdT7u4N7w2iC_20stack_map_and_mutate({ i64, i64 }* noalias readonly align 8 dereferenceable(16) %self) unnamed_addr #1 !dbg !2480 {
 start:
   %self.dbg.spill = alloca { i64, i64 }*, align 8
   store { i64, i64 }* %self, { i64, i64 }** %self.dbg.spill, align 8
@@ -5118,7 +5126,7 @@ start:
   %0 = getelementptr inbounds { i64, i64 }, { i64, i64 }* %self, i32 0, i32 1, !dbg !2484
   %_2 = load i64, i64* %0, align 8, !dbg !2484, !range !2396
 ; call <core::num::nonzero::NonZeroUsize>::get
-  %1 = call i64 @_RNvMsx_NtNtCs3p84KrD9aKt_4core3num7nonzeroNtB5_12NonZeroUsize3getCs37qxPUa7whq_20oneway_thread_access(i64 %_2), !dbg !2484
+  %1 = call i64 @_RNvMsx_NtNtCs3p84KrD9aKt_4core3num7nonzeroNtB5_12NonZeroUsize3getCsdT7u4N7w2iC_20stack_map_and_mutate(i64 %_2), !dbg !2484
   br label %bb1, !dbg !2484
 
 bb1:                                              ; preds = %start
@@ -5127,19 +5135,19 @@ bb1:                                              ; preds = %start
 
 ; <core::alloc::layout::Layout>::dangling
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal nonnull i8* @_RNvMNtNtCs3p84KrD9aKt_4core5alloc6layoutNtB2_6Layout8danglingCs37qxPUa7whq_20oneway_thread_access({ i64, i64 }* noalias readonly align 8 dereferenceable(16) %self) unnamed_addr #1 !dbg !2486 {
+define internal nonnull i8* @_RNvMNtNtCs3p84KrD9aKt_4core5alloc6layoutNtB2_6Layout8danglingCsdT7u4N7w2iC_20stack_map_and_mutate({ i64, i64 }* noalias readonly align 8 dereferenceable(16) %self) unnamed_addr #1 !dbg !2486 {
 start:
   %self.dbg.spill = alloca { i64, i64 }*, align 8
   store { i64, i64 }* %self, { i64, i64 }** %self.dbg.spill, align 8
   call void @llvm.dbg.declare(metadata { i64, i64 }** %self.dbg.spill, metadata !2490, metadata !DIExpression()), !dbg !2491
 ; call <core::alloc::layout::Layout>::align
-  %_3 = call i64 @_RNvMNtNtCs3p84KrD9aKt_4core5alloc6layoutNtB2_6Layout5alignCs37qxPUa7whq_20oneway_thread_access({ i64, i64 }* noalias readonly align 8 dereferenceable(16) %self), !dbg !2492
+  %_3 = call i64 @_RNvMNtNtCs3p84KrD9aKt_4core5alloc6layoutNtB2_6Layout5alignCsdT7u4N7w2iC_20stack_map_and_mutate({ i64, i64 }* noalias readonly align 8 dereferenceable(16) %self), !dbg !2492
   br label %bb1, !dbg !2492
 
 bb1:                                              ; preds = %start
   %_2 = inttoptr i64 %_3 to i8*, !dbg !2492
 ; call <core::ptr::non_null::NonNull<u8>>::new_unchecked
-  %0 = call nonnull i8* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullhE13new_uncheckedCs37qxPUa7whq_20oneway_thread_access(i8* %_2), !dbg !2493
+  %0 = call nonnull i8* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullhE13new_uncheckedCsdT7u4N7w2iC_20stack_map_and_mutate(i8* %_2), !dbg !2493
   br label %bb2, !dbg !2493
 
 bb2:                                              ; preds = %bb1
@@ -5148,7 +5156,7 @@ bb2:                                              ; preds = %bb1
 
 ; <core::fmt::Arguments>::new_v1
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal void @_RNvMs0_NtCs3p84KrD9aKt_4core3fmtNtB5_9Arguments6new_v1Cs37qxPUa7whq_20oneway_thread_access(%"std::fmt::Arguments"* noalias nocapture sret dereferenceable(48) %0, [0 x { [0 x i8]*, i64 }]* noalias nonnull readonly align 8 %pieces.0, i64 %pieces.1, [0 x { i8*, i64* }]* noalias nonnull readonly align 8 %args.0, i64 %args.1) unnamed_addr #1 !dbg !2495 {
+define internal void @_RNvMs0_NtCs3p84KrD9aKt_4core3fmtNtB5_9Arguments6new_v1CsdT7u4N7w2iC_20stack_map_and_mutate(%"std::fmt::Arguments"* noalias nocapture sret dereferenceable(48) %0, [0 x { [0 x i8]*, i64 }]* noalias nonnull readonly align 8 %pieces.0, i64 %pieces.1, [0 x { i8*, i64* }]* noalias nonnull readonly align 8 %args.0, i64 %args.1) unnamed_addr #1 !dbg !2495 {
 start:
   %args.dbg.spill = alloca { [0 x { i8*, i64* }]*, i64 }, align 8
   %pieces.dbg.spill = alloca { [0 x { [0 x i8]*, i64 }]*, i64 }, align 8
@@ -5189,14 +5197,14 @@ start:
 
 ; <core::sync::atomic::AtomicUsize>::new
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal i64 @_RNvMs15_NtNtCs3p84KrD9aKt_4core4sync6atomicNtB6_11AtomicUsize3newCs37qxPUa7whq_20oneway_thread_access(i64 %v) unnamed_addr #1 !dbg !2564 {
+define internal i64 @_RNvMs15_NtNtCs3p84KrD9aKt_4core4sync6atomicNtB6_11AtomicUsize3newCsdT7u4N7w2iC_20stack_map_and_mutate(i64 %v) unnamed_addr #1 !dbg !2564 {
 start:
   %v.dbg.spill = alloca i64, align 8
   %0 = alloca %"std::sync::atomic::AtomicUsize", align 8
   store i64 %v, i64* %v.dbg.spill, align 8
   call void @llvm.dbg.declare(metadata i64* %v.dbg.spill, metadata !2568, metadata !DIExpression()), !dbg !2569
 ; call <core::cell::UnsafeCell<usize>>::new
-  %_2 = call i64 @_RNvMsJ_NtCs3p84KrD9aKt_4core4cellINtB5_10UnsafeCelljE3newCs37qxPUa7whq_20oneway_thread_access(i64 %v), !dbg !2570
+  %_2 = call i64 @_RNvMsJ_NtCs3p84KrD9aKt_4core4cellINtB5_10UnsafeCelljE3newCsdT7u4N7w2iC_20stack_map_and_mutate(i64 %v), !dbg !2570
   br label %bb1, !dbg !2570
 
 bb1:                                              ; preds = %start
@@ -5209,7 +5217,7 @@ bb1:                                              ; preds = %start
 
 ; <core::sync::atomic::AtomicUsize>::fetch_add
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal i64 @_RNvMs15_NtNtCs3p84KrD9aKt_4core4sync6atomicNtB6_11AtomicUsize9fetch_addCs37qxPUa7whq_20oneway_thread_access(%"std::sync::atomic::AtomicUsize"* align 8 dereferenceable(8) %self, i64 %val, i8 %order) unnamed_addr #1 !dbg !2573 {
+define internal i64 @_RNvMs15_NtNtCs3p84KrD9aKt_4core4sync6atomicNtB6_11AtomicUsize9fetch_addCsdT7u4N7w2iC_20stack_map_and_mutate(%"std::sync::atomic::AtomicUsize"* align 8 dereferenceable(8) %self, i64 %val, i8 %order) unnamed_addr #1 !dbg !2573 {
 start:
   %order.dbg.spill = alloca i8, align 1
   %val.dbg.spill = alloca i64, align 8
@@ -5222,12 +5230,12 @@ start:
   call void @llvm.dbg.declare(metadata i8* %order.dbg.spill, metadata !2580, metadata !DIExpression()), !dbg !2583
   %_5 = bitcast %"std::sync::atomic::AtomicUsize"* %self to i64*, !dbg !2584
 ; call <core::cell::UnsafeCell<usize>>::get
-  %_4 = call i64* @_RNvMsK_NtCs3p84KrD9aKt_4core4cellINtB5_10UnsafeCelljE3getCs37qxPUa7whq_20oneway_thread_access(i64* align 8 dereferenceable(8) %_5), !dbg !2584
+  %_4 = call i64* @_RNvMsK_NtCs3p84KrD9aKt_4core4cellINtB5_10UnsafeCelljE3getCsdT7u4N7w2iC_20stack_map_and_mutate(i64* align 8 dereferenceable(8) %_5), !dbg !2584
   br label %bb1, !dbg !2584
 
 bb1:                                              ; preds = %start
 ; call core::sync::atomic::atomic_add::<usize>
-  %0 = call i64 @_RINvNtNtCs3p84KrD9aKt_4core4sync6atomic10atomic_addjECs37qxPUa7whq_20oneway_thread_access(i64* %_4, i64 %val, i8 %order), !dbg !2585
+  %0 = call i64 @_RINvNtNtCs3p84KrD9aKt_4core4sync6atomic10atomic_addjECsdT7u4N7w2iC_20stack_map_and_mutate(i64* %_4, i64 %val, i8 %order), !dbg !2585
   br label %bb2, !dbg !2585
 
 bb2:                                              ; preds = %bb1
@@ -5236,7 +5244,7 @@ bb2:                                              ; preds = %bb1
 
 ; <core::sync::atomic::AtomicUsize>::fetch_sub
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal i64 @_RNvMs15_NtNtCs3p84KrD9aKt_4core4sync6atomicNtB6_11AtomicUsize9fetch_subCs37qxPUa7whq_20oneway_thread_access(%"std::sync::atomic::AtomicUsize"* align 8 dereferenceable(8) %self, i64 %val, i8 %order) unnamed_addr #1 !dbg !2587 {
+define internal i64 @_RNvMs15_NtNtCs3p84KrD9aKt_4core4sync6atomicNtB6_11AtomicUsize9fetch_subCsdT7u4N7w2iC_20stack_map_and_mutate(%"std::sync::atomic::AtomicUsize"* align 8 dereferenceable(8) %self, i64 %val, i8 %order) unnamed_addr #1 !dbg !2587 {
 start:
   %order.dbg.spill = alloca i8, align 1
   %val.dbg.spill = alloca i64, align 8
@@ -5249,12 +5257,12 @@ start:
   call void @llvm.dbg.declare(metadata i8* %order.dbg.spill, metadata !2591, metadata !DIExpression()), !dbg !2594
   %_5 = bitcast %"std::sync::atomic::AtomicUsize"* %self to i64*, !dbg !2595
 ; call <core::cell::UnsafeCell<usize>>::get
-  %_4 = call i64* @_RNvMsK_NtCs3p84KrD9aKt_4core4cellINtB5_10UnsafeCelljE3getCs37qxPUa7whq_20oneway_thread_access(i64* align 8 dereferenceable(8) %_5), !dbg !2595
+  %_4 = call i64* @_RNvMsK_NtCs3p84KrD9aKt_4core4cellINtB5_10UnsafeCelljE3getCsdT7u4N7w2iC_20stack_map_and_mutate(i64* align 8 dereferenceable(8) %_5), !dbg !2595
   br label %bb1, !dbg !2595
 
 bb1:                                              ; preds = %start
 ; call core::sync::atomic::atomic_sub::<usize>
-  %0 = call i64 @_RINvNtNtCs3p84KrD9aKt_4core4sync6atomic10atomic_subjECs37qxPUa7whq_20oneway_thread_access(i64* %_4, i64 %val, i8 %order), !dbg !2596
+  %0 = call i64 @_RINvNtNtCs3p84KrD9aKt_4core4sync6atomic10atomic_subjECsdT7u4N7w2iC_20stack_map_and_mutate(i64* %_4, i64 %val, i8 %order), !dbg !2596
   br label %bb2, !dbg !2596
 
 bb2:                                              ; preds = %bb1
@@ -5263,7 +5271,7 @@ bb2:                                              ; preds = %bb1
 
 ; <core::ptr::unique::Unique<dyn core::any::Any + core::marker::Send>>::as_ptr
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal { {}*, [3 x i64]* } @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueDNtNtB9_3any3AnyNtNtB9_6marker4SendEL_E6as_ptrCs37qxPUa7whq_20oneway_thread_access(i8* nonnull %self.0, i64* noalias readonly align 8 dereferenceable(24) %self.1) unnamed_addr #1 !dbg !2598 {
+define internal { {}*, [3 x i64]* } @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueDNtNtB9_3any3AnyNtNtB9_6marker4SendEL_E6as_ptrCsdT7u4N7w2iC_20stack_map_and_mutate(i8* nonnull %self.0, i64* noalias readonly align 8 dereferenceable(24) %self.1) unnamed_addr #1 !dbg !2598 {
 start:
   %self.dbg.spill = alloca { i8*, i64* }, align 8
   %0 = getelementptr inbounds { i8*, i64* }, { i8*, i64* }* %self.dbg.spill, i32 0, i32 0
@@ -5280,7 +5288,7 @@ start:
 
 ; <core::ptr::unique::Unique<dyn core::any::Any + core::marker::Send>>::as_ref
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal { {}*, [3 x i64]* } @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueDNtNtB9_3any3AnyNtNtB9_6marker4SendEL_E6as_refCs37qxPUa7whq_20oneway_thread_access({ i8*, i64* }* noalias readonly align 8 dereferenceable(16) %self) unnamed_addr #1 !dbg !2606 {
+define internal { {}*, [3 x i64]* } @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueDNtNtB9_3any3AnyNtNtB9_6marker4SendEL_E6as_refCsdT7u4N7w2iC_20stack_map_and_mutate({ i8*, i64* }* noalias readonly align 8 dereferenceable(16) %self) unnamed_addr #1 !dbg !2606 {
 start:
   %self.dbg.spill = alloca { i8*, i64* }*, align 8
   store { i8*, i64* }* %self, { i8*, i64* }** %self.dbg.spill, align 8
@@ -5290,7 +5298,7 @@ start:
   %1 = getelementptr inbounds { i8*, i64* }, { i8*, i64* }* %self, i32 0, i32 1, !dbg !2617
   %_3.1 = load i64*, i64** %1, align 8, !dbg !2617, !nonnull !4
 ; call <core::ptr::unique::Unique<dyn core::any::Any + core::marker::Send>>::as_ptr
-  %2 = call { {}*, [3 x i64]* } @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueDNtNtB9_3any3AnyNtNtB9_6marker4SendEL_E6as_ptrCs37qxPUa7whq_20oneway_thread_access(i8* nonnull %_3.0, i64* noalias readonly align 8 dereferenceable(24) %_3.1), !dbg !2617
+  %2 = call { {}*, [3 x i64]* } @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueDNtNtB9_3any3AnyNtNtB9_6marker4SendEL_E6as_ptrCsdT7u4N7w2iC_20stack_map_and_mutate(i8* nonnull %_3.0, i64* noalias readonly align 8 dereferenceable(24) %_3.1), !dbg !2617
   %_2.0 = extractvalue { {}*, [3 x i64]* } %2, 0, !dbg !2617
   %_2.1 = extractvalue { {}*, [3 x i64]* } %2, 1, !dbg !2617
   br label %bb1, !dbg !2617
@@ -5303,7 +5311,7 @@ bb1:                                              ; preds = %start
 
 ; <core::ptr::unique::Unique<dyn std::error::Error + core::marker::Send + core::marker::Sync>>::as_ptr
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal { {}*, [3 x i64]* } @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueDNtNtCs2bNvlddUlXM_3std5error5ErrorNtNtB9_6marker4SendNtB1r_4SyncEL_E6as_ptrCs37qxPUa7whq_20oneway_thread_access(i8* nonnull %self.0, i64* noalias readonly align 8 dereferenceable(24) %self.1) unnamed_addr #1 !dbg !2619 {
+define internal { {}*, [3 x i64]* } @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueDNtNtCs2bNvlddUlXM_3std5error5ErrorNtNtB9_6marker4SendNtB1r_4SyncEL_E6as_ptrCsdT7u4N7w2iC_20stack_map_and_mutate(i8* nonnull %self.0, i64* noalias readonly align 8 dereferenceable(24) %self.1) unnamed_addr #1 !dbg !2619 {
 start:
   %self.dbg.spill = alloca { i8*, i64* }, align 8
   %0 = getelementptr inbounds { i8*, i64* }, { i8*, i64* }* %self.dbg.spill, i32 0, i32 0
@@ -5320,7 +5328,7 @@ start:
 
 ; <core::ptr::unique::Unique<dyn std::error::Error + core::marker::Send + core::marker::Sync>>::as_ref
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal { {}*, [3 x i64]* } @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueDNtNtCs2bNvlddUlXM_3std5error5ErrorNtNtB9_6marker4SendNtB1r_4SyncEL_E6as_refCs37qxPUa7whq_20oneway_thread_access({ i8*, i64* }* noalias readonly align 8 dereferenceable(16) %self) unnamed_addr #1 !dbg !2627 {
+define internal { {}*, [3 x i64]* } @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueDNtNtCs2bNvlddUlXM_3std5error5ErrorNtNtB9_6marker4SendNtB1r_4SyncEL_E6as_refCsdT7u4N7w2iC_20stack_map_and_mutate({ i8*, i64* }* noalias readonly align 8 dereferenceable(16) %self) unnamed_addr #1 !dbg !2627 {
 start:
   %self.dbg.spill = alloca { i8*, i64* }*, align 8
   store { i8*, i64* }* %self, { i8*, i64* }** %self.dbg.spill, align 8
@@ -5330,7 +5338,7 @@ start:
   %1 = getelementptr inbounds { i8*, i64* }, { i8*, i64* }* %self, i32 0, i32 1, !dbg !2638
   %_3.1 = load i64*, i64** %1, align 8, !dbg !2638, !nonnull !4
 ; call <core::ptr::unique::Unique<dyn std::error::Error + core::marker::Send + core::marker::Sync>>::as_ptr
-  %2 = call { {}*, [3 x i64]* } @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueDNtNtCs2bNvlddUlXM_3std5error5ErrorNtNtB9_6marker4SendNtB1r_4SyncEL_E6as_ptrCs37qxPUa7whq_20oneway_thread_access(i8* nonnull %_3.0, i64* noalias readonly align 8 dereferenceable(24) %_3.1), !dbg !2638
+  %2 = call { {}*, [3 x i64]* } @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueDNtNtCs2bNvlddUlXM_3std5error5ErrorNtNtB9_6marker4SendNtB1r_4SyncEL_E6as_ptrCsdT7u4N7w2iC_20stack_map_and_mutate(i8* nonnull %_3.0, i64* noalias readonly align 8 dereferenceable(24) %_3.1), !dbg !2638
   %_2.0 = extractvalue { {}*, [3 x i64]* } %2, 0, !dbg !2638
   %_2.1 = extractvalue { {}*, [3 x i64]* } %2, 1, !dbg !2638
   br label %bb1, !dbg !2638
@@ -5343,7 +5351,7 @@ bb1:                                              ; preds = %start
 
 ; <core::ptr::unique::Unique<alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>>>>::as_ptr
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal %"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtB9_4cell10UnsafeCellINtNtB9_6option6OptionINtNtB9_6result6ResultuINtNtBV_5boxed3BoxDNtNtB9_3any3AnyNtNtB9_6marker4SendEL_EEEEEE6as_ptrCs37qxPUa7whq_20oneway_thread_access(i64* nonnull %self) unnamed_addr #1 !dbg !2640 {
+define internal %"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtB9_4cell10UnsafeCellINtNtB9_6option6OptionINtNtB9_6result6ResultuINtNtBV_5boxed3BoxDNtNtB9_3any3AnyNtNtB9_6marker4SendEL_EEEEEE6as_ptrCsdT7u4N7w2iC_20stack_map_and_mutate(i64* nonnull %self) unnamed_addr #1 !dbg !2640 {
 start:
   %self.dbg.spill = alloca i64*, align 8
   store i64* %self, i64** %self.dbg.spill, align 8
@@ -5354,14 +5362,14 @@ start:
 
 ; <core::ptr::unique::Unique<alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>>>>::as_ref
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal align 8 dereferenceable(40) %"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtB9_4cell10UnsafeCellINtNtB9_6option6OptionINtNtB9_6result6ResultuINtNtBV_5boxed3BoxDNtNtB9_3any3AnyNtNtB9_6marker4SendEL_EEEEEE6as_refCs37qxPUa7whq_20oneway_thread_access(i64** noalias readonly align 8 dereferenceable(8) %self) unnamed_addr #1 !dbg !2649 {
+define internal align 8 dereferenceable(40) %"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtB9_4cell10UnsafeCellINtNtB9_6option6OptionINtNtB9_6result6ResultuINtNtBV_5boxed3BoxDNtNtB9_3any3AnyNtNtB9_6marker4SendEL_EEEEEE6as_refCsdT7u4N7w2iC_20stack_map_and_mutate(i64** noalias readonly align 8 dereferenceable(8) %self) unnamed_addr #1 !dbg !2649 {
 start:
   %self.dbg.spill = alloca i64**, align 8
   store i64** %self, i64*** %self.dbg.spill, align 8
   call void @llvm.dbg.declare(metadata i64*** %self.dbg.spill, metadata !2655, metadata !DIExpression()), !dbg !2656
   %_3 = load i64*, i64** %self, align 8, !dbg !2657, !nonnull !4
 ; call <core::ptr::unique::Unique<alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>>>>::as_ptr
-  %_2 = call %"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtB9_4cell10UnsafeCellINtNtB9_6option6OptionINtNtB9_6result6ResultuINtNtBV_5boxed3BoxDNtNtB9_3any3AnyNtNtB9_6marker4SendEL_EEEEEE6as_ptrCs37qxPUa7whq_20oneway_thread_access(i64* nonnull %_3), !dbg !2657
+  %_2 = call %"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtB9_4cell10UnsafeCellINtNtB9_6option6OptionINtNtB9_6result6ResultuINtNtBV_5boxed3BoxDNtNtB9_3any3AnyNtNtB9_6marker4SendEL_EEEEEE6as_ptrCsdT7u4N7w2iC_20stack_map_and_mutate(i64* nonnull %_3), !dbg !2657
   br label %bb1, !dbg !2657
 
 bb1:                                              ; preds = %start
@@ -5370,7 +5378,7 @@ bb1:                                              ; preds = %start
 
 ; <core::ptr::unique::Unique<std::io::error::Custom>>::as_ptr
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal %"std::io::error::Custom"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueNtNtNtCs2bNvlddUlXM_3std2io5error6CustomE6as_ptrCs37qxPUa7whq_20oneway_thread_access(i64* nonnull %self) unnamed_addr #1 !dbg !2659 {
+define internal %"std::io::error::Custom"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueNtNtNtCs2bNvlddUlXM_3std2io5error6CustomE6as_ptrCsdT7u4N7w2iC_20stack_map_and_mutate(i64* nonnull %self) unnamed_addr #1 !dbg !2659 {
 start:
   %self.dbg.spill = alloca i64*, align 8
   store i64* %self, i64** %self.dbg.spill, align 8
@@ -5381,14 +5389,14 @@ start:
 
 ; <core::ptr::unique::Unique<std::io::error::Custom>>::as_ref
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal align 8 dereferenceable(24) %"std::io::error::Custom"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueNtNtNtCs2bNvlddUlXM_3std2io5error6CustomE6as_refCs37qxPUa7whq_20oneway_thread_access(i64** noalias readonly align 8 dereferenceable(8) %self) unnamed_addr #1 !dbg !2667 {
+define internal align 8 dereferenceable(24) %"std::io::error::Custom"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueNtNtNtCs2bNvlddUlXM_3std2io5error6CustomE6as_refCsdT7u4N7w2iC_20stack_map_and_mutate(i64** noalias readonly align 8 dereferenceable(8) %self) unnamed_addr #1 !dbg !2667 {
 start:
   %self.dbg.spill = alloca i64**, align 8
   store i64** %self, i64*** %self.dbg.spill, align 8
   call void @llvm.dbg.declare(metadata i64*** %self.dbg.spill, metadata !2673, metadata !DIExpression()), !dbg !2674
   %_3 = load i64*, i64** %self, align 8, !dbg !2675, !nonnull !4
 ; call <core::ptr::unique::Unique<std::io::error::Custom>>::as_ptr
-  %_2 = call %"std::io::error::Custom"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueNtNtNtCs2bNvlddUlXM_3std2io5error6CustomE6as_ptrCs37qxPUa7whq_20oneway_thread_access(i64* nonnull %_3), !dbg !2675
+  %_2 = call %"std::io::error::Custom"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueNtNtNtCs2bNvlddUlXM_3std2io5error6CustomE6as_ptrCsdT7u4N7w2iC_20stack_map_and_mutate(i64* nonnull %_3), !dbg !2675
   br label %bb1, !dbg !2675
 
 bb1:                                              ; preds = %start
@@ -5397,7 +5405,7 @@ bb1:                                              ; preds = %start
 
 ; <core::ptr::unique::Unique<std::sys::unix::mutex::Mutex>>::as_ptr
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal %"std::sys::unix::mutex::Mutex"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueNtNtNtNtCs2bNvlddUlXM_3std3sys4unix5mutex5MutexE6as_ptrCs37qxPUa7whq_20oneway_thread_access(i64* nonnull %self) unnamed_addr #1 !dbg !2677 {
+define internal %"std::sys::unix::mutex::Mutex"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueNtNtNtNtCs2bNvlddUlXM_3std3sys4unix5mutex5MutexE6as_ptrCsdT7u4N7w2iC_20stack_map_and_mutate(i64* nonnull %self) unnamed_addr #1 !dbg !2677 {
 start:
   %self.dbg.spill = alloca i64*, align 8
   store i64* %self, i64** %self.dbg.spill, align 8
@@ -5408,14 +5416,14 @@ start:
 
 ; <core::ptr::unique::Unique<std::sys::unix::mutex::Mutex>>::as_ref
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal align 8 dereferenceable(40) %"std::sys::unix::mutex::Mutex"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueNtNtNtNtCs2bNvlddUlXM_3std3sys4unix5mutex5MutexE6as_refCs37qxPUa7whq_20oneway_thread_access(i64** noalias readonly align 8 dereferenceable(8) %self) unnamed_addr #1 !dbg !2686 {
+define internal align 8 dereferenceable(40) %"std::sys::unix::mutex::Mutex"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueNtNtNtNtCs2bNvlddUlXM_3std3sys4unix5mutex5MutexE6as_refCsdT7u4N7w2iC_20stack_map_and_mutate(i64** noalias readonly align 8 dereferenceable(8) %self) unnamed_addr #1 !dbg !2686 {
 start:
   %self.dbg.spill = alloca i64**, align 8
   store i64** %self, i64*** %self.dbg.spill, align 8
   call void @llvm.dbg.declare(metadata i64*** %self.dbg.spill, metadata !2692, metadata !DIExpression()), !dbg !2693
   %_3 = load i64*, i64** %self, align 8, !dbg !2694, !nonnull !4
 ; call <core::ptr::unique::Unique<std::sys::unix::mutex::Mutex>>::as_ptr
-  %_2 = call %"std::sys::unix::mutex::Mutex"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueNtNtNtNtCs2bNvlddUlXM_3std3sys4unix5mutex5MutexE6as_ptrCs37qxPUa7whq_20oneway_thread_access(i64* nonnull %_3), !dbg !2694
+  %_2 = call %"std::sys::unix::mutex::Mutex"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueNtNtNtNtCs2bNvlddUlXM_3std3sys4unix5mutex5MutexE6as_ptrCsdT7u4N7w2iC_20stack_map_and_mutate(i64* nonnull %_3), !dbg !2694
   br label %bb1, !dbg !2694
 
 bb1:                                              ; preds = %start
@@ -5424,7 +5432,7 @@ bb1:                                              ; preds = %start
 
 ; <core::ptr::unique::Unique<[u8]>>::as_ptr
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal { [0 x i8]*, i64 } @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueShE6as_ptrCs37qxPUa7whq_20oneway_thread_access(i8* nonnull %self.0, i64 %self.1) unnamed_addr #1 !dbg !2696 {
+define internal { [0 x i8]*, i64 } @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueShE6as_ptrCsdT7u4N7w2iC_20stack_map_and_mutate(i8* nonnull %self.0, i64 %self.1) unnamed_addr #1 !dbg !2696 {
 start:
   %self.dbg.spill = alloca { i8*, i64 }, align 8
   %0 = getelementptr inbounds { i8*, i64 }, { i8*, i64 }* %self.dbg.spill, i32 0, i32 0
@@ -5440,7 +5448,7 @@ start:
 
 ; <core::ptr::unique::Unique<[u8]>>::as_ref
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal { [0 x i8]*, i64 } @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueShE6as_refCs37qxPUa7whq_20oneway_thread_access({ i8*, i64 }* noalias readonly align 8 dereferenceable(16) %self) unnamed_addr #1 !dbg !2704 {
+define internal { [0 x i8]*, i64 } @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueShE6as_refCsdT7u4N7w2iC_20stack_map_and_mutate({ i8*, i64 }* noalias readonly align 8 dereferenceable(16) %self) unnamed_addr #1 !dbg !2704 {
 start:
   %self.dbg.spill = alloca { i8*, i64 }*, align 8
   store { i8*, i64 }* %self, { i8*, i64 }** %self.dbg.spill, align 8
@@ -5450,7 +5458,7 @@ start:
   %1 = getelementptr inbounds { i8*, i64 }, { i8*, i64 }* %self, i32 0, i32 1, !dbg !2715
   %_3.1 = load i64, i64* %1, align 8, !dbg !2715
 ; call <core::ptr::unique::Unique<[u8]>>::as_ptr
-  %2 = call { [0 x i8]*, i64 } @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueShE6as_ptrCs37qxPUa7whq_20oneway_thread_access(i8* nonnull %_3.0, i64 %_3.1), !dbg !2715
+  %2 = call { [0 x i8]*, i64 } @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueShE6as_ptrCsdT7u4N7w2iC_20stack_map_and_mutate(i8* nonnull %_3.0, i64 %_3.1), !dbg !2715
   %_2.0 = extractvalue { [0 x i8]*, i64 } %2, 0, !dbg !2715
   %_2.1 = extractvalue { [0 x i8]*, i64 } %2, 1, !dbg !2715
   br label %bb1, !dbg !2715
@@ -5463,7 +5471,7 @@ bb1:                                              ; preds = %start
 
 ; <core::ptr::unique::Unique<u8>>::new_unchecked
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal nonnull i8* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniquehE13new_uncheckedCs37qxPUa7whq_20oneway_thread_access(i8* %ptr) unnamed_addr #1 !dbg !2717 {
+define internal nonnull i8* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniquehE13new_uncheckedCsdT7u4N7w2iC_20stack_map_and_mutate(i8* %ptr) unnamed_addr #1 !dbg !2717 {
 start:
   %ptr.dbg.spill = alloca i8*, align 8
   %_5 = alloca %"std::marker::PhantomData<u8>", align 1
@@ -5478,7 +5486,7 @@ start:
 
 ; <core::ptr::unique::Unique<u8>>::as_ptr
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal i8* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniquehE6as_ptrCs37qxPUa7whq_20oneway_thread_access(i8* nonnull %self) unnamed_addr #1 !dbg !2725 {
+define internal i8* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniquehE6as_ptrCsdT7u4N7w2iC_20stack_map_and_mutate(i8* nonnull %self) unnamed_addr #1 !dbg !2725 {
 start:
   %self.dbg.spill = alloca i8*, align 8
   store i8* %self, i8** %self.dbg.spill, align 8
@@ -5488,7 +5496,7 @@ start:
 
 ; <core::ptr::non_null::NonNull<alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>>>>::as_ptr
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal %"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtB9_4cell10UnsafeCellINtNtB9_6option6OptionINtNtB9_6result6ResultuINtNtBY_5boxed3BoxDNtNtB9_3any3AnyNtNtB9_6marker4SendEL_EEEEEE6as_ptrCs37qxPUa7whq_20oneway_thread_access(i64* nonnull %self) unnamed_addr #1 !dbg !2732 {
+define internal %"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtB9_4cell10UnsafeCellINtNtB9_6option6OptionINtNtB9_6result6ResultuINtNtBY_5boxed3BoxDNtNtB9_3any3AnyNtNtB9_6marker4SendEL_EEEEEE6as_ptrCsdT7u4N7w2iC_20stack_map_and_mutate(i64* nonnull %self) unnamed_addr #1 !dbg !2732 {
 start:
   %self.dbg.spill = alloca i64*, align 8
   store i64* %self, i64** %self.dbg.spill, align 8
@@ -5499,14 +5507,14 @@ start:
 
 ; <core::ptr::non_null::NonNull<alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>>>>::as_ref
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal align 8 dereferenceable(40) %"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtB9_4cell10UnsafeCellINtNtB9_6option6OptionINtNtB9_6result6ResultuINtNtBY_5boxed3BoxDNtNtB9_3any3AnyNtNtB9_6marker4SendEL_EEEEEE6as_refCs37qxPUa7whq_20oneway_thread_access(i64** noalias readonly align 8 dereferenceable(8) %self) unnamed_addr #1 !dbg !2740 {
+define internal align 8 dereferenceable(40) %"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtB9_4cell10UnsafeCellINtNtB9_6option6OptionINtNtB9_6result6ResultuINtNtBY_5boxed3BoxDNtNtB9_3any3AnyNtNtB9_6marker4SendEL_EEEEEE6as_refCsdT7u4N7w2iC_20stack_map_and_mutate(i64** noalias readonly align 8 dereferenceable(8) %self) unnamed_addr #1 !dbg !2740 {
 start:
   %self.dbg.spill = alloca i64**, align 8
   store i64** %self, i64*** %self.dbg.spill, align 8
   call void @llvm.dbg.declare(metadata i64*** %self.dbg.spill, metadata !2745, metadata !DIExpression()), !dbg !2746
   %_3 = load i64*, i64** %self, align 8, !dbg !2747, !nonnull !4
 ; call <core::ptr::non_null::NonNull<alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>>>>::as_ptr
-  %_2 = call %"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtB9_4cell10UnsafeCellINtNtB9_6option6OptionINtNtB9_6result6ResultuINtNtBY_5boxed3BoxDNtNtB9_3any3AnyNtNtB9_6marker4SendEL_EEEEEE6as_ptrCs37qxPUa7whq_20oneway_thread_access(i64* nonnull %_3), !dbg !2747
+  %_2 = call %"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtB9_4cell10UnsafeCellINtNtB9_6option6OptionINtNtB9_6result6ResultuINtNtBY_5boxed3BoxDNtNtB9_3any3AnyNtNtB9_6marker4SendEL_EEEEEE6as_ptrCsdT7u4N7w2iC_20stack_map_and_mutate(i64* nonnull %_3), !dbg !2747
   br label %bb1, !dbg !2747
 
 bb1:                                              ; preds = %start
@@ -5515,7 +5523,7 @@ bb1:                                              ; preds = %start
 
 ; <core::ptr::non_null::NonNull<alloc::sync::ArcInner<std::sync::mutex::Mutex<alloc::vec::Vec<u8>>>>>::as_ptr
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal %"alloc::sync::ArcInner<std::sync::Mutex<std::vec::Vec<u8>>>"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtBY_3vec3VechEEEE6as_ptrCs37qxPUa7whq_20oneway_thread_access(i64* nonnull %self) unnamed_addr #1 !dbg !2749 {
+define internal %"alloc::sync::ArcInner<std::sync::Mutex<std::vec::Vec<u8>>>"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtBY_3vec3VechEEEE6as_ptrCsdT7u4N7w2iC_20stack_map_and_mutate(i64* nonnull %self) unnamed_addr #1 !dbg !2749 {
 start:
   %self.dbg.spill = alloca i64*, align 8
   store i64* %self, i64** %self.dbg.spill, align 8
@@ -5526,14 +5534,14 @@ start:
 
 ; <core::ptr::non_null::NonNull<alloc::sync::ArcInner<std::sync::mutex::Mutex<alloc::vec::Vec<u8>>>>>::as_ref
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal align 8 dereferenceable(56) %"alloc::sync::ArcInner<std::sync::Mutex<std::vec::Vec<u8>>>"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtBY_3vec3VechEEEE6as_refCs37qxPUa7whq_20oneway_thread_access(i64** noalias readonly align 8 dereferenceable(8) %self) unnamed_addr #1 !dbg !2758 {
+define internal align 8 dereferenceable(56) %"alloc::sync::ArcInner<std::sync::Mutex<std::vec::Vec<u8>>>"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtBY_3vec3VechEEEE6as_refCsdT7u4N7w2iC_20stack_map_and_mutate(i64** noalias readonly align 8 dereferenceable(8) %self) unnamed_addr #1 !dbg !2758 {
 start:
   %self.dbg.spill = alloca i64**, align 8
   store i64** %self, i64*** %self.dbg.spill, align 8
   call void @llvm.dbg.declare(metadata i64*** %self.dbg.spill, metadata !2764, metadata !DIExpression()), !dbg !2765
   %_3 = load i64*, i64** %self, align 8, !dbg !2766, !nonnull !4
 ; call <core::ptr::non_null::NonNull<alloc::sync::ArcInner<std::sync::mutex::Mutex<alloc::vec::Vec<u8>>>>>::as_ptr
-  %_2 = call %"alloc::sync::ArcInner<std::sync::Mutex<std::vec::Vec<u8>>>"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtBY_3vec3VechEEEE6as_ptrCs37qxPUa7whq_20oneway_thread_access(i64* nonnull %_3), !dbg !2766
+  %_2 = call %"alloc::sync::ArcInner<std::sync::Mutex<std::vec::Vec<u8>>>"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtBY_3vec3VechEEEE6as_ptrCsdT7u4N7w2iC_20stack_map_and_mutate(i64* nonnull %_3), !dbg !2766
   br label %bb1, !dbg !2766
 
 bb1:                                              ; preds = %start
@@ -5542,7 +5550,7 @@ bb1:                                              ; preds = %start
 
 ; <core::ptr::non_null::NonNull<alloc::sync::ArcInner<std::thread::Inner>>>::as_ptr
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal %"alloc::sync::ArcInner<std::thread::Inner>"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerNtNtCs2bNvlddUlXM_3std6thread5InnerEE6as_ptrCs37qxPUa7whq_20oneway_thread_access(i64* nonnull %self) unnamed_addr #1 !dbg !2768 {
+define internal %"alloc::sync::ArcInner<std::thread::Inner>"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerNtNtCs2bNvlddUlXM_3std6thread5InnerEE6as_ptrCsdT7u4N7w2iC_20stack_map_and_mutate(i64* nonnull %self) unnamed_addr #1 !dbg !2768 {
 start:
   %self.dbg.spill = alloca i64*, align 8
   store i64* %self, i64** %self.dbg.spill, align 8
@@ -5553,14 +5561,14 @@ start:
 
 ; <core::ptr::non_null::NonNull<alloc::sync::ArcInner<std::thread::Inner>>>::as_ref
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal align 8 dereferenceable(48) %"alloc::sync::ArcInner<std::thread::Inner>"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerNtNtCs2bNvlddUlXM_3std6thread5InnerEE6as_refCs37qxPUa7whq_20oneway_thread_access(i64** noalias readonly align 8 dereferenceable(8) %self) unnamed_addr #1 !dbg !2777 {
+define internal align 8 dereferenceable(48) %"alloc::sync::ArcInner<std::thread::Inner>"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerNtNtCs2bNvlddUlXM_3std6thread5InnerEE6as_refCsdT7u4N7w2iC_20stack_map_and_mutate(i64** noalias readonly align 8 dereferenceable(8) %self) unnamed_addr #1 !dbg !2777 {
 start:
   %self.dbg.spill = alloca i64**, align 8
   store i64** %self, i64*** %self.dbg.spill, align 8
   call void @llvm.dbg.declare(metadata i64*** %self.dbg.spill, metadata !2783, metadata !DIExpression()), !dbg !2784
   %_3 = load i64*, i64** %self, align 8, !dbg !2785, !nonnull !4
 ; call <core::ptr::non_null::NonNull<alloc::sync::ArcInner<std::thread::Inner>>>::as_ptr
-  %_2 = call %"alloc::sync::ArcInner<std::thread::Inner>"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerNtNtCs2bNvlddUlXM_3std6thread5InnerEE6as_ptrCs37qxPUa7whq_20oneway_thread_access(i64* nonnull %_3), !dbg !2785
+  %_2 = call %"alloc::sync::ArcInner<std::thread::Inner>"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerNtNtCs2bNvlddUlXM_3std6thread5InnerEE6as_ptrCsdT7u4N7w2iC_20stack_map_and_mutate(i64* nonnull %_3), !dbg !2785
   br label %bb1, !dbg !2785
 
 bb1:                                              ; preds = %start
@@ -5569,7 +5577,7 @@ bb1:                                              ; preds = %start
 
 ; <core::ptr::non_null::NonNull<[u8]>>::new_unchecked
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal { i8*, i64 } @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullShE13new_uncheckedCs37qxPUa7whq_20oneway_thread_access([0 x i8]* %ptr.0, i64 %ptr.1) unnamed_addr #1 !dbg !2787 {
+define internal { i8*, i64 } @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullShE13new_uncheckedCsdT7u4N7w2iC_20stack_map_and_mutate([0 x i8]* %ptr.0, i64 %ptr.1) unnamed_addr #1 !dbg !2787 {
 start:
   %ptr.dbg.spill = alloca { [0 x i8]*, i64 }, align 8
   %0 = alloca { i8*, i64 }, align 8
@@ -5594,7 +5602,7 @@ start:
 
 ; <core::ptr::non_null::NonNull<[u8]>>::as_ptr
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal { [0 x i8]*, i64 } @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullShE6as_ptrCs37qxPUa7whq_20oneway_thread_access(i8* nonnull %self.0, i64 %self.1) unnamed_addr #1 !dbg !2795 {
+define internal { [0 x i8]*, i64 } @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullShE6as_ptrCsdT7u4N7w2iC_20stack_map_and_mutate(i8* nonnull %self.0, i64 %self.1) unnamed_addr #1 !dbg !2795 {
 start:
   %self.dbg.spill = alloca { i8*, i64 }, align 8
   %0 = getelementptr inbounds { i8*, i64 }, { i8*, i64 }* %self.dbg.spill, i32 0, i32 0
@@ -5610,7 +5618,7 @@ start:
 
 ; <core::ptr::non_null::NonNull<u8>>::new_unchecked
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal nonnull i8* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullhE13new_uncheckedCs37qxPUa7whq_20oneway_thread_access(i8* %ptr) unnamed_addr #1 !dbg !2803 {
+define internal nonnull i8* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullhE13new_uncheckedCsdT7u4N7w2iC_20stack_map_and_mutate(i8* %ptr) unnamed_addr #1 !dbg !2803 {
 start:
   %ptr.dbg.spill = alloca i8*, align 8
   %0 = alloca i8*, align 8
@@ -5623,14 +5631,14 @@ start:
 
 ; <core::ptr::non_null::NonNull<u8>>::new
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal i8* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullhE3newCs37qxPUa7whq_20oneway_thread_access(i8* %ptr) unnamed_addr #1 !dbg !2811 {
+define internal i8* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullhE3newCsdT7u4N7w2iC_20stack_map_and_mutate(i8* %ptr) unnamed_addr #1 !dbg !2811 {
 start:
   %ptr.dbg.spill = alloca i8*, align 8
   %0 = alloca i8*, align 8
   store i8* %ptr, i8** %ptr.dbg.spill, align 8
   call void @llvm.dbg.declare(metadata i8** %ptr.dbg.spill, metadata !2815, metadata !DIExpression()), !dbg !2816
 ; call <*mut u8>::is_null
-  %_3 = call zeroext i1 @_RNvMNtNtCs3p84KrD9aKt_4core3ptr7mut_ptrOh7is_nullCs37qxPUa7whq_20oneway_thread_access(i8* %ptr), !dbg !2817
+  %_3 = call zeroext i1 @_RNvMNtNtCs3p84KrD9aKt_4core3ptr7mut_ptrOh7is_nullCsdT7u4N7w2iC_20stack_map_and_mutate(i8* %ptr), !dbg !2817
   br label %bb1, !dbg !2817
 
 bb1:                                              ; preds = %start
@@ -5639,7 +5647,7 @@ bb1:                                              ; preds = %start
 
 bb2:                                              ; preds = %bb1
 ; call <core::ptr::non_null::NonNull<u8>>::new_unchecked
-  %_5 = call nonnull i8* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullhE13new_uncheckedCs37qxPUa7whq_20oneway_thread_access(i8* %ptr), !dbg !2820
+  %_5 = call nonnull i8* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullhE13new_uncheckedCsdT7u4N7w2iC_20stack_map_and_mutate(i8* %ptr), !dbg !2820
   br label %bb4, !dbg !2820
 
 bb3:                                              ; preds = %bb1
@@ -5658,7 +5666,7 @@ bb5:                                              ; preds = %bb3, %bb4
 
 ; <core::ptr::non_null::NonNull<u8>>::as_ptr
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal i8* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullhE6as_ptrCs37qxPUa7whq_20oneway_thread_access(i8* nonnull %self) unnamed_addr #1 !dbg !2824 {
+define internal i8* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullhE6as_ptrCsdT7u4N7w2iC_20stack_map_and_mutate(i8* nonnull %self) unnamed_addr #1 !dbg !2824 {
 start:
   %self.dbg.spill = alloca i8*, align 8
   store i8* %self, i8** %self.dbg.spill, align 8
@@ -5668,7 +5676,7 @@ start:
 
 ; <alloc::sync::Arc<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>>>::from_inner
 ; Function Attrs: nonlazybind uwtable
-define internal nonnull i64* @_RNvMs2_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtBL_6option6OptionINtNtBL_6result6ResultuINtNtB7_5boxed3BoxDNtNtBL_3any3AnyNtNtBL_6marker4SendEL_EEEEE10from_innerCs37qxPUa7whq_20oneway_thread_access(i64* nonnull %ptr) unnamed_addr #0 !dbg !2831 {
+define internal nonnull i64* @_RNvMs2_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtBL_6option6OptionINtNtBL_6result6ResultuINtNtB7_5boxed3BoxDNtNtBL_3any3AnyNtNtBL_6marker4SendEL_EEEEE10from_innerCsdT7u4N7w2iC_20stack_map_and_mutate(i64* nonnull %ptr) unnamed_addr #0 !dbg !2831 {
 start:
   %ptr.dbg.spill = alloca i64*, align 8
   %_3 = alloca %"std::marker::PhantomData<alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>>", align 1
@@ -5683,7 +5691,7 @@ start:
 
 ; <alloc::sync::Arc<std::sync::mutex::Mutex<alloc::vec::Vec<u8>>>>::from_inner
 ; Function Attrs: nonlazybind uwtable
-define internal nonnull i64* @_RNvMs2_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtB7_3vec3VechEEE10from_innerCs37qxPUa7whq_20oneway_thread_access(i64* nonnull %ptr) unnamed_addr #0 !dbg !2840 {
+define internal nonnull i64* @_RNvMs2_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtB7_3vec3VechEEE10from_innerCsdT7u4N7w2iC_20stack_map_and_mutate(i64* nonnull %ptr) unnamed_addr #0 !dbg !2840 {
 start:
   %ptr.dbg.spill = alloca i64*, align 8
   %_3 = alloca %"std::marker::PhantomData<alloc::sync::ArcInner<std::sync::Mutex<std::vec::Vec<u8>>>>", align 1
@@ -5698,7 +5706,7 @@ start:
 
 ; <alloc::sync::Arc<std::thread::Inner>>::from_inner
 ; Function Attrs: nonlazybind uwtable
-define internal nonnull i64* @_RNvMs2_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcNtNtCs2bNvlddUlXM_3std6thread5InnerE10from_innerCs37qxPUa7whq_20oneway_thread_access(i64* nonnull %ptr) unnamed_addr #0 !dbg !2848 {
+define internal nonnull i64* @_RNvMs2_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcNtNtCs2bNvlddUlXM_3std6thread5InnerE10from_innerCsdT7u4N7w2iC_20stack_map_and_mutate(i64* nonnull %ptr) unnamed_addr #0 !dbg !2848 {
 start:
   %ptr.dbg.spill = alloca i64*, align 8
   %_3 = alloca %"std::marker::PhantomData<alloc::sync::ArcInner<std::thread::Inner>>", align 1
@@ -5713,7 +5721,7 @@ start:
 
 ; <core::ptr::non_null::NonNull<[u8]>>::as_mut_ptr
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal i8* @_RNvMs2_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullShE10as_mut_ptrCs37qxPUa7whq_20oneway_thread_access(i8* nonnull %self.0, i64 %self.1) unnamed_addr #1 !dbg !2856 {
+define internal i8* @_RNvMs2_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullShE10as_mut_ptrCsdT7u4N7w2iC_20stack_map_and_mutate(i8* nonnull %self.0, i64 %self.1) unnamed_addr #1 !dbg !2856 {
 start:
   %self.dbg.spill = alloca { i8*, i64 }, align 8
   %0 = getelementptr inbounds { i8*, i64 }, { i8*, i64 }* %self.dbg.spill, i32 0, i32 0
@@ -5722,12 +5730,12 @@ start:
   store i64 %self.1, i64* %1, align 8
   call void @llvm.dbg.declare(metadata { i8*, i64 }* %self.dbg.spill, metadata !2860, metadata !DIExpression()), !dbg !2861
 ; call <core::ptr::non_null::NonNull<[u8]>>::as_non_null_ptr
-  %_2 = call nonnull i8* @_RNvMs2_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullShE15as_non_null_ptrCs37qxPUa7whq_20oneway_thread_access(i8* nonnull %self.0, i64 %self.1), !dbg !2862
+  %_2 = call nonnull i8* @_RNvMs2_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullShE15as_non_null_ptrCsdT7u4N7w2iC_20stack_map_and_mutate(i8* nonnull %self.0, i64 %self.1), !dbg !2862
   br label %bb1, !dbg !2862
 
 bb1:                                              ; preds = %start
 ; call <core::ptr::non_null::NonNull<u8>>::as_ptr
-  %2 = call i8* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullhE6as_ptrCs37qxPUa7whq_20oneway_thread_access(i8* nonnull %_2), !dbg !2862
+  %2 = call i8* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullhE6as_ptrCsdT7u4N7w2iC_20stack_map_and_mutate(i8* nonnull %_2), !dbg !2862
   br label %bb2, !dbg !2862
 
 bb2:                                              ; preds = %bb1
@@ -5736,7 +5744,7 @@ bb2:                                              ; preds = %bb1
 
 ; <core::ptr::non_null::NonNull<[u8]>>::as_non_null_ptr
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal nonnull i8* @_RNvMs2_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullShE15as_non_null_ptrCs37qxPUa7whq_20oneway_thread_access(i8* nonnull %self.0, i64 %self.1) unnamed_addr #1 !dbg !2864 {
+define internal nonnull i8* @_RNvMs2_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullShE15as_non_null_ptrCsdT7u4N7w2iC_20stack_map_and_mutate(i8* nonnull %self.0, i64 %self.1) unnamed_addr #1 !dbg !2864 {
 start:
   %self.dbg.spill = alloca { i8*, i64 }, align 8
   %0 = getelementptr inbounds { i8*, i64 }, { i8*, i64 }* %self.dbg.spill, i32 0, i32 0
@@ -5745,19 +5753,19 @@ start:
   store i64 %self.1, i64* %1, align 8
   call void @llvm.dbg.declare(metadata { i8*, i64 }* %self.dbg.spill, metadata !2868, metadata !DIExpression()), !dbg !2869
 ; call <core::ptr::non_null::NonNull<[u8]>>::as_ptr
-  %2 = call { [0 x i8]*, i64 } @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullShE6as_ptrCs37qxPUa7whq_20oneway_thread_access(i8* nonnull %self.0, i64 %self.1), !dbg !2870
+  %2 = call { [0 x i8]*, i64 } @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullShE6as_ptrCsdT7u4N7w2iC_20stack_map_and_mutate(i8* nonnull %self.0, i64 %self.1), !dbg !2870
   %_3.0 = extractvalue { [0 x i8]*, i64 } %2, 0, !dbg !2870
   %_3.1 = extractvalue { [0 x i8]*, i64 } %2, 1, !dbg !2870
   br label %bb1, !dbg !2870
 
 bb1:                                              ; preds = %start
 ; call <*mut [u8]>::as_mut_ptr
-  %_2 = call i8* @_RNvMs_NtNtCs3p84KrD9aKt_4core3ptr7mut_ptrOSh10as_mut_ptrCs37qxPUa7whq_20oneway_thread_access([0 x i8]* %_3.0, i64 %_3.1), !dbg !2870
+  %_2 = call i8* @_RNvMs_NtNtCs3p84KrD9aKt_4core3ptr7mut_ptrOSh10as_mut_ptrCsdT7u4N7w2iC_20stack_map_and_mutate([0 x i8]* %_3.0, i64 %_3.1), !dbg !2870
   br label %bb2, !dbg !2870
 
 bb2:                                              ; preds = %bb1
 ; call <core::ptr::non_null::NonNull<u8>>::new_unchecked
-  %3 = call nonnull i8* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullhE13new_uncheckedCs37qxPUa7whq_20oneway_thread_access(i8* %_2), !dbg !2871
+  %3 = call nonnull i8* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullhE13new_uncheckedCsdT7u4N7w2iC_20stack_map_and_mutate(i8* %_2), !dbg !2871
   br label %bb3, !dbg !2871
 
 bb3:                                              ; preds = %bb2
@@ -5766,7 +5774,7 @@ bb3:                                              ; preds = %bb2
 
 ; <core::ptr::non_null::NonNull<[u8]>>::slice_from_raw_parts
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal { i8*, i64 } @_RNvMs2_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullShE20slice_from_raw_partsCs37qxPUa7whq_20oneway_thread_access(i8* nonnull %data, i64 %len) unnamed_addr #1 !dbg !2873 {
+define internal { i8*, i64 } @_RNvMs2_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullShE20slice_from_raw_partsCsdT7u4N7w2iC_20stack_map_and_mutate(i8* nonnull %data, i64 %len) unnamed_addr #1 !dbg !2873 {
 start:
   %len.dbg.spill = alloca i64, align 8
   %data.dbg.spill = alloca i8*, align 8
@@ -5775,19 +5783,19 @@ start:
   store i64 %len, i64* %len.dbg.spill, align 8
   call void @llvm.dbg.declare(metadata i64* %len.dbg.spill, metadata !2878, metadata !DIExpression()), !dbg !2880
 ; call <core::ptr::non_null::NonNull<u8>>::as_ptr
-  %_4 = call i8* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullhE6as_ptrCs37qxPUa7whq_20oneway_thread_access(i8* nonnull %data), !dbg !2881
+  %_4 = call i8* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullhE6as_ptrCsdT7u4N7w2iC_20stack_map_and_mutate(i8* nonnull %data), !dbg !2881
   br label %bb1, !dbg !2881
 
 bb1:                                              ; preds = %start
 ; call core::ptr::slice_from_raw_parts_mut::<u8>
-  %0 = call { [0 x i8]*, i64 } @_RINvNtCs3p84KrD9aKt_4core3ptr24slice_from_raw_parts_muthECs37qxPUa7whq_20oneway_thread_access(i8* %_4, i64 %len), !dbg !2882
+  %0 = call { [0 x i8]*, i64 } @_RINvNtCs3p84KrD9aKt_4core3ptr24slice_from_raw_parts_muthECsdT7u4N7w2iC_20stack_map_and_mutate(i8* %_4, i64 %len), !dbg !2882
   %_3.0 = extractvalue { [0 x i8]*, i64 } %0, 0, !dbg !2882
   %_3.1 = extractvalue { [0 x i8]*, i64 } %0, 1, !dbg !2882
   br label %bb2, !dbg !2882
 
 bb2:                                              ; preds = %bb1
 ; call <core::ptr::non_null::NonNull<[u8]>>::new_unchecked
-  %1 = call { i8*, i64 } @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullShE13new_uncheckedCs37qxPUa7whq_20oneway_thread_access([0 x i8]* %_3.0, i64 %_3.1), !dbg !2883
+  %1 = call { i8*, i64 } @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullShE13new_uncheckedCsdT7u4N7w2iC_20stack_map_and_mutate([0 x i8]* %_3.0, i64 %_3.1), !dbg !2883
   %2 = extractvalue { i8*, i64 } %1, 0, !dbg !2883
   %3 = extractvalue { i8*, i64 } %1, 1, !dbg !2883
   br label %bb3, !dbg !2883
@@ -5800,7 +5808,7 @@ bb3:                                              ; preds = %bb2
 
 ; <core::result::Result<std::thread::JoinHandle<()>, std::io::error::Error>>::expect
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal void @_RNvMs3_NtCs3p84KrD9aKt_4core6resultINtB5_6ResultINtNtCs2bNvlddUlXM_3std6thread10JoinHandleuENtNtNtBP_2io5error5ErrorE6expectCs37qxPUa7whq_20oneway_thread_access(%"std::thread::JoinHandle<()>"* noalias nocapture sret dereferenceable(32) %t, %"std::result::Result<std::thread::JoinHandle<()>, std::io::Error>"* noalias nocapture dereferenceable(40) %self, [0 x i8]* noalias nonnull readonly align 1 %msg.0, i64 %msg.1, %"std::panic::Location"* noalias readonly align 8 dereferenceable(24) %0) unnamed_addr #1 personality i32 (i32, i32, i64, %"unwind::libunwind::_Unwind_Exception"*, %"unwind::libunwind::_Unwind_Context"*)* @rust_eh_personality !dbg !2885 {
+define internal void @_RNvMs3_NtCs3p84KrD9aKt_4core6resultINtB5_6ResultINtNtCs2bNvlddUlXM_3std6thread10JoinHandleuENtNtNtBP_2io5error5ErrorE6expectCsdT7u4N7w2iC_20stack_map_and_mutate(%"std::thread::JoinHandle<()>"* noalias nocapture sret dereferenceable(32) %t, %"std::result::Result<std::thread::JoinHandle<()>, std::io::Error>"* noalias nocapture dereferenceable(40) %self, [0 x i8]* noalias nonnull readonly align 1 %msg.0, i64 %msg.1, %"std::panic::Location"* noalias readonly align 8 dereferenceable(24) %0) unnamed_addr #1 personality i32 (i32, i32, i64, %"unwind::libunwind::_Unwind_Exception"*, %"unwind::libunwind::_Unwind_Context"*)* @rust_eh_personality !dbg !2885 {
 start:
   %1 = alloca { i8*, i32 }, align 8
   %msg.dbg.spill = alloca { [0 x i8]*, i64 }, align 8
@@ -5844,7 +5852,7 @@ bb3:                                              ; preds = %start
 
 bb4:                                              ; preds = %cleanup
 ; call core::ptr::drop_in_place::<std::io::error::Error>
-  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNtNtNtCs2bNvlddUlXM_3std2io5error5ErrorECs37qxPUa7whq_20oneway_thread_access(%"std::io::Error"* %e) #12, !dbg !2907
+  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNtNtNtCs2bNvlddUlXM_3std2io5error5ErrorECsdT7u4N7w2iC_20stack_map_and_mutate(%"std::io::Error"* %e) #13, !dbg !2907
   br label %bb5, !dbg !2907
 
 bb5:                                              ; preds = %bb4
@@ -5873,7 +5881,7 @@ cleanup:                                          ; preds = %bb1
 
 ; <std::thread::JoinInner<()>>::join
 ; Function Attrs: nonlazybind uwtable
-define internal { i8*, i8* } @_RNvMs4_NtCs2bNvlddUlXM_3std6threadINtB5_9JoinInneruE4joinCs37qxPUa7whq_20oneway_thread_access(%"std::thread::JoinInner<()>"* align 8 dereferenceable(32) %self) unnamed_addr #0 !dbg !2909 {
+define internal { i8*, i8* } @_RNvMs4_NtCs2bNvlddUlXM_3std6threadINtB5_9JoinInneruE4joinCsdT7u4N7w2iC_20stack_map_and_mutate(%"std::thread::JoinInner<()>"* align 8 dereferenceable(32) %self) unnamed_addr #0 !dbg !2909 {
 start:
   %self.dbg.spill = alloca %"std::thread::JoinInner<()>"*, align 8
   %_6 = alloca %"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>", align 8
@@ -5881,14 +5889,14 @@ start:
   call void @llvm.dbg.declare(metadata %"std::thread::JoinInner<()>"** %self.dbg.spill, metadata !2914, metadata !DIExpression()), !dbg !2915
   %_5 = bitcast %"std::thread::JoinInner<()>"* %self to { i64, i64 }*, !dbg !2916
 ; call <core::option::Option<std::sys::unix::thread::Thread>>::take
-  %0 = call { i64, i64 } @_RNvMNtCs3p84KrD9aKt_4core6optionINtB2_6OptionNtNtNtNtCs2bNvlddUlXM_3std3sys4unix6thread6ThreadE4takeCs37qxPUa7whq_20oneway_thread_access({ i64, i64 }* align 8 dereferenceable(16) %_5), !dbg !2916
+  %0 = call { i64, i64 } @_RNvMNtCs3p84KrD9aKt_4core6optionINtB2_6OptionNtNtNtNtCs2bNvlddUlXM_3std3sys4unix6thread6ThreadE4takeCsdT7u4N7w2iC_20stack_map_and_mutate({ i64, i64 }* align 8 dereferenceable(16) %_5), !dbg !2916
   %_4.0 = extractvalue { i64, i64 } %0, 0, !dbg !2916
   %_4.1 = extractvalue { i64, i64 } %0, 1, !dbg !2916
   br label %bb1, !dbg !2916
 
 bb1:                                              ; preds = %start
 ; call <core::option::Option<std::sys::unix::thread::Thread>>::unwrap
-  %_3 = call i64 @_RNvMNtCs3p84KrD9aKt_4core6optionINtB2_6OptionNtNtNtNtCs2bNvlddUlXM_3std3sys4unix6thread6ThreadE6unwrapCs37qxPUa7whq_20oneway_thread_access(i64 %_4.0, i64 %_4.1, %"std::panic::Location"* noalias readonly align 8 dereferenceable(24) bitcast (<{ i8*, [16 x i8] }>* @alloc55 to %"std::panic::Location"*)), !dbg !2916
+  %_3 = call i64 @_RNvMNtCs3p84KrD9aKt_4core6optionINtB2_6OptionNtNtNtNtCs2bNvlddUlXM_3std3sys4unix6thread6ThreadE6unwrapCsdT7u4N7w2iC_20stack_map_and_mutate(i64 %_4.0, i64 %_4.1, %"std::panic::Location"* noalias readonly align 8 dereferenceable(24) bitcast (<{ i8*, [16 x i8] }>* @alloc66 to %"std::panic::Location"*)), !dbg !2916
   br label %bb2, !dbg !2916
 
 bb2:                                              ; preds = %bb1
@@ -5899,22 +5907,22 @@ bb2:                                              ; preds = %bb1
 bb3:                                              ; preds = %bb2
   %_11 = getelementptr inbounds %"std::thread::JoinInner<()>", %"std::thread::JoinInner<()>"* %self, i32 0, i32 5, !dbg !2917
 ; call <alloc::sync::Arc<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>> as core::ops::deref::Deref>::deref
-  %_10 = call align 8 dereferenceable(24) %"std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>"* @_RNvXsl_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtBL_6option6OptionINtNtBL_6result6ResultuINtNtB7_5boxed3BoxDNtNtBL_3any3AnyNtNtBL_6marker4SendEL_EEEEENtNtNtBL_3ops5deref5Deref5derefCs37qxPUa7whq_20oneway_thread_access(i64** noalias readonly align 8 dereferenceable(8) %_11), !dbg !2917
+  %_10 = call align 8 dereferenceable(24) %"std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>"* @_RNvXsl_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtBL_6option6OptionINtNtBL_6result6ResultuINtNtB7_5boxed3BoxDNtNtBL_3any3AnyNtNtBL_6marker4SendEL_EEEEENtNtNtBL_3ops5deref5Deref5derefCsdT7u4N7w2iC_20stack_map_and_mutate(i64** noalias readonly align 8 dereferenceable(8) %_11), !dbg !2917
   br label %bb4, !dbg !2917
 
 bb4:                                              ; preds = %bb3
 ; call <core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>>::get
-  %_8 = call %"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"* @_RNvMsK_NtCs3p84KrD9aKt_4core4cellINtB5_10UnsafeCellINtNtB7_6option6OptionINtNtB7_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB7_3any3AnyNtNtB7_6marker4SendEL_EEEE3getCs37qxPUa7whq_20oneway_thread_access(%"std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>"* align 8 dereferenceable(24) %_10), !dbg !2917
+  %_8 = call %"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"* @_RNvMsK_NtCs3p84KrD9aKt_4core4cellINtB5_10UnsafeCellINtNtB7_6option6OptionINtNtB7_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB7_3any3AnyNtNtB7_6marker4SendEL_EEEE3getCsdT7u4N7w2iC_20stack_map_and_mutate(%"std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>"* align 8 dereferenceable(24) %_10), !dbg !2917
   br label %bb5, !dbg !2917
 
 bb5:                                              ; preds = %bb4
 ; call <core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>::take
-  call void @_RNvMNtCs3p84KrD9aKt_4core6optionINtB2_6OptionINtNtB4_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEE4takeCs37qxPUa7whq_20oneway_thread_access(%"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"* noalias nocapture sret dereferenceable(24) %_6, %"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"* align 8 dereferenceable(24) %_8), !dbg !2918
+  call void @_RNvMNtCs3p84KrD9aKt_4core6optionINtB2_6OptionINtNtB4_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEE4takeCsdT7u4N7w2iC_20stack_map_and_mutate(%"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"* noalias nocapture sret dereferenceable(24) %_6, %"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"* align 8 dereferenceable(24) %_8), !dbg !2918
   br label %bb6, !dbg !2918
 
 bb6:                                              ; preds = %bb5
 ; call <core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>::unwrap
-  %1 = call { i8*, i8* } @_RNvMNtCs3p84KrD9aKt_4core6optionINtB2_6OptionINtNtB4_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEE6unwrapCs37qxPUa7whq_20oneway_thread_access(%"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"* noalias nocapture dereferenceable(24) %_6, %"std::panic::Location"* noalias readonly align 8 dereferenceable(24) bitcast (<{ i8*, [16 x i8] }>* @alloc57 to %"std::panic::Location"*)), !dbg !2918
+  %1 = call { i8*, i8* } @_RNvMNtCs3p84KrD9aKt_4core6optionINtB2_6OptionINtNtB4_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEE6unwrapCsdT7u4N7w2iC_20stack_map_and_mutate(%"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"* noalias nocapture dereferenceable(24) %_6, %"std::panic::Location"* noalias readonly align 8 dereferenceable(24) bitcast (<{ i8*, [16 x i8] }>* @alloc68 to %"std::panic::Location"*)), !dbg !2918
   %2 = extractvalue { i8*, i8* } %1, 0, !dbg !2918
   %3 = extractvalue { i8*, i8* } %1, 1, !dbg !2918
   br label %bb7, !dbg !2918
@@ -5927,7 +5935,7 @@ bb7:                                              ; preds = %bb6
 
 ; <alloc::boxed::Box<alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>>>>::leak
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal align 8 dereferenceable(40) %"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"* @_RNvMs5_NtCs8RW06R9lH2S_5alloc5boxedINtB5_3BoxINtNtB7_4sync8ArcInnerINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtB18_6option6OptionINtNtB18_6result6ResultuIBy_DNtNtB18_3any3AnyNtNtB18_6marker4SendEL_EEEEEE4leakCs37qxPUa7whq_20oneway_thread_access(%"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"* noalias nonnull align 8 %b) unnamed_addr #1 !dbg !2920 {
+define internal align 8 dereferenceable(40) %"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"* @_RNvMs5_NtCs8RW06R9lH2S_5alloc5boxedINtB5_3BoxINtNtB7_4sync8ArcInnerINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtB18_6option6OptionINtNtB18_6result6ResultuIBy_DNtNtB18_3any3AnyNtNtB18_6marker4SendEL_EEEEEE4leakCsdT7u4N7w2iC_20stack_map_and_mutate(%"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"* noalias nonnull align 8 %b) unnamed_addr #1 !dbg !2920 {
 start:
   %self.dbg.spill.i = alloca i64**, align 8
   %value.dbg.spill.i = alloca %"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"*, align 8
@@ -5954,7 +5962,7 @@ bb2:                                              ; preds = %bb1
   %4 = bitcast %"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"** %3 to i64**, !dbg !2945
   %_6 = load i64*, i64** %4, align 8, !dbg !2945, !nonnull !4
 ; call <core::ptr::unique::Unique<alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>>>>::as_ptr
-  %_5 = call %"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtB9_4cell10UnsafeCellINtNtB9_6option6OptionINtNtB9_6result6ResultuINtNtBV_5boxed3BoxDNtNtB9_3any3AnyNtNtB9_6marker4SendEL_EEEEEE6as_ptrCs37qxPUa7whq_20oneway_thread_access(i64* nonnull %_6), !dbg !2945
+  %_5 = call %"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtB9_4cell10UnsafeCellINtNtB9_6option6OptionINtNtB9_6result6ResultuINtNtBV_5boxed3BoxDNtNtB9_3any3AnyNtNtB9_6marker4SendEL_EEEEEE6as_ptrCsdT7u4N7w2iC_20stack_map_and_mutate(i64* nonnull %_6), !dbg !2945
   br label %bb3, !dbg !2945
 
 bb3:                                              ; preds = %bb2
@@ -5963,20 +5971,20 @@ bb3:                                              ; preds = %bb2
 
 ; <std::thread::JoinHandle<()>>::join
 ; Function Attrs: nonlazybind uwtable
-define internal { i8*, i8* } @_RNvMs7_NtCs2bNvlddUlXM_3std6threadINtB5_10JoinHandleuE4joinCs37qxPUa7whq_20oneway_thread_access(%"std::thread::JoinHandle<()>"* noalias nocapture dereferenceable(32) %self) unnamed_addr #0 personality i32 (i32, i32, i64, %"unwind::libunwind::_Unwind_Exception"*, %"unwind::libunwind::_Unwind_Context"*)* @rust_eh_personality !dbg !2961 {
+define internal { i8*, i8* } @_RNvMs7_NtCs2bNvlddUlXM_3std6threadINtB5_10JoinHandleuE4joinCsdT7u4N7w2iC_20stack_map_and_mutate(%"std::thread::JoinHandle<()>"* noalias nocapture dereferenceable(32) %self) unnamed_addr #0 personality i32 (i32, i32, i64, %"unwind::libunwind::_Unwind_Exception"*, %"unwind::libunwind::_Unwind_Context"*)* @rust_eh_personality !dbg !2961 {
 start:
   %0 = alloca { i8*, i32 }, align 8
   %1 = alloca { i8*, i8* }, align 8
   call void @llvm.dbg.declare(metadata %"std::thread::JoinHandle<()>"* %self, metadata !2965, metadata !DIExpression()), !dbg !2966
   %_2 = bitcast %"std::thread::JoinHandle<()>"* %self to %"std::thread::JoinInner<()>"*, !dbg !2967
 ; invoke <std::thread::JoinInner<()>>::join
-  %2 = invoke { i8*, i8* } @_RNvMs4_NtCs2bNvlddUlXM_3std6threadINtB5_9JoinInneruE4joinCs37qxPUa7whq_20oneway_thread_access(%"std::thread::JoinInner<()>"* align 8 dereferenceable(32) %_2)
+  %2 = invoke { i8*, i8* } @_RNvMs4_NtCs2bNvlddUlXM_3std6threadINtB5_9JoinInneruE4joinCsdT7u4N7w2iC_20stack_map_and_mutate(%"std::thread::JoinInner<()>"* align 8 dereferenceable(32) %_2)
           to label %bb1 unwind label %cleanup, !dbg !2967
 
 bb1:                                              ; preds = %start
   store { i8*, i8* } %2, { i8*, i8* }* %1, align 8, !dbg !2967
 ; invoke core::ptr::drop_in_place::<std::thread::JoinHandle<()>>
-  invoke void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs2bNvlddUlXM_3std6thread10JoinHandleuEECs37qxPUa7whq_20oneway_thread_access(%"std::thread::JoinHandle<()>"* %self)
+  invoke void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs2bNvlddUlXM_3std6thread10JoinHandleuEECsdT7u4N7w2iC_20stack_map_and_mutate(%"std::thread::JoinHandle<()>"* %self)
           to label %bb2 unwind label %cleanup1, !dbg !2968
 
 bb2:                                              ; preds = %bb1
@@ -5990,12 +5998,12 @@ bb2:                                              ; preds = %bb1
 
 bb3:                                              ; preds = %cleanup1
 ; call core::ptr::drop_in_place::<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>
-  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEECs37qxPUa7whq_20oneway_thread_access({ i8*, i8* }* %1) #12, !dbg !2968
+  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEECsdT7u4N7w2iC_20stack_map_and_mutate({ i8*, i8* }* %1) #13, !dbg !2968
   br label %bb5, !dbg !2968
 
 bb4:                                              ; preds = %cleanup
 ; call core::ptr::drop_in_place::<std::thread::JoinHandle<()>>
-  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs2bNvlddUlXM_3std6thread10JoinHandleuEECs37qxPUa7whq_20oneway_thread_access(%"std::thread::JoinHandle<()>"* %self) #12, !dbg !2968
+  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs2bNvlddUlXM_3std6thread10JoinHandleuEECsdT7u4N7w2iC_20stack_map_and_mutate(%"std::thread::JoinHandle<()>"* %self) #13, !dbg !2968
   br label %bb5, !dbg !2968
 
 bb5:                                              ; preds = %bb3, %bb4
@@ -6032,7 +6040,7 @@ cleanup1:                                         ; preds = %bb1
 
 ; <std::sys::unix::process::process_common::ExitCode>::as_i32
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal i32 @_RNvMs7_NtNtNtNtCs2bNvlddUlXM_3std3sys4unix7process14process_commonNtB5_8ExitCode6as_i32Cs37qxPUa7whq_20oneway_thread_access(i8* noalias readonly align 1 dereferenceable(1) %self) unnamed_addr #1 !dbg !2971 {
+define internal i32 @_RNvMs7_NtNtNtNtCs2bNvlddUlXM_3std3sys4unix7process14process_commonNtB5_8ExitCode6as_i32CsdT7u4N7w2iC_20stack_map_and_mutate(i8* noalias readonly align 1 dereferenceable(1) %self) unnamed_addr #1 !dbg !2971 {
 start:
   %self.dbg.spill = alloca i8*, align 8
   store i8* %self, i8** %self.dbg.spill, align 8
@@ -6044,7 +6052,7 @@ start:
 
 ; <core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>>::new
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal void @_RNvMsJ_NtCs3p84KrD9aKt_4core4cellINtB5_10UnsafeCellINtNtB7_6option6OptionINtNtB7_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB7_3any3AnyNtNtB7_6marker4SendEL_EEEE3newCs37qxPUa7whq_20oneway_thread_access(%"std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>"* noalias nocapture sret dereferenceable(24) %0, %"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"* noalias nocapture dereferenceable(24) %value) unnamed_addr #1 !dbg !2986 {
+define internal void @_RNvMsJ_NtCs3p84KrD9aKt_4core4cellINtB5_10UnsafeCellINtNtB7_6option6OptionINtNtB7_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB7_3any3AnyNtNtB7_6marker4SendEL_EEEE3newCsdT7u4N7w2iC_20stack_map_and_mutate(%"std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>"* noalias nocapture sret dereferenceable(24) %0, %"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"* noalias nocapture dereferenceable(24) %value) unnamed_addr #1 !dbg !2986 {
 start:
   %_2 = alloca %"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>", align 8
   call void @llvm.dbg.declare(metadata %"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"* %value, metadata !2991, metadata !DIExpression()), !dbg !2992
@@ -6060,7 +6068,7 @@ start:
 
 ; <core::cell::UnsafeCell<usize>>::new
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal i64 @_RNvMsJ_NtCs3p84KrD9aKt_4core4cellINtB5_10UnsafeCelljE3newCs37qxPUa7whq_20oneway_thread_access(i64 %value) unnamed_addr #1 !dbg !2996 {
+define internal i64 @_RNvMsJ_NtCs3p84KrD9aKt_4core4cellINtB5_10UnsafeCelljE3newCsdT7u4N7w2iC_20stack_map_and_mutate(i64 %value) unnamed_addr #1 !dbg !2996 {
 start:
   %value.dbg.spill = alloca i64, align 8
   %0 = alloca i64, align 8
@@ -6073,7 +6081,7 @@ start:
 
 ; <core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>>::get
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal %"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"* @_RNvMsK_NtCs3p84KrD9aKt_4core4cellINtB5_10UnsafeCellINtNtB7_6option6OptionINtNtB7_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB7_3any3AnyNtNtB7_6marker4SendEL_EEEE3getCs37qxPUa7whq_20oneway_thread_access(%"std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>"* align 8 dereferenceable(24) %self) unnamed_addr #1 !dbg !3004 {
+define internal %"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"* @_RNvMsK_NtCs3p84KrD9aKt_4core4cellINtB5_10UnsafeCellINtNtB7_6option6OptionINtNtB7_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB7_3any3AnyNtNtB7_6marker4SendEL_EEEE3getCsdT7u4N7w2iC_20stack_map_and_mutate(%"std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>"* align 8 dereferenceable(24) %self) unnamed_addr #1 !dbg !3004 {
 start:
   %self.dbg.spill = alloca %"std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>"*, align 8
   store %"std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>"* %self, %"std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>"** %self.dbg.spill, align 8
@@ -6084,7 +6092,7 @@ start:
 
 ; <core::cell::UnsafeCell<usize>>::get
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal i64* @_RNvMsK_NtCs3p84KrD9aKt_4core4cellINtB5_10UnsafeCelljE3getCs37qxPUa7whq_20oneway_thread_access(i64* align 8 dereferenceable(8) %self) unnamed_addr #1 !dbg !3013 {
+define internal i64* @_RNvMsK_NtCs3p84KrD9aKt_4core4cellINtB5_10UnsafeCelljE3getCsdT7u4N7w2iC_20stack_map_and_mutate(i64* align 8 dereferenceable(8) %self) unnamed_addr #1 !dbg !3013 {
 start:
   %self.dbg.spill = alloca i64*, align 8
   store i64* %self, i64** %self.dbg.spill, align 8
@@ -6094,7 +6102,7 @@ start:
 
 ; <alloc::vec::Vec<u8>>::as_mut_ptr
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal i8* @_RNvMs_NtCs8RW06R9lH2S_5alloc3vecINtB4_3VechE10as_mut_ptrCs37qxPUa7whq_20oneway_thread_access(%"std::vec::Vec<u8>"* align 8 dereferenceable(24) %self) unnamed_addr #1 !dbg !3021 {
+define internal i8* @_RNvMs_NtCs8RW06R9lH2S_5alloc3vecINtB4_3VechE10as_mut_ptrCsdT7u4N7w2iC_20stack_map_and_mutate(%"std::vec::Vec<u8>"* align 8 dereferenceable(24) %self) unnamed_addr #1 !dbg !3021 {
 start:
   %ptr.dbg.spill = alloca i8*, align 8
   %self.dbg.spill = alloca %"std::vec::Vec<u8>"*, align 8
@@ -6102,14 +6110,14 @@ start:
   call void @llvm.dbg.declare(metadata %"std::vec::Vec<u8>"** %self.dbg.spill, metadata !3027, metadata !DIExpression()), !dbg !3030
   %_2 = bitcast %"std::vec::Vec<u8>"* %self to { i8*, i64 }*, !dbg !3031
 ; call <alloc::raw_vec::RawVec<u8>>::ptr
-  %ptr = call i8* @_RNvMs_NtCs8RW06R9lH2S_5alloc7raw_vecINtB4_6RawVechE3ptrCs37qxPUa7whq_20oneway_thread_access({ i8*, i64 }* noalias readonly align 8 dereferenceable(16) %_2), !dbg !3031
+  %ptr = call i8* @_RNvMs_NtCs8RW06R9lH2S_5alloc7raw_vecINtB4_6RawVechE3ptrCsdT7u4N7w2iC_20stack_map_and_mutate({ i8*, i64 }* noalias readonly align 8 dereferenceable(16) %_2), !dbg !3031
   store i8* %ptr, i8** %ptr.dbg.spill, align 8, !dbg !3031
   call void @llvm.dbg.declare(metadata i8** %ptr.dbg.spill, metadata !3028, metadata !DIExpression()), !dbg !3032
   br label %bb1, !dbg !3031
 
 bb1:                                              ; preds = %start
 ; call <*mut u8>::is_null
-  %_5 = call zeroext i1 @_RNvMNtNtCs3p84KrD9aKt_4core3ptr7mut_ptrOh7is_nullCs37qxPUa7whq_20oneway_thread_access(i8* %ptr), !dbg !3033
+  %_5 = call zeroext i1 @_RNvMNtNtCs3p84KrD9aKt_4core3ptr7mut_ptrOh7is_nullCsdT7u4N7w2iC_20stack_map_and_mutate(i8* %ptr), !dbg !3033
   br label %bb2, !dbg !3033
 
 bb2:                                              ; preds = %bb1
@@ -6123,7 +6131,7 @@ bb3:                                              ; preds = %bb2
 
 ; <alloc::raw_vec::RawVec<u8>>::current_memory
 ; Function Attrs: nonlazybind uwtable
-define internal void @_RNvMs_NtCs8RW06R9lH2S_5alloc7raw_vecINtB4_6RawVechE14current_memoryCs37qxPUa7whq_20oneway_thread_access(%"std::option::Option<(std::ptr::NonNull<u8>, std::alloc::Layout)>"* noalias nocapture sret dereferenceable(24) %0, { i8*, i64 }* noalias readonly align 8 dereferenceable(16) %self) unnamed_addr #0 !dbg !3037 {
+define internal void @_RNvMs_NtCs8RW06R9lH2S_5alloc7raw_vecINtB4_6RawVechE14current_memoryCsdT7u4N7w2iC_20stack_map_and_mutate(%"std::option::Option<(std::ptr::NonNull<u8>, std::alloc::Layout)>"* noalias nocapture sret dereferenceable(24) %0, { i8*, i64 }* noalias readonly align 8 dereferenceable(16) %self) unnamed_addr #0 !dbg !3037 {
 start:
   %1 = alloca i64, align 8
   %layout.dbg.spill = alloca { i64, i64 }, align 8
@@ -6181,7 +6189,7 @@ bb9:                                              ; preds = %bb8
   store i64 %size, i64* %size.dbg.spill, align 8, !dbg !3076
   call void @llvm.dbg.declare(metadata i64* %size.dbg.spill, metadata !3062, metadata !DIExpression()), !dbg !3078
 ; call <core::alloc::layout::Layout>::from_size_align_unchecked
-  %10 = call { i64, i64 } @_RNvMNtNtCs3p84KrD9aKt_4core5alloc6layoutNtB2_6Layout25from_size_align_uncheckedCs37qxPUa7whq_20oneway_thread_access(i64 %size, i64 %8), !dbg !3079
+  %10 = call { i64, i64 } @_RNvMNtNtCs3p84KrD9aKt_4core5alloc6layoutNtB2_6Layout25from_size_align_uncheckedCsdT7u4N7w2iC_20stack_map_and_mutate(i64 %size, i64 %8), !dbg !3079
   %layout.0 = extractvalue { i64, i64 } %10, 0, !dbg !3079
   %layout.1 = extractvalue { i64, i64 } %10, 1, !dbg !3079
   %11 = getelementptr inbounds { i64, i64 }, { i64, i64 }* %layout.dbg.spill, i32 0, i32 0, !dbg !3079
@@ -6195,12 +6203,12 @@ bb10:                                             ; preds = %bb9
   %13 = bitcast { i8*, i64 }* %self to i8**, !dbg !3081
   %_15 = load i8*, i8** %13, align 8, !dbg !3081, !nonnull !4
 ; call <core::ptr::unique::Unique<u8>>::cast::<u8>
-  %_14 = call nonnull i8* @_RINvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB6_6UniquehE4casthECs37qxPUa7whq_20oneway_thread_access(i8* nonnull %_15), !dbg !3081
+  %_14 = call nonnull i8* @_RINvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB6_6UniquehE4casthECsdT7u4N7w2iC_20stack_map_and_mutate(i8* nonnull %_15), !dbg !3081
   br label %bb11, !dbg !3081
 
 bb11:                                             ; preds = %bb10
 ; call <core::ptr::unique::Unique<u8> as core::convert::Into<core::ptr::non_null::NonNull<u8>>>::into
-  %_13 = call nonnull i8* @_RNvXs1_NtCs3p84KrD9aKt_4core7convertINtNtNtB7_3ptr6unique6UniquehEINtB5_4IntoINtNtBD_8non_null7NonNullhEE4intoCs37qxPUa7whq_20oneway_thread_access(i8* nonnull %_14), !dbg !3081
+  %_13 = call nonnull i8* @_RNvXs1_NtCs3p84KrD9aKt_4core7convertINtNtNtB7_3ptr6unique6UniquehEINtB5_4IntoINtNtBD_8non_null7NonNullhEE4intoCsdT7u4N7w2iC_20stack_map_and_mutate(i8* nonnull %_14), !dbg !3081
   br label %bb12, !dbg !3081
 
 bb12:                                             ; preds = %bb11
@@ -6224,7 +6232,7 @@ bb13:                                             ; preds = %bb12, %bb6
 
 ; <alloc::raw_vec::RawVec<u8>>::ptr
 ; Function Attrs: nonlazybind uwtable
-define internal i8* @_RNvMs_NtCs8RW06R9lH2S_5alloc7raw_vecINtB4_6RawVechE3ptrCs37qxPUa7whq_20oneway_thread_access({ i8*, i64 }* noalias readonly align 8 dereferenceable(16) %self) unnamed_addr #0 !dbg !3085 {
+define internal i8* @_RNvMs_NtCs8RW06R9lH2S_5alloc7raw_vecINtB4_6RawVechE3ptrCsdT7u4N7w2iC_20stack_map_and_mutate({ i8*, i64 }* noalias readonly align 8 dereferenceable(16) %self) unnamed_addr #0 !dbg !3085 {
 start:
   %self.dbg.spill = alloca { i8*, i64 }*, align 8
   store { i8*, i64 }* %self, { i8*, i64 }** %self.dbg.spill, align 8
@@ -6232,7 +6240,7 @@ start:
   %0 = bitcast { i8*, i64 }* %self to i8**, !dbg !3091
   %_2 = load i8*, i8** %0, align 8, !dbg !3091, !nonnull !4
 ; call <core::ptr::unique::Unique<u8>>::as_ptr
-  %1 = call i8* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniquehE6as_ptrCs37qxPUa7whq_20oneway_thread_access(i8* nonnull %_2), !dbg !3091
+  %1 = call i8* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniquehE6as_ptrCsdT7u4N7w2iC_20stack_map_and_mutate(i8* nonnull %_2), !dbg !3091
   br label %bb1, !dbg !3091
 
 bb1:                                              ; preds = %start
@@ -6241,7 +6249,7 @@ bb1:                                              ; preds = %start
 
 ; <*mut [u8]>::as_mut_ptr
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal i8* @_RNvMs_NtNtCs3p84KrD9aKt_4core3ptr7mut_ptrOSh10as_mut_ptrCs37qxPUa7whq_20oneway_thread_access([0 x i8]* %self.0, i64 %self.1) unnamed_addr #1 !dbg !3093 {
+define internal i8* @_RNvMs_NtNtCs3p84KrD9aKt_4core3ptr7mut_ptrOSh10as_mut_ptrCsdT7u4N7w2iC_20stack_map_and_mutate([0 x i8]* %self.0, i64 %self.1) unnamed_addr #1 !dbg !3093 {
 start:
   %self.dbg.spill = alloca { [0 x i8]*, i64 }, align 8
   %0 = getelementptr inbounds { [0 x i8]*, i64 }, { [0 x i8]*, i64 }* %self.dbg.spill, i32 0, i32 0
@@ -6255,7 +6263,7 @@ start:
 
 ; <alloc::sync::Arc<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>>>::new
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal nonnull i64* @_RNvMsa_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtBL_6option6OptionINtNtBL_6result6ResultuINtNtB7_5boxed3BoxDNtNtBL_3any3AnyNtNtBL_6marker4SendEL_EEEEE3newCs37qxPUa7whq_20oneway_thread_access(%"std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>"* noalias nocapture dereferenceable(24) %data) unnamed_addr #1 personality i32 (i32, i32, i64, %"unwind::libunwind::_Unwind_Exception"*, %"unwind::libunwind::_Unwind_Context"*)* @rust_eh_personality !dbg !3101 {
+define internal nonnull i64* @_RNvMsa_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtBL_6option6OptionINtNtBL_6result6ResultuINtNtB7_5boxed3BoxDNtNtBL_3any3AnyNtNtBL_6marker4SendEL_EEEEE3newCsdT7u4N7w2iC_20stack_map_and_mutate(%"std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>"* noalias nocapture dereferenceable(24) %data) unnamed_addr #1 personality i32 (i32, i32, i64, %"unwind::libunwind::_Unwind_Exception"*, %"unwind::libunwind::_Unwind_Context"*)* @rust_eh_personality !dbg !3101 {
 start:
   %x.dbg.spill = alloca %"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"*, align 8
   %0 = alloca i64, align 8
@@ -6270,11 +6278,11 @@ start:
   store i8 0, i8* %_11, align 1, !dbg !3109
   store i8 1, i8* %_11, align 1, !dbg !3109
 ; call alloc::alloc::exchange_malloc
-  %3 = call i8* @_RNvNtCs8RW06R9lH2S_5alloc5alloc15exchange_mallocCs37qxPUa7whq_20oneway_thread_access(i64 40, i64 8), !dbg !3110
+  %3 = call i8* @_RNvNtCs8RW06R9lH2S_5alloc5alloc15exchange_mallocCsdT7u4N7w2iC_20stack_map_and_mutate(i64 40, i64 8), !dbg !3110
   %4 = bitcast i8* %3 to %"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"*, !dbg !3110
   store %"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"* %4, %"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"** %_3, align 8, !dbg !3110
 ; invoke <core::sync::atomic::AtomicUsize>::new
-  %5 = invoke i64 @_RNvMs15_NtNtCs3p84KrD9aKt_4core4sync6atomicNtB6_11AtomicUsize3newCs37qxPUa7whq_20oneway_thread_access(i64 1)
+  %5 = invoke i64 @_RNvMs15_NtNtCs3p84KrD9aKt_4core4sync6atomicNtB6_11AtomicUsize3newCsdT7u4N7w2iC_20stack_map_and_mutate(i64 1)
           to label %bb1 unwind label %cleanup, !dbg !3111
 
 bb1:                                              ; preds = %start
@@ -6283,7 +6291,7 @@ bb1:                                              ; preds = %start
   %7 = bitcast i64* %1 to i8*, !dbg !3111
   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 8 %6, i8* align 8 %7, i64 8, i1 false), !dbg !3111
 ; invoke <core::sync::atomic::AtomicUsize>::new
-  %8 = invoke i64 @_RNvMs15_NtNtCs3p84KrD9aKt_4core4sync6atomicNtB6_11AtomicUsize3newCs37qxPUa7whq_20oneway_thread_access(i64 1)
+  %8 = invoke i64 @_RNvMs15_NtNtCs3p84KrD9aKt_4core4sync6atomicNtB6_11AtomicUsize3newCsdT7u4N7w2iC_20stack_map_and_mutate(i64 1)
           to label %bb2 unwind label %cleanup, !dbg !3112
 
 bb2:                                              ; preds = %bb1
@@ -6314,17 +6322,17 @@ bb2:                                              ; preds = %bb1
   store %"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"* %x, %"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"** %x.dbg.spill, align 8, !dbg !3110
   call void @llvm.dbg.declare(metadata %"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"** %x.dbg.spill, metadata !3106, metadata !DIExpression()), !dbg !3115
 ; invoke <alloc::boxed::Box<alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>>>>::leak
-  %_9 = invoke align 8 dereferenceable(40) %"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"* @_RNvMs5_NtCs8RW06R9lH2S_5alloc5boxedINtB5_3BoxINtNtB7_4sync8ArcInnerINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtB18_6option6OptionINtNtB18_6result6ResultuIBy_DNtNtB18_3any3AnyNtNtB18_6marker4SendEL_EEEEEE4leakCs37qxPUa7whq_20oneway_thread_access(%"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"* noalias nonnull align 8 %x)
+  %_9 = invoke align 8 dereferenceable(40) %"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"* @_RNvMs5_NtCs8RW06R9lH2S_5alloc5boxedINtB5_3BoxINtNtB7_4sync8ArcInnerINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtB18_6option6OptionINtNtB18_6result6ResultuIBy_DNtNtB18_3any3AnyNtNtB18_6marker4SendEL_EEEEEE4leakCsdT7u4N7w2iC_20stack_map_and_mutate(%"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"* noalias nonnull align 8 %x)
           to label %bb3 unwind label %cleanup1, !dbg !3116
 
 bb3:                                              ; preds = %bb2
 ; invoke <&mut alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>> as core::convert::Into<core::ptr::non_null::NonNull<alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>>>>>::into
-  %_7 = invoke nonnull i64* @_RNvXs1_NtCs3p84KrD9aKt_4core7convertQINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtB7_4cell10UnsafeCellINtNtB7_6option6OptionINtNtB7_6result6ResultuINtNtBE_5boxed3BoxDNtNtB7_3any3AnyNtNtB7_6marker4SendEL_EEEEEINtB5_4IntoINtNtNtB7_3ptr8non_null7NonNullBz_EE4intoCs37qxPUa7whq_20oneway_thread_access(%"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"* align 8 dereferenceable(40) %_9)
+  %_7 = invoke nonnull i64* @_RNvXs1_NtCs3p84KrD9aKt_4core7convertQINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtB7_4cell10UnsafeCellINtNtB7_6option6OptionINtNtB7_6result6ResultuINtNtBE_5boxed3BoxDNtNtB7_3any3AnyNtNtB7_6marker4SendEL_EEEEEINtB5_4IntoINtNtNtB7_3ptr8non_null7NonNullBz_EE4intoCsdT7u4N7w2iC_20stack_map_and_mutate(%"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"* align 8 dereferenceable(40) %_9)
           to label %bb4 unwind label %cleanup1, !dbg !3116
 
 bb4:                                              ; preds = %bb3
 ; invoke <alloc::sync::Arc<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>>>::from_inner
-  %25 = invoke nonnull i64* @_RNvMs2_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtBL_6option6OptionINtNtBL_6result6ResultuINtNtB7_5boxed3BoxDNtNtBL_3any3AnyNtNtBL_6marker4SendEL_EEEEE10from_innerCs37qxPUa7whq_20oneway_thread_access(i64* nonnull %_7)
+  %25 = invoke nonnull i64* @_RNvMs2_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtBL_6option6OptionINtNtBL_6result6ResultuINtNtB7_5boxed3BoxDNtNtBL_3any3AnyNtNtBL_6marker4SendEL_EEEEE10from_innerCsdT7u4N7w2iC_20stack_map_and_mutate(i64* nonnull %_7)
           to label %bb5 unwind label %cleanup1, !dbg !3117
 
 bb5:                                              ; preds = %bb4
@@ -6343,12 +6351,12 @@ bb7:                                              ; preds = %cleanup
   %32 = bitcast %"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"** %_3 to i64**, !dbg !3120
   %33 = load i64*, i64** %32, align 8, !dbg !3120, !nonnull !4
 ; call alloc::alloc::box_free::<alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>>, alloc::alloc::Global>
-  call void @_RINvNtCs8RW06R9lH2S_5alloc5alloc8box_freeINtNtB4_4sync8ArcInnerINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtB14_6option6OptionINtNtB14_6result6ResultuINtNtB4_5boxed3BoxDNtNtB14_3any3AnyNtNtB14_6marker4SendEL_EEEEENtB2_6GlobalECs37qxPUa7whq_20oneway_thread_access(i64* nonnull %33) #12, !dbg !3120
+  call void @_RINvNtCs8RW06R9lH2S_5alloc5alloc8box_freeINtNtB4_4sync8ArcInnerINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtB14_6option6OptionINtNtB14_6result6ResultuINtNtB4_5boxed3BoxDNtNtB14_3any3AnyNtNtB14_6marker4SendEL_EEEEENtB2_6GlobalECsdT7u4N7w2iC_20stack_map_and_mutate(i64* nonnull %33) #13, !dbg !3120
   br label %bb9, !dbg !3120
 
 bb8:                                              ; preds = %bb9
 ; call core::ptr::drop_in_place::<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>>
-  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_4cell10UnsafeCellINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEEECs37qxPUa7whq_20oneway_thread_access(%"std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>"* %data) #12, !dbg !3121
+  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_4cell10UnsafeCellINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEEECsdT7u4N7w2iC_20stack_map_and_mutate(%"std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>"* %data) #13, !dbg !3121
   br label %bb6, !dbg !3121
 
 bb9:                                              ; preds = %cleanup1, %bb7
@@ -6381,13 +6389,13 @@ cleanup1:                                         ; preds = %bb4, %bb3, %bb2
 
 ; <alloc::sync::Arc<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>>>::inner
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal align 8 dereferenceable(40) %"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"* @_RNvMse_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtBL_6option6OptionINtNtBL_6result6ResultuINtNtB7_5boxed3BoxDNtNtBL_3any3AnyNtNtBL_6marker4SendEL_EEEEE5innerCs37qxPUa7whq_20oneway_thread_access(i64** noalias readonly align 8 dereferenceable(8) %self) unnamed_addr #1 !dbg !3122 {
+define internal align 8 dereferenceable(40) %"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"* @_RNvMse_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtBL_6option6OptionINtNtBL_6result6ResultuINtNtB7_5boxed3BoxDNtNtBL_3any3AnyNtNtBL_6marker4SendEL_EEEEE5innerCsdT7u4N7w2iC_20stack_map_and_mutate(i64** noalias readonly align 8 dereferenceable(8) %self) unnamed_addr #1 !dbg !3122 {
 start:
   %self.dbg.spill = alloca i64**, align 8
   store i64** %self, i64*** %self.dbg.spill, align 8
   call void @llvm.dbg.declare(metadata i64*** %self.dbg.spill, metadata !3127, metadata !DIExpression()), !dbg !3128
 ; call <core::ptr::non_null::NonNull<alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>>>>::as_ref
-  %0 = call align 8 dereferenceable(40) %"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtB9_4cell10UnsafeCellINtNtB9_6option6OptionINtNtB9_6result6ResultuINtNtBY_5boxed3BoxDNtNtB9_3any3AnyNtNtB9_6marker4SendEL_EEEEEE6as_refCs37qxPUa7whq_20oneway_thread_access(i64** noalias readonly align 8 dereferenceable(8) %self), !dbg !3129
+  %0 = call align 8 dereferenceable(40) %"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtB9_4cell10UnsafeCellINtNtB9_6option6OptionINtNtB9_6result6ResultuINtNtBY_5boxed3BoxDNtNtB9_3any3AnyNtNtB9_6marker4SendEL_EEEEEE6as_refCsdT7u4N7w2iC_20stack_map_and_mutate(i64** noalias readonly align 8 dereferenceable(8) %self), !dbg !3129
   br label %bb1, !dbg !3129
 
 bb1:                                              ; preds = %start
@@ -6396,19 +6404,19 @@ bb1:                                              ; preds = %start
 
 ; <alloc::sync::Arc<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>>>::drop_slow
 ; Function Attrs: noinline nonlazybind uwtable
-define internal void @_RNvMse_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtBL_6option6OptionINtNtBL_6result6ResultuINtNtB7_5boxed3BoxDNtNtBL_3any3AnyNtNtBL_6marker4SendEL_EEEEE9drop_slowCs37qxPUa7whq_20oneway_thread_access(i64** align 8 dereferenceable(8) %self) unnamed_addr #2 !dbg !3131 {
+define internal void @_RNvMse_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtBL_6option6OptionINtNtBL_6result6ResultuINtNtB7_5boxed3BoxDNtNtBL_3any3AnyNtNtBL_6marker4SendEL_EEEEE9drop_slowCsdT7u4N7w2iC_20stack_map_and_mutate(i64** align 8 dereferenceable(8) %self) unnamed_addr #2 !dbg !3131 {
 start:
   %self.dbg.spill = alloca i64**, align 8
   %_7 = alloca i64*, align 8
   store i64** %self, i64*** %self.dbg.spill, align 8
   call void @llvm.dbg.declare(metadata i64*** %self.dbg.spill, metadata !3136, metadata !DIExpression()), !dbg !3137
 ; call <alloc::sync::Arc<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>>>::get_mut_unchecked
-  %_4 = call align 8 dereferenceable(24) %"std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>"* @_RNvMso_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtBL_6option6OptionINtNtBL_6result6ResultuINtNtB7_5boxed3BoxDNtNtBL_3any3AnyNtNtBL_6marker4SendEL_EEEEE17get_mut_uncheckedCs37qxPUa7whq_20oneway_thread_access(i64** align 8 dereferenceable(8) %self), !dbg !3138
+  %_4 = call align 8 dereferenceable(24) %"std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>"* @_RNvMso_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtBL_6option6OptionINtNtBL_6result6ResultuINtNtB7_5boxed3BoxDNtNtBL_3any3AnyNtNtBL_6marker4SendEL_EEEEE17get_mut_uncheckedCsdT7u4N7w2iC_20stack_map_and_mutate(i64** align 8 dereferenceable(8) %self), !dbg !3138
   br label %bb1, !dbg !3138
 
 bb1:                                              ; preds = %start
 ; call core::ptr::drop_in_place::<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>>
-  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_4cell10UnsafeCellINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEEECs37qxPUa7whq_20oneway_thread_access(%"std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>"* %_4), !dbg !3139
+  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_4cell10UnsafeCellINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEEECsdT7u4N7w2iC_20stack_map_and_mutate(%"std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>"* %_4), !dbg !3139
   br label %bb2, !dbg !3139
 
 bb2:                                              ; preds = %bb1
@@ -6416,7 +6424,7 @@ bb2:                                              ; preds = %bb1
   store i64* %_8, i64** %_7, align 8, !dbg !3141
   %0 = load i64*, i64** %_7, align 8, !dbg !3142, !nonnull !4
 ; call core::mem::drop::<alloc::sync::Weak<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>>>
-  call void @_RINvNtCs3p84KrD9aKt_4core3mem4dropINtNtCs8RW06R9lH2S_5alloc4sync4WeakINtNtB4_4cell10UnsafeCellINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtBB_5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEEEECs37qxPUa7whq_20oneway_thread_access(i64* nonnull %0), !dbg !3142
+  call void @_RINvNtCs3p84KrD9aKt_4core3mem4dropINtNtCs8RW06R9lH2S_5alloc4sync4WeakINtNtB4_4cell10UnsafeCellINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtBB_5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEEEECsdT7u4N7w2iC_20stack_map_and_mutate(i64* nonnull %0), !dbg !3142
   br label %bb3, !dbg !3142
 
 bb3:                                              ; preds = %bb2
@@ -6425,13 +6433,13 @@ bb3:                                              ; preds = %bb2
 
 ; <alloc::sync::Arc<std::sync::mutex::Mutex<alloc::vec::Vec<u8>>>>::inner
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal align 8 dereferenceable(56) %"alloc::sync::ArcInner<std::sync::Mutex<std::vec::Vec<u8>>>"* @_RNvMse_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtB7_3vec3VechEEE5innerCs37qxPUa7whq_20oneway_thread_access(i64** noalias readonly align 8 dereferenceable(8) %self) unnamed_addr #1 !dbg !3144 {
+define internal align 8 dereferenceable(56) %"alloc::sync::ArcInner<std::sync::Mutex<std::vec::Vec<u8>>>"* @_RNvMse_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtB7_3vec3VechEEE5innerCsdT7u4N7w2iC_20stack_map_and_mutate(i64** noalias readonly align 8 dereferenceable(8) %self) unnamed_addr #1 !dbg !3144 {
 start:
   %self.dbg.spill = alloca i64**, align 8
   store i64** %self, i64*** %self.dbg.spill, align 8
   call void @llvm.dbg.declare(metadata i64*** %self.dbg.spill, metadata !3149, metadata !DIExpression()), !dbg !3150
 ; call <core::ptr::non_null::NonNull<alloc::sync::ArcInner<std::sync::mutex::Mutex<alloc::vec::Vec<u8>>>>>::as_ref
-  %0 = call align 8 dereferenceable(56) %"alloc::sync::ArcInner<std::sync::Mutex<std::vec::Vec<u8>>>"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtBY_3vec3VechEEEE6as_refCs37qxPUa7whq_20oneway_thread_access(i64** noalias readonly align 8 dereferenceable(8) %self), !dbg !3151
+  %0 = call align 8 dereferenceable(56) %"alloc::sync::ArcInner<std::sync::Mutex<std::vec::Vec<u8>>>"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtBY_3vec3VechEEEE6as_refCsdT7u4N7w2iC_20stack_map_and_mutate(i64** noalias readonly align 8 dereferenceable(8) %self), !dbg !3151
   br label %bb1, !dbg !3151
 
 bb1:                                              ; preds = %start
@@ -6440,19 +6448,19 @@ bb1:                                              ; preds = %start
 
 ; <alloc::sync::Arc<std::sync::mutex::Mutex<alloc::vec::Vec<u8>>>>::drop_slow
 ; Function Attrs: noinline nonlazybind uwtable
-define internal void @_RNvMse_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtB7_3vec3VechEEE9drop_slowCs37qxPUa7whq_20oneway_thread_access(i64** align 8 dereferenceable(8) %self) unnamed_addr #2 !dbg !3153 {
+define internal void @_RNvMse_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtB7_3vec3VechEEE9drop_slowCsdT7u4N7w2iC_20stack_map_and_mutate(i64** align 8 dereferenceable(8) %self) unnamed_addr #2 !dbg !3153 {
 start:
   %self.dbg.spill = alloca i64**, align 8
   %_7 = alloca i64*, align 8
   store i64** %self, i64*** %self.dbg.spill, align 8
   call void @llvm.dbg.declare(metadata i64*** %self.dbg.spill, metadata !3158, metadata !DIExpression()), !dbg !3159
 ; call <alloc::sync::Arc<std::sync::mutex::Mutex<alloc::vec::Vec<u8>>>>::get_mut_unchecked
-  %_4 = call align 8 dereferenceable(40) %"std::sync::Mutex<std::vec::Vec<u8>>"* @_RNvMso_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtB7_3vec3VechEEE17get_mut_uncheckedCs37qxPUa7whq_20oneway_thread_access(i64** align 8 dereferenceable(8) %self), !dbg !3160
+  %_4 = call align 8 dereferenceable(40) %"std::sync::Mutex<std::vec::Vec<u8>>"* @_RNvMso_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtB7_3vec3VechEEE17get_mut_uncheckedCsdT7u4N7w2iC_20stack_map_and_mutate(i64** align 8 dereferenceable(8) %self), !dbg !3160
   br label %bb1, !dbg !3160
 
 bb1:                                              ; preds = %start
 ; call core::ptr::drop_in_place::<std::sync::mutex::Mutex<alloc::vec::Vec<u8>>>
-  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtCs8RW06R9lH2S_5alloc3vec3VechEEECs37qxPUa7whq_20oneway_thread_access(%"std::sync::Mutex<std::vec::Vec<u8>>"* %_4), !dbg !3161
+  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtCs8RW06R9lH2S_5alloc3vec3VechEEECsdT7u4N7w2iC_20stack_map_and_mutate(%"std::sync::Mutex<std::vec::Vec<u8>>"* %_4), !dbg !3161
   br label %bb2, !dbg !3161
 
 bb2:                                              ; preds = %bb1
@@ -6460,7 +6468,7 @@ bb2:                                              ; preds = %bb1
   store i64* %_8, i64** %_7, align 8, !dbg !3163
   %0 = load i64*, i64** %_7, align 8, !dbg !3164, !nonnull !4
 ; call core::mem::drop::<alloc::sync::Weak<std::sync::mutex::Mutex<alloc::vec::Vec<u8>>>>
-  call void @_RINvNtCs3p84KrD9aKt_4core3mem4dropINtNtCs8RW06R9lH2S_5alloc4sync4WeakINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtBB_3vec3VechEEEECs37qxPUa7whq_20oneway_thread_access(i64* nonnull %0), !dbg !3164
+  call void @_RINvNtCs3p84KrD9aKt_4core3mem4dropINtNtCs8RW06R9lH2S_5alloc4sync4WeakINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtBB_3vec3VechEEEECsdT7u4N7w2iC_20stack_map_and_mutate(i64* nonnull %0), !dbg !3164
   br label %bb3, !dbg !3164
 
 bb3:                                              ; preds = %bb2
@@ -6469,13 +6477,13 @@ bb3:                                              ; preds = %bb2
 
 ; <alloc::sync::Arc<std::thread::Inner>>::inner
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal align 8 dereferenceable(48) %"alloc::sync::ArcInner<std::thread::Inner>"* @_RNvMse_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcNtNtCs2bNvlddUlXM_3std6thread5InnerE5innerCs37qxPUa7whq_20oneway_thread_access(i64** noalias readonly align 8 dereferenceable(8) %self) unnamed_addr #1 !dbg !3166 {
+define internal align 8 dereferenceable(48) %"alloc::sync::ArcInner<std::thread::Inner>"* @_RNvMse_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcNtNtCs2bNvlddUlXM_3std6thread5InnerE5innerCsdT7u4N7w2iC_20stack_map_and_mutate(i64** noalias readonly align 8 dereferenceable(8) %self) unnamed_addr #1 !dbg !3166 {
 start:
   %self.dbg.spill = alloca i64**, align 8
   store i64** %self, i64*** %self.dbg.spill, align 8
   call void @llvm.dbg.declare(metadata i64*** %self.dbg.spill, metadata !3171, metadata !DIExpression()), !dbg !3172
 ; call <core::ptr::non_null::NonNull<alloc::sync::ArcInner<std::thread::Inner>>>::as_ref
-  %0 = call align 8 dereferenceable(48) %"alloc::sync::ArcInner<std::thread::Inner>"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerNtNtCs2bNvlddUlXM_3std6thread5InnerEE6as_refCs37qxPUa7whq_20oneway_thread_access(i64** noalias readonly align 8 dereferenceable(8) %self), !dbg !3173
+  %0 = call align 8 dereferenceable(48) %"alloc::sync::ArcInner<std::thread::Inner>"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerNtNtCs2bNvlddUlXM_3std6thread5InnerEE6as_refCsdT7u4N7w2iC_20stack_map_and_mutate(i64** noalias readonly align 8 dereferenceable(8) %self), !dbg !3173
   br label %bb1, !dbg !3173
 
 bb1:                                              ; preds = %start
@@ -6484,19 +6492,19 @@ bb1:                                              ; preds = %start
 
 ; <alloc::sync::Arc<std::thread::Inner>>::drop_slow
 ; Function Attrs: noinline nonlazybind uwtable
-define internal void @_RNvMse_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcNtNtCs2bNvlddUlXM_3std6thread5InnerE9drop_slowCs37qxPUa7whq_20oneway_thread_access(i64** align 8 dereferenceable(8) %self) unnamed_addr #2 !dbg !3175 {
+define internal void @_RNvMse_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcNtNtCs2bNvlddUlXM_3std6thread5InnerE9drop_slowCsdT7u4N7w2iC_20stack_map_and_mutate(i64** align 8 dereferenceable(8) %self) unnamed_addr #2 !dbg !3175 {
 start:
   %self.dbg.spill = alloca i64**, align 8
   %_7 = alloca i64*, align 8
   store i64** %self, i64*** %self.dbg.spill, align 8
   call void @llvm.dbg.declare(metadata i64*** %self.dbg.spill, metadata !3180, metadata !DIExpression()), !dbg !3181
 ; call <alloc::sync::Arc<std::thread::Inner>>::get_mut_unchecked
-  %_4 = call align 8 dereferenceable(32) %"std::thread::Inner"* @_RNvMso_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcNtNtCs2bNvlddUlXM_3std6thread5InnerE17get_mut_uncheckedCs37qxPUa7whq_20oneway_thread_access(i64** align 8 dereferenceable(8) %self), !dbg !3182
+  %_4 = call align 8 dereferenceable(32) %"std::thread::Inner"* @_RNvMso_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcNtNtCs2bNvlddUlXM_3std6thread5InnerE17get_mut_uncheckedCsdT7u4N7w2iC_20stack_map_and_mutate(i64** align 8 dereferenceable(8) %self), !dbg !3182
   br label %bb1, !dbg !3182
 
 bb1:                                              ; preds = %start
 ; call core::ptr::drop_in_place::<std::thread::Inner>
-  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNtNtCs2bNvlddUlXM_3std6thread5InnerECs37qxPUa7whq_20oneway_thread_access(%"std::thread::Inner"* %_4), !dbg !3183
+  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNtNtCs2bNvlddUlXM_3std6thread5InnerECsdT7u4N7w2iC_20stack_map_and_mutate(%"std::thread::Inner"* %_4), !dbg !3183
   br label %bb2, !dbg !3183
 
 bb2:                                              ; preds = %bb1
@@ -6504,7 +6512,7 @@ bb2:                                              ; preds = %bb1
   store i64* %_8, i64** %_7, align 8, !dbg !3185
   %0 = load i64*, i64** %_7, align 8, !dbg !3186, !nonnull !4
 ; call core::mem::drop::<alloc::sync::Weak<std::thread::Inner>>
-  call void @_RINvNtCs3p84KrD9aKt_4core3mem4dropINtNtCs8RW06R9lH2S_5alloc4sync4WeakNtNtCs2bNvlddUlXM_3std6thread5InnerEECs37qxPUa7whq_20oneway_thread_access(i64* nonnull %0), !dbg !3186
+  call void @_RINvNtCs3p84KrD9aKt_4core3mem4dropINtNtCs8RW06R9lH2S_5alloc4sync4WeakNtNtCs2bNvlddUlXM_3std6thread5InnerEECsdT7u4N7w2iC_20stack_map_and_mutate(i64* nonnull %0), !dbg !3186
   br label %bb3, !dbg !3186
 
 bb3:                                              ; preds = %bb2
@@ -6513,14 +6521,14 @@ bb3:                                              ; preds = %bb2
 
 ; <alloc::sync::Arc<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>>>::get_mut_unchecked
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal align 8 dereferenceable(24) %"std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>"* @_RNvMso_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtBL_6option6OptionINtNtBL_6result6ResultuINtNtB7_5boxed3BoxDNtNtBL_3any3AnyNtNtBL_6marker4SendEL_EEEEE17get_mut_uncheckedCs37qxPUa7whq_20oneway_thread_access(i64** align 8 dereferenceable(8) %this) unnamed_addr #1 !dbg !3188 {
+define internal align 8 dereferenceable(24) %"std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>"* @_RNvMso_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtBL_6option6OptionINtNtBL_6result6ResultuINtNtB7_5boxed3BoxDNtNtBL_3any3AnyNtNtBL_6marker4SendEL_EEEEE17get_mut_uncheckedCsdT7u4N7w2iC_20stack_map_and_mutate(i64** align 8 dereferenceable(8) %this) unnamed_addr #1 !dbg !3188 {
 start:
   %this.dbg.spill = alloca i64**, align 8
   store i64** %this, i64*** %this.dbg.spill, align 8
   call void @llvm.dbg.declare(metadata i64*** %this.dbg.spill, metadata !3193, metadata !DIExpression()), !dbg !3194
   %_6 = load i64*, i64** %this, align 8, !dbg !3195, !nonnull !4
 ; call <core::ptr::non_null::NonNull<alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>>>>::as_ptr
-  %_5 = call %"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtB9_4cell10UnsafeCellINtNtB9_6option6OptionINtNtB9_6result6ResultuINtNtBY_5boxed3BoxDNtNtB9_3any3AnyNtNtB9_6marker4SendEL_EEEEEE6as_ptrCs37qxPUa7whq_20oneway_thread_access(i64* nonnull %_6), !dbg !3195
+  %_5 = call %"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtB9_4cell10UnsafeCellINtNtB9_6option6OptionINtNtB9_6result6ResultuINtNtBY_5boxed3BoxDNtNtB9_3any3AnyNtNtB9_6marker4SendEL_EEEEEE6as_ptrCsdT7u4N7w2iC_20stack_map_and_mutate(i64* nonnull %_6), !dbg !3195
   br label %bb1, !dbg !3195
 
 bb1:                                              ; preds = %start
@@ -6530,14 +6538,14 @@ bb1:                                              ; preds = %start
 
 ; <alloc::sync::Arc<std::sync::mutex::Mutex<alloc::vec::Vec<u8>>>>::get_mut_unchecked
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal align 8 dereferenceable(40) %"std::sync::Mutex<std::vec::Vec<u8>>"* @_RNvMso_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtB7_3vec3VechEEE17get_mut_uncheckedCs37qxPUa7whq_20oneway_thread_access(i64** align 8 dereferenceable(8) %this) unnamed_addr #1 !dbg !3198 {
+define internal align 8 dereferenceable(40) %"std::sync::Mutex<std::vec::Vec<u8>>"* @_RNvMso_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtB7_3vec3VechEEE17get_mut_uncheckedCsdT7u4N7w2iC_20stack_map_and_mutate(i64** align 8 dereferenceable(8) %this) unnamed_addr #1 !dbg !3198 {
 start:
   %this.dbg.spill = alloca i64**, align 8
   store i64** %this, i64*** %this.dbg.spill, align 8
   call void @llvm.dbg.declare(metadata i64*** %this.dbg.spill, metadata !3203, metadata !DIExpression()), !dbg !3204
   %_6 = load i64*, i64** %this, align 8, !dbg !3205, !nonnull !4
 ; call <core::ptr::non_null::NonNull<alloc::sync::ArcInner<std::sync::mutex::Mutex<alloc::vec::Vec<u8>>>>>::as_ptr
-  %_5 = call %"alloc::sync::ArcInner<std::sync::Mutex<std::vec::Vec<u8>>>"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtBY_3vec3VechEEEE6as_ptrCs37qxPUa7whq_20oneway_thread_access(i64* nonnull %_6), !dbg !3205
+  %_5 = call %"alloc::sync::ArcInner<std::sync::Mutex<std::vec::Vec<u8>>>"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtBY_3vec3VechEEEE6as_ptrCsdT7u4N7w2iC_20stack_map_and_mutate(i64* nonnull %_6), !dbg !3205
   br label %bb1, !dbg !3205
 
 bb1:                                              ; preds = %start
@@ -6547,14 +6555,14 @@ bb1:                                              ; preds = %start
 
 ; <alloc::sync::Arc<std::thread::Inner>>::get_mut_unchecked
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal align 8 dereferenceable(32) %"std::thread::Inner"* @_RNvMso_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcNtNtCs2bNvlddUlXM_3std6thread5InnerE17get_mut_uncheckedCs37qxPUa7whq_20oneway_thread_access(i64** align 8 dereferenceable(8) %this) unnamed_addr #1 !dbg !3208 {
+define internal align 8 dereferenceable(32) %"std::thread::Inner"* @_RNvMso_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcNtNtCs2bNvlddUlXM_3std6thread5InnerE17get_mut_uncheckedCsdT7u4N7w2iC_20stack_map_and_mutate(i64** align 8 dereferenceable(8) %this) unnamed_addr #1 !dbg !3208 {
 start:
   %this.dbg.spill = alloca i64**, align 8
   store i64** %this, i64*** %this.dbg.spill, align 8
   call void @llvm.dbg.declare(metadata i64*** %this.dbg.spill, metadata !3213, metadata !DIExpression()), !dbg !3214
   %_6 = load i64*, i64** %this, align 8, !dbg !3215, !nonnull !4
 ; call <core::ptr::non_null::NonNull<alloc::sync::ArcInner<std::thread::Inner>>>::as_ptr
-  %_5 = call %"alloc::sync::ArcInner<std::thread::Inner>"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerNtNtCs2bNvlddUlXM_3std6thread5InnerEE6as_ptrCs37qxPUa7whq_20oneway_thread_access(i64* nonnull %_6), !dbg !3215
+  %_5 = call %"alloc::sync::ArcInner<std::thread::Inner>"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerNtNtCs2bNvlddUlXM_3std6thread5InnerEE6as_ptrCsdT7u4N7w2iC_20stack_map_and_mutate(i64* nonnull %_6), !dbg !3215
   br label %bb1, !dbg !3215
 
 bb1:                                              ; preds = %start
@@ -6564,7 +6572,7 @@ bb1:                                              ; preds = %start
 
 ; <alloc::sync::Weak<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>>>::inner
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal { i64*, i8* } @_RNvMst_NtCs8RW06R9lH2S_5alloc4syncINtB5_4WeakINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtBM_6option6OptionINtNtBM_6result6ResultuINtNtB7_5boxed3BoxDNtNtBM_3any3AnyNtNtBM_6marker4SendEL_EEEEE5innerCs37qxPUa7whq_20oneway_thread_access(i64** noalias readonly align 8 dereferenceable(8) %self) unnamed_addr #1 !dbg !3218 {
+define internal { i64*, i8* } @_RNvMst_NtCs8RW06R9lH2S_5alloc4syncINtB5_4WeakINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtBM_6option6OptionINtNtBM_6result6ResultuINtNtB7_5boxed3BoxDNtNtBM_3any3AnyNtNtBM_6marker4SendEL_EEEEE5innerCsdT7u4N7w2iC_20stack_map_and_mutate(i64** noalias readonly align 8 dereferenceable(8) %self) unnamed_addr #1 !dbg !3218 {
 start:
   %ptr.dbg.spill = alloca %"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"*, align 8
   %self.dbg.spill = alloca i64**, align 8
@@ -6574,7 +6582,7 @@ start:
   call void @llvm.dbg.declare(metadata i64*** %self.dbg.spill, metadata !3239, metadata !DIExpression()), !dbg !3242
   %_3 = load i64*, i64** %self, align 8, !dbg !3243, !nonnull !4
 ; call alloc::rc::is_dangling::<alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>>>
-  %_2 = call zeroext i1 @_RINvNtCs8RW06R9lH2S_5alloc2rc11is_danglingINtNtB4_4sync8ArcInnerINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtB15_6option6OptionINtNtB15_6result6ResultuINtNtB4_5boxed3BoxDNtNtB15_3any3AnyNtNtB15_6marker4SendEL_EEEEEECs37qxPUa7whq_20oneway_thread_access(i64* nonnull %_3), !dbg !3244
+  %_2 = call zeroext i1 @_RINvNtCs8RW06R9lH2S_5alloc2rc11is_danglingINtNtB4_4sync8ArcInnerINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtB15_6option6OptionINtNtB15_6result6ResultuINtNtB4_5boxed3BoxDNtNtB15_3any3AnyNtNtB15_6marker4SendEL_EEEEEECsdT7u4N7w2iC_20stack_map_and_mutate(i64* nonnull %_3), !dbg !3244
   br label %bb1, !dbg !3244
 
 bb1:                                              ; preds = %start
@@ -6588,7 +6596,7 @@ bb2:                                              ; preds = %bb1
 bb3:                                              ; preds = %bb1
   %_6 = load i64*, i64** %self, align 8, !dbg !3247, !nonnull !4
 ; call <core::ptr::non_null::NonNull<alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>>>>::as_ptr
-  %ptr = call %"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtB9_4cell10UnsafeCellINtNtB9_6option6OptionINtNtB9_6result6ResultuINtNtBY_5boxed3BoxDNtNtB9_3any3AnyNtNtB9_6marker4SendEL_EEEEEE6as_ptrCs37qxPUa7whq_20oneway_thread_access(i64* nonnull %_6), !dbg !3247
+  %ptr = call %"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtB9_4cell10UnsafeCellINtNtB9_6option6OptionINtNtB9_6result6ResultuINtNtBY_5boxed3BoxDNtNtB9_3any3AnyNtNtB9_6marker4SendEL_EEEEEE6as_ptrCsdT7u4N7w2iC_20stack_map_and_mutate(i64* nonnull %_6), !dbg !3247
   store %"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"* %ptr, %"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"** %ptr.dbg.spill, align 8, !dbg !3247
   call void @llvm.dbg.declare(metadata %"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"** %ptr.dbg.spill, metadata !3240, metadata !DIExpression()), !dbg !3248
   br label %bb4, !dbg !3247
@@ -6624,7 +6632,7 @@ bb5:                                              ; preds = %bb4, %bb2
 
 ; <alloc::sync::Weak<std::sync::mutex::Mutex<alloc::vec::Vec<u8>>>>::inner
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal { i64*, i8* } @_RNvMst_NtCs8RW06R9lH2S_5alloc4syncINtB5_4WeakINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtB7_3vec3VechEEE5innerCs37qxPUa7whq_20oneway_thread_access(i64** noalias readonly align 8 dereferenceable(8) %self) unnamed_addr #1 !dbg !3254 {
+define internal { i64*, i8* } @_RNvMst_NtCs8RW06R9lH2S_5alloc4syncINtB5_4WeakINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtB7_3vec3VechEEE5innerCsdT7u4N7w2iC_20stack_map_and_mutate(i64** noalias readonly align 8 dereferenceable(8) %self) unnamed_addr #1 !dbg !3254 {
 start:
   %ptr.dbg.spill = alloca %"alloc::sync::ArcInner<std::sync::Mutex<std::vec::Vec<u8>>>"*, align 8
   %self.dbg.spill = alloca i64**, align 8
@@ -6634,7 +6642,7 @@ start:
   call void @llvm.dbg.declare(metadata i64*** %self.dbg.spill, metadata !3259, metadata !DIExpression()), !dbg !3262
   %_3 = load i64*, i64** %self, align 8, !dbg !3263, !nonnull !4
 ; call alloc::rc::is_dangling::<alloc::sync::ArcInner<std::sync::mutex::Mutex<alloc::vec::Vec<u8>>>>
-  %_2 = call zeroext i1 @_RINvNtCs8RW06R9lH2S_5alloc2rc11is_danglingINtNtB4_4sync8ArcInnerINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtB4_3vec3VechEEEECs37qxPUa7whq_20oneway_thread_access(i64* nonnull %_3), !dbg !3264
+  %_2 = call zeroext i1 @_RINvNtCs8RW06R9lH2S_5alloc2rc11is_danglingINtNtB4_4sync8ArcInnerINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtB4_3vec3VechEEEECsdT7u4N7w2iC_20stack_map_and_mutate(i64* nonnull %_3), !dbg !3264
   br label %bb1, !dbg !3264
 
 bb1:                                              ; preds = %start
@@ -6648,7 +6656,7 @@ bb2:                                              ; preds = %bb1
 bb3:                                              ; preds = %bb1
   %_6 = load i64*, i64** %self, align 8, !dbg !3267, !nonnull !4
 ; call <core::ptr::non_null::NonNull<alloc::sync::ArcInner<std::sync::mutex::Mutex<alloc::vec::Vec<u8>>>>>::as_ptr
-  %ptr = call %"alloc::sync::ArcInner<std::sync::Mutex<std::vec::Vec<u8>>>"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtBY_3vec3VechEEEE6as_ptrCs37qxPUa7whq_20oneway_thread_access(i64* nonnull %_6), !dbg !3267
+  %ptr = call %"alloc::sync::ArcInner<std::sync::Mutex<std::vec::Vec<u8>>>"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtBY_3vec3VechEEEE6as_ptrCsdT7u4N7w2iC_20stack_map_and_mutate(i64* nonnull %_6), !dbg !3267
   store %"alloc::sync::ArcInner<std::sync::Mutex<std::vec::Vec<u8>>>"* %ptr, %"alloc::sync::ArcInner<std::sync::Mutex<std::vec::Vec<u8>>>"** %ptr.dbg.spill, align 8, !dbg !3267
   call void @llvm.dbg.declare(metadata %"alloc::sync::ArcInner<std::sync::Mutex<std::vec::Vec<u8>>>"** %ptr.dbg.spill, metadata !3260, metadata !DIExpression()), !dbg !3268
   br label %bb4, !dbg !3267
@@ -6684,7 +6692,7 @@ bb5:                                              ; preds = %bb4, %bb2
 
 ; <alloc::sync::Weak<std::thread::Inner>>::inner
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal { i64*, i8* } @_RNvMst_NtCs8RW06R9lH2S_5alloc4syncINtB5_4WeakNtNtCs2bNvlddUlXM_3std6thread5InnerE5innerCs37qxPUa7whq_20oneway_thread_access(i64** noalias readonly align 8 dereferenceable(8) %self) unnamed_addr #1 !dbg !3274 {
+define internal { i64*, i8* } @_RNvMst_NtCs8RW06R9lH2S_5alloc4syncINtB5_4WeakNtNtCs2bNvlddUlXM_3std6thread5InnerE5innerCsdT7u4N7w2iC_20stack_map_and_mutate(i64** noalias readonly align 8 dereferenceable(8) %self) unnamed_addr #1 !dbg !3274 {
 start:
   %ptr.dbg.spill = alloca %"alloc::sync::ArcInner<std::thread::Inner>"*, align 8
   %self.dbg.spill = alloca i64**, align 8
@@ -6694,7 +6702,7 @@ start:
   call void @llvm.dbg.declare(metadata i64*** %self.dbg.spill, metadata !3279, metadata !DIExpression()), !dbg !3282
   %_3 = load i64*, i64** %self, align 8, !dbg !3283, !nonnull !4
 ; call alloc::rc::is_dangling::<alloc::sync::ArcInner<std::thread::Inner>>
-  %_2 = call zeroext i1 @_RINvNtCs8RW06R9lH2S_5alloc2rc11is_danglingINtNtB4_4sync8ArcInnerNtNtCs2bNvlddUlXM_3std6thread5InnerEECs37qxPUa7whq_20oneway_thread_access(i64* nonnull %_3), !dbg !3284
+  %_2 = call zeroext i1 @_RINvNtCs8RW06R9lH2S_5alloc2rc11is_danglingINtNtB4_4sync8ArcInnerNtNtCs2bNvlddUlXM_3std6thread5InnerEECsdT7u4N7w2iC_20stack_map_and_mutate(i64* nonnull %_3), !dbg !3284
   br label %bb1, !dbg !3284
 
 bb1:                                              ; preds = %start
@@ -6708,7 +6716,7 @@ bb2:                                              ; preds = %bb1
 bb3:                                              ; preds = %bb1
   %_6 = load i64*, i64** %self, align 8, !dbg !3287, !nonnull !4
 ; call <core::ptr::non_null::NonNull<alloc::sync::ArcInner<std::thread::Inner>>>::as_ptr
-  %ptr = call %"alloc::sync::ArcInner<std::thread::Inner>"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerNtNtCs2bNvlddUlXM_3std6thread5InnerEE6as_ptrCs37qxPUa7whq_20oneway_thread_access(i64* nonnull %_6), !dbg !3287
+  %ptr = call %"alloc::sync::ArcInner<std::thread::Inner>"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerNtNtCs2bNvlddUlXM_3std6thread5InnerEE6as_ptrCsdT7u4N7w2iC_20stack_map_and_mutate(i64* nonnull %_6), !dbg !3287
   store %"alloc::sync::ArcInner<std::thread::Inner>"* %ptr, %"alloc::sync::ArcInner<std::thread::Inner>"** %ptr.dbg.spill, align 8, !dbg !3287
   call void @llvm.dbg.declare(metadata %"alloc::sync::ArcInner<std::thread::Inner>"** %ptr.dbg.spill, metadata !3280, metadata !DIExpression()), !dbg !3288
   br label %bb4, !dbg !3287
@@ -6744,7 +6752,7 @@ bb5:                                              ; preds = %bb4, %bb2
 
 ; <core::num::nonzero::NonZeroUsize>::new_unchecked
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal i64 @_RNvMsx_NtNtCs3p84KrD9aKt_4core3num7nonzeroNtB5_12NonZeroUsize13new_uncheckedCs37qxPUa7whq_20oneway_thread_access(i64 %n) unnamed_addr #1 !dbg !3294 {
+define internal i64 @_RNvMsx_NtNtCs3p84KrD9aKt_4core3num7nonzeroNtB5_12NonZeroUsize13new_uncheckedCsdT7u4N7w2iC_20stack_map_and_mutate(i64 %n) unnamed_addr #1 !dbg !3294 {
 start:
   %n.dbg.spill = alloca i64, align 8
   %0 = alloca i64, align 8
@@ -6757,7 +6765,7 @@ start:
 
 ; <core::num::nonzero::NonZeroUsize>::get
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal i64 @_RNvMsx_NtNtCs3p84KrD9aKt_4core3num7nonzeroNtB5_12NonZeroUsize3getCs37qxPUa7whq_20oneway_thread_access(i64 %self) unnamed_addr #1 !dbg !3303 {
+define internal i64 @_RNvMsx_NtNtCs3p84KrD9aKt_4core3num7nonzeroNtB5_12NonZeroUsize3getCsdT7u4N7w2iC_20stack_map_and_mutate(i64 %self) unnamed_addr #1 !dbg !3303 {
 start:
   %self.dbg.spill = alloca i64, align 8
   store i64 %self, i64* %self.dbg.spill, align 8
@@ -6767,7 +6775,7 @@ start:
 
 ; core::ptr::swap_nonoverlapping_bytes
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal void @_RNvNtCs3p84KrD9aKt_4core3ptr25swap_nonoverlapping_bytesCs37qxPUa7whq_20oneway_thread_access(i8* %x, i8* %y, i64 %len) unnamed_addr #1 !dbg !3310 {
+define internal void @_RNvNtCs3p84KrD9aKt_4core3ptr25swap_nonoverlapping_bytesCsdT7u4N7w2iC_20stack_map_and_mutate(i8* %x, i8* %y, i64 %len) unnamed_addr #1 !dbg !3310 {
 start:
   %self.dbg.spill.i13 = alloca %"std::mem::MaybeUninit<std::ptr::swap_nonoverlapping_bytes::UnalignedBlock>"*, align 8
   %self.dbg.spill.i = alloca <4 x i64>*, align 8
@@ -6829,7 +6837,7 @@ bb6:                                              ; preds = %bb5
   call void @llvm.dbg.declare(metadata i8** %t.dbg.spill, metadata !3339, metadata !DIExpression()), !dbg !3399
   %_17 = load i64, i64* %i, align 8, !dbg !3400
 ; call <*mut u8>::add
-  %x3 = call i8* @_RNvMNtNtCs3p84KrD9aKt_4core3ptr7mut_ptrOh3addCs37qxPUa7whq_20oneway_thread_access(i8* %x, i64 %_17), !dbg !3401
+  %x3 = call i8* @_RNvMNtNtCs3p84KrD9aKt_4core3ptr7mut_ptrOh3addCsdT7u4N7w2iC_20stack_map_and_mutate(i8* %x, i64 %_17), !dbg !3401
   store i8* %x3, i8** %x.dbg.spill4, align 8, !dbg !3401
   call void @llvm.dbg.declare(metadata i8** %x.dbg.spill4, metadata !3341, metadata !DIExpression()), !dbg !3402
   br label %bb7, !dbg !3401
@@ -6837,24 +6845,24 @@ bb6:                                              ; preds = %bb5
 bb7:                                              ; preds = %bb6
   %_20 = load i64, i64* %i, align 8, !dbg !3403
 ; call <*mut u8>::add
-  %y5 = call i8* @_RNvMNtNtCs3p84KrD9aKt_4core3ptr7mut_ptrOh3addCs37qxPUa7whq_20oneway_thread_access(i8* %y, i64 %_20), !dbg !3404
+  %y5 = call i8* @_RNvMNtNtCs3p84KrD9aKt_4core3ptr7mut_ptrOh3addCsdT7u4N7w2iC_20stack_map_and_mutate(i8* %y, i64 %_20), !dbg !3404
   store i8* %y5, i8** %y.dbg.spill6, align 8, !dbg !3404
   call void @llvm.dbg.declare(metadata i8** %y.dbg.spill6, metadata !3343, metadata !DIExpression()), !dbg !3405
   br label %bb8, !dbg !3404
 
 bb8:                                              ; preds = %bb7
 ; call core::intrinsics::copy_nonoverlapping::<u8>
-  call void @_RINvNtCs3p84KrD9aKt_4core10intrinsics19copy_nonoverlappinghECs37qxPUa7whq_20oneway_thread_access(i8* %x3, i8* %t2, i64 32), !dbg !3406
+  call void @_RINvNtCs3p84KrD9aKt_4core10intrinsics19copy_nonoverlappinghECsdT7u4N7w2iC_20stack_map_and_mutate(i8* %x3, i8* %t2, i64 32), !dbg !3406
   br label %bb9, !dbg !3406
 
 bb9:                                              ; preds = %bb8
 ; call core::intrinsics::copy_nonoverlapping::<u8>
-  call void @_RINvNtCs3p84KrD9aKt_4core10intrinsics19copy_nonoverlappinghECs37qxPUa7whq_20oneway_thread_access(i8* %y5, i8* %x3, i64 32), !dbg !3407
+  call void @_RINvNtCs3p84KrD9aKt_4core10intrinsics19copy_nonoverlappinghECsdT7u4N7w2iC_20stack_map_and_mutate(i8* %y5, i8* %x3, i64 32), !dbg !3407
   br label %bb10, !dbg !3407
 
 bb10:                                             ; preds = %bb9
 ; call core::intrinsics::copy_nonoverlapping::<u8>
-  call void @_RINvNtCs3p84KrD9aKt_4core10intrinsics19copy_nonoverlappinghECs37qxPUa7whq_20oneway_thread_access(i8* %t2, i8* %y5, i64 32), !dbg !3408
+  call void @_RINvNtCs3p84KrD9aKt_4core10intrinsics19copy_nonoverlappinghECsdT7u4N7w2iC_20stack_map_and_mutate(i8* %t2, i8* %y5, i64 32), !dbg !3408
   br label %bb11, !dbg !3408
 
 bb11:                                             ; preds = %bb10
@@ -6886,7 +6894,7 @@ bb15:                                             ; preds = %bb14
   call void @llvm.dbg.declare(metadata i8** %t.dbg.spill8, metadata !3364, metadata !DIExpression()), !dbg !3430
   %_49 = load i64, i64* %i, align 8, !dbg !3431
 ; call <*mut u8>::add
-  %x9 = call i8* @_RNvMNtNtCs3p84KrD9aKt_4core3ptr7mut_ptrOh3addCs37qxPUa7whq_20oneway_thread_access(i8* %x, i64 %_49), !dbg !3432
+  %x9 = call i8* @_RNvMNtNtCs3p84KrD9aKt_4core3ptr7mut_ptrOh3addCsdT7u4N7w2iC_20stack_map_and_mutate(i8* %x, i64 %_49), !dbg !3432
   store i8* %x9, i8** %x.dbg.spill10, align 8, !dbg !3432
   call void @llvm.dbg.declare(metadata i8** %x.dbg.spill10, metadata !3366, metadata !DIExpression()), !dbg !3433
   br label %bb16, !dbg !3432
@@ -6894,24 +6902,24 @@ bb15:                                             ; preds = %bb14
 bb16:                                             ; preds = %bb15
   %_52 = load i64, i64* %i, align 8, !dbg !3434
 ; call <*mut u8>::add
-  %y11 = call i8* @_RNvMNtNtCs3p84KrD9aKt_4core3ptr7mut_ptrOh3addCs37qxPUa7whq_20oneway_thread_access(i8* %y, i64 %_52), !dbg !3435
+  %y11 = call i8* @_RNvMNtNtCs3p84KrD9aKt_4core3ptr7mut_ptrOh3addCsdT7u4N7w2iC_20stack_map_and_mutate(i8* %y, i64 %_52), !dbg !3435
   store i8* %y11, i8** %y.dbg.spill12, align 8, !dbg !3435
   call void @llvm.dbg.declare(metadata i8** %y.dbg.spill12, metadata !3368, metadata !DIExpression()), !dbg !3436
   br label %bb17, !dbg !3435
 
 bb17:                                             ; preds = %bb16
 ; call core::intrinsics::copy_nonoverlapping::<u8>
-  call void @_RINvNtCs3p84KrD9aKt_4core10intrinsics19copy_nonoverlappinghECs37qxPUa7whq_20oneway_thread_access(i8* %x9, i8* %t7, i64 %rem), !dbg !3437
+  call void @_RINvNtCs3p84KrD9aKt_4core10intrinsics19copy_nonoverlappinghECsdT7u4N7w2iC_20stack_map_and_mutate(i8* %x9, i8* %t7, i64 %rem), !dbg !3437
   br label %bb18, !dbg !3437
 
 bb18:                                             ; preds = %bb17
 ; call core::intrinsics::copy_nonoverlapping::<u8>
-  call void @_RINvNtCs3p84KrD9aKt_4core10intrinsics19copy_nonoverlappinghECs37qxPUa7whq_20oneway_thread_access(i8* %y11, i8* %x9, i64 %rem), !dbg !3438
+  call void @_RINvNtCs3p84KrD9aKt_4core10intrinsics19copy_nonoverlappinghECsdT7u4N7w2iC_20stack_map_and_mutate(i8* %y11, i8* %x9, i64 %rem), !dbg !3438
   br label %bb19, !dbg !3438
 
 bb19:                                             ; preds = %bb18
 ; call core::intrinsics::copy_nonoverlapping::<u8>
-  call void @_RINvNtCs3p84KrD9aKt_4core10intrinsics19copy_nonoverlappinghECs37qxPUa7whq_20oneway_thread_access(i8* %t7, i8* %y11, i64 %rem), !dbg !3439
+  call void @_RINvNtCs3p84KrD9aKt_4core10intrinsics19copy_nonoverlappinghECsdT7u4N7w2iC_20stack_map_and_mutate(i8* %t7, i8* %y11, i64 %rem), !dbg !3439
   br label %bb20, !dbg !3439
 
 bb20:                                             ; preds = %bb19
@@ -6923,7 +6931,7 @@ bb21:                                             ; preds = %bb13, %bb20
 
 ; alloc::alloc::alloc_zeroed
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal i8* @_RNvNtCs8RW06R9lH2S_5alloc5alloc12alloc_zeroedCs37qxPUa7whq_20oneway_thread_access(i64 %0, i64 %1) unnamed_addr #1 !dbg !3441 {
+define internal i8* @_RNvNtCs8RW06R9lH2S_5alloc5alloc12alloc_zeroedCsdT7u4N7w2iC_20stack_map_and_mutate(i64 %0, i64 %1) unnamed_addr #1 !dbg !3441 {
 start:
   %layout = alloca { i64, i64 }, align 8
   %2 = getelementptr inbounds { i64, i64 }, { i64, i64 }* %layout, i32 0, i32 0
@@ -6932,12 +6940,12 @@ start:
   store i64 %1, i64* %3, align 8
   call void @llvm.dbg.declare(metadata { i64, i64 }* %layout, metadata !3445, metadata !DIExpression()), !dbg !3446
 ; call <core::alloc::layout::Layout>::size
-  %_2 = call i64 @_RNvMNtNtCs3p84KrD9aKt_4core5alloc6layoutNtB2_6Layout4sizeCs37qxPUa7whq_20oneway_thread_access({ i64, i64 }* noalias readonly align 8 dereferenceable(16) %layout), !dbg !3447
+  %_2 = call i64 @_RNvMNtNtCs3p84KrD9aKt_4core5alloc6layoutNtB2_6Layout4sizeCsdT7u4N7w2iC_20stack_map_and_mutate({ i64, i64 }* noalias readonly align 8 dereferenceable(16) %layout), !dbg !3447
   br label %bb1, !dbg !3447
 
 bb1:                                              ; preds = %start
 ; call <core::alloc::layout::Layout>::align
-  %_4 = call i64 @_RNvMNtNtCs3p84KrD9aKt_4core5alloc6layoutNtB2_6Layout5alignCs37qxPUa7whq_20oneway_thread_access({ i64, i64 }* noalias readonly align 8 dereferenceable(16) %layout), !dbg !3448
+  %_4 = call i64 @_RNvMNtNtCs3p84KrD9aKt_4core5alloc6layoutNtB2_6Layout5alignCsdT7u4N7w2iC_20stack_map_and_mutate({ i64, i64 }* noalias readonly align 8 dereferenceable(16) %layout), !dbg !3448
   br label %bb2, !dbg !3448
 
 bb2:                                              ; preds = %bb1
@@ -6950,7 +6958,7 @@ bb3:                                              ; preds = %bb2
 
 ; alloc::alloc::exchange_malloc
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal i8* @_RNvNtCs8RW06R9lH2S_5alloc5alloc15exchange_mallocCs37qxPUa7whq_20oneway_thread_access(i64 %size, i64 %align) unnamed_addr #1 !dbg !3451 {
+define internal i8* @_RNvNtCs8RW06R9lH2S_5alloc5alloc15exchange_mallocCsdT7u4N7w2iC_20stack_map_and_mutate(i64 %size, i64 %align) unnamed_addr #1 !dbg !3451 {
 start:
   %ptr.dbg.spill = alloca { i8*, i64 }, align 8
   %layout.dbg.spill = alloca { i64, i64 }, align 8
@@ -6962,7 +6970,7 @@ start:
   store i64 %align, i64* %align.dbg.spill, align 8
   call void @llvm.dbg.declare(metadata i64* %align.dbg.spill, metadata !3456, metadata !DIExpression()), !dbg !3462
 ; call <core::alloc::layout::Layout>::from_size_align_unchecked
-  %0 = call { i64, i64 } @_RNvMNtNtCs3p84KrD9aKt_4core5alloc6layoutNtB2_6Layout25from_size_align_uncheckedCs37qxPUa7whq_20oneway_thread_access(i64 %size, i64 %align), !dbg !3463
+  %0 = call { i64, i64 } @_RNvMNtNtCs3p84KrD9aKt_4core5alloc6layoutNtB2_6Layout25from_size_align_uncheckedCsdT7u4N7w2iC_20stack_map_and_mutate(i64 %size, i64 %align), !dbg !3463
   %layout.0 = extractvalue { i64, i64 } %0, 0, !dbg !3463
   %layout.1 = extractvalue { i64, i64 } %0, 1, !dbg !3463
   %1 = getelementptr inbounds { i64, i64 }, { i64, i64 }* %layout.dbg.spill, i32 0, i32 0, !dbg !3463
@@ -6974,7 +6982,7 @@ start:
 
 bb1:                                              ; preds = %start
 ; call <alloc::alloc::Global as core::alloc::Allocator>::allocate
-  %3 = call { i8*, i64 } @_RNvXs_NtCs8RW06R9lH2S_5alloc5allocNtB4_6GlobalNtNtCs3p84KrD9aKt_4core5alloc9Allocator8allocateCs37qxPUa7whq_20oneway_thread_access(%"std::alloc::Global"* noalias nonnull readonly align 1 bitcast (<{ [0 x i8] }>* @alloc24 to %"std::alloc::Global"*), i64 %layout.0, i64 %layout.1), !dbg !3465
+  %3 = call { i8*, i64 } @_RNvXs_NtCs8RW06R9lH2S_5alloc5allocNtB4_6GlobalNtNtCs3p84KrD9aKt_4core5alloc9Allocator8allocateCsdT7u4N7w2iC_20stack_map_and_mutate(%"std::alloc::Global"* noalias nonnull readonly align 1 bitcast (<{ [0 x i8] }>* @alloc35 to %"std::alloc::Global"*), i64 %layout.0, i64 %layout.1), !dbg !3465
   store { i8*, i64 } %3, { i8*, i64 }* %_6, align 8, !dbg !3465
   br label %bb2, !dbg !3465
 
@@ -7007,7 +7015,7 @@ bb5:                                              ; preds = %bb2
   store i64 %ptr.1, i64* %10, align 8, !dbg !3468
   call void @llvm.dbg.declare(metadata { i8*, i64 }* %ptr.dbg.spill, metadata !3459, metadata !DIExpression()), !dbg !3469
 ; call <core::ptr::non_null::NonNull<[u8]>>::as_mut_ptr
-  %11 = call i8* @_RNvMs2_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullShE10as_mut_ptrCs37qxPUa7whq_20oneway_thread_access(i8* nonnull %ptr.0, i64 %ptr.1), !dbg !3470
+  %11 = call i8* @_RNvMs2_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullShE10as_mut_ptrCsdT7u4N7w2iC_20stack_map_and_mutate(i8* nonnull %ptr.0, i64 %ptr.1), !dbg !3470
   br label %bb6, !dbg !3470
 
 bb6:                                              ; preds = %bb5
@@ -7016,7 +7024,7 @@ bb6:                                              ; preds = %bb5
 
 ; alloc::alloc::alloc
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal i8* @_RNvNtCs8RW06R9lH2S_5alloc5alloc5allocCs37qxPUa7whq_20oneway_thread_access(i64 %0, i64 %1) unnamed_addr #1 !dbg !3472 {
+define internal i8* @_RNvNtCs8RW06R9lH2S_5alloc5alloc5allocCsdT7u4N7w2iC_20stack_map_and_mutate(i64 %0, i64 %1) unnamed_addr #1 !dbg !3472 {
 start:
   %layout = alloca { i64, i64 }, align 8
   %2 = getelementptr inbounds { i64, i64 }, { i64, i64 }* %layout, i32 0, i32 0
@@ -7025,12 +7033,12 @@ start:
   store i64 %1, i64* %3, align 8
   call void @llvm.dbg.declare(metadata { i64, i64 }* %layout, metadata !3474, metadata !DIExpression()), !dbg !3475
 ; call <core::alloc::layout::Layout>::size
-  %_2 = call i64 @_RNvMNtNtCs3p84KrD9aKt_4core5alloc6layoutNtB2_6Layout4sizeCs37qxPUa7whq_20oneway_thread_access({ i64, i64 }* noalias readonly align 8 dereferenceable(16) %layout), !dbg !3476
+  %_2 = call i64 @_RNvMNtNtCs3p84KrD9aKt_4core5alloc6layoutNtB2_6Layout4sizeCsdT7u4N7w2iC_20stack_map_and_mutate({ i64, i64 }* noalias readonly align 8 dereferenceable(16) %layout), !dbg !3476
   br label %bb1, !dbg !3476
 
 bb1:                                              ; preds = %start
 ; call <core::alloc::layout::Layout>::align
-  %_4 = call i64 @_RNvMNtNtCs3p84KrD9aKt_4core5alloc6layoutNtB2_6Layout5alignCs37qxPUa7whq_20oneway_thread_access({ i64, i64 }* noalias readonly align 8 dereferenceable(16) %layout), !dbg !3477
+  %_4 = call i64 @_RNvMNtNtCs3p84KrD9aKt_4core5alloc6layoutNtB2_6Layout5alignCsdT7u4N7w2iC_20stack_map_and_mutate({ i64, i64 }* noalias readonly align 8 dereferenceable(16) %layout), !dbg !3477
   br label %bb2, !dbg !3477
 
 bb2:                                              ; preds = %bb1
@@ -7043,7 +7051,7 @@ bb3:                                              ; preds = %bb2
 
 ; alloc::alloc::dealloc
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal void @_RNvNtCs8RW06R9lH2S_5alloc5alloc7deallocCs37qxPUa7whq_20oneway_thread_access(i8* %ptr, i64 %0, i64 %1) unnamed_addr #1 !dbg !3480 {
+define internal void @_RNvNtCs8RW06R9lH2S_5alloc5alloc7deallocCsdT7u4N7w2iC_20stack_map_and_mutate(i8* %ptr, i64 %0, i64 %1) unnamed_addr #1 !dbg !3480 {
 start:
   %ptr.dbg.spill = alloca i8*, align 8
   %layout = alloca { i64, i64 }, align 8
@@ -7055,12 +7063,12 @@ start:
   call void @llvm.dbg.declare(metadata i8** %ptr.dbg.spill, metadata !3484, metadata !DIExpression()), !dbg !3486
   call void @llvm.dbg.declare(metadata { i64, i64 }* %layout, metadata !3485, metadata !DIExpression()), !dbg !3487
 ; call <core::alloc::layout::Layout>::size
-  %_4 = call i64 @_RNvMNtNtCs3p84KrD9aKt_4core5alloc6layoutNtB2_6Layout4sizeCs37qxPUa7whq_20oneway_thread_access({ i64, i64 }* noalias readonly align 8 dereferenceable(16) %layout), !dbg !3488
+  %_4 = call i64 @_RNvMNtNtCs3p84KrD9aKt_4core5alloc6layoutNtB2_6Layout4sizeCsdT7u4N7w2iC_20stack_map_and_mutate({ i64, i64 }* noalias readonly align 8 dereferenceable(16) %layout), !dbg !3488
   br label %bb1, !dbg !3488
 
 bb1:                                              ; preds = %start
 ; call <core::alloc::layout::Layout>::align
-  %_6 = call i64 @_RNvMNtNtCs3p84KrD9aKt_4core5alloc6layoutNtB2_6Layout5alignCs37qxPUa7whq_20oneway_thread_access({ i64, i64 }* noalias readonly align 8 dereferenceable(16) %layout), !dbg !3489
+  %_6 = call i64 @_RNvMNtNtCs3p84KrD9aKt_4core5alloc6layoutNtB2_6Layout5alignCsdT7u4N7w2iC_20stack_map_and_mutate({ i64, i64 }* noalias readonly align 8 dereferenceable(16) %layout), !dbg !3489
   br label %bb2, !dbg !3489
 
 bb2:                                              ; preds = %bb1
@@ -7073,7 +7081,7 @@ bb3:                                              ; preds = %bb2
 
 ; core::sync::atomic::fence
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal void @_RNvNtNtCs3p84KrD9aKt_4core4sync6atomic5fenceCs37qxPUa7whq_20oneway_thread_access(i8 %0) unnamed_addr #1 !dbg !3492 {
+define internal void @_RNvNtNtCs3p84KrD9aKt_4core4sync6atomic5fenceCsdT7u4N7w2iC_20stack_map_and_mutate(i8 %0) unnamed_addr #1 !dbg !3492 {
 start:
   %1 = alloca {}, align 1
   %order = alloca i8, align 1
@@ -7091,7 +7099,7 @@ start:
 
 bb1:                                              ; preds = %start
 ; call core::panicking::panic
-  call void @_ZN4core9panicking5panic17h35b77276aa4b0c12E([0 x i8]* noalias nonnull readonly align 1 bitcast (<{ [41 x i8] }>* @alloc58 to [0 x i8]*), i64 41, %"std::panic::Location"* noalias readonly align 8 dereferenceable(24) bitcast (<{ i8*, [16 x i8] }>* @alloc60 to %"std::panic::Location"*)), !dbg !3499
+  call void @_ZN4core9panicking5panic17h35b77276aa4b0c12E([0 x i8]* noalias nonnull readonly align 1 bitcast (<{ [41 x i8] }>* @alloc69 to [0 x i8]*), i64 41, %"std::panic::Location"* noalias readonly align 8 dereferenceable(24) bitcast (<{ i8*, [16 x i8] }>* @alloc71 to %"std::panic::Location"*)), !dbg !3499
   unreachable, !dbg !3499
 
 bb2:                                              ; preds = %start
@@ -7119,7 +7127,7 @@ bb7:                                              ; preds = %bb4, %bb3, %bb5, %b
 
 ; <usize as core::slice::index::SliceIndex<[u8]>>::get_unchecked_mut
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal i8* @_RNvXs0_NtNtCs3p84KrD9aKt_4core5slice5indexjINtB5_10SliceIndexShE17get_unchecked_mutCs37qxPUa7whq_20oneway_thread_access(i64 %self, [0 x i8]* %slice.0, i64 %slice.1) unnamed_addr #1 !dbg !3506 {
+define internal i8* @_RNvXs0_NtNtCs3p84KrD9aKt_4core5slice5indexjINtB5_10SliceIndexShE17get_unchecked_mutCsdT7u4N7w2iC_20stack_map_and_mutate(i64 %self, [0 x i8]* %slice.0, i64 %slice.1) unnamed_addr #1 !dbg !3506 {
 start:
   %slice.dbg.spill = alloca { [0 x i8]*, i64 }, align 8
   %self.dbg.spill = alloca i64, align 8
@@ -7131,12 +7139,12 @@ start:
   store i64 %slice.1, i64* %1, align 8
   call void @llvm.dbg.declare(metadata { [0 x i8]*, i64 }* %slice.dbg.spill, metadata !3514, metadata !DIExpression()), !dbg !3516
 ; call <*mut [u8]>::as_mut_ptr
-  %_3 = call i8* @_RNvMs_NtNtCs3p84KrD9aKt_4core3ptr7mut_ptrOSh10as_mut_ptrCs37qxPUa7whq_20oneway_thread_access([0 x i8]* %slice.0, i64 %slice.1), !dbg !3517
+  %_3 = call i8* @_RNvMs_NtNtCs3p84KrD9aKt_4core3ptr7mut_ptrOSh10as_mut_ptrCsdT7u4N7w2iC_20stack_map_and_mutate([0 x i8]* %slice.0, i64 %slice.1), !dbg !3517
   br label %bb1, !dbg !3517
 
 bb1:                                              ; preds = %start
 ; call <*mut u8>::add
-  %2 = call i8* @_RNvMNtNtCs3p84KrD9aKt_4core3ptr7mut_ptrOh3addCs37qxPUa7whq_20oneway_thread_access(i8* %_3, i64 %self), !dbg !3517
+  %2 = call i8* @_RNvMNtNtCs3p84KrD9aKt_4core3ptr7mut_ptrOh3addCsdT7u4N7w2iC_20stack_map_and_mutate(i8* %_3, i64 %self), !dbg !3517
   br label %bb2, !dbg !3517
 
 bb2:                                              ; preds = %bb1
@@ -7145,13 +7153,13 @@ bb2:                                              ; preds = %bb1
 
 ; <core::ptr::unique::Unique<u8> as core::convert::Into<core::ptr::non_null::NonNull<u8>>>::into
 ; Function Attrs: nonlazybind uwtable
-define internal nonnull i8* @_RNvXs1_NtCs3p84KrD9aKt_4core7convertINtNtNtB7_3ptr6unique6UniquehEINtB5_4IntoINtNtBD_8non_null7NonNullhEE4intoCs37qxPUa7whq_20oneway_thread_access(i8* nonnull %self) unnamed_addr #0 !dbg !3519 {
+define internal nonnull i8* @_RNvXs1_NtCs3p84KrD9aKt_4core7convertINtNtNtB7_3ptr6unique6UniquehEINtB5_4IntoINtNtBD_8non_null7NonNullhEE4intoCsdT7u4N7w2iC_20stack_map_and_mutate(i8* nonnull %self) unnamed_addr #0 !dbg !3519 {
 start:
   %self.dbg.spill = alloca i8*, align 8
   store i8* %self, i8** %self.dbg.spill, align 8
   call void @llvm.dbg.declare(metadata i8** %self.dbg.spill, metadata !3526, metadata !DIExpression()), !dbg !3530
 ; call <core::ptr::non_null::NonNull<u8> as core::convert::From<core::ptr::unique::Unique<u8>>>::from
-  %0 = call nonnull i8* @_RNvXse_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullhEINtNtB9_7convert4FromINtNtB7_6unique6UniquehEE4fromCs37qxPUa7whq_20oneway_thread_access(i8* nonnull %self), !dbg !3531
+  %0 = call nonnull i8* @_RNvXse_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullhEINtNtB9_7convert4FromINtNtB7_6unique6UniquehEE4fromCsdT7u4N7w2iC_20stack_map_and_mutate(i8* nonnull %self), !dbg !3531
   br label %bb1, !dbg !3531
 
 bb1:                                              ; preds = %start
@@ -7160,13 +7168,13 @@ bb1:                                              ; preds = %start
 
 ; <&mut alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>> as core::convert::Into<core::ptr::non_null::NonNull<alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>>>>>::into
 ; Function Attrs: nonlazybind uwtable
-define internal nonnull i64* @_RNvXs1_NtCs3p84KrD9aKt_4core7convertQINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtB7_4cell10UnsafeCellINtNtB7_6option6OptionINtNtB7_6result6ResultuINtNtBE_5boxed3BoxDNtNtB7_3any3AnyNtNtB7_6marker4SendEL_EEEEEINtB5_4IntoINtNtNtB7_3ptr8non_null7NonNullBz_EE4intoCs37qxPUa7whq_20oneway_thread_access(%"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"* align 8 dereferenceable(40) %self) unnamed_addr #0 !dbg !3533 {
+define internal nonnull i64* @_RNvXs1_NtCs3p84KrD9aKt_4core7convertQINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtB7_4cell10UnsafeCellINtNtB7_6option6OptionINtNtB7_6result6ResultuINtNtBE_5boxed3BoxDNtNtB7_3any3AnyNtNtB7_6marker4SendEL_EEEEEINtB5_4IntoINtNtNtB7_3ptr8non_null7NonNullBz_EE4intoCsdT7u4N7w2iC_20stack_map_and_mutate(%"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"* align 8 dereferenceable(40) %self) unnamed_addr #0 !dbg !3533 {
 start:
   %self.dbg.spill = alloca %"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"*, align 8
   store %"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"* %self, %"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"** %self.dbg.spill, align 8
   call void @llvm.dbg.declare(metadata %"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"** %self.dbg.spill, metadata !3537, metadata !DIExpression()), !dbg !3541
 ; call <core::ptr::non_null::NonNull<alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>>> as core::convert::From<&mut alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>>>>::from
-  %0 = call nonnull i64* @_RNvXsf_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtB9_4cell10UnsafeCellINtNtB9_6option6OptionINtNtB9_6result6ResultuINtNtBY_5boxed3BoxDNtNtB9_3any3AnyNtNtB9_6marker4SendEL_EEEEEEINtNtB9_7convert4FromQBT_E4fromCs37qxPUa7whq_20oneway_thread_access(%"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"* align 8 dereferenceable(40) %self), !dbg !3542
+  %0 = call nonnull i64* @_RNvXsf_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtB9_4cell10UnsafeCellINtNtB9_6option6OptionINtNtB9_6result6ResultuINtNtBY_5boxed3BoxDNtNtB9_3any3AnyNtNtB9_6marker4SendEL_EEEEEEINtNtB9_7convert4FromQBT_E4fromCsdT7u4N7w2iC_20stack_map_and_mutate(%"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"* align 8 dereferenceable(40) %self), !dbg !3542
   br label %bb1, !dbg !3542
 
 bb1:                                              ; preds = %start
@@ -7175,7 +7183,7 @@ bb1:                                              ; preds = %start
 
 ; <alloc::raw_vec::RawVec<u8> as core::ops::drop::Drop>::drop
 ; Function Attrs: nonlazybind uwtable
-define internal void @_RNvXs1_NtCs8RW06R9lH2S_5alloc7raw_vecINtB5_6RawVechENtNtNtCs3p84KrD9aKt_4core3ops4drop4Drop4dropCs37qxPUa7whq_20oneway_thread_access({ i8*, i64 }* align 8 dereferenceable(16) %self) unnamed_addr #0 !dbg !3544 {
+define internal void @_RNvXs1_NtCs8RW06R9lH2S_5alloc7raw_vecINtB5_6RawVechENtNtNtCs3p84KrD9aKt_4core3ops4drop4Drop4dropCsdT7u4N7w2iC_20stack_map_and_mutate({ i8*, i64 }* align 8 dereferenceable(16) %self) unnamed_addr #0 !dbg !3544 {
 start:
   %layout.dbg.spill = alloca { i64, i64 }, align 8
   %ptr.dbg.spill = alloca i8*, align 8
@@ -7185,7 +7193,7 @@ start:
   store { i8*, i64 }* %self, { i8*, i64 }** %self.dbg.spill, align 8
   call void @llvm.dbg.declare(metadata { i8*, i64 }** %self.dbg.spill, metadata !3550, metadata !DIExpression()), !dbg !3554
 ; call <alloc::raw_vec::RawVec<u8>>::current_memory
-  call void @_RNvMs_NtCs8RW06R9lH2S_5alloc7raw_vecINtB4_6RawVechE14current_memoryCs37qxPUa7whq_20oneway_thread_access(%"std::option::Option<(std::ptr::NonNull<u8>, std::alloc::Layout)>"* noalias nocapture sret dereferenceable(24) %_2, { i8*, i64 }* noalias readonly align 8 dereferenceable(16) %self), !dbg !3555
+  call void @_RNvMs_NtCs8RW06R9lH2S_5alloc7raw_vecINtB4_6RawVechE14current_memoryCsdT7u4N7w2iC_20stack_map_and_mutate(%"std::option::Option<(std::ptr::NonNull<u8>, std::alloc::Layout)>"* noalias nocapture sret dereferenceable(24) %_2, { i8*, i64 }* noalias readonly align 8 dereferenceable(16) %self), !dbg !3555
   br label %bb1, !dbg !3555
 
 bb1:                                              ; preds = %start
@@ -7220,7 +7228,7 @@ bb3:                                              ; preds = %bb1
   call void @llvm.dbg.declare(metadata { i64, i64 }* %layout.dbg.spill, metadata !3553, metadata !DIExpression()), !dbg !3561
   %_7 = bitcast { i8*, i64 }* %self to %"std::alloc::Global"*, !dbg !3562
 ; call <alloc::alloc::Global as core::alloc::Allocator>::deallocate
-  call void @_RNvXs_NtCs8RW06R9lH2S_5alloc5allocNtB4_6GlobalNtNtCs3p84KrD9aKt_4core5alloc9Allocator10deallocateCs37qxPUa7whq_20oneway_thread_access(%"std::alloc::Global"* noalias nonnull readonly align 1 %_7, i8* nonnull %ptr, i64 %layout.0, i64 %layout.1), !dbg !3562
+  call void @_RNvXs_NtCs8RW06R9lH2S_5alloc5allocNtB4_6GlobalNtNtCs3p84KrD9aKt_4core5alloc9Allocator10deallocateCsdT7u4N7w2iC_20stack_map_and_mutate(%"std::alloc::Global"* noalias nonnull readonly align 1 %_7, i8* nonnull %ptr, i64 %layout.0, i64 %layout.1), !dbg !3562
   br label %bb4, !dbg !3562
 
 bb4:                                              ; preds = %bb3
@@ -7232,7 +7240,7 @@ bb5:                                              ; preds = %bb4, %bb2
 
 ; <std::ffi::c_str::CString as core::ops::drop::Drop>::drop
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal void @_RNvXs1_NtNtCs2bNvlddUlXM_3std3ffi5c_strNtB5_7CStringNtNtNtCs3p84KrD9aKt_4core3ops4drop4Drop4dropCs37qxPUa7whq_20oneway_thread_access({ i8*, i64 }* align 8 dereferenceable(16) %self) unnamed_addr #1 !dbg !3564 {
+define internal void @_RNvXs1_NtNtCs2bNvlddUlXM_3std3ffi5c_strNtB5_7CStringNtNtNtCs3p84KrD9aKt_4core3ops4drop4Drop4dropCsdT7u4N7w2iC_20stack_map_and_mutate({ i8*, i64 }* align 8 dereferenceable(16) %self) unnamed_addr #1 !dbg !3564 {
 start:
   %self.dbg.spill = alloca { i8*, i64 }*, align 8
   store { i8*, i64 }* %self, { i8*, i64 }** %self.dbg.spill, align 8
@@ -7243,7 +7251,7 @@ start:
   %2 = getelementptr inbounds { [0 x i8]*, i64 }, { [0 x i8]*, i64 }* %0, i32 0, i32 1, !dbg !3573
   %_3.1 = load i64, i64* %2, align 8, !dbg !3573
 ; call <[u8]>::get_unchecked_mut::<usize>
-  %_2 = call align 1 dereferenceable(1) i8* @_RINvMNtCs3p84KrD9aKt_4core5sliceSh17get_unchecked_mutjECs37qxPUa7whq_20oneway_thread_access([0 x i8]* nonnull align 1 %_3.0, i64 %_3.1, i64 0), !dbg !3573
+  %_2 = call align 1 dereferenceable(1) i8* @_RINvMNtCs3p84KrD9aKt_4core5sliceSh17get_unchecked_mutjECsdT7u4N7w2iC_20stack_map_and_mutate([0 x i8]* nonnull align 1 %_3.0, i64 %_3.1, i64 0), !dbg !3573
   br label %bb1, !dbg !3573
 
 bb1:                                              ; preds = %start
@@ -7253,7 +7261,7 @@ bb1:                                              ; preds = %start
 
 ; <core::alloc::AllocError as core::convert::From<core::alloc::AllocError>>::from
 ; Function Attrs: nonlazybind uwtable
-define internal void @_RNvXs2_NtCs3p84KrD9aKt_4core7convertNtNtB7_5alloc10AllocErrorINtB5_4FromBy_E4fromCs37qxPUa7whq_20oneway_thread_access() unnamed_addr #0 !dbg !3576 {
+define internal void @_RNvXs2_NtCs3p84KrD9aKt_4core7convertNtNtB7_5alloc10AllocErrorINtB5_4FromBy_E4fromCsdT7u4N7w2iC_20stack_map_and_mutate() unnamed_addr #0 !dbg !3576 {
 start:
   %t.dbg.spill = alloca %"std::alloc::AllocError", align 1
   call void @llvm.dbg.declare(metadata %"std::alloc::AllocError"* %t.dbg.spill, metadata !3580, metadata !DIExpression()), !dbg !3583
@@ -7262,7 +7270,7 @@ start:
 
 ; <std::io::error::Error as core::convert::From<std::io::error::Error>>::from
 ; Function Attrs: nonlazybind uwtable
-define internal i128 @_RNvXs2_NtCs3p84KrD9aKt_4core7convertNtNtNtCs2bNvlddUlXM_3std2io5error5ErrorINtB5_4FromBy_E4fromCs37qxPUa7whq_20oneway_thread_access(i128 %0) unnamed_addr #0 !dbg !3585 {
+define internal i128 @_RNvXs2_NtCs3p84KrD9aKt_4core7convertNtNtNtCs2bNvlddUlXM_3std2io5error5ErrorINtB5_4FromBy_E4fromCsdT7u4N7w2iC_20stack_map_and_mutate(i128 %0) unnamed_addr #0 !dbg !3585 {
 start:
   %1 = alloca %"std::io::Error", align 8
   %2 = alloca i128, align 8
@@ -7282,7 +7290,7 @@ start:
 
 ; <core::option::Option<alloc::sync::Arc<std::sync::mutex::Mutex<alloc::vec::Vec<u8>>>> as core::clone::Clone>::clone
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal i64* @_RNvXs8_NtCs3p84KrD9aKt_4core6optionINtB5_6OptionINtNtCs8RW06R9lH2S_5alloc4sync3ArcINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtBP_3vec3VechEEEENtNtB7_5clone5Clone5cloneCs37qxPUa7whq_20oneway_thread_access(i64** noalias readonly align 8 dereferenceable(8) %self) unnamed_addr #1 !dbg !3593 {
+define internal i64* @_RNvXs8_NtCs3p84KrD9aKt_4core6optionINtB5_6OptionINtNtCs8RW06R9lH2S_5alloc4sync3ArcINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtBP_3vec3VechEEEENtNtB7_5clone5Clone5cloneCsdT7u4N7w2iC_20stack_map_and_mutate(i64** noalias readonly align 8 dereferenceable(8) %self) unnamed_addr #1 !dbg !3593 {
 start:
   %x.dbg.spill = alloca i64**, align 8
   %self.dbg.spill = alloca i64**, align 8
@@ -7310,7 +7318,7 @@ bb3:                                              ; preds = %start
   store i64** %self, i64*** %x.dbg.spill, align 8, !dbg !3607
   call void @llvm.dbg.declare(metadata i64*** %x.dbg.spill, metadata !3600, metadata !DIExpression()), !dbg !3608
 ; call <alloc::sync::Arc<std::sync::mutex::Mutex<alloc::vec::Vec<u8>>> as core::clone::Clone>::clone
-  %_4 = call nonnull i64* @_RNvXsk_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtB7_3vec3VechEEENtNtCs3p84KrD9aKt_4core5clone5Clone5cloneCs37qxPUa7whq_20oneway_thread_access(i64** noalias readonly align 8 dereferenceable(8) %self), !dbg !3609
+  %_4 = call nonnull i64* @_RNvXsk_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtB7_3vec3VechEEENtNtCs3p84KrD9aKt_4core5clone5Clone5cloneCsdT7u4N7w2iC_20stack_map_and_mutate(i64** noalias readonly align 8 dereferenceable(8) %self), !dbg !3609
   br label %bb4, !dbg !3609
 
 bb4:                                              ; preds = %bb3
@@ -7324,7 +7332,7 @@ bb5:                                              ; preds = %bb1, %bb4
 
 ; <core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>> as core::default::Default>::default
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal void @_RNvXs9_NtCs3p84KrD9aKt_4core6optionINtB5_6OptionINtNtB7_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB7_3any3AnyNtNtB7_6marker4SendEL_EEENtNtB7_7default7Default7defaultCs37qxPUa7whq_20oneway_thread_access(%"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"* noalias nocapture sret dereferenceable(24) %0) unnamed_addr #1 !dbg !3612 {
+define internal void @_RNvXs9_NtCs3p84KrD9aKt_4core6optionINtB5_6OptionINtNtB7_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB7_3any3AnyNtNtB7_6marker4SendEL_EEENtNtB7_7default7Default7defaultCsdT7u4N7w2iC_20stack_map_and_mutate(%"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"* noalias nocapture sret dereferenceable(24) %0) unnamed_addr #1 !dbg !3612 {
 start:
   %1 = bitcast %"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"* %0 to i64*, !dbg !3615
   store i64 0, i64* %1, align 8, !dbg !3615
@@ -7333,7 +7341,7 @@ start:
 
 ; <core::option::Option<std::sys::unix::thread::Thread> as core::default::Default>::default
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal { i64, i64 } @_RNvXs9_NtCs3p84KrD9aKt_4core6optionINtB5_6OptionNtNtNtNtCs2bNvlddUlXM_3std3sys4unix6thread6ThreadENtNtB7_7default7Default7defaultCs37qxPUa7whq_20oneway_thread_access() unnamed_addr #1 !dbg !3617 {
+define internal { i64, i64 } @_RNvXs9_NtCs3p84KrD9aKt_4core6optionINtB5_6OptionNtNtNtNtCs2bNvlddUlXM_3std3sys4unix6thread6ThreadENtNtB7_7default7Default7defaultCsdT7u4N7w2iC_20stack_map_and_mutate() unnamed_addr #1 !dbg !3617 {
 start:
   %0 = alloca { i64, i64 }, align 8
   %1 = bitcast { i64, i64 }* %0 to i64*, !dbg !3620
@@ -7349,12 +7357,12 @@ start:
 
 ; <() as std::process::Termination>::report
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal i32 @_RNvXsC_NtCs2bNvlddUlXM_3std7processuNtB5_11Termination6reportCs37qxPUa7whq_20oneway_thread_access() unnamed_addr #1 !dbg !3622 {
+define internal i32 @_RNvXsC_NtCs2bNvlddUlXM_3std7processuNtB5_11Termination6reportCsdT7u4N7w2iC_20stack_map_and_mutate() unnamed_addr #1 !dbg !3622 {
 start:
   %self.dbg.spill = alloca {}, align 1
   call void @llvm.dbg.declare(metadata {}* %self.dbg.spill, metadata !3629, metadata !DIExpression()), !dbg !3630
 ; call <std::process::ExitCode as std::process::Termination>::report
-  %0 = call i32 @_RNvXsG_NtCs2bNvlddUlXM_3std7processNtB5_8ExitCodeNtB5_11Termination6reportCs37qxPUa7whq_20oneway_thread_access(i8 0), !dbg !3631
+  %0 = call i32 @_RNvXsG_NtCs2bNvlddUlXM_3std7processNtB5_8ExitCodeNtB5_11Termination6reportCsdT7u4N7w2iC_20stack_map_and_mutate(i8 0), !dbg !3631
   br label %bb1, !dbg !3631
 
 bb1:                                              ; preds = %start
@@ -7363,13 +7371,13 @@ bb1:                                              ; preds = %start
 
 ; <std::process::ExitCode as std::process::Termination>::report
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal i32 @_RNvXsG_NtCs2bNvlddUlXM_3std7processNtB5_8ExitCodeNtB5_11Termination6reportCs37qxPUa7whq_20oneway_thread_access(i8 %0) unnamed_addr #1 !dbg !3633 {
+define internal i32 @_RNvXsG_NtCs2bNvlddUlXM_3std7processNtB5_8ExitCodeNtB5_11Termination6reportCsdT7u4N7w2iC_20stack_map_and_mutate(i8 %0) unnamed_addr #1 !dbg !3633 {
 start:
   %self = alloca i8, align 1
   store i8 %0, i8* %self, align 1
   call void @llvm.dbg.declare(metadata i8* %self, metadata !3640, metadata !DIExpression()), !dbg !3641
 ; call <std::sys::unix::process::process_common::ExitCode>::as_i32
-  %1 = call i32 @_RNvMs7_NtNtNtNtCs2bNvlddUlXM_3std3sys4unix7process14process_commonNtB5_8ExitCode6as_i32Cs37qxPUa7whq_20oneway_thread_access(i8* noalias readonly align 1 dereferenceable(1) %self), !dbg !3642
+  %1 = call i32 @_RNvMs7_NtNtNtNtCs2bNvlddUlXM_3std3sys4unix7process14process_commonNtB5_8ExitCode6as_i32CsdT7u4N7w2iC_20stack_map_and_mutate(i8* noalias readonly align 1 dereferenceable(1) %self), !dbg !3642
   br label %bb1, !dbg !3642
 
 bb1:                                              ; preds = %start
@@ -7378,7 +7386,7 @@ bb1:                                              ; preds = %start
 
 ; <alloc::alloc::Global as core::alloc::Allocator>::deallocate
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal void @_RNvXs_NtCs8RW06R9lH2S_5alloc5allocNtB4_6GlobalNtNtCs3p84KrD9aKt_4core5alloc9Allocator10deallocateCs37qxPUa7whq_20oneway_thread_access(%"std::alloc::Global"* noalias nonnull readonly align 1 %self, i8* nonnull %ptr, i64 %0, i64 %1) unnamed_addr #1 !dbg !3644 {
+define internal void @_RNvXs_NtCs8RW06R9lH2S_5alloc5allocNtB4_6GlobalNtNtCs3p84KrD9aKt_4core5alloc9Allocator10deallocateCsdT7u4N7w2iC_20stack_map_and_mutate(%"std::alloc::Global"* noalias nonnull readonly align 1 %self, i8* nonnull %ptr, i64 %0, i64 %1) unnamed_addr #1 !dbg !3644 {
 start:
   %ptr.dbg.spill = alloca i8*, align 8
   %self.dbg.spill = alloca %"std::alloc::Global"*, align 8
@@ -7394,7 +7402,7 @@ start:
   call void @llvm.dbg.declare(metadata i8** %ptr.dbg.spill, metadata !3650, metadata !DIExpression()), !dbg !3653
   call void @llvm.dbg.declare(metadata { i64, i64 }* %layout, metadata !3651, metadata !DIExpression()), !dbg !3654
 ; call <core::alloc::layout::Layout>::size
-  %_4 = call i64 @_RNvMNtNtCs3p84KrD9aKt_4core5alloc6layoutNtB2_6Layout4sizeCs37qxPUa7whq_20oneway_thread_access({ i64, i64 }* noalias readonly align 8 dereferenceable(16) %layout), !dbg !3655
+  %_4 = call i64 @_RNvMNtNtCs3p84KrD9aKt_4core5alloc6layoutNtB2_6Layout4sizeCsdT7u4N7w2iC_20stack_map_and_mutate({ i64, i64 }* noalias readonly align 8 dereferenceable(16) %layout), !dbg !3655
   br label %bb1, !dbg !3655
 
 bb1:                                              ; preds = %start
@@ -7403,7 +7411,7 @@ bb1:                                              ; preds = %start
 
 bb2:                                              ; preds = %bb1
 ; call <core::ptr::non_null::NonNull<u8>>::as_ptr
-  %_6 = call i8* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullhE6as_ptrCs37qxPUa7whq_20oneway_thread_access(i8* nonnull %ptr), !dbg !3657
+  %_6 = call i8* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullhE6as_ptrCsdT7u4N7w2iC_20stack_map_and_mutate(i8* nonnull %ptr), !dbg !3657
   br label %bb4, !dbg !3657
 
 bb3:                                              ; preds = %bb1
@@ -7415,7 +7423,7 @@ bb4:                                              ; preds = %bb2
   %7 = getelementptr inbounds { i64, i64 }, { i64, i64 }* %layout, i32 0, i32 1, !dbg !3658
   %_8.1 = load i64, i64* %7, align 8, !dbg !3658, !range !2396
 ; call alloc::alloc::dealloc
-  call void @_RNvNtCs8RW06R9lH2S_5alloc5alloc7deallocCs37qxPUa7whq_20oneway_thread_access(i8* %_6, i64 %_8.0, i64 %_8.1), !dbg !3659
+  call void @_RNvNtCs8RW06R9lH2S_5alloc5alloc7deallocCsdT7u4N7w2iC_20stack_map_and_mutate(i8* %_6, i64 %_8.0, i64 %_8.1), !dbg !3659
   br label %bb5, !dbg !3659
 
 bb5:                                              ; preds = %bb4
@@ -7427,7 +7435,7 @@ bb6:                                              ; preds = %bb3, %bb5
 
 ; <alloc::alloc::Global as core::alloc::Allocator>::allocate
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal { i8*, i64 } @_RNvXs_NtCs8RW06R9lH2S_5alloc5allocNtB4_6GlobalNtNtCs3p84KrD9aKt_4core5alloc9Allocator8allocateCs37qxPUa7whq_20oneway_thread_access(%"std::alloc::Global"* noalias nonnull readonly align 1 %self, i64 %layout.0, i64 %layout.1) unnamed_addr #1 !dbg !3661 {
+define internal { i8*, i64 } @_RNvXs_NtCs8RW06R9lH2S_5alloc5allocNtB4_6GlobalNtNtCs3p84KrD9aKt_4core5alloc9Allocator8allocateCsdT7u4N7w2iC_20stack_map_and_mutate(%"std::alloc::Global"* noalias nonnull readonly align 1 %self, i64 %layout.0, i64 %layout.1) unnamed_addr #1 !dbg !3661 {
 start:
   %layout.dbg.spill = alloca { i64, i64 }, align 8
   %self.dbg.spill = alloca %"std::alloc::Global"*, align 8
@@ -7439,7 +7447,7 @@ start:
   store i64 %layout.1, i64* %1, align 8
   call void @llvm.dbg.declare(metadata { i64, i64 }* %layout.dbg.spill, metadata !3666, metadata !DIExpression()), !dbg !3668
 ; call <alloc::alloc::Global>::alloc_impl
-  %2 = call { i8*, i64 } @_RNvMNtCs8RW06R9lH2S_5alloc5allocNtB2_6Global10alloc_implCs37qxPUa7whq_20oneway_thread_access(%"std::alloc::Global"* noalias nonnull readonly align 1 %self, i64 %layout.0, i64 %layout.1, i1 zeroext false), !dbg !3669
+  %2 = call { i8*, i64 } @_RNvMNtCs8RW06R9lH2S_5alloc5allocNtB2_6Global10alloc_implCsdT7u4N7w2iC_20stack_map_and_mutate(%"std::alloc::Global"* noalias nonnull readonly align 1 %self, i64 %layout.0, i64 %layout.1, i1 zeroext false), !dbg !3669
   %3 = extractvalue { i8*, i64 } %2, 0, !dbg !3669
   %4 = extractvalue { i8*, i64 } %2, 1, !dbg !3669
   br label %bb1, !dbg !3669
@@ -7452,18 +7460,18 @@ bb1:                                              ; preds = %start
 
 ; <core::ptr::non_null::NonNull<u8> as core::convert::From<core::ptr::unique::Unique<u8>>>::from
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal nonnull i8* @_RNvXse_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullhEINtNtB9_7convert4FromINtNtB7_6unique6UniquehEE4fromCs37qxPUa7whq_20oneway_thread_access(i8* nonnull %unique) unnamed_addr #1 !dbg !3671 {
+define internal nonnull i8* @_RNvXse_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullhEINtNtB9_7convert4FromINtNtB7_6unique6UniquehEE4fromCsdT7u4N7w2iC_20stack_map_and_mutate(i8* nonnull %unique) unnamed_addr #1 !dbg !3671 {
 start:
   %unique.dbg.spill = alloca i8*, align 8
   store i8* %unique, i8** %unique.dbg.spill, align 8
   call void @llvm.dbg.declare(metadata i8** %unique.dbg.spill, metadata !3674, metadata !DIExpression()), !dbg !3675
 ; call <core::ptr::unique::Unique<u8>>::as_ptr
-  %_2 = call i8* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniquehE6as_ptrCs37qxPUa7whq_20oneway_thread_access(i8* nonnull %unique), !dbg !3676
+  %_2 = call i8* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniquehE6as_ptrCsdT7u4N7w2iC_20stack_map_and_mutate(i8* nonnull %unique), !dbg !3676
   br label %bb1, !dbg !3676
 
 bb1:                                              ; preds = %start
 ; call <core::ptr::non_null::NonNull<u8>>::new_unchecked
-  %0 = call nonnull i8* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullhE13new_uncheckedCs37qxPUa7whq_20oneway_thread_access(i8* %_2), !dbg !3677
+  %0 = call nonnull i8* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullhE13new_uncheckedCsdT7u4N7w2iC_20stack_map_and_mutate(i8* %_2), !dbg !3677
   br label %bb2, !dbg !3677
 
 bb2:                                              ; preds = %bb1
@@ -7472,7 +7480,7 @@ bb2:                                              ; preds = %bb1
 
 ; <core::ptr::non_null::NonNull<alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>>> as core::convert::From<&mut alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>>>>::from
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal nonnull i64* @_RNvXsf_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtB9_4cell10UnsafeCellINtNtB9_6option6OptionINtNtB9_6result6ResultuINtNtBY_5boxed3BoxDNtNtB9_3any3AnyNtNtB9_6marker4SendEL_EEEEEEINtNtB9_7convert4FromQBT_E4fromCs37qxPUa7whq_20oneway_thread_access(%"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"* align 8 dereferenceable(40) %reference) unnamed_addr #1 !dbg !3679 {
+define internal nonnull i64* @_RNvXsf_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtB9_4cell10UnsafeCellINtNtB9_6option6OptionINtNtB9_6result6ResultuINtNtBY_5boxed3BoxDNtNtB9_3any3AnyNtNtB9_6marker4SendEL_EEEEEEINtNtB9_7convert4FromQBT_E4fromCsdT7u4N7w2iC_20stack_map_and_mutate(%"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"* align 8 dereferenceable(40) %reference) unnamed_addr #1 !dbg !3679 {
 start:
   %reference.dbg.spill = alloca %"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"*, align 8
   %0 = alloca i64*, align 8
@@ -7486,7 +7494,7 @@ start:
 
 ; <std::thread::Thread as core::clone::Clone>::clone
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal nonnull i64* @_RNvXsk_NtCs2bNvlddUlXM_3std6threadNtB5_6ThreadNtNtCs3p84KrD9aKt_4core5clone5Clone5cloneCs37qxPUa7whq_20oneway_thread_access(i64** noalias readonly align 8 dereferenceable(8) %self) unnamed_addr #1 !dbg !3685 {
+define internal nonnull i64* @_RNvXsk_NtCs2bNvlddUlXM_3std6threadNtB5_6ThreadNtNtCs3p84KrD9aKt_4core5clone5Clone5cloneCsdT7u4N7w2iC_20stack_map_and_mutate(i64** noalias readonly align 8 dereferenceable(8) %self) unnamed_addr #1 !dbg !3685 {
 start:
   %__self_0_0.dbg.spill = alloca i64**, align 8
   %self.dbg.spill = alloca i64**, align 8
@@ -7496,7 +7504,7 @@ start:
   store i64** %self, i64*** %__self_0_0.dbg.spill, align 8, !dbg !3694
   call void @llvm.dbg.declare(metadata i64*** %__self_0_0.dbg.spill, metadata !3691, metadata !DIExpression()), !dbg !3695
 ; call <alloc::sync::Arc<std::thread::Inner> as core::clone::Clone>::clone
-  %_3 = call nonnull i64* @_RNvXsk_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcNtNtCs2bNvlddUlXM_3std6thread5InnerENtNtCs3p84KrD9aKt_4core5clone5Clone5cloneCs37qxPUa7whq_20oneway_thread_access(i64** noalias readonly align 8 dereferenceable(8) %self), !dbg !3695
+  %_3 = call nonnull i64* @_RNvXsk_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcNtNtCs2bNvlddUlXM_3std6thread5InnerENtNtCs3p84KrD9aKt_4core5clone5Clone5cloneCsdT7u4N7w2iC_20stack_map_and_mutate(i64** noalias readonly align 8 dereferenceable(8) %self), !dbg !3695
   br label %bb1, !dbg !3695
 
 bb1:                                              ; preds = %start
@@ -7507,7 +7515,7 @@ bb1:                                              ; preds = %start
 
 ; <alloc::sync::Arc<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>> as core::clone::Clone>::clone
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal nonnull i64* @_RNvXsk_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtBL_6option6OptionINtNtBL_6result6ResultuINtNtB7_5boxed3BoxDNtNtBL_3any3AnyNtNtBL_6marker4SendEL_EEEEENtNtBL_5clone5Clone5cloneCs37qxPUa7whq_20oneway_thread_access(i64** noalias readonly align 8 dereferenceable(8) %self) unnamed_addr #1 !dbg !3698 {
+define internal nonnull i64* @_RNvXsk_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtBL_6option6OptionINtNtBL_6result6ResultuINtNtB7_5boxed3BoxDNtNtBL_3any3AnyNtNtBL_6marker4SendEL_EEEEENtNtBL_5clone5Clone5cloneCsdT7u4N7w2iC_20stack_map_and_mutate(i64** noalias readonly align 8 dereferenceable(8) %self) unnamed_addr #1 !dbg !3698 {
 start:
   %old_size.dbg.spill = alloca i64, align 8
   %self.dbg.spill = alloca i64**, align 8
@@ -7515,7 +7523,7 @@ start:
   store i64** %self, i64*** %self.dbg.spill, align 8
   call void @llvm.dbg.declare(metadata i64*** %self.dbg.spill, metadata !3703, metadata !DIExpression()), !dbg !3706
 ; call <alloc::sync::Arc<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>>>::inner
-  %_4 = call align 8 dereferenceable(40) %"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"* @_RNvMse_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtBL_6option6OptionINtNtBL_6result6ResultuINtNtB7_5boxed3BoxDNtNtBL_3any3AnyNtNtBL_6marker4SendEL_EEEEE5innerCs37qxPUa7whq_20oneway_thread_access(i64** noalias readonly align 8 dereferenceable(8) %self), !dbg !3707
+  %_4 = call align 8 dereferenceable(40) %"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"* @_RNvMse_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtBL_6option6OptionINtNtBL_6result6ResultuINtNtB7_5boxed3BoxDNtNtBL_3any3AnyNtNtBL_6marker4SendEL_EEEEE5innerCsdT7u4N7w2iC_20stack_map_and_mutate(i64** noalias readonly align 8 dereferenceable(8) %self), !dbg !3707
   br label %bb1, !dbg !3707
 
 bb1:                                              ; preds = %start
@@ -7523,7 +7531,7 @@ bb1:                                              ; preds = %start
   store i8 0, i8* %_6, align 1, !dbg !3708
   %0 = load i8, i8* %_6, align 1, !dbg !3707, !range !2118
 ; call <core::sync::atomic::AtomicUsize>::fetch_add
-  %old_size = call i64 @_RNvMs15_NtNtCs3p84KrD9aKt_4core4sync6atomicNtB6_11AtomicUsize9fetch_addCs37qxPUa7whq_20oneway_thread_access(%"std::sync::atomic::AtomicUsize"* align 8 dereferenceable(8) %_3, i64 1, i8 %0), !dbg !3707
+  %old_size = call i64 @_RNvMs15_NtNtCs3p84KrD9aKt_4core4sync6atomicNtB6_11AtomicUsize9fetch_addCsdT7u4N7w2iC_20stack_map_and_mutate(%"std::sync::atomic::AtomicUsize"* align 8 dereferenceable(8) %_3, i64 1, i8 %0), !dbg !3707
   store i64 %old_size, i64* %old_size.dbg.spill, align 8, !dbg !3707
   call void @llvm.dbg.declare(metadata i64* %old_size.dbg.spill, metadata !3704, metadata !DIExpression()), !dbg !3709
   br label %bb2, !dbg !3707
@@ -7539,7 +7547,7 @@ bb3:                                              ; preds = %bb2
 bb4:                                              ; preds = %bb2
   %_9 = load i64*, i64** %self, align 8, !dbg !3713, !nonnull !4
 ; call <alloc::sync::Arc<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>>>::from_inner
-  %1 = call nonnull i64* @_RNvMs2_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtBL_6option6OptionINtNtBL_6result6ResultuINtNtB7_5boxed3BoxDNtNtBL_3any3AnyNtNtBL_6marker4SendEL_EEEEE10from_innerCs37qxPUa7whq_20oneway_thread_access(i64* nonnull %_9), !dbg !3714
+  %1 = call nonnull i64* @_RNvMs2_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtBL_6option6OptionINtNtBL_6result6ResultuINtNtB7_5boxed3BoxDNtNtBL_3any3AnyNtNtBL_6marker4SendEL_EEEEE10from_innerCsdT7u4N7w2iC_20stack_map_and_mutate(i64* nonnull %_9), !dbg !3714
   br label %bb5, !dbg !3714
 
 bb5:                                              ; preds = %bb4
@@ -7548,7 +7556,7 @@ bb5:                                              ; preds = %bb4
 
 ; <alloc::sync::Arc<std::sync::mutex::Mutex<alloc::vec::Vec<u8>>> as core::clone::Clone>::clone
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal nonnull i64* @_RNvXsk_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtB7_3vec3VechEEENtNtCs3p84KrD9aKt_4core5clone5Clone5cloneCs37qxPUa7whq_20oneway_thread_access(i64** noalias readonly align 8 dereferenceable(8) %self) unnamed_addr #1 !dbg !3716 {
+define internal nonnull i64* @_RNvXsk_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtB7_3vec3VechEEENtNtCs3p84KrD9aKt_4core5clone5Clone5cloneCsdT7u4N7w2iC_20stack_map_and_mutate(i64** noalias readonly align 8 dereferenceable(8) %self) unnamed_addr #1 !dbg !3716 {
 start:
   %old_size.dbg.spill = alloca i64, align 8
   %self.dbg.spill = alloca i64**, align 8
@@ -7556,7 +7564,7 @@ start:
   store i64** %self, i64*** %self.dbg.spill, align 8
   call void @llvm.dbg.declare(metadata i64*** %self.dbg.spill, metadata !3720, metadata !DIExpression()), !dbg !3723
 ; call <alloc::sync::Arc<std::sync::mutex::Mutex<alloc::vec::Vec<u8>>>>::inner
-  %_4 = call align 8 dereferenceable(56) %"alloc::sync::ArcInner<std::sync::Mutex<std::vec::Vec<u8>>>"* @_RNvMse_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtB7_3vec3VechEEE5innerCs37qxPUa7whq_20oneway_thread_access(i64** noalias readonly align 8 dereferenceable(8) %self), !dbg !3724
+  %_4 = call align 8 dereferenceable(56) %"alloc::sync::ArcInner<std::sync::Mutex<std::vec::Vec<u8>>>"* @_RNvMse_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtB7_3vec3VechEEE5innerCsdT7u4N7w2iC_20stack_map_and_mutate(i64** noalias readonly align 8 dereferenceable(8) %self), !dbg !3724
   br label %bb1, !dbg !3724
 
 bb1:                                              ; preds = %start
@@ -7564,7 +7572,7 @@ bb1:                                              ; preds = %start
   store i8 0, i8* %_6, align 1, !dbg !3725
   %0 = load i8, i8* %_6, align 1, !dbg !3724, !range !2118
 ; call <core::sync::atomic::AtomicUsize>::fetch_add
-  %old_size = call i64 @_RNvMs15_NtNtCs3p84KrD9aKt_4core4sync6atomicNtB6_11AtomicUsize9fetch_addCs37qxPUa7whq_20oneway_thread_access(%"std::sync::atomic::AtomicUsize"* align 8 dereferenceable(8) %_3, i64 1, i8 %0), !dbg !3724
+  %old_size = call i64 @_RNvMs15_NtNtCs3p84KrD9aKt_4core4sync6atomicNtB6_11AtomicUsize9fetch_addCsdT7u4N7w2iC_20stack_map_and_mutate(%"std::sync::atomic::AtomicUsize"* align 8 dereferenceable(8) %_3, i64 1, i8 %0), !dbg !3724
   store i64 %old_size, i64* %old_size.dbg.spill, align 8, !dbg !3724
   call void @llvm.dbg.declare(metadata i64* %old_size.dbg.spill, metadata !3721, metadata !DIExpression()), !dbg !3726
   br label %bb2, !dbg !3724
@@ -7580,7 +7588,7 @@ bb3:                                              ; preds = %bb2
 bb4:                                              ; preds = %bb2
   %_9 = load i64*, i64** %self, align 8, !dbg !3730, !nonnull !4
 ; call <alloc::sync::Arc<std::sync::mutex::Mutex<alloc::vec::Vec<u8>>>>::from_inner
-  %1 = call nonnull i64* @_RNvMs2_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtB7_3vec3VechEEE10from_innerCs37qxPUa7whq_20oneway_thread_access(i64* nonnull %_9), !dbg !3731
+  %1 = call nonnull i64* @_RNvMs2_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtB7_3vec3VechEEE10from_innerCsdT7u4N7w2iC_20stack_map_and_mutate(i64* nonnull %_9), !dbg !3731
   br label %bb5, !dbg !3731
 
 bb5:                                              ; preds = %bb4
@@ -7589,7 +7597,7 @@ bb5:                                              ; preds = %bb4
 
 ; <alloc::sync::Arc<std::thread::Inner> as core::clone::Clone>::clone
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal nonnull i64* @_RNvXsk_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcNtNtCs2bNvlddUlXM_3std6thread5InnerENtNtCs3p84KrD9aKt_4core5clone5Clone5cloneCs37qxPUa7whq_20oneway_thread_access(i64** noalias readonly align 8 dereferenceable(8) %self) unnamed_addr #1 !dbg !3733 {
+define internal nonnull i64* @_RNvXsk_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcNtNtCs2bNvlddUlXM_3std6thread5InnerENtNtCs3p84KrD9aKt_4core5clone5Clone5cloneCsdT7u4N7w2iC_20stack_map_and_mutate(i64** noalias readonly align 8 dereferenceable(8) %self) unnamed_addr #1 !dbg !3733 {
 start:
   %old_size.dbg.spill = alloca i64, align 8
   %self.dbg.spill = alloca i64**, align 8
@@ -7597,7 +7605,7 @@ start:
   store i64** %self, i64*** %self.dbg.spill, align 8
   call void @llvm.dbg.declare(metadata i64*** %self.dbg.spill, metadata !3737, metadata !DIExpression()), !dbg !3740
 ; call <alloc::sync::Arc<std::thread::Inner>>::inner
-  %_4 = call align 8 dereferenceable(48) %"alloc::sync::ArcInner<std::thread::Inner>"* @_RNvMse_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcNtNtCs2bNvlddUlXM_3std6thread5InnerE5innerCs37qxPUa7whq_20oneway_thread_access(i64** noalias readonly align 8 dereferenceable(8) %self), !dbg !3741
+  %_4 = call align 8 dereferenceable(48) %"alloc::sync::ArcInner<std::thread::Inner>"* @_RNvMse_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcNtNtCs2bNvlddUlXM_3std6thread5InnerE5innerCsdT7u4N7w2iC_20stack_map_and_mutate(i64** noalias readonly align 8 dereferenceable(8) %self), !dbg !3741
   br label %bb1, !dbg !3741
 
 bb1:                                              ; preds = %start
@@ -7605,7 +7613,7 @@ bb1:                                              ; preds = %start
   store i8 0, i8* %_6, align 1, !dbg !3742
   %0 = load i8, i8* %_6, align 1, !dbg !3741, !range !2118
 ; call <core::sync::atomic::AtomicUsize>::fetch_add
-  %old_size = call i64 @_RNvMs15_NtNtCs3p84KrD9aKt_4core4sync6atomicNtB6_11AtomicUsize9fetch_addCs37qxPUa7whq_20oneway_thread_access(%"std::sync::atomic::AtomicUsize"* align 8 dereferenceable(8) %_3, i64 1, i8 %0), !dbg !3741
+  %old_size = call i64 @_RNvMs15_NtNtCs3p84KrD9aKt_4core4sync6atomicNtB6_11AtomicUsize9fetch_addCsdT7u4N7w2iC_20stack_map_and_mutate(%"std::sync::atomic::AtomicUsize"* align 8 dereferenceable(8) %_3, i64 1, i8 %0), !dbg !3741
   store i64 %old_size, i64* %old_size.dbg.spill, align 8, !dbg !3741
   call void @llvm.dbg.declare(metadata i64* %old_size.dbg.spill, metadata !3738, metadata !DIExpression()), !dbg !3743
   br label %bb2, !dbg !3741
@@ -7621,7 +7629,7 @@ bb3:                                              ; preds = %bb2
 bb4:                                              ; preds = %bb2
   %_9 = load i64*, i64** %self, align 8, !dbg !3747, !nonnull !4
 ; call <alloc::sync::Arc<std::thread::Inner>>::from_inner
-  %1 = call nonnull i64* @_RNvMs2_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcNtNtCs2bNvlddUlXM_3std6thread5InnerE10from_innerCs37qxPUa7whq_20oneway_thread_access(i64* nonnull %_9), !dbg !3748
+  %1 = call nonnull i64* @_RNvMs2_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcNtNtCs2bNvlddUlXM_3std6thread5InnerE10from_innerCsdT7u4N7w2iC_20stack_map_and_mutate(i64* nonnull %_9), !dbg !3748
   br label %bb5, !dbg !3748
 
 bb5:                                              ; preds = %bb4
@@ -7630,13 +7638,13 @@ bb5:                                              ; preds = %bb4
 
 ; <alloc::sync::Arc<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>> as core::ops::deref::Deref>::deref
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal align 8 dereferenceable(24) %"std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>"* @_RNvXsl_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtBL_6option6OptionINtNtBL_6result6ResultuINtNtB7_5boxed3BoxDNtNtBL_3any3AnyNtNtBL_6marker4SendEL_EEEEENtNtNtBL_3ops5deref5Deref5derefCs37qxPUa7whq_20oneway_thread_access(i64** noalias readonly align 8 dereferenceable(8) %self) unnamed_addr #1 !dbg !3750 {
+define internal align 8 dereferenceable(24) %"std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>"* @_RNvXsl_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtBL_6option6OptionINtNtBL_6result6ResultuINtNtB7_5boxed3BoxDNtNtBL_3any3AnyNtNtBL_6marker4SendEL_EEEEENtNtNtBL_3ops5deref5Deref5derefCsdT7u4N7w2iC_20stack_map_and_mutate(i64** noalias readonly align 8 dereferenceable(8) %self) unnamed_addr #1 !dbg !3750 {
 start:
   %self.dbg.spill = alloca i64**, align 8
   store i64** %self, i64*** %self.dbg.spill, align 8
   call void @llvm.dbg.declare(metadata i64*** %self.dbg.spill, metadata !3754, metadata !DIExpression()), !dbg !3755
 ; call <alloc::sync::Arc<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>>>::inner
-  %_2 = call align 8 dereferenceable(40) %"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"* @_RNvMse_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtBL_6option6OptionINtNtBL_6result6ResultuINtNtB7_5boxed3BoxDNtNtBL_3any3AnyNtNtBL_6marker4SendEL_EEEEE5innerCs37qxPUa7whq_20oneway_thread_access(i64** noalias readonly align 8 dereferenceable(8) %self), !dbg !3756
+  %_2 = call align 8 dereferenceable(40) %"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"* @_RNvMse_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtBL_6option6OptionINtNtBL_6result6ResultuINtNtB7_5boxed3BoxDNtNtBL_3any3AnyNtNtBL_6marker4SendEL_EEEEE5innerCsdT7u4N7w2iC_20stack_map_and_mutate(i64** noalias readonly align 8 dereferenceable(8) %self), !dbg !3756
   br label %bb1, !dbg !3756
 
 bb1:                                              ; preds = %start
@@ -7646,20 +7654,20 @@ bb1:                                              ; preds = %start
 
 ; <alloc::vec::Vec<u8> as core::ops::drop::Drop>::drop
 ; Function Attrs: nonlazybind uwtable
-define internal void @_RNvXsm_NtCs8RW06R9lH2S_5alloc3vecINtB5_3VechENtNtNtCs3p84KrD9aKt_4core3ops4drop4Drop4dropCs37qxPUa7whq_20oneway_thread_access(%"std::vec::Vec<u8>"* align 8 dereferenceable(24) %self) unnamed_addr #0 !dbg !3759 {
+define internal void @_RNvXsm_NtCs8RW06R9lH2S_5alloc3vecINtB5_3VechENtNtNtCs3p84KrD9aKt_4core3ops4drop4Drop4dropCsdT7u4N7w2iC_20stack_map_and_mutate(%"std::vec::Vec<u8>"* align 8 dereferenceable(24) %self) unnamed_addr #0 !dbg !3759 {
 start:
   %self.dbg.spill = alloca %"std::vec::Vec<u8>"*, align 8
   store %"std::vec::Vec<u8>"* %self, %"std::vec::Vec<u8>"** %self.dbg.spill, align 8
   call void @llvm.dbg.declare(metadata %"std::vec::Vec<u8>"** %self.dbg.spill, metadata !3764, metadata !DIExpression()), !dbg !3765
 ; call <alloc::vec::Vec<u8>>::as_mut_ptr
-  %_3 = call i8* @_RNvMs_NtCs8RW06R9lH2S_5alloc3vecINtB4_3VechE10as_mut_ptrCs37qxPUa7whq_20oneway_thread_access(%"std::vec::Vec<u8>"* align 8 dereferenceable(24) %self), !dbg !3766
+  %_3 = call i8* @_RNvMs_NtCs8RW06R9lH2S_5alloc3vecINtB4_3VechE10as_mut_ptrCsdT7u4N7w2iC_20stack_map_and_mutate(%"std::vec::Vec<u8>"* align 8 dereferenceable(24) %self), !dbg !3766
   br label %bb1, !dbg !3766
 
 bb1:                                              ; preds = %start
   %0 = getelementptr inbounds %"std::vec::Vec<u8>", %"std::vec::Vec<u8>"* %self, i32 0, i32 3, !dbg !3767
   %_5 = load i64, i64* %0, align 8, !dbg !3767
 ; call core::ptr::slice_from_raw_parts_mut::<u8>
-  %1 = call { [0 x i8]*, i64 } @_RINvNtCs3p84KrD9aKt_4core3ptr24slice_from_raw_parts_muthECs37qxPUa7whq_20oneway_thread_access(i8* %_3, i64 %_5), !dbg !3768
+  %1 = call { [0 x i8]*, i64 } @_RINvNtCs3p84KrD9aKt_4core3ptr24slice_from_raw_parts_muthECsdT7u4N7w2iC_20stack_map_and_mutate(i8* %_3, i64 %_5), !dbg !3768
   %_2.0 = extractvalue { [0 x i8]*, i64 } %1, 0, !dbg !3768
   %_2.1 = extractvalue { [0 x i8]*, i64 } %1, 1, !dbg !3768
   br label %bb2, !dbg !3768
@@ -7673,7 +7681,7 @@ bb3:                                              ; preds = %bb2
 
 ; <alloc::sync::Arc<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>> as core::ops::drop::Drop>::drop
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal void @_RNvXsp_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtBL_6option6OptionINtNtBL_6result6ResultuINtNtB7_5boxed3BoxDNtNtBL_3any3AnyNtNtBL_6marker4SendEL_EEEEENtNtNtBL_3ops4drop4Drop4dropCs37qxPUa7whq_20oneway_thread_access(i64** align 8 dereferenceable(8) %self) unnamed_addr #1 !dbg !3771 {
+define internal void @_RNvXsp_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtBL_6option6OptionINtNtBL_6result6ResultuINtNtB7_5boxed3BoxDNtNtBL_3any3AnyNtNtBL_6marker4SendEL_EEEEENtNtNtBL_3ops4drop4Drop4dropCsdT7u4N7w2iC_20stack_map_and_mutate(i64** align 8 dereferenceable(8) %self) unnamed_addr #1 !dbg !3771 {
 start:
   %self.dbg.spill = alloca i64**, align 8
   %_8 = alloca i8, align 1
@@ -7682,7 +7690,7 @@ start:
   store i64** %self, i64*** %self.dbg.spill, align 8
   call void @llvm.dbg.declare(metadata i64*** %self.dbg.spill, metadata !3773, metadata !DIExpression()), !dbg !3774
 ; call <alloc::sync::Arc<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>>>::inner
-  %_4 = call align 8 dereferenceable(40) %"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"* @_RNvMse_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtBL_6option6OptionINtNtBL_6result6ResultuINtNtB7_5boxed3BoxDNtNtBL_3any3AnyNtNtBL_6marker4SendEL_EEEEE5innerCs37qxPUa7whq_20oneway_thread_access(i64** noalias readonly align 8 dereferenceable(8) %self), !dbg !3775
+  %_4 = call align 8 dereferenceable(40) %"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"* @_RNvMse_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtBL_6option6OptionINtNtBL_6result6ResultuINtNtB7_5boxed3BoxDNtNtBL_3any3AnyNtNtBL_6marker4SendEL_EEEEE5innerCsdT7u4N7w2iC_20stack_map_and_mutate(i64** noalias readonly align 8 dereferenceable(8) %self), !dbg !3775
   br label %bb1, !dbg !3775
 
 bb1:                                              ; preds = %start
@@ -7690,7 +7698,7 @@ bb1:                                              ; preds = %start
   store i8 1, i8* %_6, align 1, !dbg !3776
   %1 = load i8, i8* %_6, align 1, !dbg !3775, !range !2118
 ; call <core::sync::atomic::AtomicUsize>::fetch_sub
-  %_2 = call i64 @_RNvMs15_NtNtCs3p84KrD9aKt_4core4sync6atomicNtB6_11AtomicUsize9fetch_subCs37qxPUa7whq_20oneway_thread_access(%"std::sync::atomic::AtomicUsize"* align 8 dereferenceable(8) %_3, i64 1, i8 %1), !dbg !3775
+  %_2 = call i64 @_RNvMs15_NtNtCs3p84KrD9aKt_4core4sync6atomicNtB6_11AtomicUsize9fetch_subCsdT7u4N7w2iC_20stack_map_and_mutate(%"std::sync::atomic::AtomicUsize"* align 8 dereferenceable(8) %_3, i64 1, i8 %1), !dbg !3775
   br label %bb2, !dbg !3775
 
 bb2:                                              ; preds = %bb1
@@ -7704,12 +7712,12 @@ bb4:                                              ; preds = %bb2
   store i8 2, i8* %_8, align 1, !dbg !3779
   %3 = load i8, i8* %_8, align 1, !dbg !3779, !range !2118
 ; call core::sync::atomic::fence
-  call void @_RNvNtNtCs3p84KrD9aKt_4core4sync6atomic5fenceCs37qxPUa7whq_20oneway_thread_access(i8 %3), !dbg !3779
+  call void @_RNvNtNtCs3p84KrD9aKt_4core4sync6atomic5fenceCsdT7u4N7w2iC_20stack_map_and_mutate(i8 %3), !dbg !3779
   br label %bb5, !dbg !3779
 
 bb5:                                              ; preds = %bb4
 ; call <alloc::sync::Arc<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>>>::drop_slow
-  call void @_RNvMse_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtBL_6option6OptionINtNtBL_6result6ResultuINtNtB7_5boxed3BoxDNtNtBL_3any3AnyNtNtBL_6marker4SendEL_EEEEE9drop_slowCs37qxPUa7whq_20oneway_thread_access(i64** align 8 dereferenceable(8) %self), !dbg !3780
+  call void @_RNvMse_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtBL_6option6OptionINtNtBL_6result6ResultuINtNtB7_5boxed3BoxDNtNtBL_3any3AnyNtNtBL_6marker4SendEL_EEEEE9drop_slowCsdT7u4N7w2iC_20stack_map_and_mutate(i64** align 8 dereferenceable(8) %self), !dbg !3780
   br label %bb6, !dbg !3780
 
 bb6:                                              ; preds = %bb5
@@ -7721,7 +7729,7 @@ bb7:                                              ; preds = %bb6, %bb3
 
 ; <alloc::sync::Arc<std::sync::mutex::Mutex<alloc::vec::Vec<u8>>> as core::ops::drop::Drop>::drop
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal void @_RNvXsp_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtB7_3vec3VechEEENtNtNtCs3p84KrD9aKt_4core3ops4drop4Drop4dropCs37qxPUa7whq_20oneway_thread_access(i64** align 8 dereferenceable(8) %self) unnamed_addr #1 !dbg !3781 {
+define internal void @_RNvXsp_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtB7_3vec3VechEEENtNtNtCs3p84KrD9aKt_4core3ops4drop4Drop4dropCsdT7u4N7w2iC_20stack_map_and_mutate(i64** align 8 dereferenceable(8) %self) unnamed_addr #1 !dbg !3781 {
 start:
   %self.dbg.spill = alloca i64**, align 8
   %_8 = alloca i8, align 1
@@ -7730,7 +7738,7 @@ start:
   store i64** %self, i64*** %self.dbg.spill, align 8
   call void @llvm.dbg.declare(metadata i64*** %self.dbg.spill, metadata !3783, metadata !DIExpression()), !dbg !3784
 ; call <alloc::sync::Arc<std::sync::mutex::Mutex<alloc::vec::Vec<u8>>>>::inner
-  %_4 = call align 8 dereferenceable(56) %"alloc::sync::ArcInner<std::sync::Mutex<std::vec::Vec<u8>>>"* @_RNvMse_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtB7_3vec3VechEEE5innerCs37qxPUa7whq_20oneway_thread_access(i64** noalias readonly align 8 dereferenceable(8) %self), !dbg !3785
+  %_4 = call align 8 dereferenceable(56) %"alloc::sync::ArcInner<std::sync::Mutex<std::vec::Vec<u8>>>"* @_RNvMse_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtB7_3vec3VechEEE5innerCsdT7u4N7w2iC_20stack_map_and_mutate(i64** noalias readonly align 8 dereferenceable(8) %self), !dbg !3785
   br label %bb1, !dbg !3785
 
 bb1:                                              ; preds = %start
@@ -7738,7 +7746,7 @@ bb1:                                              ; preds = %start
   store i8 1, i8* %_6, align 1, !dbg !3786
   %1 = load i8, i8* %_6, align 1, !dbg !3785, !range !2118
 ; call <core::sync::atomic::AtomicUsize>::fetch_sub
-  %_2 = call i64 @_RNvMs15_NtNtCs3p84KrD9aKt_4core4sync6atomicNtB6_11AtomicUsize9fetch_subCs37qxPUa7whq_20oneway_thread_access(%"std::sync::atomic::AtomicUsize"* align 8 dereferenceable(8) %_3, i64 1, i8 %1), !dbg !3785
+  %_2 = call i64 @_RNvMs15_NtNtCs3p84KrD9aKt_4core4sync6atomicNtB6_11AtomicUsize9fetch_subCsdT7u4N7w2iC_20stack_map_and_mutate(%"std::sync::atomic::AtomicUsize"* align 8 dereferenceable(8) %_3, i64 1, i8 %1), !dbg !3785
   br label %bb2, !dbg !3785
 
 bb2:                                              ; preds = %bb1
@@ -7752,12 +7760,12 @@ bb4:                                              ; preds = %bb2
   store i8 2, i8* %_8, align 1, !dbg !3789
   %3 = load i8, i8* %_8, align 1, !dbg !3789, !range !2118
 ; call core::sync::atomic::fence
-  call void @_RNvNtNtCs3p84KrD9aKt_4core4sync6atomic5fenceCs37qxPUa7whq_20oneway_thread_access(i8 %3), !dbg !3789
+  call void @_RNvNtNtCs3p84KrD9aKt_4core4sync6atomic5fenceCsdT7u4N7w2iC_20stack_map_and_mutate(i8 %3), !dbg !3789
   br label %bb5, !dbg !3789
 
 bb5:                                              ; preds = %bb4
 ; call <alloc::sync::Arc<std::sync::mutex::Mutex<alloc::vec::Vec<u8>>>>::drop_slow
-  call void @_RNvMse_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtB7_3vec3VechEEE9drop_slowCs37qxPUa7whq_20oneway_thread_access(i64** align 8 dereferenceable(8) %self), !dbg !3790
+  call void @_RNvMse_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtB7_3vec3VechEEE9drop_slowCsdT7u4N7w2iC_20stack_map_and_mutate(i64** align 8 dereferenceable(8) %self), !dbg !3790
   br label %bb6, !dbg !3790
 
 bb6:                                              ; preds = %bb5
@@ -7769,7 +7777,7 @@ bb7:                                              ; preds = %bb6, %bb3
 
 ; <alloc::sync::Arc<std::thread::Inner> as core::ops::drop::Drop>::drop
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal void @_RNvXsp_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcNtNtCs2bNvlddUlXM_3std6thread5InnerENtNtNtCs3p84KrD9aKt_4core3ops4drop4Drop4dropCs37qxPUa7whq_20oneway_thread_access(i64** align 8 dereferenceable(8) %self) unnamed_addr #1 !dbg !3791 {
+define internal void @_RNvXsp_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcNtNtCs2bNvlddUlXM_3std6thread5InnerENtNtNtCs3p84KrD9aKt_4core3ops4drop4Drop4dropCsdT7u4N7w2iC_20stack_map_and_mutate(i64** align 8 dereferenceable(8) %self) unnamed_addr #1 !dbg !3791 {
 start:
   %self.dbg.spill = alloca i64**, align 8
   %_8 = alloca i8, align 1
@@ -7778,7 +7786,7 @@ start:
   store i64** %self, i64*** %self.dbg.spill, align 8
   call void @llvm.dbg.declare(metadata i64*** %self.dbg.spill, metadata !3793, metadata !DIExpression()), !dbg !3794
 ; call <alloc::sync::Arc<std::thread::Inner>>::inner
-  %_4 = call align 8 dereferenceable(48) %"alloc::sync::ArcInner<std::thread::Inner>"* @_RNvMse_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcNtNtCs2bNvlddUlXM_3std6thread5InnerE5innerCs37qxPUa7whq_20oneway_thread_access(i64** noalias readonly align 8 dereferenceable(8) %self), !dbg !3795
+  %_4 = call align 8 dereferenceable(48) %"alloc::sync::ArcInner<std::thread::Inner>"* @_RNvMse_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcNtNtCs2bNvlddUlXM_3std6thread5InnerE5innerCsdT7u4N7w2iC_20stack_map_and_mutate(i64** noalias readonly align 8 dereferenceable(8) %self), !dbg !3795
   br label %bb1, !dbg !3795
 
 bb1:                                              ; preds = %start
@@ -7786,7 +7794,7 @@ bb1:                                              ; preds = %start
   store i8 1, i8* %_6, align 1, !dbg !3796
   %1 = load i8, i8* %_6, align 1, !dbg !3795, !range !2118
 ; call <core::sync::atomic::AtomicUsize>::fetch_sub
-  %_2 = call i64 @_RNvMs15_NtNtCs3p84KrD9aKt_4core4sync6atomicNtB6_11AtomicUsize9fetch_subCs37qxPUa7whq_20oneway_thread_access(%"std::sync::atomic::AtomicUsize"* align 8 dereferenceable(8) %_3, i64 1, i8 %1), !dbg !3795
+  %_2 = call i64 @_RNvMs15_NtNtCs3p84KrD9aKt_4core4sync6atomicNtB6_11AtomicUsize9fetch_subCsdT7u4N7w2iC_20stack_map_and_mutate(%"std::sync::atomic::AtomicUsize"* align 8 dereferenceable(8) %_3, i64 1, i8 %1), !dbg !3795
   br label %bb2, !dbg !3795
 
 bb2:                                              ; preds = %bb1
@@ -7800,12 +7808,12 @@ bb4:                                              ; preds = %bb2
   store i8 2, i8* %_8, align 1, !dbg !3799
   %3 = load i8, i8* %_8, align 1, !dbg !3799, !range !2118
 ; call core::sync::atomic::fence
-  call void @_RNvNtNtCs3p84KrD9aKt_4core4sync6atomic5fenceCs37qxPUa7whq_20oneway_thread_access(i8 %3), !dbg !3799
+  call void @_RNvNtNtCs3p84KrD9aKt_4core4sync6atomic5fenceCsdT7u4N7w2iC_20stack_map_and_mutate(i8 %3), !dbg !3799
   br label %bb5, !dbg !3799
 
 bb5:                                              ; preds = %bb4
 ; call <alloc::sync::Arc<std::thread::Inner>>::drop_slow
-  call void @_RNvMse_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcNtNtCs2bNvlddUlXM_3std6thread5InnerE9drop_slowCs37qxPUa7whq_20oneway_thread_access(i64** align 8 dereferenceable(8) %self), !dbg !3800
+  call void @_RNvMse_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcNtNtCs2bNvlddUlXM_3std6thread5InnerE9drop_slowCsdT7u4N7w2iC_20stack_map_and_mutate(i64** align 8 dereferenceable(8) %self), !dbg !3800
   br label %bb6, !dbg !3800
 
 bb6:                                              ; preds = %bb5
@@ -7815,9 +7823,9 @@ bb7:                                              ; preds = %bb6, %bb3
   ret void, !dbg !3798
 }
 
-; <std::panic::AssertUnwindSafe<<std::thread::Builder>::spawn_unchecked<oneway_thread_access::main::{closure#0}, ()>::{closure#0}::{closure#0}> as core::ops::function::FnOnce<()>>::call_once
+; <std::panic::AssertUnwindSafe<<std::thread::Builder>::spawn_unchecked<stack_map_and_mutate::main::{closure#0}, ()>::{closure#0}::{closure#0}> as core::ops::function::FnOnce<()>>::call_once
 ; Function Attrs: nonlazybind uwtable
-define internal void @_RNvXss_NtCs2bNvlddUlXM_3std5panicINtB5_16AssertUnwindSafeNCNCINvMNtB7_6threadNtB11_7Builder15spawn_uncheckedNCNvCs37qxPUa7whq_20oneway_thread_access4main0uE00EINtNtNtCs3p84KrD9aKt_4core3ops8function6FnOnceuE9call_onceB1M_(i8 %self) unnamed_addr #0 !dbg !3801 {
+define internal void @_RNvXss_NtCs2bNvlddUlXM_3std5panicINtB5_16AssertUnwindSafeNCNCINvMNtB7_6threadNtB11_7Builder15spawn_uncheckedNCNvCsdT7u4N7w2iC_20stack_map_and_mutate4main0uE00EINtNtNtCs3p84KrD9aKt_4core3ops8function6FnOnceuE9call_onceB1M_(i8 %self) unnamed_addr #0 !dbg !3801 {
 start:
   %self.dbg.spill = alloca i8, align 1
   %_4 = alloca {}, align 1
@@ -7825,8 +7833,8 @@ start:
   store i8 %self, i8* %self.dbg.spill, align 1
   call void @llvm.dbg.declare(metadata i8* %self.dbg.spill, metadata !3806, metadata !DIExpression()), !dbg !3810
   call void @llvm.dbg.declare(metadata {}* %_args, metadata !3807, metadata !DIExpression()), !dbg !3811
-; call <std::thread::Builder>::spawn_unchecked::<oneway_thread_access::main::{closure#0}, ()>::{closure#0}::{closure#0}
-  call void @_RNCNCINvMNtCs2bNvlddUlXM_3std6threadNtB7_7Builder15spawn_uncheckedNCNvCs37qxPUa7whq_20oneway_thread_access4main0uE00B16_(i8 %self), !dbg !3812
+; call <std::thread::Builder>::spawn_unchecked::<stack_map_and_mutate::main::{closure#0}, ()>::{closure#0}::{closure#0}
+  call void @_RNCNCINvMNtCs2bNvlddUlXM_3std6threadNtB7_7Builder15spawn_uncheckedNCNvCsdT7u4N7w2iC_20stack_map_and_mutate4main0uE00B16_(i8 %self), !dbg !3812
   br label %bb1, !dbg !3812
 
 bb1:                                              ; preds = %start
@@ -7835,7 +7843,7 @@ bb1:                                              ; preds = %start
 
 ; <core::result::Result<std::thread::JoinHandle<()>, std::io::error::Error> as core::ops::try::Try>::from_error
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal void @_RNvXsw_NtCs3p84KrD9aKt_4core6resultINtB5_6ResultINtNtCs2bNvlddUlXM_3std6thread10JoinHandleuENtNtNtBP_2io5error5ErrorENtNtNtB7_3ops3try3Try10from_errorCs37qxPUa7whq_20oneway_thread_access(%"std::result::Result<std::thread::JoinHandle<()>, std::io::Error>"* noalias nocapture sret dereferenceable(40) %0, i128 %1) unnamed_addr #1 !dbg !3814 {
+define internal void @_RNvXsw_NtCs3p84KrD9aKt_4core6resultINtB5_6ResultINtNtCs2bNvlddUlXM_3std6thread10JoinHandleuENtNtNtBP_2io5error5ErrorENtNtNtB7_3ops3try3Try10from_errorCsdT7u4N7w2iC_20stack_map_and_mutate(%"std::result::Result<std::thread::JoinHandle<()>, std::io::Error>"* noalias nocapture sret dereferenceable(40) %0, i128 %1) unnamed_addr #1 !dbg !3814 {
 start:
   %_2 = alloca %"std::io::Error", align 8
   %2 = alloca i128, align 8
@@ -7860,7 +7868,7 @@ start:
 
 ; <core::result::Result<core::ptr::non_null::NonNull<[u8]>, core::alloc::AllocError> as core::ops::try::Try>::from_error
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal { i8*, i64 } @_RNvXsw_NtCs3p84KrD9aKt_4core6resultINtB5_6ResultINtNtNtB7_3ptr8non_null7NonNullShENtNtB7_5alloc10AllocErrorENtNtNtB7_3ops3try3Try10from_errorCs37qxPUa7whq_20oneway_thread_access() unnamed_addr #1 !dbg !3824 {
+define internal { i8*, i64 } @_RNvXsw_NtCs3p84KrD9aKt_4core6resultINtB5_6ResultINtNtNtB7_3ptr8non_null7NonNullShENtNtB7_5alloc10AllocErrorENtNtNtB7_3ops3try3Try10from_errorCsdT7u4N7w2iC_20stack_map_and_mutate() unnamed_addr #1 !dbg !3824 {
 start:
   %v.dbg.spill = alloca %"std::alloc::AllocError", align 1
   %0 = alloca { i8*, i64 }, align 8
@@ -7880,7 +7888,7 @@ start:
 
 ; <core::result::Result<core::ptr::non_null::NonNull<u8>, core::alloc::AllocError> as core::ops::try::Try>::into_result
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal i8* @_RNvXsw_NtCs3p84KrD9aKt_4core6resultINtB5_6ResultINtNtNtB7_3ptr8non_null7NonNullhENtNtB7_5alloc10AllocErrorENtNtNtB7_3ops3try3Try11into_resultCs37qxPUa7whq_20oneway_thread_access(i8* %self) unnamed_addr #1 !dbg !3832 {
+define internal i8* @_RNvXsw_NtCs3p84KrD9aKt_4core6resultINtB5_6ResultINtNtNtB7_3ptr8non_null7NonNullhENtNtB7_5alloc10AllocErrorENtNtNtB7_3ops3try3Try11into_resultCsdT7u4N7w2iC_20stack_map_and_mutate(i8* %self) unnamed_addr #1 !dbg !3832 {
 start:
   %self.dbg.spill = alloca i8*, align 8
   store i8* %self, i8** %self.dbg.spill, align 8
@@ -7890,7 +7898,7 @@ start:
 
 ; <core::result::Result<std::sys::unix::thread::Thread, std::io::error::Error> as core::ops::try::Try>::into_result
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal void @_RNvXsw_NtCs3p84KrD9aKt_4core6resultINtB5_6ResultNtNtNtNtCs2bNvlddUlXM_3std3sys4unix6thread6ThreadNtNtNtBS_2io5error5ErrorENtNtNtB7_3ops3try3Try11into_resultCs37qxPUa7whq_20oneway_thread_access(%"std::result::Result<std::sys::unix::thread::Thread, std::io::Error>"* noalias nocapture sret dereferenceable(24) %0, %"std::result::Result<std::sys::unix::thread::Thread, std::io::Error>"* noalias nocapture dereferenceable(24) %self) unnamed_addr #1 !dbg !3839 {
+define internal void @_RNvXsw_NtCs3p84KrD9aKt_4core6resultINtB5_6ResultNtNtNtNtCs2bNvlddUlXM_3std3sys4unix6thread6ThreadNtNtNtBS_2io5error5ErrorENtNtNtB7_3ops3try3Try11into_resultCsdT7u4N7w2iC_20stack_map_and_mutate(%"std::result::Result<std::sys::unix::thread::Thread, std::io::Error>"* noalias nocapture sret dereferenceable(24) %0, %"std::result::Result<std::sys::unix::thread::Thread, std::io::Error>"* noalias nocapture dereferenceable(24) %self) unnamed_addr #1 !dbg !3839 {
 start:
   call void @llvm.dbg.declare(metadata %"std::result::Result<std::sys::unix::thread::Thread, std::io::Error>"* %self, metadata !3856, metadata !DIExpression()), !dbg !3857
   %1 = bitcast %"std::result::Result<std::sys::unix::thread::Thread, std::io::Error>"* %0 to i8*, !dbg !3858
@@ -7901,7 +7909,7 @@ start:
 
 ; <alloc::sync::Weak<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>> as core::ops::drop::Drop>::drop
 ; Function Attrs: nonlazybind uwtable
-define internal void @_RNvXsw_NtCs8RW06R9lH2S_5alloc4syncINtB5_4WeakINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtBM_6option6OptionINtNtBM_6result6ResultuINtNtB7_5boxed3BoxDNtNtBM_3any3AnyNtNtBM_6marker4SendEL_EEEEENtNtNtBM_3ops4drop4Drop4dropCs37qxPUa7whq_20oneway_thread_access(i64** align 8 dereferenceable(8) %self) unnamed_addr #0 !dbg !3860 {
+define internal void @_RNvXsw_NtCs8RW06R9lH2S_5alloc4syncINtB5_4WeakINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtBM_6option6OptionINtNtBM_6result6ResultuINtNtB7_5boxed3BoxDNtNtBM_3any3AnyNtNtBM_6marker4SendEL_EEEEENtNtNtBM_3ops4drop4Drop4dropCsdT7u4N7w2iC_20stack_map_and_mutate(i64** align 8 dereferenceable(8) %self) unnamed_addr #0 !dbg !3860 {
 start:
   %inner.dbg.spill1 = alloca { i64*, i64* }, align 8
   %inner.dbg.spill = alloca { i64*, i64* }, align 8
@@ -7913,7 +7921,7 @@ start:
   store i64** %self, i64*** %self.dbg.spill, align 8
   call void @llvm.dbg.declare(metadata i64*** %self.dbg.spill, metadata !3865, metadata !DIExpression()), !dbg !3870
 ; call <alloc::sync::Weak<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>>>::inner
-  %1 = call { i64*, i8* } @_RNvMst_NtCs8RW06R9lH2S_5alloc4syncINtB5_4WeakINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtBM_6option6OptionINtNtBM_6result6ResultuINtNtB7_5boxed3BoxDNtNtBM_3any3AnyNtNtBM_6marker4SendEL_EEEEE5innerCs37qxPUa7whq_20oneway_thread_access(i64** noalias readonly align 8 dereferenceable(8) %self), !dbg !3871
+  %1 = call { i64*, i8* } @_RNvMst_NtCs8RW06R9lH2S_5alloc4syncINtB5_4WeakINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtBM_6option6OptionINtNtBM_6result6ResultuINtNtB7_5boxed3BoxDNtNtBM_3any3AnyNtNtBM_6marker4SendEL_EEEEE5innerCsdT7u4N7w2iC_20stack_map_and_mutate(i64** noalias readonly align 8 dereferenceable(8) %self), !dbg !3871
   store { i64*, i8* } %1, { i64*, i8* }* %_3, align 8, !dbg !3871
   br label %bb1, !dbg !3871
 
@@ -7948,7 +7956,7 @@ bb3:                                              ; preds = %bb1
   store i8 1, i8* %_9, align 1, !dbg !3879
   %13 = load i8, i8* %_9, align 1, !dbg !3878, !range !2118
 ; call <core::sync::atomic::AtomicUsize>::fetch_sub
-  %_7 = call i64 @_RNvMs15_NtNtCs3p84KrD9aKt_4core4sync6atomicNtB6_11AtomicUsize9fetch_subCs37qxPUa7whq_20oneway_thread_access(%"std::sync::atomic::AtomicUsize"* align 8 dereferenceable(8) %_8, i64 1, i8 %13), !dbg !3878
+  %_7 = call i64 @_RNvMs15_NtNtCs3p84KrD9aKt_4core4sync6atomicNtB6_11AtomicUsize9fetch_subCsdT7u4N7w2iC_20stack_map_and_mutate(%"std::sync::atomic::AtomicUsize"* align 8 dereferenceable(8) %_8, i64 1, i8 %13), !dbg !3878
   br label %bb4, !dbg !3878
 
 bb4:                                              ; preds = %bb3
@@ -7959,7 +7967,7 @@ bb5:                                              ; preds = %bb4
   store i8 2, i8* %_11, align 1, !dbg !3881
   %15 = load i8, i8* %_11, align 1, !dbg !3881, !range !2118
 ; call core::sync::atomic::fence
-  call void @_RNvNtNtCs3p84KrD9aKt_4core4sync6atomic5fenceCs37qxPUa7whq_20oneway_thread_access(i8 %15), !dbg !3881
+  call void @_RNvNtNtCs3p84KrD9aKt_4core4sync6atomic5fenceCsdT7u4N7w2iC_20stack_map_and_mutate(i8 %15), !dbg !3881
   br label %bb7, !dbg !3881
 
 bb6:                                              ; preds = %bb4
@@ -7968,25 +7976,25 @@ bb6:                                              ; preds = %bb4
 bb7:                                              ; preds = %bb5
   %_14 = load i64*, i64** %self, align 8, !dbg !3882, !nonnull !4
 ; call <core::ptr::non_null::NonNull<alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>>>>::cast::<u8>
-  %_13 = call nonnull i8* @_RINvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB6_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtBa_4cell10UnsafeCellINtNtBa_6option6OptionINtNtBa_6result6ResultuINtNtBZ_5boxed3BoxDNtNtBa_3any3AnyNtNtBa_6marker4SendEL_EEEEEE4casthECs37qxPUa7whq_20oneway_thread_access(i64* nonnull %_14), !dbg !3882
+  %_13 = call nonnull i8* @_RINvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB6_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtBa_4cell10UnsafeCellINtNtBa_6option6OptionINtNtBa_6result6ResultuINtNtBZ_5boxed3BoxDNtNtBa_3any3AnyNtNtBa_6marker4SendEL_EEEEEE4casthECsdT7u4N7w2iC_20stack_map_and_mutate(i64* nonnull %_14), !dbg !3882
   br label %bb8, !dbg !3882
 
 bb8:                                              ; preds = %bb7
   %_18 = load i64*, i64** %self, align 8, !dbg !3883, !nonnull !4
 ; call <core::ptr::non_null::NonNull<alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>>>>::as_ptr
-  %_17 = call %"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtB9_4cell10UnsafeCellINtNtB9_6option6OptionINtNtB9_6result6ResultuINtNtBY_5boxed3BoxDNtNtB9_3any3AnyNtNtB9_6marker4SendEL_EEEEEE6as_ptrCs37qxPUa7whq_20oneway_thread_access(i64* nonnull %_18), !dbg !3883
+  %_17 = call %"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtB9_4cell10UnsafeCellINtNtB9_6option6OptionINtNtB9_6result6ResultuINtNtBY_5boxed3BoxDNtNtB9_3any3AnyNtNtB9_6marker4SendEL_EEEEEE6as_ptrCsdT7u4N7w2iC_20stack_map_and_mutate(i64* nonnull %_18), !dbg !3883
   br label %bb9, !dbg !3883
 
 bb9:                                              ; preds = %bb8
 ; call <core::alloc::layout::Layout>::for_value_raw::<alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>>>
-  %16 = call { i64, i64 } @_RINvMNtNtCs3p84KrD9aKt_4core5alloc6layoutNtB3_6Layout13for_value_rawINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtB7_4cell10UnsafeCellINtNtB7_6option6OptionINtNtB7_6result6ResultuINtNtB19_5boxed3BoxDNtNtB7_3any3AnyNtNtB7_6marker4SendEL_EEEEEECs37qxPUa7whq_20oneway_thread_access(%"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"* %_17), !dbg !3884
+  %16 = call { i64, i64 } @_RINvMNtNtCs3p84KrD9aKt_4core5alloc6layoutNtB3_6Layout13for_value_rawINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtB7_4cell10UnsafeCellINtNtB7_6option6OptionINtNtB7_6result6ResultuINtNtB19_5boxed3BoxDNtNtB7_3any3AnyNtNtB7_6marker4SendEL_EEEEEECsdT7u4N7w2iC_20stack_map_and_mutate(%"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"* %_17), !dbg !3884
   %_15.0 = extractvalue { i64, i64 } %16, 0, !dbg !3884
   %_15.1 = extractvalue { i64, i64 } %16, 1, !dbg !3884
   br label %bb10, !dbg !3884
 
 bb10:                                             ; preds = %bb9
 ; call <alloc::alloc::Global as core::alloc::Allocator>::deallocate
-  call void @_RNvXs_NtCs8RW06R9lH2S_5alloc5allocNtB4_6GlobalNtNtCs3p84KrD9aKt_4core5alloc9Allocator10deallocateCs37qxPUa7whq_20oneway_thread_access(%"std::alloc::Global"* noalias nonnull readonly align 1 bitcast (<{ [0 x i8] }>* @alloc24 to %"std::alloc::Global"*), i8* nonnull %_13, i64 %_15.0, i64 %_15.1), !dbg !3885
+  call void @_RNvXs_NtCs8RW06R9lH2S_5alloc5allocNtB4_6GlobalNtNtCs3p84KrD9aKt_4core5alloc9Allocator10deallocateCsdT7u4N7w2iC_20stack_map_and_mutate(%"std::alloc::Global"* noalias nonnull readonly align 1 bitcast (<{ [0 x i8] }>* @alloc35 to %"std::alloc::Global"*), i8* nonnull %_13, i64 %_15.0, i64 %_15.1), !dbg !3885
   br label %bb11, !dbg !3885
 
 bb11:                                             ; preds = %bb10
@@ -8001,7 +8009,7 @@ bb13:                                             ; preds = %bb12, %bb2
 
 ; <alloc::sync::Weak<std::sync::mutex::Mutex<alloc::vec::Vec<u8>>> as core::ops::drop::Drop>::drop
 ; Function Attrs: nonlazybind uwtable
-define internal void @_RNvXsw_NtCs8RW06R9lH2S_5alloc4syncINtB5_4WeakINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtB7_3vec3VechEEENtNtNtCs3p84KrD9aKt_4core3ops4drop4Drop4dropCs37qxPUa7whq_20oneway_thread_access(i64** align 8 dereferenceable(8) %self) unnamed_addr #0 !dbg !3886 {
+define internal void @_RNvXsw_NtCs8RW06R9lH2S_5alloc4syncINtB5_4WeakINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtB7_3vec3VechEEENtNtNtCs3p84KrD9aKt_4core3ops4drop4Drop4dropCsdT7u4N7w2iC_20stack_map_and_mutate(i64** align 8 dereferenceable(8) %self) unnamed_addr #0 !dbg !3886 {
 start:
   %inner.dbg.spill1 = alloca { i64*, i64* }, align 8
   %inner.dbg.spill = alloca { i64*, i64* }, align 8
@@ -8013,7 +8021,7 @@ start:
   store i64** %self, i64*** %self.dbg.spill, align 8
   call void @llvm.dbg.declare(metadata i64*** %self.dbg.spill, metadata !3891, metadata !DIExpression()), !dbg !3896
 ; call <alloc::sync::Weak<std::sync::mutex::Mutex<alloc::vec::Vec<u8>>>>::inner
-  %1 = call { i64*, i8* } @_RNvMst_NtCs8RW06R9lH2S_5alloc4syncINtB5_4WeakINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtB7_3vec3VechEEE5innerCs37qxPUa7whq_20oneway_thread_access(i64** noalias readonly align 8 dereferenceable(8) %self), !dbg !3897
+  %1 = call { i64*, i8* } @_RNvMst_NtCs8RW06R9lH2S_5alloc4syncINtB5_4WeakINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtB7_3vec3VechEEE5innerCsdT7u4N7w2iC_20stack_map_and_mutate(i64** noalias readonly align 8 dereferenceable(8) %self), !dbg !3897
   store { i64*, i8* } %1, { i64*, i8* }* %_3, align 8, !dbg !3897
   br label %bb1, !dbg !3897
 
@@ -8048,7 +8056,7 @@ bb3:                                              ; preds = %bb1
   store i8 1, i8* %_9, align 1, !dbg !3905
   %13 = load i8, i8* %_9, align 1, !dbg !3904, !range !2118
 ; call <core::sync::atomic::AtomicUsize>::fetch_sub
-  %_7 = call i64 @_RNvMs15_NtNtCs3p84KrD9aKt_4core4sync6atomicNtB6_11AtomicUsize9fetch_subCs37qxPUa7whq_20oneway_thread_access(%"std::sync::atomic::AtomicUsize"* align 8 dereferenceable(8) %_8, i64 1, i8 %13), !dbg !3904
+  %_7 = call i64 @_RNvMs15_NtNtCs3p84KrD9aKt_4core4sync6atomicNtB6_11AtomicUsize9fetch_subCsdT7u4N7w2iC_20stack_map_and_mutate(%"std::sync::atomic::AtomicUsize"* align 8 dereferenceable(8) %_8, i64 1, i8 %13), !dbg !3904
   br label %bb4, !dbg !3904
 
 bb4:                                              ; preds = %bb3
@@ -8059,7 +8067,7 @@ bb5:                                              ; preds = %bb4
   store i8 2, i8* %_11, align 1, !dbg !3907
   %15 = load i8, i8* %_11, align 1, !dbg !3907, !range !2118
 ; call core::sync::atomic::fence
-  call void @_RNvNtNtCs3p84KrD9aKt_4core4sync6atomic5fenceCs37qxPUa7whq_20oneway_thread_access(i8 %15), !dbg !3907
+  call void @_RNvNtNtCs3p84KrD9aKt_4core4sync6atomic5fenceCsdT7u4N7w2iC_20stack_map_and_mutate(i8 %15), !dbg !3907
   br label %bb7, !dbg !3907
 
 bb6:                                              ; preds = %bb4
@@ -8068,25 +8076,25 @@ bb6:                                              ; preds = %bb4
 bb7:                                              ; preds = %bb5
   %_14 = load i64*, i64** %self, align 8, !dbg !3908, !nonnull !4
 ; call <core::ptr::non_null::NonNull<alloc::sync::ArcInner<std::sync::mutex::Mutex<alloc::vec::Vec<u8>>>>>::cast::<u8>
-  %_13 = call nonnull i8* @_RINvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB6_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtBZ_3vec3VechEEEE4casthECs37qxPUa7whq_20oneway_thread_access(i64* nonnull %_14), !dbg !3908
+  %_13 = call nonnull i8* @_RINvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB6_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtBZ_3vec3VechEEEE4casthECsdT7u4N7w2iC_20stack_map_and_mutate(i64* nonnull %_14), !dbg !3908
   br label %bb8, !dbg !3908
 
 bb8:                                              ; preds = %bb7
   %_18 = load i64*, i64** %self, align 8, !dbg !3909, !nonnull !4
 ; call <core::ptr::non_null::NonNull<alloc::sync::ArcInner<std::sync::mutex::Mutex<alloc::vec::Vec<u8>>>>>::as_ptr
-  %_17 = call %"alloc::sync::ArcInner<std::sync::Mutex<std::vec::Vec<u8>>>"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtBY_3vec3VechEEEE6as_ptrCs37qxPUa7whq_20oneway_thread_access(i64* nonnull %_18), !dbg !3909
+  %_17 = call %"alloc::sync::ArcInner<std::sync::Mutex<std::vec::Vec<u8>>>"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtBY_3vec3VechEEEE6as_ptrCsdT7u4N7w2iC_20stack_map_and_mutate(i64* nonnull %_18), !dbg !3909
   br label %bb9, !dbg !3909
 
 bb9:                                              ; preds = %bb8
 ; call <core::alloc::layout::Layout>::for_value_raw::<alloc::sync::ArcInner<std::sync::mutex::Mutex<alloc::vec::Vec<u8>>>>
-  %16 = call { i64, i64 } @_RINvMNtNtCs3p84KrD9aKt_4core5alloc6layoutNtB3_6Layout13for_value_rawINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtB19_3vec3VechEEEECs37qxPUa7whq_20oneway_thread_access(%"alloc::sync::ArcInner<std::sync::Mutex<std::vec::Vec<u8>>>"* %_17), !dbg !3910
+  %16 = call { i64, i64 } @_RINvMNtNtCs3p84KrD9aKt_4core5alloc6layoutNtB3_6Layout13for_value_rawINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtB19_3vec3VechEEEECsdT7u4N7w2iC_20stack_map_and_mutate(%"alloc::sync::ArcInner<std::sync::Mutex<std::vec::Vec<u8>>>"* %_17), !dbg !3910
   %_15.0 = extractvalue { i64, i64 } %16, 0, !dbg !3910
   %_15.1 = extractvalue { i64, i64 } %16, 1, !dbg !3910
   br label %bb10, !dbg !3910
 
 bb10:                                             ; preds = %bb9
 ; call <alloc::alloc::Global as core::alloc::Allocator>::deallocate
-  call void @_RNvXs_NtCs8RW06R9lH2S_5alloc5allocNtB4_6GlobalNtNtCs3p84KrD9aKt_4core5alloc9Allocator10deallocateCs37qxPUa7whq_20oneway_thread_access(%"std::alloc::Global"* noalias nonnull readonly align 1 bitcast (<{ [0 x i8] }>* @alloc24 to %"std::alloc::Global"*), i8* nonnull %_13, i64 %_15.0, i64 %_15.1), !dbg !3911
+  call void @_RNvXs_NtCs8RW06R9lH2S_5alloc5allocNtB4_6GlobalNtNtCs3p84KrD9aKt_4core5alloc9Allocator10deallocateCsdT7u4N7w2iC_20stack_map_and_mutate(%"std::alloc::Global"* noalias nonnull readonly align 1 bitcast (<{ [0 x i8] }>* @alloc35 to %"std::alloc::Global"*), i8* nonnull %_13, i64 %_15.0, i64 %_15.1), !dbg !3911
   br label %bb11, !dbg !3911
 
 bb11:                                             ; preds = %bb10
@@ -8101,7 +8109,7 @@ bb13:                                             ; preds = %bb12, %bb2
 
 ; <alloc::sync::Weak<std::thread::Inner> as core::ops::drop::Drop>::drop
 ; Function Attrs: nonlazybind uwtable
-define internal void @_RNvXsw_NtCs8RW06R9lH2S_5alloc4syncINtB5_4WeakNtNtCs2bNvlddUlXM_3std6thread5InnerENtNtNtCs3p84KrD9aKt_4core3ops4drop4Drop4dropCs37qxPUa7whq_20oneway_thread_access(i64** align 8 dereferenceable(8) %self) unnamed_addr #0 !dbg !3912 {
+define internal void @_RNvXsw_NtCs8RW06R9lH2S_5alloc4syncINtB5_4WeakNtNtCs2bNvlddUlXM_3std6thread5InnerENtNtNtCs3p84KrD9aKt_4core3ops4drop4Drop4dropCsdT7u4N7w2iC_20stack_map_and_mutate(i64** align 8 dereferenceable(8) %self) unnamed_addr #0 !dbg !3912 {
 start:
   %inner.dbg.spill1 = alloca { i64*, i64* }, align 8
   %inner.dbg.spill = alloca { i64*, i64* }, align 8
@@ -8113,7 +8121,7 @@ start:
   store i64** %self, i64*** %self.dbg.spill, align 8
   call void @llvm.dbg.declare(metadata i64*** %self.dbg.spill, metadata !3917, metadata !DIExpression()), !dbg !3922
 ; call <alloc::sync::Weak<std::thread::Inner>>::inner
-  %1 = call { i64*, i8* } @_RNvMst_NtCs8RW06R9lH2S_5alloc4syncINtB5_4WeakNtNtCs2bNvlddUlXM_3std6thread5InnerE5innerCs37qxPUa7whq_20oneway_thread_access(i64** noalias readonly align 8 dereferenceable(8) %self), !dbg !3923
+  %1 = call { i64*, i8* } @_RNvMst_NtCs8RW06R9lH2S_5alloc4syncINtB5_4WeakNtNtCs2bNvlddUlXM_3std6thread5InnerE5innerCsdT7u4N7w2iC_20stack_map_and_mutate(i64** noalias readonly align 8 dereferenceable(8) %self), !dbg !3923
   store { i64*, i8* } %1, { i64*, i8* }* %_3, align 8, !dbg !3923
   br label %bb1, !dbg !3923
 
@@ -8148,7 +8156,7 @@ bb3:                                              ; preds = %bb1
   store i8 1, i8* %_9, align 1, !dbg !3931
   %13 = load i8, i8* %_9, align 1, !dbg !3930, !range !2118
 ; call <core::sync::atomic::AtomicUsize>::fetch_sub
-  %_7 = call i64 @_RNvMs15_NtNtCs3p84KrD9aKt_4core4sync6atomicNtB6_11AtomicUsize9fetch_subCs37qxPUa7whq_20oneway_thread_access(%"std::sync::atomic::AtomicUsize"* align 8 dereferenceable(8) %_8, i64 1, i8 %13), !dbg !3930
+  %_7 = call i64 @_RNvMs15_NtNtCs3p84KrD9aKt_4core4sync6atomicNtB6_11AtomicUsize9fetch_subCsdT7u4N7w2iC_20stack_map_and_mutate(%"std::sync::atomic::AtomicUsize"* align 8 dereferenceable(8) %_8, i64 1, i8 %13), !dbg !3930
   br label %bb4, !dbg !3930
 
 bb4:                                              ; preds = %bb3
@@ -8159,7 +8167,7 @@ bb5:                                              ; preds = %bb4
   store i8 2, i8* %_11, align 1, !dbg !3933
   %15 = load i8, i8* %_11, align 1, !dbg !3933, !range !2118
 ; call core::sync::atomic::fence
-  call void @_RNvNtNtCs3p84KrD9aKt_4core4sync6atomic5fenceCs37qxPUa7whq_20oneway_thread_access(i8 %15), !dbg !3933
+  call void @_RNvNtNtCs3p84KrD9aKt_4core4sync6atomic5fenceCsdT7u4N7w2iC_20stack_map_and_mutate(i8 %15), !dbg !3933
   br label %bb7, !dbg !3933
 
 bb6:                                              ; preds = %bb4
@@ -8168,25 +8176,25 @@ bb6:                                              ; preds = %bb4
 bb7:                                              ; preds = %bb5
   %_14 = load i64*, i64** %self, align 8, !dbg !3934, !nonnull !4
 ; call <core::ptr::non_null::NonNull<alloc::sync::ArcInner<std::thread::Inner>>>::cast::<u8>
-  %_13 = call nonnull i8* @_RINvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB6_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerNtNtCs2bNvlddUlXM_3std6thread5InnerEE4casthECs37qxPUa7whq_20oneway_thread_access(i64* nonnull %_14), !dbg !3934
+  %_13 = call nonnull i8* @_RINvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB6_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerNtNtCs2bNvlddUlXM_3std6thread5InnerEE4casthECsdT7u4N7w2iC_20stack_map_and_mutate(i64* nonnull %_14), !dbg !3934
   br label %bb8, !dbg !3934
 
 bb8:                                              ; preds = %bb7
   %_18 = load i64*, i64** %self, align 8, !dbg !3935, !nonnull !4
 ; call <core::ptr::non_null::NonNull<alloc::sync::ArcInner<std::thread::Inner>>>::as_ptr
-  %_17 = call %"alloc::sync::ArcInner<std::thread::Inner>"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerNtNtCs2bNvlddUlXM_3std6thread5InnerEE6as_ptrCs37qxPUa7whq_20oneway_thread_access(i64* nonnull %_18), !dbg !3935
+  %_17 = call %"alloc::sync::ArcInner<std::thread::Inner>"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerNtNtCs2bNvlddUlXM_3std6thread5InnerEE6as_ptrCsdT7u4N7w2iC_20stack_map_and_mutate(i64* nonnull %_18), !dbg !3935
   br label %bb9, !dbg !3935
 
 bb9:                                              ; preds = %bb8
 ; call <core::alloc::layout::Layout>::for_value_raw::<alloc::sync::ArcInner<std::thread::Inner>>
-  %16 = call { i64, i64 } @_RINvMNtNtCs3p84KrD9aKt_4core5alloc6layoutNtB3_6Layout13for_value_rawINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerNtNtCs2bNvlddUlXM_3std6thread5InnerEECs37qxPUa7whq_20oneway_thread_access(%"alloc::sync::ArcInner<std::thread::Inner>"* %_17), !dbg !3936
+  %16 = call { i64, i64 } @_RINvMNtNtCs3p84KrD9aKt_4core5alloc6layoutNtB3_6Layout13for_value_rawINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerNtNtCs2bNvlddUlXM_3std6thread5InnerEECsdT7u4N7w2iC_20stack_map_and_mutate(%"alloc::sync::ArcInner<std::thread::Inner>"* %_17), !dbg !3936
   %_15.0 = extractvalue { i64, i64 } %16, 0, !dbg !3936
   %_15.1 = extractvalue { i64, i64 } %16, 1, !dbg !3936
   br label %bb10, !dbg !3936
 
 bb10:                                             ; preds = %bb9
 ; call <alloc::alloc::Global as core::alloc::Allocator>::deallocate
-  call void @_RNvXs_NtCs8RW06R9lH2S_5alloc5allocNtB4_6GlobalNtNtCs3p84KrD9aKt_4core5alloc9Allocator10deallocateCs37qxPUa7whq_20oneway_thread_access(%"std::alloc::Global"* noalias nonnull readonly align 1 bitcast (<{ [0 x i8] }>* @alloc24 to %"std::alloc::Global"*), i8* nonnull %_13, i64 %_15.0, i64 %_15.1), !dbg !3937
+  call void @_RNvXs_NtCs8RW06R9lH2S_5alloc5allocNtB4_6GlobalNtNtCs3p84KrD9aKt_4core5alloc9Allocator10deallocateCsdT7u4N7w2iC_20stack_map_and_mutate(%"std::alloc::Global"* noalias nonnull readonly align 1 bitcast (<{ [0 x i8] }>* @alloc35 to %"std::alloc::Global"*), i8* nonnull %_13, i64 %_15.0, i64 %_15.1), !dbg !3937
   br label %bb11, !dbg !3937
 
 bb11:                                             ; preds = %bb10
@@ -8201,7 +8209,7 @@ bb13:                                             ; preds = %bb12, %bb2
 
 ; <fn() as core::ops::function::FnOnce<()>>::call_once
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal void @_RNvYFEuINtNtNtCs3p84KrD9aKt_4core3ops8function6FnOnceuE9call_onceCs37qxPUa7whq_20oneway_thread_access(void ()* nonnull %_1) unnamed_addr #1 !dbg !3938 {
+define internal void @_RNvYFEuINtNtNtCs3p84KrD9aKt_4core3ops8function6FnOnceuE9call_onceCsdT7u4N7w2iC_20stack_map_and_mutate(void ()* nonnull %_1) unnamed_addr #1 !dbg !3938 {
 start:
   %_1.dbg.spill = alloca void ()*, align 8
   %_2 = alloca {}, align 1
@@ -8217,7 +8225,7 @@ bb1:                                              ; preds = %start
 
 ; <std::rt::lang_start<()>::{closure#0} as core::ops::function::FnOnce<()>>::call_once
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal i32 @_RNvYNCINvNtCs2bNvlddUlXM_3std2rt10lang_startuE0INtNtNtCs3p84KrD9aKt_4core3ops8function6FnOnceuE9call_onceCs37qxPUa7whq_20oneway_thread_access(i64* nonnull %0) unnamed_addr #1 personality i32 (i32, i32, i64, %"unwind::libunwind::_Unwind_Exception"*, %"unwind::libunwind::_Unwind_Context"*)* @rust_eh_personality !dbg !3945 {
+define internal i32 @_RNvYNCINvNtCs2bNvlddUlXM_3std2rt10lang_startuE0INtNtNtCs3p84KrD9aKt_4core3ops8function6FnOnceuE9call_onceCsdT7u4N7w2iC_20stack_map_and_mutate(i64* nonnull %0) unnamed_addr #1 personality i32 (i32, i32, i64, %"unwind::libunwind::_Unwind_Exception"*, %"unwind::libunwind::_Unwind_Context"*)* @rust_eh_personality !dbg !3945 {
 start:
   %1 = alloca { i8*, i32 }, align 8
   %_2 = alloca {}, align 1
@@ -8226,7 +8234,7 @@ start:
   call void @llvm.dbg.declare(metadata i64** %_1, metadata !3949, metadata !DIExpression()), !dbg !3951
   call void @llvm.dbg.declare(metadata {}* %_2, metadata !3950, metadata !DIExpression()), !dbg !3951
 ; invoke std::rt::lang_start::<()>::{closure#0}
-  %2 = invoke i32 @_RNCINvNtCs2bNvlddUlXM_3std2rt10lang_startuE0Cs37qxPUa7whq_20oneway_thread_access(i64** noalias readonly align 8 dereferenceable(8) %_1)
+  %2 = invoke i32 @_RNCINvNtCs2bNvlddUlXM_3std2rt10lang_startuE0CsdT7u4N7w2iC_20stack_map_and_mutate(i64** noalias readonly align 8 dereferenceable(8) %_1)
           to label %bb1 unwind label %cleanup, !dbg !3951
 
 bb1:                                              ; preds = %start
@@ -8261,7 +8269,7 @@ cleanup:                                          ; preds = %start
 
 ; <std::sys_common::thread::min_stack as core::ops::function::FnOnce<()>>::call_once
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal i64 @_RNvYNvNtNtCs2bNvlddUlXM_3std10sys_common6thread9min_stackINtNtNtCs3p84KrD9aKt_4core3ops8function6FnOnceuE9call_onceCs37qxPUa7whq_20oneway_thread_access() unnamed_addr #1 !dbg !3952 {
+define internal i64 @_RNvYNvNtNtCs2bNvlddUlXM_3std10sys_common6thread9min_stackINtNtNtCs3p84KrD9aKt_4core3ops8function6FnOnceuE9call_onceCsdT7u4N7w2iC_20stack_map_and_mutate() unnamed_addr #1 !dbg !3952 {
 start:
   %_1.dbg.spill = alloca {}, align 1
   %_2 = alloca {}, align 1
@@ -8275,12 +8283,16 @@ bb1:                                              ; preds = %start
   ret i64 %0, !dbg !3960
 }
 
-; oneway_thread_access::main
+; stack_map_and_mutate::main
 ; Function Attrs: nonlazybind uwtable
-define internal void @_RNvCs37qxPUa7whq_20oneway_thread_access4main() unnamed_addr #0 personality i32 (i32, i32, i64, %"unwind::libunwind::_Unwind_Exception"*, %"unwind::libunwind::_Unwind_Context"*)* @rust_eh_personality !dbg !3961 {
+define internal void @_RNvCsdT7u4N7w2iC_20stack_map_and_mutate4main() unnamed_addr #0 personality i32 (i32, i32, i64, %"unwind::libunwind::_Unwind_Exception"*, %"unwind::libunwind::_Unwind_Context"*)* @rust_eh_personality !dbg !3961 {
 start:
+  %arg0.dbg.spill2 = alloca i8*, align 8
   %0 = alloca { i8*, i32 }, align 8
   %arg0.dbg.spill = alloca i8*, align 8
+  %_31 = alloca i8*, align 8
+  %_30 = alloca [1 x { i8*, i64* }], align 8
+  %_23 = alloca %"std::fmt::Arguments", align 8
   %_15 = alloca i8*, align 8
   %_14 = alloca [1 x { i8*, i64* }], align 8
   %_7 = alloca %"std::fmt::Arguments", align 8
@@ -8289,126 +8301,215 @@ start:
   %_3 = alloca i8, align 1
   %child = alloca %"std::thread::JoinHandle<()>", align 8
   %myvar = alloca i8, align 1
-  call void @llvm.dbg.declare(metadata i8* %myvar, metadata !3964, metadata !DIExpression()), !dbg !3974
-  call void @llvm.dbg.declare(metadata %"std::thread::JoinHandle<()>"* %child, metadata !3966, metadata !DIExpression()), !dbg !3975
-  call void @llvm.dbg.declare(metadata { i8*, i8* }* %_r, metadata !3968, metadata !DIExpression()), !dbg !3976
-  store i8 8, i8* %myvar, align 1, !dbg !3977
-  %1 = load i8, i8* %myvar, align 1, !dbg !3978
-  store i8 %1, i8* %_3, align 1, !dbg !3978
-  %2 = load i8, i8* %_3, align 1, !dbg !3979
-; call std::thread::spawn::<oneway_thread_access::main::{closure#0}, ()>
-  call void @_RINvNtCs2bNvlddUlXM_3std6thread5spawnNCNvCs37qxPUa7whq_20oneway_thread_access4main0uEBD_(%"std::thread::JoinHandle<()>"* noalias nocapture sret dereferenceable(32) %child, i8 %2), !dbg !3979
-  br label %bb1, !dbg !3979
+  call void @llvm.dbg.declare(metadata i8* %myvar, metadata !3964, metadata !DIExpression()), !dbg !3977
+  call void @llvm.dbg.declare(metadata %"std::thread::JoinHandle<()>"* %child, metadata !3966, metadata !DIExpression()), !dbg !3978
+  call void @llvm.dbg.declare(metadata { i8*, i8* }* %_r, metadata !3968, metadata !DIExpression()), !dbg !3979
+  store i8 8, i8* %myvar, align 1, !dbg !3980
+  %1 = load i8, i8* %myvar, align 1, !dbg !3981
+  store i8 %1, i8* %_3, align 1, !dbg !3981
+  %2 = load i8, i8* %_3, align 1, !dbg !3982
+; call std::thread::spawn::<stack_map_and_mutate::main::{closure#0}, ()>
+  call void @_RINvNtCs2bNvlddUlXM_3std6thread5spawnNCNvCsdT7u4N7w2iC_20stack_map_and_mutate4main0uEBD_(%"std::thread::JoinHandle<()>"* noalias nocapture sret dereferenceable(32) %child, i8 %2), !dbg !3982
+  br label %bb1, !dbg !3982
 
 bb1:                                              ; preds = %start
-  %3 = bitcast %"std::thread::JoinHandle<()>"* %_5 to i8*, !dbg !3980
-  %4 = bitcast %"std::thread::JoinHandle<()>"* %child to i8*, !dbg !3980
-  call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 8 %3, i8* align 8 %4, i64 32, i1 false), !dbg !3980
+  %3 = bitcast %"std::thread::JoinHandle<()>"* %_5 to i8*, !dbg !3983
+  %4 = bitcast %"std::thread::JoinHandle<()>"* %child to i8*, !dbg !3983
+  call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 8 %3, i8* align 8 %4, i64 32, i1 false), !dbg !3983
 ; call <std::thread::JoinHandle<()>>::join
-  %5 = call { i8*, i8* } @_RNvMs7_NtCs2bNvlddUlXM_3std6threadINtB5_10JoinHandleuE4joinCs37qxPUa7whq_20oneway_thread_access(%"std::thread::JoinHandle<()>"* noalias nocapture dereferenceable(32) %_5), !dbg !3980
-  store { i8*, i8* } %5, { i8*, i8* }* %_r, align 8, !dbg !3980
-  br label %bb2, !dbg !3980
+  %5 = call { i8*, i8* } @_RNvMs7_NtCs2bNvlddUlXM_3std6threadINtB5_10JoinHandleuE4joinCsdT7u4N7w2iC_20stack_map_and_mutate(%"std::thread::JoinHandle<()>"* noalias nocapture dereferenceable(32) %_5), !dbg !3983
+  store { i8*, i8* } %5, { i8*, i8* }* %_r, align 8, !dbg !3983
+  br label %bb2, !dbg !3983
 
 bb2:                                              ; preds = %bb1
-  store i8* %myvar, i8** %_15, align 8, !dbg !3981
-  %arg0 = load i8*, i8** %_15, align 8, !dbg !3981, !nonnull !4
-  store i8* %arg0, i8** %arg0.dbg.spill, align 8, !dbg !3981
-  call void @llvm.dbg.declare(metadata i8** %arg0.dbg.spill, metadata !3970, metadata !DIExpression()), !dbg !3982
+  store i8* %myvar, i8** %_15, align 8, !dbg !3984
+  %arg0 = load i8*, i8** %_15, align 8, !dbg !3984, !nonnull !4
+  store i8* %arg0, i8** %arg0.dbg.spill, align 8, !dbg !3984
+  call void @llvm.dbg.declare(metadata i8** %arg0.dbg.spill, metadata !3970, metadata !DIExpression()), !dbg !3985
 ; invoke <core::fmt::ArgumentV1>::new::<u8>
-  %6 = invoke { i8*, i64* } @_RINvMs_NtCs3p84KrD9aKt_4core3fmtNtB5_10ArgumentV13newhECs37qxPUa7whq_20oneway_thread_access(i8* noalias readonly align 1 dereferenceable(1) %arg0, i1 (i8*, %"std::fmt::Formatter"*)* nonnull @"_ZN4core3fmt3num3imp51_$LT$impl$u20$core..fmt..Display$u20$for$u20$u8$GT$3fmt17h4bfcdc6a2168a05fE")
-          to label %bb3 unwind label %cleanup, !dbg !3982
+  %6 = invoke { i8*, i64* } @_RINvMs_NtCs3p84KrD9aKt_4core3fmtNtB5_10ArgumentV13newhECsdT7u4N7w2iC_20stack_map_and_mutate(i8* noalias readonly align 1 dereferenceable(1) %arg0, i1 (i8*, %"std::fmt::Formatter"*)* nonnull @"_ZN4core3fmt3num3imp51_$LT$impl$u20$core..fmt..Display$u20$for$u20$u8$GT$3fmt17h4bfcdc6a2168a05fE")
+          to label %bb3 unwind label %cleanup, !dbg !3985
 
 bb3:                                              ; preds = %bb2
-  %_18.0 = extractvalue { i8*, i64* } %6, 0, !dbg !3982
-  %_18.1 = extractvalue { i8*, i64* } %6, 1, !dbg !3982
-  %7 = bitcast [1 x { i8*, i64* }]* %_14 to { i8*, i64* }*, !dbg !3982
-  %8 = getelementptr inbounds { i8*, i64* }, { i8*, i64* }* %7, i32 0, i32 0, !dbg !3982
-  store i8* %_18.0, i8** %8, align 8, !dbg !3982
-  %9 = getelementptr inbounds { i8*, i64* }, { i8*, i64* }* %7, i32 0, i32 1, !dbg !3982
-  store i64* %_18.1, i64** %9, align 8, !dbg !3982
-  %_11.0 = bitcast [1 x { i8*, i64* }]* %_14 to [0 x { i8*, i64* }]*, !dbg !3981
+  %_18.0 = extractvalue { i8*, i64* } %6, 0, !dbg !3985
+  %_18.1 = extractvalue { i8*, i64* } %6, 1, !dbg !3985
+  %7 = bitcast [1 x { i8*, i64* }]* %_14 to { i8*, i64* }*, !dbg !3985
+  %8 = getelementptr inbounds { i8*, i64* }, { i8*, i64* }* %7, i32 0, i32 0, !dbg !3985
+  store i8* %_18.0, i8** %8, align 8, !dbg !3985
+  %9 = getelementptr inbounds { i8*, i64* }, { i8*, i64* }* %7, i32 0, i32 1, !dbg !3985
+  store i64* %_18.1, i64** %9, align 8, !dbg !3985
+  %_11.0 = bitcast [1 x { i8*, i64* }]* %_14 to [0 x { i8*, i64* }]*, !dbg !3984
 ; invoke <core::fmt::Arguments>::new_v1
-  invoke void @_RNvMs0_NtCs3p84KrD9aKt_4core3fmtNtB5_9Arguments6new_v1Cs37qxPUa7whq_20oneway_thread_access(%"std::fmt::Arguments"* noalias nocapture sret dereferenceable(48) %_7, [0 x { [0 x i8]*, i64 }]* noalias nonnull readonly align 8 bitcast (<{ i8*, [8 x i8], i8*, [8 x i8] }>* @alloc3 to [0 x { [0 x i8]*, i64 }]*), i64 2, [0 x { i8*, i64* }]* noalias nonnull readonly align 8 %_11.0, i64 1)
-          to label %bb4 unwind label %cleanup, !dbg !3981
+  invoke void @_RNvMs0_NtCs3p84KrD9aKt_4core3fmtNtB5_9Arguments6new_v1CsdT7u4N7w2iC_20stack_map_and_mutate(%"std::fmt::Arguments"* noalias nocapture sret dereferenceable(48) %_7, [0 x { [0 x i8]*, i64 }]* noalias nonnull readonly align 8 bitcast (<{ i8*, [8 x i8], i8*, [8 x i8] }>* @alloc3 to [0 x { [0 x i8]*, i64 }]*), i64 2, [0 x { i8*, i64* }]* noalias nonnull readonly align 8 %_11.0, i64 1)
+          to label %bb4 unwind label %cleanup, !dbg !3984
 
 bb4:                                              ; preds = %bb3
 ; invoke std::io::stdio::_print
   invoke void @_ZN3std2io5stdio6_print17h758332562125939aE(%"std::fmt::Arguments"* noalias nocapture dereferenceable(48) %_7)
-          to label %bb5 unwind label %cleanup, !dbg !3981
+          to label %bb5 unwind label %cleanup, !dbg !3984
 
 bb5:                                              ; preds = %bb4
-; call core::ptr::drop_in_place::<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>
-  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEECs37qxPUa7whq_20oneway_thread_access({ i8*, i8* }* %_r), !dbg !3983
-  br label %bb6, !dbg !3983
+  %10 = load i8, i8* %myvar, align 1, !dbg !3986
+  %11 = call { i8, i1 } @llvm.uadd.with.overflow.i8(i8 %10, i8 1), !dbg !3986
+  %_21.0 = extractvalue { i8, i1 } %11, 0, !dbg !3986
+  %_21.1 = extractvalue { i8, i1 } %11, 1, !dbg !3986
+  %12 = call i1 @llvm.expect.i1(i1 %_21.1, i1 false), !dbg !3986
+  br i1 %12, label %panic, label %bb6, !dbg !3986
 
 bb6:                                              ; preds = %bb5
-  ret void, !dbg !3984
+  store i8 %_21.0, i8* %myvar, align 1, !dbg !3986
+  store i8* %myvar, i8** %_31, align 8, !dbg !3987
+  %arg01 = load i8*, i8** %_31, align 8, !dbg !3987, !nonnull !4
+  store i8* %arg01, i8** %arg0.dbg.spill2, align 8, !dbg !3987
+  call void @llvm.dbg.declare(metadata i8** %arg0.dbg.spill2, metadata !3974, metadata !DIExpression()), !dbg !3988
+; invoke <core::fmt::ArgumentV1>::new::<u8>
+  %13 = invoke { i8*, i64* } @_RINvMs_NtCs3p84KrD9aKt_4core3fmtNtB5_10ArgumentV13newhECsdT7u4N7w2iC_20stack_map_and_mutate(i8* noalias readonly align 1 dereferenceable(1) %arg01, i1 (i8*, %"std::fmt::Formatter"*)* nonnull @"_ZN4core3fmt3num3imp51_$LT$impl$u20$core..fmt..Display$u20$for$u20$u8$GT$3fmt17h4bfcdc6a2168a05fE")
+          to label %bb7 unwind label %cleanup, !dbg !3988
 
-bb7:                                              ; preds = %cleanup
-; call core::ptr::drop_in_place::<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>
-  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEECs37qxPUa7whq_20oneway_thread_access({ i8*, i8* }* %_r) #12, !dbg !3983
-  br label %bb8, !dbg !3983
+bb7:                                              ; preds = %bb6
+  %_34.0 = extractvalue { i8*, i64* } %13, 0, !dbg !3988
+  %_34.1 = extractvalue { i8*, i64* } %13, 1, !dbg !3988
+  %14 = bitcast [1 x { i8*, i64* }]* %_30 to { i8*, i64* }*, !dbg !3988
+  %15 = getelementptr inbounds { i8*, i64* }, { i8*, i64* }* %14, i32 0, i32 0, !dbg !3988
+  store i8* %_34.0, i8** %15, align 8, !dbg !3988
+  %16 = getelementptr inbounds { i8*, i64* }, { i8*, i64* }* %14, i32 0, i32 1, !dbg !3988
+  store i64* %_34.1, i64** %16, align 8, !dbg !3988
+  %_27.0 = bitcast [1 x { i8*, i64* }]* %_30 to [0 x { i8*, i64* }]*, !dbg !3987
+; invoke <core::fmt::Arguments>::new_v1
+  invoke void @_RNvMs0_NtCs3p84KrD9aKt_4core3fmtNtB5_9Arguments6new_v1CsdT7u4N7w2iC_20stack_map_and_mutate(%"std::fmt::Arguments"* noalias nocapture sret dereferenceable(48) %_23, [0 x { [0 x i8]*, i64 }]* noalias nonnull readonly align 8 bitcast (<{ i8*, [8 x i8], i8*, [8 x i8] }>* @alloc9 to [0 x { [0 x i8]*, i64 }]*), i64 2, [0 x { i8*, i64* }]* noalias nonnull readonly align 8 %_27.0, i64 1)
+          to label %bb8 unwind label %cleanup, !dbg !3987
 
 bb8:                                              ; preds = %bb7
-  %10 = bitcast { i8*, i32 }* %0 to i8**, !dbg !3985
-  %11 = load i8*, i8** %10, align 8, !dbg !3985
-  %12 = getelementptr inbounds { i8*, i32 }, { i8*, i32 }* %0, i32 0, i32 1, !dbg !3985
-  %13 = load i32, i32* %12, align 8, !dbg !3985
-  %14 = insertvalue { i8*, i32 } undef, i8* %11, 0, !dbg !3985
-  %15 = insertvalue { i8*, i32 } %14, i32 %13, 1, !dbg !3985
-  resume { i8*, i32 } %15, !dbg !3985
+; invoke std::io::stdio::_print
+  invoke void @_ZN3std2io5stdio6_print17h758332562125939aE(%"std::fmt::Arguments"* noalias nocapture dereferenceable(48) %_23)
+          to label %bb9 unwind label %cleanup, !dbg !3987
 
-cleanup:                                          ; preds = %bb4, %bb3, %bb2
-  %16 = landingpad { i8*, i32 }
+bb9:                                              ; preds = %bb8
+; call core::ptr::drop_in_place::<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>
+  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEECsdT7u4N7w2iC_20stack_map_and_mutate({ i8*, i8* }* %_r), !dbg !3989
+  br label %bb10, !dbg !3989
+
+bb10:                                             ; preds = %bb9
+  ret void, !dbg !3990
+
+bb11:                                             ; preds = %cleanup
+; call core::ptr::drop_in_place::<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>
+  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEECsdT7u4N7w2iC_20stack_map_and_mutate({ i8*, i8* }* %_r) #13, !dbg !3989
+  br label %bb12, !dbg !3989
+
+bb12:                                             ; preds = %bb11
+  %17 = bitcast { i8*, i32 }* %0 to i8**, !dbg !3991
+  %18 = load i8*, i8** %17, align 8, !dbg !3991
+  %19 = getelementptr inbounds { i8*, i32 }, { i8*, i32 }* %0, i32 0, i32 1, !dbg !3991
+  %20 = load i32, i32* %19, align 8, !dbg !3991
+  %21 = insertvalue { i8*, i32 } undef, i8* %18, 0, !dbg !3991
+  %22 = insertvalue { i8*, i32 } %21, i32 %20, 1, !dbg !3991
+  resume { i8*, i32 } %22, !dbg !3991
+
+cleanup:                                          ; preds = %bb8, %bb7, %bb6, %panic, %bb4, %bb3, %bb2
+  %23 = landingpad { i8*, i32 }
           cleanup
-  %17 = extractvalue { i8*, i32 } %16, 0
-  %18 = extractvalue { i8*, i32 } %16, 1
-  %19 = getelementptr inbounds { i8*, i32 }, { i8*, i32 }* %0, i32 0, i32 0
-  store i8* %17, i8** %19, align 8
-  %20 = getelementptr inbounds { i8*, i32 }, { i8*, i32 }* %0, i32 0, i32 1
-  store i32 %18, i32* %20, align 8
-  br label %bb7
+  %24 = extractvalue { i8*, i32 } %23, 0
+  %25 = extractvalue { i8*, i32 } %23, 1
+  %26 = getelementptr inbounds { i8*, i32 }, { i8*, i32 }* %0, i32 0, i32 0
+  store i8* %24, i8** %26, align 8
+  %27 = getelementptr inbounds { i8*, i32 }, { i8*, i32 }* %0, i32 0, i32 1
+  store i32 %25, i32* %27, align 8
+  br label %bb11
+
+panic:                                            ; preds = %bb5
+; invoke core::panicking::panic
+  invoke void @_ZN4core9panicking5panic17h35b77276aa4b0c12E([0 x i8]* noalias nonnull readonly align 1 bitcast ([28 x i8]* @str.3 to [0 x i8]*), i64 28, %"std::panic::Location"* noalias readonly align 8 dereferenceable(24) bitcast (<{ i8*, [16 x i8] }>* @alloc73 to %"std::panic::Location"*))
+          to label %unreachable unwind label %cleanup, !dbg !3986
+
+unreachable:                                      ; preds = %panic
+  unreachable
 }
 
-; oneway_thread_access::main::{closure#0}
+; stack_map_and_mutate::main::{closure#0}
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal void @_RNCNvCs37qxPUa7whq_20oneway_thread_access4main0B3_(i8 %0) unnamed_addr #1 !dbg !3986 {
+define internal void @_RNCNvCsdT7u4N7w2iC_20stack_map_and_mutate4main0B3_(i8 %0) unnamed_addr #1 !dbg !3992 {
 start:
+  %arg0.dbg.spill2 = alloca i8*, align 8
   %arg0.dbg.spill = alloca i8*, align 8
+  %_27 = alloca i8*, align 8
+  %_26 = alloca [1 x { i8*, i64* }], align 8
+  %_19 = alloca %"std::fmt::Arguments", align 8
   %_11 = alloca i8*, align 8
   %_10 = alloca [1 x { i8*, i64* }], align 8
   %_3 = alloca %"std::fmt::Arguments", align 8
   %_1 = alloca i8, align 1
   store i8 %0, i8* %_1, align 1
-  call void @llvm.dbg.declare(metadata i8* %_1, metadata !3988, metadata !DIExpression()), !dbg !3992
-  store i8* %_1, i8** %_11, align 8, !dbg !3993
-  %arg0 = load i8*, i8** %_11, align 8, !dbg !3993, !nonnull !4
-  store i8* %arg0, i8** %arg0.dbg.spill, align 8, !dbg !3993
-  call void @llvm.dbg.declare(metadata i8** %arg0.dbg.spill, metadata !3989, metadata !DIExpression()), !dbg !3994
+  call void @llvm.dbg.declare(metadata i8* %_1, metadata !3994, metadata !DIExpression()), !dbg !4001
+  store i8* %_1, i8** %_11, align 8, !dbg !4002
+  %arg0 = load i8*, i8** %_11, align 8, !dbg !4002, !nonnull !4
+  store i8* %arg0, i8** %arg0.dbg.spill, align 8, !dbg !4002
+  call void @llvm.dbg.declare(metadata i8** %arg0.dbg.spill, metadata !3995, metadata !DIExpression()), !dbg !4003
 ; call <core::fmt::ArgumentV1>::new::<u8>
-  %1 = call { i8*, i64* } @_RINvMs_NtCs3p84KrD9aKt_4core3fmtNtB5_10ArgumentV13newhECs37qxPUa7whq_20oneway_thread_access(i8* noalias readonly align 1 dereferenceable(1) %arg0, i1 (i8*, %"std::fmt::Formatter"*)* nonnull @"_ZN4core3fmt3num3imp51_$LT$impl$u20$core..fmt..Display$u20$for$u20$u8$GT$3fmt17h4bfcdc6a2168a05fE"), !dbg !3994
-  %_14.0 = extractvalue { i8*, i64* } %1, 0, !dbg !3994
-  %_14.1 = extractvalue { i8*, i64* } %1, 1, !dbg !3994
-  br label %bb1, !dbg !3994
+  %1 = call { i8*, i64* } @_RINvMs_NtCs3p84KrD9aKt_4core3fmtNtB5_10ArgumentV13newhECsdT7u4N7w2iC_20stack_map_and_mutate(i8* noalias readonly align 1 dereferenceable(1) %arg0, i1 (i8*, %"std::fmt::Formatter"*)* nonnull @"_ZN4core3fmt3num3imp51_$LT$impl$u20$core..fmt..Display$u20$for$u20$u8$GT$3fmt17h4bfcdc6a2168a05fE"), !dbg !4003
+  %_14.0 = extractvalue { i8*, i64* } %1, 0, !dbg !4003
+  %_14.1 = extractvalue { i8*, i64* } %1, 1, !dbg !4003
+  br label %bb1, !dbg !4003
 
 bb1:                                              ; preds = %start
-  %2 = bitcast [1 x { i8*, i64* }]* %_10 to { i8*, i64* }*, !dbg !3994
-  %3 = getelementptr inbounds { i8*, i64* }, { i8*, i64* }* %2, i32 0, i32 0, !dbg !3994
-  store i8* %_14.0, i8** %3, align 8, !dbg !3994
-  %4 = getelementptr inbounds { i8*, i64* }, { i8*, i64* }* %2, i32 0, i32 1, !dbg !3994
-  store i64* %_14.1, i64** %4, align 8, !dbg !3994
-  %_7.0 = bitcast [1 x { i8*, i64* }]* %_10 to [0 x { i8*, i64* }]*, !dbg !3993
+  %2 = bitcast [1 x { i8*, i64* }]* %_10 to { i8*, i64* }*, !dbg !4003
+  %3 = getelementptr inbounds { i8*, i64* }, { i8*, i64* }* %2, i32 0, i32 0, !dbg !4003
+  store i8* %_14.0, i8** %3, align 8, !dbg !4003
+  %4 = getelementptr inbounds { i8*, i64* }, { i8*, i64* }* %2, i32 0, i32 1, !dbg !4003
+  store i64* %_14.1, i64** %4, align 8, !dbg !4003
+  %_7.0 = bitcast [1 x { i8*, i64* }]* %_10 to [0 x { i8*, i64* }]*, !dbg !4002
 ; call <core::fmt::Arguments>::new_v1
-  call void @_RNvMs0_NtCs3p84KrD9aKt_4core3fmtNtB5_9Arguments6new_v1Cs37qxPUa7whq_20oneway_thread_access(%"std::fmt::Arguments"* noalias nocapture sret dereferenceable(48) %_3, [0 x { [0 x i8]*, i64 }]* noalias nonnull readonly align 8 bitcast (<{ i8*, [8 x i8], i8*, [8 x i8] }>* @alloc19 to [0 x { [0 x i8]*, i64 }]*), i64 2, [0 x { i8*, i64* }]* noalias nonnull readonly align 8 %_7.0, i64 1), !dbg !3993
-  br label %bb2, !dbg !3993
+  call void @_RNvMs0_NtCs3p84KrD9aKt_4core3fmtNtB5_9Arguments6new_v1CsdT7u4N7w2iC_20stack_map_and_mutate(%"std::fmt::Arguments"* noalias nocapture sret dereferenceable(48) %_3, [0 x { [0 x i8]*, i64 }]* noalias nonnull readonly align 8 bitcast (<{ i8*, [8 x i8], i8*, [8 x i8] }>* @alloc26 to [0 x { [0 x i8]*, i64 }]*), i64 2, [0 x { i8*, i64* }]* noalias nonnull readonly align 8 %_7.0, i64 1), !dbg !4002
+  br label %bb2, !dbg !4002
 
 bb2:                                              ; preds = %bb1
 ; call std::io::stdio::_print
-  call void @_ZN3std2io5stdio6_print17h758332562125939aE(%"std::fmt::Arguments"* noalias nocapture dereferenceable(48) %_3), !dbg !3993
-  br label %bb3, !dbg !3993
+  call void @_ZN3std2io5stdio6_print17h758332562125939aE(%"std::fmt::Arguments"* noalias nocapture dereferenceable(48) %_3), !dbg !4002
+  br label %bb3, !dbg !4002
 
 bb3:                                              ; preds = %bb2
-  ret void, !dbg !3995
+  %5 = load i8, i8* %_1, align 1, !dbg !4004
+  %6 = call { i8, i1 } @llvm.uadd.with.overflow.i8(i8 %5, i8 1), !dbg !4004
+  %_17.0 = extractvalue { i8, i1 } %6, 0, !dbg !4004
+  %_17.1 = extractvalue { i8, i1 } %6, 1, !dbg !4004
+  %7 = call i1 @llvm.expect.i1(i1 %_17.1, i1 false), !dbg !4004
+  br i1 %7, label %panic, label %bb4, !dbg !4004
+
+bb4:                                              ; preds = %bb3
+  store i8 %_17.0, i8* %_1, align 1, !dbg !4004
+  store i8* %_1, i8** %_27, align 8, !dbg !4005
+  %arg01 = load i8*, i8** %_27, align 8, !dbg !4005, !nonnull !4
+  store i8* %arg01, i8** %arg0.dbg.spill2, align 8, !dbg !4005
+  call void @llvm.dbg.declare(metadata i8** %arg0.dbg.spill2, metadata !3998, metadata !DIExpression()), !dbg !4006
+; call <core::fmt::ArgumentV1>::new::<u8>
+  %8 = call { i8*, i64* } @_RINvMs_NtCs3p84KrD9aKt_4core3fmtNtB5_10ArgumentV13newhECsdT7u4N7w2iC_20stack_map_and_mutate(i8* noalias readonly align 1 dereferenceable(1) %arg01, i1 (i8*, %"std::fmt::Formatter"*)* nonnull @"_ZN4core3fmt3num3imp51_$LT$impl$u20$core..fmt..Display$u20$for$u20$u8$GT$3fmt17h4bfcdc6a2168a05fE"), !dbg !4006
+  %_30.0 = extractvalue { i8*, i64* } %8, 0, !dbg !4006
+  %_30.1 = extractvalue { i8*, i64* } %8, 1, !dbg !4006
+  br label %bb5, !dbg !4006
+
+bb5:                                              ; preds = %bb4
+  %9 = bitcast [1 x { i8*, i64* }]* %_26 to { i8*, i64* }*, !dbg !4006
+  %10 = getelementptr inbounds { i8*, i64* }, { i8*, i64* }* %9, i32 0, i32 0, !dbg !4006
+  store i8* %_30.0, i8** %10, align 8, !dbg !4006
+  %11 = getelementptr inbounds { i8*, i64* }, { i8*, i64* }* %9, i32 0, i32 1, !dbg !4006
+  store i64* %_30.1, i64** %11, align 8, !dbg !4006
+  %_23.0 = bitcast [1 x { i8*, i64* }]* %_26 to [0 x { i8*, i64* }]*, !dbg !4005
+; call <core::fmt::Arguments>::new_v1
+  call void @_RNvMs0_NtCs3p84KrD9aKt_4core3fmtNtB5_9Arguments6new_v1CsdT7u4N7w2iC_20stack_map_and_mutate(%"std::fmt::Arguments"* noalias nocapture sret dereferenceable(48) %_19, [0 x { [0 x i8]*, i64 }]* noalias nonnull readonly align 8 bitcast (<{ i8*, [8 x i8], i8*, [8 x i8] }>* @alloc30 to [0 x { [0 x i8]*, i64 }]*), i64 2, [0 x { i8*, i64* }]* noalias nonnull readonly align 8 %_23.0, i64 1), !dbg !4005
+  br label %bb6, !dbg !4005
+
+bb6:                                              ; preds = %bb5
+; call std::io::stdio::_print
+  call void @_ZN3std2io5stdio6_print17h758332562125939aE(%"std::fmt::Arguments"* noalias nocapture dereferenceable(48) %_19), !dbg !4005
+  br label %bb7, !dbg !4005
+
+bb7:                                              ; preds = %bb6
+  ret void, !dbg !4007
+
+panic:                                            ; preds = %bb3
+; call core::panicking::panic
+  call void @_ZN4core9panicking5panic17h35b77276aa4b0c12E([0 x i8]* noalias nonnull readonly align 1 bitcast ([28 x i8]* @str.3 to [0 x i8]*), i64 28, %"std::panic::Location"* noalias readonly align 8 dereferenceable(24) bitcast (<{ i8*, [16 x i8] }>* @alloc75 to %"std::panic::Location"*)), !dbg !4004
+  unreachable, !dbg !4004
 }
 
 ; Function Attrs: nounwind nonlazybind uwtable
@@ -8532,13 +8633,19 @@ declare zeroext i1 @"_ZN4core3fmt3num3imp51_$LT$impl$u20$core..fmt..Display$u20$
 ; Function Attrs: nonlazybind uwtable
 declare void @_ZN3std2io5stdio6_print17h758332562125939aE(%"std::fmt::Arguments"* noalias nocapture dereferenceable(48)) unnamed_addr #0
 
+; Function Attrs: nounwind readnone speculatable willreturn
+declare { i8, i1 } @llvm.uadd.with.overflow.i8(i8, i8) #4
+
+; Function Attrs: nounwind readnone willreturn
+declare i1 @llvm.expect.i1(i1, i1) #12
+
 ; Function Attrs: nonlazybind
 define i32 @main(i32 %0, i8** %1) unnamed_addr #6 {
 top:
   %2 = load volatile i8, i8* getelementptr inbounds ([34 x i8], [34 x i8]* @__rustc_debug_gdb_scripts_section__, i32 0, i32 0), align 1
   %3 = sext i32 %0 to i64
 ; call std::rt::lang_start::<()>
-  %4 = call i64 @_RINvNtCs2bNvlddUlXM_3std2rt10lang_startuECs37qxPUa7whq_20oneway_thread_access(void ()* @_RNvCs37qxPUa7whq_20oneway_thread_access4main, i64 %3, i8** %1)
+  %4 = call i64 @_RINvNtCs2bNvlddUlXM_3std2rt10lang_startuECsdT7u4N7w2iC_20stack_map_and_mutate(void ()* @_RNvCsdT7u4N7w2iC_20stack_map_and_mutate4main, i64 %3, i8** %1)
   %5 = trunc i64 %4 to i32
   ret i32 %5
 }
@@ -8555,7 +8662,8 @@ attributes #8 = { cold noinline noreturn nonlazybind uwtable "probe-stack"="__ru
 attributes #9 = { nounwind willreturn }
 attributes #10 = { cold noreturn nounwind nonlazybind uwtable "probe-stack"="__rust_probestack" "target-cpu"="x86-64" }
 attributes #11 = { cold noreturn nounwind }
-attributes #12 = { noinline }
+attributes #12 = { nounwind readnone willreturn }
+attributes #13 = { noinline }
 
 !llvm.module.flags = !{!360, !361, !362, !363}
 !llvm.dbg.cu = !{!364}
@@ -8565,7 +8673,7 @@ attributes #12 = { noinline }
 !2 = !DIFile(filename: "<unknown>", directory: "")
 !3 = !DICompositeType(tag: DW_TAG_structure_type, name: "vtable", file: !2, align: 64, flags: DIFlagArtificial, elements: !4, vtableHolder: !5, identifier: "vtable")
 !4 = !{}
-!5 = !DICompositeType(tag: DW_TAG_structure_type, name: "closure-0", scope: !6, file: !2, size: 256, align: 64, elements: !10, templateParams: !4, identifier: "e58438c9f5f754d99b9c269837860c0d")
+!5 = !DICompositeType(tag: DW_TAG_structure_type, name: "closure-0", scope: !6, file: !2, size: 256, align: 64, elements: !10, templateParams: !4, identifier: "40e1f8085c9c28c7e65b341370ff8f8f")
 !6 = !DINamespace(name: "spawn_unchecked", scope: !7)
 !7 = !DINamespace(name: "{{impl}}", scope: !8)
 !8 = !DINamespace(name: "thread", scope: !9)
@@ -8773,9 +8881,9 @@ attributes #12 = { noinline }
 !210 = !{!211}
 !211 = !DIDerivedType(tag: DW_TAG_member, name: "__0", scope: !209, file: !2, baseType: !122, size: 64, align: 64)
 !212 = !DIDerivedType(tag: DW_TAG_member, name: "__2", scope: !5, file: !2, baseType: !213, size: 8, align: 8, offset: 192)
-!213 = !DICompositeType(tag: DW_TAG_structure_type, name: "closure-0", scope: !214, file: !2, size: 8, align: 8, elements: !216, templateParams: !4, identifier: "cd3b6dcfa43d06b3adb648973ac4b5e6")
+!213 = !DICompositeType(tag: DW_TAG_structure_type, name: "closure-0", scope: !214, file: !2, size: 8, align: 8, elements: !216, templateParams: !4, identifier: "ce1b3acf3bc5afd12916d86d68d11765")
 !214 = !DINamespace(name: "main", scope: !215)
-!215 = !DINamespace(name: "oneway_thread_access", scope: null)
+!215 = !DINamespace(name: "stack_map_and_mutate", scope: null)
 !216 = !{!217}
 !217 = !DIDerivedType(tag: DW_TAG_member, name: "__0", scope: !213, file: !2, baseType: !65, size: 8, align: 8)
 !218 = !DIDerivedType(tag: DW_TAG_member, name: "__3", scope: !5, file: !2, baseType: !219, size: 64, align: 64, offset: 128)
@@ -8925,7 +9033,7 @@ attributes #12 = { noinline }
 !362 = !{i32 2, !"RtLibUseGOT", i32 1}
 !363 = !{i32 2, !"Debug Info Version", i32 3}
 !364 = distinct !DICompileUnit(language: DW_LANG_Rust, file: !365, producer: "clang LLVM (rustc version 1.51.0-nightly (e38fb306b 2021-01-14))", isOptimized: false, runtimeVersion: 0, emissionKind: FullDebug, enums: !366, globals: !387)
-!365 = !DIFile(filename: "src/main.rs", directory: "/home/skeet/Documents/o2_lab/rust/race_examples/oneway_thread_access/target/debug/deps")
+!365 = !DIFile(filename: "src/main.rs", directory: "/home/skeet/Documents/o2_lab/rust/race_examples/stack_map_and_mutate/target/debug/deps")
 !366 = !{!319, !367, !371, !380}
 !367 = !DICompositeType(tag: DW_TAG_enumeration_type, name: "Result", scope: !243, file: !2, baseType: !65, size: 8, align: 8, flags: DIFlagEnumClass, elements: !368)
 !368 = !{!369, !370}
@@ -8948,7 +9056,7 @@ attributes #12 = { noinline }
 !385 = !DIEnumerator(name: "AcqRel", value: 3)
 !386 = !DIEnumerator(name: "SeqCst", value: 4)
 !387 = !{!0, !288, !299}
-!388 = distinct !DISubprogram(name: "spawn_unchecked<closure-0,()>", linkageName: "_RINvMNtCs2bNvlddUlXM_3std6threadNtB3_7Builder15spawn_uncheckedNCNvCs37qxPUa7whq_20oneway_thread_access4main0uEB12_", scope: !390, file: !389, line: 443, type: !420, scopeLine: 443, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !489, retainedNodes: !465)
+!388 = distinct !DISubprogram(name: "spawn_unchecked<closure-0,()>", linkageName: "_RINvMNtCs2bNvlddUlXM_3std6threadNtB3_7Builder15spawn_uncheckedNCNvCsdT7u4N7w2iC_20stack_map_and_mutate4main0uEB12_", scope: !390, file: !389, line: 443, type: !420, scopeLine: 443, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !489, retainedNodes: !465)
 !389 = !DIFile(filename: "/rustc/e38fb306b7f5e65cca34df2dab1f0db15e1defb4/library/std/src/thread/mod.rs", directory: "", checksumkind: CSK_MD5, checksum: "f26192c994bf4f410829d52b5e501e96")
 !390 = !DICompositeType(tag: DW_TAG_structure_type, name: "Builder", scope: !8, file: !2, size: 320, align: 64, elements: !391, templateParams: !4, identifier: "b16137263913302cd67d8a5c187f6b38")
 !391 = !{!392, !409}
@@ -9085,7 +9193,7 @@ attributes #12 = { noinline }
 !522 = !DILocation(line: 462, column: 20, scope: !482)
 !523 = !DILocation(line: 501, column: 34, scope: !484)
 !524 = !DILocalVariable(name: "x", arg: 1, scope: !525, file: !526, line: 183, type: !5)
-!525 = distinct !DISubprogram(name: "new<closure-0>", linkageName: "_RNvMNtCs8RW06R9lH2S_5alloc5boxedINtB2_3BoxNCINvMNtCs2bNvlddUlXM_3std6threadNtBK_7Builder15spawn_uncheckedNCNvCs37qxPUa7whq_20oneway_thread_access4main0uE0E3newB1J_", scope: !527, file: !526, line: 183, type: !529, scopeLine: 183, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !533, retainedNodes: !532)
+!525 = distinct !DISubprogram(name: "new<closure-0>", linkageName: "_RNvMNtCs8RW06R9lH2S_5alloc5boxedINtB2_3BoxNCINvMNtCs2bNvlddUlXM_3std6threadNtBK_7Builder15spawn_uncheckedNCNvCsdT7u4N7w2iC_20stack_map_and_mutate4main0uE0E3newB1J_", scope: !527, file: !526, line: 183, type: !529, scopeLine: 183, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !533, retainedNodes: !532)
 !526 = !DIFile(filename: "/rustc/e38fb306b7f5e65cca34df2dab1f0db15e1defb4/library/alloc/src/boxed.rs", directory: "", checksumkind: CSK_MD5, checksum: "642b07ec25e018ad0c5bd5b89a13146f")
 !527 = !DINamespace(name: "{{impl}}", scope: !528)
 !528 = !DINamespace(name: "boxed", scope: !17)
@@ -9122,7 +9230,7 @@ attributes #12 = { noinline }
 !559 = !DILocation(line: 508, column: 6, scope: !388)
 !560 = !{i8 0, i8 2}
 !561 = !DILocation(line: 443, column: 5, scope: !388)
-!562 = distinct !DISubprogram(name: "spawn<closure-0,()>", linkageName: "_RINvMNtCs2bNvlddUlXM_3std6threadNtB3_7Builder5spawnNCNvCs37qxPUa7whq_20oneway_thread_access4main0uEBR_", scope: !390, file: !389, line: 375, type: !420, scopeLine: 375, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !489, retainedNodes: !563)
+!562 = distinct !DISubprogram(name: "spawn<closure-0,()>", linkageName: "_RINvMNtCs2bNvlddUlXM_3std6threadNtB3_7Builder5spawnNCNvCsdT7u4N7w2iC_20stack_map_and_mutate4main0uEBR_", scope: !390, file: !389, line: 375, type: !420, scopeLine: 375, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !489, retainedNodes: !563)
 !563 = !{!564, !565}
 !564 = !DILocalVariable(name: "self", arg: 1, scope: !562, file: !389, line: 375, type: !390)
 !565 = !DILocalVariable(name: "f", arg: 2, scope: !562, file: !389, line: 375, type: !213)
@@ -9130,7 +9238,7 @@ attributes #12 = { noinline }
 !567 = !DILocation(line: 375, column: 30, scope: !562)
 !568 = !DILocation(line: 381, column: 18, scope: !562)
 !569 = !DILocation(line: 382, column: 6, scope: !562)
-!570 = distinct !DISubprogram(name: "get_unchecked_mut<u8,usize>", linkageName: "_RINvMNtCs3p84KrD9aKt_4core5sliceSh17get_unchecked_mutjECs37qxPUa7whq_20oneway_thread_access", scope: !572, file: !571, line: 373, type: !574, scopeLine: 373, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !584, retainedNodes: !581)
+!570 = distinct !DISubprogram(name: "get_unchecked_mut<u8,usize>", linkageName: "_RINvMNtCs3p84KrD9aKt_4core5sliceSh17get_unchecked_mutjECsdT7u4N7w2iC_20stack_map_and_mutate", scope: !572, file: !571, line: 373, type: !574, scopeLine: 373, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !584, retainedNodes: !581)
 !571 = !DIFile(filename: "/rustc/e38fb306b7f5e65cca34df2dab1f0db15e1defb4/library/core/src/slice/mod.rs", directory: "", checksumkind: CSK_MD5, checksum: "f5494adcfbc3c204c13d8f3611aba5e3")
 !572 = !DINamespace(name: "{{impl}}", scope: !573)
 !573 = !DINamespace(name: "slice", scope: !23)
@@ -9150,7 +9258,7 @@ attributes #12 = { noinline }
 !587 = !DILocation(line: 373, column: 51, scope: !570)
 !588 = !DILocation(line: 380, column: 24, scope: !570)
 !589 = !DILocation(line: 381, column: 6, scope: !570)
-!590 = distinct !DISubprogram(name: "ok_or<core::ptr::non_null::NonNull<u8>,core::alloc::AllocError>", linkageName: "_RINvMNtCs3p84KrD9aKt_4core6optionINtB3_6OptionINtNtNtB5_3ptr8non_null7NonNullhEE5ok_orNtNtB5_5alloc10AllocErrorECs37qxPUa7whq_20oneway_thread_access", scope: !592, file: !591, line: 531, type: !607, scopeLine: 531, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !617, retainedNodes: !625)
+!590 = distinct !DISubprogram(name: "ok_or<core::ptr::non_null::NonNull<u8>,core::alloc::AllocError>", linkageName: "_RINvMNtCs3p84KrD9aKt_4core6optionINtB3_6OptionINtNtNtB5_3ptr8non_null7NonNullhEE5ok_orNtNtB5_5alloc10AllocErrorECsdT7u4N7w2iC_20stack_map_and_mutate", scope: !592, file: !591, line: 531, type: !607, scopeLine: 531, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !617, retainedNodes: !625)
 !591 = !DIFile(filename: "/rustc/e38fb306b7f5e65cca34df2dab1f0db15e1defb4/library/core/src/option.rs", directory: "", checksumkind: CSK_MD5, checksum: "bf7fc38cde9f1dd32b300f1d80413818")
 !592 = !DICompositeType(tag: DW_TAG_structure_type, name: "Option<core::ptr::non_null::NonNull<u8>>", scope: !48, file: !2, size: 64, align: 64, elements: !593, identifier: "47741a1cc8aeefeeef407fb45e4501fc")
 !593 = !{!594}
@@ -9203,7 +9311,7 @@ attributes #12 = { noinline }
 !640 = !DILocation(line: 536, column: 5, scope: !590)
 !641 = !DILocation(line: 536, column: 6, scope: !590)
 !642 = !DILocation(line: 531, column: 5, scope: !590)
-!643 = distinct !DISubprogram(name: "unwrap_or_else<usize,fn() -> usize>", linkageName: "_RINvMNtCs3p84KrD9aKt_4core6optionINtB3_6OptionjE14unwrap_or_elseNvNtNtCs2bNvlddUlXM_3std10sys_common6thread9min_stackECs37qxPUa7whq_20oneway_thread_access", scope: !410, file: !591, line: 424, type: !644, scopeLine: 424, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !654, retainedNodes: !649)
+!643 = distinct !DISubprogram(name: "unwrap_or_else<usize,fn() -> usize>", linkageName: "_RINvMNtCs3p84KrD9aKt_4core6optionINtB3_6OptionjE14unwrap_or_elseNvNtNtCs2bNvlddUlXM_3std10sys_common6thread9min_stackECsdT7u4N7w2iC_20stack_map_and_mutate", scope: !410, file: !591, line: 424, type: !644, scopeLine: 424, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !654, retainedNodes: !649)
 !644 = !DISubroutineType(types: !645)
 !645 = !{!39, !410, !646}
 !646 = !DIDerivedType(tag: DW_TAG_pointer_type, name: "fn() -> usize", baseType: !647, align: 8, dwarfAddressSpace: 0)
@@ -9228,7 +9336,7 @@ attributes #12 = { noinline }
 !665 = !DILocation(line: 429, column: 6, scope: !643)
 !666 = !DILocation(line: 429, column: 5, scope: !643)
 !667 = !DILocation(line: 424, column: 5, scope: !643)
-!668 = distinct !DISubprogram(name: "for_value_raw<alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>>>", linkageName: "_RINvMNtNtCs3p84KrD9aKt_4core5alloc6layoutNtB3_6Layout13for_value_rawINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtB7_4cell10UnsafeCellINtNtB7_6option6OptionINtNtB7_6result6ResultuINtNtB19_5boxed3BoxDNtNtB7_3any3AnyNtNtB7_6marker4SendEL_EEEEEECs37qxPUa7whq_20oneway_thread_access", scope: !670, file: !669, line: 171, type: !678, scopeLine: 171, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !284, retainedNodes: !680)
+!668 = distinct !DISubprogram(name: "for_value_raw<alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>>>", linkageName: "_RINvMNtNtCs3p84KrD9aKt_4core5alloc6layoutNtB3_6Layout13for_value_rawINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtB7_4cell10UnsafeCellINtNtB7_6option6OptionINtNtB7_6result6ResultuINtNtB19_5boxed3BoxDNtNtB7_3any3AnyNtNtB7_6marker4SendEL_EEEEEECsdT7u4N7w2iC_20stack_map_and_mutate", scope: !670, file: !669, line: 171, type: !678, scopeLine: 171, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !284, retainedNodes: !680)
 !669 = !DIFile(filename: "/rustc/e38fb306b7f5e65cca34df2dab1f0db15e1defb4/library/core/src/alloc/layout.rs", directory: "", checksumkind: CSK_MD5, checksum: "d987aedeaa886c998af5931f7a6b26ef")
 !670 = !DICompositeType(tag: DW_TAG_structure_type, name: "Layout", scope: !671, file: !2, size: 128, align: 64, elements: !672, templateParams: !4, identifier: "47ebd78136bba33e1426e42e4eaa8268")
 !671 = !DINamespace(name: "layout", scope: !620)
@@ -9255,7 +9363,7 @@ attributes #12 = { noinline }
 !692 = !DILocation(line: 173, column: 20, scope: !683)
 !693 = !DILocation(line: 176, column: 18, scope: !683)
 !694 = !DILocation(line: 177, column: 6, scope: !668)
-!695 = distinct !DISubprogram(name: "for_value_raw<alloc::sync::ArcInner<std::sync::mutex::Mutex<alloc::vec::Vec<u8, alloc::alloc::Global>>>>", linkageName: "_RINvMNtNtCs3p84KrD9aKt_4core5alloc6layoutNtB3_6Layout13for_value_rawINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtB19_3vec3VechEEEECs37qxPUa7whq_20oneway_thread_access", scope: !670, file: !669, line: 171, type: !696, scopeLine: 171, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !204, retainedNodes: !698)
+!695 = distinct !DISubprogram(name: "for_value_raw<alloc::sync::ArcInner<std::sync::mutex::Mutex<alloc::vec::Vec<u8, alloc::alloc::Global>>>>", linkageName: "_RINvMNtNtCs3p84KrD9aKt_4core5alloc6layoutNtB3_6Layout13for_value_rawINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtB19_3vec3VechEEEECsdT7u4N7w2iC_20stack_map_and_mutate", scope: !670, file: !669, line: 171, type: !696, scopeLine: 171, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !204, retainedNodes: !698)
 !696 = !DISubroutineType(types: !697)
 !697 = !{!670, !128}
 !698 = !{!699, !700, !702}
@@ -9273,7 +9381,7 @@ attributes #12 = { noinline }
 !710 = !DILocation(line: 173, column: 20, scope: !701)
 !711 = !DILocation(line: 176, column: 18, scope: !701)
 !712 = !DILocation(line: 177, column: 6, scope: !695)
-!713 = distinct !DISubprogram(name: "for_value_raw<alloc::sync::ArcInner<std::thread::Inner>>", linkageName: "_RINvMNtNtCs3p84KrD9aKt_4core5alloc6layoutNtB3_6Layout13for_value_rawINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerNtNtCs2bNvlddUlXM_3std6thread5InnerEECs37qxPUa7whq_20oneway_thread_access", scope: !670, file: !669, line: 171, type: !714, scopeLine: 171, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !108, retainedNodes: !716)
+!713 = distinct !DISubprogram(name: "for_value_raw<alloc::sync::ArcInner<std::thread::Inner>>", linkageName: "_RINvMNtNtCs3p84KrD9aKt_4core5alloc6layoutNtB3_6Layout13for_value_rawINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerNtNtCs2bNvlddUlXM_3std6thread5InnerEECsdT7u4N7w2iC_20stack_map_and_mutate", scope: !670, file: !669, line: 171, type: !714, scopeLine: 171, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !108, retainedNodes: !716)
 !714 = !DISubroutineType(types: !715)
 !715 = !{!670, !26}
 !716 = !{!717, !718, !720}
@@ -9291,7 +9399,7 @@ attributes #12 = { noinline }
 !728 = !DILocation(line: 173, column: 20, scope: !719)
 !729 = !DILocation(line: 176, column: 18, scope: !719)
 !730 = !DILocation(line: 177, column: 6, scope: !713)
-!731 = distinct !DISubprogram(name: "cast<Any,u8>", linkageName: "_RINvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB6_6UniqueDNtNtBa_3any3AnyNtNtBa_6marker4SendEL_E4casthECs37qxPUa7whq_20oneway_thread_access", scope: !733, file: !732, line: 135, type: !743, scopeLine: 135, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !747, retainedNodes: !745)
+!731 = distinct !DISubprogram(name: "cast<Any,u8>", linkageName: "_RINvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB6_6UniqueDNtNtBa_3any3AnyNtNtBa_6marker4SendEL_E4casthECsdT7u4N7w2iC_20stack_map_and_mutate", scope: !733, file: !732, line: 135, type: !743, scopeLine: 135, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !747, retainedNodes: !745)
 !732 = !DIFile(filename: "/rustc/e38fb306b7f5e65cca34df2dab1f0db15e1defb4/library/core/src/ptr/unique.rs", directory: "", checksumkind: CSK_MD5, checksum: "a83acd9c3d0e6cc1331d6a0f78f4f2e9")
 !733 = !DICompositeType(tag: DW_TAG_structure_type, name: "Unique<Any>", scope: !191, file: !2, size: 128, align: 64, elements: !734, templateParams: !742, identifier: "2938af5a0200ac042e410e76a3595198")
 !734 = !{!735, !740}
@@ -9313,7 +9421,7 @@ attributes #12 = { noinline }
 !750 = !DILocation(line: 139, column: 40, scope: !731)
 !751 = !DILocation(line: 139, column: 18, scope: !731)
 !752 = !DILocation(line: 140, column: 6, scope: !731)
-!753 = distinct !DISubprogram(name: "cast<Error,u8>", linkageName: "_RINvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB6_6UniqueDNtNtCs2bNvlddUlXM_3std5error5ErrorNtNtBa_6marker4SendNtB1s_4SyncEL_E4casthECs37qxPUa7whq_20oneway_thread_access", scope: !754, file: !732, line: 135, type: !764, scopeLine: 135, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !768, retainedNodes: !766)
+!753 = distinct !DISubprogram(name: "cast<Error,u8>", linkageName: "_RINvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB6_6UniqueDNtNtCs2bNvlddUlXM_3std5error5ErrorNtNtBa_6marker4SendNtB1s_4SyncEL_E4casthECsdT7u4N7w2iC_20stack_map_and_mutate", scope: !754, file: !732, line: 135, type: !764, scopeLine: 135, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !768, retainedNodes: !766)
 !754 = !DICompositeType(tag: DW_TAG_structure_type, name: "Unique<Error>", scope: !191, file: !2, size: 128, align: 64, elements: !755, templateParams: !763, identifier: "493a69d9adf60043ff68a2f27ef2f0f2")
 !755 = !{!756, !761}
 !756 = !DIDerivedType(tag: DW_TAG_member, name: "pointer", scope: !754, file: !2, baseType: !757, size: 128, align: 64)
@@ -9333,7 +9441,7 @@ attributes #12 = { noinline }
 !770 = !DILocation(line: 139, column: 40, scope: !753)
 !771 = !DILocation(line: 139, column: 18, scope: !753)
 !772 = !DILocation(line: 140, column: 6, scope: !753)
-!773 = distinct !DISubprogram(name: "cast<alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>>,u8>", linkageName: "_RINvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB6_6UniqueINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtBa_4cell10UnsafeCellINtNtBa_6option6OptionINtNtBa_6result6ResultuINtNtBW_5boxed3BoxDNtNtBa_3any3AnyNtNtBa_6marker4SendEL_EEEEEE4casthECs37qxPUa7whq_20oneway_thread_access", scope: !774, file: !732, line: 135, type: !778, scopeLine: 135, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !782, retainedNodes: !780)
+!773 = distinct !DISubprogram(name: "cast<alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>>,u8>", linkageName: "_RINvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB6_6UniqueINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtBa_4cell10UnsafeCellINtNtBa_6option6OptionINtNtBa_6result6ResultuINtNtBW_5boxed3BoxDNtNtBa_3any3AnyNtNtBa_6marker4SendEL_EEEEEE4casthECsdT7u4N7w2iC_20stack_map_and_mutate", scope: !774, file: !732, line: 135, type: !778, scopeLine: 135, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !782, retainedNodes: !780)
 !774 = !DICompositeType(tag: DW_TAG_structure_type, name: "Unique<alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>>>", scope: !191, file: !2, size: 64, align: 64, elements: !775, templateParams: !284, identifier: "322efd7761c4475ad8c6ddc6a7748863")
 !775 = !{!776, !777}
 !776 = !DIDerivedType(tag: DW_TAG_member, name: "pointer", scope: !774, file: !2, baseType: !225, size: 64, align: 64)
@@ -9347,7 +9455,7 @@ attributes #12 = { noinline }
 !784 = !DILocation(line: 139, column: 40, scope: !773)
 !785 = !DILocation(line: 139, column: 18, scope: !773)
 !786 = !DILocation(line: 140, column: 6, scope: !773)
-!787 = distinct !DISubprogram(name: "cast<std::io::error::Custom,u8>", linkageName: "_RINvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB6_6UniqueNtNtNtCs2bNvlddUlXM_3std2io5error6CustomE4casthECs37qxPUa7whq_20oneway_thread_access", scope: !788, file: !732, line: 135, type: !796, scopeLine: 135, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !800, retainedNodes: !798)
+!787 = distinct !DISubprogram(name: "cast<std::io::error::Custom,u8>", linkageName: "_RINvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB6_6UniqueNtNtNtCs2bNvlddUlXM_3std2io5error6CustomE4casthECsdT7u4N7w2iC_20stack_map_and_mutate", scope: !788, file: !732, line: 135, type: !796, scopeLine: 135, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !800, retainedNodes: !798)
 !788 = !DICompositeType(tag: DW_TAG_structure_type, name: "Unique<std::io::error::Custom>", scope: !191, file: !2, size: 64, align: 64, elements: !789, templateParams: !794, identifier: "4611d10263019a5289b9af2041f45d0b")
 !789 = !{!790, !792}
 !790 = !DIDerivedType(tag: DW_TAG_member, name: "pointer", scope: !788, file: !2, baseType: !791, size: 64, align: 64)
@@ -9365,7 +9473,7 @@ attributes #12 = { noinline }
 !802 = !DILocation(line: 139, column: 40, scope: !787)
 !803 = !DILocation(line: 139, column: 18, scope: !787)
 !804 = !DILocation(line: 140, column: 6, scope: !787)
-!805 = distinct !DISubprogram(name: "cast<std::sys::unix::mutex::Mutex,u8>", linkageName: "_RINvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB6_6UniqueNtNtNtNtCs2bNvlddUlXM_3std3sys4unix5mutex5MutexE4casthECs37qxPUa7whq_20oneway_thread_access", scope: !806, file: !732, line: 135, type: !814, scopeLine: 135, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !818, retainedNodes: !816)
+!805 = distinct !DISubprogram(name: "cast<std::sys::unix::mutex::Mutex,u8>", linkageName: "_RINvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB6_6UniqueNtNtNtNtCs2bNvlddUlXM_3std3sys4unix5mutex5MutexE4casthECsdT7u4N7w2iC_20stack_map_and_mutate", scope: !806, file: !732, line: 135, type: !814, scopeLine: 135, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !818, retainedNodes: !816)
 !806 = !DICompositeType(tag: DW_TAG_structure_type, name: "Unique<std::sys::unix::mutex::Mutex>", scope: !191, file: !2, size: 64, align: 64, elements: !807, templateParams: !812, identifier: "3afbb3cff744085763686298ba17cd3e")
 !807 = !{!808, !810}
 !808 = !DIDerivedType(tag: DW_TAG_member, name: "pointer", scope: !806, file: !2, baseType: !809, size: 64, align: 64)
@@ -9383,7 +9491,7 @@ attributes #12 = { noinline }
 !820 = !DILocation(line: 139, column: 40, scope: !805)
 !821 = !DILocation(line: 139, column: 18, scope: !805)
 !822 = !DILocation(line: 140, column: 6, scope: !805)
-!823 = distinct !DISubprogram(name: "cast<[u8],u8>", linkageName: "_RINvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB6_6UniqueShE4casthECs37qxPUa7whq_20oneway_thread_access", scope: !824, file: !732, line: 135, type: !834, scopeLine: 135, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !838, retainedNodes: !836)
+!823 = distinct !DISubprogram(name: "cast<[u8],u8>", linkageName: "_RINvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB6_6UniqueShE4casthECsdT7u4N7w2iC_20stack_map_and_mutate", scope: !824, file: !732, line: 135, type: !834, scopeLine: 135, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !838, retainedNodes: !836)
 !824 = !DICompositeType(tag: DW_TAG_structure_type, name: "Unique<[u8]>", scope: !191, file: !2, size: 128, align: 64, elements: !825, templateParams: !833, identifier: "ff7710dc8332129f3df7d07581b1e09")
 !825 = !{!826, !831}
 !826 = !DIDerivedType(tag: DW_TAG_member, name: "pointer", scope: !824, file: !2, baseType: !827, size: 128, align: 64)
@@ -9403,7 +9511,7 @@ attributes #12 = { noinline }
 !840 = !DILocation(line: 139, column: 40, scope: !823)
 !841 = !DILocation(line: 139, column: 18, scope: !823)
 !842 = !DILocation(line: 140, column: 6, scope: !823)
-!843 = distinct !DISubprogram(name: "cast<u8,u8>", linkageName: "_RINvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB6_6UniquehE4casthECs37qxPUa7whq_20oneway_thread_access", scope: !190, file: !732, line: 135, type: !844, scopeLine: 135, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !848, retainedNodes: !846)
+!843 = distinct !DISubprogram(name: "cast<u8,u8>", linkageName: "_RINvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB6_6UniquehE4casthECsdT7u4N7w2iC_20stack_map_and_mutate", scope: !190, file: !732, line: 135, type: !844, scopeLine: 135, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !848, retainedNodes: !846)
 !844 = !DISubroutineType(types: !845)
 !845 = !{!190, !190}
 !846 = !{!847}
@@ -9413,7 +9521,7 @@ attributes #12 = { noinline }
 !850 = !DILocation(line: 139, column: 40, scope: !843)
 !851 = !DILocation(line: 139, column: 18, scope: !843)
 !852 = !DILocation(line: 140, column: 6, scope: !843)
-!853 = distinct !DISubprogram(name: "cast<alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>>,u8>", linkageName: "_RINvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB6_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtBa_4cell10UnsafeCellINtNtBa_6option6OptionINtNtBa_6result6ResultuINtNtBZ_5boxed3BoxDNtNtBa_3any3AnyNtNtBa_6marker4SendEL_EEEEEE4casthECs37qxPUa7whq_20oneway_thread_access", scope: !222, file: !854, line: 255, type: !855, scopeLine: 255, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !782, retainedNodes: !857)
+!853 = distinct !DISubprogram(name: "cast<alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>>,u8>", linkageName: "_RINvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB6_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtBa_4cell10UnsafeCellINtNtBa_6option6OptionINtNtBa_6result6ResultuINtNtBZ_5boxed3BoxDNtNtBa_3any3AnyNtNtBa_6marker4SendEL_EEEEEE4casthECsdT7u4N7w2iC_20stack_map_and_mutate", scope: !222, file: !854, line: 255, type: !855, scopeLine: 255, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !782, retainedNodes: !857)
 !854 = !DIFile(filename: "/rustc/e38fb306b7f5e65cca34df2dab1f0db15e1defb4/library/core/src/ptr/non_null.rs", directory: "", checksumkind: CSK_MD5, checksum: "4af9bac76cacc4c0d76dcda470f37347")
 !855 = !DISubroutineType(types: !856)
 !856 = !{!600, !222}
@@ -9423,7 +9531,7 @@ attributes #12 = { noinline }
 !860 = !DILocation(line: 257, column: 41, scope: !853)
 !861 = !DILocation(line: 257, column: 18, scope: !853)
 !862 = !DILocation(line: 258, column: 6, scope: !853)
-!863 = distinct !DISubprogram(name: "cast<alloc::sync::ArcInner<std::sync::mutex::Mutex<alloc::vec::Vec<u8, alloc::alloc::Global>>>,u8>", linkageName: "_RINvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB6_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtBZ_3vec3VechEEEE4casthECs37qxPUa7whq_20oneway_thread_access", scope: !125, file: !854, line: 255, type: !864, scopeLine: 255, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !868, retainedNodes: !866)
+!863 = distinct !DISubprogram(name: "cast<alloc::sync::ArcInner<std::sync::mutex::Mutex<alloc::vec::Vec<u8, alloc::alloc::Global>>>,u8>", linkageName: "_RINvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB6_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtBZ_3vec3VechEEEE4casthECsdT7u4N7w2iC_20stack_map_and_mutate", scope: !125, file: !854, line: 255, type: !864, scopeLine: 255, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !868, retainedNodes: !866)
 !864 = !DISubroutineType(types: !865)
 !865 = !{!600, !125}
 !866 = !{!867}
@@ -9433,7 +9541,7 @@ attributes #12 = { noinline }
 !870 = !DILocation(line: 257, column: 41, scope: !863)
 !871 = !DILocation(line: 257, column: 18, scope: !863)
 !872 = !DILocation(line: 258, column: 6, scope: !863)
-!873 = distinct !DISubprogram(name: "cast<alloc::sync::ArcInner<std::thread::Inner>,u8>", linkageName: "_RINvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB6_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerNtNtCs2bNvlddUlXM_3std6thread5InnerEE4casthECs37qxPUa7whq_20oneway_thread_access", scope: !20, file: !854, line: 255, type: !874, scopeLine: 255, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !878, retainedNodes: !876)
+!873 = distinct !DISubprogram(name: "cast<alloc::sync::ArcInner<std::thread::Inner>,u8>", linkageName: "_RINvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB6_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerNtNtCs2bNvlddUlXM_3std6thread5InnerEE4casthECsdT7u4N7w2iC_20stack_map_and_mutate", scope: !20, file: !854, line: 255, type: !874, scopeLine: 255, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !878, retainedNodes: !876)
 !874 = !DISubroutineType(types: !875)
 !875 = !{!600, !20}
 !876 = !{!877}
@@ -9443,7 +9551,7 @@ attributes #12 = { noinline }
 !880 = !DILocation(line: 257, column: 41, scope: !873)
 !881 = !DILocation(line: 257, column: 18, scope: !873)
 !882 = !DILocation(line: 258, column: 6, scope: !873)
-!883 = distinct !DISubprogram(name: "new<u8>", linkageName: "_RINvMs_NtCs3p84KrD9aKt_4core3fmtNtB5_10ArgumentV13newhECs37qxPUa7whq_20oneway_thread_access", scope: !885, file: !884, line: 267, type: !909, scopeLine: 267, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !176, retainedNodes: !915)
+!883 = distinct !DISubprogram(name: "new<u8>", linkageName: "_RINvMs_NtCs3p84KrD9aKt_4core3fmtNtB5_10ArgumentV13newhECsdT7u4N7w2iC_20stack_map_and_mutate", scope: !885, file: !884, line: 267, type: !909, scopeLine: 267, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !176, retainedNodes: !915)
 !884 = !DIFile(filename: "/rustc/e38fb306b7f5e65cca34df2dab1f0db15e1defb4/library/core/src/fmt/mod.rs", directory: "", checksumkind: CSK_MD5, checksum: "9c2303bc954c30225b64b2e88dce24d2")
 !885 = !DICompositeType(tag: DW_TAG_structure_type, name: "ArgumentV1", scope: !374, file: !2, size: 128, align: 64, elements: !886, templateParams: !4, identifier: "9a207610fc99920354284f0b24eecf92")
 !886 = !{!887, !890}
@@ -9484,7 +9592,7 @@ attributes #12 = { noinline }
 !921 = !DILocation(line: 276, column: 68, scope: !883)
 !922 = !DILocation(line: 276, column: 18, scope: !883)
 !923 = !DILocation(line: 277, column: 6, scope: !883)
-!924 = distinct !DISubprogram(name: "lang_start<()>", linkageName: "_RINvNtCs2bNvlddUlXM_3std2rt10lang_startuECs37qxPUa7whq_20oneway_thread_access", scope: !293, file: !925, line: 60, type: !926, scopeLine: 60, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !457, retainedNodes: !930)
+!924 = distinct !DISubprogram(name: "lang_start<()>", linkageName: "_RINvNtCs2bNvlddUlXM_3std2rt10lang_startuECsdT7u4N7w2iC_20stack_map_and_mutate", scope: !293, file: !925, line: 60, type: !926, scopeLine: 60, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !457, retainedNodes: !930)
 !925 = !DIFile(filename: "/rustc/e38fb306b7f5e65cca34df2dab1f0db15e1defb4/library/std/src/rt.rs", directory: "", checksumkind: CSK_MD5, checksum: "a29dbe91f6c44a4e9c1b3c06440e8785")
 !926 = !DISubroutineType(types: !927)
 !927 = !{!928, !296, !928, !929}
@@ -9501,15 +9609,15 @@ attributes #12 = { noinline }
 !938 = !DILocation(line: 66, column: 9, scope: !924)
 !939 = !DILocation(line: 65, column: 5, scope: !924)
 !940 = !DILocation(line: 70, column: 2, scope: !924)
-!941 = distinct !DISubprogram(name: "catch_unwind<std::panic::AssertUnwindSafe<closure-0>,()>", linkageName: "_RINvNtCs2bNvlddUlXM_3std5panic12catch_unwindINtB2_16AssertUnwindSafeNCNCINvMNtB4_6threadNtB1c_7Builder15spawn_uncheckedNCNvCs37qxPUa7whq_20oneway_thread_access4main0uE00EuEB1X_", scope: !943, file: !942, line: 395, type: !944, scopeLine: 395, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !957, retainedNodes: !955)
+!941 = distinct !DISubprogram(name: "catch_unwind<std::panic::AssertUnwindSafe<closure-0>,()>", linkageName: "_RINvNtCs2bNvlddUlXM_3std5panic12catch_unwindINtB2_16AssertUnwindSafeNCNCINvMNtB4_6threadNtB1c_7Builder15spawn_uncheckedNCNvCsdT7u4N7w2iC_20stack_map_and_mutate4main0uE00EuEB1X_", scope: !943, file: !942, line: 395, type: !944, scopeLine: 395, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !957, retainedNodes: !955)
 !942 = !DIFile(filename: "/rustc/e38fb306b7f5e65cca34df2dab1f0db15e1defb4/library/std/src/panic.rs", directory: "", checksumkind: CSK_MD5, checksum: "ee3ba309b2a789c4753fc4b47a6b09eb")
 !943 = !DINamespace(name: "panic", scope: !9)
 !944 = !DISubroutineType(types: !945)
 !945 = !{!242, !946}
-!946 = !DICompositeType(tag: DW_TAG_structure_type, name: "AssertUnwindSafe<closure-0>", scope: !943, file: !2, size: 8, align: 8, elements: !947, templateParams: !953, identifier: "18026f09df6b17011a265340d30030")
+!946 = !DICompositeType(tag: DW_TAG_structure_type, name: "AssertUnwindSafe<closure-0>", scope: !943, file: !2, size: 8, align: 8, elements: !947, templateParams: !953, identifier: "11482c750de168602d8e1535da5d6651")
 !947 = !{!948}
 !948 = !DIDerivedType(tag: DW_TAG_member, name: "__0", scope: !946, file: !2, baseType: !949, size: 8, align: 8)
-!949 = !DICompositeType(tag: DW_TAG_structure_type, name: "closure-0", scope: !950, file: !2, size: 8, align: 8, elements: !951, templateParams: !4, identifier: "ef24afa7de80eb949bbf3423cf65e3c0")
+!949 = !DICompositeType(tag: DW_TAG_structure_type, name: "closure-0", scope: !950, file: !2, size: 8, align: 8, elements: !951, templateParams: !4, identifier: "b4662f0ffba692f144bed4e38b1f1b8f")
 !950 = !DINamespace(name: "{{closure}}", scope: !6)
 !951 = !{!952}
 !952 = !DIDerivedType(tag: DW_TAG_member, name: "__0", scope: !949, file: !2, baseType: !213, size: 8, align: 8)
@@ -9523,7 +9631,7 @@ attributes #12 = { noinline }
 !960 = !DILocation(line: 395, column: 55, scope: !941)
 !961 = !DILocation(line: 396, column: 14, scope: !941)
 !962 = !DILocation(line: 397, column: 2, scope: !941)
-!963 = distinct !DISubprogram(name: "spawn<closure-0,()>", linkageName: "_RINvNtCs2bNvlddUlXM_3std6thread5spawnNCNvCs37qxPUa7whq_20oneway_thread_access4main0uEBD_", scope: !8, file: !389, line: 614, type: !964, scopeLine: 614, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !489, retainedNodes: !966)
+!963 = distinct !DISubprogram(name: "spawn<closure-0,()>", linkageName: "_RINvNtCs2bNvlddUlXM_3std6thread5spawnNCNvCsdT7u4N7w2iC_20stack_map_and_mutate4main0uEBD_", scope: !8, file: !389, line: 614, type: !964, scopeLine: 614, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !489, retainedNodes: !966)
 !964 = !DISubroutineType(types: !965)
 !965 = !{!430, !213}
 !966 = !{!967}
@@ -9534,18 +9642,18 @@ attributes #12 = { noinline }
 !971 = !DILocation(line: 621, column: 2, scope: !963)
 !972 = !DILocation(line: 614, column: 1, scope: !963)
 !973 = !DILocation(line: 621, column: 1, scope: !963)
-!974 = distinct !DISubprogram(name: "try<(),std::panic::AssertUnwindSafe<closure-0>>", linkageName: "_RINvNtCs2bNvlddUlXM_3std9panicking3tryuINtNtB4_5panic16AssertUnwindSafeNCNCINvMNtB4_6threadNtB1f_7Builder15spawn_uncheckedNCNvCs37qxPUa7whq_20oneway_thread_access4main0uE00EEB20_", scope: !976, file: !975, line: 299, type: !944, scopeLine: 299, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !1004, retainedNodes: !977)
+!974 = distinct !DISubprogram(name: "try<(),std::panic::AssertUnwindSafe<closure-0>>", linkageName: "_RINvNtCs2bNvlddUlXM_3std9panicking3tryuINtNtB4_5panic16AssertUnwindSafeNCNCINvMNtB4_6threadNtB1f_7Builder15spawn_uncheckedNCNvCsdT7u4N7w2iC_20stack_map_and_mutate4main0uE00EEB20_", scope: !976, file: !975, line: 299, type: !944, scopeLine: 299, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !1004, retainedNodes: !977)
 !975 = !DIFile(filename: "/rustc/e38fb306b7f5e65cca34df2dab1f0db15e1defb4/library/std/src/panicking.rs", directory: "", checksumkind: CSK_MD5, checksum: "bdd031218ff7e983922876460fb688ec")
 !976 = !DINamespace(name: "panicking", scope: !9)
 !977 = !{!978, !979, !1002}
 !978 = !DILocalVariable(name: "f", arg: 1, scope: !974, file: !975, line: 299, type: !946)
 !979 = !DILocalVariable(name: "data", scope: !980, file: !975, line: 330, type: !981, align: 8)
 !980 = distinct !DILexicalBlock(scope: !974, file: !975, line: 330, column: 5)
-!981 = !DICompositeType(tag: DW_TAG_union_type, name: "Data<std::panic::AssertUnwindSafe<closure-0>, ()>", scope: !982, file: !2, size: 128, align: 64, elements: !983, templateParams: !957, identifier: "b6e04c2755aa6a62e0f3c9d3824880cd")
+!981 = !DICompositeType(tag: DW_TAG_union_type, name: "Data<std::panic::AssertUnwindSafe<closure-0>, ()>", scope: !982, file: !2, size: 128, align: 64, elements: !983, templateParams: !957, identifier: "3bde492944c75026b3dcc52a8996ed45")
 !982 = !DINamespace(name: "try", scope: !976)
 !983 = !{!984, !992, !996}
 !984 = !DIDerivedType(tag: DW_TAG_member, name: "f", scope: !981, file: !2, baseType: !985, size: 8, align: 8)
-!985 = !DICompositeType(tag: DW_TAG_structure_type, name: "ManuallyDrop<std::panic::AssertUnwindSafe<closure-0>>", scope: !986, file: !2, size: 8, align: 8, elements: !988, templateParams: !990, identifier: "4003976c00f7646e9fe5172d5bea9dcc")
+!985 = !DICompositeType(tag: DW_TAG_structure_type, name: "ManuallyDrop<std::panic::AssertUnwindSafe<closure-0>>", scope: !986, file: !2, size: 8, align: 8, elements: !988, templateParams: !990, identifier: "38020e6b614ce9bcf99eec37865e471f")
 !986 = !DINamespace(name: "manually_drop", scope: !987)
 !987 = !DINamespace(name: "mem", scope: !23)
 !988 = !{!989}
@@ -9568,7 +9676,7 @@ attributes #12 = { noinline }
 !1005 = !DILocation(line: 299, column: 42, scope: !974)
 !1006 = !DILocation(line: 330, column: 9, scope: !980)
 !1007 = !DILocalVariable(name: "value", arg: 1, scope: !1008, file: !1009, line: 69, type: !946)
-!1008 = distinct !DISubprogram(name: "new<std::panic::AssertUnwindSafe<closure-0>>", linkageName: "_RNvMNtNtCs3p84KrD9aKt_4core3mem13manually_dropINtB2_12ManuallyDropINtNtCs2bNvlddUlXM_3std5panic16AssertUnwindSafeNCNCINvMNtB17_6threadNtB1V_7Builder15spawn_uncheckedNCNvCs37qxPUa7whq_20oneway_thread_access4main0uE00EE3newB2H_", scope: !985, file: !1009, line: 69, type: !1010, scopeLine: 69, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !990, retainedNodes: !1012)
+!1008 = distinct !DISubprogram(name: "new<std::panic::AssertUnwindSafe<closure-0>>", linkageName: "_RNvMNtNtCs3p84KrD9aKt_4core3mem13manually_dropINtB2_12ManuallyDropINtNtCs2bNvlddUlXM_3std5panic16AssertUnwindSafeNCNCINvMNtB17_6threadNtB1V_7Builder15spawn_uncheckedNCNvCsdT7u4N7w2iC_20stack_map_and_mutate4main0uE00EE3newB2H_", scope: !985, file: !1009, line: 69, type: !1010, scopeLine: 69, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !990, retainedNodes: !1012)
 !1009 = !DIFile(filename: "/rustc/e38fb306b7f5e65cca34df2dab1f0db15e1defb4/library/core/src/mem/manually_drop.rs", directory: "", checksumkind: CSK_MD5, checksum: "1ebb77b55900bbb941b074f7b36dbdc1")
 !1010 = !DISubroutineType(types: !1011)
 !1011 = !{!985, !946}
@@ -9584,7 +9692,7 @@ attributes #12 = { noinline }
 !1021 = !DILocation(line: 343, column: 19, scope: !1003)
 !1022 = !DILocation(line: 343, column: 16, scope: !1003)
 !1023 = !DILocalVariable(name: "slot", arg: 1, scope: !1024, file: !1009, line: 87, type: !993)
-!1024 = distinct !DISubprogram(name: "into_inner<()>", linkageName: "_RNvMNtNtCs3p84KrD9aKt_4core3mem13manually_dropINtB2_12ManuallyDropuE10into_innerCs37qxPUa7whq_20oneway_thread_access", scope: !993, file: !1009, line: 87, type: !1025, scopeLine: 87, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !457, retainedNodes: !1027)
+!1024 = distinct !DISubprogram(name: "into_inner<()>", linkageName: "_RNvMNtNtCs3p84KrD9aKt_4core3mem13manually_dropINtB2_12ManuallyDropuE10into_innerCsdT7u4N7w2iC_20stack_map_and_mutate", scope: !993, file: !1009, line: 87, type: !1025, scopeLine: 87, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !457, retainedNodes: !1027)
 !1025 = !DISubroutineType(types: !1026)
 !1026 = !{null, !993}
 !1027 = !{!1023}
@@ -9593,11 +9701,11 @@ attributes #12 = { noinline }
 !1030 = !DILocation(line: 344, column: 16, scope: !1003)
 !1031 = !DILocation(line: 346, column: 42, scope: !1003)
 !1032 = !{!1033, !1035}
-!1033 = distinct !{!1033, !1034, !"_RNvMNtNtCs3p84KrD9aKt_4core3mem13manually_dropINtB2_12ManuallyDropINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB6_3any3AnyNtNtB6_6marker4SendEL_EE10into_innerCs37qxPUa7whq_20oneway_thread_access: %slot.0"}
-!1034 = distinct !{!1034, !"_RNvMNtNtCs3p84KrD9aKt_4core3mem13manually_dropINtB2_12ManuallyDropINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB6_3any3AnyNtNtB6_6marker4SendEL_EE10into_innerCs37qxPUa7whq_20oneway_thread_access"}
-!1035 = distinct !{!1035, !1034, !"_RNvMNtNtCs3p84KrD9aKt_4core3mem13manually_dropINtB2_12ManuallyDropINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB6_3any3AnyNtNtB6_6marker4SendEL_EE10into_innerCs37qxPUa7whq_20oneway_thread_access: %slot.1"}
+!1033 = distinct !{!1033, !1034, !"_RNvMNtNtCs3p84KrD9aKt_4core3mem13manually_dropINtB2_12ManuallyDropINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB6_3any3AnyNtNtB6_6marker4SendEL_EE10into_innerCsdT7u4N7w2iC_20stack_map_and_mutate: %slot.0"}
+!1034 = distinct !{!1034, !"_RNvMNtNtCs3p84KrD9aKt_4core3mem13manually_dropINtB2_12ManuallyDropINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB6_3any3AnyNtNtB6_6marker4SendEL_EE10into_innerCsdT7u4N7w2iC_20stack_map_and_mutate"}
+!1035 = distinct !{!1035, !1034, !"_RNvMNtNtCs3p84KrD9aKt_4core3mem13manually_dropINtB2_12ManuallyDropINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB6_3any3AnyNtNtB6_6marker4SendEL_EE10into_innerCsdT7u4N7w2iC_20stack_map_and_mutate: %slot.1"}
 !1036 = !DILocalVariable(name: "slot", arg: 1, scope: !1037, file: !1009, line: 87, type: !997)
-!1037 = distinct !DISubprogram(name: "into_inner<alloc::boxed::Box<Any, alloc::alloc::Global>>", linkageName: "_RNvMNtNtCs3p84KrD9aKt_4core3mem13manually_dropINtB2_12ManuallyDropINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB6_3any3AnyNtNtB6_6marker4SendEL_EE10into_innerCs37qxPUa7whq_20oneway_thread_access", scope: !997, file: !1009, line: 87, type: !1038, scopeLine: 87, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !1000, retainedNodes: !1040)
+!1037 = distinct !DISubprogram(name: "into_inner<alloc::boxed::Box<Any, alloc::alloc::Global>>", linkageName: "_RNvMNtNtCs3p84KrD9aKt_4core3mem13manually_dropINtB2_12ManuallyDropINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB6_3any3AnyNtNtB6_6marker4SendEL_EE10into_innerCsdT7u4N7w2iC_20stack_map_and_mutate", scope: !997, file: !1009, line: 87, type: !1038, scopeLine: 87, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !1000, retainedNodes: !1040)
 !1038 = !DISubroutineType(types: !1039)
 !1039 = !{!255, !997}
 !1040 = !{!1036}
@@ -9609,7 +9717,7 @@ attributes #12 = { noinline }
 !1046 = !DILocation(line: 344, column: 13, scope: !1003)
 !1047 = !DILocation(line: 346, column: 13, scope: !1003)
 !1048 = !DILocation(line: 408, column: 2, scope: !974)
-!1049 = distinct !DISubprogram(name: "copy_nonoverlapping<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core10intrinsics19copy_nonoverlappingINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEECs37qxPUa7whq_20oneway_thread_access", scope: !1051, file: !1050, line: 1850, type: !1052, scopeLine: 1850, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !280, retainedNodes: !1056)
+!1049 = distinct !DISubprogram(name: "copy_nonoverlapping<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core10intrinsics19copy_nonoverlappingINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEECsdT7u4N7w2iC_20stack_map_and_mutate", scope: !1051, file: !1050, line: 1850, type: !1052, scopeLine: 1850, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !280, retainedNodes: !1056)
 !1050 = !DIFile(filename: "/rustc/e38fb306b7f5e65cca34df2dab1f0db15e1defb4/library/core/src/intrinsics.rs", directory: "", checksumkind: CSK_MD5, checksum: "acd1651055d303e606af8417f4049b52")
 !1051 = !DINamespace(name: "intrinsics", scope: !23)
 !1052 = !DISubroutineType(types: !1053)
@@ -9625,7 +9733,7 @@ attributes #12 = { noinline }
 !1062 = !DILocation(line: 1850, column: 72, scope: !1049)
 !1063 = !DILocation(line: 1867, column: 14, scope: !1049)
 !1064 = !DILocation(line: 1868, column: 2, scope: !1049)
-!1065 = distinct !DISubprogram(name: "copy_nonoverlapping<core::option::Option<std::sys::unix::thread::Thread>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core10intrinsics19copy_nonoverlappingINtNtB4_6option6OptionNtNtNtNtCs2bNvlddUlXM_3std3sys4unix6thread6ThreadEECs37qxPUa7whq_20oneway_thread_access", scope: !1051, file: !1050, line: 1850, type: !1066, scopeLine: 1850, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !1074, retainedNodes: !1070)
+!1065 = distinct !DISubprogram(name: "copy_nonoverlapping<core::option::Option<std::sys::unix::thread::Thread>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core10intrinsics19copy_nonoverlappingINtNtB4_6option6OptionNtNtNtNtCs2bNvlddUlXM_3std3sys4unix6thread6ThreadEECsdT7u4N7w2iC_20stack_map_and_mutate", scope: !1051, file: !1050, line: 1850, type: !1066, scopeLine: 1850, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !1074, retainedNodes: !1070)
 !1066 = !DISubroutineType(types: !1067)
 !1067 = !{null, !1068, !1069, !39}
 !1068 = !DIDerivedType(tag: DW_TAG_pointer_type, name: "*const core::option::Option<std::sys::unix::thread::Thread>", baseType: !436, size: 64, align: 64, dwarfAddressSpace: 0)
@@ -9641,7 +9749,7 @@ attributes #12 = { noinline }
 !1078 = !DILocation(line: 1850, column: 72, scope: !1065)
 !1079 = !DILocation(line: 1867, column: 14, scope: !1065)
 !1080 = !DILocation(line: 1868, column: 2, scope: !1065)
-!1081 = distinct !DISubprogram(name: "copy_nonoverlapping<std::panic::AssertUnwindSafe<closure-0>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core10intrinsics19copy_nonoverlappingINtNtCs2bNvlddUlXM_3std5panic16AssertUnwindSafeNCNCINvMNtBZ_6threadNtB1N_7Builder15spawn_uncheckedNCNvCs37qxPUa7whq_20oneway_thread_access4main0uE00EEB2y_", scope: !1051, file: !1050, line: 1850, type: !1082, scopeLine: 1850, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !990, retainedNodes: !1086)
+!1081 = distinct !DISubprogram(name: "copy_nonoverlapping<std::panic::AssertUnwindSafe<closure-0>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core10intrinsics19copy_nonoverlappingINtNtCs2bNvlddUlXM_3std5panic16AssertUnwindSafeNCNCINvMNtBZ_6threadNtB1N_7Builder15spawn_uncheckedNCNvCsdT7u4N7w2iC_20stack_map_and_mutate4main0uE00EEB2y_", scope: !1051, file: !1050, line: 1850, type: !1082, scopeLine: 1850, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !990, retainedNodes: !1086)
 !1082 = !DISubroutineType(types: !1083)
 !1083 = !{null, !1084, !1085, !39}
 !1084 = !DIDerivedType(tag: DW_TAG_pointer_type, name: "*const std::panic::AssertUnwindSafe<closure-0>", baseType: !946, size: 64, align: 64, dwarfAddressSpace: 0)
@@ -9655,7 +9763,7 @@ attributes #12 = { noinline }
 !1092 = !DILocation(line: 1850, column: 72, scope: !1081)
 !1093 = !DILocation(line: 1867, column: 14, scope: !1081)
 !1094 = !DILocation(line: 1868, column: 2, scope: !1081)
-!1095 = distinct !DISubprogram(name: "copy_nonoverlapping<u8>", linkageName: "_RINvNtCs3p84KrD9aKt_4core10intrinsics19copy_nonoverlappinghECs37qxPUa7whq_20oneway_thread_access", scope: !1051, file: !1050, line: 1850, type: !1096, scopeLine: 1850, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !176, retainedNodes: !1098)
+!1095 = distinct !DISubprogram(name: "copy_nonoverlapping<u8>", linkageName: "_RINvNtCs3p84KrD9aKt_4core10intrinsics19copy_nonoverlappinghECsdT7u4N7w2iC_20stack_map_and_mutate", scope: !1051, file: !1050, line: 1850, type: !1096, scopeLine: 1850, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !176, retainedNodes: !1098)
 !1096 = !DISubroutineType(types: !1097)
 !1097 = !{null, !64, !259, !39}
 !1098 = !{!1099, !1100, !1101}
@@ -9667,7 +9775,7 @@ attributes #12 = { noinline }
 !1104 = !DILocation(line: 1850, column: 72, scope: !1095)
 !1105 = !DILocation(line: 1867, column: 14, scope: !1095)
 !1106 = !DILocation(line: 1868, column: 2, scope: !1095)
-!1107 = distinct !DISubprogram(name: "size_of_val_raw<alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3mem15size_of_val_rawINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtB4_4cell10UnsafeCellINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtBN_5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEEEECs37qxPUa7whq_20oneway_thread_access", scope: !987, file: !1108, line: 385, type: !1109, scopeLine: 385, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !284, retainedNodes: !1111)
+!1107 = distinct !DISubprogram(name: "size_of_val_raw<alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3mem15size_of_val_rawINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtB4_4cell10UnsafeCellINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtBN_5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEEEECsdT7u4N7w2iC_20stack_map_and_mutate", scope: !987, file: !1108, line: 385, type: !1109, scopeLine: 385, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !284, retainedNodes: !1111)
 !1108 = !DIFile(filename: "/rustc/e38fb306b7f5e65cca34df2dab1f0db15e1defb4/library/core/src/mem/mod.rs", directory: "", checksumkind: CSK_MD5, checksum: "ff5cc0252364b4423923f22a7e70b9cb")
 !1109 = !DISubroutineType(types: !1110)
 !1110 = !{!39, !225}
@@ -9676,7 +9784,7 @@ attributes #12 = { noinline }
 !1113 = !DILocation(line: 385, column: 48, scope: !1107)
 !1114 = !DILocation(line: 387, column: 14, scope: !1107)
 !1115 = !DILocation(line: 388, column: 2, scope: !1107)
-!1116 = distinct !DISubprogram(name: "size_of_val_raw<alloc::sync::ArcInner<std::sync::mutex::Mutex<alloc::vec::Vec<u8, alloc::alloc::Global>>>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3mem15size_of_val_rawINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtBN_3vec3VechEEEECs37qxPUa7whq_20oneway_thread_access", scope: !987, file: !1108, line: 385, type: !1117, scopeLine: 385, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !204, retainedNodes: !1119)
+!1116 = distinct !DISubprogram(name: "size_of_val_raw<alloc::sync::ArcInner<std::sync::mutex::Mutex<alloc::vec::Vec<u8, alloc::alloc::Global>>>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3mem15size_of_val_rawINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtBN_3vec3VechEEEECsdT7u4N7w2iC_20stack_map_and_mutate", scope: !987, file: !1108, line: 385, type: !1117, scopeLine: 385, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !204, retainedNodes: !1119)
 !1117 = !DISubroutineType(types: !1118)
 !1118 = !{!39, !128}
 !1119 = !{!1120}
@@ -9684,7 +9792,7 @@ attributes #12 = { noinline }
 !1121 = !DILocation(line: 385, column: 48, scope: !1116)
 !1122 = !DILocation(line: 387, column: 14, scope: !1116)
 !1123 = !DILocation(line: 388, column: 2, scope: !1116)
-!1124 = distinct !DISubprogram(name: "size_of_val_raw<alloc::sync::ArcInner<std::thread::Inner>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3mem15size_of_val_rawINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerNtNtCs2bNvlddUlXM_3std6thread5InnerEECs37qxPUa7whq_20oneway_thread_access", scope: !987, file: !1108, line: 385, type: !1125, scopeLine: 385, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !108, retainedNodes: !1127)
+!1124 = distinct !DISubprogram(name: "size_of_val_raw<alloc::sync::ArcInner<std::thread::Inner>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3mem15size_of_val_rawINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerNtNtCs2bNvlddUlXM_3std6thread5InnerEECsdT7u4N7w2iC_20stack_map_and_mutate", scope: !987, file: !1108, line: 385, type: !1125, scopeLine: 385, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !108, retainedNodes: !1127)
 !1125 = !DISubroutineType(types: !1126)
 !1126 = !{!39, !26}
 !1127 = !{!1128}
@@ -9692,25 +9800,25 @@ attributes #12 = { noinline }
 !1129 = !DILocation(line: 385, column: 48, scope: !1124)
 !1130 = !DILocation(line: 387, column: 14, scope: !1124)
 !1131 = !DILocation(line: 388, column: 2, scope: !1124)
-!1132 = distinct !DISubprogram(name: "align_of_val_raw<alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3mem16align_of_val_rawINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtB4_4cell10UnsafeCellINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtBO_5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEEEECs37qxPUa7whq_20oneway_thread_access", scope: !987, file: !1108, line: 520, type: !1109, scopeLine: 520, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !284, retainedNodes: !1133)
+!1132 = distinct !DISubprogram(name: "align_of_val_raw<alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3mem16align_of_val_rawINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtB4_4cell10UnsafeCellINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtBO_5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEEEECsdT7u4N7w2iC_20stack_map_and_mutate", scope: !987, file: !1108, line: 520, type: !1109, scopeLine: 520, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !284, retainedNodes: !1133)
 !1133 = !{!1134}
 !1134 = !DILocalVariable(name: "val", arg: 1, scope: !1132, file: !1108, line: 520, type: !225)
 !1135 = !DILocation(line: 520, column: 49, scope: !1132)
 !1136 = !DILocation(line: 522, column: 14, scope: !1132)
 !1137 = !DILocation(line: 523, column: 2, scope: !1132)
-!1138 = distinct !DISubprogram(name: "align_of_val_raw<alloc::sync::ArcInner<std::sync::mutex::Mutex<alloc::vec::Vec<u8, alloc::alloc::Global>>>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3mem16align_of_val_rawINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtBO_3vec3VechEEEECs37qxPUa7whq_20oneway_thread_access", scope: !987, file: !1108, line: 520, type: !1117, scopeLine: 520, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !204, retainedNodes: !1139)
+!1138 = distinct !DISubprogram(name: "align_of_val_raw<alloc::sync::ArcInner<std::sync::mutex::Mutex<alloc::vec::Vec<u8, alloc::alloc::Global>>>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3mem16align_of_val_rawINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtBO_3vec3VechEEEECsdT7u4N7w2iC_20stack_map_and_mutate", scope: !987, file: !1108, line: 520, type: !1117, scopeLine: 520, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !204, retainedNodes: !1139)
 !1139 = !{!1140}
 !1140 = !DILocalVariable(name: "val", arg: 1, scope: !1138, file: !1108, line: 520, type: !128)
 !1141 = !DILocation(line: 520, column: 49, scope: !1138)
 !1142 = !DILocation(line: 522, column: 14, scope: !1138)
 !1143 = !DILocation(line: 523, column: 2, scope: !1138)
-!1144 = distinct !DISubprogram(name: "align_of_val_raw<alloc::sync::ArcInner<std::thread::Inner>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3mem16align_of_val_rawINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerNtNtCs2bNvlddUlXM_3std6thread5InnerEECs37qxPUa7whq_20oneway_thread_access", scope: !987, file: !1108, line: 520, type: !1125, scopeLine: 520, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !108, retainedNodes: !1145)
+!1144 = distinct !DISubprogram(name: "align_of_val_raw<alloc::sync::ArcInner<std::thread::Inner>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3mem16align_of_val_rawINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerNtNtCs2bNvlddUlXM_3std6thread5InnerEECsdT7u4N7w2iC_20stack_map_and_mutate", scope: !987, file: !1108, line: 520, type: !1125, scopeLine: 520, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !108, retainedNodes: !1145)
 !1145 = !{!1146}
 !1146 = !DILocalVariable(name: "val", arg: 1, scope: !1144, file: !1108, line: 520, type: !26)
 !1147 = !DILocation(line: 520, column: 49, scope: !1144)
 !1148 = !DILocation(line: 522, column: 14, scope: !1144)
 !1149 = !DILocation(line: 523, column: 2, scope: !1144)
-!1150 = distinct !DISubprogram(name: "drop<alloc::sync::Weak<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3mem4dropINtNtCs8RW06R9lH2S_5alloc4sync4WeakINtNtB4_4cell10UnsafeCellINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtBB_5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEEEECs37qxPUa7whq_20oneway_thread_access", scope: !987, file: !1108, line: 894, type: !1151, scopeLine: 894, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !1158, retainedNodes: !1156)
+!1150 = distinct !DISubprogram(name: "drop<alloc::sync::Weak<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3mem4dropINtNtCs8RW06R9lH2S_5alloc4sync4WeakINtNtB4_4cell10UnsafeCellINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtBB_5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEEEECsdT7u4N7w2iC_20stack_map_and_mutate", scope: !987, file: !1108, line: 894, type: !1151, scopeLine: 894, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !1158, retainedNodes: !1156)
 !1151 = !DISubroutineType(types: !1152)
 !1152 = !{null, !1153}
 !1153 = !DICompositeType(tag: DW_TAG_structure_type, name: "Weak<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>>", scope: !16, file: !2, size: 64, align: 64, elements: !1154, templateParams: !282, identifier: "64ecc188cea16e14c91f799a1d43c01e")
@@ -9723,7 +9831,7 @@ attributes #12 = { noinline }
 !1160 = !DILocation(line: 894, column: 16, scope: !1150)
 !1161 = !DILocation(line: 894, column: 24, scope: !1150)
 !1162 = !DILocation(line: 894, column: 25, scope: !1150)
-!1163 = distinct !DISubprogram(name: "drop<alloc::sync::Weak<std::sync::mutex::Mutex<alloc::vec::Vec<u8, alloc::alloc::Global>>>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3mem4dropINtNtCs8RW06R9lH2S_5alloc4sync4WeakINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtBB_3vec3VechEEEECs37qxPUa7whq_20oneway_thread_access", scope: !987, file: !1108, line: 894, type: !1164, scopeLine: 894, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !1171, retainedNodes: !1169)
+!1163 = distinct !DISubprogram(name: "drop<alloc::sync::Weak<std::sync::mutex::Mutex<alloc::vec::Vec<u8, alloc::alloc::Global>>>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3mem4dropINtNtCs8RW06R9lH2S_5alloc4sync4WeakINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtBB_3vec3VechEEEECsdT7u4N7w2iC_20stack_map_and_mutate", scope: !987, file: !1108, line: 894, type: !1164, scopeLine: 894, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !1171, retainedNodes: !1169)
 !1164 = !DISubroutineType(types: !1165)
 !1165 = !{null, !1166}
 !1166 = !DICompositeType(tag: DW_TAG_structure_type, name: "Weak<std::sync::mutex::Mutex<alloc::vec::Vec<u8, alloc::alloc::Global>>>", scope: !16, file: !2, size: 64, align: 64, elements: !1167, templateParams: !202, identifier: "3114643c2c8f38a698864c328256007")
@@ -9736,7 +9844,7 @@ attributes #12 = { noinline }
 !1173 = !DILocation(line: 894, column: 16, scope: !1163)
 !1174 = !DILocation(line: 894, column: 24, scope: !1163)
 !1175 = !DILocation(line: 894, column: 25, scope: !1163)
-!1176 = distinct !DISubprogram(name: "drop<alloc::sync::Weak<std::thread::Inner>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3mem4dropINtNtCs8RW06R9lH2S_5alloc4sync4WeakNtNtCs2bNvlddUlXM_3std6thread5InnerEECs37qxPUa7whq_20oneway_thread_access", scope: !987, file: !1108, line: 894, type: !1177, scopeLine: 894, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !1184, retainedNodes: !1182)
+!1176 = distinct !DISubprogram(name: "drop<alloc::sync::Weak<std::thread::Inner>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3mem4dropINtNtCs8RW06R9lH2S_5alloc4sync4WeakNtNtCs2bNvlddUlXM_3std6thread5InnerEECsdT7u4N7w2iC_20stack_map_and_mutate", scope: !987, file: !1108, line: 894, type: !1177, scopeLine: 894, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !1184, retainedNodes: !1182)
 !1177 = !DISubroutineType(types: !1178)
 !1178 = !{null, !1179}
 !1179 = !DICompositeType(tag: DW_TAG_structure_type, name: "Weak<std::thread::Inner>", scope: !16, file: !2, size: 64, align: 64, elements: !1180, templateParams: !106, identifier: "fe16d0d532d110afab32ec297d839e61")
@@ -9749,7 +9857,7 @@ attributes #12 = { noinline }
 !1186 = !DILocation(line: 894, column: 16, scope: !1176)
 !1187 = !DILocation(line: 894, column: 24, scope: !1176)
 !1188 = !DILocation(line: 894, column: 25, scope: !1176)
-!1189 = distinct !DISubprogram(name: "swap<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3mem4swapINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEECs37qxPUa7whq_20oneway_thread_access", scope: !987, file: !1108, line: 696, type: !1190, scopeLine: 696, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !280, retainedNodes: !1193)
+!1189 = distinct !DISubprogram(name: "swap<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3mem4swapINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEECsdT7u4N7w2iC_20stack_map_and_mutate", scope: !987, file: !1108, line: 696, type: !1190, scopeLine: 696, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !280, retainedNodes: !1193)
 !1190 = !DISubroutineType(types: !1191)
 !1191 = !{null, !1192, !1192}
 !1192 = !DIDerivedType(tag: DW_TAG_pointer_type, name: "&mut core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>", baseType: !234, size: 64, align: 64, dwarfAddressSpace: 0)
@@ -9760,7 +9868,7 @@ attributes #12 = { noinline }
 !1197 = !DILocation(line: 696, column: 27, scope: !1189)
 !1198 = !DILocation(line: 700, column: 9, scope: !1189)
 !1199 = !DILocation(line: 702, column: 2, scope: !1189)
-!1200 = distinct !DISubprogram(name: "swap<core::option::Option<std::sys::unix::thread::Thread>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3mem4swapINtNtB4_6option6OptionNtNtNtNtCs2bNvlddUlXM_3std3sys4unix6thread6ThreadEECs37qxPUa7whq_20oneway_thread_access", scope: !987, file: !1108, line: 696, type: !1201, scopeLine: 696, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !1074, retainedNodes: !1204)
+!1200 = distinct !DISubprogram(name: "swap<core::option::Option<std::sys::unix::thread::Thread>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3mem4swapINtNtB4_6option6OptionNtNtNtNtCs2bNvlddUlXM_3std3sys4unix6thread6ThreadEECsdT7u4N7w2iC_20stack_map_and_mutate", scope: !987, file: !1108, line: 696, type: !1201, scopeLine: 696, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !1074, retainedNodes: !1204)
 !1201 = !DISubroutineType(types: !1202)
 !1202 = !{null, !1203, !1203}
 !1203 = !DIDerivedType(tag: DW_TAG_pointer_type, name: "&mut core::option::Option<std::sys::unix::thread::Thread>", baseType: !436, size: 64, align: 64, dwarfAddressSpace: 0)
@@ -9771,7 +9879,7 @@ attributes #12 = { noinline }
 !1208 = !DILocation(line: 696, column: 27, scope: !1200)
 !1209 = !DILocation(line: 700, column: 9, scope: !1200)
 !1210 = !DILocation(line: 702, column: 2, scope: !1200)
-!1211 = distinct !DISubprogram(name: "take<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3mem4takeINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEECs37qxPUa7whq_20oneway_thread_access", scope: !987, file: !1108, line: 761, type: !1212, scopeLine: 761, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !280, retainedNodes: !1214)
+!1211 = distinct !DISubprogram(name: "take<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3mem4takeINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEECsdT7u4N7w2iC_20stack_map_and_mutate", scope: !987, file: !1108, line: 761, type: !1212, scopeLine: 761, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !280, retainedNodes: !1214)
 !1212 = !DISubroutineType(types: !1213)
 !1213 = !{!234, !1192}
 !1214 = !{!1215}
@@ -9780,7 +9888,7 @@ attributes #12 = { noinline }
 !1217 = !DILocation(line: 762, column: 19, scope: !1211)
 !1218 = !DILocation(line: 762, column: 5, scope: !1211)
 !1219 = !DILocation(line: 763, column: 2, scope: !1211)
-!1220 = distinct !DISubprogram(name: "take<core::option::Option<std::sys::unix::thread::Thread>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3mem4takeINtNtB4_6option6OptionNtNtNtNtCs2bNvlddUlXM_3std3sys4unix6thread6ThreadEECs37qxPUa7whq_20oneway_thread_access", scope: !987, file: !1108, line: 761, type: !1221, scopeLine: 761, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !1074, retainedNodes: !1223)
+!1220 = distinct !DISubprogram(name: "take<core::option::Option<std::sys::unix::thread::Thread>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3mem4takeINtNtB4_6option6OptionNtNtNtNtCs2bNvlddUlXM_3std3sys4unix6thread6ThreadEECsdT7u4N7w2iC_20stack_map_and_mutate", scope: !987, file: !1108, line: 761, type: !1221, scopeLine: 761, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !1074, retainedNodes: !1223)
 !1221 = !DISubroutineType(types: !1222)
 !1222 = !{!436, !1203}
 !1223 = !{!1224}
@@ -9789,7 +9897,7 @@ attributes #12 = { noinline }
 !1226 = !DILocation(line: 762, column: 19, scope: !1220)
 !1227 = !DILocation(line: 762, column: 5, scope: !1220)
 !1228 = !DILocation(line: 763, column: 2, scope: !1220)
-!1229 = distinct !DISubprogram(name: "replace<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3mem7replaceINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEECs37qxPUa7whq_20oneway_thread_access", scope: !987, file: !1108, line: 826, type: !1230, scopeLine: 826, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !280, retainedNodes: !1232)
+!1229 = distinct !DISubprogram(name: "replace<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3mem7replaceINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEECsdT7u4N7w2iC_20stack_map_and_mutate", scope: !987, file: !1108, line: 826, type: !1230, scopeLine: 826, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !280, retainedNodes: !1232)
 !1230 = !DISubroutineType(types: !1231)
 !1231 = !{!234, !1192, !234}
 !1232 = !{!1233, !1234}
@@ -9802,7 +9910,7 @@ attributes #12 = { noinline }
 !1239 = !DILocation(line: 829, column: 2, scope: !1229)
 !1240 = !DILocation(line: 829, column: 1, scope: !1229)
 !1241 = !DILocation(line: 826, column: 1, scope: !1229)
-!1242 = distinct !DISubprogram(name: "replace<core::option::Option<std::sys::unix::thread::Thread>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3mem7replaceINtNtB4_6option6OptionNtNtNtNtCs2bNvlddUlXM_3std3sys4unix6thread6ThreadEECs37qxPUa7whq_20oneway_thread_access", scope: !987, file: !1108, line: 826, type: !1243, scopeLine: 826, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !1074, retainedNodes: !1245)
+!1242 = distinct !DISubprogram(name: "replace<core::option::Option<std::sys::unix::thread::Thread>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3mem7replaceINtNtB4_6option6OptionNtNtNtNtCs2bNvlddUlXM_3std3sys4unix6thread6ThreadEECsdT7u4N7w2iC_20stack_map_and_mutate", scope: !987, file: !1108, line: 826, type: !1243, scopeLine: 826, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !1074, retainedNodes: !1245)
 !1243 = !DISubroutineType(types: !1244)
 !1244 = !{!436, !1203, !436}
 !1245 = !{!1246, !1247}
@@ -9815,7 +9923,7 @@ attributes #12 = { noinline }
 !1252 = !DILocation(line: 829, column: 2, scope: !1242)
 !1253 = !DILocation(line: 829, column: 1, scope: !1242)
 !1254 = !DILocation(line: 826, column: 1, scope: !1242)
-!1255 = distinct !DISubprogram(name: "drop_in_place<Any>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_ECs37qxPUa7whq_20oneway_thread_access", scope: !22, file: !1256, line: 179, type: !1257, scopeLine: 179, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !742, retainedNodes: !1263)
+!1255 = distinct !DISubprogram(name: "drop_in_place<Any>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_ECsdT7u4N7w2iC_20stack_map_and_mutate", scope: !22, file: !1256, line: 179, type: !1257, scopeLine: 179, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !742, retainedNodes: !1263)
 !1256 = !DIFile(filename: "/rustc/e38fb306b7f5e65cca34df2dab1f0db15e1defb4/library/core/src/ptr/mod.rs", directory: "", checksumkind: CSK_MD5, checksum: "62bf03e848f29bf1b3b558b2b14c39ad")
 !1257 = !DISubroutineType(types: !1258)
 !1258 = !{null, !1259}
@@ -9826,7 +9934,7 @@ attributes #12 = { noinline }
 !1263 = !{!1264}
 !1264 = !DILocalVariable(arg: 1, scope: !1255, file: !1256, line: 179, type: !1259)
 !1265 = !DILocation(line: 179, column: 1, scope: !1255)
-!1266 = distinct !DISubprogram(name: "drop_in_place<Error>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeDNtNtCs2bNvlddUlXM_3std5error5ErrorNtNtB4_6marker4SendNtB1h_4SyncEL_ECs37qxPUa7whq_20oneway_thread_access", scope: !22, file: !1256, line: 179, type: !1267, scopeLine: 179, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !763, retainedNodes: !1273)
+!1266 = distinct !DISubprogram(name: "drop_in_place<Error>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeDNtNtCs2bNvlddUlXM_3std5error5ErrorNtNtB4_6marker4SendNtB1h_4SyncEL_ECsdT7u4N7w2iC_20stack_map_and_mutate", scope: !22, file: !1256, line: 179, type: !1267, scopeLine: 179, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !763, retainedNodes: !1273)
 !1267 = !DISubroutineType(types: !1268)
 !1268 = !{null, !1269}
 !1269 = !DICompositeType(tag: DW_TAG_structure_type, name: "*mut Error", scope: !349, file: !2, size: 128, align: 64, elements: !1270, templateParams: !4, identifier: "7181f3abbdef506167a71481c7c8eb65")
@@ -9836,14 +9944,14 @@ attributes #12 = { noinline }
 !1273 = !{!1274}
 !1274 = !DILocalVariable(arg: 1, scope: !1266, file: !1256, line: 179, type: !1269)
 !1275 = !DILocation(line: 179, column: 1, scope: !1266)
-!1276 = distinct !DISubprogram(name: "drop_in_place<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_4cell10UnsafeCellINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEEECs37qxPUa7whq_20oneway_thread_access", scope: !22, file: !1256, line: 179, type: !1277, scopeLine: 179, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !282, retainedNodes: !1280)
+!1276 = distinct !DISubprogram(name: "drop_in_place<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_4cell10UnsafeCellINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEEECsdT7u4N7w2iC_20stack_map_and_mutate", scope: !22, file: !1256, line: 179, type: !1277, scopeLine: 179, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !282, retainedNodes: !1280)
 !1277 = !DISubroutineType(types: !1278)
 !1278 = !{null, !1279}
 !1279 = !DIDerivedType(tag: DW_TAG_pointer_type, name: "*mut core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>", baseType: !231, size: 64, align: 64, dwarfAddressSpace: 0)
 !1280 = !{!1281}
 !1281 = !DILocalVariable(arg: 1, scope: !1276, file: !1256, line: 179, type: !1279)
 !1282 = !DILocation(line: 179, column: 1, scope: !1276)
-!1283 = distinct !DISubprogram(name: "drop_in_place<core::cell::UnsafeCell<alloc::vec::Vec<u8, alloc::alloc::Global>>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_4cell10UnsafeCellINtNtCs8RW06R9lH2S_5alloc3vec3VechEEECs37qxPUa7whq_20oneway_thread_access", scope: !22, file: !1256, line: 179, type: !1284, scopeLine: 179, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !1289, retainedNodes: !1287)
+!1283 = distinct !DISubprogram(name: "drop_in_place<core::cell::UnsafeCell<alloc::vec::Vec<u8, alloc::alloc::Global>>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_4cell10UnsafeCellINtNtCs8RW06R9lH2S_5alloc3vec3VechEEECsdT7u4N7w2iC_20stack_map_and_mutate", scope: !22, file: !1256, line: 179, type: !1284, scopeLine: 179, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !1289, retainedNodes: !1287)
 !1284 = !DISubroutineType(types: !1285)
 !1285 = !{null, !1286}
 !1286 = !DIDerivedType(tag: DW_TAG_pointer_type, name: "*mut core::cell::UnsafeCell<alloc::vec::Vec<u8, alloc::alloc::Global>>", baseType: !179, size: 64, align: 64, dwarfAddressSpace: 0)
@@ -9852,13 +9960,13 @@ attributes #12 = { noinline }
 !1289 = !{!1290}
 !1290 = !DITemplateTypeParameter(name: "T", type: !179)
 !1291 = !DILocation(line: 179, column: 1, scope: !1283)
-!1292 = distinct !DISubprogram(name: "drop_in_place<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEECs37qxPUa7whq_20oneway_thread_access", scope: !22, file: !1256, line: 179, type: !1293, scopeLine: 179, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !280, retainedNodes: !1295)
+!1292 = distinct !DISubprogram(name: "drop_in_place<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEECsdT7u4N7w2iC_20stack_map_and_mutate", scope: !22, file: !1256, line: 179, type: !1293, scopeLine: 179, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !280, retainedNodes: !1295)
 !1293 = !DISubroutineType(types: !1294)
 !1294 = !{null, !1055}
 !1295 = !{!1296}
 !1296 = !DILocalVariable(arg: 1, scope: !1292, file: !1256, line: 179, type: !1055)
 !1297 = !DILocation(line: 179, column: 1, scope: !1292)
-!1298 = distinct !DISubprogram(name: "drop_in_place<core::option::Option<alloc::sync::Arc<std::sync::mutex::Mutex<alloc::vec::Vec<u8, alloc::alloc::Global>>>>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_6option6OptionINtNtCs8RW06R9lH2S_5alloc4sync3ArcINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtB17_3vec3VechEEEEECs37qxPUa7whq_20oneway_thread_access", scope: !22, file: !1256, line: 179, type: !1299, scopeLine: 179, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !1304, retainedNodes: !1302)
+!1298 = distinct !DISubprogram(name: "drop_in_place<core::option::Option<alloc::sync::Arc<std::sync::mutex::Mutex<alloc::vec::Vec<u8, alloc::alloc::Global>>>>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_6option6OptionINtNtCs8RW06R9lH2S_5alloc4sync3ArcINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtB17_3vec3VechEEEEECsdT7u4N7w2iC_20stack_map_and_mutate", scope: !22, file: !1256, line: 179, type: !1299, scopeLine: 179, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !1304, retainedNodes: !1302)
 !1299 = !DISubroutineType(types: !1300)
 !1300 = !{null, !1301}
 !1301 = !DIDerivedType(tag: DW_TAG_pointer_type, name: "*mut core::option::Option<alloc::sync::Arc<std::sync::mutex::Mutex<alloc::vec::Vec<u8, alloc::alloc::Global>>>>", baseType: !114, size: 64, align: 64, dwarfAddressSpace: 0)
@@ -9867,7 +9975,7 @@ attributes #12 = { noinline }
 !1304 = !{!1305}
 !1305 = !DITemplateTypeParameter(name: "T", type: !114)
 !1306 = !DILocation(line: 179, column: 1, scope: !1298)
-!1307 = distinct !DISubprogram(name: "drop_in_place<core::option::Option<alloc::string::String>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_6option6OptionNtNtCs8RW06R9lH2S_5alloc6string6StringEECs37qxPUa7whq_20oneway_thread_access", scope: !22, file: !1256, line: 179, type: !1308, scopeLine: 179, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !1313, retainedNodes: !1311)
+!1307 = distinct !DISubprogram(name: "drop_in_place<core::option::Option<alloc::string::String>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_6option6OptionNtNtCs8RW06R9lH2S_5alloc6string6StringEECsdT7u4N7w2iC_20stack_map_and_mutate", scope: !22, file: !1256, line: 179, type: !1308, scopeLine: 179, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !1313, retainedNodes: !1311)
 !1308 = !DISubroutineType(types: !1309)
 !1309 = !{null, !1310}
 !1310 = !DIDerivedType(tag: DW_TAG_pointer_type, name: "*mut core::option::Option<alloc::string::String>", baseType: !393, size: 64, align: 64, dwarfAddressSpace: 0)
@@ -9876,7 +9984,7 @@ attributes #12 = { noinline }
 !1313 = !{!1314}
 !1314 = !DITemplateTypeParameter(name: "T", type: !393)
 !1315 = !DILocation(line: 179, column: 1, scope: !1307)
-!1316 = distinct !DISubprogram(name: "drop_in_place<core::option::Option<std::ffi::c_str::CString>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_6option6OptionNtNtNtCs2bNvlddUlXM_3std3ffi5c_str7CStringEECs37qxPUa7whq_20oneway_thread_access", scope: !22, file: !1256, line: 179, type: !1317, scopeLine: 179, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !1322, retainedNodes: !1320)
+!1316 = distinct !DISubprogram(name: "drop_in_place<core::option::Option<std::ffi::c_str::CString>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_6option6OptionNtNtNtCs2bNvlddUlXM_3std3ffi5c_str7CStringEECsdT7u4N7w2iC_20stack_map_and_mutate", scope: !22, file: !1256, line: 179, type: !1317, scopeLine: 179, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !1322, retainedNodes: !1320)
 !1317 = !DISubroutineType(types: !1318)
 !1318 = !{null, !1319}
 !1319 = !DIDerivedType(tag: DW_TAG_pointer_type, name: "*mut core::option::Option<std::ffi::c_str::CString>", baseType: !47, size: 64, align: 64, dwarfAddressSpace: 0)
@@ -9885,13 +9993,13 @@ attributes #12 = { noinline }
 !1322 = !{!1323}
 !1323 = !DITemplateTypeParameter(name: "T", type: !47)
 !1324 = !DILocation(line: 179, column: 1, scope: !1316)
-!1325 = distinct !DISubprogram(name: "drop_in_place<core::option::Option<std::sys::unix::thread::Thread>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_6option6OptionNtNtNtNtCs2bNvlddUlXM_3std3sys4unix6thread6ThreadEECs37qxPUa7whq_20oneway_thread_access", scope: !22, file: !1256, line: 179, type: !1326, scopeLine: 179, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !1074, retainedNodes: !1328)
+!1325 = distinct !DISubprogram(name: "drop_in_place<core::option::Option<std::sys::unix::thread::Thread>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_6option6OptionNtNtNtNtCs2bNvlddUlXM_3std3sys4unix6thread6ThreadEECsdT7u4N7w2iC_20stack_map_and_mutate", scope: !22, file: !1256, line: 179, type: !1326, scopeLine: 179, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !1074, retainedNodes: !1328)
 !1326 = !DISubroutineType(types: !1327)
 !1327 = !{null, !1069}
 !1328 = !{!1329}
 !1329 = !DILocalVariable(arg: 1, scope: !1325, file: !1256, line: 179, type: !1069)
 !1330 = !DILocation(line: 179, column: 1, scope: !1325)
-!1331 = distinct !DISubprogram(name: "drop_in_place<core::result::Result<std::thread::JoinHandle<()>, std::io::error::Error>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_6result6ResultINtNtCs2bNvlddUlXM_3std6thread10JoinHandleuENtNtNtB17_2io5error5ErrorEECs37qxPUa7whq_20oneway_thread_access", scope: !22, file: !1256, line: 179, type: !1332, scopeLine: 179, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !1337, retainedNodes: !1335)
+!1331 = distinct !DISubprogram(name: "drop_in_place<core::result::Result<std::thread::JoinHandle<()>, std::io::error::Error>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_6result6ResultINtNtCs2bNvlddUlXM_3std6thread10JoinHandleuENtNtNtB17_2io5error5ErrorEECsdT7u4N7w2iC_20stack_map_and_mutate", scope: !22, file: !1256, line: 179, type: !1332, scopeLine: 179, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !1337, retainedNodes: !1335)
 !1332 = !DISubroutineType(types: !1333)
 !1333 = !{null, !1334}
 !1334 = !DIDerivedType(tag: DW_TAG_pointer_type, name: "*mut core::result::Result<std::thread::JoinHandle<()>, std::io::error::Error>", baseType: !422, size: 64, align: 64, dwarfAddressSpace: 0)
@@ -9900,14 +10008,14 @@ attributes #12 = { noinline }
 !1337 = !{!1338}
 !1338 = !DITemplateTypeParameter(name: "T", type: !422)
 !1339 = !DILocation(line: 179, column: 1, scope: !1331)
-!1340 = distinct !DISubprogram(name: "drop_in_place<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEECs37qxPUa7whq_20oneway_thread_access", scope: !22, file: !1256, line: 179, type: !1341, scopeLine: 179, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !240, retainedNodes: !1344)
+!1340 = distinct !DISubprogram(name: "drop_in_place<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEECsdT7u4N7w2iC_20stack_map_and_mutate", scope: !22, file: !1256, line: 179, type: !1341, scopeLine: 179, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !240, retainedNodes: !1344)
 !1341 = !DISubroutineType(types: !1342)
 !1342 = !{null, !1343}
 !1343 = !DIDerivedType(tag: DW_TAG_pointer_type, name: "*mut core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>", baseType: !242, size: 64, align: 64, dwarfAddressSpace: 0)
 !1344 = !{!1345}
 !1345 = !DILocalVariable(arg: 1, scope: !1340, file: !1256, line: 179, type: !1343)
 !1346 = !DILocation(line: 179, column: 1, scope: !1340)
-!1347 = distinct !DISubprogram(name: "drop_in_place<std::thread::JoinHandle<()>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs2bNvlddUlXM_3std6thread10JoinHandleuEECs37qxPUa7whq_20oneway_thread_access", scope: !22, file: !1256, line: 179, type: !1348, scopeLine: 179, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !1353, retainedNodes: !1351)
+!1347 = distinct !DISubprogram(name: "drop_in_place<std::thread::JoinHandle<()>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs2bNvlddUlXM_3std6thread10JoinHandleuEECsdT7u4N7w2iC_20stack_map_and_mutate", scope: !22, file: !1256, line: 179, type: !1348, scopeLine: 179, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !1353, retainedNodes: !1351)
 !1348 = !DISubroutineType(types: !1349)
 !1349 = !{null, !1350}
 !1350 = !DIDerivedType(tag: DW_TAG_pointer_type, name: "*mut std::thread::JoinHandle<()>", baseType: !430, size: 64, align: 64, dwarfAddressSpace: 0)
@@ -9915,7 +10023,7 @@ attributes #12 = { noinline }
 !1352 = !DILocalVariable(arg: 1, scope: !1347, file: !1256, line: 179, type: !1350)
 !1353 = !{!459}
 !1354 = !DILocation(line: 179, column: 1, scope: !1347)
-!1355 = distinct !DISubprogram(name: "drop_in_place<std::thread::Packet<()>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs2bNvlddUlXM_3std6thread6PacketuEECs37qxPUa7whq_20oneway_thread_access", scope: !22, file: !1256, line: 179, type: !1356, scopeLine: 179, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !1361, retainedNodes: !1359)
+!1355 = distinct !DISubprogram(name: "drop_in_place<std::thread::Packet<()>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs2bNvlddUlXM_3std6thread6PacketuEECsdT7u4N7w2iC_20stack_map_and_mutate", scope: !22, file: !1256, line: 179, type: !1356, scopeLine: 179, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !1361, retainedNodes: !1359)
 !1356 = !DISubroutineType(types: !1357)
 !1357 = !{null, !1358}
 !1358 = !DIDerivedType(tag: DW_TAG_pointer_type, name: "*mut std::thread::Packet<()>", baseType: !454, size: 64, align: 64, dwarfAddressSpace: 0)
@@ -9924,7 +10032,7 @@ attributes #12 = { noinline }
 !1361 = !{!1362}
 !1362 = !DITemplateTypeParameter(name: "T", type: !454)
 !1363 = !DILocation(line: 179, column: 1, scope: !1355)
-!1364 = distinct !DISubprogram(name: "drop_in_place<std::thread::JoinInner<()>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs2bNvlddUlXM_3std6thread9JoinInneruEECs37qxPUa7whq_20oneway_thread_access", scope: !22, file: !1256, line: 179, type: !1365, scopeLine: 179, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !1370, retainedNodes: !1368)
+!1364 = distinct !DISubprogram(name: "drop_in_place<std::thread::JoinInner<()>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs2bNvlddUlXM_3std6thread9JoinInneruEECsdT7u4N7w2iC_20stack_map_and_mutate", scope: !22, file: !1256, line: 179, type: !1365, scopeLine: 179, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !1370, retainedNodes: !1368)
 !1365 = !DISubroutineType(types: !1366)
 !1366 = !{null, !1367}
 !1367 = !DIDerivedType(tag: DW_TAG_pointer_type, name: "*mut std::thread::JoinInner<()>", baseType: !433, size: 64, align: 64, dwarfAddressSpace: 0)
@@ -9933,14 +10041,14 @@ attributes #12 = { noinline }
 !1370 = !{!1371}
 !1371 = !DITemplateTypeParameter(name: "T", type: !433)
 !1372 = !DILocation(line: 179, column: 1, scope: !1364)
-!1373 = distinct !DISubprogram(name: "drop_in_place<alloc::vec::Vec<u8, alloc::alloc::Global>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc3vec3VechEECs37qxPUa7whq_20oneway_thread_access", scope: !22, file: !1256, line: 179, type: !1374, scopeLine: 179, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !200, retainedNodes: !1377)
+!1373 = distinct !DISubprogram(name: "drop_in_place<alloc::vec::Vec<u8, alloc::alloc::Global>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc3vec3VechEECsdT7u4N7w2iC_20stack_map_and_mutate", scope: !22, file: !1256, line: 179, type: !1374, scopeLine: 179, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !200, retainedNodes: !1377)
 !1374 = !DISubroutineType(types: !1375)
 !1375 = !{null, !1376}
 !1376 = !DIDerivedType(tag: DW_TAG_pointer_type, name: "*mut alloc::vec::Vec<u8, alloc::alloc::Global>", baseType: !182, size: 64, align: 64, dwarfAddressSpace: 0)
 !1377 = !{!1378}
 !1378 = !DILocalVariable(arg: 1, scope: !1373, file: !1256, line: 179, type: !1376)
 !1379 = !DILocation(line: 179, column: 1, scope: !1373)
-!1380 = distinct !DISubprogram(name: "drop_in_place<alloc::sync::Arc<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc4sync3ArcINtNtB4_4cell10UnsafeCellINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtBL_5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEEEECs37qxPUa7whq_20oneway_thread_access", scope: !22, file: !1256, line: 179, type: !1381, scopeLine: 179, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !1386, retainedNodes: !1384)
+!1380 = distinct !DISubprogram(name: "drop_in_place<alloc::sync::Arc<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc4sync3ArcINtNtB4_4cell10UnsafeCellINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtBL_5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEEEECsdT7u4N7w2iC_20stack_map_and_mutate", scope: !22, file: !1256, line: 179, type: !1381, scopeLine: 179, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !1386, retainedNodes: !1384)
 !1381 = !DISubroutineType(types: !1382)
 !1382 = !{null, !1383}
 !1383 = !DIDerivedType(tag: DW_TAG_pointer_type, name: "*mut alloc::sync::Arc<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>>", baseType: !219, size: 64, align: 64, dwarfAddressSpace: 0)
@@ -9949,14 +10057,14 @@ attributes #12 = { noinline }
 !1386 = !{!1387}
 !1387 = !DITemplateTypeParameter(name: "T", type: !219)
 !1388 = !DILocation(line: 179, column: 1, scope: !1380)
-!1389 = distinct !DISubprogram(name: "drop_in_place<alloc::sync::Arc<std::sync::mutex::Mutex<alloc::vec::Vec<u8, alloc::alloc::Global>>>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc4sync3ArcINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtBL_3vec3VechEEEECs37qxPUa7whq_20oneway_thread_access", scope: !22, file: !1256, line: 179, type: !1390, scopeLine: 179, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !120, retainedNodes: !1393)
+!1389 = distinct !DISubprogram(name: "drop_in_place<alloc::sync::Arc<std::sync::mutex::Mutex<alloc::vec::Vec<u8, alloc::alloc::Global>>>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc4sync3ArcINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtBL_3vec3VechEEEECsdT7u4N7w2iC_20stack_map_and_mutate", scope: !22, file: !1256, line: 179, type: !1390, scopeLine: 179, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !120, retainedNodes: !1393)
 !1390 = !DISubroutineType(types: !1391)
 !1391 = !{null, !1392}
 !1392 = !DIDerivedType(tag: DW_TAG_pointer_type, name: "*mut alloc::sync::Arc<std::sync::mutex::Mutex<alloc::vec::Vec<u8, alloc::alloc::Global>>>", baseType: !122, size: 64, align: 64, dwarfAddressSpace: 0)
 !1393 = !{!1394}
 !1394 = !DILocalVariable(arg: 1, scope: !1389, file: !1256, line: 179, type: !1392)
 !1395 = !DILocation(line: 179, column: 1, scope: !1389)
-!1396 = distinct !DISubprogram(name: "drop_in_place<alloc::sync::Arc<std::thread::Inner>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc4sync3ArcNtNtCs2bNvlddUlXM_3std6thread5InnerEECs37qxPUa7whq_20oneway_thread_access", scope: !22, file: !1256, line: 179, type: !1397, scopeLine: 179, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !1402, retainedNodes: !1400)
+!1396 = distinct !DISubprogram(name: "drop_in_place<alloc::sync::Arc<std::thread::Inner>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc4sync3ArcNtNtCs2bNvlddUlXM_3std6thread5InnerEECsdT7u4N7w2iC_20stack_map_and_mutate", scope: !22, file: !1256, line: 179, type: !1397, scopeLine: 179, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !1402, retainedNodes: !1400)
 !1397 = !DISubroutineType(types: !1398)
 !1398 = !{null, !1399}
 !1399 = !DIDerivedType(tag: DW_TAG_pointer_type, name: "*mut alloc::sync::Arc<std::thread::Inner>", baseType: !15, size: 64, align: 64, dwarfAddressSpace: 0)
@@ -9965,35 +10073,35 @@ attributes #12 = { noinline }
 !1402 = !{!1403}
 !1403 = !DITemplateTypeParameter(name: "T", type: !15)
 !1404 = !DILocation(line: 179, column: 1, scope: !1396)
-!1405 = distinct !DISubprogram(name: "drop_in_place<alloc::sync::Weak<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc4sync4WeakINtNtB4_4cell10UnsafeCellINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtBL_5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEEEECs37qxPUa7whq_20oneway_thread_access", scope: !22, file: !1256, line: 179, type: !1406, scopeLine: 179, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !1158, retainedNodes: !1409)
+!1405 = distinct !DISubprogram(name: "drop_in_place<alloc::sync::Weak<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc4sync4WeakINtNtB4_4cell10UnsafeCellINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtBL_5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEEEECsdT7u4N7w2iC_20stack_map_and_mutate", scope: !22, file: !1256, line: 179, type: !1406, scopeLine: 179, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !1158, retainedNodes: !1409)
 !1406 = !DISubroutineType(types: !1407)
 !1407 = !{null, !1408}
 !1408 = !DIDerivedType(tag: DW_TAG_pointer_type, name: "*mut alloc::sync::Weak<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>>", baseType: !1153, size: 64, align: 64, dwarfAddressSpace: 0)
 !1409 = !{!1410}
 !1410 = !DILocalVariable(arg: 1, scope: !1405, file: !1256, line: 179, type: !1408)
 !1411 = !DILocation(line: 179, column: 1, scope: !1405)
-!1412 = distinct !DISubprogram(name: "drop_in_place<alloc::sync::Weak<std::sync::mutex::Mutex<alloc::vec::Vec<u8, alloc::alloc::Global>>>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc4sync4WeakINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtBL_3vec3VechEEEECs37qxPUa7whq_20oneway_thread_access", scope: !22, file: !1256, line: 179, type: !1413, scopeLine: 179, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !1171, retainedNodes: !1416)
+!1412 = distinct !DISubprogram(name: "drop_in_place<alloc::sync::Weak<std::sync::mutex::Mutex<alloc::vec::Vec<u8, alloc::alloc::Global>>>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc4sync4WeakINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtBL_3vec3VechEEEECsdT7u4N7w2iC_20stack_map_and_mutate", scope: !22, file: !1256, line: 179, type: !1413, scopeLine: 179, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !1171, retainedNodes: !1416)
 !1413 = !DISubroutineType(types: !1414)
 !1414 = !{null, !1415}
 !1415 = !DIDerivedType(tag: DW_TAG_pointer_type, name: "*mut alloc::sync::Weak<std::sync::mutex::Mutex<alloc::vec::Vec<u8, alloc::alloc::Global>>>", baseType: !1166, size: 64, align: 64, dwarfAddressSpace: 0)
 !1416 = !{!1417}
 !1417 = !DILocalVariable(arg: 1, scope: !1412, file: !1256, line: 179, type: !1415)
 !1418 = !DILocation(line: 179, column: 1, scope: !1412)
-!1419 = distinct !DISubprogram(name: "drop_in_place<alloc::sync::Weak<std::thread::Inner>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc4sync4WeakNtNtCs2bNvlddUlXM_3std6thread5InnerEECs37qxPUa7whq_20oneway_thread_access", scope: !22, file: !1256, line: 179, type: !1420, scopeLine: 179, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !1184, retainedNodes: !1423)
+!1419 = distinct !DISubprogram(name: "drop_in_place<alloc::sync::Weak<std::thread::Inner>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc4sync4WeakNtNtCs2bNvlddUlXM_3std6thread5InnerEECsdT7u4N7w2iC_20stack_map_and_mutate", scope: !22, file: !1256, line: 179, type: !1420, scopeLine: 179, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !1184, retainedNodes: !1423)
 !1420 = !DISubroutineType(types: !1421)
 !1421 = !{null, !1422}
 !1422 = !DIDerivedType(tag: DW_TAG_pointer_type, name: "*mut alloc::sync::Weak<std::thread::Inner>", baseType: !1179, size: 64, align: 64, dwarfAddressSpace: 0)
 !1423 = !{!1424}
 !1424 = !DILocalVariable(arg: 1, scope: !1419, file: !1256, line: 179, type: !1422)
 !1425 = !DILocation(line: 179, column: 1, scope: !1419)
-!1426 = distinct !DISubprogram(name: "drop_in_place<alloc::boxed::Box<Any, alloc::alloc::Global>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EECs37qxPUa7whq_20oneway_thread_access", scope: !22, file: !1256, line: 179, type: !1427, scopeLine: 179, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !1000, retainedNodes: !1430)
+!1426 = distinct !DISubprogram(name: "drop_in_place<alloc::boxed::Box<Any, alloc::alloc::Global>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EECsdT7u4N7w2iC_20stack_map_and_mutate", scope: !22, file: !1256, line: 179, type: !1427, scopeLine: 179, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !1000, retainedNodes: !1430)
 !1427 = !DISubroutineType(types: !1428)
 !1428 = !{null, !1429}
 !1429 = !DIDerivedType(tag: DW_TAG_pointer_type, name: "*mut alloc::boxed::Box<Any, alloc::alloc::Global>", baseType: !255, size: 64, align: 64, dwarfAddressSpace: 0)
 !1430 = !{!1431}
 !1431 = !DILocalVariable(arg: 1, scope: !1426, file: !1256, line: 179, type: !1429)
 !1432 = !DILocation(line: 179, column: 1, scope: !1426)
-!1433 = distinct !DISubprogram(name: "drop_in_place<alloc::boxed::Box<Error, alloc::alloc::Global>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtCs2bNvlddUlXM_3std5error5ErrorNtNtB4_6marker4SendNtB1Q_4SyncEL_EECs37qxPUa7whq_20oneway_thread_access", scope: !22, file: !1256, line: 179, type: !1434, scopeLine: 179, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !1439, retainedNodes: !1437)
+!1433 = distinct !DISubprogram(name: "drop_in_place<alloc::boxed::Box<Error, alloc::alloc::Global>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtCs2bNvlddUlXM_3std5error5ErrorNtNtB4_6marker4SendNtB1Q_4SyncEL_EECsdT7u4N7w2iC_20stack_map_and_mutate", scope: !22, file: !1256, line: 179, type: !1434, scopeLine: 179, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !1439, retainedNodes: !1437)
 !1434 = !DISubroutineType(types: !1435)
 !1435 = !{null, !1436}
 !1436 = !DIDerivedType(tag: DW_TAG_pointer_type, name: "*mut alloc::boxed::Box<Error, alloc::alloc::Global>", baseType: !348, size: 64, align: 64, dwarfAddressSpace: 0)
@@ -10002,7 +10110,7 @@ attributes #12 = { noinline }
 !1439 = !{!1440}
 !1440 = !DITemplateTypeParameter(name: "T", type: !348)
 !1441 = !DILocation(line: 179, column: 1, scope: !1433)
-!1442 = distinct !DISubprogram(name: "drop_in_place<alloc::boxed::Box<std::io::error::Custom, alloc::alloc::Global>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc5boxed3BoxNtNtNtCs2bNvlddUlXM_3std2io5error6CustomEECs37qxPUa7whq_20oneway_thread_access", scope: !22, file: !1256, line: 179, type: !1443, scopeLine: 179, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !1448, retainedNodes: !1446)
+!1442 = distinct !DISubprogram(name: "drop_in_place<alloc::boxed::Box<std::io::error::Custom, alloc::alloc::Global>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc5boxed3BoxNtNtNtCs2bNvlddUlXM_3std2io5error6CustomEECsdT7u4N7w2iC_20stack_map_and_mutate", scope: !22, file: !1256, line: 179, type: !1443, scopeLine: 179, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !1448, retainedNodes: !1446)
 !1443 = !DISubroutineType(types: !1444)
 !1444 = !{null, !1445}
 !1445 = !DIDerivedType(tag: DW_TAG_pointer_type, name: "*mut alloc::boxed::Box<std::io::error::Custom, alloc::alloc::Global>", baseType: !343, size: 64, align: 64, dwarfAddressSpace: 0)
@@ -10011,7 +10119,7 @@ attributes #12 = { noinline }
 !1448 = !{!1449}
 !1449 = !DITemplateTypeParameter(name: "T", type: !343)
 !1450 = !DILocation(line: 179, column: 1, scope: !1442)
-!1451 = distinct !DISubprogram(name: "drop_in_place<alloc::boxed::Box<std::sys::unix::mutex::Mutex, alloc::alloc::Global>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc5boxed3BoxNtNtNtNtCs2bNvlddUlXM_3std3sys4unix5mutex5MutexEECs37qxPUa7whq_20oneway_thread_access", scope: !22, file: !1256, line: 179, type: !1452, scopeLine: 179, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !1457, retainedNodes: !1455)
+!1451 = distinct !DISubprogram(name: "drop_in_place<alloc::boxed::Box<std::sys::unix::mutex::Mutex, alloc::alloc::Global>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc5boxed3BoxNtNtNtNtCs2bNvlddUlXM_3std3sys4unix5mutex5MutexEECsdT7u4N7w2iC_20stack_map_and_mutate", scope: !22, file: !1256, line: 179, type: !1452, scopeLine: 179, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !1457, retainedNodes: !1455)
 !1452 = !DISubroutineType(types: !1453)
 !1453 = !{null, !1454}
 !1454 = !DIDerivedType(tag: DW_TAG_pointer_type, name: "*mut alloc::boxed::Box<std::sys::unix::mutex::Mutex, alloc::alloc::Global>", baseType: !143, size: 64, align: 64, dwarfAddressSpace: 0)
@@ -10020,7 +10128,7 @@ attributes #12 = { noinline }
 !1457 = !{!1458}
 !1458 = !DITemplateTypeParameter(name: "T", type: !143)
 !1459 = !DILocation(line: 179, column: 1, scope: !1451)
-!1460 = distinct !DISubprogram(name: "drop_in_place<alloc::boxed::Box<[u8], alloc::alloc::Global>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc5boxed3BoxShEECs37qxPUa7whq_20oneway_thread_access", scope: !22, file: !1256, line: 179, type: !1461, scopeLine: 179, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !1466, retainedNodes: !1464)
+!1460 = distinct !DISubprogram(name: "drop_in_place<alloc::boxed::Box<[u8], alloc::alloc::Global>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc5boxed3BoxShEECsdT7u4N7w2iC_20stack_map_and_mutate", scope: !22, file: !1256, line: 179, type: !1461, scopeLine: 179, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !1466, retainedNodes: !1464)
 !1461 = !DISubroutineType(types: !1462)
 !1462 = !{null, !1463}
 !1463 = !DIDerivedType(tag: DW_TAG_pointer_type, name: "*mut alloc::boxed::Box<[u8], alloc::alloc::Global>", baseType: !61, size: 64, align: 64, dwarfAddressSpace: 0)
@@ -10029,7 +10137,7 @@ attributes #12 = { noinline }
 !1466 = !{!1467}
 !1467 = !DITemplateTypeParameter(name: "T", type: !61)
 !1468 = !DILocation(line: 179, column: 1, scope: !1460)
-!1469 = distinct !DISubprogram(name: "drop_in_place<alloc::raw_vec::RawVec<u8, alloc::alloc::Global>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc7raw_vec6RawVechEECs37qxPUa7whq_20oneway_thread_access", scope: !22, file: !1256, line: 179, type: !1470, scopeLine: 179, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !1475, retainedNodes: !1473)
+!1469 = distinct !DISubprogram(name: "drop_in_place<alloc::raw_vec::RawVec<u8, alloc::alloc::Global>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc7raw_vec6RawVechEECsdT7u4N7w2iC_20stack_map_and_mutate", scope: !22, file: !1256, line: 179, type: !1470, scopeLine: 179, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !1475, retainedNodes: !1473)
 !1470 = !DISubroutineType(types: !1471)
 !1471 = !{null, !1472}
 !1472 = !DIDerivedType(tag: DW_TAG_pointer_type, name: "*mut alloc::raw_vec::RawVec<u8, alloc::alloc::Global>", baseType: !186, size: 64, align: 64, dwarfAddressSpace: 0)
@@ -10038,21 +10146,21 @@ attributes #12 = { noinline }
 !1475 = !{!1476}
 !1476 = !DITemplateTypeParameter(name: "T", type: !186)
 !1477 = !DILocation(line: 179, column: 1, scope: !1469)
-!1478 = distinct !DISubprogram(name: "drop_in_place<std::sync::mutex::Mutex<alloc::vec::Vec<u8, alloc::alloc::Global>>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtCs8RW06R9lH2S_5alloc3vec3VechEEECs37qxPUa7whq_20oneway_thread_access", scope: !22, file: !1256, line: 179, type: !1479, scopeLine: 179, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !202, retainedNodes: !1482)
+!1478 = distinct !DISubprogram(name: "drop_in_place<std::sync::mutex::Mutex<alloc::vec::Vec<u8, alloc::alloc::Global>>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtCs8RW06R9lH2S_5alloc3vec3VechEEECsdT7u4N7w2iC_20stack_map_and_mutate", scope: !22, file: !1256, line: 179, type: !1479, scopeLine: 179, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !202, retainedNodes: !1482)
 !1479 = !DISubroutineType(types: !1480)
 !1480 = !{null, !1481}
 !1481 = !DIDerivedType(tag: DW_TAG_pointer_type, name: "*mut std::sync::mutex::Mutex<alloc::vec::Vec<u8, alloc::alloc::Global>>", baseType: !134, size: 64, align: 64, dwarfAddressSpace: 0)
 !1482 = !{!1483}
 !1483 = !DILocalVariable(arg: 1, scope: !1478, file: !1256, line: 179, type: !1481)
 !1484 = !DILocation(line: 179, column: 1, scope: !1478)
-!1485 = distinct !DISubprogram(name: "drop_in_place<closure-0>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNCINvMNtCs2bNvlddUlXM_3std6threadNtBM_7Builder15spawn_uncheckedNCNvCs37qxPUa7whq_20oneway_thread_access4main0uE0EB1L_", scope: !22, file: !1256, line: 179, type: !1486, scopeLine: 179, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !533, retainedNodes: !1489)
+!1485 = distinct !DISubprogram(name: "drop_in_place<closure-0>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNCINvMNtCs2bNvlddUlXM_3std6threadNtBM_7Builder15spawn_uncheckedNCNvCsdT7u4N7w2iC_20stack_map_and_mutate4main0uE0EB1L_", scope: !22, file: !1256, line: 179, type: !1486, scopeLine: 179, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !533, retainedNodes: !1489)
 !1486 = !DISubroutineType(types: !1487)
 !1487 = !{null, !1488}
 !1488 = !DIDerivedType(tag: DW_TAG_pointer_type, name: "*mut closure-0", baseType: !5, size: 64, align: 64, dwarfAddressSpace: 0)
 !1489 = !{!1490}
 !1490 = !DILocalVariable(arg: 1, scope: !1485, file: !1256, line: 179, type: !1488)
 !1491 = !DILocation(line: 179, column: 1, scope: !1485)
-!1492 = distinct !DISubprogram(name: "drop_in_place<closure-0>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNCINvNtCs2bNvlddUlXM_3std2rt10lang_startuE0ECs37qxPUa7whq_20oneway_thread_access", scope: !22, file: !1256, line: 179, type: !1493, scopeLine: 179, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !1498, retainedNodes: !1496)
+!1492 = distinct !DISubprogram(name: "drop_in_place<closure-0>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNCINvNtCs2bNvlddUlXM_3std2rt10lang_startuE0ECsdT7u4N7w2iC_20stack_map_and_mutate", scope: !22, file: !1256, line: 179, type: !1493, scopeLine: 179, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !1498, retainedNodes: !1496)
 !1493 = !DISubroutineType(types: !1494)
 !1494 = !{null, !1495}
 !1495 = !DIDerivedType(tag: DW_TAG_pointer_type, name: "*mut closure-0", baseType: !291, size: 64, align: 64, dwarfAddressSpace: 0)
@@ -10061,14 +10169,14 @@ attributes #12 = { noinline }
 !1498 = !{!1499}
 !1499 = !DITemplateTypeParameter(name: "T", type: !291)
 !1500 = !DILocation(line: 179, column: 1, scope: !1492)
-!1501 = distinct !DISubprogram(name: "drop_in_place<std::thread::Inner>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNtNtCs2bNvlddUlXM_3std6thread5InnerECs37qxPUa7whq_20oneway_thread_access", scope: !22, file: !1256, line: 179, type: !1502, scopeLine: 179, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !106, retainedNodes: !1505)
+!1501 = distinct !DISubprogram(name: "drop_in_place<std::thread::Inner>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNtNtCs2bNvlddUlXM_3std6thread5InnerECsdT7u4N7w2iC_20stack_map_and_mutate", scope: !22, file: !1256, line: 179, type: !1502, scopeLine: 179, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !106, retainedNodes: !1505)
 !1502 = !DISubroutineType(types: !1503)
 !1503 = !{null, !1504}
 !1504 = !DIDerivedType(tag: DW_TAG_pointer_type, name: "*mut std::thread::Inner", baseType: !44, size: 64, align: 64, dwarfAddressSpace: 0)
 !1505 = !{!1506}
 !1506 = !DILocalVariable(arg: 1, scope: !1501, file: !1256, line: 179, type: !1504)
 !1507 = !DILocation(line: 179, column: 1, scope: !1501)
-!1508 = distinct !DISubprogram(name: "drop_in_place<std::thread::Thread>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNtNtCs2bNvlddUlXM_3std6thread6ThreadECs37qxPUa7whq_20oneway_thread_access", scope: !22, file: !1256, line: 179, type: !1509, scopeLine: 179, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !1514, retainedNodes: !1512)
+!1508 = distinct !DISubprogram(name: "drop_in_place<std::thread::Thread>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNtNtCs2bNvlddUlXM_3std6thread6ThreadECsdT7u4N7w2iC_20stack_map_and_mutate", scope: !22, file: !1256, line: 179, type: !1509, scopeLine: 179, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !1514, retainedNodes: !1512)
 !1509 = !DISubroutineType(types: !1510)
 !1510 = !{null, !1511}
 !1511 = !DIDerivedType(tag: DW_TAG_pointer_type, name: "*mut std::thread::Thread", baseType: !12, size: 64, align: 64, dwarfAddressSpace: 0)
@@ -10077,14 +10185,14 @@ attributes #12 = { noinline }
 !1514 = !{!1515}
 !1515 = !DITemplateTypeParameter(name: "T", type: !12)
 !1516 = !DILocation(line: 179, column: 1, scope: !1508)
-!1517 = distinct !DISubprogram(name: "drop_in_place<alloc::string::String>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNtNtCs8RW06R9lH2S_5alloc6string6StringECs37qxPUa7whq_20oneway_thread_access", scope: !22, file: !1256, line: 179, type: !1518, scopeLine: 179, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !399, retainedNodes: !1521)
+!1517 = distinct !DISubprogram(name: "drop_in_place<alloc::string::String>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNtNtCs8RW06R9lH2S_5alloc6string6StringECsdT7u4N7w2iC_20stack_map_and_mutate", scope: !22, file: !1256, line: 179, type: !1518, scopeLine: 179, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !399, retainedNodes: !1521)
 !1518 = !DISubroutineType(types: !1519)
 !1519 = !{null, !1520}
 !1520 = !DIDerivedType(tag: DW_TAG_pointer_type, name: "*mut alloc::string::String", baseType: !401, size: 64, align: 64, dwarfAddressSpace: 0)
 !1521 = !{!1522}
 !1522 = !DILocalVariable(arg: 1, scope: !1517, file: !1256, line: 179, type: !1520)
 !1523 = !DILocation(line: 179, column: 1, scope: !1517)
-!1524 = distinct !DISubprogram(name: "drop_in_place<std::sys_common::mutex::MovableMutex>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNtNtNtCs2bNvlddUlXM_3std10sys_common5mutex12MovableMutexECs37qxPUa7whq_20oneway_thread_access", scope: !22, file: !1256, line: 179, type: !1525, scopeLine: 179, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !1530, retainedNodes: !1528)
+!1524 = distinct !DISubprogram(name: "drop_in_place<std::sys_common::mutex::MovableMutex>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNtNtNtCs2bNvlddUlXM_3std10sys_common5mutex12MovableMutexECsdT7u4N7w2iC_20stack_map_and_mutate", scope: !22, file: !1256, line: 179, type: !1525, scopeLine: 179, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !1530, retainedNodes: !1528)
 !1525 = !DISubroutineType(types: !1526)
 !1526 = !{null, !1527}
 !1527 = !DIDerivedType(tag: DW_TAG_pointer_type, name: "*mut std::sys_common::mutex::MovableMutex", baseType: !139, size: 64, align: 64, dwarfAddressSpace: 0)
@@ -10093,7 +10201,7 @@ attributes #12 = { noinline }
 !1530 = !{!1531}
 !1531 = !DITemplateTypeParameter(name: "T", type: !139)
 !1532 = !DILocation(line: 179, column: 1, scope: !1524)
-!1533 = distinct !DISubprogram(name: "drop_in_place<std::io::error::Repr>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNtNtNtCs2bNvlddUlXM_3std2io5error4ReprECs37qxPUa7whq_20oneway_thread_access", scope: !22, file: !1256, line: 179, type: !1534, scopeLine: 179, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !1539, retainedNodes: !1537)
+!1533 = distinct !DISubprogram(name: "drop_in_place<std::io::error::Repr>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNtNtNtCs2bNvlddUlXM_3std2io5error4ReprECsdT7u4N7w2iC_20stack_map_and_mutate", scope: !22, file: !1256, line: 179, type: !1534, scopeLine: 179, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !1539, retainedNodes: !1537)
 !1534 = !DISubroutineType(types: !1535)
 !1535 = !{null, !1536}
 !1536 = !DIDerivedType(tag: DW_TAG_pointer_type, name: "*mut std::io::error::Repr", baseType: !307, size: 64, align: 64, dwarfAddressSpace: 0)
@@ -10103,7 +10211,7 @@ attributes #12 = { noinline }
 !1540 = !DITemplateTypeParameter(name: "T", type: !307)
 !1541 = !DILocation(line: 179, column: 1, scope: !1533)
 !1542 = !{i8 0, i8 3}
-!1543 = distinct !DISubprogram(name: "drop_in_place<std::io::error::Error>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNtNtNtCs2bNvlddUlXM_3std2io5error5ErrorECs37qxPUa7whq_20oneway_thread_access", scope: !22, file: !1256, line: 179, type: !1544, scopeLine: 179, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !1549, retainedNodes: !1547)
+!1543 = distinct !DISubprogram(name: "drop_in_place<std::io::error::Error>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNtNtNtCs2bNvlddUlXM_3std2io5error5ErrorECsdT7u4N7w2iC_20stack_map_and_mutate", scope: !22, file: !1256, line: 179, type: !1544, scopeLine: 179, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !1549, retainedNodes: !1547)
 !1544 = !DISubroutineType(types: !1545)
 !1545 = !{null, !1546}
 !1546 = !DIDerivedType(tag: DW_TAG_pointer_type, name: "*mut std::io::error::Error", baseType: !302, size: 64, align: 64, dwarfAddressSpace: 0)
@@ -10112,28 +10220,28 @@ attributes #12 = { noinline }
 !1549 = !{!1550}
 !1550 = !DITemplateTypeParameter(name: "T", type: !302)
 !1551 = !DILocation(line: 179, column: 1, scope: !1543)
-!1552 = distinct !DISubprogram(name: "drop_in_place<std::io::error::Custom>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNtNtNtCs2bNvlddUlXM_3std2io5error6CustomECs37qxPUa7whq_20oneway_thread_access", scope: !22, file: !1256, line: 179, type: !1553, scopeLine: 179, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !794, retainedNodes: !1556)
+!1552 = distinct !DISubprogram(name: "drop_in_place<std::io::error::Custom>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNtNtNtCs2bNvlddUlXM_3std2io5error6CustomECsdT7u4N7w2iC_20stack_map_and_mutate", scope: !22, file: !1256, line: 179, type: !1553, scopeLine: 179, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !794, retainedNodes: !1556)
 !1553 = !DISubroutineType(types: !1554)
 !1554 = !{null, !1555}
 !1555 = !DIDerivedType(tag: DW_TAG_pointer_type, name: "*mut std::io::error::Custom", baseType: !344, size: 64, align: 64, dwarfAddressSpace: 0)
 !1556 = !{!1557}
 !1557 = !DILocalVariable(arg: 1, scope: !1552, file: !1256, line: 179, type: !1555)
 !1558 = !DILocation(line: 179, column: 1, scope: !1552)
-!1559 = distinct !DISubprogram(name: "drop_in_place<std::ffi::c_str::CString>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNtNtNtCs2bNvlddUlXM_3std3ffi5c_str7CStringECs37qxPUa7whq_20oneway_thread_access", scope: !22, file: !1256, line: 179, type: !1560, scopeLine: 179, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !54, retainedNodes: !1563)
+!1559 = distinct !DISubprogram(name: "drop_in_place<std::ffi::c_str::CString>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNtNtNtCs2bNvlddUlXM_3std3ffi5c_str7CStringECsdT7u4N7w2iC_20stack_map_and_mutate", scope: !22, file: !1256, line: 179, type: !1560, scopeLine: 179, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !54, retainedNodes: !1563)
 !1560 = !DISubroutineType(types: !1561)
 !1561 = !{null, !1562}
 !1562 = !DIDerivedType(tag: DW_TAG_pointer_type, name: "*mut std::ffi::c_str::CString", baseType: !56, size: 64, align: 64, dwarfAddressSpace: 0)
 !1563 = !{!1564}
 !1564 = !DILocalVariable(arg: 1, scope: !1559, file: !1256, line: 179, type: !1562)
 !1565 = !DILocation(line: 179, column: 1, scope: !1559)
-!1566 = distinct !DISubprogram(name: "drop_in_place<std::sys::unix::thread::Thread>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNtNtNtNtCs2bNvlddUlXM_3std3sys4unix6thread6ThreadECs37qxPUa7whq_20oneway_thread_access", scope: !22, file: !1256, line: 179, type: !1567, scopeLine: 179, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !442, retainedNodes: !1570)
+!1566 = distinct !DISubprogram(name: "drop_in_place<std::sys::unix::thread::Thread>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNtNtNtNtCs2bNvlddUlXM_3std3sys4unix6thread6ThreadECsdT7u4N7w2iC_20stack_map_and_mutate", scope: !22, file: !1256, line: 179, type: !1567, scopeLine: 179, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !442, retainedNodes: !1570)
 !1567 = !DISubroutineType(types: !1568)
 !1568 = !{null, !1569}
 !1569 = !DIDerivedType(tag: DW_TAG_pointer_type, name: "*mut std::sys::unix::thread::Thread", baseType: !444, size: 64, align: 64, dwarfAddressSpace: 0)
 !1570 = !{!1571}
 !1571 = !DILocalVariable(arg: 1, scope: !1566, file: !1256, line: 179, type: !1569)
 !1572 = !DILocation(line: 179, column: 1, scope: !1566)
-!1573 = distinct !DISubprogram(name: "swap_nonoverlapping<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr19swap_nonoverlappingINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEECs37qxPUa7whq_20oneway_thread_access", scope: !22, file: !1256, line: 432, type: !1574, scopeLine: 432, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !280, retainedNodes: !1576)
+!1573 = distinct !DISubprogram(name: "swap_nonoverlapping<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr19swap_nonoverlappingINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEECsdT7u4N7w2iC_20stack_map_and_mutate", scope: !22, file: !1256, line: 432, type: !1574, scopeLine: 432, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !280, retainedNodes: !1576)
 !1574 = !DISubroutineType(types: !1575)
 !1575 = !{null, !1055, !1055, !39}
 !1576 = !{!1577, !1578, !1579, !1580, !1582, !1584}
@@ -10157,7 +10265,7 @@ attributes #12 = { noinline }
 !1594 = !DILocation(line: 444, column: 9, scope: !1585)
 !1595 = !DILocation(line: 447, column: 14, scope: !1585)
 !1596 = !DILocation(line: 448, column: 2, scope: !1573)
-!1597 = distinct !DISubprogram(name: "swap_nonoverlapping<core::option::Option<std::sys::unix::thread::Thread>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr19swap_nonoverlappingINtNtB4_6option6OptionNtNtNtNtCs2bNvlddUlXM_3std3sys4unix6thread6ThreadEECs37qxPUa7whq_20oneway_thread_access", scope: !22, file: !1256, line: 432, type: !1598, scopeLine: 432, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !1074, retainedNodes: !1600)
+!1597 = distinct !DISubprogram(name: "swap_nonoverlapping<core::option::Option<std::sys::unix::thread::Thread>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr19swap_nonoverlappingINtNtB4_6option6OptionNtNtNtNtCs2bNvlddUlXM_3std3sys4unix6thread6ThreadEECsdT7u4N7w2iC_20stack_map_and_mutate", scope: !22, file: !1256, line: 432, type: !1598, scopeLine: 432, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !1074, retainedNodes: !1600)
 !1598 = !DISubroutineType(types: !1599)
 !1599 = !{null, !1069, !1069, !39}
 !1600 = !{!1601, !1602, !1603, !1604, !1606, !1608}
@@ -10181,7 +10289,7 @@ attributes #12 = { noinline }
 !1618 = !DILocation(line: 444, column: 9, scope: !1609)
 !1619 = !DILocation(line: 447, column: 14, scope: !1609)
 !1620 = !DILocation(line: 448, column: 2, scope: !1597)
-!1621 = distinct !DISubprogram(name: "swap_nonoverlapping_one<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr23swap_nonoverlapping_oneINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEECs37qxPUa7whq_20oneway_thread_access", scope: !22, file: !1256, line: 451, type: !1622, scopeLine: 451, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !280, retainedNodes: !1624)
+!1621 = distinct !DISubprogram(name: "swap_nonoverlapping_one<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr23swap_nonoverlapping_oneINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEECsdT7u4N7w2iC_20stack_map_and_mutate", scope: !22, file: !1256, line: 451, type: !1622, scopeLine: 451, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !280, retainedNodes: !1624)
 !1622 = !DISubroutineType(types: !1623)
 !1623 = !{null, !1055, !1055}
 !1624 = !{!1625, !1626, !1627}
@@ -10202,7 +10310,7 @@ attributes #12 = { noinline }
 !1639 = !DILocation(line: 461, column: 9, scope: !1621)
 !1640 = !DILocation(line: 466, column: 2, scope: !1621)
 !1641 = !DILocation(line: 451, column: 1, scope: !1621)
-!1642 = distinct !DISubprogram(name: "swap_nonoverlapping_one<core::option::Option<std::sys::unix::thread::Thread>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr23swap_nonoverlapping_oneINtNtB4_6option6OptionNtNtNtNtCs2bNvlddUlXM_3std3sys4unix6thread6ThreadEECs37qxPUa7whq_20oneway_thread_access", scope: !22, file: !1256, line: 451, type: !1643, scopeLine: 451, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !1074, retainedNodes: !1645)
+!1642 = distinct !DISubprogram(name: "swap_nonoverlapping_one<core::option::Option<std::sys::unix::thread::Thread>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr23swap_nonoverlapping_oneINtNtB4_6option6OptionNtNtNtNtCs2bNvlddUlXM_3std3sys4unix6thread6ThreadEECsdT7u4N7w2iC_20stack_map_and_mutate", scope: !22, file: !1256, line: 451, type: !1643, scopeLine: 451, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !1074, retainedNodes: !1645)
 !1643 = !DISubroutineType(types: !1644)
 !1644 = !{null, !1069, !1069}
 !1645 = !{!1646, !1647, !1648}
@@ -10223,7 +10331,7 @@ attributes #12 = { noinline }
 !1660 = !DILocation(line: 461, column: 9, scope: !1642)
 !1661 = !DILocation(line: 466, column: 2, scope: !1642)
 !1662 = !DILocation(line: 451, column: 1, scope: !1642)
-!1663 = distinct !DISubprogram(name: "slice_from_raw_parts_mut<u8>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr24slice_from_raw_parts_muthECs37qxPUa7whq_20oneway_thread_access", scope: !22, file: !1256, line: 304, type: !1664, scopeLine: 304, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !176, retainedNodes: !1670)
+!1663 = distinct !DISubprogram(name: "slice_from_raw_parts_mut<u8>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr24slice_from_raw_parts_muthECsdT7u4N7w2iC_20stack_map_and_mutate", scope: !22, file: !1256, line: 304, type: !1664, scopeLine: 304, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !176, retainedNodes: !1670)
 !1664 = !DISubroutineType(types: !1665)
 !1665 = !{!1666, !259, !39}
 !1666 = !DICompositeType(tag: DW_TAG_structure_type, name: "*mut [u8]", file: !2, size: 128, align: 64, elements: !1667, templateParams: !4, identifier: "5196b2ee1fdbf734c7f3a78e14d50170")
@@ -10238,7 +10346,7 @@ attributes #12 = { noinline }
 !1675 = !DILocation(line: 307, column: 26, scope: !1663)
 !1676 = !DILocation(line: 307, column: 14, scope: !1663)
 !1677 = !DILocation(line: 308, column: 2, scope: !1663)
-!1678 = distinct !DISubprogram(name: "read<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr4readINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEECs37qxPUa7whq_20oneway_thread_access", scope: !22, file: !1256, line: 689, type: !1679, scopeLine: 689, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !280, retainedNodes: !1681)
+!1678 = distinct !DISubprogram(name: "read<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr4readINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEECsdT7u4N7w2iC_20stack_map_and_mutate", scope: !22, file: !1256, line: 689, type: !1679, scopeLine: 689, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !280, retainedNodes: !1681)
 !1679 = !DISubroutineType(types: !1680)
 !1680 = !{!234, !1054}
 !1681 = !{!1682, !1683}
@@ -10256,14 +10364,14 @@ attributes #12 = { noinline }
 !1693 = !DILocation(line: 689, column: 29, scope: !1678)
 !1694 = !DILocation(line: 691, column: 9, scope: !1684)
 !1695 = !DILocation(line: 284, column: 9, scope: !1696, inlinedAt: !1700)
-!1696 = distinct !DISubprogram(name: "uninit<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>", linkageName: "_RNvMs0_NtNtCs3p84KrD9aKt_4core3mem12maybe_uninitINtB5_11MaybeUninitINtNtB9_6option6OptionINtNtB9_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB9_3any3AnyNtNtB9_6marker4SendEL_EEEE6uninitCs37qxPUa7whq_20oneway_thread_access", scope: !1685, file: !1697, line: 283, type: !1698, scopeLine: 283, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !280, retainedNodes: !4)
+!1696 = distinct !DISubprogram(name: "uninit<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>", linkageName: "_RNvMs0_NtNtCs3p84KrD9aKt_4core3mem12maybe_uninitINtB5_11MaybeUninitINtNtB9_6option6OptionINtNtB9_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB9_3any3AnyNtNtB9_6marker4SendEL_EEEE6uninitCsdT7u4N7w2iC_20stack_map_and_mutate", scope: !1685, file: !1697, line: 283, type: !1698, scopeLine: 283, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !280, retainedNodes: !4)
 !1697 = !DIFile(filename: "/rustc/e38fb306b7f5e65cca34df2dab1f0db15e1defb4/library/core/src/mem/maybe_uninit.rs", directory: "", checksumkind: CSK_MD5, checksum: "c905ca137d1c22ddb5e1fb2be46b7b21")
 !1698 = !DISubroutineType(types: !1699)
 !1699 = !{!1685}
 !1700 = distinct !DILocation(line: 691, column: 19, scope: !1678)
 !1701 = !DILocation(line: 691, column: 19, scope: !1678)
 !1702 = !DILocalVariable(name: "self", arg: 1, scope: !1703, file: !1697, line: 457, type: !1706)
-!1703 = distinct !DISubprogram(name: "as_mut_ptr<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>", linkageName: "_RNvMs0_NtNtCs3p84KrD9aKt_4core3mem12maybe_uninitINtB5_11MaybeUninitINtNtB9_6option6OptionINtNtB9_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB9_3any3AnyNtNtB9_6marker4SendEL_EEEE10as_mut_ptrCs37qxPUa7whq_20oneway_thread_access", scope: !1685, file: !1697, line: 457, type: !1704, scopeLine: 457, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !280, retainedNodes: !1707)
+!1703 = distinct !DISubprogram(name: "as_mut_ptr<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>", linkageName: "_RNvMs0_NtNtCs3p84KrD9aKt_4core3mem12maybe_uninitINtB5_11MaybeUninitINtNtB9_6option6OptionINtNtB9_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB9_3any3AnyNtNtB9_6marker4SendEL_EEEE10as_mut_ptrCsdT7u4N7w2iC_20stack_map_and_mutate", scope: !1685, file: !1697, line: 457, type: !1704, scopeLine: 457, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !280, retainedNodes: !1707)
 !1704 = !DISubroutineType(types: !1705)
 !1705 = !{!1055, !1706}
 !1706 = !DIDerivedType(tag: DW_TAG_pointer_type, name: "&mut core::mem::maybe_uninit::MaybeUninit<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>", baseType: !1685, size: 64, align: 64, dwarfAddressSpace: 0)
@@ -10275,7 +10383,7 @@ attributes #12 = { noinline }
 !1712 = !DILocation(line: 699, column: 9, scope: !1684)
 !1713 = !DILocation(line: 700, column: 9, scope: !1684)
 !1714 = !DILocalVariable(name: "self", arg: 1, scope: !1715, file: !1697, line: 511, type: !1685)
-!1715 = distinct !DISubprogram(name: "assume_init<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>", linkageName: "_RNvMs0_NtNtCs3p84KrD9aKt_4core3mem12maybe_uninitINtB5_11MaybeUninitINtNtB9_6option6OptionINtNtB9_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB9_3any3AnyNtNtB9_6marker4SendEL_EEEE11assume_initCs37qxPUa7whq_20oneway_thread_access", scope: !1685, file: !1697, line: 511, type: !1716, scopeLine: 511, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !280, retainedNodes: !1718)
+!1715 = distinct !DISubprogram(name: "assume_init<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>", linkageName: "_RNvMs0_NtNtCs3p84KrD9aKt_4core3mem12maybe_uninitINtB5_11MaybeUninitINtNtB9_6option6OptionINtNtB9_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB9_3any3AnyNtNtB9_6marker4SendEL_EEEE11assume_initCsdT7u4N7w2iC_20stack_map_and_mutate", scope: !1685, file: !1697, line: 511, type: !1716, scopeLine: 511, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !280, retainedNodes: !1718)
 !1716 = !DISubroutineType(types: !1717)
 !1717 = !{!234, !1685}
 !1718 = !{!1714}
@@ -10283,10 +10391,10 @@ attributes #12 = { noinline }
 !1720 = distinct !DILocation(line: 700, column: 9, scope: !1684)
 !1721 = !DILocation(line: 516, column: 38, scope: !1715, inlinedAt: !1720)
 !1722 = !{!1723}
-!1723 = distinct !{!1723, !1724, !"_RNvMs0_NtNtCs3p84KrD9aKt_4core3mem12maybe_uninitINtB5_11MaybeUninitINtNtB9_6option6OptionINtNtB9_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB9_3any3AnyNtNtB9_6marker4SendEL_EEEE11assume_initCs37qxPUa7whq_20oneway_thread_access: argument 0"}
-!1724 = distinct !{!1724, !"_RNvMs0_NtNtCs3p84KrD9aKt_4core3mem12maybe_uninitINtB5_11MaybeUninitINtNtB9_6option6OptionINtNtB9_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB9_3any3AnyNtNtB9_6marker4SendEL_EEEE11assume_initCs37qxPUa7whq_20oneway_thread_access"}
+!1723 = distinct !{!1723, !1724, !"_RNvMs0_NtNtCs3p84KrD9aKt_4core3mem12maybe_uninitINtB5_11MaybeUninitINtNtB9_6option6OptionINtNtB9_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB9_3any3AnyNtNtB9_6marker4SendEL_EEEE11assume_initCsdT7u4N7w2iC_20stack_map_and_mutate: argument 0"}
+!1724 = distinct !{!1724, !"_RNvMs0_NtNtCs3p84KrD9aKt_4core3mem12maybe_uninitINtB5_11MaybeUninitINtNtB9_6option6OptionINtNtB9_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB9_3any3AnyNtNtB9_6marker4SendEL_EEEE11assume_initCsdT7u4N7w2iC_20stack_map_and_mutate"}
 !1725 = !DILocalVariable(name: "slot", arg: 1, scope: !1726, file: !1009, line: 87, type: !1690)
-!1726 = distinct !DISubprogram(name: "into_inner<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>", linkageName: "_RNvMNtNtCs3p84KrD9aKt_4core3mem13manually_dropINtB2_12ManuallyDropINtNtB6_6option6OptionINtNtB6_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB6_3any3AnyNtNtB6_6marker4SendEL_EEEE10into_innerCs37qxPUa7whq_20oneway_thread_access", scope: !1690, file: !1009, line: 87, type: !1727, scopeLine: 87, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !280, retainedNodes: !1729)
+!1726 = distinct !DISubprogram(name: "into_inner<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>", linkageName: "_RNvMNtNtCs3p84KrD9aKt_4core3mem13manually_dropINtB2_12ManuallyDropINtNtB6_6option6OptionINtNtB6_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB6_3any3AnyNtNtB6_6marker4SendEL_EEEE10into_innerCsdT7u4N7w2iC_20stack_map_and_mutate", scope: !1690, file: !1009, line: 87, type: !1727, scopeLine: 87, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !280, retainedNodes: !1729)
 !1727 = !DISubroutineType(types: !1728)
 !1728 = !{!234, !1690}
 !1729 = !{!1725}
@@ -10294,13 +10402,13 @@ attributes #12 = { noinline }
 !1731 = distinct !DILocation(line: 516, column: 13, scope: !1715, inlinedAt: !1720)
 !1732 = !DILocation(line: 88, column: 9, scope: !1726, inlinedAt: !1731)
 !1733 = !{!1734, !1736}
-!1734 = distinct !{!1734, !1735, !"_RNvMNtNtCs3p84KrD9aKt_4core3mem13manually_dropINtB2_12ManuallyDropINtNtB6_6option6OptionINtNtB6_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB6_3any3AnyNtNtB6_6marker4SendEL_EEEE10into_innerCs37qxPUa7whq_20oneway_thread_access: argument 0"}
-!1735 = distinct !{!1735, !"_RNvMNtNtCs3p84KrD9aKt_4core3mem13manually_dropINtB2_12ManuallyDropINtNtB6_6option6OptionINtNtB6_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB6_3any3AnyNtNtB6_6marker4SendEL_EEEE10into_innerCs37qxPUa7whq_20oneway_thread_access"}
-!1736 = distinct !{!1736, !1735, !"_RNvMNtNtCs3p84KrD9aKt_4core3mem13manually_dropINtB2_12ManuallyDropINtNtB6_6option6OptionINtNtB6_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB6_3any3AnyNtNtB6_6marker4SendEL_EEEE10into_innerCs37qxPUa7whq_20oneway_thread_access: %slot"}
+!1734 = distinct !{!1734, !1735, !"_RNvMNtNtCs3p84KrD9aKt_4core3mem13manually_dropINtB2_12ManuallyDropINtNtB6_6option6OptionINtNtB6_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB6_3any3AnyNtNtB6_6marker4SendEL_EEEE10into_innerCsdT7u4N7w2iC_20stack_map_and_mutate: argument 0"}
+!1735 = distinct !{!1735, !"_RNvMNtNtCs3p84KrD9aKt_4core3mem13manually_dropINtB2_12ManuallyDropINtNtB6_6option6OptionINtNtB6_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB6_3any3AnyNtNtB6_6marker4SendEL_EEEE10into_innerCsdT7u4N7w2iC_20stack_map_and_mutate"}
+!1736 = distinct !{!1736, !1735, !"_RNvMNtNtCs3p84KrD9aKt_4core3mem13manually_dropINtB2_12ManuallyDropINtNtB6_6option6OptionINtNtB6_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB6_3any3AnyNtNtB6_6marker4SendEL_EEEE10into_innerCsdT7u4N7w2iC_20stack_map_and_mutate: %slot"}
 !1737 = !{!1738}
-!1738 = distinct !{!1738, !1724, !"_RNvMs0_NtNtCs3p84KrD9aKt_4core3mem12maybe_uninitINtB5_11MaybeUninitINtNtB9_6option6OptionINtNtB9_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB9_3any3AnyNtNtB9_6marker4SendEL_EEEE11assume_initCs37qxPUa7whq_20oneway_thread_access: %self"}
+!1738 = distinct !{!1738, !1724, !"_RNvMs0_NtNtCs3p84KrD9aKt_4core3mem12maybe_uninitINtB5_11MaybeUninitINtNtB9_6option6OptionINtNtB9_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB9_3any3AnyNtNtB9_6marker4SendEL_EEEE11assume_initCsdT7u4N7w2iC_20stack_map_and_mutate: %self"}
 !1739 = !DILocation(line: 702, column: 2, scope: !1678)
-!1740 = distinct !DISubprogram(name: "read<core::option::Option<std::sys::unix::thread::Thread>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr4readINtNtB4_6option6OptionNtNtNtNtCs2bNvlddUlXM_3std3sys4unix6thread6ThreadEECs37qxPUa7whq_20oneway_thread_access", scope: !22, file: !1256, line: 689, type: !1741, scopeLine: 689, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !1074, retainedNodes: !1743)
+!1740 = distinct !DISubprogram(name: "read<core::option::Option<std::sys::unix::thread::Thread>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr4readINtNtB4_6option6OptionNtNtNtNtCs2bNvlddUlXM_3std3sys4unix6thread6ThreadEECsdT7u4N7w2iC_20stack_map_and_mutate", scope: !22, file: !1256, line: 689, type: !1741, scopeLine: 689, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !1074, retainedNodes: !1743)
 !1741 = !DISubroutineType(types: !1742)
 !1742 = !{!436, !1068}
 !1743 = !{!1744, !1745}
@@ -10317,14 +10425,14 @@ attributes #12 = { noinline }
 !1754 = !DILocation(line: 689, column: 29, scope: !1740)
 !1755 = !DILocation(line: 691, column: 9, scope: !1746)
 !1756 = !DILocation(line: 284, column: 9, scope: !1757, inlinedAt: !1760)
-!1757 = distinct !DISubprogram(name: "uninit<core::option::Option<std::sys::unix::thread::Thread>>", linkageName: "_RNvMs0_NtNtCs3p84KrD9aKt_4core3mem12maybe_uninitINtB5_11MaybeUninitINtNtB9_6option6OptionNtNtNtNtCs2bNvlddUlXM_3std3sys4unix6thread6ThreadEE6uninitCs37qxPUa7whq_20oneway_thread_access", scope: !1747, file: !1697, line: 283, type: !1758, scopeLine: 283, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !1074, retainedNodes: !4)
+!1757 = distinct !DISubprogram(name: "uninit<core::option::Option<std::sys::unix::thread::Thread>>", linkageName: "_RNvMs0_NtNtCs3p84KrD9aKt_4core3mem12maybe_uninitINtB5_11MaybeUninitINtNtB9_6option6OptionNtNtNtNtCs2bNvlddUlXM_3std3sys4unix6thread6ThreadEE6uninitCsdT7u4N7w2iC_20stack_map_and_mutate", scope: !1747, file: !1697, line: 283, type: !1758, scopeLine: 283, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !1074, retainedNodes: !4)
 !1758 = !DISubroutineType(types: !1759)
 !1759 = !{!1747}
 !1760 = distinct !DILocation(line: 691, column: 19, scope: !1740)
 !1761 = !DILocation(line: 285, column: 6, scope: !1757, inlinedAt: !1760)
 !1762 = !DILocation(line: 691, column: 19, scope: !1740)
 !1763 = !DILocalVariable(name: "self", arg: 1, scope: !1764, file: !1697, line: 457, type: !1767)
-!1764 = distinct !DISubprogram(name: "as_mut_ptr<core::option::Option<std::sys::unix::thread::Thread>>", linkageName: "_RNvMs0_NtNtCs3p84KrD9aKt_4core3mem12maybe_uninitINtB5_11MaybeUninitINtNtB9_6option6OptionNtNtNtNtCs2bNvlddUlXM_3std3sys4unix6thread6ThreadEE10as_mut_ptrCs37qxPUa7whq_20oneway_thread_access", scope: !1747, file: !1697, line: 457, type: !1765, scopeLine: 457, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !1074, retainedNodes: !1768)
+!1764 = distinct !DISubprogram(name: "as_mut_ptr<core::option::Option<std::sys::unix::thread::Thread>>", linkageName: "_RNvMs0_NtNtCs3p84KrD9aKt_4core3mem12maybe_uninitINtB5_11MaybeUninitINtNtB9_6option6OptionNtNtNtNtCs2bNvlddUlXM_3std3sys4unix6thread6ThreadEE10as_mut_ptrCsdT7u4N7w2iC_20stack_map_and_mutate", scope: !1747, file: !1697, line: 457, type: !1765, scopeLine: 457, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !1074, retainedNodes: !1768)
 !1765 = !DISubroutineType(types: !1766)
 !1766 = !{!1069, !1767}
 !1767 = !DIDerivedType(tag: DW_TAG_pointer_type, name: "&mut core::mem::maybe_uninit::MaybeUninit<core::option::Option<std::sys::unix::thread::Thread>>", baseType: !1747, size: 64, align: 64, dwarfAddressSpace: 0)
@@ -10335,14 +10443,14 @@ attributes #12 = { noinline }
 !1772 = !DILocation(line: 699, column: 9, scope: !1746)
 !1773 = !DILocation(line: 700, column: 9, scope: !1746)
 !1774 = !DILocalVariable(name: "self", arg: 1, scope: !1775, file: !1697, line: 511, type: !1747)
-!1775 = distinct !DISubprogram(name: "assume_init<core::option::Option<std::sys::unix::thread::Thread>>", linkageName: "_RNvMs0_NtNtCs3p84KrD9aKt_4core3mem12maybe_uninitINtB5_11MaybeUninitINtNtB9_6option6OptionNtNtNtNtCs2bNvlddUlXM_3std3sys4unix6thread6ThreadEE11assume_initCs37qxPUa7whq_20oneway_thread_access", scope: !1747, file: !1697, line: 511, type: !1776, scopeLine: 511, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !1074, retainedNodes: !1778)
+!1775 = distinct !DISubprogram(name: "assume_init<core::option::Option<std::sys::unix::thread::Thread>>", linkageName: "_RNvMs0_NtNtCs3p84KrD9aKt_4core3mem12maybe_uninitINtB5_11MaybeUninitINtNtB9_6option6OptionNtNtNtNtCs2bNvlddUlXM_3std3sys4unix6thread6ThreadEE11assume_initCsdT7u4N7w2iC_20stack_map_and_mutate", scope: !1747, file: !1697, line: 511, type: !1776, scopeLine: 511, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !1074, retainedNodes: !1778)
 !1776 = !DISubroutineType(types: !1777)
 !1777 = !{!436, !1747}
 !1778 = !{!1774}
 !1779 = !DILocation(line: 511, column: 37, scope: !1775, inlinedAt: !1780)
 !1780 = distinct !DILocation(line: 700, column: 9, scope: !1746)
 !1781 = !DILocalVariable(name: "slot", arg: 1, scope: !1782, file: !1009, line: 87, type: !1751)
-!1782 = distinct !DISubprogram(name: "into_inner<core::option::Option<std::sys::unix::thread::Thread>>", linkageName: "_RNvMNtNtCs3p84KrD9aKt_4core3mem13manually_dropINtB2_12ManuallyDropINtNtB6_6option6OptionNtNtNtNtCs2bNvlddUlXM_3std3sys4unix6thread6ThreadEE10into_innerCs37qxPUa7whq_20oneway_thread_access", scope: !1751, file: !1009, line: 87, type: !1783, scopeLine: 87, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !1074, retainedNodes: !1785)
+!1782 = distinct !DISubprogram(name: "into_inner<core::option::Option<std::sys::unix::thread::Thread>>", linkageName: "_RNvMNtNtCs3p84KrD9aKt_4core3mem13manually_dropINtB2_12ManuallyDropINtNtB6_6option6OptionNtNtNtNtCs2bNvlddUlXM_3std3sys4unix6thread6ThreadEE10into_innerCsdT7u4N7w2iC_20stack_map_and_mutate", scope: !1751, file: !1009, line: 87, type: !1783, scopeLine: 87, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !1074, retainedNodes: !1785)
 !1783 = !DISubroutineType(types: !1784)
 !1784 = !{!436, !1751}
 !1785 = !{!1781}
@@ -10351,28 +10459,28 @@ attributes #12 = { noinline }
 !1788 = !DILocation(line: 89, column: 6, scope: !1782, inlinedAt: !1787)
 !1789 = !DILocation(line: 518, column: 6, scope: !1775, inlinedAt: !1780)
 !1790 = !DILocation(line: 702, column: 2, scope: !1740)
-!1791 = distinct !DISubprogram(name: "read<std::panic::AssertUnwindSafe<closure-0>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr4readINtNtCs2bNvlddUlXM_3std5panic16AssertUnwindSafeNCNCINvMNtBB_6threadNtB1p_7Builder15spawn_uncheckedNCNvCs37qxPUa7whq_20oneway_thread_access4main0uE00EEB2a_", scope: !22, file: !1256, line: 689, type: !1792, scopeLine: 689, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !990, retainedNodes: !1794)
+!1791 = distinct !DISubprogram(name: "read<std::panic::AssertUnwindSafe<closure-0>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr4readINtNtCs2bNvlddUlXM_3std5panic16AssertUnwindSafeNCNCINvMNtBB_6threadNtB1p_7Builder15spawn_uncheckedNCNvCsdT7u4N7w2iC_20stack_map_and_mutate4main0uE00EEB2a_", scope: !22, file: !1256, line: 689, type: !1792, scopeLine: 689, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !990, retainedNodes: !1794)
 !1792 = !DISubroutineType(types: !1793)
 !1793 = !{!946, !1084}
 !1794 = !{!1795, !1796}
 !1795 = !DILocalVariable(name: "src", arg: 1, scope: !1791, file: !1256, line: 689, type: !1084)
 !1796 = !DILocalVariable(name: "tmp", scope: !1797, file: !1256, line: 691, type: !1798, align: 1)
 !1797 = distinct !DILexicalBlock(scope: !1791, file: !1256, line: 691, column: 5)
-!1798 = !DICompositeType(tag: DW_TAG_union_type, name: "MaybeUninit<std::panic::AssertUnwindSafe<closure-0>>", scope: !1686, file: !2, size: 8, align: 8, elements: !1799, templateParams: !990, identifier: "723d0274d45328b9cd45e420a5ab5dcd")
+!1798 = !DICompositeType(tag: DW_TAG_union_type, name: "MaybeUninit<std::panic::AssertUnwindSafe<closure-0>>", scope: !1686, file: !2, size: 8, align: 8, elements: !1799, templateParams: !990, identifier: "bd5462f60eedbf623cadd38fbc8a7d6c")
 !1799 = !{!1800, !1801}
 !1800 = !DIDerivedType(tag: DW_TAG_member, name: "uninit", scope: !1798, file: !2, baseType: !251, align: 8)
 !1801 = !DIDerivedType(tag: DW_TAG_member, name: "value", scope: !1798, file: !2, baseType: !985, size: 8, align: 8)
 !1802 = !DILocation(line: 689, column: 29, scope: !1791)
 !1803 = !DILocation(line: 691, column: 9, scope: !1797)
 !1804 = !DILocation(line: 284, column: 9, scope: !1805, inlinedAt: !1808)
-!1805 = distinct !DISubprogram(name: "uninit<std::panic::AssertUnwindSafe<closure-0>>", linkageName: "_RNvMs0_NtNtCs3p84KrD9aKt_4core3mem12maybe_uninitINtB5_11MaybeUninitINtNtCs2bNvlddUlXM_3std5panic16AssertUnwindSafeNCNCINvMNtB18_6threadNtB1W_7Builder15spawn_uncheckedNCNvCs37qxPUa7whq_20oneway_thread_access4main0uE00EE6uninitB2I_", scope: !1798, file: !1697, line: 283, type: !1806, scopeLine: 283, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !990, retainedNodes: !4)
+!1805 = distinct !DISubprogram(name: "uninit<std::panic::AssertUnwindSafe<closure-0>>", linkageName: "_RNvMs0_NtNtCs3p84KrD9aKt_4core3mem12maybe_uninitINtB5_11MaybeUninitINtNtCs2bNvlddUlXM_3std5panic16AssertUnwindSafeNCNCINvMNtB18_6threadNtB1W_7Builder15spawn_uncheckedNCNvCsdT7u4N7w2iC_20stack_map_and_mutate4main0uE00EE6uninitB2I_", scope: !1798, file: !1697, line: 283, type: !1806, scopeLine: 283, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !990, retainedNodes: !4)
 !1806 = !DISubroutineType(types: !1807)
 !1807 = !{!1798}
 !1808 = distinct !DILocation(line: 691, column: 19, scope: !1791)
 !1809 = !DILocation(line: 285, column: 6, scope: !1805, inlinedAt: !1808)
 !1810 = !DILocation(line: 691, column: 19, scope: !1791)
 !1811 = !DILocalVariable(name: "self", arg: 1, scope: !1812, file: !1697, line: 457, type: !1815)
-!1812 = distinct !DISubprogram(name: "as_mut_ptr<std::panic::AssertUnwindSafe<closure-0>>", linkageName: "_RNvMs0_NtNtCs3p84KrD9aKt_4core3mem12maybe_uninitINtB5_11MaybeUninitINtNtCs2bNvlddUlXM_3std5panic16AssertUnwindSafeNCNCINvMNtB18_6threadNtB1W_7Builder15spawn_uncheckedNCNvCs37qxPUa7whq_20oneway_thread_access4main0uE00EE10as_mut_ptrB2I_", scope: !1798, file: !1697, line: 457, type: !1813, scopeLine: 457, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !990, retainedNodes: !1816)
+!1812 = distinct !DISubprogram(name: "as_mut_ptr<std::panic::AssertUnwindSafe<closure-0>>", linkageName: "_RNvMs0_NtNtCs3p84KrD9aKt_4core3mem12maybe_uninitINtB5_11MaybeUninitINtNtCs2bNvlddUlXM_3std5panic16AssertUnwindSafeNCNCINvMNtB18_6threadNtB1W_7Builder15spawn_uncheckedNCNvCsdT7u4N7w2iC_20stack_map_and_mutate4main0uE00EE10as_mut_ptrB2I_", scope: !1798, file: !1697, line: 457, type: !1813, scopeLine: 457, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !990, retainedNodes: !1816)
 !1813 = !DISubroutineType(types: !1814)
 !1814 = !{!1085, !1815}
 !1815 = !DIDerivedType(tag: DW_TAG_pointer_type, name: "&mut core::mem::maybe_uninit::MaybeUninit<std::panic::AssertUnwindSafe<closure-0>>", baseType: !1798, size: 64, align: 64, dwarfAddressSpace: 0)
@@ -10383,21 +10491,21 @@ attributes #12 = { noinline }
 !1820 = !DILocation(line: 699, column: 9, scope: !1797)
 !1821 = !DILocation(line: 700, column: 9, scope: !1797)
 !1822 = !DILocalVariable(name: "self", arg: 1, scope: !1823, file: !1697, line: 511, type: !1798)
-!1823 = distinct !DISubprogram(name: "assume_init<std::panic::AssertUnwindSafe<closure-0>>", linkageName: "_RNvMs0_NtNtCs3p84KrD9aKt_4core3mem12maybe_uninitINtB5_11MaybeUninitINtNtCs2bNvlddUlXM_3std5panic16AssertUnwindSafeNCNCINvMNtB18_6threadNtB1W_7Builder15spawn_uncheckedNCNvCs37qxPUa7whq_20oneway_thread_access4main0uE00EE11assume_initB2I_", scope: !1798, file: !1697, line: 511, type: !1824, scopeLine: 511, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !990, retainedNodes: !1826)
+!1823 = distinct !DISubprogram(name: "assume_init<std::panic::AssertUnwindSafe<closure-0>>", linkageName: "_RNvMs0_NtNtCs3p84KrD9aKt_4core3mem12maybe_uninitINtB5_11MaybeUninitINtNtCs2bNvlddUlXM_3std5panic16AssertUnwindSafeNCNCINvMNtB18_6threadNtB1W_7Builder15spawn_uncheckedNCNvCsdT7u4N7w2iC_20stack_map_and_mutate4main0uE00EE11assume_initB2I_", scope: !1798, file: !1697, line: 511, type: !1824, scopeLine: 511, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !990, retainedNodes: !1826)
 !1824 = !DISubroutineType(types: !1825)
 !1825 = !{!946, !1798}
 !1826 = !{!1822}
 !1827 = !DILocation(line: 511, column: 37, scope: !1823, inlinedAt: !1828)
 !1828 = distinct !DILocation(line: 700, column: 9, scope: !1797)
 !1829 = !DILocalVariable(name: "slot", arg: 1, scope: !1830, file: !1009, line: 87, type: !985)
-!1830 = distinct !DISubprogram(name: "into_inner<std::panic::AssertUnwindSafe<closure-0>>", linkageName: "_RNvMNtNtCs3p84KrD9aKt_4core3mem13manually_dropINtB2_12ManuallyDropINtNtCs2bNvlddUlXM_3std5panic16AssertUnwindSafeNCNCINvMNtB17_6threadNtB1V_7Builder15spawn_uncheckedNCNvCs37qxPUa7whq_20oneway_thread_access4main0uE00EE10into_innerB2H_", scope: !985, file: !1009, line: 87, type: !1831, scopeLine: 87, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !990, retainedNodes: !1833)
+!1830 = distinct !DISubprogram(name: "into_inner<std::panic::AssertUnwindSafe<closure-0>>", linkageName: "_RNvMNtNtCs3p84KrD9aKt_4core3mem13manually_dropINtB2_12ManuallyDropINtNtCs2bNvlddUlXM_3std5panic16AssertUnwindSafeNCNCINvMNtB17_6threadNtB1V_7Builder15spawn_uncheckedNCNvCsdT7u4N7w2iC_20stack_map_and_mutate4main0uE00EE10into_innerB2H_", scope: !985, file: !1009, line: 87, type: !1831, scopeLine: 87, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !990, retainedNodes: !1833)
 !1831 = !DISubroutineType(types: !1832)
 !1832 = !{!946, !985}
 !1833 = !{!1829}
 !1834 = !DILocation(line: 87, column: 29, scope: !1830, inlinedAt: !1835)
 !1835 = distinct !DILocation(line: 516, column: 13, scope: !1823, inlinedAt: !1828)
 !1836 = !DILocation(line: 702, column: 2, scope: !1791)
-!1837 = distinct !DISubprogram(name: "write<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr5writeINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEECs37qxPUa7whq_20oneway_thread_access", scope: !22, file: !1256, line: 885, type: !1838, scopeLine: 885, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !280, retainedNodes: !1840)
+!1837 = distinct !DISubprogram(name: "write<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr5writeINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEECsdT7u4N7w2iC_20stack_map_and_mutate", scope: !22, file: !1256, line: 885, type: !1838, scopeLine: 885, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !280, retainedNodes: !1840)
 !1838 = !DISubroutineType(types: !1839)
 !1839 = !{null, !1055, !234}
 !1840 = !{!1841, !1842}
@@ -10407,7 +10515,7 @@ attributes #12 = { noinline }
 !1844 = !DILocation(line: 885, column: 37, scope: !1837)
 !1845 = !DILocation(line: 891, column: 51, scope: !1837)
 !1846 = !DILocation(line: 892, column: 2, scope: !1837)
-!1847 = distinct !DISubprogram(name: "write<core::option::Option<std::sys::unix::thread::Thread>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr5writeINtNtB4_6option6OptionNtNtNtNtCs2bNvlddUlXM_3std3sys4unix6thread6ThreadEECs37qxPUa7whq_20oneway_thread_access", scope: !22, file: !1256, line: 885, type: !1848, scopeLine: 885, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !1074, retainedNodes: !1850)
+!1847 = distinct !DISubprogram(name: "write<core::option::Option<std::sys::unix::thread::Thread>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr5writeINtNtB4_6option6OptionNtNtNtNtCs2bNvlddUlXM_3std3sys4unix6thread6ThreadEECsdT7u4N7w2iC_20stack_map_and_mutate", scope: !22, file: !1256, line: 885, type: !1848, scopeLine: 885, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !1074, retainedNodes: !1850)
 !1848 = !DISubroutineType(types: !1849)
 !1849 = !{null, !1069, !436}
 !1850 = !{!1851, !1852}
@@ -10417,7 +10525,7 @@ attributes #12 = { noinline }
 !1854 = !DILocation(line: 885, column: 37, scope: !1847)
 !1855 = !DILocation(line: 891, column: 51, scope: !1847)
 !1856 = !DILocation(line: 892, column: 2, scope: !1847)
-!1857 = distinct !DISubprogram(name: "black_box<()>", linkageName: "_RINvNtCs3p84KrD9aKt_4core4hint9black_boxuECs37qxPUa7whq_20oneway_thread_access", scope: !1859, file: !1858, line: 159, type: !1860, scopeLine: 159, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !457, retainedNodes: !1862)
+!1857 = distinct !DISubprogram(name: "black_box<()>", linkageName: "_RINvNtCs3p84KrD9aKt_4core4hint9black_boxuECsdT7u4N7w2iC_20stack_map_and_mutate", scope: !1859, file: !1858, line: 159, type: !1860, scopeLine: 159, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !457, retainedNodes: !1862)
 !1858 = !DIFile(filename: "/rustc/e38fb306b7f5e65cca34df2dab1f0db15e1defb4/library/core/src/hint.rs", directory: "", checksumkind: CSK_MD5, checksum: "e859926b2ab373eb68666ba2c9fa193f")
 !1859 = !DINamespace(name: "hint", scope: !23)
 !1860 = !DISubroutineType(types: !1861)
@@ -10426,9 +10534,9 @@ attributes #12 = { noinline }
 !1863 = !DILocalVariable(name: "dummy", arg: 1, scope: !1857, file: !1858, line: 159, type: !251)
 !1864 = !DILocation(line: 159, column: 21, scope: !1857)
 !1865 = !DILocation(line: 170, column: 9, scope: !1857)
-!1866 = !{i32 2807356}
+!1866 = !{i32 2807565}
 !1867 = !DILocation(line: 174, column: 2, scope: !1857)
-!1868 = distinct !DISubprogram(name: "is_dangling<alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>>>", linkageName: "_RINvNtCs8RW06R9lH2S_5alloc2rc11is_danglingINtNtB4_4sync8ArcInnerINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtB15_6option6OptionINtNtB15_6result6ResultuINtNtB4_5boxed3BoxDNtNtB15_3any3AnyNtNtB15_6marker4SendEL_EEEEEECs37qxPUa7whq_20oneway_thread_access", scope: !1870, file: !1869, line: 1863, type: !1871, scopeLine: 1863, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !284, retainedNodes: !1874)
+!1868 = distinct !DISubprogram(name: "is_dangling<alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>>>", linkageName: "_RINvNtCs8RW06R9lH2S_5alloc2rc11is_danglingINtNtB4_4sync8ArcInnerINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtB15_6option6OptionINtNtB15_6result6ResultuINtNtB4_5boxed3BoxDNtNtB15_3any3AnyNtNtB15_6marker4SendEL_EEEEEECsdT7u4N7w2iC_20stack_map_and_mutate", scope: !1870, file: !1869, line: 1863, type: !1871, scopeLine: 1863, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !284, retainedNodes: !1874)
 !1869 = !DIFile(filename: "/rustc/e38fb306b7f5e65cca34df2dab1f0db15e1defb4/library/alloc/src/rc.rs", directory: "", checksumkind: CSK_MD5, checksum: "334c7d6a82665ba9c636dfac0836de58")
 !1870 = !DINamespace(name: "rc", scope: !17)
 !1871 = !DISubroutineType(types: !1872)
@@ -10443,7 +10551,7 @@ attributes #12 = { noinline }
 !1880 = !DILocation(line: 1864, column: 9, scope: !1877)
 !1881 = !DILocation(line: 1865, column: 5, scope: !1877)
 !1882 = !DILocation(line: 1866, column: 2, scope: !1868)
-!1883 = distinct !DISubprogram(name: "is_dangling<alloc::sync::ArcInner<std::sync::mutex::Mutex<alloc::vec::Vec<u8, alloc::alloc::Global>>>>", linkageName: "_RINvNtCs8RW06R9lH2S_5alloc2rc11is_danglingINtNtB4_4sync8ArcInnerINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtB4_3vec3VechEEEECs37qxPUa7whq_20oneway_thread_access", scope: !1870, file: !1869, line: 1863, type: !1884, scopeLine: 1863, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !204, retainedNodes: !1886)
+!1883 = distinct !DISubprogram(name: "is_dangling<alloc::sync::ArcInner<std::sync::mutex::Mutex<alloc::vec::Vec<u8, alloc::alloc::Global>>>>", linkageName: "_RINvNtCs8RW06R9lH2S_5alloc2rc11is_danglingINtNtB4_4sync8ArcInnerINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtB4_3vec3VechEEEECsdT7u4N7w2iC_20stack_map_and_mutate", scope: !1870, file: !1869, line: 1863, type: !1884, scopeLine: 1863, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !204, retainedNodes: !1886)
 !1884 = !DISubroutineType(types: !1885)
 !1885 = !{!1873, !125}
 !1886 = !{!1887, !1888}
@@ -10455,7 +10563,7 @@ attributes #12 = { noinline }
 !1892 = !DILocation(line: 1864, column: 9, scope: !1889)
 !1893 = !DILocation(line: 1865, column: 5, scope: !1889)
 !1894 = !DILocation(line: 1866, column: 2, scope: !1883)
-!1895 = distinct !DISubprogram(name: "is_dangling<alloc::sync::ArcInner<std::thread::Inner>>", linkageName: "_RINvNtCs8RW06R9lH2S_5alloc2rc11is_danglingINtNtB4_4sync8ArcInnerNtNtCs2bNvlddUlXM_3std6thread5InnerEECs37qxPUa7whq_20oneway_thread_access", scope: !1870, file: !1869, line: 1863, type: !1896, scopeLine: 1863, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !108, retainedNodes: !1898)
+!1895 = distinct !DISubprogram(name: "is_dangling<alloc::sync::ArcInner<std::thread::Inner>>", linkageName: "_RINvNtCs8RW06R9lH2S_5alloc2rc11is_danglingINtNtB4_4sync8ArcInnerNtNtCs2bNvlddUlXM_3std6thread5InnerEECsdT7u4N7w2iC_20stack_map_and_mutate", scope: !1870, file: !1869, line: 1863, type: !1896, scopeLine: 1863, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !108, retainedNodes: !1898)
 !1896 = !DISubroutineType(types: !1897)
 !1897 = !{!1873, !20}
 !1898 = !{!1899, !1900}
@@ -10467,7 +10575,7 @@ attributes #12 = { noinline }
 !1904 = !DILocation(line: 1864, column: 9, scope: !1901)
 !1905 = !DILocation(line: 1865, column: 5, scope: !1901)
 !1906 = !DILocation(line: 1866, column: 2, scope: !1895)
-!1907 = distinct !DISubprogram(name: "box_free<Error,alloc::alloc::Global>", linkageName: "_RINvNtCs8RW06R9lH2S_5alloc5alloc8box_freeDNtNtCs2bNvlddUlXM_3std5error5ErrorNtNtCs3p84KrD9aKt_4core6marker4SendNtB1e_4SyncEL_NtB2_6GlobalECs37qxPUa7whq_20oneway_thread_access", scope: !74, file: !1908, line: 329, type: !1909, scopeLine: 329, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !353, retainedNodes: !1911)
+!1907 = distinct !DISubprogram(name: "box_free<Error,alloc::alloc::Global>", linkageName: "_RINvNtCs8RW06R9lH2S_5alloc5alloc8box_freeDNtNtCs2bNvlddUlXM_3std5error5ErrorNtNtCs3p84KrD9aKt_4core6marker4SendNtB1e_4SyncEL_NtB2_6GlobalECsdT7u4N7w2iC_20stack_map_and_mutate", scope: !74, file: !1908, line: 329, type: !1909, scopeLine: 329, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !353, retainedNodes: !1911)
 !1908 = !DIFile(filename: "/rustc/e38fb306b7f5e65cca34df2dab1f0db15e1defb4/library/alloc/src/alloc.rs", directory: "", checksumkind: CSK_MD5, checksum: "001ed139cef428bdddab35378b8bfdd6")
 !1909 = !DISubroutineType(types: !1910)
 !1910 = !{null, !754, !73}
@@ -10495,7 +10603,7 @@ attributes #12 = { noinline }
 !1932 = !DILocation(line: 336, column: 1, scope: !1907)
 !1933 = !DILocation(line: 336, column: 2, scope: !1907)
 !1934 = !DILocation(line: 329, column: 1, scope: !1907)
-!1935 = distinct !DISubprogram(name: "box_free<Any,alloc::alloc::Global>", linkageName: "_RINvNtCs8RW06R9lH2S_5alloc5alloc8box_freeDNtNtCs3p84KrD9aKt_4core3any3AnyNtNtBI_6marker4SendEL_NtB2_6GlobalECs37qxPUa7whq_20oneway_thread_access", scope: !74, file: !1908, line: 329, type: !1936, scopeLine: 329, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !265, retainedNodes: !1938)
+!1935 = distinct !DISubprogram(name: "box_free<Any,alloc::alloc::Global>", linkageName: "_RINvNtCs8RW06R9lH2S_5alloc5alloc8box_freeDNtNtCs3p84KrD9aKt_4core3any3AnyNtNtBI_6marker4SendEL_NtB2_6GlobalECsdT7u4N7w2iC_20stack_map_and_mutate", scope: !74, file: !1908, line: 329, type: !1936, scopeLine: 329, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !265, retainedNodes: !1938)
 !1936 = !DISubroutineType(types: !1937)
 !1937 = !{null, !733, !73}
 !1938 = !{!1939, !1940, !1941, !1943, !1945}
@@ -10522,7 +10630,7 @@ attributes #12 = { noinline }
 !1959 = !DILocation(line: 336, column: 1, scope: !1935)
 !1960 = !DILocation(line: 336, column: 2, scope: !1935)
 !1961 = !DILocation(line: 329, column: 1, scope: !1935)
-!1962 = distinct !DISubprogram(name: "box_free<alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>>,alloc::alloc::Global>", linkageName: "_RINvNtCs8RW06R9lH2S_5alloc5alloc8box_freeINtNtB4_4sync8ArcInnerINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtB14_6option6OptionINtNtB14_6result6ResultuINtNtB4_5boxed3BoxDNtNtB14_3any3AnyNtNtB14_6marker4SendEL_EEEEENtB2_6GlobalECs37qxPUa7whq_20oneway_thread_access", scope: !74, file: !1908, line: 329, type: !1963, scopeLine: 329, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !1974, retainedNodes: !1965)
+!1962 = distinct !DISubprogram(name: "box_free<alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>>,alloc::alloc::Global>", linkageName: "_RINvNtCs8RW06R9lH2S_5alloc5alloc8box_freeINtNtB4_4sync8ArcInnerINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtB14_6option6OptionINtNtB14_6result6ResultuINtNtB4_5boxed3BoxDNtNtB14_3any3AnyNtNtB14_6marker4SendEL_EEEEENtB2_6GlobalECsdT7u4N7w2iC_20stack_map_and_mutate", scope: !74, file: !1908, line: 329, type: !1963, scopeLine: 329, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !1974, retainedNodes: !1965)
 !1963 = !DISubroutineType(types: !1964)
 !1964 = !{null, !774, !73}
 !1965 = !{!1966, !1967, !1968, !1970, !1972}
@@ -10550,7 +10658,7 @@ attributes #12 = { noinline }
 !1987 = !DILocation(line: 336, column: 1, scope: !1962)
 !1988 = !DILocation(line: 336, column: 2, scope: !1962)
 !1989 = !DILocation(line: 329, column: 1, scope: !1962)
-!1990 = distinct !DISubprogram(name: "box_free<std::io::error::Custom,alloc::alloc::Global>", linkageName: "_RINvNtCs8RW06R9lH2S_5alloc5alloc8box_freeNtNtNtCs2bNvlddUlXM_3std2io5error6CustomNtB2_6GlobalECs37qxPUa7whq_20oneway_thread_access", scope: !74, file: !1908, line: 329, type: !1991, scopeLine: 329, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !2002, retainedNodes: !1993)
+!1990 = distinct !DISubprogram(name: "box_free<std::io::error::Custom,alloc::alloc::Global>", linkageName: "_RINvNtCs8RW06R9lH2S_5alloc5alloc8box_freeNtNtNtCs2bNvlddUlXM_3std2io5error6CustomNtB2_6GlobalECsdT7u4N7w2iC_20stack_map_and_mutate", scope: !74, file: !1908, line: 329, type: !1991, scopeLine: 329, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !2002, retainedNodes: !1993)
 !1991 = !DISubroutineType(types: !1992)
 !1992 = !{null, !788, !73}
 !1993 = !{!1994, !1995, !1996, !1998, !2000}
@@ -10578,7 +10686,7 @@ attributes #12 = { noinline }
 !2015 = !DILocation(line: 336, column: 1, scope: !1990)
 !2016 = !DILocation(line: 336, column: 2, scope: !1990)
 !2017 = !DILocation(line: 329, column: 1, scope: !1990)
-!2018 = distinct !DISubprogram(name: "box_free<std::sys::unix::mutex::Mutex,alloc::alloc::Global>", linkageName: "_RINvNtCs8RW06R9lH2S_5alloc5alloc8box_freeNtNtNtNtCs2bNvlddUlXM_3std3sys4unix5mutex5MutexNtB2_6GlobalECs37qxPUa7whq_20oneway_thread_access", scope: !74, file: !1908, line: 329, type: !2019, scopeLine: 329, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !2030, retainedNodes: !2021)
+!2018 = distinct !DISubprogram(name: "box_free<std::sys::unix::mutex::Mutex,alloc::alloc::Global>", linkageName: "_RINvNtCs8RW06R9lH2S_5alloc5alloc8box_freeNtNtNtNtCs2bNvlddUlXM_3std3sys4unix5mutex5MutexNtB2_6GlobalECsdT7u4N7w2iC_20stack_map_and_mutate", scope: !74, file: !1908, line: 329, type: !2019, scopeLine: 329, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !2030, retainedNodes: !2021)
 !2019 = !DISubroutineType(types: !2020)
 !2020 = !{null, !806, !73}
 !2021 = !{!2022, !2023, !2024, !2026, !2028}
@@ -10606,7 +10714,7 @@ attributes #12 = { noinline }
 !2043 = !DILocation(line: 336, column: 1, scope: !2018)
 !2044 = !DILocation(line: 336, column: 2, scope: !2018)
 !2045 = !DILocation(line: 329, column: 1, scope: !2018)
-!2046 = distinct !DISubprogram(name: "box_free<[u8],alloc::alloc::Global>", linkageName: "_RINvNtCs8RW06R9lH2S_5alloc5alloc8box_freeShNtB2_6GlobalECs37qxPUa7whq_20oneway_thread_access", scope: !74, file: !1908, line: 329, type: !2047, scopeLine: 329, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !67, retainedNodes: !2049)
+!2046 = distinct !DISubprogram(name: "box_free<[u8],alloc::alloc::Global>", linkageName: "_RINvNtCs8RW06R9lH2S_5alloc5alloc8box_freeShNtB2_6GlobalECsdT7u4N7w2iC_20stack_map_and_mutate", scope: !74, file: !1908, line: 329, type: !2047, scopeLine: 329, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !67, retainedNodes: !2049)
 !2047 = !DISubroutineType(types: !2048)
 !2048 = !{null, !824, !73}
 !2049 = !{!2050, !2051, !2052, !2054, !2056}
@@ -10633,7 +10741,7 @@ attributes #12 = { noinline }
 !2070 = !DILocation(line: 336, column: 1, scope: !2046)
 !2071 = !DILocation(line: 336, column: 2, scope: !2046)
 !2072 = !DILocation(line: 329, column: 1, scope: !2046)
-!2073 = distinct !DISubprogram(name: "__rust_begin_short_backtrace<fn(),()>", linkageName: "_RINvNtNtCs2bNvlddUlXM_3std10sys_common9backtrace28___rust_begin_short_backtraceFEuuECs37qxPUa7whq_20oneway_thread_access", scope: !2075, file: !2074, line: 121, type: !2076, scopeLine: 121, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !2082, retainedNodes: !2078)
+!2073 = distinct !DISubprogram(name: "__rust_begin_short_backtrace<fn(),()>", linkageName: "_RINvNtNtCs2bNvlddUlXM_3std10sys_common9backtrace28___rust_begin_short_backtraceFEuuECsdT7u4N7w2iC_20stack_map_and_mutate", scope: !2075, file: !2074, line: 121, type: !2076, scopeLine: 121, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !2082, retainedNodes: !2078)
 !2074 = !DIFile(filename: "/rustc/e38fb306b7f5e65cca34df2dab1f0db15e1defb4/library/std/src/sys_common/backtrace.rs", directory: "", checksumkind: CSK_MD5, checksum: "a66d3ea15c41bfcbfadc8617be007fe2")
 !2075 = !DINamespace(name: "backtrace", scope: !94)
 !2076 = !DISubroutineType(types: !2077)
@@ -10651,7 +10759,7 @@ attributes #12 = { noinline }
 !2088 = !DILocation(line: 131, column: 2, scope: !2073)
 !2089 = !DILocation(line: 131, column: 1, scope: !2073)
 !2090 = !DILocation(line: 121, column: 1, scope: !2073)
-!2091 = distinct !DISubprogram(name: "__rust_begin_short_backtrace<closure-0,()>", linkageName: "_RINvNtNtCs2bNvlddUlXM_3std10sys_common9backtrace28___rust_begin_short_backtraceNCNvCs37qxPUa7whq_20oneway_thread_access4main0uEB1j_", scope: !2075, file: !2074, line: 121, type: !2092, scopeLine: 121, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !489, retainedNodes: !2094)
+!2091 = distinct !DISubprogram(name: "__rust_begin_short_backtrace<closure-0,()>", linkageName: "_RINvNtNtCs2bNvlddUlXM_3std10sys_common9backtrace28___rust_begin_short_backtraceNCNvCsdT7u4N7w2iC_20stack_map_and_mutate4main0uEB1j_", scope: !2075, file: !2074, line: 121, type: !2092, scopeLine: 121, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !489, retainedNodes: !2094)
 !2092 = !DISubroutineType(types: !2093)
 !2093 = !{null, !213}
 !2094 = !{!2095, !2096}
@@ -10665,7 +10773,7 @@ attributes #12 = { noinline }
 !2102 = !DILocation(line: 131, column: 2, scope: !2091)
 !2103 = !DILocation(line: 131, column: 1, scope: !2091)
 !2104 = !DILocation(line: 121, column: 1, scope: !2091)
-!2105 = distinct !DISubprogram(name: "atomic_add<usize>", linkageName: "_RINvNtNtCs3p84KrD9aKt_4core4sync6atomic10atomic_addjECs37qxPUa7whq_20oneway_thread_access", scope: !31, file: !2106, line: 2379, type: !2107, scopeLine: 2379, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !40, retainedNodes: !2110)
+!2105 = distinct !DISubprogram(name: "atomic_add<usize>", linkageName: "_RINvNtNtCs3p84KrD9aKt_4core4sync6atomic10atomic_addjECsdT7u4N7w2iC_20stack_map_and_mutate", scope: !31, file: !2106, line: 2379, type: !2107, scopeLine: 2379, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !40, retainedNodes: !2110)
 !2106 = !DIFile(filename: "/rustc/e38fb306b7f5e65cca34df2dab1f0db15e1defb4/library/core/src/sync/atomic.rs", directory: "", checksumkind: CSK_MD5, checksum: "f1c8782d1e80116ea8e1a5d6409304a5")
 !2107 = !DISubroutineType(types: !2108)
 !2108 = !{!39, !2109, !39, !380}
@@ -10687,7 +10795,7 @@ attributes #12 = { noinline }
 !2124 = !DILocation(line: 2385, column: 23, scope: !2105)
 !2125 = !DILocation(line: 2386, column: 24, scope: !2105)
 !2126 = !DILocation(line: 2390, column: 2, scope: !2105)
-!2127 = distinct !DISubprogram(name: "atomic_sub<usize>", linkageName: "_RINvNtNtCs3p84KrD9aKt_4core4sync6atomic10atomic_subjECs37qxPUa7whq_20oneway_thread_access", scope: !31, file: !2106, line: 2395, type: !2107, scopeLine: 2395, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !40, retainedNodes: !2128)
+!2127 = distinct !DISubprogram(name: "atomic_sub<usize>", linkageName: "_RINvNtNtCs3p84KrD9aKt_4core4sync6atomic10atomic_subjECsdT7u4N7w2iC_20stack_map_and_mutate", scope: !31, file: !2106, line: 2395, type: !2107, scopeLine: 2395, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !40, retainedNodes: !2128)
 !2128 = !{!2129, !2130, !2131}
 !2129 = !DILocalVariable(name: "dst", arg: 1, scope: !2127, file: !2106, line: 2395, type: !2109)
 !2130 = !DILocalVariable(name: "val", arg: 2, scope: !2127, file: !2106, line: 2395, type: !39)
@@ -10704,7 +10812,7 @@ attributes #12 = { noinline }
 !2141 = !DILocation(line: 2401, column: 23, scope: !2127)
 !2142 = !DILocation(line: 2402, column: 24, scope: !2127)
 !2143 = !DILocation(line: 2406, column: 2, scope: !2127)
-!2144 = distinct !DISubprogram(name: "do_call<std::panic::AssertUnwindSafe<closure-0>,()>", linkageName: "_RINvNvNtCs2bNvlddUlXM_3std9panicking3try7do_callINtNtB6_5panic16AssertUnwindSafeNCNCINvMNtB6_6threadNtB1o_7Builder15spawn_uncheckedNCNvCs37qxPUa7whq_20oneway_thread_access4main0uE00EuEB29_", scope: !982, file: !975, line: 373, type: !2145, scopeLine: 373, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !957, retainedNodes: !2147)
+!2144 = distinct !DISubprogram(name: "do_call<std::panic::AssertUnwindSafe<closure-0>,()>", linkageName: "_RINvNvNtCs2bNvlddUlXM_3std9panicking3try7do_callINtNtB6_5panic16AssertUnwindSafeNCNCINvMNtB6_6threadNtB1o_7Builder15spawn_uncheckedNCNvCsdT7u4N7w2iC_20stack_map_and_mutate4main0uE00EuEB29_", scope: !982, file: !975, line: 373, type: !2145, scopeLine: 373, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !957, retainedNodes: !2147)
 !2145 = !DISubroutineType(types: !2146)
 !2146 = !{null, !259}
 !2147 = !{!2148, !2149, !2152, !2155}
@@ -10727,7 +10835,7 @@ attributes #12 = { noinline }
 !2164 = !DILocation(line: 378, column: 17, scope: !2156)
 !2165 = !DILocation(line: 379, column: 40, scope: !2156)
 !2166 = !DILocalVariable(name: "value", arg: 1, scope: !2167, file: !1009, line: 69, type: !251)
-!2167 = distinct !DISubprogram(name: "new<()>", linkageName: "_RNvMNtNtCs3p84KrD9aKt_4core3mem13manually_dropINtB2_12ManuallyDropuE3newCs37qxPUa7whq_20oneway_thread_access", scope: !993, file: !1009, line: 69, type: !1860, scopeLine: 69, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !457, retainedNodes: !2168)
+!2167 = distinct !DISubprogram(name: "new<()>", linkageName: "_RNvMNtNtCs3p84KrD9aKt_4core3mem13manually_dropINtB2_12ManuallyDropuE3newCsdT7u4N7w2iC_20stack_map_and_mutate", scope: !993, file: !1009, line: 69, type: !1860, scopeLine: 69, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !457, retainedNodes: !2168)
 !2168 = !{!2166}
 !2169 = !DILocation(line: 69, column: 22, scope: !2167, inlinedAt: !2170)
 !2170 = distinct !DILocation(line: 379, column: 22, scope: !2156)
@@ -10735,7 +10843,7 @@ attributes #12 = { noinline }
 !2172 = !DILocation(line: 379, column: 22, scope: !2156)
 !2173 = !DILocation(line: 379, column: 13, scope: !2156)
 !2174 = !DILocation(line: 381, column: 6, scope: !2144)
-!2175 = distinct !DISubprogram(name: "do_catch<std::panic::AssertUnwindSafe<closure-0>,()>", linkageName: "_RINvNvNtCs2bNvlddUlXM_3std9panicking3try8do_catchINtNtB6_5panic16AssertUnwindSafeNCNCINvMNtB6_6threadNtB1p_7Builder15spawn_uncheckedNCNvCs37qxPUa7whq_20oneway_thread_access4main0uE00EuEB2a_", scope: !982, file: !975, line: 395, type: !2176, scopeLine: 395, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !957, retainedNodes: !2178)
+!2175 = distinct !DISubprogram(name: "do_catch<std::panic::AssertUnwindSafe<closure-0>,()>", linkageName: "_RINvNvNtCs2bNvlddUlXM_3std9panicking3try8do_catchINtNtB6_5panic16AssertUnwindSafeNCNCINvMNtB6_6threadNtB1p_7Builder15spawn_uncheckedNCNvCsdT7u4N7w2iC_20stack_map_and_mutate4main0uE00EuEB2a_", scope: !982, file: !975, line: 395, type: !2176, scopeLine: 395, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !957, retainedNodes: !2178)
 !2176 = !DISubroutineType(types: !2177)
 !2177 = !{null, !259, !259}
 !2178 = !{!2179, !2180, !2181, !2183, !2185}
@@ -10756,11 +10864,11 @@ attributes #12 = { noinline }
 !2193 = !DILocation(line: 404, column: 23, scope: !2184)
 !2194 = !DILocation(line: 404, column: 17, scope: !2186)
 !2195 = !{!2196, !2198}
-!2196 = distinct !{!2196, !2197, !"_RNvMNtNtCs3p84KrD9aKt_4core3mem13manually_dropINtB2_12ManuallyDropINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB6_3any3AnyNtNtB6_6marker4SendEL_EE3newCs37qxPUa7whq_20oneway_thread_access: %value.0"}
-!2197 = distinct !{!2197, !"_RNvMNtNtCs3p84KrD9aKt_4core3mem13manually_dropINtB2_12ManuallyDropINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB6_3any3AnyNtNtB6_6marker4SendEL_EE3newCs37qxPUa7whq_20oneway_thread_access"}
-!2198 = distinct !{!2198, !2197, !"_RNvMNtNtCs3p84KrD9aKt_4core3mem13manually_dropINtB2_12ManuallyDropINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB6_3any3AnyNtNtB6_6marker4SendEL_EE3newCs37qxPUa7whq_20oneway_thread_access: %value.1"}
+!2196 = distinct !{!2196, !2197, !"_RNvMNtNtCs3p84KrD9aKt_4core3mem13manually_dropINtB2_12ManuallyDropINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB6_3any3AnyNtNtB6_6marker4SendEL_EE3newCsdT7u4N7w2iC_20stack_map_and_mutate: %value.0"}
+!2197 = distinct !{!2197, !"_RNvMNtNtCs3p84KrD9aKt_4core3mem13manually_dropINtB2_12ManuallyDropINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB6_3any3AnyNtNtB6_6marker4SendEL_EE3newCsdT7u4N7w2iC_20stack_map_and_mutate"}
+!2198 = distinct !{!2198, !2197, !"_RNvMNtNtCs3p84KrD9aKt_4core3mem13manually_dropINtB2_12ManuallyDropINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB6_3any3AnyNtNtB6_6marker4SendEL_EE3newCsdT7u4N7w2iC_20stack_map_and_mutate: %value.1"}
 !2199 = !DILocalVariable(name: "value", arg: 1, scope: !2200, file: !1009, line: 69, type: !255)
-!2200 = distinct !DISubprogram(name: "new<alloc::boxed::Box<Any, alloc::alloc::Global>>", linkageName: "_RNvMNtNtCs3p84KrD9aKt_4core3mem13manually_dropINtB2_12ManuallyDropINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB6_3any3AnyNtNtB6_6marker4SendEL_EE3newCs37qxPUa7whq_20oneway_thread_access", scope: !997, file: !1009, line: 69, type: !2201, scopeLine: 69, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !1000, retainedNodes: !2203)
+!2200 = distinct !DISubprogram(name: "new<alloc::boxed::Box<Any, alloc::alloc::Global>>", linkageName: "_RNvMNtNtCs3p84KrD9aKt_4core3mem13manually_dropINtB2_12ManuallyDropINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB6_3any3AnyNtNtB6_6marker4SendEL_EE3newCsdT7u4N7w2iC_20stack_map_and_mutate", scope: !997, file: !1009, line: 69, type: !2201, scopeLine: 69, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !1000, retainedNodes: !2203)
 !2201 = !DISubroutineType(types: !2202)
 !2202 = !{!997, !255}
 !2203 = !{!2199}
@@ -10771,7 +10879,7 @@ attributes #12 = { noinline }
 !2208 = !DILocation(line: 405, column: 22, scope: !2186)
 !2209 = !DILocation(line: 405, column: 13, scope: !2186)
 !2210 = !DILocation(line: 407, column: 6, scope: !2175)
-!2211 = distinct !DISubprogram(name: "{{closure}}<closure-0,()>", linkageName: "_RNCINvMNtCs2bNvlddUlXM_3std6threadNtB5_7Builder15spawn_uncheckedNCNvCs37qxPUa7whq_20oneway_thread_access4main0uE0B14_", scope: !6, file: !389, line: 462, type: !2212, scopeLine: 462, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !489, retainedNodes: !2214)
+!2211 = distinct !DISubprogram(name: "{{closure}}<closure-0,()>", linkageName: "_RNCINvMNtCs2bNvlddUlXM_3std6threadNtB5_7Builder15spawn_uncheckedNCNvCsdT7u4N7w2iC_20stack_map_and_mutate4main0uE0B14_", scope: !6, file: !389, line: 462, type: !2212, scopeLine: 462, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !489, retainedNodes: !2214)
 !2212 = !DISubroutineType(types: !2213)
 !2213 = !{null, !5}
 !2214 = !{!2215, !2216, !2217, !2218, !2219, !2227}
@@ -10816,7 +10924,7 @@ attributes #12 = { noinline }
 !2253 = !DILocation(line: 462, column: 20, scope: !2211)
 !2254 = !DILocation(line: 481, column: 9, scope: !2211)
 !2255 = !DILocation(line: 481, column: 10, scope: !2211)
-!2256 = distinct !DISubprogram(name: "{{closure}}<()>", linkageName: "_RNCINvNtCs2bNvlddUlXM_3std2rt10lang_startuE0Cs37qxPUa7whq_20oneway_thread_access", scope: !292, file: !925, line: 66, type: !2257, scopeLine: 66, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !457, retainedNodes: !2260)
+!2256 = distinct !DISubprogram(name: "{{closure}}<()>", linkageName: "_RNCINvNtCs2bNvlddUlXM_3std2rt10lang_startuE0CsdT7u4N7w2iC_20stack_map_and_mutate", scope: !292, file: !925, line: 66, type: !2257, scopeLine: 66, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !457, retainedNodes: !2260)
 !2257 = !DISubroutineType(types: !2258)
 !2258 = !{!103, !2259}
 !2259 = !DIDerivedType(tag: DW_TAG_pointer_type, name: "&closure-0", baseType: !291, size: 64, align: 64, dwarfAddressSpace: 0)
@@ -10826,7 +10934,7 @@ attributes #12 = { noinline }
 !2263 = !DILocation(line: 66, column: 77, scope: !2256)
 !2264 = !DILocation(line: 66, column: 18, scope: !2256)
 !2265 = !DILocation(line: 66, column: 91, scope: !2256)
-!2266 = distinct !DISubprogram(name: "{{closure}}<closure-0,()>", linkageName: "_RNCNCINvMNtCs2bNvlddUlXM_3std6threadNtB7_7Builder15spawn_uncheckedNCNvCs37qxPUa7whq_20oneway_thread_access4main0uE00B16_", scope: !950, file: !389, line: 473, type: !2267, scopeLine: 473, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !489, retainedNodes: !2269)
+!2266 = distinct !DISubprogram(name: "{{closure}}<closure-0,()>", linkageName: "_RNCNCINvMNtCs2bNvlddUlXM_3std6threadNtB7_7Builder15spawn_uncheckedNCNvCsdT7u4N7w2iC_20stack_map_and_mutate4main0uE00B16_", scope: !950, file: !389, line: 473, type: !2267, scopeLine: 473, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !489, retainedNodes: !2269)
 !2267 = !DISubroutineType(types: !2268)
 !2268 = !{null, !949}
 !2269 = !{!2270}
@@ -10834,7 +10942,7 @@ attributes #12 = { noinline }
 !2271 = !DILocation(line: 443, column: 51, scope: !2266)
 !2272 = !DILocation(line: 474, column: 17, scope: !2266)
 !2273 = !DILocation(line: 475, column: 14, scope: !2266)
-!2274 = distinct !DISubprogram(name: "call_once<closure-0,()>", linkageName: "_RNSNvYNCINvMNtCs2bNvlddUlXM_3std6threadNtBa_7Builder15spawn_uncheckedNCNvCs37qxPUa7whq_20oneway_thread_access4main0uE0INtNtNtCs3p84KrD9aKt_4core3ops8function6FnOnceuE9call_once6vtableB19_", scope: !2276, file: !2275, line: 227, type: !1486, scopeLine: 227, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !2282, retainedNodes: !2279)
+!2274 = distinct !DISubprogram(name: "call_once<closure-0,()>", linkageName: "_RNSNvYNCINvMNtCs2bNvlddUlXM_3std6threadNtBa_7Builder15spawn_uncheckedNCNvCsdT7u4N7w2iC_20stack_map_and_mutate4main0uE0INtNtNtCs3p84KrD9aKt_4core3ops8function6FnOnceuE9call_once6vtableB19_", scope: !2276, file: !2275, line: 227, type: !1486, scopeLine: 227, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !2282, retainedNodes: !2279)
 !2275 = !DIFile(filename: "/rustc/e38fb306b7f5e65cca34df2dab1f0db15e1defb4/library/core/src/ops/function.rs", directory: "", checksumkind: CSK_MD5, checksum: "e7b2206724943b8a8140f7c1065997a3")
 !2276 = !DINamespace(name: "FnOnce", scope: !2277)
 !2277 = !DINamespace(name: "function", scope: !2278)
@@ -10846,7 +10954,7 @@ attributes #12 = { noinline }
 !2283 = !DITemplateTypeParameter(name: "Self", type: !5)
 !2284 = !DITemplateTypeParameter(name: "Args", type: !251)
 !2285 = !DILocation(line: 227, column: 5, scope: !2274)
-!2286 = distinct !DISubprogram(name: "call_once<closure-0,()>", linkageName: "_RNSNvYNCINvNtCs2bNvlddUlXM_3std2rt10lang_startuE0INtNtNtCs3p84KrD9aKt_4core3ops8function6FnOnceuE9call_once6vtableCs37qxPUa7whq_20oneway_thread_access", scope: !2276, file: !2275, line: 227, type: !2287, scopeLine: 227, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !2292, retainedNodes: !2289)
+!2286 = distinct !DISubprogram(name: "call_once<closure-0,()>", linkageName: "_RNSNvYNCINvNtCs2bNvlddUlXM_3std2rt10lang_startuE0INtNtNtCs3p84KrD9aKt_4core3ops8function6FnOnceuE9call_once6vtableCsdT7u4N7w2iC_20stack_map_and_mutate", scope: !2276, file: !2275, line: 227, type: !2287, scopeLine: 227, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !2292, retainedNodes: !2289)
 !2287 = !DISubroutineType(types: !2288)
 !2288 = !{!103, !1495}
 !2289 = !{!2290, !2291}
@@ -10855,13 +10963,13 @@ attributes #12 = { noinline }
 !2292 = !{!2293, !2284}
 !2293 = !DITemplateTypeParameter(name: "Self", type: !291)
 !2294 = !DILocation(line: 227, column: 5, scope: !2286)
-!2295 = distinct !DISubprogram(name: "take<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>", linkageName: "_RNvMNtCs3p84KrD9aKt_4core6optionINtB2_6OptionINtNtB4_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEE4takeCs37qxPUa7whq_20oneway_thread_access", scope: !234, file: !591, line: 899, type: !1212, scopeLine: 899, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !240, retainedNodes: !2296)
+!2295 = distinct !DISubprogram(name: "take<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>", linkageName: "_RNvMNtCs3p84KrD9aKt_4core6optionINtB2_6OptionINtNtB4_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEE4takeCsdT7u4N7w2iC_20stack_map_and_mutate", scope: !234, file: !591, line: 899, type: !1212, scopeLine: 899, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !240, retainedNodes: !2296)
 !2296 = !{!2297}
 !2297 = !DILocalVariable(name: "self", arg: 1, scope: !2295, file: !591, line: 899, type: !1192)
 !2298 = !DILocation(line: 899, column: 17, scope: !2295)
 !2299 = !DILocation(line: 900, column: 9, scope: !2295)
 !2300 = !DILocation(line: 901, column: 6, scope: !2295)
-!2301 = distinct !DISubprogram(name: "unwrap<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>", linkageName: "_RNvMNtCs3p84KrD9aKt_4core6optionINtB2_6OptionINtNtB4_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEE6unwrapCs37qxPUa7whq_20oneway_thread_access", scope: !234, file: !591, line: 383, type: !2302, scopeLine: 383, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !240, retainedNodes: !2315)
+!2301 = distinct !DISubprogram(name: "unwrap<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>", linkageName: "_RNvMNtCs3p84KrD9aKt_4core6optionINtB2_6OptionINtNtB4_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEE6unwrapCsdT7u4N7w2iC_20stack_map_and_mutate", scope: !234, file: !591, line: 383, type: !2302, scopeLine: 383, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !240, retainedNodes: !2315)
 !2302 = !DISubroutineType(types: !2303)
 !2303 = !{!242, !234, !2304}
 !2304 = !DIDerivedType(tag: DW_TAG_pointer_type, name: "&core::panic::Location", baseType: !2305, size: 64, align: 64, dwarfAddressSpace: 0)
@@ -10886,13 +10994,13 @@ attributes #12 = { noinline }
 !2323 = !DILocation(line: 385, column: 18, scope: !2301)
 !2324 = !DILocation(line: 385, column: 18, scope: !2318)
 !2325 = !DILocation(line: 388, column: 6, scope: !2301)
-!2326 = distinct !DISubprogram(name: "take<std::sys::unix::thread::Thread>", linkageName: "_RNvMNtCs3p84KrD9aKt_4core6optionINtB2_6OptionNtNtNtNtCs2bNvlddUlXM_3std3sys4unix6thread6ThreadE4takeCs37qxPUa7whq_20oneway_thread_access", scope: !436, file: !591, line: 899, type: !1221, scopeLine: 899, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !442, retainedNodes: !2327)
+!2326 = distinct !DISubprogram(name: "take<std::sys::unix::thread::Thread>", linkageName: "_RNvMNtCs3p84KrD9aKt_4core6optionINtB2_6OptionNtNtNtNtCs2bNvlddUlXM_3std3sys4unix6thread6ThreadE4takeCsdT7u4N7w2iC_20stack_map_and_mutate", scope: !436, file: !591, line: 899, type: !1221, scopeLine: 899, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !442, retainedNodes: !2327)
 !2327 = !{!2328}
 !2328 = !DILocalVariable(name: "self", arg: 1, scope: !2326, file: !591, line: 899, type: !1203)
 !2329 = !DILocation(line: 899, column: 17, scope: !2326)
 !2330 = !DILocation(line: 900, column: 9, scope: !2326)
 !2331 = !DILocation(line: 901, column: 6, scope: !2326)
-!2332 = distinct !DISubprogram(name: "unwrap<std::sys::unix::thread::Thread>", linkageName: "_RNvMNtCs3p84KrD9aKt_4core6optionINtB2_6OptionNtNtNtNtCs2bNvlddUlXM_3std3sys4unix6thread6ThreadE6unwrapCs37qxPUa7whq_20oneway_thread_access", scope: !436, file: !591, line: 383, type: !2333, scopeLine: 383, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !442, retainedNodes: !2335)
+!2332 = distinct !DISubprogram(name: "unwrap<std::sys::unix::thread::Thread>", linkageName: "_RNvMNtCs3p84KrD9aKt_4core6optionINtB2_6OptionNtNtNtNtCs2bNvlddUlXM_3std3sys4unix6thread6ThreadE6unwrapCsdT7u4N7w2iC_20stack_map_and_mutate", scope: !436, file: !591, line: 383, type: !2333, scopeLine: 383, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !442, retainedNodes: !2335)
 !2333 = !DISubroutineType(types: !2334)
 !2334 = !{!444, !436, !2304}
 !2335 = !{!2336, !2337}
@@ -10906,7 +11014,7 @@ attributes #12 = { noinline }
 !2343 = !DILocation(line: 385, column: 18, scope: !2332)
 !2344 = !DILocation(line: 385, column: 18, scope: !2338)
 !2345 = !DILocation(line: 388, column: 6, scope: !2332)
-!2346 = distinct !DISubprogram(name: "alloc_impl", linkageName: "_RNvMNtCs8RW06R9lH2S_5alloc5allocNtB2_6Global10alloc_implCs37qxPUa7whq_20oneway_thread_access", scope: !73, file: !1908, line: 161, type: !2347, scopeLine: 161, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !4, retainedNodes: !2367)
+!2346 = distinct !DISubprogram(name: "alloc_impl", linkageName: "_RNvMNtCs8RW06R9lH2S_5alloc5allocNtB2_6Global10alloc_implCsdT7u4N7w2iC_20stack_map_and_mutate", scope: !73, file: !1908, line: 161, type: !2347, scopeLine: 161, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !4, retainedNodes: !2367)
 !2347 = !DISubroutineType(types: !2348)
 !2348 = !{!2349, !2366, !670, !1873}
 !2349 = !DICompositeType(tag: DW_TAG_structure_type, name: "Result<core::ptr::non_null::NonNull<[u8]>, core::alloc::AllocError>", scope: !243, file: !2, size: 128, align: 64, elements: !2350, identifier: "cfac83fc313fc34b980ba2be9966605f")
@@ -10969,7 +11077,7 @@ attributes #12 = { noinline }
 !2406 = !DILocation(line: 167, column: 27, scope: !2378)
 !2407 = !DILocation(line: 171, column: 6, scope: !2346)
 !2408 = !DILocation(line: 168, column: 17, scope: !2376)
-!2409 = distinct !DISubprogram(name: "take<std::panic::AssertUnwindSafe<closure-0>>", linkageName: "_RNvMNtNtCs3p84KrD9aKt_4core3mem13manually_dropINtB2_12ManuallyDropINtNtCs2bNvlddUlXM_3std5panic16AssertUnwindSafeNCNCINvMNtB17_6threadNtB1V_7Builder15spawn_uncheckedNCNvCs37qxPUa7whq_20oneway_thread_access4main0uE00EE4takeB2H_", scope: !985, file: !1009, line: 109, type: !2410, scopeLine: 109, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !990, retainedNodes: !2413)
+!2409 = distinct !DISubprogram(name: "take<std::panic::AssertUnwindSafe<closure-0>>", linkageName: "_RNvMNtNtCs3p84KrD9aKt_4core3mem13manually_dropINtB2_12ManuallyDropINtNtCs2bNvlddUlXM_3std5panic16AssertUnwindSafeNCNCINvMNtB17_6threadNtB1V_7Builder15spawn_uncheckedNCNvCsdT7u4N7w2iC_20stack_map_and_mutate4main0uE00EE4takeB2H_", scope: !985, file: !1009, line: 109, type: !2410, scopeLine: 109, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !990, retainedNodes: !2413)
 !2410 = !DISubroutineType(types: !2411)
 !2411 = !{!946, !2412}
 !2412 = !DIDerivedType(tag: DW_TAG_pointer_type, name: "&mut core::mem::manually_drop::ManuallyDrop<std::panic::AssertUnwindSafe<closure-0>>", baseType: !985, size: 64, align: 64, dwarfAddressSpace: 0)
@@ -10978,7 +11086,7 @@ attributes #12 = { noinline }
 !2415 = !DILocation(line: 109, column: 24, scope: !2409)
 !2416 = !DILocation(line: 112, column: 18, scope: !2409)
 !2417 = !DILocation(line: 113, column: 6, scope: !2409)
-!2418 = distinct !DISubprogram(name: "guaranteed_eq<u8>", linkageName: "_RNvMNtNtCs3p84KrD9aKt_4core3ptr7mut_ptrOh13guaranteed_eqCs37qxPUa7whq_20oneway_thread_access", scope: !2420, file: !2419, line: 426, type: !2422, scopeLine: 426, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !176, retainedNodes: !2424)
+!2418 = distinct !DISubprogram(name: "guaranteed_eq<u8>", linkageName: "_RNvMNtNtCs3p84KrD9aKt_4core3ptr7mut_ptrOh13guaranteed_eqCsdT7u4N7w2iC_20stack_map_and_mutate", scope: !2420, file: !2419, line: 426, type: !2422, scopeLine: 426, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !176, retainedNodes: !2424)
 !2419 = !DIFile(filename: "/rustc/e38fb306b7f5e65cca34df2dab1f0db15e1defb4/library/core/src/ptr/mut_ptr.rs", directory: "", checksumkind: CSK_MD5, checksum: "0ea6480c8fde45b63ebd619a80d4e44e")
 !2420 = !DINamespace(name: "{{impl}}", scope: !2421)
 !2421 = !DINamespace(name: "mut_ptr", scope: !22)
@@ -10991,7 +11099,7 @@ attributes #12 = { noinline }
 !2428 = !DILocation(line: 426, column: 38, scope: !2418)
 !2429 = !DILocation(line: 430, column: 9, scope: !2418)
 !2430 = !DILocation(line: 431, column: 6, scope: !2418)
-!2431 = distinct !DISubprogram(name: "add<u8>", linkageName: "_RNvMNtNtCs3p84KrD9aKt_4core3ptr7mut_ptrOh3addCs37qxPUa7whq_20oneway_thread_access", scope: !2420, file: !2419, line: 605, type: !2432, scopeLine: 605, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !176, retainedNodes: !2434)
+!2431 = distinct !DISubprogram(name: "add<u8>", linkageName: "_RNvMNtNtCs3p84KrD9aKt_4core3ptr7mut_ptrOh3addCsdT7u4N7w2iC_20stack_map_and_mutate", scope: !2420, file: !2419, line: 605, type: !2432, scopeLine: 605, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !176, retainedNodes: !2434)
 !2432 = !DISubroutineType(types: !2433)
 !2433 = !{!259, !259, !39}
 !2434 = !{!2435, !2436}
@@ -11001,7 +11109,7 @@ attributes #12 = { noinline }
 !2438 = !DILocation(line: 605, column: 35, scope: !2431)
 !2439 = !DILocation(line: 610, column: 18, scope: !2431)
 !2440 = !DILocation(line: 611, column: 6, scope: !2431)
-!2441 = distinct !DISubprogram(name: "offset<u8>", linkageName: "_RNvMNtNtCs3p84KrD9aKt_4core3ptr7mut_ptrOh6offsetCs37qxPUa7whq_20oneway_thread_access", scope: !2420, file: !2419, line: 225, type: !2442, scopeLine: 225, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !176, retainedNodes: !2444)
+!2441 = distinct !DISubprogram(name: "offset<u8>", linkageName: "_RNvMNtNtCs3p84KrD9aKt_4core3ptr7mut_ptrOh6offsetCsdT7u4N7w2iC_20stack_map_and_mutate", scope: !2420, file: !2419, line: 225, type: !2442, scopeLine: 225, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !176, retainedNodes: !2444)
 !2442 = !DISubroutineType(types: !2443)
 !2443 = !{!259, !259, !928}
 !2444 = !{!2445, !2446}
@@ -11011,7 +11119,7 @@ attributes #12 = { noinline }
 !2448 = !DILocation(line: 225, column: 38, scope: !2441)
 !2449 = !DILocation(line: 232, column: 18, scope: !2441)
 !2450 = !DILocation(line: 233, column: 6, scope: !2441)
-!2451 = distinct !DISubprogram(name: "is_null<u8>", linkageName: "_RNvMNtNtCs3p84KrD9aKt_4core3ptr7mut_ptrOh7is_nullCs37qxPUa7whq_20oneway_thread_access", scope: !2420, file: !2419, line: 36, type: !2452, scopeLine: 36, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !176, retainedNodes: !2454)
+!2451 = distinct !DISubprogram(name: "is_null<u8>", linkageName: "_RNvMNtNtCs3p84KrD9aKt_4core3ptr7mut_ptrOh7is_nullCsdT7u4N7w2iC_20stack_map_and_mutate", scope: !2420, file: !2419, line: 36, type: !2452, scopeLine: 36, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !176, retainedNodes: !2454)
 !2452 = !DISubroutineType(types: !2453)
 !2453 = !{!1873, !259}
 !2454 = !{!2455}
@@ -11020,7 +11128,7 @@ attributes #12 = { noinline }
 !2457 = !DILocation(line: 39, column: 41, scope: !2451)
 !2458 = !DILocation(line: 39, column: 9, scope: !2451)
 !2459 = !DILocation(line: 40, column: 6, scope: !2451)
-!2460 = distinct !DISubprogram(name: "from_size_align_unchecked", linkageName: "_RNvMNtNtCs3p84KrD9aKt_4core5alloc6layoutNtB2_6Layout25from_size_align_uncheckedCs37qxPUa7whq_20oneway_thread_access", scope: !670, file: !669, line: 98, type: !2461, scopeLine: 98, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !4, retainedNodes: !2463)
+!2460 = distinct !DISubprogram(name: "from_size_align_unchecked", linkageName: "_RNvMNtNtCs3p84KrD9aKt_4core5alloc6layoutNtB2_6Layout25from_size_align_uncheckedCsdT7u4N7w2iC_20stack_map_and_mutate", scope: !670, file: !669, line: 98, type: !2461, scopeLine: 98, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !4, retainedNodes: !2463)
 !2461 = !DISubroutineType(types: !2462)
 !2462 = !{!670, !39, !39}
 !2463 = !{!2464, !2465}
@@ -11031,7 +11139,7 @@ attributes #12 = { noinline }
 !2468 = !DILocation(line: 100, column: 48, scope: !2460)
 !2469 = !DILocation(line: 100, column: 9, scope: !2460)
 !2470 = !DILocation(line: 101, column: 6, scope: !2460)
-!2471 = distinct !DISubprogram(name: "size", linkageName: "_RNvMNtNtCs3p84KrD9aKt_4core5alloc6layoutNtB2_6Layout4sizeCs37qxPUa7whq_20oneway_thread_access", scope: !670, file: !669, line: 107, type: !2472, scopeLine: 107, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !4, retainedNodes: !2475)
+!2471 = distinct !DISubprogram(name: "size", linkageName: "_RNvMNtNtCs3p84KrD9aKt_4core5alloc6layoutNtB2_6Layout4sizeCsdT7u4N7w2iC_20stack_map_and_mutate", scope: !670, file: !669, line: 107, type: !2472, scopeLine: 107, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !4, retainedNodes: !2475)
 !2472 = !DISubroutineType(types: !2473)
 !2473 = !{!39, !2474}
 !2474 = !DIDerivedType(tag: DW_TAG_pointer_type, name: "&core::alloc::layout::Layout", baseType: !670, size: 64, align: 64, dwarfAddressSpace: 0)
@@ -11040,13 +11148,13 @@ attributes #12 = { noinline }
 !2477 = !DILocation(line: 107, column: 23, scope: !2471)
 !2478 = !DILocation(line: 108, column: 9, scope: !2471)
 !2479 = !DILocation(line: 109, column: 6, scope: !2471)
-!2480 = distinct !DISubprogram(name: "align", linkageName: "_RNvMNtNtCs3p84KrD9aKt_4core5alloc6layoutNtB2_6Layout5alignCs37qxPUa7whq_20oneway_thread_access", scope: !670, file: !669, line: 115, type: !2472, scopeLine: 115, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !4, retainedNodes: !2481)
+!2480 = distinct !DISubprogram(name: "align", linkageName: "_RNvMNtNtCs3p84KrD9aKt_4core5alloc6layoutNtB2_6Layout5alignCsdT7u4N7w2iC_20stack_map_and_mutate", scope: !670, file: !669, line: 115, type: !2472, scopeLine: 115, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !4, retainedNodes: !2481)
 !2481 = !{!2482}
 !2482 = !DILocalVariable(name: "self", arg: 1, scope: !2480, file: !669, line: 115, type: !2474)
 !2483 = !DILocation(line: 115, column: 24, scope: !2480)
 !2484 = !DILocation(line: 116, column: 9, scope: !2480)
 !2485 = !DILocation(line: 117, column: 6, scope: !2480)
-!2486 = distinct !DISubprogram(name: "dangling", linkageName: "_RNvMNtNtCs3p84KrD9aKt_4core5alloc6layoutNtB2_6Layout8danglingCs37qxPUa7whq_20oneway_thread_access", scope: !670, file: !669, line: 188, type: !2487, scopeLine: 188, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !4, retainedNodes: !2489)
+!2486 = distinct !DISubprogram(name: "dangling", linkageName: "_RNvMNtNtCs3p84KrD9aKt_4core5alloc6layoutNtB2_6Layout8danglingCsdT7u4N7w2iC_20stack_map_and_mutate", scope: !670, file: !669, line: 188, type: !2487, scopeLine: 188, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !4, retainedNodes: !2489)
 !2487 = !DISubroutineType(types: !2488)
 !2488 = !{!600, !2474}
 !2489 = !{!2490}
@@ -11055,7 +11163,7 @@ attributes #12 = { noinline }
 !2492 = !DILocation(line: 190, column: 41, scope: !2486)
 !2493 = !DILocation(line: 190, column: 18, scope: !2486)
 !2494 = !DILocation(line: 191, column: 6, scope: !2486)
-!2495 = distinct !DISubprogram(name: "new_v1", linkageName: "_RNvMs0_NtCs3p84KrD9aKt_4core3fmtNtB5_9Arguments6new_v1Cs37qxPUa7whq_20oneway_thread_access", scope: !2496, file: !884, line: 313, type: !2554, scopeLine: 313, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !4, retainedNodes: !2556)
+!2495 = distinct !DISubprogram(name: "new_v1", linkageName: "_RNvMs0_NtCs3p84KrD9aKt_4core3fmtNtB5_9Arguments6new_v1CsdT7u4N7w2iC_20stack_map_and_mutate", scope: !2496, file: !884, line: 313, type: !2554, scopeLine: 313, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !4, retainedNodes: !2556)
 !2496 = !DICompositeType(tag: DW_TAG_structure_type, name: "Arguments", scope: !374, file: !2, size: 384, align: 64, elements: !2497, templateParams: !4, identifier: "db3b45ab6c1e1b9e8324345adb8e75ee")
 !2497 = !{!2498, !2504, !2548}
 !2498 = !DIDerivedType(tag: DW_TAG_member, name: "pieces", scope: !2496, file: !2, baseType: !2499, size: 128, align: 64)
@@ -11124,7 +11232,7 @@ attributes #12 = { noinline }
 !2561 = !DILocation(line: 314, column: 34, scope: !2495)
 !2562 = !DILocation(line: 314, column: 9, scope: !2495)
 !2563 = !DILocation(line: 315, column: 6, scope: !2495)
-!2564 = distinct !DISubprogram(name: "new", linkageName: "_RNvMs15_NtNtCs3p84KrD9aKt_4core4sync6atomicNtB6_11AtomicUsize3newCs37qxPUa7whq_20oneway_thread_access", scope: !30, file: !2106, line: 1389, type: !2565, scopeLine: 1389, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !4, retainedNodes: !2567)
+!2564 = distinct !DISubprogram(name: "new", linkageName: "_RNvMs15_NtNtCs3p84KrD9aKt_4core4sync6atomicNtB6_11AtomicUsize3newCsdT7u4N7w2iC_20stack_map_and_mutate", scope: !30, file: !2106, line: 1389, type: !2565, scopeLine: 1389, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !4, retainedNodes: !2567)
 !2565 = !DISubroutineType(types: !2566)
 !2566 = !{!30, !39}
 !2567 = !{!2568}
@@ -11133,7 +11241,7 @@ attributes #12 = { noinline }
 !2570 = !DILocation(line: 1390, column: 26, scope: !2564)
 !2571 = !DILocation(line: 1390, column: 17, scope: !2564)
 !2572 = !DILocation(line: 1391, column: 14, scope: !2564)
-!2573 = distinct !DISubprogram(name: "fetch_add", linkageName: "_RNvMs15_NtNtCs3p84KrD9aKt_4core4sync6atomicNtB6_11AtomicUsize9fetch_addCs37qxPUa7whq_20oneway_thread_access", scope: !30, file: !2106, line: 1737, type: !2574, scopeLine: 1737, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !4, retainedNodes: !2577)
+!2573 = distinct !DISubprogram(name: "fetch_add", linkageName: "_RNvMs15_NtNtCs3p84KrD9aKt_4core4sync6atomicNtB6_11AtomicUsize9fetch_addCsdT7u4N7w2iC_20stack_map_and_mutate", scope: !30, file: !2106, line: 1737, type: !2574, scopeLine: 1737, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !4, retainedNodes: !2577)
 !2574 = !DISubroutineType(types: !2575)
 !2575 = !{!39, !2576, !39, !380}
 !2576 = !DIDerivedType(tag: DW_TAG_pointer_type, name: "&core::sync::atomic::AtomicUsize", baseType: !30, size: 64, align: 64, dwarfAddressSpace: 0)
@@ -11147,7 +11255,7 @@ attributes #12 = { noinline }
 !2584 = !DILocation(line: 1739, column: 37, scope: !2573)
 !2585 = !DILocation(line: 1739, column: 26, scope: !2573)
 !2586 = !DILocation(line: 1740, column: 14, scope: !2573)
-!2587 = distinct !DISubprogram(name: "fetch_sub", linkageName: "_RNvMs15_NtNtCs3p84KrD9aKt_4core4sync6atomicNtB6_11AtomicUsize9fetch_subCs37qxPUa7whq_20oneway_thread_access", scope: !30, file: !2106, line: 1766, type: !2574, scopeLine: 1766, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !4, retainedNodes: !2588)
+!2587 = distinct !DISubprogram(name: "fetch_sub", linkageName: "_RNvMs15_NtNtCs3p84KrD9aKt_4core4sync6atomicNtB6_11AtomicUsize9fetch_subCsdT7u4N7w2iC_20stack_map_and_mutate", scope: !30, file: !2106, line: 1766, type: !2574, scopeLine: 1766, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !4, retainedNodes: !2588)
 !2588 = !{!2589, !2590, !2591}
 !2589 = !DILocalVariable(name: "self", arg: 1, scope: !2587, file: !2106, line: 1766, type: !2576)
 !2590 = !DILocalVariable(name: "val", arg: 2, scope: !2587, file: !2106, line: 1766, type: !39)
@@ -11158,7 +11266,7 @@ attributes #12 = { noinline }
 !2595 = !DILocation(line: 1768, column: 37, scope: !2587)
 !2596 = !DILocation(line: 1768, column: 26, scope: !2587)
 !2597 = !DILocation(line: 1769, column: 14, scope: !2587)
-!2598 = distinct !DISubprogram(name: "as_ptr<Any>", linkageName: "_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueDNtNtB9_3any3AnyNtNtB9_6marker4SendEL_E6as_ptrCs37qxPUa7whq_20oneway_thread_access", scope: !733, file: !732, line: 105, type: !2599, scopeLine: 105, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !742, retainedNodes: !2601)
+!2598 = distinct !DISubprogram(name: "as_ptr<Any>", linkageName: "_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueDNtNtB9_3any3AnyNtNtB9_6marker4SendEL_E6as_ptrCsdT7u4N7w2iC_20stack_map_and_mutate", scope: !733, file: !732, line: 105, type: !2599, scopeLine: 105, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !742, retainedNodes: !2601)
 !2599 = !DISubroutineType(types: !2600)
 !2600 = !{!1259, !733}
 !2601 = !{!2602}
@@ -11166,7 +11274,7 @@ attributes #12 = { noinline }
 !2603 = !DILocation(line: 105, column: 25, scope: !2598)
 !2604 = !DILocation(line: 106, column: 9, scope: !2598)
 !2605 = !DILocation(line: 107, column: 6, scope: !2598)
-!2606 = distinct !DISubprogram(name: "as_ref<Any>", linkageName: "_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueDNtNtB9_3any3AnyNtNtB9_6marker4SendEL_E6as_refCs37qxPUa7whq_20oneway_thread_access", scope: !733, file: !732, line: 115, type: !2607, scopeLine: 115, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !742, retainedNodes: !2614)
+!2606 = distinct !DISubprogram(name: "as_ref<Any>", linkageName: "_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueDNtNtB9_3any3AnyNtNtB9_6marker4SendEL_E6as_refCsdT7u4N7w2iC_20stack_map_and_mutate", scope: !733, file: !732, line: 115, type: !2607, scopeLine: 115, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !742, retainedNodes: !2614)
 !2607 = !DISubroutineType(types: !2608)
 !2608 = !{!2609, !2613}
 !2609 = !DICompositeType(tag: DW_TAG_structure_type, name: "&Any", scope: !256, file: !2, size: 128, align: 64, elements: !2610, templateParams: !4, identifier: "fc3b18fb602b5b48b4c7e96a3e65db7b")
@@ -11179,7 +11287,7 @@ attributes #12 = { noinline }
 !2616 = !DILocation(line: 115, column: 26, scope: !2606)
 !2617 = !DILocation(line: 118, column: 20, scope: !2606)
 !2618 = !DILocation(line: 119, column: 6, scope: !2606)
-!2619 = distinct !DISubprogram(name: "as_ptr<Error>", linkageName: "_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueDNtNtCs2bNvlddUlXM_3std5error5ErrorNtNtB9_6marker4SendNtB1r_4SyncEL_E6as_ptrCs37qxPUa7whq_20oneway_thread_access", scope: !754, file: !732, line: 105, type: !2620, scopeLine: 105, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !763, retainedNodes: !2622)
+!2619 = distinct !DISubprogram(name: "as_ptr<Error>", linkageName: "_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueDNtNtCs2bNvlddUlXM_3std5error5ErrorNtNtB9_6marker4SendNtB1r_4SyncEL_E6as_ptrCsdT7u4N7w2iC_20stack_map_and_mutate", scope: !754, file: !732, line: 105, type: !2620, scopeLine: 105, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !763, retainedNodes: !2622)
 !2620 = !DISubroutineType(types: !2621)
 !2621 = !{!1269, !754}
 !2622 = !{!2623}
@@ -11187,7 +11295,7 @@ attributes #12 = { noinline }
 !2624 = !DILocation(line: 105, column: 25, scope: !2619)
 !2625 = !DILocation(line: 106, column: 9, scope: !2619)
 !2626 = !DILocation(line: 107, column: 6, scope: !2619)
-!2627 = distinct !DISubprogram(name: "as_ref<Error>", linkageName: "_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueDNtNtCs2bNvlddUlXM_3std5error5ErrorNtNtB9_6marker4SendNtB1r_4SyncEL_E6as_refCs37qxPUa7whq_20oneway_thread_access", scope: !754, file: !732, line: 115, type: !2628, scopeLine: 115, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !763, retainedNodes: !2635)
+!2627 = distinct !DISubprogram(name: "as_ref<Error>", linkageName: "_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueDNtNtCs2bNvlddUlXM_3std5error5ErrorNtNtB9_6marker4SendNtB1r_4SyncEL_E6as_refCsdT7u4N7w2iC_20stack_map_and_mutate", scope: !754, file: !732, line: 115, type: !2628, scopeLine: 115, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !763, retainedNodes: !2635)
 !2628 = !DISubroutineType(types: !2629)
 !2629 = !{!2630, !2634}
 !2630 = !DICompositeType(tag: DW_TAG_structure_type, name: "&Error", scope: !349, file: !2, size: 128, align: 64, elements: !2631, templateParams: !4, identifier: "35827f73cd7215ae7001d617c78302b0")
@@ -11200,7 +11308,7 @@ attributes #12 = { noinline }
 !2637 = !DILocation(line: 115, column: 26, scope: !2627)
 !2638 = !DILocation(line: 118, column: 20, scope: !2627)
 !2639 = !DILocation(line: 119, column: 6, scope: !2627)
-!2640 = distinct !DISubprogram(name: "as_ptr<alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>>>", linkageName: "_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtB9_4cell10UnsafeCellINtNtB9_6option6OptionINtNtB9_6result6ResultuINtNtBV_5boxed3BoxDNtNtB9_3any3AnyNtNtB9_6marker4SendEL_EEEEEE6as_ptrCs37qxPUa7whq_20oneway_thread_access", scope: !774, file: !732, line: 105, type: !2641, scopeLine: 105, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !284, retainedNodes: !2644)
+!2640 = distinct !DISubprogram(name: "as_ptr<alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>>>", linkageName: "_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtB9_4cell10UnsafeCellINtNtB9_6option6OptionINtNtB9_6result6ResultuINtNtBV_5boxed3BoxDNtNtB9_3any3AnyNtNtB9_6marker4SendEL_EEEEEE6as_ptrCsdT7u4N7w2iC_20stack_map_and_mutate", scope: !774, file: !732, line: 105, type: !2641, scopeLine: 105, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !284, retainedNodes: !2644)
 !2641 = !DISubroutineType(types: !2642)
 !2642 = !{!2643, !774}
 !2643 = !DIDerivedType(tag: DW_TAG_pointer_type, name: "*mut alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>>", baseType: !226, size: 64, align: 64, dwarfAddressSpace: 0)
@@ -11209,7 +11317,7 @@ attributes #12 = { noinline }
 !2646 = !DILocation(line: 105, column: 25, scope: !2640)
 !2647 = !DILocation(line: 106, column: 9, scope: !2640)
 !2648 = !DILocation(line: 107, column: 6, scope: !2640)
-!2649 = distinct !DISubprogram(name: "as_ref<alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>>>", linkageName: "_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtB9_4cell10UnsafeCellINtNtB9_6option6OptionINtNtB9_6result6ResultuINtNtBV_5boxed3BoxDNtNtB9_3any3AnyNtNtB9_6marker4SendEL_EEEEEE6as_refCs37qxPUa7whq_20oneway_thread_access", scope: !774, file: !732, line: 115, type: !2650, scopeLine: 115, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !284, retainedNodes: !2654)
+!2649 = distinct !DISubprogram(name: "as_ref<alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>>>", linkageName: "_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtB9_4cell10UnsafeCellINtNtB9_6option6OptionINtNtB9_6result6ResultuINtNtBV_5boxed3BoxDNtNtB9_3any3AnyNtNtB9_6marker4SendEL_EEEEEE6as_refCsdT7u4N7w2iC_20stack_map_and_mutate", scope: !774, file: !732, line: 115, type: !2650, scopeLine: 115, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !284, retainedNodes: !2654)
 !2650 = !DISubroutineType(types: !2651)
 !2651 = !{!2652, !2653}
 !2652 = !DIDerivedType(tag: DW_TAG_pointer_type, name: "&alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>>", baseType: !226, size: 64, align: 64, dwarfAddressSpace: 0)
@@ -11219,7 +11327,7 @@ attributes #12 = { noinline }
 !2656 = !DILocation(line: 115, column: 26, scope: !2649)
 !2657 = !DILocation(line: 118, column: 20, scope: !2649)
 !2658 = !DILocation(line: 119, column: 6, scope: !2649)
-!2659 = distinct !DISubprogram(name: "as_ptr<std::io::error::Custom>", linkageName: "_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueNtNtNtCs2bNvlddUlXM_3std2io5error6CustomE6as_ptrCs37qxPUa7whq_20oneway_thread_access", scope: !788, file: !732, line: 105, type: !2660, scopeLine: 105, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !794, retainedNodes: !2662)
+!2659 = distinct !DISubprogram(name: "as_ptr<std::io::error::Custom>", linkageName: "_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueNtNtNtCs2bNvlddUlXM_3std2io5error6CustomE6as_ptrCsdT7u4N7w2iC_20stack_map_and_mutate", scope: !788, file: !732, line: 105, type: !2660, scopeLine: 105, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !794, retainedNodes: !2662)
 !2660 = !DISubroutineType(types: !2661)
 !2661 = !{!1555, !788}
 !2662 = !{!2663}
@@ -11227,7 +11335,7 @@ attributes #12 = { noinline }
 !2664 = !DILocation(line: 105, column: 25, scope: !2659)
 !2665 = !DILocation(line: 106, column: 9, scope: !2659)
 !2666 = !DILocation(line: 107, column: 6, scope: !2659)
-!2667 = distinct !DISubprogram(name: "as_ref<std::io::error::Custom>", linkageName: "_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueNtNtNtCs2bNvlddUlXM_3std2io5error6CustomE6as_refCs37qxPUa7whq_20oneway_thread_access", scope: !788, file: !732, line: 115, type: !2668, scopeLine: 115, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !794, retainedNodes: !2672)
+!2667 = distinct !DISubprogram(name: "as_ref<std::io::error::Custom>", linkageName: "_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueNtNtNtCs2bNvlddUlXM_3std2io5error6CustomE6as_refCsdT7u4N7w2iC_20stack_map_and_mutate", scope: !788, file: !732, line: 115, type: !2668, scopeLine: 115, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !794, retainedNodes: !2672)
 !2668 = !DISubroutineType(types: !2669)
 !2669 = !{!2670, !2671}
 !2670 = !DIDerivedType(tag: DW_TAG_pointer_type, name: "&std::io::error::Custom", baseType: !344, size: 64, align: 64, dwarfAddressSpace: 0)
@@ -11237,7 +11345,7 @@ attributes #12 = { noinline }
 !2674 = !DILocation(line: 115, column: 26, scope: !2667)
 !2675 = !DILocation(line: 118, column: 20, scope: !2667)
 !2676 = !DILocation(line: 119, column: 6, scope: !2667)
-!2677 = distinct !DISubprogram(name: "as_ptr<std::sys::unix::mutex::Mutex>", linkageName: "_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueNtNtNtNtCs2bNvlddUlXM_3std3sys4unix5mutex5MutexE6as_ptrCs37qxPUa7whq_20oneway_thread_access", scope: !806, file: !732, line: 105, type: !2678, scopeLine: 105, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !812, retainedNodes: !2681)
+!2677 = distinct !DISubprogram(name: "as_ptr<std::sys::unix::mutex::Mutex>", linkageName: "_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueNtNtNtNtCs2bNvlddUlXM_3std3sys4unix5mutex5MutexE6as_ptrCsdT7u4N7w2iC_20stack_map_and_mutate", scope: !806, file: !732, line: 105, type: !2678, scopeLine: 105, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !812, retainedNodes: !2681)
 !2678 = !DISubroutineType(types: !2679)
 !2679 = !{!2680, !806}
 !2680 = !DIDerivedType(tag: DW_TAG_pointer_type, name: "*mut std::sys::unix::mutex::Mutex", baseType: !144, size: 64, align: 64, dwarfAddressSpace: 0)
@@ -11246,7 +11354,7 @@ attributes #12 = { noinline }
 !2683 = !DILocation(line: 105, column: 25, scope: !2677)
 !2684 = !DILocation(line: 106, column: 9, scope: !2677)
 !2685 = !DILocation(line: 107, column: 6, scope: !2677)
-!2686 = distinct !DISubprogram(name: "as_ref<std::sys::unix::mutex::Mutex>", linkageName: "_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueNtNtNtNtCs2bNvlddUlXM_3std3sys4unix5mutex5MutexE6as_refCs37qxPUa7whq_20oneway_thread_access", scope: !806, file: !732, line: 115, type: !2687, scopeLine: 115, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !812, retainedNodes: !2691)
+!2686 = distinct !DISubprogram(name: "as_ref<std::sys::unix::mutex::Mutex>", linkageName: "_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueNtNtNtNtCs2bNvlddUlXM_3std3sys4unix5mutex5MutexE6as_refCsdT7u4N7w2iC_20stack_map_and_mutate", scope: !806, file: !732, line: 115, type: !2687, scopeLine: 115, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !812, retainedNodes: !2691)
 !2687 = !DISubroutineType(types: !2688)
 !2688 = !{!2689, !2690}
 !2689 = !DIDerivedType(tag: DW_TAG_pointer_type, name: "&std::sys::unix::mutex::Mutex", baseType: !144, size: 64, align: 64, dwarfAddressSpace: 0)
@@ -11256,7 +11364,7 @@ attributes #12 = { noinline }
 !2693 = !DILocation(line: 115, column: 26, scope: !2686)
 !2694 = !DILocation(line: 118, column: 20, scope: !2686)
 !2695 = !DILocation(line: 119, column: 6, scope: !2686)
-!2696 = distinct !DISubprogram(name: "as_ptr<[u8]>", linkageName: "_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueShE6as_ptrCs37qxPUa7whq_20oneway_thread_access", scope: !824, file: !732, line: 105, type: !2697, scopeLine: 105, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !833, retainedNodes: !2699)
+!2696 = distinct !DISubprogram(name: "as_ptr<[u8]>", linkageName: "_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueShE6as_ptrCsdT7u4N7w2iC_20stack_map_and_mutate", scope: !824, file: !732, line: 105, type: !2697, scopeLine: 105, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !833, retainedNodes: !2699)
 !2697 = !DISubroutineType(types: !2698)
 !2698 = !{!1666, !824}
 !2699 = !{!2700}
@@ -11264,7 +11372,7 @@ attributes #12 = { noinline }
 !2701 = !DILocation(line: 105, column: 25, scope: !2696)
 !2702 = !DILocation(line: 106, column: 9, scope: !2696)
 !2703 = !DILocation(line: 107, column: 6, scope: !2696)
-!2704 = distinct !DISubprogram(name: "as_ref<[u8]>", linkageName: "_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueShE6as_refCs37qxPUa7whq_20oneway_thread_access", scope: !824, file: !732, line: 115, type: !2705, scopeLine: 115, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !833, retainedNodes: !2712)
+!2704 = distinct !DISubprogram(name: "as_ref<[u8]>", linkageName: "_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueShE6as_refCsdT7u4N7w2iC_20stack_map_and_mutate", scope: !824, file: !732, line: 115, type: !2705, scopeLine: 115, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !833, retainedNodes: !2712)
 !2705 = !DISubroutineType(types: !2706)
 !2706 = !{!2707, !2711}
 !2707 = !DICompositeType(tag: DW_TAG_structure_type, name: "&[u8]", file: !2, size: 128, align: 64, elements: !2708, templateParams: !4, identifier: "585202bcfc7dfd1dd72e8befe2491ee4")
@@ -11277,7 +11385,7 @@ attributes #12 = { noinline }
 !2714 = !DILocation(line: 115, column: 26, scope: !2704)
 !2715 = !DILocation(line: 118, column: 20, scope: !2704)
 !2716 = !DILocation(line: 119, column: 6, scope: !2704)
-!2717 = distinct !DISubprogram(name: "new_unchecked<u8>", linkageName: "_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniquehE13new_uncheckedCs37qxPUa7whq_20oneway_thread_access", scope: !190, file: !732, line: 87, type: !2718, scopeLine: 87, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !176, retainedNodes: !2720)
+!2717 = distinct !DISubprogram(name: "new_unchecked<u8>", linkageName: "_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniquehE13new_uncheckedCsdT7u4N7w2iC_20stack_map_and_mutate", scope: !190, file: !732, line: 87, type: !2718, scopeLine: 87, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !176, retainedNodes: !2720)
 !2718 = !DISubroutineType(types: !2719)
 !2719 = !{!190, !259}
 !2720 = !{!2721}
@@ -11285,14 +11393,14 @@ attributes #12 = { noinline }
 !2722 = !DILocation(line: 87, column: 39, scope: !2717)
 !2723 = !DILocation(line: 89, column: 18, scope: !2717)
 !2724 = !DILocation(line: 90, column: 6, scope: !2717)
-!2725 = distinct !DISubprogram(name: "as_ptr<u8>", linkageName: "_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniquehE6as_ptrCs37qxPUa7whq_20oneway_thread_access", scope: !190, file: !732, line: 105, type: !2726, scopeLine: 105, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !176, retainedNodes: !2728)
+!2725 = distinct !DISubprogram(name: "as_ptr<u8>", linkageName: "_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniquehE6as_ptrCsdT7u4N7w2iC_20stack_map_and_mutate", scope: !190, file: !732, line: 105, type: !2726, scopeLine: 105, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !176, retainedNodes: !2728)
 !2726 = !DISubroutineType(types: !2727)
 !2727 = !{!259, !190}
 !2728 = !{!2729}
 !2729 = !DILocalVariable(name: "self", arg: 1, scope: !2725, file: !732, line: 105, type: !190)
 !2730 = !DILocation(line: 105, column: 25, scope: !2725)
 !2731 = !DILocation(line: 107, column: 6, scope: !2725)
-!2732 = distinct !DISubprogram(name: "as_ptr<alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>>>", linkageName: "_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtB9_4cell10UnsafeCellINtNtB9_6option6OptionINtNtB9_6result6ResultuINtNtBY_5boxed3BoxDNtNtB9_3any3AnyNtNtB9_6marker4SendEL_EEEEEE6as_ptrCs37qxPUa7whq_20oneway_thread_access", scope: !222, file: !854, line: 175, type: !2733, scopeLine: 175, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !284, retainedNodes: !2735)
+!2732 = distinct !DISubprogram(name: "as_ptr<alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>>>", linkageName: "_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtB9_4cell10UnsafeCellINtNtB9_6option6OptionINtNtB9_6result6ResultuINtNtBY_5boxed3BoxDNtNtB9_3any3AnyNtNtB9_6marker4SendEL_EEEEEE6as_ptrCsdT7u4N7w2iC_20stack_map_and_mutate", scope: !222, file: !854, line: 175, type: !2733, scopeLine: 175, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !284, retainedNodes: !2735)
 !2733 = !DISubroutineType(types: !2734)
 !2734 = !{!2643, !222}
 !2735 = !{!2736}
@@ -11300,7 +11408,7 @@ attributes #12 = { noinline }
 !2737 = !DILocation(line: 175, column: 25, scope: !2732)
 !2738 = !DILocation(line: 176, column: 9, scope: !2732)
 !2739 = !DILocation(line: 177, column: 6, scope: !2732)
-!2740 = distinct !DISubprogram(name: "as_ref<alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>>>", linkageName: "_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtB9_4cell10UnsafeCellINtNtB9_6option6OptionINtNtB9_6result6ResultuINtNtBY_5boxed3BoxDNtNtB9_3any3AnyNtNtB9_6marker4SendEL_EEEEEE6as_refCs37qxPUa7whq_20oneway_thread_access", scope: !222, file: !854, line: 209, type: !2741, scopeLine: 209, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !284, retainedNodes: !2744)
+!2740 = distinct !DISubprogram(name: "as_ref<alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>>>", linkageName: "_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtB9_4cell10UnsafeCellINtNtB9_6option6OptionINtNtB9_6result6ResultuINtNtBY_5boxed3BoxDNtNtB9_3any3AnyNtNtB9_6marker4SendEL_EEEEEE6as_refCsdT7u4N7w2iC_20stack_map_and_mutate", scope: !222, file: !854, line: 209, type: !2741, scopeLine: 209, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !284, retainedNodes: !2744)
 !2741 = !DISubroutineType(types: !2742)
 !2742 = !{!2652, !2743}
 !2743 = !DIDerivedType(tag: DW_TAG_pointer_type, name: "&core::ptr::non_null::NonNull<alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>>>", baseType: !222, size: 64, align: 64, dwarfAddressSpace: 0)
@@ -11309,7 +11417,7 @@ attributes #12 = { noinline }
 !2746 = !DILocation(line: 209, column: 26, scope: !2740)
 !2747 = !DILocation(line: 212, column: 20, scope: !2740)
 !2748 = !DILocation(line: 213, column: 6, scope: !2740)
-!2749 = distinct !DISubprogram(name: "as_ptr<alloc::sync::ArcInner<std::sync::mutex::Mutex<alloc::vec::Vec<u8, alloc::alloc::Global>>>>", linkageName: "_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtBY_3vec3VechEEEE6as_ptrCs37qxPUa7whq_20oneway_thread_access", scope: !125, file: !854, line: 175, type: !2750, scopeLine: 175, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !204, retainedNodes: !2753)
+!2749 = distinct !DISubprogram(name: "as_ptr<alloc::sync::ArcInner<std::sync::mutex::Mutex<alloc::vec::Vec<u8, alloc::alloc::Global>>>>", linkageName: "_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtBY_3vec3VechEEEE6as_ptrCsdT7u4N7w2iC_20stack_map_and_mutate", scope: !125, file: !854, line: 175, type: !2750, scopeLine: 175, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !204, retainedNodes: !2753)
 !2750 = !DISubroutineType(types: !2751)
 !2751 = !{!2752, !125}
 !2752 = !DIDerivedType(tag: DW_TAG_pointer_type, name: "*mut alloc::sync::ArcInner<std::sync::mutex::Mutex<alloc::vec::Vec<u8, alloc::alloc::Global>>>", baseType: !129, size: 64, align: 64, dwarfAddressSpace: 0)
@@ -11318,7 +11426,7 @@ attributes #12 = { noinline }
 !2755 = !DILocation(line: 175, column: 25, scope: !2749)
 !2756 = !DILocation(line: 176, column: 9, scope: !2749)
 !2757 = !DILocation(line: 177, column: 6, scope: !2749)
-!2758 = distinct !DISubprogram(name: "as_ref<alloc::sync::ArcInner<std::sync::mutex::Mutex<alloc::vec::Vec<u8, alloc::alloc::Global>>>>", linkageName: "_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtBY_3vec3VechEEEE6as_refCs37qxPUa7whq_20oneway_thread_access", scope: !125, file: !854, line: 209, type: !2759, scopeLine: 209, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !204, retainedNodes: !2763)
+!2758 = distinct !DISubprogram(name: "as_ref<alloc::sync::ArcInner<std::sync::mutex::Mutex<alloc::vec::Vec<u8, alloc::alloc::Global>>>>", linkageName: "_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtBY_3vec3VechEEEE6as_refCsdT7u4N7w2iC_20stack_map_and_mutate", scope: !125, file: !854, line: 209, type: !2759, scopeLine: 209, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !204, retainedNodes: !2763)
 !2759 = !DISubroutineType(types: !2760)
 !2760 = !{!2761, !2762}
 !2761 = !DIDerivedType(tag: DW_TAG_pointer_type, name: "&alloc::sync::ArcInner<std::sync::mutex::Mutex<alloc::vec::Vec<u8, alloc::alloc::Global>>>", baseType: !129, size: 64, align: 64, dwarfAddressSpace: 0)
@@ -11328,7 +11436,7 @@ attributes #12 = { noinline }
 !2765 = !DILocation(line: 209, column: 26, scope: !2758)
 !2766 = !DILocation(line: 212, column: 20, scope: !2758)
 !2767 = !DILocation(line: 213, column: 6, scope: !2758)
-!2768 = distinct !DISubprogram(name: "as_ptr<alloc::sync::ArcInner<std::thread::Inner>>", linkageName: "_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerNtNtCs2bNvlddUlXM_3std6thread5InnerEE6as_ptrCs37qxPUa7whq_20oneway_thread_access", scope: !20, file: !854, line: 175, type: !2769, scopeLine: 175, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !108, retainedNodes: !2772)
+!2768 = distinct !DISubprogram(name: "as_ptr<alloc::sync::ArcInner<std::thread::Inner>>", linkageName: "_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerNtNtCs2bNvlddUlXM_3std6thread5InnerEE6as_ptrCsdT7u4N7w2iC_20stack_map_and_mutate", scope: !20, file: !854, line: 175, type: !2769, scopeLine: 175, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !108, retainedNodes: !2772)
 !2769 = !DISubroutineType(types: !2770)
 !2770 = !{!2771, !20}
 !2771 = !DIDerivedType(tag: DW_TAG_pointer_type, name: "*mut alloc::sync::ArcInner<std::thread::Inner>", baseType: !27, size: 64, align: 64, dwarfAddressSpace: 0)
@@ -11337,7 +11445,7 @@ attributes #12 = { noinline }
 !2774 = !DILocation(line: 175, column: 25, scope: !2768)
 !2775 = !DILocation(line: 176, column: 9, scope: !2768)
 !2776 = !DILocation(line: 177, column: 6, scope: !2768)
-!2777 = distinct !DISubprogram(name: "as_ref<alloc::sync::ArcInner<std::thread::Inner>>", linkageName: "_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerNtNtCs2bNvlddUlXM_3std6thread5InnerEE6as_refCs37qxPUa7whq_20oneway_thread_access", scope: !20, file: !854, line: 209, type: !2778, scopeLine: 209, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !108, retainedNodes: !2782)
+!2777 = distinct !DISubprogram(name: "as_ref<alloc::sync::ArcInner<std::thread::Inner>>", linkageName: "_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerNtNtCs2bNvlddUlXM_3std6thread5InnerEE6as_refCsdT7u4N7w2iC_20stack_map_and_mutate", scope: !20, file: !854, line: 209, type: !2778, scopeLine: 209, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !108, retainedNodes: !2782)
 !2778 = !DISubroutineType(types: !2779)
 !2779 = !{!2780, !2781}
 !2780 = !DIDerivedType(tag: DW_TAG_pointer_type, name: "&alloc::sync::ArcInner<std::thread::Inner>", baseType: !27, size: 64, align: 64, dwarfAddressSpace: 0)
@@ -11347,7 +11455,7 @@ attributes #12 = { noinline }
 !2784 = !DILocation(line: 209, column: 26, scope: !2777)
 !2785 = !DILocation(line: 212, column: 20, scope: !2777)
 !2786 = !DILocation(line: 213, column: 6, scope: !2777)
-!2787 = distinct !DISubprogram(name: "new_unchecked<[u8]>", linkageName: "_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullShE13new_uncheckedCs37qxPUa7whq_20oneway_thread_access", scope: !2357, file: !854, line: 154, type: !2788, scopeLine: 154, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !833, retainedNodes: !2790)
+!2787 = distinct !DISubprogram(name: "new_unchecked<[u8]>", linkageName: "_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullShE13new_uncheckedCsdT7u4N7w2iC_20stack_map_and_mutate", scope: !2357, file: !854, line: 154, type: !2788, scopeLine: 154, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !833, retainedNodes: !2790)
 !2788 = !DISubroutineType(types: !2789)
 !2789 = !{!2357, !1666}
 !2790 = !{!2791}
@@ -11355,7 +11463,7 @@ attributes #12 = { noinline }
 !2792 = !DILocation(line: 154, column: 39, scope: !2787)
 !2793 = !DILocation(line: 156, column: 18, scope: !2787)
 !2794 = !DILocation(line: 157, column: 6, scope: !2787)
-!2795 = distinct !DISubprogram(name: "as_ptr<[u8]>", linkageName: "_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullShE6as_ptrCs37qxPUa7whq_20oneway_thread_access", scope: !2357, file: !854, line: 175, type: !2796, scopeLine: 175, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !833, retainedNodes: !2798)
+!2795 = distinct !DISubprogram(name: "as_ptr<[u8]>", linkageName: "_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullShE6as_ptrCsdT7u4N7w2iC_20stack_map_and_mutate", scope: !2357, file: !854, line: 175, type: !2796, scopeLine: 175, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !833, retainedNodes: !2798)
 !2796 = !DISubroutineType(types: !2797)
 !2797 = !{!1666, !2357}
 !2798 = !{!2799}
@@ -11363,7 +11471,7 @@ attributes #12 = { noinline }
 !2800 = !DILocation(line: 175, column: 25, scope: !2795)
 !2801 = !DILocation(line: 176, column: 9, scope: !2795)
 !2802 = !DILocation(line: 177, column: 6, scope: !2795)
-!2803 = distinct !DISubprogram(name: "new_unchecked<u8>", linkageName: "_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullhE13new_uncheckedCs37qxPUa7whq_20oneway_thread_access", scope: !600, file: !854, line: 154, type: !2804, scopeLine: 154, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !176, retainedNodes: !2806)
+!2803 = distinct !DISubprogram(name: "new_unchecked<u8>", linkageName: "_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullhE13new_uncheckedCsdT7u4N7w2iC_20stack_map_and_mutate", scope: !600, file: !854, line: 154, type: !2804, scopeLine: 154, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !176, retainedNodes: !2806)
 !2804 = !DISubroutineType(types: !2805)
 !2805 = !{!600, !259}
 !2806 = !{!2807}
@@ -11371,7 +11479,7 @@ attributes #12 = { noinline }
 !2808 = !DILocation(line: 154, column: 39, scope: !2803)
 !2809 = !DILocation(line: 156, column: 18, scope: !2803)
 !2810 = !DILocation(line: 157, column: 6, scope: !2803)
-!2811 = distinct !DISubprogram(name: "new<u8>", linkageName: "_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullhE3newCs37qxPUa7whq_20oneway_thread_access", scope: !600, file: !854, line: 162, type: !2812, scopeLine: 162, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !176, retainedNodes: !2814)
+!2811 = distinct !DISubprogram(name: "new<u8>", linkageName: "_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullhE3newCsdT7u4N7w2iC_20stack_map_and_mutate", scope: !600, file: !854, line: 162, type: !2812, scopeLine: 162, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !176, retainedNodes: !2814)
 !2812 = !DISubroutineType(types: !2813)
 !2813 = !{!592, !259}
 !2814 = !{!2815}
@@ -11384,14 +11492,14 @@ attributes #12 = { noinline }
 !2821 = !DILocation(line: 167, column: 13, scope: !2811)
 !2822 = !DILocation(line: 165, column: 13, scope: !2811)
 !2823 = !DILocation(line: 169, column: 6, scope: !2811)
-!2824 = distinct !DISubprogram(name: "as_ptr<u8>", linkageName: "_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullhE6as_ptrCs37qxPUa7whq_20oneway_thread_access", scope: !600, file: !854, line: 175, type: !2825, scopeLine: 175, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !176, retainedNodes: !2827)
+!2824 = distinct !DISubprogram(name: "as_ptr<u8>", linkageName: "_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullhE6as_ptrCsdT7u4N7w2iC_20stack_map_and_mutate", scope: !600, file: !854, line: 175, type: !2825, scopeLine: 175, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !176, retainedNodes: !2827)
 !2825 = !DISubroutineType(types: !2826)
 !2826 = !{!259, !600}
 !2827 = !{!2828}
 !2828 = !DILocalVariable(name: "self", arg: 1, scope: !2824, file: !854, line: 175, type: !600)
 !2829 = !DILocation(line: 175, column: 25, scope: !2824)
 !2830 = !DILocation(line: 177, column: 6, scope: !2824)
-!2831 = distinct !DISubprogram(name: "from_inner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>>", linkageName: "_RNvMs2_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtBL_6option6OptionINtNtBL_6result6ResultuINtNtB7_5boxed3BoxDNtNtBL_3any3AnyNtNtBL_6marker4SendEL_EEEEE10from_innerCs37qxPUa7whq_20oneway_thread_access", scope: !219, file: !2832, line: 242, type: !2833, scopeLine: 242, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !282, retainedNodes: !2835)
+!2831 = distinct !DISubprogram(name: "from_inner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>>", linkageName: "_RNvMs2_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtBL_6option6OptionINtNtBL_6result6ResultuINtNtB7_5boxed3BoxDNtNtBL_3any3AnyNtNtBL_6marker4SendEL_EEEEE10from_innerCsdT7u4N7w2iC_20stack_map_and_mutate", scope: !219, file: !2832, line: 242, type: !2833, scopeLine: 242, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !282, retainedNodes: !2835)
 !2832 = !DIFile(filename: "/rustc/e38fb306b7f5e65cca34df2dab1f0db15e1defb4/library/alloc/src/sync.rs", directory: "", checksumkind: CSK_MD5, checksum: "f9dacf1821713e5e07d5fe77686a1160")
 !2833 = !DISubroutineType(types: !2834)
 !2834 = !{!219, !222}
@@ -11400,7 +11508,7 @@ attributes #12 = { noinline }
 !2837 = !DILocation(line: 242, column: 19, scope: !2831)
 !2838 = !DILocation(line: 243, column: 9, scope: !2831)
 !2839 = !DILocation(line: 244, column: 6, scope: !2831)
-!2840 = distinct !DISubprogram(name: "from_inner<std::sync::mutex::Mutex<alloc::vec::Vec<u8, alloc::alloc::Global>>>", linkageName: "_RNvMs2_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtB7_3vec3VechEEE10from_innerCs37qxPUa7whq_20oneway_thread_access", scope: !122, file: !2832, line: 242, type: !2841, scopeLine: 242, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !202, retainedNodes: !2843)
+!2840 = distinct !DISubprogram(name: "from_inner<std::sync::mutex::Mutex<alloc::vec::Vec<u8, alloc::alloc::Global>>>", linkageName: "_RNvMs2_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtB7_3vec3VechEEE10from_innerCsdT7u4N7w2iC_20stack_map_and_mutate", scope: !122, file: !2832, line: 242, type: !2841, scopeLine: 242, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !202, retainedNodes: !2843)
 !2841 = !DISubroutineType(types: !2842)
 !2842 = !{!122, !125}
 !2843 = !{!2844}
@@ -11408,7 +11516,7 @@ attributes #12 = { noinline }
 !2845 = !DILocation(line: 242, column: 19, scope: !2840)
 !2846 = !DILocation(line: 243, column: 9, scope: !2840)
 !2847 = !DILocation(line: 244, column: 6, scope: !2840)
-!2848 = distinct !DISubprogram(name: "from_inner<std::thread::Inner>", linkageName: "_RNvMs2_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcNtNtCs2bNvlddUlXM_3std6thread5InnerE10from_innerCs37qxPUa7whq_20oneway_thread_access", scope: !15, file: !2832, line: 242, type: !2849, scopeLine: 242, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !106, retainedNodes: !2851)
+!2848 = distinct !DISubprogram(name: "from_inner<std::thread::Inner>", linkageName: "_RNvMs2_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcNtNtCs2bNvlddUlXM_3std6thread5InnerE10from_innerCsdT7u4N7w2iC_20stack_map_and_mutate", scope: !15, file: !2832, line: 242, type: !2849, scopeLine: 242, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !106, retainedNodes: !2851)
 !2849 = !DISubroutineType(types: !2850)
 !2850 = !{!15, !20}
 !2851 = !{!2852}
@@ -11416,7 +11524,7 @@ attributes #12 = { noinline }
 !2853 = !DILocation(line: 242, column: 19, scope: !2848)
 !2854 = !DILocation(line: 243, column: 9, scope: !2848)
 !2855 = !DILocation(line: 244, column: 6, scope: !2848)
-!2856 = distinct !DISubprogram(name: "as_mut_ptr<u8>", linkageName: "_RNvMs2_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullShE10as_mut_ptrCs37qxPUa7whq_20oneway_thread_access", scope: !2357, file: !854, line: 349, type: !2857, scopeLine: 349, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !176, retainedNodes: !2859)
+!2856 = distinct !DISubprogram(name: "as_mut_ptr<u8>", linkageName: "_RNvMs2_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullShE10as_mut_ptrCsdT7u4N7w2iC_20stack_map_and_mutate", scope: !2357, file: !854, line: 349, type: !2857, scopeLine: 349, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !176, retainedNodes: !2859)
 !2857 = !DISubroutineType(types: !2858)
 !2858 = !{!259, !2357}
 !2859 = !{!2860}
@@ -11424,7 +11532,7 @@ attributes #12 = { noinline }
 !2861 = !DILocation(line: 349, column: 29, scope: !2856)
 !2862 = !DILocation(line: 350, column: 9, scope: !2856)
 !2863 = !DILocation(line: 351, column: 6, scope: !2856)
-!2864 = distinct !DISubprogram(name: "as_non_null_ptr<u8>", linkageName: "_RNvMs2_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullShE15as_non_null_ptrCs37qxPUa7whq_20oneway_thread_access", scope: !2357, file: !854, line: 330, type: !2865, scopeLine: 330, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !176, retainedNodes: !2867)
+!2864 = distinct !DISubprogram(name: "as_non_null_ptr<u8>", linkageName: "_RNvMs2_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullShE15as_non_null_ptrCsdT7u4N7w2iC_20stack_map_and_mutate", scope: !2357, file: !854, line: 330, type: !2865, scopeLine: 330, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !176, retainedNodes: !2867)
 !2865 = !DISubroutineType(types: !2866)
 !2866 = !{!600, !2357}
 !2867 = !{!2868}
@@ -11433,7 +11541,7 @@ attributes #12 = { noinline }
 !2870 = !DILocation(line: 332, column: 41, scope: !2864)
 !2871 = !DILocation(line: 332, column: 18, scope: !2864)
 !2872 = !DILocation(line: 333, column: 6, scope: !2864)
-!2873 = distinct !DISubprogram(name: "slice_from_raw_parts<u8>", linkageName: "_RNvMs2_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullShE20slice_from_raw_partsCs37qxPUa7whq_20oneway_thread_access", scope: !2357, file: !854, line: 288, type: !2874, scopeLine: 288, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !176, retainedNodes: !2876)
+!2873 = distinct !DISubprogram(name: "slice_from_raw_parts<u8>", linkageName: "_RNvMs2_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullShE20slice_from_raw_partsCsdT7u4N7w2iC_20stack_map_and_mutate", scope: !2357, file: !854, line: 288, type: !2874, scopeLine: 288, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !176, retainedNodes: !2876)
 !2874 = !DISubroutineType(types: !2875)
 !2875 = !{!2357, !600, !39}
 !2876 = !{!2877, !2878}
@@ -11445,7 +11553,7 @@ attributes #12 = { noinline }
 !2882 = !DILocation(line: 290, column: 38, scope: !2873)
 !2883 = !DILocation(line: 290, column: 18, scope: !2873)
 !2884 = !DILocation(line: 291, column: 6, scope: !2873)
-!2885 = distinct !DISubprogram(name: "expect<std::thread::JoinHandle<()>,std::io::error::Error>", linkageName: "_RNvMs3_NtCs3p84KrD9aKt_4core6resultINtB5_6ResultINtNtCs2bNvlddUlXM_3std6thread10JoinHandleuENtNtNtBP_2io5error5ErrorE6expectCs37qxPUa7whq_20oneway_thread_access", scope: !422, file: !2886, line: 926, type: !2887, scopeLine: 926, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !458, retainedNodes: !2889)
+!2885 = distinct !DISubprogram(name: "expect<std::thread::JoinHandle<()>,std::io::error::Error>", linkageName: "_RNvMs3_NtCs3p84KrD9aKt_4core6resultINtB5_6ResultINtNtCs2bNvlddUlXM_3std6thread10JoinHandleuENtNtNtBP_2io5error5ErrorE6expectCsdT7u4N7w2iC_20stack_map_and_mutate", scope: !422, file: !2886, line: 926, type: !2887, scopeLine: 926, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !458, retainedNodes: !2889)
 !2886 = !DIFile(filename: "/rustc/e38fb306b7f5e65cca34df2dab1f0db15e1defb4/library/core/src/result.rs", directory: "", checksumkind: CSK_MD5, checksum: "3454b54db8f644e9ee009e9fd7e31fa5")
 !2887 = !DISubroutineType(types: !2888)
 !2888 = !{!430, !422, !2309, !2304}
@@ -11469,7 +11577,7 @@ attributes #12 = { noinline }
 !2906 = !DILocation(line: 931, column: 6, scope: !2885)
 !2907 = !DILocation(line: 929, column: 44, scope: !2885)
 !2908 = !DILocation(line: 926, column: 5, scope: !2885)
-!2909 = distinct !DISubprogram(name: "join<()>", linkageName: "_RNvMs4_NtCs2bNvlddUlXM_3std6threadINtB5_9JoinInneruE4joinCs37qxPUa7whq_20oneway_thread_access", scope: !433, file: !389, line: 1248, type: !2910, scopeLine: 1248, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !457, retainedNodes: !2913)
+!2909 = distinct !DISubprogram(name: "join<()>", linkageName: "_RNvMs4_NtCs2bNvlddUlXM_3std6threadINtB5_9JoinInneruE4joinCsdT7u4N7w2iC_20stack_map_and_mutate", scope: !433, file: !389, line: 1248, type: !2910, scopeLine: 1248, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !457, retainedNodes: !2913)
 !2910 = !DISubroutineType(types: !2911)
 !2911 = !{!242, !2912}
 !2912 = !DIDerivedType(tag: DW_TAG_pointer_type, name: "&mut std::thread::JoinInner<()>", baseType: !433, size: 64, align: 64, dwarfAddressSpace: 0)
@@ -11480,7 +11588,7 @@ attributes #12 = { noinline }
 !2917 = !DILocation(line: 1250, column: 20, scope: !2909)
 !2918 = !DILocation(line: 1250, column: 18, scope: !2909)
 !2919 = !DILocation(line: 1251, column: 6, scope: !2909)
-!2920 = distinct !DISubprogram(name: "leak<alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>>,alloc::alloc::Global>", linkageName: "_RNvMs5_NtCs8RW06R9lH2S_5alloc5boxedINtB5_3BoxINtNtB7_4sync8ArcInnerINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtB18_6option6OptionINtNtB18_6result6ResultuIBy_DNtNtB18_3any3AnyNtNtB18_6marker4SendEL_EEEEEE4leakCs37qxPUa7whq_20oneway_thread_access", scope: !527, file: !526, line: 948, type: !2921, scopeLine: 948, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !1974, retainedNodes: !2925)
+!2920 = distinct !DISubprogram(name: "leak<alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>>,alloc::alloc::Global>", linkageName: "_RNvMs5_NtCs8RW06R9lH2S_5alloc5boxedINtB5_3BoxINtNtB7_4sync8ArcInnerINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtB18_6option6OptionINtNtB18_6result6ResultuIBy_DNtNtB18_3any3AnyNtNtB18_6marker4SendEL_EEEEEE4leakCsdT7u4N7w2iC_20stack_map_and_mutate", scope: !527, file: !526, line: 948, type: !2921, scopeLine: 948, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !1974, retainedNodes: !2925)
 !2921 = !DISubroutineType(types: !2922)
 !2922 = !{!2923, !2924}
 !2923 = !DIDerivedType(tag: DW_TAG_pointer_type, name: "&mut alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>>", baseType: !226, size: 64, align: 64, dwarfAddressSpace: 0)
@@ -11489,10 +11597,10 @@ attributes #12 = { noinline }
 !2926 = !DILocalVariable(name: "b", arg: 1, scope: !2920, file: !526, line: 948, type: !2924)
 !2927 = !DILocation(line: 948, column: 21, scope: !2920)
 !2928 = !{!2929}
-!2929 = distinct !{!2929, !2930, !"_RNvMNtNtCs3p84KrD9aKt_4core3mem13manually_dropINtB2_12ManuallyDropINtNtCs8RW06R9lH2S_5alloc5boxed3BoxINtNtB17_4sync8ArcInnerINtNtB6_4cell10UnsafeCellINtNtB6_6option6OptionINtNtB6_6result6ResultuIB13_DNtNtB6_3any3AnyNtNtB6_6marker4SendEL_EEEEEEE3newCs37qxPUa7whq_20oneway_thread_access: %value"}
-!2930 = distinct !{!2930, !"_RNvMNtNtCs3p84KrD9aKt_4core3mem13manually_dropINtB2_12ManuallyDropINtNtCs8RW06R9lH2S_5alloc5boxed3BoxINtNtB17_4sync8ArcInnerINtNtB6_4cell10UnsafeCellINtNtB6_6option6OptionINtNtB6_6result6ResultuIB13_DNtNtB6_3any3AnyNtNtB6_6marker4SendEL_EEEEEEE3newCs37qxPUa7whq_20oneway_thread_access"}
+!2929 = distinct !{!2929, !2930, !"_RNvMNtNtCs3p84KrD9aKt_4core3mem13manually_dropINtB2_12ManuallyDropINtNtCs8RW06R9lH2S_5alloc5boxed3BoxINtNtB17_4sync8ArcInnerINtNtB6_4cell10UnsafeCellINtNtB6_6option6OptionINtNtB6_6result6ResultuIB13_DNtNtB6_3any3AnyNtNtB6_6marker4SendEL_EEEEEEE3newCsdT7u4N7w2iC_20stack_map_and_mutate: %value"}
+!2930 = distinct !{!2930, !"_RNvMNtNtCs3p84KrD9aKt_4core3mem13manually_dropINtB2_12ManuallyDropINtNtCs8RW06R9lH2S_5alloc5boxed3BoxINtNtB17_4sync8ArcInnerINtNtB6_4cell10UnsafeCellINtNtB6_6option6OptionINtNtB6_6result6ResultuIB13_DNtNtB6_3any3AnyNtNtB6_6marker4SendEL_EEEEEEE3newCsdT7u4N7w2iC_20stack_map_and_mutate"}
 !2931 = !DILocalVariable(name: "value", arg: 1, scope: !2932, file: !1009, line: 69, type: !2924)
-!2932 = distinct !DISubprogram(name: "new<alloc::boxed::Box<alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>>, alloc::alloc::Global>>", linkageName: "_RNvMNtNtCs3p84KrD9aKt_4core3mem13manually_dropINtB2_12ManuallyDropINtNtCs8RW06R9lH2S_5alloc5boxed3BoxINtNtB17_4sync8ArcInnerINtNtB6_4cell10UnsafeCellINtNtB6_6option6OptionINtNtB6_6result6ResultuIB13_DNtNtB6_3any3AnyNtNtB6_6marker4SendEL_EEEEEEE3newCs37qxPUa7whq_20oneway_thread_access", scope: !2933, file: !1009, line: 69, type: !2938, scopeLine: 69, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !2936, retainedNodes: !2940)
+!2932 = distinct !DISubprogram(name: "new<alloc::boxed::Box<alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>>, alloc::alloc::Global>>", linkageName: "_RNvMNtNtCs3p84KrD9aKt_4core3mem13manually_dropINtB2_12ManuallyDropINtNtCs8RW06R9lH2S_5alloc5boxed3BoxINtNtB17_4sync8ArcInnerINtNtB6_4cell10UnsafeCellINtNtB6_6option6OptionINtNtB6_6result6ResultuIB13_DNtNtB6_3any3AnyNtNtB6_6marker4SendEL_EEEEEEE3newCsdT7u4N7w2iC_20stack_map_and_mutate", scope: !2933, file: !1009, line: 69, type: !2938, scopeLine: 69, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !2936, retainedNodes: !2940)
 !2933 = !DICompositeType(tag: DW_TAG_structure_type, name: "ManuallyDrop<alloc::boxed::Box<alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>>, alloc::alloc::Global>>", scope: !986, file: !2, size: 64, align: 64, elements: !2934, templateParams: !2936, identifier: "1aaa5612fda101b7ed0c332d3412d168")
 !2934 = !{!2935}
 !2935 = !DIDerivedType(tag: DW_TAG_member, name: "value", scope: !2933, file: !2, baseType: !2924, size: 64, align: 64)
@@ -11507,10 +11615,10 @@ attributes #12 = { noinline }
 !2944 = !DILocation(line: 71, column: 6, scope: !2932, inlinedAt: !2942)
 !2945 = !DILocation(line: 952, column: 24, scope: !2920)
 !2946 = !{!2947}
-!2947 = distinct !{!2947, !2948, !"_RNvXs0_NtNtCs3p84KrD9aKt_4core3mem13manually_dropINtB5_12ManuallyDropINtNtCs8RW06R9lH2S_5alloc5boxed3BoxINtNtB1a_4sync8ArcInnerINtNtB9_4cell10UnsafeCellINtNtB9_6option6OptionINtNtB9_6result6ResultuIB16_DNtNtB9_3any3AnyNtNtB9_6marker4SendEL_EEEEEEENtNtNtB9_3ops5deref5Deref5derefCs37qxPUa7whq_20oneway_thread_access: %self"}
-!2948 = distinct !{!2948, !"_RNvXs0_NtNtCs3p84KrD9aKt_4core3mem13manually_dropINtB5_12ManuallyDropINtNtCs8RW06R9lH2S_5alloc5boxed3BoxINtNtB1a_4sync8ArcInnerINtNtB9_4cell10UnsafeCellINtNtB9_6option6OptionINtNtB9_6result6ResultuIB16_DNtNtB9_3any3AnyNtNtB9_6marker4SendEL_EEEEEEENtNtNtB9_3ops5deref5Deref5derefCs37qxPUa7whq_20oneway_thread_access"}
+!2947 = distinct !{!2947, !2948, !"_RNvXs0_NtNtCs3p84KrD9aKt_4core3mem13manually_dropINtB5_12ManuallyDropINtNtCs8RW06R9lH2S_5alloc5boxed3BoxINtNtB1a_4sync8ArcInnerINtNtB9_4cell10UnsafeCellINtNtB9_6option6OptionINtNtB9_6result6ResultuIB16_DNtNtB9_3any3AnyNtNtB9_6marker4SendEL_EEEEEEENtNtNtB9_3ops5deref5Deref5derefCsdT7u4N7w2iC_20stack_map_and_mutate: %self"}
+!2948 = distinct !{!2948, !"_RNvXs0_NtNtCs3p84KrD9aKt_4core3mem13manually_dropINtB5_12ManuallyDropINtNtCs8RW06R9lH2S_5alloc5boxed3BoxINtNtB1a_4sync8ArcInnerINtNtB9_4cell10UnsafeCellINtNtB9_6option6OptionINtNtB9_6result6ResultuIB16_DNtNtB9_3any3AnyNtNtB9_6marker4SendEL_EEEEEEENtNtNtB9_3ops5deref5Deref5derefCsdT7u4N7w2iC_20stack_map_and_mutate"}
 !2949 = !DILocalVariable(name: "self", arg: 1, scope: !2950, file: !1009, line: 151, type: !2955)
-!2950 = distinct !DISubprogram(name: "deref<alloc::boxed::Box<alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>>, alloc::alloc::Global>>", linkageName: "_RNvXs0_NtNtCs3p84KrD9aKt_4core3mem13manually_dropINtB5_12ManuallyDropINtNtCs8RW06R9lH2S_5alloc5boxed3BoxINtNtB1a_4sync8ArcInnerINtNtB9_4cell10UnsafeCellINtNtB9_6option6OptionINtNtB9_6result6ResultuIB16_DNtNtB9_3any3AnyNtNtB9_6marker4SendEL_EEEEEEENtNtNtB9_3ops5deref5Deref5derefCs37qxPUa7whq_20oneway_thread_access", scope: !2951, file: !1009, line: 151, type: !2952, scopeLine: 151, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !2936, retainedNodes: !2956)
+!2950 = distinct !DISubprogram(name: "deref<alloc::boxed::Box<alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>>, alloc::alloc::Global>>", linkageName: "_RNvXs0_NtNtCs3p84KrD9aKt_4core3mem13manually_dropINtB5_12ManuallyDropINtNtCs8RW06R9lH2S_5alloc5boxed3BoxINtNtB1a_4sync8ArcInnerINtNtB9_4cell10UnsafeCellINtNtB9_6option6OptionINtNtB9_6result6ResultuIB16_DNtNtB9_3any3AnyNtNtB9_6marker4SendEL_EEEEEEENtNtNtB9_3ops5deref5Deref5derefCsdT7u4N7w2iC_20stack_map_and_mutate", scope: !2951, file: !1009, line: 151, type: !2952, scopeLine: 151, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !2936, retainedNodes: !2956)
 !2951 = !DINamespace(name: "{{impl}}", scope: !986)
 !2952 = !DISubroutineType(types: !2953)
 !2953 = !{!2954, !2955}
@@ -11521,7 +11629,7 @@ attributes #12 = { noinline }
 !2958 = distinct !DILocation(line: 952, column: 24, scope: !2920)
 !2959 = !DILocation(line: 152, column: 9, scope: !2950, inlinedAt: !2958)
 !2960 = !DILocation(line: 953, column: 6, scope: !2920)
-!2961 = distinct !DISubprogram(name: "join<()>", linkageName: "_RNvMs7_NtCs2bNvlddUlXM_3std6threadINtB5_10JoinHandleuE4joinCs37qxPUa7whq_20oneway_thread_access", scope: !430, file: !389, line: 1377, type: !2962, scopeLine: 1377, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !457, retainedNodes: !2964)
+!2961 = distinct !DISubprogram(name: "join<()>", linkageName: "_RNvMs7_NtCs2bNvlddUlXM_3std6threadINtB5_10JoinHandleuE4joinCsdT7u4N7w2iC_20stack_map_and_mutate", scope: !430, file: !389, line: 1377, type: !2962, scopeLine: 1377, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !457, retainedNodes: !2964)
 !2962 = !DISubroutineType(types: !2963)
 !2963 = !{!242, !430}
 !2964 = !{!2965}
@@ -11531,7 +11639,7 @@ attributes #12 = { noinline }
 !2968 = !DILocation(line: 1379, column: 5, scope: !2961)
 !2969 = !DILocation(line: 1379, column: 6, scope: !2961)
 !2970 = !DILocation(line: 1377, column: 5, scope: !2961)
-!2971 = distinct !DISubprogram(name: "as_i32", linkageName: "_RNvMs7_NtNtNtNtCs2bNvlddUlXM_3std3sys4unix7process14process_commonNtB5_8ExitCode6as_i32Cs37qxPUa7whq_20oneway_thread_access", scope: !2973, file: !2972, line: 429, type: !2978, scopeLine: 429, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !4, retainedNodes: !2981)
+!2971 = distinct !DISubprogram(name: "as_i32", linkageName: "_RNvMs7_NtNtNtNtCs2bNvlddUlXM_3std3sys4unix7process14process_commonNtB5_8ExitCode6as_i32CsdT7u4N7w2iC_20stack_map_and_mutate", scope: !2973, file: !2972, line: 429, type: !2978, scopeLine: 429, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !4, retainedNodes: !2981)
 !2972 = !DIFile(filename: "/rustc/e38fb306b7f5e65cca34df2dab1f0db15e1defb4/library/std/src/sys/unix/process/process_common.rs", directory: "", checksumkind: CSK_MD5, checksum: "0e90531be854973cc338b563f3ec214e")
 !2973 = !DICompositeType(tag: DW_TAG_structure_type, name: "ExitCode", scope: !2974, file: !2, size: 8, align: 8, elements: !2976, templateParams: !4, identifier: "98156806465d6b5f23325078019b1cb6")
 !2974 = !DINamespace(name: "process_common", scope: !2975)
@@ -11546,7 +11654,7 @@ attributes #12 = { noinline }
 !2983 = !DILocation(line: 429, column: 19, scope: !2971)
 !2984 = !DILocation(line: 430, column: 9, scope: !2971)
 !2985 = !DILocation(line: 431, column: 6, scope: !2971)
-!2986 = distinct !DISubprogram(name: "new<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>", linkageName: "_RNvMsJ_NtCs3p84KrD9aKt_4core4cellINtB5_10UnsafeCellINtNtB7_6option6OptionINtNtB7_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB7_3any3AnyNtNtB7_6marker4SendEL_EEEE3newCs37qxPUa7whq_20oneway_thread_access", scope: !231, file: !2987, line: 1666, type: !2988, scopeLine: 1666, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !280, retainedNodes: !2990)
+!2986 = distinct !DISubprogram(name: "new<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>", linkageName: "_RNvMsJ_NtCs3p84KrD9aKt_4core4cellINtB5_10UnsafeCellINtNtB7_6option6OptionINtNtB7_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB7_3any3AnyNtNtB7_6marker4SendEL_EEEE3newCsdT7u4N7w2iC_20stack_map_and_mutate", scope: !231, file: !2987, line: 1666, type: !2988, scopeLine: 1666, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !280, retainedNodes: !2990)
 !2987 = !DIFile(filename: "/rustc/e38fb306b7f5e65cca34df2dab1f0db15e1defb4/library/core/src/cell.rs", directory: "", checksumkind: CSK_MD5, checksum: "e295056d9b3dcb448946702a86c18240")
 !2988 = !DISubroutineType(types: !2989)
 !2989 = !{!231, !234}
@@ -11556,7 +11664,7 @@ attributes #12 = { noinline }
 !2993 = !DILocation(line: 1667, column: 22, scope: !2986)
 !2994 = !DILocation(line: 1667, column: 9, scope: !2986)
 !2995 = !DILocation(line: 1668, column: 6, scope: !2986)
-!2996 = distinct !DISubprogram(name: "new<usize>", linkageName: "_RNvMsJ_NtCs3p84KrD9aKt_4core4cellINtB5_10UnsafeCelljE3newCs37qxPUa7whq_20oneway_thread_access", scope: !35, file: !2987, line: 1666, type: !2997, scopeLine: 1666, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !40, retainedNodes: !2999)
+!2996 = distinct !DISubprogram(name: "new<usize>", linkageName: "_RNvMsJ_NtCs3p84KrD9aKt_4core4cellINtB5_10UnsafeCelljE3newCsdT7u4N7w2iC_20stack_map_and_mutate", scope: !35, file: !2987, line: 1666, type: !2997, scopeLine: 1666, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !40, retainedNodes: !2999)
 !2997 = !DISubroutineType(types: !2998)
 !2998 = !{!35, !39}
 !2999 = !{!3000}
@@ -11564,7 +11672,7 @@ attributes #12 = { noinline }
 !3001 = !DILocation(line: 1666, column: 22, scope: !2996)
 !3002 = !DILocation(line: 1667, column: 9, scope: !2996)
 !3003 = !DILocation(line: 1668, column: 6, scope: !2996)
-!3004 = distinct !DISubprogram(name: "get<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>", linkageName: "_RNvMsK_NtCs3p84KrD9aKt_4core4cellINtB5_10UnsafeCellINtNtB7_6option6OptionINtNtB7_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB7_3any3AnyNtNtB7_6marker4SendEL_EEEE3getCs37qxPUa7whq_20oneway_thread_access", scope: !231, file: !2987, line: 1709, type: !3005, scopeLine: 1709, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !280, retainedNodes: !3008)
+!3004 = distinct !DISubprogram(name: "get<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>", linkageName: "_RNvMsK_NtCs3p84KrD9aKt_4core4cellINtB5_10UnsafeCellINtNtB7_6option6OptionINtNtB7_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB7_3any3AnyNtNtB7_6marker4SendEL_EEEE3getCsdT7u4N7w2iC_20stack_map_and_mutate", scope: !231, file: !2987, line: 1709, type: !3005, scopeLine: 1709, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !280, retainedNodes: !3008)
 !3005 = !DISubroutineType(types: !3006)
 !3006 = !{!1055, !3007}
 !3007 = !DIDerivedType(tag: DW_TAG_pointer_type, name: "&core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>", baseType: !231, size: 64, align: 64, dwarfAddressSpace: 0)
@@ -11573,7 +11681,7 @@ attributes #12 = { noinline }
 !3010 = !DILocation(line: 1709, column: 22, scope: !3004)
 !3011 = !DILocation(line: 1713, column: 9, scope: !3004)
 !3012 = !DILocation(line: 1714, column: 6, scope: !3004)
-!3013 = distinct !DISubprogram(name: "get<usize>", linkageName: "_RNvMsK_NtCs3p84KrD9aKt_4core4cellINtB5_10UnsafeCelljE3getCs37qxPUa7whq_20oneway_thread_access", scope: !35, file: !2987, line: 1709, type: !3014, scopeLine: 1709, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !40, retainedNodes: !3017)
+!3013 = distinct !DISubprogram(name: "get<usize>", linkageName: "_RNvMsK_NtCs3p84KrD9aKt_4core4cellINtB5_10UnsafeCelljE3getCsdT7u4N7w2iC_20stack_map_and_mutate", scope: !35, file: !2987, line: 1709, type: !3014, scopeLine: 1709, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !40, retainedNodes: !3017)
 !3014 = !DISubroutineType(types: !3015)
 !3015 = !{!2109, !3016}
 !3016 = !DIDerivedType(tag: DW_TAG_pointer_type, name: "&core::cell::UnsafeCell<usize>", baseType: !35, size: 64, align: 64, dwarfAddressSpace: 0)
@@ -11581,7 +11689,7 @@ attributes #12 = { noinline }
 !3018 = !DILocalVariable(name: "self", arg: 1, scope: !3013, file: !2987, line: 1709, type: !3016)
 !3019 = !DILocation(line: 1709, column: 22, scope: !3013)
 !3020 = !DILocation(line: 1714, column: 6, scope: !3013)
-!3021 = distinct !DISubprogram(name: "as_mut_ptr<u8,alloc::alloc::Global>", linkageName: "_RNvMs_NtCs8RW06R9lH2S_5alloc3vecINtB4_3VechE10as_mut_ptrCs37qxPUa7whq_20oneway_thread_access", scope: !182, file: !3022, line: 1103, type: !3023, scopeLine: 1103, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !198, retainedNodes: !3026)
+!3021 = distinct !DISubprogram(name: "as_mut_ptr<u8,alloc::alloc::Global>", linkageName: "_RNvMs_NtCs8RW06R9lH2S_5alloc3vecINtB4_3VechE10as_mut_ptrCsdT7u4N7w2iC_20stack_map_and_mutate", scope: !182, file: !3022, line: 1103, type: !3023, scopeLine: 1103, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !198, retainedNodes: !3026)
 !3022 = !DIFile(filename: "/rustc/e38fb306b7f5e65cca34df2dab1f0db15e1defb4/library/alloc/src/vec/mod.rs", directory: "", checksumkind: CSK_MD5, checksum: "68d3cb798ca32b700b4485247dd90316")
 !3023 = !DISubroutineType(types: !3024)
 !3024 = !{!259, !3025}
@@ -11597,7 +11705,7 @@ attributes #12 = { noinline }
 !3034 = !DILocation(line: 1108, column: 20, scope: !3029)
 !3035 = !DILocation(line: 1108, column: 13, scope: !3029)
 !3036 = !DILocation(line: 1111, column: 6, scope: !3021)
-!3037 = distinct !DISubprogram(name: "current_memory<u8,alloc::alloc::Global>", linkageName: "_RNvMs_NtCs8RW06R9lH2S_5alloc7raw_vecINtB4_6RawVechE14current_memoryCs37qxPUa7whq_20oneway_thread_access", scope: !186, file: !3038, line: 239, type: !3039, scopeLine: 239, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !198, retainedNodes: !3058)
+!3037 = distinct !DISubprogram(name: "current_memory<u8,alloc::alloc::Global>", linkageName: "_RNvMs_NtCs8RW06R9lH2S_5alloc7raw_vecINtB4_6RawVechE14current_memoryCsdT7u4N7w2iC_20stack_map_and_mutate", scope: !186, file: !3038, line: 239, type: !3039, scopeLine: 239, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !198, retainedNodes: !3058)
 !3038 = !DIFile(filename: "/rustc/e38fb306b7f5e65cca34df2dab1f0db15e1defb4/library/alloc/src/raw_vec.rs", directory: "", checksumkind: CSK_MD5, checksum: "09a988e2e342b98a6b0cab47ae048fb6")
 !3039 = !DISubroutineType(types: !3040)
 !3040 = !{!3041, !3057}
@@ -11632,7 +11740,7 @@ attributes #12 = { noinline }
 !3069 = !DILocation(line: 240, column: 9, scope: !3037)
 !3070 = !DILocation(line: 241, column: 13, scope: !3037)
 !3071 = !DILocation(line: 455, column: 5, scope: !3072, inlinedAt: !3073)
-!3072 = distinct !DISubprogram(name: "align_of<u8>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3mem8align_ofhECs37qxPUa7whq_20oneway_thread_access", scope: !987, file: !1108, line: 454, type: !647, scopeLine: 454, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !176, retainedNodes: !4)
+!3072 = distinct !DISubprogram(name: "align_of<u8>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3mem8align_ofhECsdT7u4N7w2iC_20stack_map_and_mutate", scope: !987, file: !1108, line: 454, type: !647, scopeLine: 454, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !176, retainedNodes: !4)
 !3073 = distinct !DILocation(line: 246, column: 29, scope: !3037)
 !3074 = !DILocation(line: 246, column: 29, scope: !3037)
 !3075 = !DILocation(line: 246, column: 21, scope: !3061)
@@ -11645,7 +11753,7 @@ attributes #12 = { noinline }
 !3082 = !DILocation(line: 249, column: 22, scope: !3065)
 !3083 = !DILocation(line: 249, column: 17, scope: !3065)
 !3084 = !DILocation(line: 252, column: 6, scope: !3037)
-!3085 = distinct !DISubprogram(name: "ptr<u8,alloc::alloc::Global>", linkageName: "_RNvMs_NtCs8RW06R9lH2S_5alloc7raw_vecINtB4_6RawVechE3ptrCs37qxPUa7whq_20oneway_thread_access", scope: !186, file: !3038, line: 222, type: !3086, scopeLine: 222, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !198, retainedNodes: !3088)
+!3085 = distinct !DISubprogram(name: "ptr<u8,alloc::alloc::Global>", linkageName: "_RNvMs_NtCs8RW06R9lH2S_5alloc7raw_vecINtB4_6RawVechE3ptrCsdT7u4N7w2iC_20stack_map_and_mutate", scope: !186, file: !3038, line: 222, type: !3086, scopeLine: 222, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !198, retainedNodes: !3088)
 !3086 = !DISubroutineType(types: !3087)
 !3087 = !{!259, !3057}
 !3088 = !{!3089}
@@ -11653,7 +11761,7 @@ attributes #12 = { noinline }
 !3090 = !DILocation(line: 222, column: 16, scope: !3085)
 !3091 = !DILocation(line: 223, column: 9, scope: !3085)
 !3092 = !DILocation(line: 224, column: 6, scope: !3085)
-!3093 = distinct !DISubprogram(name: "as_mut_ptr<u8>", linkageName: "_RNvMs_NtNtCs3p84KrD9aKt_4core3ptr7mut_ptrOSh10as_mut_ptrCs37qxPUa7whq_20oneway_thread_access", scope: !2420, file: !2419, line: 1186, type: !3094, scopeLine: 1186, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !176, retainedNodes: !3096)
+!3093 = distinct !DISubprogram(name: "as_mut_ptr<u8>", linkageName: "_RNvMs_NtNtCs3p84KrD9aKt_4core3ptr7mut_ptrOSh10as_mut_ptrCsdT7u4N7w2iC_20stack_map_and_mutate", scope: !2420, file: !2419, line: 1186, type: !3094, scopeLine: 1186, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !176, retainedNodes: !3096)
 !3094 = !DISubroutineType(types: !3095)
 !3095 = !{!259, !1666}
 !3096 = !{!3097}
@@ -11661,7 +11769,7 @@ attributes #12 = { noinline }
 !3098 = !DILocation(line: 1186, column: 29, scope: !3093)
 !3099 = !DILocation(line: 1187, column: 9, scope: !3093)
 !3100 = !DILocation(line: 1188, column: 6, scope: !3093)
-!3101 = distinct !DISubprogram(name: "new<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>>", linkageName: "_RNvMsa_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtBL_6option6OptionINtNtBL_6result6ResultuINtNtB7_5boxed3BoxDNtNtBL_3any3AnyNtNtBL_6marker4SendEL_EEEEE3newCs37qxPUa7whq_20oneway_thread_access", scope: !219, file: !2832, line: 329, type: !3102, scopeLine: 329, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !282, retainedNodes: !3104)
+!3101 = distinct !DISubprogram(name: "new<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>>", linkageName: "_RNvMsa_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtBL_6option6OptionINtNtBL_6result6ResultuINtNtB7_5boxed3BoxDNtNtBL_3any3AnyNtNtBL_6marker4SendEL_EEEEE3newCsdT7u4N7w2iC_20stack_map_and_mutate", scope: !219, file: !2832, line: 329, type: !3102, scopeLine: 329, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !282, retainedNodes: !3104)
 !3102 = !DISubroutineType(types: !3103)
 !3103 = !{!219, !231}
 !3104 = !{!3105, !3106}
@@ -11682,7 +11790,7 @@ attributes #12 = { noinline }
 !3119 = !DILocation(line: 329, column: 5, scope: !3101)
 !3120 = !DILocation(line: 336, column: 9, scope: !3101)
 !3121 = !DILocation(line: 338, column: 5, scope: !3101)
-!3122 = distinct !DISubprogram(name: "inner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>>", linkageName: "_RNvMse_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtBL_6option6OptionINtNtBL_6result6ResultuINtNtB7_5boxed3BoxDNtNtBL_3any3AnyNtNtBL_6marker4SendEL_EEEEE5innerCs37qxPUa7whq_20oneway_thread_access", scope: !219, file: !2832, line: 1030, type: !3123, scopeLine: 1030, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !282, retainedNodes: !3126)
+!3122 = distinct !DISubprogram(name: "inner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>>", linkageName: "_RNvMse_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtBL_6option6OptionINtNtBL_6result6ResultuINtNtB7_5boxed3BoxDNtNtBL_3any3AnyNtNtBL_6marker4SendEL_EEEEE5innerCsdT7u4N7w2iC_20stack_map_and_mutate", scope: !219, file: !2832, line: 1030, type: !3123, scopeLine: 1030, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !282, retainedNodes: !3126)
 !3123 = !DISubroutineType(types: !3124)
 !3124 = !{!2652, !3125}
 !3125 = !DIDerivedType(tag: DW_TAG_pointer_type, name: "&alloc::sync::Arc<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>>", baseType: !219, size: 64, align: 64, dwarfAddressSpace: 0)
@@ -11691,7 +11799,7 @@ attributes #12 = { noinline }
 !3128 = !DILocation(line: 1030, column: 14, scope: !3122)
 !3129 = !DILocation(line: 1036, column: 18, scope: !3122)
 !3130 = !DILocation(line: 1037, column: 6, scope: !3122)
-!3131 = distinct !DISubprogram(name: "drop_slow<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>>", linkageName: "_RNvMse_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtBL_6option6OptionINtNtBL_6result6ResultuINtNtB7_5boxed3BoxDNtNtBL_3any3AnyNtNtBL_6marker4SendEL_EEEEE9drop_slowCs37qxPUa7whq_20oneway_thread_access", scope: !219, file: !2832, line: 1041, type: !3132, scopeLine: 1041, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !282, retainedNodes: !3135)
+!3131 = distinct !DISubprogram(name: "drop_slow<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>>", linkageName: "_RNvMse_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtBL_6option6OptionINtNtBL_6result6ResultuINtNtB7_5boxed3BoxDNtNtBL_3any3AnyNtNtBL_6marker4SendEL_EEEEE9drop_slowCsdT7u4N7w2iC_20stack_map_and_mutate", scope: !219, file: !2832, line: 1041, type: !3132, scopeLine: 1041, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !282, retainedNodes: !3135)
 !3132 = !DISubroutineType(types: !3133)
 !3133 = !{null, !3134}
 !3134 = !DIDerivedType(tag: DW_TAG_pointer_type, name: "&mut alloc::sync::Arc<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>>", baseType: !219, size: 64, align: 64, dwarfAddressSpace: 0)
@@ -11704,7 +11812,7 @@ attributes #12 = { noinline }
 !3141 = !DILocation(line: 1047, column: 14, scope: !3131)
 !3142 = !DILocation(line: 1047, column: 9, scope: !3131)
 !3143 = !DILocation(line: 1048, column: 6, scope: !3131)
-!3144 = distinct !DISubprogram(name: "inner<std::sync::mutex::Mutex<alloc::vec::Vec<u8, alloc::alloc::Global>>>", linkageName: "_RNvMse_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtB7_3vec3VechEEE5innerCs37qxPUa7whq_20oneway_thread_access", scope: !122, file: !2832, line: 1030, type: !3145, scopeLine: 1030, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !202, retainedNodes: !3148)
+!3144 = distinct !DISubprogram(name: "inner<std::sync::mutex::Mutex<alloc::vec::Vec<u8, alloc::alloc::Global>>>", linkageName: "_RNvMse_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtB7_3vec3VechEEE5innerCsdT7u4N7w2iC_20stack_map_and_mutate", scope: !122, file: !2832, line: 1030, type: !3145, scopeLine: 1030, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !202, retainedNodes: !3148)
 !3145 = !DISubroutineType(types: !3146)
 !3146 = !{!2761, !3147}
 !3147 = !DIDerivedType(tag: DW_TAG_pointer_type, name: "&alloc::sync::Arc<std::sync::mutex::Mutex<alloc::vec::Vec<u8, alloc::alloc::Global>>>", baseType: !122, size: 64, align: 64, dwarfAddressSpace: 0)
@@ -11713,7 +11821,7 @@ attributes #12 = { noinline }
 !3150 = !DILocation(line: 1030, column: 14, scope: !3144)
 !3151 = !DILocation(line: 1036, column: 18, scope: !3144)
 !3152 = !DILocation(line: 1037, column: 6, scope: !3144)
-!3153 = distinct !DISubprogram(name: "drop_slow<std::sync::mutex::Mutex<alloc::vec::Vec<u8, alloc::alloc::Global>>>", linkageName: "_RNvMse_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtB7_3vec3VechEEE9drop_slowCs37qxPUa7whq_20oneway_thread_access", scope: !122, file: !2832, line: 1041, type: !3154, scopeLine: 1041, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !202, retainedNodes: !3157)
+!3153 = distinct !DISubprogram(name: "drop_slow<std::sync::mutex::Mutex<alloc::vec::Vec<u8, alloc::alloc::Global>>>", linkageName: "_RNvMse_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtB7_3vec3VechEEE9drop_slowCsdT7u4N7w2iC_20stack_map_and_mutate", scope: !122, file: !2832, line: 1041, type: !3154, scopeLine: 1041, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !202, retainedNodes: !3157)
 !3154 = !DISubroutineType(types: !3155)
 !3155 = !{null, !3156}
 !3156 = !DIDerivedType(tag: DW_TAG_pointer_type, name: "&mut alloc::sync::Arc<std::sync::mutex::Mutex<alloc::vec::Vec<u8, alloc::alloc::Global>>>", baseType: !122, size: 64, align: 64, dwarfAddressSpace: 0)
@@ -11726,7 +11834,7 @@ attributes #12 = { noinline }
 !3163 = !DILocation(line: 1047, column: 14, scope: !3153)
 !3164 = !DILocation(line: 1047, column: 9, scope: !3153)
 !3165 = !DILocation(line: 1048, column: 6, scope: !3153)
-!3166 = distinct !DISubprogram(name: "inner<std::thread::Inner>", linkageName: "_RNvMse_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcNtNtCs2bNvlddUlXM_3std6thread5InnerE5innerCs37qxPUa7whq_20oneway_thread_access", scope: !15, file: !2832, line: 1030, type: !3167, scopeLine: 1030, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !106, retainedNodes: !3170)
+!3166 = distinct !DISubprogram(name: "inner<std::thread::Inner>", linkageName: "_RNvMse_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcNtNtCs2bNvlddUlXM_3std6thread5InnerE5innerCsdT7u4N7w2iC_20stack_map_and_mutate", scope: !15, file: !2832, line: 1030, type: !3167, scopeLine: 1030, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !106, retainedNodes: !3170)
 !3167 = !DISubroutineType(types: !3168)
 !3168 = !{!2780, !3169}
 !3169 = !DIDerivedType(tag: DW_TAG_pointer_type, name: "&alloc::sync::Arc<std::thread::Inner>", baseType: !15, size: 64, align: 64, dwarfAddressSpace: 0)
@@ -11735,7 +11843,7 @@ attributes #12 = { noinline }
 !3172 = !DILocation(line: 1030, column: 14, scope: !3166)
 !3173 = !DILocation(line: 1036, column: 18, scope: !3166)
 !3174 = !DILocation(line: 1037, column: 6, scope: !3166)
-!3175 = distinct !DISubprogram(name: "drop_slow<std::thread::Inner>", linkageName: "_RNvMse_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcNtNtCs2bNvlddUlXM_3std6thread5InnerE9drop_slowCs37qxPUa7whq_20oneway_thread_access", scope: !15, file: !2832, line: 1041, type: !3176, scopeLine: 1041, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !106, retainedNodes: !3179)
+!3175 = distinct !DISubprogram(name: "drop_slow<std::thread::Inner>", linkageName: "_RNvMse_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcNtNtCs2bNvlddUlXM_3std6thread5InnerE9drop_slowCsdT7u4N7w2iC_20stack_map_and_mutate", scope: !15, file: !2832, line: 1041, type: !3176, scopeLine: 1041, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !106, retainedNodes: !3179)
 !3176 = !DISubroutineType(types: !3177)
 !3177 = !{null, !3178}
 !3178 = !DIDerivedType(tag: DW_TAG_pointer_type, name: "&mut alloc::sync::Arc<std::thread::Inner>", baseType: !15, size: 64, align: 64, dwarfAddressSpace: 0)
@@ -11748,7 +11856,7 @@ attributes #12 = { noinline }
 !3185 = !DILocation(line: 1047, column: 14, scope: !3175)
 !3186 = !DILocation(line: 1047, column: 9, scope: !3175)
 !3187 = !DILocation(line: 1048, column: 6, scope: !3175)
-!3188 = distinct !DISubprogram(name: "get_mut_unchecked<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>>", linkageName: "_RNvMso_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtBL_6option6OptionINtNtBL_6result6ResultuINtNtB7_5boxed3BoxDNtNtBL_3any3AnyNtNtBL_6marker4SendEL_EEEEE17get_mut_uncheckedCs37qxPUa7whq_20oneway_thread_access", scope: !219, file: !2832, line: 1487, type: !3189, scopeLine: 1487, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !282, retainedNodes: !3192)
+!3188 = distinct !DISubprogram(name: "get_mut_unchecked<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>>", linkageName: "_RNvMso_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtBL_6option6OptionINtNtBL_6result6ResultuINtNtB7_5boxed3BoxDNtNtBL_3any3AnyNtNtBL_6marker4SendEL_EEEEE17get_mut_uncheckedCsdT7u4N7w2iC_20stack_map_and_mutate", scope: !219, file: !2832, line: 1487, type: !3189, scopeLine: 1487, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !282, retainedNodes: !3192)
 !3189 = !DISubroutineType(types: !3190)
 !3190 = !{!3191, !3134}
 !3191 = !DIDerivedType(tag: DW_TAG_pointer_type, name: "&mut core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>", baseType: !231, size: 64, align: 64, dwarfAddressSpace: 0)
@@ -11758,7 +11866,7 @@ attributes #12 = { noinline }
 !3195 = !DILocation(line: 1490, column: 25, scope: !3188)
 !3196 = !DILocation(line: 1490, column: 18, scope: !3188)
 !3197 = !DILocation(line: 1491, column: 6, scope: !3188)
-!3198 = distinct !DISubprogram(name: "get_mut_unchecked<std::sync::mutex::Mutex<alloc::vec::Vec<u8, alloc::alloc::Global>>>", linkageName: "_RNvMso_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtB7_3vec3VechEEE17get_mut_uncheckedCs37qxPUa7whq_20oneway_thread_access", scope: !122, file: !2832, line: 1487, type: !3199, scopeLine: 1487, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !202, retainedNodes: !3202)
+!3198 = distinct !DISubprogram(name: "get_mut_unchecked<std::sync::mutex::Mutex<alloc::vec::Vec<u8, alloc::alloc::Global>>>", linkageName: "_RNvMso_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtB7_3vec3VechEEE17get_mut_uncheckedCsdT7u4N7w2iC_20stack_map_and_mutate", scope: !122, file: !2832, line: 1487, type: !3199, scopeLine: 1487, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !202, retainedNodes: !3202)
 !3199 = !DISubroutineType(types: !3200)
 !3200 = !{!3201, !3156}
 !3201 = !DIDerivedType(tag: DW_TAG_pointer_type, name: "&mut std::sync::mutex::Mutex<alloc::vec::Vec<u8, alloc::alloc::Global>>", baseType: !134, size: 64, align: 64, dwarfAddressSpace: 0)
@@ -11768,7 +11876,7 @@ attributes #12 = { noinline }
 !3205 = !DILocation(line: 1490, column: 25, scope: !3198)
 !3206 = !DILocation(line: 1490, column: 18, scope: !3198)
 !3207 = !DILocation(line: 1491, column: 6, scope: !3198)
-!3208 = distinct !DISubprogram(name: "get_mut_unchecked<std::thread::Inner>", linkageName: "_RNvMso_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcNtNtCs2bNvlddUlXM_3std6thread5InnerE17get_mut_uncheckedCs37qxPUa7whq_20oneway_thread_access", scope: !15, file: !2832, line: 1487, type: !3209, scopeLine: 1487, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !106, retainedNodes: !3212)
+!3208 = distinct !DISubprogram(name: "get_mut_unchecked<std::thread::Inner>", linkageName: "_RNvMso_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcNtNtCs2bNvlddUlXM_3std6thread5InnerE17get_mut_uncheckedCsdT7u4N7w2iC_20stack_map_and_mutate", scope: !15, file: !2832, line: 1487, type: !3209, scopeLine: 1487, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !106, retainedNodes: !3212)
 !3209 = !DISubroutineType(types: !3210)
 !3210 = !{!3211, !3178}
 !3211 = !DIDerivedType(tag: DW_TAG_pointer_type, name: "&mut std::thread::Inner", baseType: !44, size: 64, align: 64, dwarfAddressSpace: 0)
@@ -11778,7 +11886,7 @@ attributes #12 = { noinline }
 !3215 = !DILocation(line: 1490, column: 25, scope: !3208)
 !3216 = !DILocation(line: 1490, column: 18, scope: !3208)
 !3217 = !DILocation(line: 1491, column: 6, scope: !3208)
-!3218 = distinct !DISubprogram(name: "inner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>>", linkageName: "_RNvMst_NtCs8RW06R9lH2S_5alloc4syncINtB5_4WeakINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtBM_6option6OptionINtNtBM_6result6ResultuINtNtB7_5boxed3BoxDNtNtBM_3any3AnyNtNtBM_6marker4SendEL_EEEEE5innerCs37qxPUa7whq_20oneway_thread_access", scope: !1153, file: !2832, line: 1891, type: !3219, scopeLine: 1891, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !282, retainedNodes: !3238)
+!3218 = distinct !DISubprogram(name: "inner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>>", linkageName: "_RNvMst_NtCs8RW06R9lH2S_5alloc4syncINtB5_4WeakINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtBM_6option6OptionINtNtBM_6result6ResultuINtNtB7_5boxed3BoxDNtNtBM_3any3AnyNtNtBM_6marker4SendEL_EEEEE5innerCsdT7u4N7w2iC_20stack_map_and_mutate", scope: !1153, file: !2832, line: 1891, type: !3219, scopeLine: 1891, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !282, retainedNodes: !3238)
 !3219 = !DISubroutineType(types: !3220)
 !3220 = !{!3221, !3237}
 !3221 = !DICompositeType(tag: DW_TAG_structure_type, name: "Option<alloc::sync::WeakInner>", scope: !48, file: !2, size: 128, align: 64, elements: !3222, identifier: "6dc9cedcafc72503f757125063febe3")
@@ -11814,7 +11922,7 @@ attributes #12 = { noinline }
 !3251 = !DILocation(line: 1900, column: 17, scope: !3241)
 !3252 = !DILocation(line: 1898, column: 13, scope: !3218)
 !3253 = !DILocation(line: 1903, column: 6, scope: !3218)
-!3254 = distinct !DISubprogram(name: "inner<std::sync::mutex::Mutex<alloc::vec::Vec<u8, alloc::alloc::Global>>>", linkageName: "_RNvMst_NtCs8RW06R9lH2S_5alloc4syncINtB5_4WeakINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtB7_3vec3VechEEE5innerCs37qxPUa7whq_20oneway_thread_access", scope: !1166, file: !2832, line: 1891, type: !3255, scopeLine: 1891, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !202, retainedNodes: !3258)
+!3254 = distinct !DISubprogram(name: "inner<std::sync::mutex::Mutex<alloc::vec::Vec<u8, alloc::alloc::Global>>>", linkageName: "_RNvMst_NtCs8RW06R9lH2S_5alloc4syncINtB5_4WeakINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtB7_3vec3VechEEE5innerCsdT7u4N7w2iC_20stack_map_and_mutate", scope: !1166, file: !2832, line: 1891, type: !3255, scopeLine: 1891, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !202, retainedNodes: !3258)
 !3255 = !DISubroutineType(types: !3256)
 !3256 = !{!3221, !3257}
 !3257 = !DIDerivedType(tag: DW_TAG_pointer_type, name: "&alloc::sync::Weak<std::sync::mutex::Mutex<alloc::vec::Vec<u8, alloc::alloc::Global>>>", baseType: !1166, size: 64, align: 64, dwarfAddressSpace: 0)
@@ -11834,7 +11942,7 @@ attributes #12 = { noinline }
 !3271 = !DILocation(line: 1900, column: 17, scope: !3261)
 !3272 = !DILocation(line: 1898, column: 13, scope: !3254)
 !3273 = !DILocation(line: 1903, column: 6, scope: !3254)
-!3274 = distinct !DISubprogram(name: "inner<std::thread::Inner>", linkageName: "_RNvMst_NtCs8RW06R9lH2S_5alloc4syncINtB5_4WeakNtNtCs2bNvlddUlXM_3std6thread5InnerE5innerCs37qxPUa7whq_20oneway_thread_access", scope: !1179, file: !2832, line: 1891, type: !3275, scopeLine: 1891, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !106, retainedNodes: !3278)
+!3274 = distinct !DISubprogram(name: "inner<std::thread::Inner>", linkageName: "_RNvMst_NtCs8RW06R9lH2S_5alloc4syncINtB5_4WeakNtNtCs2bNvlddUlXM_3std6thread5InnerE5innerCsdT7u4N7w2iC_20stack_map_and_mutate", scope: !1179, file: !2832, line: 1891, type: !3275, scopeLine: 1891, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !106, retainedNodes: !3278)
 !3275 = !DISubroutineType(types: !3276)
 !3276 = !{!3221, !3277}
 !3277 = !DIDerivedType(tag: DW_TAG_pointer_type, name: "&alloc::sync::Weak<std::thread::Inner>", baseType: !1179, size: 64, align: 64, dwarfAddressSpace: 0)
@@ -11854,7 +11962,7 @@ attributes #12 = { noinline }
 !3291 = !DILocation(line: 1900, column: 17, scope: !3281)
 !3292 = !DILocation(line: 1898, column: 13, scope: !3274)
 !3293 = !DILocation(line: 1903, column: 6, scope: !3274)
-!3294 = distinct !DISubprogram(name: "new_unchecked", linkageName: "_RNvMsx_NtNtCs3p84KrD9aKt_4core3num7nonzeroNtB5_12NonZeroUsize13new_uncheckedCs37qxPUa7whq_20oneway_thread_access", scope: !675, file: !3295, line: 53, type: !3296, scopeLine: 53, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !4, retainedNodes: !3298)
+!3294 = distinct !DISubprogram(name: "new_unchecked", linkageName: "_RNvMsx_NtNtCs3p84KrD9aKt_4core3num7nonzeroNtB5_12NonZeroUsize13new_uncheckedCsdT7u4N7w2iC_20stack_map_and_mutate", scope: !675, file: !3295, line: 53, type: !3296, scopeLine: 53, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !4, retainedNodes: !3298)
 !3295 = !DIFile(filename: "/rustc/e38fb306b7f5e65cca34df2dab1f0db15e1defb4/library/core/src/num/nonzero.rs", directory: "", checksumkind: CSK_MD5, checksum: "ba1226616482042b91a7917d627f93a7")
 !3296 = !DISubroutineType(types: !3297)
 !3297 = !{!675, !39}
@@ -11863,14 +11971,14 @@ attributes #12 = { noinline }
 !3300 = !DILocation(line: 53, column: 51, scope: !3294)
 !3301 = !DILocation(line: 55, column: 30, scope: !3294)
 !3302 = !DILocation(line: 56, column: 18, scope: !3294)
-!3303 = distinct !DISubprogram(name: "get", linkageName: "_RNvMsx_NtNtCs3p84KrD9aKt_4core3num7nonzeroNtB5_12NonZeroUsize3getCs37qxPUa7whq_20oneway_thread_access", scope: !675, file: !3295, line: 75, type: !3304, scopeLine: 75, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !4, retainedNodes: !3306)
+!3303 = distinct !DISubprogram(name: "get", linkageName: "_RNvMsx_NtNtCs3p84KrD9aKt_4core3num7nonzeroNtB5_12NonZeroUsize3getCsdT7u4N7w2iC_20stack_map_and_mutate", scope: !675, file: !3295, line: 75, type: !3304, scopeLine: 75, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !4, retainedNodes: !3306)
 !3304 = !DISubroutineType(types: !3305)
 !3305 = !{!39, !675}
 !3306 = !{!3307}
 !3307 = !DILocalVariable(name: "self", arg: 1, scope: !3303, file: !3295, line: 75, type: !675)
 !3308 = !DILocation(line: 75, column: 34, scope: !3303)
 !3309 = !DILocation(line: 77, column: 18, scope: !3303)
-!3310 = distinct !DISubprogram(name: "swap_nonoverlapping_bytes", linkageName: "_RNvNtCs3p84KrD9aKt_4core3ptr25swap_nonoverlapping_bytesCs37qxPUa7whq_20oneway_thread_access", scope: !22, file: !1256, line: 469, type: !3311, scopeLine: 469, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !4, retainedNodes: !3313)
+!3310 = distinct !DISubprogram(name: "swap_nonoverlapping_bytes", linkageName: "_RNvNtCs3p84KrD9aKt_4core3ptr25swap_nonoverlapping_bytesCsdT7u4N7w2iC_20stack_map_and_mutate", scope: !22, file: !1256, line: 469, type: !3311, scopeLine: 469, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !4, retainedNodes: !3313)
 !3311 = !DISubroutineType(types: !3312)
 !3312 = !{null, !259, !259, !39}
 !3313 = !{!3314, !3315, !3316, !3317, !3319, !3321, !3339, !3341, !3343, !3345, !3362, !3364, !3366, !3368}
@@ -11944,13 +12052,13 @@ attributes #12 = { noinline }
 !3381 = !DILocation(line: 511, column: 8, scope: !3320)
 !3382 = !DILocation(line: 511, column: 5, scope: !3320)
 !3383 = !DILocation(line: 284, column: 9, scope: !3384, inlinedAt: !3387)
-!3384 = distinct !DISubprogram(name: "uninit<core::ptr::swap_nonoverlapping_bytes::Block>", linkageName: "_RNvMs0_NtNtCs3p84KrD9aKt_4core3mem12maybe_uninitINtB5_11MaybeUninitNtNvNtB9_3ptr25swap_nonoverlapping_bytes5BlockE6uninitCs37qxPUa7whq_20oneway_thread_access", scope: !3323, file: !1697, line: 283, type: !3385, scopeLine: 283, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !3337, retainedNodes: !4)
+!3384 = distinct !DISubprogram(name: "uninit<core::ptr::swap_nonoverlapping_bytes::Block>", linkageName: "_RNvMs0_NtNtCs3p84KrD9aKt_4core3mem12maybe_uninitINtB5_11MaybeUninitNtNvNtB9_3ptr25swap_nonoverlapping_bytes5BlockE6uninitCsdT7u4N7w2iC_20stack_map_and_mutate", scope: !3323, file: !1697, line: 283, type: !3385, scopeLine: 283, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !3337, retainedNodes: !4)
 !3385 = !DISubroutineType(types: !3386)
 !3386 = !{!3323}
 !3387 = distinct !DILocation(line: 489, column: 21, scope: !3320)
 !3388 = !DILocation(line: 489, column: 21, scope: !3320)
 !3389 = !DILocalVariable(name: "self", arg: 1, scope: !3390, file: !1697, line: 457, type: !3394)
-!3390 = distinct !DISubprogram(name: "as_mut_ptr<core::ptr::swap_nonoverlapping_bytes::Block>", linkageName: "_RNvMs0_NtNtCs3p84KrD9aKt_4core3mem12maybe_uninitINtB5_11MaybeUninitNtNvNtB9_3ptr25swap_nonoverlapping_bytes5BlockE10as_mut_ptrCs37qxPUa7whq_20oneway_thread_access", scope: !3323, file: !1697, line: 457, type: !3391, scopeLine: 457, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !3337, retainedNodes: !3395)
+!3390 = distinct !DISubprogram(name: "as_mut_ptr<core::ptr::swap_nonoverlapping_bytes::Block>", linkageName: "_RNvMs0_NtNtCs3p84KrD9aKt_4core3mem12maybe_uninitINtB5_11MaybeUninitNtNvNtB9_3ptr25swap_nonoverlapping_bytes5BlockE10as_mut_ptrCsdT7u4N7w2iC_20stack_map_and_mutate", scope: !3323, file: !1697, line: 457, type: !3391, scopeLine: 457, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !3337, retainedNodes: !3395)
 !3391 = !DISubroutineType(types: !3392)
 !3392 = !{!3393, !3394}
 !3393 = !DIDerivedType(tag: DW_TAG_pointer_type, name: "*mut core::ptr::swap_nonoverlapping_bytes::Block", baseType: !3330, size: 64, align: 64, dwarfAddressSpace: 0)
@@ -11971,7 +12079,7 @@ attributes #12 = { noinline }
 !3408 = !DILocation(line: 506, column: 13, scope: !3344)
 !3409 = !DILocation(line: 508, column: 9, scope: !3340)
 !3410 = !DILocation(line: 284, column: 9, scope: !3411, inlinedAt: !3414)
-!3411 = distinct !DISubprogram(name: "uninit<core::ptr::swap_nonoverlapping_bytes::UnalignedBlock>", linkageName: "_RNvMs0_NtNtCs3p84KrD9aKt_4core3mem12maybe_uninitINtB5_11MaybeUninitNtNvNtB9_3ptr25swap_nonoverlapping_bytes14UnalignedBlockE6uninitCs37qxPUa7whq_20oneway_thread_access", scope: !3347, file: !1697, line: 283, type: !3412, scopeLine: 283, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !3360, retainedNodes: !4)
+!3411 = distinct !DISubprogram(name: "uninit<core::ptr::swap_nonoverlapping_bytes::UnalignedBlock>", linkageName: "_RNvMs0_NtNtCs3p84KrD9aKt_4core3mem12maybe_uninitINtB5_11MaybeUninitNtNvNtB9_3ptr25swap_nonoverlapping_bytes14UnalignedBlockE6uninitCsdT7u4N7w2iC_20stack_map_and_mutate", scope: !3347, file: !1697, line: 283, type: !3412, scopeLine: 283, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !3360, retainedNodes: !4)
 !3412 = !DISubroutineType(types: !3413)
 !3413 = !{!3347}
 !3414 = distinct !DILocation(line: 513, column: 21, scope: !3320)
@@ -11980,7 +12088,7 @@ attributes #12 = { noinline }
 !3417 = !DILocation(line: 514, column: 19, scope: !3346)
 !3418 = !DILocation(line: 514, column: 13, scope: !3363)
 !3419 = !DILocalVariable(name: "self", arg: 1, scope: !3420, file: !1697, line: 457, type: !3424)
-!3420 = distinct !DISubprogram(name: "as_mut_ptr<core::ptr::swap_nonoverlapping_bytes::UnalignedBlock>", linkageName: "_RNvMs0_NtNtCs3p84KrD9aKt_4core3mem12maybe_uninitINtB5_11MaybeUninitNtNvNtB9_3ptr25swap_nonoverlapping_bytes14UnalignedBlockE10as_mut_ptrCs37qxPUa7whq_20oneway_thread_access", scope: !3347, file: !1697, line: 457, type: !3421, scopeLine: 457, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !3360, retainedNodes: !3425)
+!3420 = distinct !DISubprogram(name: "as_mut_ptr<core::ptr::swap_nonoverlapping_bytes::UnalignedBlock>", linkageName: "_RNvMs0_NtNtCs3p84KrD9aKt_4core3mem12maybe_uninitINtB5_11MaybeUninitNtNvNtB9_3ptr25swap_nonoverlapping_bytes14UnalignedBlockE10as_mut_ptrCsdT7u4N7w2iC_20stack_map_and_mutate", scope: !3347, file: !1697, line: 457, type: !3421, scopeLine: 457, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !3360, retainedNodes: !3425)
 !3421 = !DISubroutineType(types: !3422)
 !3422 = !{!3423, !3424}
 !3423 = !DIDerivedType(tag: DW_TAG_pointer_type, name: "*mut core::ptr::swap_nonoverlapping_bytes::UnalignedBlock", baseType: !3354, size: 64, align: 64, dwarfAddressSpace: 0)
@@ -12001,7 +12109,7 @@ attributes #12 = { noinline }
 !3438 = !DILocation(line: 524, column: 13, scope: !3369)
 !3439 = !DILocation(line: 525, column: 13, scope: !3369)
 !3440 = !DILocation(line: 528, column: 2, scope: !3310)
-!3441 = distinct !DISubprogram(name: "alloc_zeroed", linkageName: "_RNvNtCs8RW06R9lH2S_5alloc5alloc12alloc_zeroedCs37qxPUa7whq_20oneway_thread_access", scope: !74, file: !1908, line: 154, type: !3442, scopeLine: 154, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !4, retainedNodes: !3444)
+!3441 = distinct !DISubprogram(name: "alloc_zeroed", linkageName: "_RNvNtCs8RW06R9lH2S_5alloc5alloc12alloc_zeroedCsdT7u4N7w2iC_20stack_map_and_mutate", scope: !74, file: !1908, line: 154, type: !3442, scopeLine: 154, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !4, retainedNodes: !3444)
 !3442 = !DISubroutineType(types: !3443)
 !3443 = !{!259, !670}
 !3444 = !{!3445}
@@ -12011,7 +12119,7 @@ attributes #12 = { noinline }
 !3448 = !DILocation(line: 155, column: 49, scope: !3441)
 !3449 = !DILocation(line: 155, column: 14, scope: !3441)
 !3450 = !DILocation(line: 156, column: 2, scope: !3441)
-!3451 = distinct !DISubprogram(name: "exchange_malloc", linkageName: "_RNvNtCs8RW06R9lH2S_5alloc5alloc15exchange_mallocCs37qxPUa7whq_20oneway_thread_access", scope: !74, file: !1908, line: 314, type: !3452, scopeLine: 314, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !4, retainedNodes: !3454)
+!3451 = distinct !DISubprogram(name: "exchange_malloc", linkageName: "_RNvNtCs8RW06R9lH2S_5alloc5alloc15exchange_mallocCsdT7u4N7w2iC_20stack_map_and_mutate", scope: !74, file: !1908, line: 314, type: !3452, scopeLine: 314, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !4, retainedNodes: !3454)
 !3452 = !DISubroutineType(types: !3453)
 !3453 = !{!259, !39, !39}
 !3454 = !{!3455, !3456, !3457, !3459}
@@ -12032,7 +12140,7 @@ attributes #12 = { noinline }
 !3469 = !DILocation(line: 317, column: 12, scope: !3460)
 !3470 = !DILocation(line: 317, column: 20, scope: !3460)
 !3471 = !DILocation(line: 320, column: 2, scope: !3451)
-!3472 = distinct !DISubprogram(name: "alloc", linkageName: "_RNvNtCs8RW06R9lH2S_5alloc5alloc5allocCs37qxPUa7whq_20oneway_thread_access", scope: !74, file: !1908, line: 85, type: !3442, scopeLine: 85, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !4, retainedNodes: !3473)
+!3472 = distinct !DISubprogram(name: "alloc", linkageName: "_RNvNtCs8RW06R9lH2S_5alloc5alloc5allocCsdT7u4N7w2iC_20stack_map_and_mutate", scope: !74, file: !1908, line: 85, type: !3442, scopeLine: 85, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !4, retainedNodes: !3473)
 !3473 = !{!3474}
 !3474 = !DILocalVariable(name: "layout", arg: 1, scope: !3472, file: !1908, line: 85, type: !670)
 !3475 = !DILocation(line: 85, column: 21, scope: !3472)
@@ -12040,7 +12148,7 @@ attributes #12 = { noinline }
 !3477 = !DILocation(line: 86, column: 42, scope: !3472)
 !3478 = !DILocation(line: 86, column: 14, scope: !3472)
 !3479 = !DILocation(line: 87, column: 2, scope: !3472)
-!3480 = distinct !DISubprogram(name: "dealloc", linkageName: "_RNvNtCs8RW06R9lH2S_5alloc5alloc7deallocCs37qxPUa7whq_20oneway_thread_access", scope: !74, file: !1908, line: 103, type: !3481, scopeLine: 103, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !4, retainedNodes: !3483)
+!3480 = distinct !DISubprogram(name: "dealloc", linkageName: "_RNvNtCs8RW06R9lH2S_5alloc5alloc7deallocCsdT7u4N7w2iC_20stack_map_and_mutate", scope: !74, file: !1908, line: 103, type: !3481, scopeLine: 103, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !4, retainedNodes: !3483)
 !3481 = !DISubroutineType(types: !3482)
 !3482 = !{null, !259, !670}
 !3483 = !{!3484, !3485}
@@ -12052,7 +12160,7 @@ attributes #12 = { noinline }
 !3489 = !DILocation(line: 104, column: 49, scope: !3480)
 !3490 = !DILocation(line: 104, column: 14, scope: !3480)
 !3491 = !DILocation(line: 105, column: 2, scope: !3480)
-!3492 = distinct !DISubprogram(name: "fence", linkageName: "_RNvNtNtCs3p84KrD9aKt_4core4sync6atomic5fenceCs37qxPUa7whq_20oneway_thread_access", scope: !31, file: !2106, line: 2662, type: !3493, scopeLine: 2662, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !4, retainedNodes: !3495)
+!3492 = distinct !DISubprogram(name: "fence", linkageName: "_RNvNtNtCs3p84KrD9aKt_4core4sync6atomic5fenceCsdT7u4N7w2iC_20stack_map_and_mutate", scope: !31, file: !2106, line: 2662, type: !3493, scopeLine: 2662, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !4, retainedNodes: !3495)
 !3493 = !DISubroutineType(types: !3494)
 !3494 = !{null, !380}
 !3495 = !{!3496}
@@ -12066,7 +12174,7 @@ attributes #12 = { noinline }
 !3503 = !DILocation(line: 2668, column: 23, scope: !3492)
 !3504 = !DILocation(line: 2669, column: 23, scope: !3492)
 !3505 = !DILocation(line: 2673, column: 2, scope: !3492)
-!3506 = distinct !DISubprogram(name: "get_unchecked_mut<u8>", linkageName: "_RNvXs0_NtNtCs3p84KrD9aKt_4core5slice5indexjINtB5_10SliceIndexShE17get_unchecked_mutCs37qxPUa7whq_20oneway_thread_access", scope: !3508, file: !3507, line: 174, type: !3510, scopeLine: 174, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !176, retainedNodes: !3512)
+!3506 = distinct !DISubprogram(name: "get_unchecked_mut<u8>", linkageName: "_RNvXs0_NtNtCs3p84KrD9aKt_4core5slice5indexjINtB5_10SliceIndexShE17get_unchecked_mutCsdT7u4N7w2iC_20stack_map_and_mutate", scope: !3508, file: !3507, line: 174, type: !3510, scopeLine: 174, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !176, retainedNodes: !3512)
 !3507 = !DIFile(filename: "/rustc/e38fb306b7f5e65cca34df2dab1f0db15e1defb4/library/core/src/slice/index.rs", directory: "", checksumkind: CSK_MD5, checksum: "05d32fa54efed7351250bd83b0024732")
 !3508 = !DINamespace(name: "{{impl}}", scope: !3509)
 !3509 = !DINamespace(name: "index", scope: !573)
@@ -12079,7 +12187,7 @@ attributes #12 = { noinline }
 !3516 = !DILocation(line: 174, column: 39, scope: !3506)
 !3517 = !DILocation(line: 176, column: 18, scope: !3506)
 !3518 = !DILocation(line: 177, column: 6, scope: !3506)
-!3519 = distinct !DISubprogram(name: "into<core::ptr::unique::Unique<u8>,core::ptr::non_null::NonNull<u8>>", linkageName: "_RNvXs1_NtCs3p84KrD9aKt_4core7convertINtNtNtB7_3ptr6unique6UniquehEINtB5_4IntoINtNtBD_8non_null7NonNullhEE4intoCs37qxPUa7whq_20oneway_thread_access", scope: !3521, file: !3520, line: 536, type: !3523, scopeLine: 536, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !3527, retainedNodes: !3525)
+!3519 = distinct !DISubprogram(name: "into<core::ptr::unique::Unique<u8>,core::ptr::non_null::NonNull<u8>>", linkageName: "_RNvXs1_NtCs3p84KrD9aKt_4core7convertINtNtNtB7_3ptr6unique6UniquehEINtB5_4IntoINtNtBD_8non_null7NonNullhEE4intoCsdT7u4N7w2iC_20stack_map_and_mutate", scope: !3521, file: !3520, line: 536, type: !3523, scopeLine: 536, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !3527, retainedNodes: !3525)
 !3520 = !DIFile(filename: "/rustc/e38fb306b7f5e65cca34df2dab1f0db15e1defb4/library/core/src/convert/mod.rs", directory: "", checksumkind: CSK_MD5, checksum: "683eba2dc9f7658448a40e932af7d198")
 !3521 = !DINamespace(name: "{{impl}}", scope: !3522)
 !3522 = !DINamespace(name: "convert", scope: !23)
@@ -12093,7 +12201,7 @@ attributes #12 = { noinline }
 !3530 = !DILocation(line: 536, column: 13, scope: !3519)
 !3531 = !DILocation(line: 537, column: 9, scope: !3519)
 !3532 = !DILocation(line: 538, column: 6, scope: !3519)
-!3533 = distinct !DISubprogram(name: "into<&mut alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>>,core::ptr::non_null::NonNull<alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>>>>", linkageName: "_RNvXs1_NtCs3p84KrD9aKt_4core7convertQINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtB7_4cell10UnsafeCellINtNtB7_6option6OptionINtNtB7_6result6ResultuINtNtBE_5boxed3BoxDNtNtB7_3any3AnyNtNtB7_6marker4SendEL_EEEEEINtB5_4IntoINtNtNtB7_3ptr8non_null7NonNullBz_EE4intoCs37qxPUa7whq_20oneway_thread_access", scope: !3521, file: !3520, line: 536, type: !3534, scopeLine: 536, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !3538, retainedNodes: !3536)
+!3533 = distinct !DISubprogram(name: "into<&mut alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>>,core::ptr::non_null::NonNull<alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>>>>", linkageName: "_RNvXs1_NtCs3p84KrD9aKt_4core7convertQINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtB7_4cell10UnsafeCellINtNtB7_6option6OptionINtNtB7_6result6ResultuINtNtBE_5boxed3BoxDNtNtB7_3any3AnyNtNtB7_6marker4SendEL_EEEEEINtB5_4IntoINtNtNtB7_3ptr8non_null7NonNullBz_EE4intoCsdT7u4N7w2iC_20stack_map_and_mutate", scope: !3521, file: !3520, line: 536, type: !3534, scopeLine: 536, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !3538, retainedNodes: !3536)
 !3534 = !DISubroutineType(types: !3535)
 !3535 = !{!222, !2923}
 !3536 = !{!3537}
@@ -12104,7 +12212,7 @@ attributes #12 = { noinline }
 !3541 = !DILocation(line: 536, column: 13, scope: !3533)
 !3542 = !DILocation(line: 537, column: 9, scope: !3533)
 !3543 = !DILocation(line: 538, column: 6, scope: !3533)
-!3544 = distinct !DISubprogram(name: "drop<u8,alloc::alloc::Global>", linkageName: "_RNvXs1_NtCs8RW06R9lH2S_5alloc7raw_vecINtB5_6RawVechENtNtNtCs3p84KrD9aKt_4core3ops4drop4Drop4dropCs37qxPUa7whq_20oneway_thread_access", scope: !3545, file: !3038, line: 498, type: !3546, scopeLine: 498, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !198, retainedNodes: !3549)
+!3544 = distinct !DISubprogram(name: "drop<u8,alloc::alloc::Global>", linkageName: "_RNvXs1_NtCs8RW06R9lH2S_5alloc7raw_vecINtB5_6RawVechENtNtNtCs3p84KrD9aKt_4core3ops4drop4Drop4dropCsdT7u4N7w2iC_20stack_map_and_mutate", scope: !3545, file: !3038, line: 498, type: !3546, scopeLine: 498, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !198, retainedNodes: !3549)
 !3545 = !DINamespace(name: "{{impl}}", scope: !187)
 !3546 = !DISubroutineType(types: !3547)
 !3547 = !{null, !3548}
@@ -12124,7 +12232,7 @@ attributes #12 = { noinline }
 !3561 = !DILocation(line: 499, column: 27, scope: !3552)
 !3562 = !DILocation(line: 500, column: 22, scope: !3552)
 !3563 = !DILocation(line: 502, column: 6, scope: !3544)
-!3564 = distinct !DISubprogram(name: "drop", linkageName: "_RNvXs1_NtNtCs2bNvlddUlXM_3std3ffi5c_strNtB5_7CStringNtNtNtCs3p84KrD9aKt_4core3ops4drop4Drop4dropCs37qxPUa7whq_20oneway_thread_access", scope: !3566, file: !3565, line: 769, type: !3567, scopeLine: 769, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !4, retainedNodes: !3570)
+!3564 = distinct !DISubprogram(name: "drop", linkageName: "_RNvXs1_NtNtCs2bNvlddUlXM_3std3ffi5c_strNtB5_7CStringNtNtNtCs3p84KrD9aKt_4core3ops4drop4Drop4dropCsdT7u4N7w2iC_20stack_map_and_mutate", scope: !3566, file: !3565, line: 769, type: !3567, scopeLine: 769, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !4, retainedNodes: !3570)
 !3565 = !DIFile(filename: "/rustc/e38fb306b7f5e65cca34df2dab1f0db15e1defb4/library/std/src/ffi/c_str.rs", directory: "", checksumkind: CSK_MD5, checksum: "f052c520b9bba56bff604cb2d6d0e585")
 !3566 = !DINamespace(name: "{{impl}}", scope: !57)
 !3567 = !DISubroutineType(types: !3568)
@@ -12136,7 +12244,7 @@ attributes #12 = { noinline }
 !3573 = !DILocation(line: 771, column: 14, scope: !3564)
 !3574 = !DILocation(line: 771, column: 13, scope: !3564)
 !3575 = !DILocation(line: 773, column: 6, scope: !3564)
-!3576 = distinct !DISubprogram(name: "from<core::alloc::AllocError>", linkageName: "_RNvXs2_NtCs3p84KrD9aKt_4core7convertNtNtB7_5alloc10AllocErrorINtB5_4FromBy_E4fromCs37qxPUa7whq_20oneway_thread_access", scope: !3521, file: !3520, line: 544, type: !3577, scopeLine: 544, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !3581, retainedNodes: !3579)
+!3576 = distinct !DISubprogram(name: "from<core::alloc::AllocError>", linkageName: "_RNvXs2_NtCs3p84KrD9aKt_4core7convertNtNtB7_5alloc10AllocErrorINtB5_4FromBy_E4fromCsdT7u4N7w2iC_20stack_map_and_mutate", scope: !3521, file: !3520, line: 544, type: !3577, scopeLine: 544, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !3581, retainedNodes: !3579)
 !3577 = !DISubroutineType(types: !3578)
 !3578 = !{null, !619}
 !3579 = !{!3580}
@@ -12145,7 +12253,7 @@ attributes #12 = { noinline }
 !3582 = !DITemplateTypeParameter(name: "T", type: !619)
 !3583 = !DILocation(line: 544, column: 13, scope: !3576)
 !3584 = !DILocation(line: 546, column: 6, scope: !3576)
-!3585 = distinct !DISubprogram(name: "from<std::io::error::Error>", linkageName: "_RNvXs2_NtCs3p84KrD9aKt_4core7convertNtNtNtCs2bNvlddUlXM_3std2io5error5ErrorINtB5_4FromBy_E4fromCs37qxPUa7whq_20oneway_thread_access", scope: !3521, file: !3520, line: 544, type: !3586, scopeLine: 544, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !1549, retainedNodes: !3588)
+!3585 = distinct !DISubprogram(name: "from<std::io::error::Error>", linkageName: "_RNvXs2_NtCs3p84KrD9aKt_4core7convertNtNtNtCs2bNvlddUlXM_3std2io5error5ErrorINtB5_4FromBy_E4fromCsdT7u4N7w2iC_20stack_map_and_mutate", scope: !3521, file: !3520, line: 544, type: !3586, scopeLine: 544, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !1549, retainedNodes: !3588)
 !3586 = !DISubroutineType(types: !3587)
 !3587 = !{!302, !302}
 !3588 = !{!3589}
@@ -12153,7 +12261,7 @@ attributes #12 = { noinline }
 !3590 = !DILocation(line: 544, column: 13, scope: !3585)
 !3591 = !DILocation(line: 545, column: 9, scope: !3585)
 !3592 = !DILocation(line: 546, column: 6, scope: !3585)
-!3593 = distinct !DISubprogram(name: "clone<alloc::sync::Arc<std::sync::mutex::Mutex<alloc::vec::Vec<u8, alloc::alloc::Global>>>>", linkageName: "_RNvXs8_NtCs3p84KrD9aKt_4core6optionINtB5_6OptionINtNtCs8RW06R9lH2S_5alloc4sync3ArcINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtBP_3vec3VechEEEENtNtB7_5clone5Clone5cloneCs37qxPUa7whq_20oneway_thread_access", scope: !3594, file: !591, line: 1276, type: !3595, scopeLine: 1276, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !120, retainedNodes: !3598)
+!3593 = distinct !DISubprogram(name: "clone<alloc::sync::Arc<std::sync::mutex::Mutex<alloc::vec::Vec<u8, alloc::alloc::Global>>>>", linkageName: "_RNvXs8_NtCs3p84KrD9aKt_4core6optionINtB5_6OptionINtNtCs8RW06R9lH2S_5alloc4sync3ArcINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtBP_3vec3VechEEEENtNtB7_5clone5Clone5cloneCsdT7u4N7w2iC_20stack_map_and_mutate", scope: !3594, file: !591, line: 1276, type: !3595, scopeLine: 1276, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !120, retainedNodes: !3598)
 !3594 = !DINamespace(name: "{{impl}}", scope: !48)
 !3595 = !DISubroutineType(types: !3596)
 !3596 = !{!114, !3597}
@@ -12172,17 +12280,17 @@ attributes #12 = { noinline }
 !3609 = !DILocation(line: 1278, column: 29, scope: !3601)
 !3610 = !DILocation(line: 1278, column: 24, scope: !3601)
 !3611 = !DILocation(line: 1281, column: 6, scope: !3593)
-!3612 = distinct !DISubprogram(name: "default<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>", linkageName: "_RNvXs9_NtCs3p84KrD9aKt_4core6optionINtB5_6OptionINtNtB7_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB7_3any3AnyNtNtB7_6marker4SendEL_EEENtNtB7_7default7Default7defaultCs37qxPUa7whq_20oneway_thread_access", scope: !3594, file: !591, line: 1303, type: !3613, scopeLine: 1303, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !240, retainedNodes: !4)
+!3612 = distinct !DISubprogram(name: "default<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>", linkageName: "_RNvXs9_NtCs3p84KrD9aKt_4core6optionINtB5_6OptionINtNtB7_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB7_3any3AnyNtNtB7_6marker4SendEL_EEENtNtB7_7default7Default7defaultCsdT7u4N7w2iC_20stack_map_and_mutate", scope: !3594, file: !591, line: 1303, type: !3613, scopeLine: 1303, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !240, retainedNodes: !4)
 !3613 = !DISubroutineType(types: !3614)
 !3614 = !{!234}
 !3615 = !DILocation(line: 1304, column: 9, scope: !3612)
 !3616 = !DILocation(line: 1305, column: 6, scope: !3612)
-!3617 = distinct !DISubprogram(name: "default<std::sys::unix::thread::Thread>", linkageName: "_RNvXs9_NtCs3p84KrD9aKt_4core6optionINtB5_6OptionNtNtNtNtCs2bNvlddUlXM_3std3sys4unix6thread6ThreadENtNtB7_7default7Default7defaultCs37qxPUa7whq_20oneway_thread_access", scope: !3594, file: !591, line: 1303, type: !3618, scopeLine: 1303, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !442, retainedNodes: !4)
+!3617 = distinct !DISubprogram(name: "default<std::sys::unix::thread::Thread>", linkageName: "_RNvXs9_NtCs3p84KrD9aKt_4core6optionINtB5_6OptionNtNtNtNtCs2bNvlddUlXM_3std3sys4unix6thread6ThreadENtNtB7_7default7Default7defaultCsdT7u4N7w2iC_20stack_map_and_mutate", scope: !3594, file: !591, line: 1303, type: !3618, scopeLine: 1303, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !442, retainedNodes: !4)
 !3618 = !DISubroutineType(types: !3619)
 !3619 = !{!436}
 !3620 = !DILocation(line: 1304, column: 9, scope: !3617)
 !3621 = !DILocation(line: 1305, column: 6, scope: !3617)
-!3622 = distinct !DISubprogram(name: "report", linkageName: "_RNvXsC_NtCs2bNvlddUlXM_3std7processuNtB5_11Termination6reportCs37qxPUa7whq_20oneway_thread_access", scope: !3624, file: !3623, line: 1828, type: !3626, scopeLine: 1828, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !4, retainedNodes: !3628)
+!3622 = distinct !DISubprogram(name: "report", linkageName: "_RNvXsC_NtCs2bNvlddUlXM_3std7processuNtB5_11Termination6reportCsdT7u4N7w2iC_20stack_map_and_mutate", scope: !3624, file: !3623, line: 1828, type: !3626, scopeLine: 1828, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !4, retainedNodes: !3628)
 !3623 = !DIFile(filename: "/rustc/e38fb306b7f5e65cca34df2dab1f0db15e1defb4/library/std/src/process.rs", directory: "", checksumkind: CSK_MD5, checksum: "af3deb4955b6b6f458d03bf15fd16325")
 !3624 = !DINamespace(name: "{{impl}}", scope: !3625)
 !3625 = !DINamespace(name: "process", scope: !9)
@@ -12193,7 +12301,7 @@ attributes #12 = { noinline }
 !3630 = !DILocation(line: 1828, column: 15, scope: !3622)
 !3631 = !DILocation(line: 1829, column: 9, scope: !3622)
 !3632 = !DILocation(line: 1830, column: 6, scope: !3622)
-!3633 = distinct !DISubprogram(name: "report", linkageName: "_RNvXsG_NtCs2bNvlddUlXM_3std7processNtB5_8ExitCodeNtB5_11Termination6reportCs37qxPUa7whq_20oneway_thread_access", scope: !3624, file: !3623, line: 1862, type: !3634, scopeLine: 1862, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !4, retainedNodes: !3639)
+!3633 = distinct !DISubprogram(name: "report", linkageName: "_RNvXsG_NtCs2bNvlddUlXM_3std7processNtB5_8ExitCodeNtB5_11Termination6reportCsdT7u4N7w2iC_20stack_map_and_mutate", scope: !3624, file: !3623, line: 1862, type: !3634, scopeLine: 1862, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !4, retainedNodes: !3639)
 !3634 = !DISubroutineType(types: !3635)
 !3635 = !{!103, !3636}
 !3636 = !DICompositeType(tag: DW_TAG_structure_type, name: "ExitCode", scope: !3625, file: !2, size: 8, align: 8, elements: !3637, templateParams: !4, identifier: "3cd0e2b5be33c367134a2531f5f7f17")
@@ -12204,7 +12312,7 @@ attributes #12 = { noinline }
 !3641 = !DILocation(line: 1862, column: 15, scope: !3633)
 !3642 = !DILocation(line: 1863, column: 9, scope: !3633)
 !3643 = !DILocation(line: 1864, column: 6, scope: !3633)
-!3644 = distinct !DISubprogram(name: "deallocate", linkageName: "_RNvXs_NtCs8RW06R9lH2S_5alloc5allocNtB4_6GlobalNtNtCs3p84KrD9aKt_4core5alloc9Allocator10deallocateCs37qxPUa7whq_20oneway_thread_access", scope: !3645, file: !1908, line: 235, type: !3646, scopeLine: 235, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !4, retainedNodes: !3648)
+!3644 = distinct !DISubprogram(name: "deallocate", linkageName: "_RNvXs_NtCs8RW06R9lH2S_5alloc5allocNtB4_6GlobalNtNtCs3p84KrD9aKt_4core5alloc9Allocator10deallocateCsdT7u4N7w2iC_20stack_map_and_mutate", scope: !3645, file: !1908, line: 235, type: !3646, scopeLine: 235, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !4, retainedNodes: !3648)
 !3645 = !DINamespace(name: "{{impl}}", scope: !74)
 !3646 = !DISubroutineType(types: !3647)
 !3647 = !{null, !2366, !600, !670}
@@ -12221,7 +12329,7 @@ attributes #12 = { noinline }
 !3658 = !DILocation(line: 239, column: 44, scope: !3644)
 !3659 = !DILocation(line: 239, column: 22, scope: !3644)
 !3660 = !DILocation(line: 241, column: 6, scope: !3644)
-!3661 = distinct !DISubprogram(name: "allocate", linkageName: "_RNvXs_NtCs8RW06R9lH2S_5alloc5allocNtB4_6GlobalNtNtCs3p84KrD9aKt_4core5alloc9Allocator8allocateCs37qxPUa7whq_20oneway_thread_access", scope: !3645, file: !1908, line: 225, type: !3662, scopeLine: 225, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !4, retainedNodes: !3664)
+!3661 = distinct !DISubprogram(name: "allocate", linkageName: "_RNvXs_NtCs8RW06R9lH2S_5alloc5allocNtB4_6GlobalNtNtCs3p84KrD9aKt_4core5alloc9Allocator8allocateCsdT7u4N7w2iC_20stack_map_and_mutate", scope: !3645, file: !1908, line: 225, type: !3662, scopeLine: 225, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !4, retainedNodes: !3664)
 !3662 = !DISubroutineType(types: !3663)
 !3663 = !{!2349, !2366, !670}
 !3664 = !{!3665, !3666}
@@ -12231,7 +12339,7 @@ attributes #12 = { noinline }
 !3668 = !DILocation(line: 225, column: 24, scope: !3661)
 !3669 = !DILocation(line: 226, column: 9, scope: !3661)
 !3670 = !DILocation(line: 227, column: 6, scope: !3661)
-!3671 = distinct !DISubprogram(name: "from<u8>", linkageName: "_RNvXse_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullhEINtNtB9_7convert4FromINtNtB7_6unique6UniquehEE4fromCs37qxPUa7whq_20oneway_thread_access", scope: !3672, file: !854, line: 562, type: !3523, scopeLine: 562, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !176, retainedNodes: !3673)
+!3671 = distinct !DISubprogram(name: "from<u8>", linkageName: "_RNvXse_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullhEINtNtB9_7convert4FromINtNtB7_6unique6UniquehEE4fromCsdT7u4N7w2iC_20stack_map_and_mutate", scope: !3672, file: !854, line: 562, type: !3523, scopeLine: 562, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !176, retainedNodes: !3673)
 !3672 = !DINamespace(name: "{{impl}}", scope: !21)
 !3673 = !{!3674}
 !3674 = !DILocalVariable(name: "unique", arg: 1, scope: !3671, file: !854, line: 562, type: !190)
@@ -12239,13 +12347,13 @@ attributes #12 = { noinline }
 !3676 = !DILocation(line: 565, column: 41, scope: !3671)
 !3677 = !DILocation(line: 565, column: 18, scope: !3671)
 !3678 = !DILocation(line: 566, column: 6, scope: !3671)
-!3679 = distinct !DISubprogram(name: "from<alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>>>", linkageName: "_RNvXsf_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtB9_4cell10UnsafeCellINtNtB9_6option6OptionINtNtB9_6result6ResultuINtNtBY_5boxed3BoxDNtNtB9_3any3AnyNtNtB9_6marker4SendEL_EEEEEEINtNtB9_7convert4FromQBT_E4fromCs37qxPUa7whq_20oneway_thread_access", scope: !3672, file: !854, line: 572, type: !3534, scopeLine: 572, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !284, retainedNodes: !3680)
+!3679 = distinct !DISubprogram(name: "from<alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>>>", linkageName: "_RNvXsf_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtB9_4cell10UnsafeCellINtNtB9_6option6OptionINtNtB9_6result6ResultuINtNtBY_5boxed3BoxDNtNtB9_3any3AnyNtNtB9_6marker4SendEL_EEEEEEINtNtB9_7convert4FromQBT_E4fromCsdT7u4N7w2iC_20stack_map_and_mutate", scope: !3672, file: !854, line: 572, type: !3534, scopeLine: 572, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !284, retainedNodes: !3680)
 !3680 = !{!3681}
 !3681 = !DILocalVariable(name: "reference", arg: 1, scope: !3679, file: !854, line: 572, type: !2923)
 !3682 = !DILocation(line: 572, column: 13, scope: !3679)
 !3683 = !DILocation(line: 574, column: 18, scope: !3679)
 !3684 = !DILocation(line: 575, column: 6, scope: !3679)
-!3685 = distinct !DISubprogram(name: "clone", linkageName: "_RNvXsk_NtCs2bNvlddUlXM_3std6threadNtB5_6ThreadNtNtCs3p84KrD9aKt_4core5clone5Clone5cloneCs37qxPUa7whq_20oneway_thread_access", scope: !7, file: !389, line: 1030, type: !3686, scopeLine: 1030, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !4, retainedNodes: !3689)
+!3685 = distinct !DISubprogram(name: "clone", linkageName: "_RNvXsk_NtCs2bNvlddUlXM_3std6threadNtB5_6ThreadNtNtCs3p84KrD9aKt_4core5clone5Clone5cloneCsdT7u4N7w2iC_20stack_map_and_mutate", scope: !7, file: !389, line: 1030, type: !3686, scopeLine: 1030, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !4, retainedNodes: !3689)
 !3686 = !DISubroutineType(types: !3687)
 !3687 = !{!12, !3688}
 !3688 = !DIDerivedType(tag: DW_TAG_pointer_type, name: "&std::thread::Thread", baseType: !12, size: 64, align: 64, dwarfAddressSpace: 0)
@@ -12258,7 +12366,7 @@ attributes #12 = { noinline }
 !3695 = !DILocation(line: 1051, column: 5, scope: !3692)
 !3696 = !DILocation(line: 1030, column: 10, scope: !3692)
 !3697 = !DILocation(line: 1030, column: 15, scope: !3685)
-!3698 = distinct !DISubprogram(name: "clone<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>>", linkageName: "_RNvXsk_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtBL_6option6OptionINtNtBL_6result6ResultuINtNtB7_5boxed3BoxDNtNtBL_3any3AnyNtNtBL_6marker4SendEL_EEEEENtNtBL_5clone5Clone5cloneCs37qxPUa7whq_20oneway_thread_access", scope: !3699, file: !2832, line: 1285, type: !3700, scopeLine: 1285, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !282, retainedNodes: !3702)
+!3698 = distinct !DISubprogram(name: "clone<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>>", linkageName: "_RNvXsk_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtBL_6option6OptionINtNtBL_6result6ResultuINtNtB7_5boxed3BoxDNtNtBL_3any3AnyNtNtBL_6marker4SendEL_EEEEENtNtBL_5clone5Clone5cloneCsdT7u4N7w2iC_20stack_map_and_mutate", scope: !3699, file: !2832, line: 1285, type: !3700, scopeLine: 1285, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !282, retainedNodes: !3702)
 !3699 = !DINamespace(name: "{{impl}}", scope: !16)
 !3700 = !DISubroutineType(types: !3701)
 !3701 = !{!219, !3125}
@@ -12276,7 +12384,7 @@ attributes #12 = { noinline }
 !3713 = !DILocation(line: 1312, column: 26, scope: !3705)
 !3714 = !DILocation(line: 1312, column: 9, scope: !3705)
 !3715 = !DILocation(line: 1313, column: 6, scope: !3698)
-!3716 = distinct !DISubprogram(name: "clone<std::sync::mutex::Mutex<alloc::vec::Vec<u8, alloc::alloc::Global>>>", linkageName: "_RNvXsk_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtB7_3vec3VechEEENtNtCs3p84KrD9aKt_4core5clone5Clone5cloneCs37qxPUa7whq_20oneway_thread_access", scope: !3699, file: !2832, line: 1285, type: !3717, scopeLine: 1285, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !202, retainedNodes: !3719)
+!3716 = distinct !DISubprogram(name: "clone<std::sync::mutex::Mutex<alloc::vec::Vec<u8, alloc::alloc::Global>>>", linkageName: "_RNvXsk_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtB7_3vec3VechEEENtNtCs3p84KrD9aKt_4core5clone5Clone5cloneCsdT7u4N7w2iC_20stack_map_and_mutate", scope: !3699, file: !2832, line: 1285, type: !3717, scopeLine: 1285, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !202, retainedNodes: !3719)
 !3717 = !DISubroutineType(types: !3718)
 !3718 = !{!122, !3147}
 !3719 = !{!3720, !3721}
@@ -12293,7 +12401,7 @@ attributes #12 = { noinline }
 !3730 = !DILocation(line: 1312, column: 26, scope: !3722)
 !3731 = !DILocation(line: 1312, column: 9, scope: !3722)
 !3732 = !DILocation(line: 1313, column: 6, scope: !3716)
-!3733 = distinct !DISubprogram(name: "clone<std::thread::Inner>", linkageName: "_RNvXsk_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcNtNtCs2bNvlddUlXM_3std6thread5InnerENtNtCs3p84KrD9aKt_4core5clone5Clone5cloneCs37qxPUa7whq_20oneway_thread_access", scope: !3699, file: !2832, line: 1285, type: !3734, scopeLine: 1285, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !106, retainedNodes: !3736)
+!3733 = distinct !DISubprogram(name: "clone<std::thread::Inner>", linkageName: "_RNvXsk_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcNtNtCs2bNvlddUlXM_3std6thread5InnerENtNtCs3p84KrD9aKt_4core5clone5Clone5cloneCsdT7u4N7w2iC_20stack_map_and_mutate", scope: !3699, file: !2832, line: 1285, type: !3734, scopeLine: 1285, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !106, retainedNodes: !3736)
 !3734 = !DISubroutineType(types: !3735)
 !3735 = !{!15, !3169}
 !3736 = !{!3737, !3738}
@@ -12310,7 +12418,7 @@ attributes #12 = { noinline }
 !3747 = !DILocation(line: 1312, column: 26, scope: !3739)
 !3748 = !DILocation(line: 1312, column: 9, scope: !3739)
 !3749 = !DILocation(line: 1313, column: 6, scope: !3733)
-!3750 = distinct !DISubprogram(name: "deref<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>>", linkageName: "_RNvXsl_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtBL_6option6OptionINtNtBL_6result6ResultuINtNtB7_5boxed3BoxDNtNtBL_3any3AnyNtNtBL_6marker4SendEL_EEEEENtNtNtBL_3ops5deref5Deref5derefCs37qxPUa7whq_20oneway_thread_access", scope: !3699, file: !2832, line: 1321, type: !3751, scopeLine: 1321, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !282, retainedNodes: !3753)
+!3750 = distinct !DISubprogram(name: "deref<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>>", linkageName: "_RNvXsl_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtBL_6option6OptionINtNtBL_6result6ResultuINtNtB7_5boxed3BoxDNtNtBL_3any3AnyNtNtBL_6marker4SendEL_EEEEENtNtNtBL_3ops5deref5Deref5derefCsdT7u4N7w2iC_20stack_map_and_mutate", scope: !3699, file: !2832, line: 1321, type: !3751, scopeLine: 1321, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !282, retainedNodes: !3753)
 !3751 = !DISubroutineType(types: !3752)
 !3752 = !{!3007, !3125}
 !3753 = !{!3754}
@@ -12319,7 +12427,7 @@ attributes #12 = { noinline }
 !3756 = !DILocation(line: 1322, column: 10, scope: !3750)
 !3757 = !DILocation(line: 1322, column: 9, scope: !3750)
 !3758 = !DILocation(line: 1323, column: 6, scope: !3750)
-!3759 = distinct !DISubprogram(name: "drop<u8,alloc::alloc::Global>", linkageName: "_RNvXsm_NtCs8RW06R9lH2S_5alloc3vecINtB5_3VechENtNtNtCs3p84KrD9aKt_4core3ops4drop4Drop4dropCs37qxPUa7whq_20oneway_thread_access", scope: !3760, file: !3022, line: 2320, type: !3761, scopeLine: 2320, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !198, retainedNodes: !3763)
+!3759 = distinct !DISubprogram(name: "drop<u8,alloc::alloc::Global>", linkageName: "_RNvXsm_NtCs8RW06R9lH2S_5alloc3vecINtB5_3VechENtNtNtCs3p84KrD9aKt_4core3ops4drop4Drop4dropCsdT7u4N7w2iC_20stack_map_and_mutate", scope: !3760, file: !3022, line: 2320, type: !3761, scopeLine: 2320, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !198, retainedNodes: !3763)
 !3760 = !DINamespace(name: "{{impl}}", scope: !183)
 !3761 = !DISubroutineType(types: !3762)
 !3762 = !{null, !3025}
@@ -12331,7 +12439,7 @@ attributes #12 = { noinline }
 !3768 = !DILocation(line: 2325, column: 32, scope: !3759)
 !3769 = !DILocation(line: 2325, column: 13, scope: !3759)
 !3770 = !DILocation(line: 2328, column: 6, scope: !3759)
-!3771 = distinct !DISubprogram(name: "drop<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>>", linkageName: "_RNvXsp_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtBL_6option6OptionINtNtBL_6result6ResultuINtNtB7_5boxed3BoxDNtNtBL_3any3AnyNtNtBL_6marker4SendEL_EEEEENtNtNtBL_3ops4drop4Drop4dropCs37qxPUa7whq_20oneway_thread_access", scope: !3699, file: !2832, line: 1550, type: !3132, scopeLine: 1550, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !282, retainedNodes: !3772)
+!3771 = distinct !DISubprogram(name: "drop<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>>", linkageName: "_RNvXsp_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtBL_6option6OptionINtNtBL_6result6ResultuINtNtB7_5boxed3BoxDNtNtBL_3any3AnyNtNtBL_6marker4SendEL_EEEEENtNtNtBL_3ops4drop4Drop4dropCsdT7u4N7w2iC_20stack_map_and_mutate", scope: !3699, file: !2832, line: 1550, type: !3132, scopeLine: 1550, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !282, retainedNodes: !3772)
 !3772 = !{!3773}
 !3773 = !DILocalVariable(name: "self", arg: 1, scope: !3771, file: !2832, line: 1550, type: !3134)
 !3774 = !DILocation(line: 1550, column: 13, scope: !3771)
@@ -12341,7 +12449,7 @@ attributes #12 = { noinline }
 !3778 = !DILocation(line: 1591, column: 6, scope: !3771)
 !3779 = !DILocation(line: 1586, column: 9, scope: !3771)
 !3780 = !DILocation(line: 1589, column: 13, scope: !3771)
-!3781 = distinct !DISubprogram(name: "drop<std::sync::mutex::Mutex<alloc::vec::Vec<u8, alloc::alloc::Global>>>", linkageName: "_RNvXsp_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtB7_3vec3VechEEENtNtNtCs3p84KrD9aKt_4core3ops4drop4Drop4dropCs37qxPUa7whq_20oneway_thread_access", scope: !3699, file: !2832, line: 1550, type: !3154, scopeLine: 1550, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !202, retainedNodes: !3782)
+!3781 = distinct !DISubprogram(name: "drop<std::sync::mutex::Mutex<alloc::vec::Vec<u8, alloc::alloc::Global>>>", linkageName: "_RNvXsp_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtB7_3vec3VechEEENtNtNtCs3p84KrD9aKt_4core3ops4drop4Drop4dropCsdT7u4N7w2iC_20stack_map_and_mutate", scope: !3699, file: !2832, line: 1550, type: !3154, scopeLine: 1550, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !202, retainedNodes: !3782)
 !3782 = !{!3783}
 !3783 = !DILocalVariable(name: "self", arg: 1, scope: !3781, file: !2832, line: 1550, type: !3156)
 !3784 = !DILocation(line: 1550, column: 13, scope: !3781)
@@ -12351,7 +12459,7 @@ attributes #12 = { noinline }
 !3788 = !DILocation(line: 1591, column: 6, scope: !3781)
 !3789 = !DILocation(line: 1586, column: 9, scope: !3781)
 !3790 = !DILocation(line: 1589, column: 13, scope: !3781)
-!3791 = distinct !DISubprogram(name: "drop<std::thread::Inner>", linkageName: "_RNvXsp_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcNtNtCs2bNvlddUlXM_3std6thread5InnerENtNtNtCs3p84KrD9aKt_4core3ops4drop4Drop4dropCs37qxPUa7whq_20oneway_thread_access", scope: !3699, file: !2832, line: 1550, type: !3176, scopeLine: 1550, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !106, retainedNodes: !3792)
+!3791 = distinct !DISubprogram(name: "drop<std::thread::Inner>", linkageName: "_RNvXsp_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcNtNtCs2bNvlddUlXM_3std6thread5InnerENtNtNtCs3p84KrD9aKt_4core3ops4drop4Drop4dropCsdT7u4N7w2iC_20stack_map_and_mutate", scope: !3699, file: !2832, line: 1550, type: !3176, scopeLine: 1550, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !106, retainedNodes: !3792)
 !3792 = !{!3793}
 !3793 = !DILocalVariable(name: "self", arg: 1, scope: !3791, file: !2832, line: 1550, type: !3178)
 !3794 = !DILocation(line: 1550, column: 13, scope: !3791)
@@ -12361,7 +12469,7 @@ attributes #12 = { noinline }
 !3798 = !DILocation(line: 1591, column: 6, scope: !3791)
 !3799 = !DILocation(line: 1586, column: 9, scope: !3791)
 !3800 = !DILocation(line: 1589, column: 13, scope: !3791)
-!3801 = distinct !DISubprogram(name: "call_once<(),closure-0>", linkageName: "_RNvXss_NtCs2bNvlddUlXM_3std5panicINtB5_16AssertUnwindSafeNCNCINvMNtB7_6threadNtB11_7Builder15spawn_uncheckedNCNvCs37qxPUa7whq_20oneway_thread_access4main0uE00EINtNtNtCs3p84KrD9aKt_4core3ops8function6FnOnceuE9call_onceB1M_", scope: !3802, file: !942, line: 321, type: !3803, scopeLine: 321, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !3808, retainedNodes: !3805)
+!3801 = distinct !DISubprogram(name: "call_once<(),closure-0>", linkageName: "_RNvXss_NtCs2bNvlddUlXM_3std5panicINtB5_16AssertUnwindSafeNCNCINvMNtB7_6threadNtB11_7Builder15spawn_uncheckedNCNvCsdT7u4N7w2iC_20stack_map_and_mutate4main0uE00EINtNtNtCs3p84KrD9aKt_4core3ops8function6FnOnceuE9call_onceB1M_", scope: !3802, file: !942, line: 321, type: !3803, scopeLine: 321, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !3808, retainedNodes: !3805)
 !3802 = !DINamespace(name: "{{impl}}", scope: !943)
 !3803 = !DISubroutineType(types: !3804)
 !3804 = !{null, !946}
@@ -12374,7 +12482,7 @@ attributes #12 = { noinline }
 !3811 = !DILocation(line: 321, column: 43, scope: !3801)
 !3812 = !DILocation(line: 322, column: 9, scope: !3801)
 !3813 = !DILocation(line: 323, column: 6, scope: !3801)
-!3814 = distinct !DISubprogram(name: "from_error<std::thread::JoinHandle<()>,std::io::error::Error>", linkageName: "_RNvXsw_NtCs3p84KrD9aKt_4core6resultINtB5_6ResultINtNtCs2bNvlddUlXM_3std6thread10JoinHandleuENtNtNtBP_2io5error5ErrorENtNtNtB7_3ops3try3Try10from_errorCs37qxPUa7whq_20oneway_thread_access", scope: !3815, file: !2886, line: 1506, type: !3816, scopeLine: 1506, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !458, retainedNodes: !3818)
+!3814 = distinct !DISubprogram(name: "from_error<std::thread::JoinHandle<()>,std::io::error::Error>", linkageName: "_RNvXsw_NtCs3p84KrD9aKt_4core6resultINtB5_6ResultINtNtCs2bNvlddUlXM_3std6thread10JoinHandleuENtNtNtBP_2io5error5ErrorENtNtNtB7_3ops3try3Try10from_errorCsdT7u4N7w2iC_20stack_map_and_mutate", scope: !3815, file: !2886, line: 1506, type: !3816, scopeLine: 1506, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !458, retainedNodes: !3818)
 !3815 = !DINamespace(name: "{{impl}}", scope: !243)
 !3816 = !DISubroutineType(types: !3817)
 !3817 = !{!422, !302}
@@ -12384,7 +12492,7 @@ attributes #12 = { noinline }
 !3821 = !DILocation(line: 1507, column: 13, scope: !3814)
 !3822 = !DILocation(line: 1507, column: 9, scope: !3814)
 !3823 = !DILocation(line: 1508, column: 6, scope: !3814)
-!3824 = distinct !DISubprogram(name: "from_error<core::ptr::non_null::NonNull<[u8]>,core::alloc::AllocError>", linkageName: "_RNvXsw_NtCs3p84KrD9aKt_4core6resultINtB5_6ResultINtNtNtB7_3ptr8non_null7NonNullShENtNtB7_5alloc10AllocErrorENtNtNtB7_3ops3try3Try10from_errorCs37qxPUa7whq_20oneway_thread_access", scope: !3815, file: !2886, line: 1506, type: !3825, scopeLine: 1506, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !2360, retainedNodes: !3827)
+!3824 = distinct !DISubprogram(name: "from_error<core::ptr::non_null::NonNull<[u8]>,core::alloc::AllocError>", linkageName: "_RNvXsw_NtCs3p84KrD9aKt_4core6resultINtB5_6ResultINtNtNtB7_3ptr8non_null7NonNullShENtNtB7_5alloc10AllocErrorENtNtNtB7_3ops3try3Try10from_errorCsdT7u4N7w2iC_20stack_map_and_mutate", scope: !3815, file: !2886, line: 1506, type: !3825, scopeLine: 1506, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !2360, retainedNodes: !3827)
 !3825 = !DISubroutineType(types: !3826)
 !3826 = !{!2349, !619}
 !3827 = !{!3828}
@@ -12392,14 +12500,14 @@ attributes #12 = { noinline }
 !3829 = !DILocation(line: 1506, column: 19, scope: !3824)
 !3830 = !DILocation(line: 1507, column: 9, scope: !3824)
 !3831 = !DILocation(line: 1508, column: 6, scope: !3824)
-!3832 = distinct !DISubprogram(name: "into_result<core::ptr::non_null::NonNull<u8>,core::alloc::AllocError>", linkageName: "_RNvXsw_NtCs3p84KrD9aKt_4core6resultINtB5_6ResultINtNtNtB7_3ptr8non_null7NonNullhENtNtB7_5alloc10AllocErrorENtNtNtB7_3ops3try3Try11into_resultCs37qxPUa7whq_20oneway_thread_access", scope: !3815, file: !2886, line: 1496, type: !3833, scopeLine: 1496, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !617, retainedNodes: !3835)
+!3832 = distinct !DISubprogram(name: "into_result<core::ptr::non_null::NonNull<u8>,core::alloc::AllocError>", linkageName: "_RNvXsw_NtCs3p84KrD9aKt_4core6resultINtB5_6ResultINtNtNtB7_3ptr8non_null7NonNullhENtNtB7_5alloc10AllocErrorENtNtNtB7_3ops3try3Try11into_resultCsdT7u4N7w2iC_20stack_map_and_mutate", scope: !3815, file: !2886, line: 1496, type: !3833, scopeLine: 1496, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !617, retainedNodes: !3835)
 !3833 = !DISubroutineType(types: !3834)
 !3834 = !{!609, !609}
 !3835 = !{!3836}
 !3836 = !DILocalVariable(name: "self", arg: 1, scope: !3832, file: !2886, line: 1496, type: !609)
 !3837 = !DILocation(line: 1496, column: 20, scope: !3832)
 !3838 = !DILocation(line: 1498, column: 6, scope: !3832)
-!3839 = distinct !DISubprogram(name: "into_result<std::sys::unix::thread::Thread,std::io::error::Error>", linkageName: "_RNvXsw_NtCs3p84KrD9aKt_4core6resultINtB5_6ResultNtNtNtNtCs2bNvlddUlXM_3std3sys4unix6thread6ThreadNtNtNtBS_2io5error5ErrorENtNtNtB7_3ops3try3Try11into_resultCs37qxPUa7whq_20oneway_thread_access", scope: !3815, file: !2886, line: 1496, type: !3840, scopeLine: 1496, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !3850, retainedNodes: !3855)
+!3839 = distinct !DISubprogram(name: "into_result<std::sys::unix::thread::Thread,std::io::error::Error>", linkageName: "_RNvXsw_NtCs3p84KrD9aKt_4core6resultINtB5_6ResultNtNtNtNtCs2bNvlddUlXM_3std3sys4unix6thread6ThreadNtNtNtBS_2io5error5ErrorENtNtNtB7_3ops3try3Try11into_resultCsdT7u4N7w2iC_20stack_map_and_mutate", scope: !3815, file: !2886, line: 1496, type: !3840, scopeLine: 1496, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !3850, retainedNodes: !3855)
 !3840 = !DISubroutineType(types: !3841)
 !3841 = !{!3842, !3842}
 !3842 = !DICompositeType(tag: DW_TAG_structure_type, name: "Result<std::sys::unix::thread::Thread, std::io::error::Error>", scope: !243, file: !2, size: 192, align: 64, elements: !3843, identifier: "4ff89fd1b07fb31475b3bd96b1f0087c")
@@ -12420,7 +12528,7 @@ attributes #12 = { noinline }
 !3857 = !DILocation(line: 1496, column: 20, scope: !3839)
 !3858 = !DILocation(line: 1497, column: 9, scope: !3839)
 !3859 = !DILocation(line: 1498, column: 6, scope: !3839)
-!3860 = distinct !DISubprogram(name: "drop<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>>", linkageName: "_RNvXsw_NtCs8RW06R9lH2S_5alloc4syncINtB5_4WeakINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtBM_6option6OptionINtNtBM_6result6ResultuINtNtB7_5boxed3BoxDNtNtBM_3any3AnyNtNtBM_6marker4SendEL_EEEEENtNtNtBM_3ops4drop4Drop4dropCs37qxPUa7whq_20oneway_thread_access", scope: !3699, file: !2832, line: 2035, type: !3861, scopeLine: 2035, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !282, retainedNodes: !3864)
+!3860 = distinct !DISubprogram(name: "drop<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>>", linkageName: "_RNvXsw_NtCs8RW06R9lH2S_5alloc4syncINtB5_4WeakINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtBM_6option6OptionINtNtBM_6result6ResultuINtNtB7_5boxed3BoxDNtNtBM_3any3AnyNtNtBM_6marker4SendEL_EEEEENtNtNtBM_3ops4drop4Drop4dropCsdT7u4N7w2iC_20stack_map_and_mutate", scope: !3699, file: !2832, line: 2035, type: !3861, scopeLine: 2035, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !282, retainedNodes: !3864)
 !3861 = !DISubroutineType(types: !3862)
 !3862 = !{null, !3863}
 !3863 = !DIDerivedType(tag: DW_TAG_pointer_type, name: "&mut alloc::sync::Weak<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>>", baseType: !1153, size: 64, align: 64, dwarfAddressSpace: 0)
@@ -12446,7 +12554,7 @@ attributes #12 = { noinline }
 !3883 = !DILocation(line: 2048, column: 79, scope: !3867)
 !3884 = !DILocation(line: 2048, column: 57, scope: !3867)
 !3885 = !DILocation(line: 2048, column: 22, scope: !3867)
-!3886 = distinct !DISubprogram(name: "drop<std::sync::mutex::Mutex<alloc::vec::Vec<u8, alloc::alloc::Global>>>", linkageName: "_RNvXsw_NtCs8RW06R9lH2S_5alloc4syncINtB5_4WeakINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtB7_3vec3VechEEENtNtNtCs3p84KrD9aKt_4core3ops4drop4Drop4dropCs37qxPUa7whq_20oneway_thread_access", scope: !3699, file: !2832, line: 2035, type: !3887, scopeLine: 2035, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !202, retainedNodes: !3890)
+!3886 = distinct !DISubprogram(name: "drop<std::sync::mutex::Mutex<alloc::vec::Vec<u8, alloc::alloc::Global>>>", linkageName: "_RNvXsw_NtCs8RW06R9lH2S_5alloc4syncINtB5_4WeakINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtB7_3vec3VechEEENtNtNtCs3p84KrD9aKt_4core3ops4drop4Drop4dropCsdT7u4N7w2iC_20stack_map_and_mutate", scope: !3699, file: !2832, line: 2035, type: !3887, scopeLine: 2035, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !202, retainedNodes: !3890)
 !3887 = !DISubroutineType(types: !3888)
 !3888 = !{null, !3889}
 !3889 = !DIDerivedType(tag: DW_TAG_pointer_type, name: "&mut alloc::sync::Weak<std::sync::mutex::Mutex<alloc::vec::Vec<u8, alloc::alloc::Global>>>", baseType: !1166, size: 64, align: 64, dwarfAddressSpace: 0)
@@ -12472,7 +12580,7 @@ attributes #12 = { noinline }
 !3909 = !DILocation(line: 2048, column: 79, scope: !3893)
 !3910 = !DILocation(line: 2048, column: 57, scope: !3893)
 !3911 = !DILocation(line: 2048, column: 22, scope: !3893)
-!3912 = distinct !DISubprogram(name: "drop<std::thread::Inner>", linkageName: "_RNvXsw_NtCs8RW06R9lH2S_5alloc4syncINtB5_4WeakNtNtCs2bNvlddUlXM_3std6thread5InnerENtNtNtCs3p84KrD9aKt_4core3ops4drop4Drop4dropCs37qxPUa7whq_20oneway_thread_access", scope: !3699, file: !2832, line: 2035, type: !3913, scopeLine: 2035, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !106, retainedNodes: !3916)
+!3912 = distinct !DISubprogram(name: "drop<std::thread::Inner>", linkageName: "_RNvXsw_NtCs8RW06R9lH2S_5alloc4syncINtB5_4WeakNtNtCs2bNvlddUlXM_3std6thread5InnerENtNtNtCs3p84KrD9aKt_4core3ops4drop4Drop4dropCsdT7u4N7w2iC_20stack_map_and_mutate", scope: !3699, file: !2832, line: 2035, type: !3913, scopeLine: 2035, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !106, retainedNodes: !3916)
 !3913 = !DISubroutineType(types: !3914)
 !3914 = !{null, !3915}
 !3915 = !DIDerivedType(tag: DW_TAG_pointer_type, name: "&mut alloc::sync::Weak<std::thread::Inner>", baseType: !1179, size: 64, align: 64, dwarfAddressSpace: 0)
@@ -12498,21 +12606,21 @@ attributes #12 = { noinline }
 !3935 = !DILocation(line: 2048, column: 79, scope: !3919)
 !3936 = !DILocation(line: 2048, column: 57, scope: !3919)
 !3937 = !DILocation(line: 2048, column: 22, scope: !3919)
-!3938 = distinct !DISubprogram(name: "call_once<fn(),()>", linkageName: "_RNvYFEuINtNtNtCs3p84KrD9aKt_4core3ops8function6FnOnceuE9call_onceCs37qxPUa7whq_20oneway_thread_access", scope: !2276, file: !2275, line: 227, type: !2076, scopeLine: 227, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !3942, retainedNodes: !3939)
+!3938 = distinct !DISubprogram(name: "call_once<fn(),()>", linkageName: "_RNvYFEuINtNtNtCs3p84KrD9aKt_4core3ops8function6FnOnceuE9call_onceCsdT7u4N7w2iC_20stack_map_and_mutate", scope: !2276, file: !2275, line: 227, type: !2076, scopeLine: 227, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !3942, retainedNodes: !3939)
 !3939 = !{!3940, !3941}
 !3940 = !DILocalVariable(arg: 1, scope: !3938, file: !2275, line: 227, type: !296)
 !3941 = !DILocalVariable(arg: 2, scope: !3938, file: !2275, line: 227, type: !251)
 !3942 = !{!3943, !2284}
 !3943 = !DITemplateTypeParameter(name: "Self", type: !296)
 !3944 = !DILocation(line: 227, column: 5, scope: !3938)
-!3945 = distinct !DISubprogram(name: "call_once<closure-0,()>", linkageName: "_RNvYNCINvNtCs2bNvlddUlXM_3std2rt10lang_startuE0INtNtNtCs3p84KrD9aKt_4core3ops8function6FnOnceuE9call_onceCs37qxPUa7whq_20oneway_thread_access", scope: !2276, file: !2275, line: 227, type: !3946, scopeLine: 227, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !2292, retainedNodes: !3948)
+!3945 = distinct !DISubprogram(name: "call_once<closure-0,()>", linkageName: "_RNvYNCINvNtCs2bNvlddUlXM_3std2rt10lang_startuE0INtNtNtCs3p84KrD9aKt_4core3ops8function6FnOnceuE9call_onceCsdT7u4N7w2iC_20stack_map_and_mutate", scope: !2276, file: !2275, line: 227, type: !3946, scopeLine: 227, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !2292, retainedNodes: !3948)
 !3946 = !DISubroutineType(types: !3947)
 !3947 = !{!103, !291}
 !3948 = !{!3949, !3950}
 !3949 = !DILocalVariable(arg: 1, scope: !3945, file: !2275, line: 227, type: !291)
 !3950 = !DILocalVariable(arg: 2, scope: !3945, file: !2275, line: 227, type: !251)
 !3951 = !DILocation(line: 227, column: 5, scope: !3945)
-!3952 = distinct !DISubprogram(name: "call_once<fn() -> usize,()>", linkageName: "_RNvYNvNtNtCs2bNvlddUlXM_3std10sys_common6thread9min_stackINtNtNtCs3p84KrD9aKt_4core3ops8function6FnOnceuE9call_onceCs37qxPUa7whq_20oneway_thread_access", scope: !2276, file: !2275, line: 227, type: !3953, scopeLine: 227, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !3958, retainedNodes: !3955)
+!3952 = distinct !DISubprogram(name: "call_once<fn() -> usize,()>", linkageName: "_RNvYNvNtNtCs2bNvlddUlXM_3std10sys_common6thread9min_stackINtNtNtCs3p84KrD9aKt_4core3ops8function6FnOnceuE9call_onceCsdT7u4N7w2iC_20stack_map_and_mutate", scope: !2276, file: !2275, line: 227, type: !3953, scopeLine: 227, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !3958, retainedNodes: !3955)
 !3953 = !DISubroutineType(types: !3954)
 !3954 = !{!39, !646}
 !3955 = !{!3956, !3957}
@@ -12521,38 +12629,50 @@ attributes #12 = { noinline }
 !3958 = !{!3959, !2284}
 !3959 = !DITemplateTypeParameter(name: "Self", type: !646)
 !3960 = !DILocation(line: 227, column: 5, scope: !3952)
-!3961 = distinct !DISubprogram(name: "main", linkageName: "_RNvCs37qxPUa7whq_20oneway_thread_access4main", scope: !215, file: !3962, line: 8, type: !297, scopeLine: 8, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition | DISPFlagMainSubprogram, unit: !364, templateParams: !4, retainedNodes: !3963)
-!3962 = !DIFile(filename: "src/main.rs", directory: "/home/skeet/Documents/o2_lab/rust/race_examples/oneway_thread_access", checksumkind: CSK_MD5, checksum: "dbd4a1cdc42b82715ee4d30bbec8a65a")
-!3963 = !{!3964, !3966, !3968, !3970}
+!3961 = distinct !DISubprogram(name: "main", linkageName: "_RNvCsdT7u4N7w2iC_20stack_map_and_mutate4main", scope: !215, file: !3962, line: 8, type: !297, scopeLine: 8, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition | DISPFlagMainSubprogram, unit: !364, templateParams: !4, retainedNodes: !3963)
+!3962 = !DIFile(filename: "src/main.rs", directory: "/home/skeet/Documents/o2_lab/rust/race_examples/stack_map_and_mutate", checksumkind: CSK_MD5, checksum: "0dde581946cb3b765025b091638a5048")
+!3963 = !{!3964, !3966, !3968, !3970, !3974}
 !3964 = !DILocalVariable(name: "myvar", scope: !3965, file: !3962, line: 9, type: !65, align: 1)
 !3965 = distinct !DILexicalBlock(scope: !3961, file: !3962, line: 9, column: 2)
 !3966 = !DILocalVariable(name: "child", scope: !3967, file: !3962, line: 12, type: !430, align: 8)
 !3967 = distinct !DILexicalBlock(scope: !3965, file: !3962, line: 12, column: 2)
-!3968 = !DILocalVariable(name: "_r", scope: !3969, file: !3962, line: 18, type: !242, align: 8)
-!3969 = distinct !DILexicalBlock(scope: !3967, file: !3962, line: 18, column: 2)
-!3970 = !DILocalVariable(name: "arg0", scope: !3971, file: !3962, line: 21, type: !911, align: 8)
+!3968 = !DILocalVariable(name: "_r", scope: !3969, file: !3962, line: 20, type: !242, align: 8)
+!3969 = distinct !DILexicalBlock(scope: !3967, file: !3962, line: 20, column: 2)
+!3970 = !DILocalVariable(name: "arg0", scope: !3971, file: !3962, line: 23, type: !911, align: 8)
 !3971 = !DILexicalBlockFile(scope: !3972, file: !3962, discriminator: 0)
 !3972 = distinct !DILexicalBlock(scope: !3969, file: !3973, line: 96, column: 28)
 !3973 = !DIFile(filename: "/rustc/e38fb306b7f5e65cca34df2dab1f0db15e1defb4/library/std/src/macros.rs", directory: "", checksumkind: CSK_MD5, checksum: "6d694d97ad1c305042927947e98f84dc")
-!3974 = !DILocation(line: 9, column: 6, scope: !3965)
-!3975 = !DILocation(line: 12, column: 6, scope: !3967)
-!3976 = !DILocation(line: 18, column: 6, scope: !3969)
-!3977 = !DILocation(line: 9, column: 14, scope: !3961)
-!3978 = !DILocation(line: 12, column: 28, scope: !3965)
-!3979 = !DILocation(line: 12, column: 14, scope: !3965)
-!3980 = !DILocation(line: 18, column: 11, scope: !3967)
-!3981 = !DILocation(line: 21, column: 2, scope: !3969)
-!3982 = !DILocation(line: 21, column: 2, scope: !3971)
-!3983 = !DILocation(line: 22, column: 1, scope: !3967)
-!3984 = !DILocation(line: 22, column: 2, scope: !3961)
-!3985 = !DILocation(line: 8, column: 1, scope: !3961)
-!3986 = distinct !DISubprogram(name: "{{closure}}", linkageName: "_RNCNvCs37qxPUa7whq_20oneway_thread_access4main0B3_", scope: !214, file: !3962, line: 12, type: !2092, scopeLine: 12, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !4, retainedNodes: !3987)
-!3987 = !{!3988, !3989}
-!3988 = !DILocalVariable(name: "myvar", scope: !3986, file: !3962, line: 9, type: !65, align: 1)
-!3989 = !DILocalVariable(name: "arg0", scope: !3990, file: !3962, line: 15, type: !911, align: 8)
-!3990 = !DILexicalBlockFile(scope: !3991, file: !3962, discriminator: 0)
-!3991 = distinct !DILexicalBlock(scope: !3986, file: !3973, line: 96, column: 28)
-!3992 = !DILocation(line: 9, column: 6, scope: !3986)
-!3993 = !DILocation(line: 15, column: 3, scope: !3986)
-!3994 = !DILocation(line: 15, column: 3, scope: !3990)
-!3995 = !DILocation(line: 16, column: 3, scope: !3986)
+!3974 = !DILocalVariable(name: "arg0", scope: !3975, file: !3962, line: 25, type: !911, align: 8)
+!3975 = !DILexicalBlockFile(scope: !3976, file: !3962, discriminator: 0)
+!3976 = distinct !DILexicalBlock(scope: !3969, file: !3973, line: 96, column: 28)
+!3977 = !DILocation(line: 9, column: 6, scope: !3965)
+!3978 = !DILocation(line: 12, column: 6, scope: !3967)
+!3979 = !DILocation(line: 20, column: 6, scope: !3969)
+!3980 = !DILocation(line: 9, column: 18, scope: !3961)
+!3981 = !DILocation(line: 12, column: 28, scope: !3965)
+!3982 = !DILocation(line: 12, column: 14, scope: !3965)
+!3983 = !DILocation(line: 20, column: 11, scope: !3967)
+!3984 = !DILocation(line: 23, column: 2, scope: !3969)
+!3985 = !DILocation(line: 23, column: 2, scope: !3971)
+!3986 = !DILocation(line: 24, column: 2, scope: !3969)
+!3987 = !DILocation(line: 25, column: 2, scope: !3969)
+!3988 = !DILocation(line: 25, column: 2, scope: !3975)
+!3989 = !DILocation(line: 26, column: 1, scope: !3967)
+!3990 = !DILocation(line: 26, column: 2, scope: !3961)
+!3991 = !DILocation(line: 8, column: 1, scope: !3961)
+!3992 = distinct !DISubprogram(name: "{{closure}}", linkageName: "_RNCNvCsdT7u4N7w2iC_20stack_map_and_mutate4main0B3_", scope: !214, file: !3962, line: 12, type: !2092, scopeLine: 12, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !364, templateParams: !4, retainedNodes: !3993)
+!3993 = !{!3994, !3995, !3998}
+!3994 = !DILocalVariable(name: "myvar", scope: !3992, file: !3962, line: 9, type: !65, align: 1)
+!3995 = !DILocalVariable(name: "arg0", scope: !3996, file: !3962, line: 15, type: !911, align: 8)
+!3996 = !DILexicalBlockFile(scope: !3997, file: !3962, discriminator: 0)
+!3997 = distinct !DILexicalBlock(scope: !3992, file: !3973, line: 96, column: 28)
+!3998 = !DILocalVariable(name: "arg0", scope: !3999, file: !3962, line: 17, type: !911, align: 8)
+!3999 = !DILexicalBlockFile(scope: !4000, file: !3962, discriminator: 0)
+!4000 = distinct !DILexicalBlock(scope: !3992, file: !3973, line: 96, column: 28)
+!4001 = !DILocation(line: 9, column: 6, scope: !3992)
+!4002 = !DILocation(line: 15, column: 3, scope: !3992)
+!4003 = !DILocation(line: 15, column: 3, scope: !3996)
+!4004 = !DILocation(line: 16, column: 3, scope: !3992)
+!4005 = !DILocation(line: 17, column: 3, scope: !3992)
+!4006 = !DILocation(line: 17, column: 3, scope: !3999)
+!4007 = !DILocation(line: 18, column: 3, scope: !3992)

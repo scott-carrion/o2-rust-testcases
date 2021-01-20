@@ -84,10 +84,10 @@ target triple = "x86_64-unknown-linux-gnu"
 @alloc54 = private unnamed_addr constant <{ [41 x i8] }> <{ [41 x i8] c"there is no such thing as a relaxed fence" }>, align 1
 @alloc55 = private unnamed_addr constant <{ [79 x i8] }> <{ [79 x i8] c"/rustc/e38fb306b7f5e65cca34df2dab1f0db15e1defb4/library/core/src/sync/atomic.rs" }>, align 1
 @alloc56 = private unnamed_addr constant <{ i8*, [16 x i8] }> <{ i8* getelementptr inbounds (<{ [79 x i8] }>, <{ [79 x i8] }>* @alloc55, i32 0, i32 0, i32 0), [16 x i8] c"O\00\00\00\00\00\00\00n\0A\00\00\18\00\00\00" }>, align 8
-@alloc3 = private unnamed_addr constant <{ [12 x i8] }> <{ [12 x i8] c"stackvar == " }>, align 1
+@alloc3 = private unnamed_addr constant <{ [13 x i8] }> <{ [13 x i8] c"staticvar == " }>, align 1
 @alloc5 = private unnamed_addr constant <{ [1 x i8] }> <{ [1 x i8] c"\0A" }>, align 1
-@alloc4 = private unnamed_addr constant <{ i8*, [8 x i8], i8*, [8 x i8] }> <{ i8* getelementptr inbounds (<{ [12 x i8] }>, <{ [12 x i8] }>* @alloc3, i32 0, i32 0, i32 0), [8 x i8] c"\0C\00\00\00\00\00\00\00", i8* getelementptr inbounds (<{ [1 x i8] }>, <{ [1 x i8] }>* @alloc5, i32 0, i32 0, i32 0), [8 x i8] c"\01\00\00\00\00\00\00\00" }>, align 8
-@_RNvNvCs9oCzLYgMGFk_17mapped_stack_join4main8stackvar = internal global <{ [1 x i8] }> <{ [1 x i8] c"\10" }>, align 1, !dbg !358
+@alloc4 = private unnamed_addr constant <{ i8*, [8 x i8], i8*, [8 x i8] }> <{ i8* getelementptr inbounds (<{ [13 x i8] }>, <{ [13 x i8] }>* @alloc3, i32 0, i32 0, i32 0), [8 x i8] c"\0D\00\00\00\00\00\00\00", i8* getelementptr inbounds (<{ [1 x i8] }>, <{ [1 x i8] }>* @alloc5, i32 0, i32 0, i32 0), [8 x i8] c"\01\00\00\00\00\00\00\00" }>, align 8
+@_RNvNvCs9oCzLYgMGFk_17mapped_stack_join4main9staticvar = internal global <{ [1 x i8] }> <{ [1 x i8] c"\10" }>, align 1, !dbg !358
 @__rustc_debug_gdb_scripts_section__ = linkonce_odr unnamed_addr constant [34 x i8] c"\01gdb_load_rust_pretty_printers.py\00", section ".debug_gdb_scripts", align 1
 
 ; <std::thread::Builder>::spawn_unchecked::<mapped_stack_join::main::{closure#0}, ()>
@@ -8267,11 +8267,11 @@ start:
   %_14 = alloca [1 x { i8*, i64* }], align 8
   %_7 = alloca %"std::fmt::Arguments", align 8
   %_4 = alloca %"std::thread::JoinHandle<()>", align 8
-  %rc = alloca { i8*, i8* }, align 8
+  %_rc = alloca { i8*, i8* }, align 8
   %_2 = alloca %"[closure@src/main.rs:10:30: 13:3]", align 1
   %_child = alloca %"std::thread::JoinHandle<()>", align 8
   call void @llvm.dbg.declare(metadata %"std::thread::JoinHandle<()>"* %_child, metadata !3960, metadata !DIExpression()), !dbg !3968
-  call void @llvm.dbg.declare(metadata { i8*, i8* }* %rc, metadata !3962, metadata !DIExpression()), !dbg !3969
+  call void @llvm.dbg.declare(metadata { i8*, i8* }* %_rc, metadata !3962, metadata !DIExpression()), !dbg !3969
 ; call std::thread::spawn::<mapped_stack_join::main::{closure#0}, ()>
   call void @_RINvNtCs2bNvlddUlXM_3std6thread5spawnNCNvCs9oCzLYgMGFk_17mapped_stack_join4main0uEBD_(%"std::thread::JoinHandle<()>"* noalias nocapture sret dereferenceable(32) %_child), !dbg !3970
   br label %bb1, !dbg !3970
@@ -8282,12 +8282,12 @@ bb1:                                              ; preds = %start
   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 8 %1, i8* align 8 %2, i64 32, i1 false), !dbg !3971
 ; call <std::thread::JoinHandle<()>>::join
   %3 = call { i8*, i8* } @_RNvMs7_NtCs2bNvlddUlXM_3std6threadINtB5_10JoinHandleuE4joinCs9oCzLYgMGFk_17mapped_stack_join(%"std::thread::JoinHandle<()>"* noalias nocapture dereferenceable(32) %_4), !dbg !3971
-  store { i8*, i8* } %3, { i8*, i8* }* %rc, align 8, !dbg !3971
+  store { i8*, i8* } %3, { i8*, i8* }* %_rc, align 8, !dbg !3971
   br label %bb2, !dbg !3971
 
 bb2:                                              ; preds = %bb1
-  store i8 32, i8* getelementptr inbounds (<{ [1 x i8] }>, <{ [1 x i8] }>* @_RNvNvCs9oCzLYgMGFk_17mapped_stack_join4main8stackvar, i32 0, i32 0, i32 0), align 1, !dbg !3972
-  store i8* getelementptr inbounds (<{ [1 x i8] }>, <{ [1 x i8] }>* @_RNvNvCs9oCzLYgMGFk_17mapped_stack_join4main8stackvar, i32 0, i32 0, i32 0), i8** %_15, align 8, !dbg !3973
+  store i8 32, i8* getelementptr inbounds (<{ [1 x i8] }>, <{ [1 x i8] }>* @_RNvNvCs9oCzLYgMGFk_17mapped_stack_join4main9staticvar, i32 0, i32 0, i32 0), align 1, !dbg !3972
+  store i8* getelementptr inbounds (<{ [1 x i8] }>, <{ [1 x i8] }>* @_RNvNvCs9oCzLYgMGFk_17mapped_stack_join4main9staticvar, i32 0, i32 0, i32 0), i8** %_15, align 8, !dbg !3973
   %arg0 = load i8*, i8** %_15, align 8, !dbg !3973, !nonnull !4
   store i8* %arg0, i8** %arg0.dbg.spill, align 8, !dbg !3973
   call void @llvm.dbg.declare(metadata i8** %arg0.dbg.spill, metadata !3964, metadata !DIExpression()), !dbg !3974
@@ -8315,7 +8315,7 @@ bb4:                                              ; preds = %bb3
 
 bb5:                                              ; preds = %bb4
 ; call core::ptr::drop_in_place::<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>
-  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEECs9oCzLYgMGFk_17mapped_stack_join({ i8*, i8* }* %rc), !dbg !3975
+  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEECs9oCzLYgMGFk_17mapped_stack_join({ i8*, i8* }* %_rc), !dbg !3975
   br label %bb6, !dbg !3975
 
 bb6:                                              ; preds = %bb5
@@ -8323,7 +8323,7 @@ bb6:                                              ; preds = %bb5
 
 bb7:                                              ; preds = %cleanup
 ; call core::ptr::drop_in_place::<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>
-  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEECs9oCzLYgMGFk_17mapped_stack_join({ i8*, i8* }* %rc) #12, !dbg !3975
+  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEECs9oCzLYgMGFk_17mapped_stack_join({ i8*, i8* }* %_rc) #12, !dbg !3975
   br label %bb8, !dbg !3975
 
 bb8:                                              ; preds = %bb7
@@ -8353,7 +8353,7 @@ define internal void @_RNCNvCs9oCzLYgMGFk_17mapped_stack_join4main0B3_() unnamed
 start:
   %_1.dbg.spill = alloca %"[closure@src/main.rs:10:30: 13:3]", align 1
   call void @llvm.dbg.declare(metadata %"[closure@src/main.rs:10:30: 13:3]"* %_1.dbg.spill, metadata !3980, metadata !DIExpression()), !dbg !3981
-  store i8 99, i8* getelementptr inbounds (<{ [1 x i8] }>, <{ [1 x i8] }>* @_RNvNvCs9oCzLYgMGFk_17mapped_stack_join4main8stackvar, i32 0, i32 0, i32 0), align 1, !dbg !3982
+  store i8 99, i8* getelementptr inbounds (<{ [1 x i8] }>, <{ [1 x i8] }>* @_RNvNvCs9oCzLYgMGFk_17mapped_stack_join4main9staticvar, i32 0, i32 0, i32 0), align 1, !dbg !3982
   ret void, !dbg !3983
 }
 
@@ -8865,14 +8865,14 @@ attributes #12 = { noinline }
 !356 = !DIDerivedType(tag: DW_TAG_member, name: "vtable", scope: !353, file: !2, baseType: !259, size: 64, align: 64, offset: 64, flags: DIFlagArtificial)
 !357 = !DIDerivedType(tag: DW_TAG_member, scope: !301, file: !2, baseType: !65, size: 8, align: 8, flags: DIFlagArtificial)
 !358 = !DIGlobalVariableExpression(var: !359, expr: !DIExpression())
-!359 = distinct !DIGlobalVariable(name: "stackvar", linkageName: "_RNvNvCs9oCzLYgMGFk_17mapped_stack_join4main8stackvar", scope: !214, file: !360, line: 7, type: !65, isLocal: true, isDefinition: true, align: 1)
-!360 = !DIFile(filename: "src/main.rs", directory: "/home/skeet/Documents/o2_lab/rust/race_examples/mapped_stack_join", checksumkind: CSK_MD5, checksum: "d5c50bf146ebeacea87c3850f5b30319")
+!359 = distinct !DIGlobalVariable(name: "staticvar", linkageName: "_RNvNvCs9oCzLYgMGFk_17mapped_stack_join4main9staticvar", scope: !214, file: !360, line: 7, type: !65, isLocal: true, isDefinition: true, align: 1)
+!360 = !DIFile(filename: "src/main.rs", directory: "/home/skeet/Documents/o2_lab/rust/race_examples/mapped_static_join", checksumkind: CSK_MD5, checksum: "ce667be4d586583c609268d66859cb3a")
 !361 = !{i32 7, !"PIC Level", i32 2}
 !362 = !{i32 7, !"PIE Level", i32 2}
 !363 = !{i32 2, !"RtLibUseGOT", i32 1}
 !364 = !{i32 2, !"Debug Info Version", i32 3}
 !365 = distinct !DICompileUnit(language: DW_LANG_Rust, file: !366, producer: "clang LLVM (rustc version 1.51.0-nightly (e38fb306b 2021-01-14))", isOptimized: false, runtimeVersion: 0, emissionKind: FullDebug, enums: !367, globals: !388)
-!366 = !DIFile(filename: "src/main.rs", directory: "/home/skeet/Documents/o2_lab/rust/race_examples/mapped_stack_join/target/debug/deps")
+!366 = !DIFile(filename: "src/main.rs", directory: "/home/skeet/Documents/o2_lab/rust/race_examples/mapped_static_join/target/debug/deps")
 !367 = !{!317, !368, !372, !381}
 !368 = !DICompositeType(tag: DW_TAG_enumeration_type, name: "Result", scope: !241, file: !2, baseType: !65, size: 8, align: 8, flags: DIFlagEnumClass, elements: !369)
 !369 = !{!370, !371}
@@ -10370,7 +10370,7 @@ attributes #12 = { noinline }
 !1861 = !DILocalVariable(name: "dummy", arg: 1, scope: !1855, file: !1856, line: 159, type: !249)
 !1862 = !DILocation(line: 159, column: 21, scope: !1855)
 !1863 = !DILocation(line: 170, column: 9, scope: !1855)
-!1864 = !{i32 2807256}
+!1864 = !{i32 2807269}
 !1865 = !DILocation(line: 174, column: 2, scope: !1855)
 !1866 = distinct !DISubprogram(name: "is_dangling<alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>>>", linkageName: "_RINvNtCs8RW06R9lH2S_5alloc2rc11is_danglingINtNtB4_4sync8ArcInnerINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtB15_6option6OptionINtNtB15_6result6ResultuINtNtB4_5boxed3BoxDNtNtB15_3any3AnyNtNtB15_6marker4SendEL_EEEEEECs9oCzLYgMGFk_17mapped_stack_join", scope: !1868, file: !1867, line: 1863, type: !1869, scopeLine: 1863, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !282, retainedNodes: !1872)
 !1867 = !DIFile(filename: "/rustc/e38fb306b7f5e65cca34df2dab1f0db15e1defb4/library/alloc/src/rc.rs", directory: "", checksumkind: CSK_MD5, checksum: "334c7d6a82665ba9c636dfac0836de58")
@@ -12468,7 +12468,7 @@ attributes #12 = { noinline }
 !3959 = !{!3960, !3962, !3964}
 !3960 = !DILocalVariable(name: "_child", scope: !3961, file: !360, line: 10, type: !431, align: 8)
 !3961 = distinct !DILexicalBlock(scope: !3958, file: !360, line: 10, column: 2)
-!3962 = !DILocalVariable(name: "rc", scope: !3963, file: !360, line: 15, type: !240, align: 8)
+!3962 = !DILocalVariable(name: "_rc", scope: !3963, file: !360, line: 15, type: !240, align: 8)
 !3963 = distinct !DILexicalBlock(scope: !3961, file: !360, line: 15, column: 2)
 !3964 = !DILocalVariable(name: "arg0", scope: !3965, file: !360, line: 20, type: !912, align: 8)
 !3965 = !DILexicalBlockFile(scope: !3966, file: !360, discriminator: 0)
@@ -12477,7 +12477,7 @@ attributes #12 = { noinline }
 !3968 = !DILocation(line: 10, column: 6, scope: !3961)
 !3969 = !DILocation(line: 15, column: 6, scope: !3963)
 !3970 = !DILocation(line: 10, column: 15, scope: !3958)
-!3971 = !DILocation(line: 15, column: 11, scope: !3961)
+!3971 = !DILocation(line: 15, column: 12, scope: !3961)
 !3972 = !DILocation(line: 18, column: 11, scope: !3963)
 !3973 = !DILocation(line: 20, column: 11, scope: !3963)
 !3974 = !DILocation(line: 20, column: 11, scope: !3965)

@@ -1,5 +1,5 @@
-; ModuleID = '2jr4td7uze4hps6n'
-source_filename = "2jr4td7uze4hps6n"
+; ModuleID = '4fooy24zc3vq1ckv'
+source_filename = "4fooy24zc3vq1ckv"
 target datalayout = "e-m:e-p270:32:32-p271:32:32-p272:64:64-i64:64-f80:128-n8:16:32:64-S128"
 target triple = "x86_64-unknown-linux-gnu"
 
@@ -67,25 +67,25 @@ target triple = "x86_64-unknown-linux-gnu"
 %"unwind::libunwind::_Unwind_Exception" = type { [0 x i64], i64, [0 x i64], void (i32, %"unwind::libunwind::_Unwind_Exception"*)*, [0 x i64], [6 x i64], [0 x i64] }
 %"unwind::libunwind::_Unwind_Context" = type { [0 x i8] }
 
-@vtable.0 = private unnamed_addr constant { void (%"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:10:30: 13:3], ()>::{closure#0}]"*)*, i64, i64, void (%"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:10:30: 13:3], ()>::{closure#0}]"*)* } { void (%"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:10:30: 13:3], ()>::{closure#0}]"*)* @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNCINvMNtCs2bNvlddUlXM_3std6threadNtBM_7Builder15spawn_uncheckedNCNvCskT2QP9QPlNo_17mapped_stack_race4main0uE0EB1L_, i64 24, i64 8, void (%"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:10:30: 13:3], ()>::{closure#0}]"*)* @_RNSNvYNCINvMNtCs2bNvlddUlXM_3std6threadNtBa_7Builder15spawn_uncheckedNCNvCskT2QP9QPlNo_17mapped_stack_race4main0uE0INtNtNtCs3p84KrD9aKt_4core3ops8function6FnOnceuE9call_once6vtableB19_ }, align 8, !dbg !0
-@vtable.1 = private unnamed_addr constant { void (i64**)*, i64, i64, i32 (i64**)*, i32 (i64**)*, i32 (i64**)* } { void (i64**)* @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNCINvNtCs2bNvlddUlXM_3std2rt10lang_startuE0ECskT2QP9QPlNo_17mapped_stack_race, i64 8, i64 8, i32 (i64**)* @_RNCINvNtCs2bNvlddUlXM_3std2rt10lang_startuE0CskT2QP9QPlNo_17mapped_stack_race, i32 (i64**)* @_RNCINvNtCs2bNvlddUlXM_3std2rt10lang_startuE0CskT2QP9QPlNo_17mapped_stack_race, i32 (i64**)* @_RNSNvYNCINvNtCs2bNvlddUlXM_3std2rt10lang_startuE0INtNtNtCs3p84KrD9aKt_4core3ops8function6FnOnceuE9call_once6vtableCskT2QP9QPlNo_17mapped_stack_race }, align 8, !dbg !286
+@vtable.0 = private unnamed_addr constant { void (%"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:10:30: 13:3], ()>::{closure#0}]"*)*, i64, i64, void (%"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:10:30: 13:3], ()>::{closure#0}]"*)* } { void (%"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:10:30: 13:3], ()>::{closure#0}]"*)* @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNCINvMNtCs2bNvlddUlXM_3std6threadNtBM_7Builder15spawn_uncheckedNCNvCsfnYCCstO0CH_18mapped_static_race4main0uE0EB1L_, i64 24, i64 8, void (%"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:10:30: 13:3], ()>::{closure#0}]"*)* @_RNSNvYNCINvMNtCs2bNvlddUlXM_3std6threadNtBa_7Builder15spawn_uncheckedNCNvCsfnYCCstO0CH_18mapped_static_race4main0uE0INtNtNtCs3p84KrD9aKt_4core3ops8function6FnOnceuE9call_once6vtableB19_ }, align 8, !dbg !0
+@vtable.1 = private unnamed_addr constant { void (i64**)*, i64, i64, i32 (i64**)*, i32 (i64**)*, i32 (i64**)* } { void (i64**)* @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNCINvNtCs2bNvlddUlXM_3std2rt10lang_startuE0ECsfnYCCstO0CH_18mapped_static_race, i64 8, i64 8, i32 (i64**)* @_RNCINvNtCs2bNvlddUlXM_3std2rt10lang_startuE0CsfnYCCstO0CH_18mapped_static_race, i32 (i64**)* @_RNCINvNtCs2bNvlddUlXM_3std2rt10lang_startuE0CsfnYCCstO0CH_18mapped_static_race, i32 (i64**)* @_RNSNvYNCINvNtCs2bNvlddUlXM_3std2rt10lang_startuE0INtNtNtCs3p84KrD9aKt_4core3ops8function6FnOnceuE9call_once6vtableCsfnYCCstO0CH_18mapped_static_race }, align 8, !dbg !286
 @alloc45 = private unnamed_addr constant <{ [22 x i8] }> <{ [22 x i8] c"failed to spawn thread" }>, align 1
 @alloc46 = private unnamed_addr constant <{ [77 x i8] }> <{ [77 x i8] c"/rustc/e38fb306b7f5e65cca34df2dab1f0db15e1defb4/library/std/src/thread/mod.rs" }>, align 1
 @alloc47 = private unnamed_addr constant <{ i8*, [16 x i8] }> <{ i8* getelementptr inbounds (<{ [77 x i8] }>, <{ [77 x i8] }>* @alloc46, i32 0, i32 0, i32 0), [16 x i8] c"M\00\00\00\00\00\00\00l\02\00\00\1D\00\00\00" }>, align 8
-@vtable.2 = private unnamed_addr constant { void (%"std::io::Error"*)*, i64, i64, i1 (%"std::io::Error"*, %"std::fmt::Formatter"*)* } { void (%"std::io::Error"*)* @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNtNtNtCs2bNvlddUlXM_3std2io5error5ErrorECskT2QP9QPlNo_17mapped_stack_race, i64 16, i64 8, i1 (%"std::io::Error"*, %"std::fmt::Formatter"*)* @"_ZN58_$LT$std..io..error..Error$u20$as$u20$core..fmt..Debug$GT$3fmt17h9846d30f97792c23E" }, align 8, !dbg !297
+@vtable.2 = private unnamed_addr constant { void (%"std::io::Error"*)*, i64, i64, i1 (%"std::io::Error"*, %"std::fmt::Formatter"*)* } { void (%"std::io::Error"*)* @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNtNtNtCs2bNvlddUlXM_3std2io5error5ErrorECsfnYCCstO0CH_18mapped_static_race, i64 16, i64 8, i1 (%"std::io::Error"*, %"std::fmt::Formatter"*)* @"_ZN58_$LT$std..io..error..Error$u20$as$u20$core..fmt..Debug$GT$3fmt17h9846d30f97792c23E" }, align 8, !dbg !297
 @alloc20 = private unnamed_addr constant <{ [0 x i8] }> zeroinitializer, align 1
 @alloc48 = private unnamed_addr constant <{ [41 x i8] }> <{ [41 x i8] c"there is no such thing as a relaxed fence" }>, align 1
 @alloc49 = private unnamed_addr constant <{ [79 x i8] }> <{ [79 x i8] c"/rustc/e38fb306b7f5e65cca34df2dab1f0db15e1defb4/library/core/src/sync/atomic.rs" }>, align 1
 @alloc50 = private unnamed_addr constant <{ i8*, [16 x i8] }> <{ i8* getelementptr inbounds (<{ [79 x i8] }>, <{ [79 x i8] }>* @alloc49, i32 0, i32 0, i32 0), [16 x i8] c"O\00\00\00\00\00\00\00n\0A\00\00\18\00\00\00" }>, align 8
-@alloc3 = private unnamed_addr constant <{ [12 x i8] }> <{ [12 x i8] c"stackvar == " }>, align 1
+@alloc3 = private unnamed_addr constant <{ [13 x i8] }> <{ [13 x i8] c"staticvar == " }>, align 1
 @alloc5 = private unnamed_addr constant <{ [1 x i8] }> <{ [1 x i8] c"\0A" }>, align 1
-@alloc4 = private unnamed_addr constant <{ i8*, [8 x i8], i8*, [8 x i8] }> <{ i8* getelementptr inbounds (<{ [12 x i8] }>, <{ [12 x i8] }>* @alloc3, i32 0, i32 0, i32 0), [8 x i8] c"\0C\00\00\00\00\00\00\00", i8* getelementptr inbounds (<{ [1 x i8] }>, <{ [1 x i8] }>* @alloc5, i32 0, i32 0, i32 0), [8 x i8] c"\01\00\00\00\00\00\00\00" }>, align 8
-@_RNvNvCskT2QP9QPlNo_17mapped_stack_race4main8stackvar = internal global <{ [1 x i8] }> <{ [1 x i8] c"\10" }>, align 1, !dbg !358
+@alloc4 = private unnamed_addr constant <{ i8*, [8 x i8], i8*, [8 x i8] }> <{ i8* getelementptr inbounds (<{ [13 x i8] }>, <{ [13 x i8] }>* @alloc3, i32 0, i32 0, i32 0), [8 x i8] c"\0D\00\00\00\00\00\00\00", i8* getelementptr inbounds (<{ [1 x i8] }>, <{ [1 x i8] }>* @alloc5, i32 0, i32 0, i32 0), [8 x i8] c"\01\00\00\00\00\00\00\00" }>, align 8
+@_RNvNvCsfnYCCstO0CH_18mapped_static_race4main9staticvar = internal global <{ [1 x i8] }> <{ [1 x i8] c"\10" }>, align 1, !dbg !358
 @__rustc_debug_gdb_scripts_section__ = linkonce_odr unnamed_addr constant [34 x i8] c"\01gdb_load_rust_pretty_printers.py\00", section ".debug_gdb_scripts", align 1
 
-; <std::thread::Builder>::spawn_unchecked::<mapped_stack_race::main::{closure#0}, ()>
+; <std::thread::Builder>::spawn_unchecked::<mapped_static_race::main::{closure#0}, ()>
 ; Function Attrs: nonlazybind uwtable
-define internal void @_RINvMNtCs2bNvlddUlXM_3std6threadNtB3_7Builder15spawn_uncheckedNCNvCskT2QP9QPlNo_17mapped_stack_race4main0uEB12_(%"std::result::Result<std::thread::JoinHandle<()>, std::io::Error>"* noalias nocapture sret dereferenceable(40) %0, %"std::thread::Builder"* noalias nocapture dereferenceable(40) %self) unnamed_addr #0 personality i32 (i32, i32, i64, %"unwind::libunwind::_Unwind_Exception"*, %"unwind::libunwind::_Unwind_Context"*)* @rust_eh_personality !dbg !389 {
+define internal void @_RINvMNtCs2bNvlddUlXM_3std6threadNtB3_7Builder15spawn_uncheckedNCNvCsfnYCCstO0CH_18mapped_static_race4main0uEB12_(%"std::result::Result<std::thread::JoinHandle<()>, std::io::Error>"* noalias nocapture sret dereferenceable(40) %0, %"std::thread::Builder"* noalias nocapture dereferenceable(40) %self) unnamed_addr #0 personality i32 (i32, i32, i64, %"unwind::libunwind::_Unwind_Exception"*, %"unwind::libunwind::_Unwind_Context"*)* @rust_eh_personality !dbg !389 {
 start:
   %val.dbg.spill = alloca i64, align 8
   %1 = alloca i128, align 8
@@ -153,7 +153,7 @@ start:
   store i64 %stack_size.1, i64* %11, align 8, !dbg !503
   call void @llvm.dbg.declare(metadata { i64, i64 }* %stack_size.dbg.spill, metadata !471, metadata !DIExpression()), !dbg !505
 ; invoke <core::option::Option<usize>>::unwrap_or_else::<std::sys_common::thread::min_stack>
-  %stack_size = invoke i64 @_RINvMNtCs3p84KrD9aKt_4core6optionINtB3_6OptionjE14unwrap_or_elseNvNtNtCs2bNvlddUlXM_3std10sys_common6thread9min_stackECskT2QP9QPlNo_17mapped_stack_race(i64 %stack_size.0, i64 %stack_size.1)
+  %stack_size = invoke i64 @_RINvMNtCs3p84KrD9aKt_4core6optionINtB3_6OptionjE14unwrap_or_elseNvNtNtCs2bNvlddUlXM_3std10sys_common6thread9min_stackECsfnYCCstO0CH_18mapped_static_race(i64 %stack_size.0, i64 %stack_size.1)
           to label %bb1 unwind label %cleanup, !dbg !506
 
 bb1:                                              ; preds = %start
@@ -170,7 +170,7 @@ bb1:                                              ; preds = %start
 bb2:                                              ; preds = %bb1
   store i64* %14, i64** %my_thread, align 8, !dbg !509
 ; invoke <std::thread::Thread as core::clone::Clone>::clone
-  %15 = invoke nonnull i64* @_RNvXsk_NtCs2bNvlddUlXM_3std6threadNtB5_6ThreadNtNtCs3p84KrD9aKt_4core5clone5Clone5cloneCskT2QP9QPlNo_17mapped_stack_race(i64** noalias readonly align 8 dereferenceable(8) %my_thread)
+  %15 = invoke nonnull i64* @_RNvXsk_NtCs2bNvlddUlXM_3std6threadNtB5_6ThreadNtNtCs3p84KrD9aKt_4core5clone5Clone5cloneCsfnYCCstO0CH_18mapped_static_race(i64** noalias readonly align 8 dereferenceable(8) %my_thread)
           to label %bb3 unwind label %cleanup2, !dbg !510
 
 bb3:                                              ; preds = %bb2
@@ -179,18 +179,18 @@ bb3:                                              ; preds = %bb2
   %16 = bitcast %"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"* %_13 to i64*, !dbg !512
   store i64 0, i64* %16, align 8, !dbg !512
 ; invoke <core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>>::new
-  invoke void @_RNvMsJ_NtCs3p84KrD9aKt_4core4cellINtB5_10UnsafeCellINtNtB7_6option6OptionINtNtB7_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB7_3any3AnyNtNtB7_6marker4SendEL_EEEE3newCskT2QP9QPlNo_17mapped_stack_race(%"std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>"* noalias nocapture sret dereferenceable(24) %_12, %"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"* noalias nocapture dereferenceable(24) %_13)
+  invoke void @_RNvMsJ_NtCs3p84KrD9aKt_4core4cellINtB5_10UnsafeCellINtNtB7_6option6OptionINtNtB7_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB7_3any3AnyNtNtB7_6marker4SendEL_EEEE3newCsfnYCCstO0CH_18mapped_static_race(%"std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>"* noalias nocapture sret dereferenceable(24) %_12, %"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"* noalias nocapture dereferenceable(24) %_13)
           to label %bb4 unwind label %cleanup3, !dbg !513
 
 bb4:                                              ; preds = %bb3
 ; invoke <alloc::sync::Arc<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>>>::new
-  %17 = invoke nonnull i64* @_RNvMsa_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtBL_6option6OptionINtNtBL_6result6ResultuINtNtB7_5boxed3BoxDNtNtBL_3any3AnyNtNtBL_6marker4SendEL_EEEEE3newCskT2QP9QPlNo_17mapped_stack_race(%"std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>"* noalias nocapture dereferenceable(24) %_12)
+  %17 = invoke nonnull i64* @_RNvMsa_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtBL_6option6OptionINtNtBL_6result6ResultuINtNtB7_5boxed3BoxDNtNtBL_3any3AnyNtNtBL_6marker4SendEL_EEEEE3newCsfnYCCstO0CH_18mapped_static_race(%"std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>"* noalias nocapture dereferenceable(24) %_12)
           to label %bb5 unwind label %cleanup3, !dbg !514
 
 bb5:                                              ; preds = %bb4
   store i64* %17, i64** %my_packet, align 8, !dbg !514
 ; invoke <alloc::sync::Arc<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>> as core::clone::Clone>::clone
-  %18 = invoke nonnull i64* @_RNvXsk_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtBL_6option6OptionINtNtBL_6result6ResultuINtNtB7_5boxed3BoxDNtNtBL_3any3AnyNtNtBL_6marker4SendEL_EEEEENtNtBL_5clone5Clone5cloneCskT2QP9QPlNo_17mapped_stack_race(i64** noalias readonly align 8 dereferenceable(8) %my_packet)
+  %18 = invoke nonnull i64* @_RNvXsk_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtBL_6option6OptionINtNtBL_6result6ResultuINtNtB7_5boxed3BoxDNtNtBL_3any3AnyNtNtBL_6marker4SendEL_EEEEENtNtBL_5clone5Clone5cloneCsfnYCCstO0CH_18mapped_static_race(i64** noalias readonly align 8 dereferenceable(8) %my_packet)
           to label %bb6 unwind label %cleanup4, !dbg !515
 
 bb6:                                              ; preds = %bb5
@@ -207,7 +207,7 @@ bb7:                                              ; preds = %bb6
   store i64* %21, i64** %output_capture, align 8, !dbg !518
   store i8 1, i8* %_42, align 1, !dbg !519
 ; invoke <core::option::Option<alloc::sync::Arc<std::sync::mutex::Mutex<alloc::vec::Vec<u8>>>> as core::clone::Clone>::clone
-  %_19 = invoke i64* @_RNvXs8_NtCs3p84KrD9aKt_4core6optionINtB5_6OptionINtNtCs8RW06R9lH2S_5alloc4sync3ArcINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtBP_3vec3VechEEEENtNtB7_5clone5Clone5cloneCskT2QP9QPlNo_17mapped_stack_race(i64** noalias readonly align 8 dereferenceable(8) %output_capture)
+  %_19 = invoke i64* @_RNvXs8_NtCs3p84KrD9aKt_4core6optionINtB5_6OptionINtNtCs8RW06R9lH2S_5alloc4sync3ArcINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtBP_3vec3VechEEEENtNtB7_5clone5Clone5cloneCsfnYCCstO0CH_18mapped_static_race(i64** noalias readonly align 8 dereferenceable(8) %output_capture)
           to label %bb8 unwind label %cleanup6, !dbg !520
 
 bb8:                                              ; preds = %bb7
@@ -218,7 +218,7 @@ bb8:                                              ; preds = %bb7
 bb9:                                              ; preds = %bb8
   store i64* %22, i64** %_18, align 8, !dbg !521
 ; invoke core::ptr::drop_in_place::<core::option::Option<alloc::sync::Arc<std::sync::mutex::Mutex<alloc::vec::Vec<u8>>>>>
-  invoke void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_6option6OptionINtNtCs8RW06R9lH2S_5alloc4sync3ArcINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtB17_3vec3VechEEEEECskT2QP9QPlNo_17mapped_stack_race(i64** %_18)
+  invoke void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_6option6OptionINtNtCs8RW06R9lH2S_5alloc4sync3ArcINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtB17_3vec3VechEEEEECsfnYCCstO0CH_18mapped_static_race(i64** %_18)
           to label %bb10 unwind label %cleanup6, !dbg !522
 
 bb10:                                             ; preds = %bb9
@@ -241,16 +241,16 @@ bb10:                                             ; preds = %bb9
   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 8 %30, i8* align 8 %31, i64 24, i1 false), !dbg !524
   call void @llvm.dbg.declare(metadata %"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:10:30: 13:3], ()>::{closure#0}]"* %_33, metadata !525, metadata !DIExpression()), !dbg !536
 ; invoke alloc::alloc::exchange_malloc
-  %32 = invoke i8* @_RNvNtCs8RW06R9lH2S_5alloc5alloc15exchange_mallocCskT2QP9QPlNo_17mapped_stack_race(i64 24, i64 8)
-          to label %_RNvMNtCs8RW06R9lH2S_5alloc5boxedINtB2_3BoxNCINvMNtCs2bNvlddUlXM_3std6threadNtBK_7Builder15spawn_uncheckedNCNvCskT2QP9QPlNo_17mapped_stack_race4main0uE0E3newB1J_.exit unwind label %cleanup6, !dbg !538
+  %32 = invoke i8* @_RNvNtCs8RW06R9lH2S_5alloc5alloc15exchange_mallocCsfnYCCstO0CH_18mapped_static_race(i64 24, i64 8)
+          to label %_RNvMNtCs8RW06R9lH2S_5alloc5boxedINtB2_3BoxNCINvMNtCs2bNvlddUlXM_3std6threadNtBK_7Builder15spawn_uncheckedNCNvCsfnYCCstO0CH_18mapped_static_race4main0uE0E3newB1J_.exit unwind label %cleanup6, !dbg !538
 
-_RNvMNtCs8RW06R9lH2S_5alloc5boxedINtB2_3BoxNCINvMNtCs2bNvlddUlXM_3std6threadNtBK_7Builder15spawn_uncheckedNCNvCskT2QP9QPlNo_17mapped_stack_race4main0uE0E3newB1J_.exit: ; preds = %bb10
+_RNvMNtCs8RW06R9lH2S_5alloc5boxedINtB2_3BoxNCINvMNtCs2bNvlddUlXM_3std6threadNtBK_7Builder15spawn_uncheckedNCNvCsfnYCCstO0CH_18mapped_static_race4main0uE0E3newB1J_.exit: ; preds = %bb10
   %33 = bitcast i8* %32 to %"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:10:30: 13:3], ()>::{closure#0}]"*, !dbg !538
   %34 = bitcast %"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:10:30: 13:3], ()>::{closure#0}]"* %_33 to i8*, !dbg !539
   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 8 %32, i8* align 8 %34, i64 24, i1 false), !dbg !539
   br label %bb11, !dbg !540
 
-bb11:                                             ; preds = %_RNvMNtCs8RW06R9lH2S_5alloc5boxedINtB2_3BoxNCINvMNtCs2bNvlddUlXM_3std6threadNtBK_7Builder15spawn_uncheckedNCNvCskT2QP9QPlNo_17mapped_stack_race4main0uE0E3newB1J_.exit
+bb11:                                             ; preds = %_RNvMNtCs8RW06R9lH2S_5alloc5boxedINtB2_3BoxNCINvMNtCs2bNvlddUlXM_3std6threadNtBK_7Builder15spawn_uncheckedNCNvCsfnYCCstO0CH_18mapped_static_race4main0uE0E3newB1J_.exit
   %35 = bitcast %"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:10:30: 13:3], ()>::{closure#0}]"* %33 to {}*, !dbg !541
   %36 = bitcast {}* %35 to i8*, !dbg !541
   %_31.0 = bitcast i8* %36 to {}*, !dbg !541
@@ -271,7 +271,7 @@ bb12:                                             ; preds = %bb11
 
 bb13:                                             ; preds = %bb12
 ; invoke <core::result::Result<std::sys::unix::thread::Thread, std::io::error::Error> as core::ops::try::Try>::into_result
-  invoke void @_RNvXsw_NtCs3p84KrD9aKt_4core6resultINtB5_6ResultNtNtNtNtCs2bNvlddUlXM_3std3sys4unix6thread6ThreadNtNtNtBS_2io5error5ErrorENtNtNtB7_3ops3try3Try11into_resultCskT2QP9QPlNo_17mapped_stack_race(%"std::result::Result<std::sys::unix::thread::Thread, std::io::Error>"* noalias nocapture sret dereferenceable(24) %_26, %"std::result::Result<std::sys::unix::thread::Thread, std::io::Error>"* noalias nocapture dereferenceable(24) %_27)
+  invoke void @_RNvXsw_NtCs3p84KrD9aKt_4core6resultINtB5_6ResultNtNtNtNtCs2bNvlddUlXM_3std3sys4unix6thread6ThreadNtNtNtBS_2io5error5ErrorENtNtNtB7_3ops3try3Try11into_resultCsfnYCCstO0CH_18mapped_static_race(%"std::result::Result<std::sys::unix::thread::Thread, std::io::Error>"* noalias nocapture sret dereferenceable(24) %_26, %"std::result::Result<std::sys::unix::thread::Thread, std::io::Error>"* noalias nocapture dereferenceable(24) %_27)
           to label %bb14 unwind label %cleanup6, !dbg !543
 
 bb14:                                             ; preds = %bb13
@@ -342,7 +342,7 @@ bb17:                                             ; preds = %bb14
   %71 = bitcast %"std::io::Error"* %_37 to i128*, !dbg !501
   %72 = load i128, i128* %71, align 8, !dbg !501
 ; invoke <std::io::error::Error as core::convert::From<std::io::error::Error>>::from
-  %73 = invoke i128 @_RNvXs2_NtCs3p84KrD9aKt_4core7convertNtNtNtCs2bNvlddUlXM_3std2io5error5ErrorINtB5_4FromBy_E4fromCskT2QP9QPlNo_17mapped_stack_race(i128 %72)
+  %73 = invoke i128 @_RNvXs2_NtCs3p84KrD9aKt_4core7convertNtNtNtCs2bNvlddUlXM_3std2io5error5ErrorINtB5_4FromBy_E4fromCsfnYCCstO0CH_18mapped_static_race(i128 %72)
           to label %bb18 unwind label %cleanup7, !dbg !501
 
 bb18:                                             ; preds = %bb17
@@ -353,20 +353,20 @@ bb18:                                             ; preds = %bb17
   %76 = bitcast %"std::io::Error"* %_36 to i128*, !dbg !557
   %77 = load i128, i128* %76, align 8, !dbg !557
 ; invoke <core::result::Result<std::thread::JoinHandle<()>, std::io::error::Error> as core::ops::try::Try>::from_error
-  invoke void @_RNvXsw_NtCs3p84KrD9aKt_4core6resultINtB5_6ResultINtNtCs2bNvlddUlXM_3std6thread10JoinHandleuENtNtNtBP_2io5error5ErrorENtNtNtB7_3ops3try3Try10from_errorCskT2QP9QPlNo_17mapped_stack_race(%"std::result::Result<std::thread::JoinHandle<()>, std::io::Error>"* noalias nocapture sret dereferenceable(40) %0, i128 %77)
+  invoke void @_RNvXsw_NtCs3p84KrD9aKt_4core6resultINtB5_6ResultINtNtCs2bNvlddUlXM_3std6thread10JoinHandleuENtNtNtBP_2io5error5ErrorENtNtNtB7_3ops3try3Try10from_errorCsfnYCCstO0CH_18mapped_static_race(%"std::result::Result<std::thread::JoinHandle<()>, std::io::Error>"* noalias nocapture sret dereferenceable(40) %0, i128 %77)
           to label %bb19 unwind label %cleanup7, !dbg !557
 
 bb19:                                             ; preds = %bb18
   store i8 0, i8* %_42, align 1, !dbg !553
   store i8 0, i8* %_43, align 1, !dbg !554
 ; invoke core::ptr::drop_in_place::<alloc::sync::Arc<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>>>
-  invoke void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc4sync3ArcINtNtB4_4cell10UnsafeCellINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtBL_5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEEEECskT2QP9QPlNo_17mapped_stack_race(i64** %my_packet)
+  invoke void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc4sync3ArcINtNtB4_4cell10UnsafeCellINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtBL_5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEEEECsfnYCCstO0CH_18mapped_static_race(i64** %my_packet)
           to label %bb20 unwind label %cleanup8, !dbg !558
 
 bb20:                                             ; preds = %bb19
   store i8 0, i8* %_44, align 1, !dbg !555
 ; invoke core::ptr::drop_in_place::<std::thread::Thread>
-  invoke void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNtNtCs2bNvlddUlXM_3std6thread6ThreadECskT2QP9QPlNo_17mapped_stack_race(i64** %my_thread)
+  invoke void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNtNtCs2bNvlddUlXM_3std6thread6ThreadECsfnYCCstO0CH_18mapped_static_race(i64** %my_thread)
           to label %bb21 unwind label %cleanup9, !dbg !559
 
 bb21:                                             ; preds = %bb20
@@ -378,32 +378,32 @@ bb22:                                             ; preds = %bb15, %bb21
 
 bb23:                                             ; preds = %cleanup8
 ; call core::ptr::drop_in_place::<std::thread::Thread>
-  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNtNtCs2bNvlddUlXM_3std6thread6ThreadECskT2QP9QPlNo_17mapped_stack_race(i64** %my_thread) #12, !dbg !559
+  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNtNtCs2bNvlddUlXM_3std6thread6ThreadECsfnYCCstO0CH_18mapped_static_race(i64** %my_thread) #12, !dbg !559
   br label %bb24, !dbg !559
 
 bb24:                                             ; preds = %cleanup9, %bb23
 ; call core::ptr::drop_in_place::<core::result::Result<std::thread::JoinHandle<()>, std::io::error::Error>>
-  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_6result6ResultINtNtCs2bNvlddUlXM_3std6thread10JoinHandleuENtNtNtB17_2io5error5ErrorEECskT2QP9QPlNo_17mapped_stack_race(%"std::result::Result<std::thread::JoinHandle<()>, std::io::Error>"* %0) #12, !dbg !556
+  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_6result6ResultINtNtCs2bNvlddUlXM_3std6thread10JoinHandleuENtNtNtB17_2io5error5ErrorEECsfnYCCstO0CH_18mapped_static_race(%"std::result::Result<std::thread::JoinHandle<()>, std::io::Error>"* %0) #12, !dbg !556
   br label %bb30, !dbg !556
 
 bb25:                                             ; preds = %cleanup7
 ; call core::ptr::drop_in_place::<alloc::sync::Arc<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>>>
-  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc4sync3ArcINtNtB4_4cell10UnsafeCellINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtBL_5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEEEECskT2QP9QPlNo_17mapped_stack_race(i64** %my_packet) #12, !dbg !558
+  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc4sync3ArcINtNtB4_4cell10UnsafeCellINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtBL_5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEEEECsfnYCCstO0CH_18mapped_static_race(i64** %my_packet) #12, !dbg !558
   br label %bb26, !dbg !558
 
 bb26:                                             ; preds = %bb25
 ; call core::ptr::drop_in_place::<std::thread::Thread>
-  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNtNtCs2bNvlddUlXM_3std6thread6ThreadECskT2QP9QPlNo_17mapped_stack_race(i64** %my_thread) #12, !dbg !559
+  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNtNtCs2bNvlddUlXM_3std6thread6ThreadECsfnYCCstO0CH_18mapped_static_race(i64** %my_thread) #12, !dbg !559
   br label %bb31, !dbg !559
 
 bb27:                                             ; preds = %bb34, %bb35, %cleanup4
 ; call core::ptr::drop_in_place::<alloc::sync::Arc<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>>>
-  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc4sync3ArcINtNtB4_4cell10UnsafeCellINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtBL_5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEEEECskT2QP9QPlNo_17mapped_stack_race(i64** %my_packet) #12, !dbg !558
+  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc4sync3ArcINtNtB4_4cell10UnsafeCellINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtBL_5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEEEECsfnYCCstO0CH_18mapped_static_race(i64** %my_packet) #12, !dbg !558
   br label %bb37, !dbg !558
 
 bb28:                                             ; preds = %bb36, %bb37, %cleanup2
 ; call core::ptr::drop_in_place::<std::thread::Thread>
-  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNtNtCs2bNvlddUlXM_3std6thread6ThreadECskT2QP9QPlNo_17mapped_stack_race(i64** %my_thread) #12, !dbg !559
+  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNtNtCs2bNvlddUlXM_3std6thread6ThreadECsfnYCCstO0CH_18mapped_static_race(i64** %my_thread) #12, !dbg !559
   br label %bb39, !dbg !559
 
 bb29:                                             ; preds = %bb31, %bb38, %bb39
@@ -425,7 +425,7 @@ bb31:                                             ; preds = %bb26
 
 bb32:                                             ; preds = %bb33
 ; call core::ptr::drop_in_place::<core::option::Option<alloc::sync::Arc<std::sync::mutex::Mutex<alloc::vec::Vec<u8>>>>>
-  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_6option6OptionINtNtCs8RW06R9lH2S_5alloc4sync3ArcINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtB17_3vec3VechEEEEECskT2QP9QPlNo_17mapped_stack_race(i64** %output_capture) #12, !dbg !553
+  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_6option6OptionINtNtCs8RW06R9lH2S_5alloc4sync3ArcINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtB17_3vec3VechEEEEECsfnYCCstO0CH_18mapped_static_race(i64** %output_capture) #12, !dbg !553
   br label %bb35, !dbg !553
 
 bb33:                                             ; preds = %cleanup6
@@ -435,7 +435,7 @@ bb33:                                             ; preds = %cleanup6
 
 bb34:                                             ; preds = %bb35
 ; call core::ptr::drop_in_place::<alloc::sync::Arc<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>>>
-  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc4sync3ArcINtNtB4_4cell10UnsafeCellINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtBL_5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEEEECskT2QP9QPlNo_17mapped_stack_race(i64** %their_packet) #12, !dbg !554
+  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc4sync3ArcINtNtB4_4cell10UnsafeCellINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtBL_5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEEEECsfnYCCstO0CH_18mapped_static_race(i64** %their_packet) #12, !dbg !554
   br label %bb27, !dbg !554
 
 bb35:                                             ; preds = %bb32, %bb33, %cleanup5
@@ -445,7 +445,7 @@ bb35:                                             ; preds = %bb32, %bb33, %clean
 
 bb36:                                             ; preds = %bb37
 ; call core::ptr::drop_in_place::<std::thread::Thread>
-  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNtNtCs2bNvlddUlXM_3std6thread6ThreadECskT2QP9QPlNo_17mapped_stack_race(i64** %their_thread) #12, !dbg !555
+  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNtNtCs2bNvlddUlXM_3std6thread6ThreadECsfnYCCstO0CH_18mapped_static_race(i64** %their_thread) #12, !dbg !555
   br label %bb28, !dbg !555
 
 bb37:                                             ; preds = %bb27, %cleanup3
@@ -455,7 +455,7 @@ bb37:                                             ; preds = %bb27, %cleanup3
 
 bb38:                                             ; preds = %bb39
 ; call core::ptr::drop_in_place::<core::option::Option<alloc::string::String>>
-  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_6option6OptionNtNtCs8RW06R9lH2S_5alloc6string6StringEECskT2QP9QPlNo_17mapped_stack_race(%"std::option::Option<std::string::String>"* %name) #12, !dbg !556
+  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_6option6OptionNtNtCs8RW06R9lH2S_5alloc6string6StringEECsfnYCCstO0CH_18mapped_static_race(%"std::option::Option<std::string::String>"* %name) #12, !dbg !556
   br label %bb29, !dbg !556
 
 bb39:                                             ; preds = %bb28, %cleanup
@@ -566,9 +566,9 @@ cleanup9:                                         ; preds = %bb20
   br label %bb24
 }
 
-; <std::thread::Builder>::spawn::<mapped_stack_race::main::{closure#0}, ()>
+; <std::thread::Builder>::spawn::<mapped_static_race::main::{closure#0}, ()>
 ; Function Attrs: nonlazybind uwtable
-define internal void @_RINvMNtCs2bNvlddUlXM_3std6threadNtB3_7Builder5spawnNCNvCskT2QP9QPlNo_17mapped_stack_race4main0uEBR_(%"std::result::Result<std::thread::JoinHandle<()>, std::io::Error>"* noalias nocapture sret dereferenceable(40) %0, %"std::thread::Builder"* noalias nocapture dereferenceable(40) %self) unnamed_addr #0 !dbg !563 {
+define internal void @_RINvMNtCs2bNvlddUlXM_3std6threadNtB3_7Builder5spawnNCNvCsfnYCCstO0CH_18mapped_static_race4main0uEBR_(%"std::result::Result<std::thread::JoinHandle<()>, std::io::Error>"* noalias nocapture sret dereferenceable(40) %0, %"std::thread::Builder"* noalias nocapture dereferenceable(40) %self) unnamed_addr #0 !dbg !563 {
 start:
   %f.dbg.spill = alloca %"[closure@src/main.rs:10:30: 13:3]", align 1
   %_3 = alloca %"std::thread::Builder", align 8
@@ -577,8 +577,8 @@ start:
   %1 = bitcast %"std::thread::Builder"* %_3 to i8*, !dbg !569
   %2 = bitcast %"std::thread::Builder"* %self to i8*, !dbg !569
   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 8 %1, i8* align 8 %2, i64 40, i1 false), !dbg !569
-; call <std::thread::Builder>::spawn_unchecked::<mapped_stack_race::main::{closure#0}, ()>
-  call void @_RINvMNtCs2bNvlddUlXM_3std6threadNtB3_7Builder15spawn_uncheckedNCNvCskT2QP9QPlNo_17mapped_stack_race4main0uEB12_(%"std::result::Result<std::thread::JoinHandle<()>, std::io::Error>"* noalias nocapture sret dereferenceable(40) %0, %"std::thread::Builder"* noalias nocapture dereferenceable(40) %_3), !dbg !569
+; call <std::thread::Builder>::spawn_unchecked::<mapped_static_race::main::{closure#0}, ()>
+  call void @_RINvMNtCs2bNvlddUlXM_3std6threadNtB3_7Builder15spawn_uncheckedNCNvCsfnYCCstO0CH_18mapped_static_race4main0uEB12_(%"std::result::Result<std::thread::JoinHandle<()>, std::io::Error>"* noalias nocapture sret dereferenceable(40) %0, %"std::thread::Builder"* noalias nocapture dereferenceable(40) %_3), !dbg !569
   br label %bb1, !dbg !569
 
 bb1:                                              ; preds = %start
@@ -587,7 +587,7 @@ bb1:                                              ; preds = %start
 
 ; <[u8]>::get_unchecked_mut::<usize>
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal align 1 dereferenceable(1) i8* @_RINvMNtCs3p84KrD9aKt_4core5sliceSh17get_unchecked_mutjECskT2QP9QPlNo_17mapped_stack_race([0 x i8]* nonnull align 1 %self.0, i64 %self.1, i64 %index) unnamed_addr #1 !dbg !571 {
+define internal align 1 dereferenceable(1) i8* @_RINvMNtCs3p84KrD9aKt_4core5sliceSh17get_unchecked_mutjECsfnYCCstO0CH_18mapped_static_race([0 x i8]* nonnull align 1 %self.0, i64 %self.1, i64 %index) unnamed_addr #1 !dbg !571 {
 start:
   %index.dbg.spill = alloca i64, align 8
   %self.dbg.spill = alloca { [0 x i8]*, i64 }, align 8
@@ -599,7 +599,7 @@ start:
   store i64 %index, i64* %index.dbg.spill, align 8
   call void @llvm.dbg.declare(metadata i64* %index.dbg.spill, metadata !584, metadata !DIExpression()), !dbg !588
 ; call <usize as core::slice::index::SliceIndex<[u8]>>::get_unchecked_mut
-  %_6 = call i8* @_RNvXs0_NtNtCs3p84KrD9aKt_4core5slice5indexjINtB5_10SliceIndexShE17get_unchecked_mutCskT2QP9QPlNo_17mapped_stack_race(i64 %index, [0 x i8]* %self.0, i64 %self.1), !dbg !589
+  %_6 = call i8* @_RNvXs0_NtNtCs3p84KrD9aKt_4core5slice5indexjINtB5_10SliceIndexShE17get_unchecked_mutCsfnYCCstO0CH_18mapped_static_race(i64 %index, [0 x i8]* %self.0, i64 %self.1), !dbg !589
   br label %bb1, !dbg !589
 
 bb1:                                              ; preds = %start
@@ -608,7 +608,7 @@ bb1:                                              ; preds = %start
 
 ; <core::option::Option<core::ptr::non_null::NonNull<u8>>>::ok_or::<core::alloc::AllocError>
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal i8* @_RINvMNtCs3p84KrD9aKt_4core6optionINtB3_6OptionINtNtNtB5_3ptr8non_null7NonNullhEE5ok_orNtNtB5_5alloc10AllocErrorECskT2QP9QPlNo_17mapped_stack_race(i8* %0) unnamed_addr #1 personality i32 (i32, i32, i64, %"unwind::libunwind::_Unwind_Exception"*, %"unwind::libunwind::_Unwind_Context"*)* @rust_eh_personality !dbg !591 {
+define internal i8* @_RINvMNtCs3p84KrD9aKt_4core6optionINtB3_6OptionINtNtNtB5_3ptr8non_null7NonNullhEE5ok_orNtNtB5_5alloc10AllocErrorECsfnYCCstO0CH_18mapped_static_race(i8* %0) unnamed_addr #1 personality i32 (i32, i32, i64, %"unwind::libunwind::_Unwind_Exception"*, %"unwind::libunwind::_Unwind_Context"*)* @rust_eh_personality !dbg !591 {
 start:
   %1 = alloca { i8*, i32 }, align 8
   %v.dbg.spill = alloca i8*, align 8
@@ -675,7 +675,7 @@ bb8:                                              ; preds = %bb1, %bb3
 
 ; <core::option::Option<usize>>::unwrap_or_else::<std::sys_common::thread::min_stack>
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal i64 @_RINvMNtCs3p84KrD9aKt_4core6optionINtB3_6OptionjE14unwrap_or_elseNvNtNtCs2bNvlddUlXM_3std10sys_common6thread9min_stackECskT2QP9QPlNo_17mapped_stack_race(i64 %0, i64 %1) unnamed_addr #1 personality i32 (i32, i32, i64, %"unwind::libunwind::_Unwind_Exception"*, %"unwind::libunwind::_Unwind_Context"*)* @rust_eh_personality !dbg !644 {
+define internal i64 @_RINvMNtCs3p84KrD9aKt_4core6optionINtB3_6OptionjE14unwrap_or_elseNvNtNtCs2bNvlddUlXM_3std10sys_common6thread9min_stackECsfnYCCstO0CH_18mapped_static_race(i64 %0, i64 %1) unnamed_addr #1 personality i32 (i32, i32, i64, %"unwind::libunwind::_Unwind_Exception"*, %"unwind::libunwind::_Unwind_Context"*)* @rust_eh_personality !dbg !644 {
 start:
   %2 = alloca { i8*, i32 }, align 8
   %x.dbg.spill = alloca i64, align 8
@@ -702,7 +702,7 @@ start:
 bb1:                                              ; preds = %start
   store i8 0, i8* %_7, align 1, !dbg !660
 ; call <std::sys_common::thread::min_stack as core::ops::function::FnOnce<()>>::call_once
-  %7 = call i64 @_RNvYNvNtNtCs2bNvlddUlXM_3std10sys_common6thread9min_stackINtNtNtCs3p84KrD9aKt_4core3ops8function6FnOnceuE9call_onceCskT2QP9QPlNo_17mapped_stack_race(), !dbg !660
+  %7 = call i64 @_RNvYNvNtNtCs2bNvlddUlXM_3std10sys_common6thread9min_stackINtNtNtCs3p84KrD9aKt_4core3ops8function6FnOnceuE9call_onceCsfnYCCstO0CH_18mapped_static_race(), !dbg !660
   store i64 %7, i64* %3, align 8, !dbg !660
   br label %bb4, !dbg !660
 
@@ -748,7 +748,7 @@ bb9:                                              ; preds = %bb4, %bb3
 
 ; <core::alloc::layout::Layout>::for_value_raw::<alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>>>
 ; Function Attrs: nonlazybind uwtable
-define internal { i64, i64 } @_RINvMNtNtCs3p84KrD9aKt_4core5alloc6layoutNtB3_6Layout13for_value_rawINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtB7_4cell10UnsafeCellINtNtB7_6option6OptionINtNtB7_6result6ResultuINtNtB19_5boxed3BoxDNtNtB7_3any3AnyNtNtB7_6marker4SendEL_EEEEEECskT2QP9QPlNo_17mapped_stack_race(%"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"* %t) unnamed_addr #0 !dbg !669 {
+define internal { i64, i64 } @_RINvMNtNtCs3p84KrD9aKt_4core5alloc6layoutNtB3_6Layout13for_value_rawINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtB7_4cell10UnsafeCellINtNtB7_6option6OptionINtNtB7_6result6ResultuINtNtB19_5boxed3BoxDNtNtB7_3any3AnyNtNtB7_6marker4SendEL_EEEEEECsfnYCCstO0CH_18mapped_static_race(%"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"* %t) unnamed_addr #0 !dbg !669 {
 start:
   %align.dbg.spill = alloca i64, align 8
   %size.dbg.spill = alloca i64, align 8
@@ -757,12 +757,12 @@ start:
   store %"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"* %t, %"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"** %t.dbg.spill, align 8
   call void @llvm.dbg.declare(metadata %"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"** %t.dbg.spill, metadata !682, metadata !DIExpression()), !dbg !686
 ; call core::mem::size_of_val_raw::<alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>>>
-  %_5 = call i64 @_RINvNtCs3p84KrD9aKt_4core3mem15size_of_val_rawINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtB4_4cell10UnsafeCellINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtBN_5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEEEECskT2QP9QPlNo_17mapped_stack_race(%"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"* %t), !dbg !687
+  %_5 = call i64 @_RINvNtCs3p84KrD9aKt_4core3mem15size_of_val_rawINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtB4_4cell10UnsafeCellINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtBN_5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEEEECsfnYCCstO0CH_18mapped_static_race(%"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"* %t), !dbg !687
   br label %bb1, !dbg !687
 
 bb1:                                              ; preds = %start
 ; call core::mem::align_of_val_raw::<alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>>>
-  %_7 = call i64 @_RINvNtCs3p84KrD9aKt_4core3mem16align_of_val_rawINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtB4_4cell10UnsafeCellINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtBO_5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEEEECskT2QP9QPlNo_17mapped_stack_race(%"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"* %t), !dbg !688
+  %_7 = call i64 @_RINvNtCs3p84KrD9aKt_4core3mem16align_of_val_rawINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtB4_4cell10UnsafeCellINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtBO_5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEEEECsfnYCCstO0CH_18mapped_static_race(%"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"* %t), !dbg !688
   br label %bb2, !dbg !688
 
 bb2:                                              ; preds = %bb1
@@ -779,7 +779,7 @@ bb2:                                              ; preds = %bb1
   store i64 %align, i64* %align.dbg.spill, align 8, !dbg !692
   call void @llvm.dbg.declare(metadata i64* %align.dbg.spill, metadata !685, metadata !DIExpression()), !dbg !693
 ; call <core::alloc::layout::Layout>::from_size_align_unchecked
-  %4 = call { i64, i64 } @_RNvMNtNtCs3p84KrD9aKt_4core5alloc6layoutNtB2_6Layout25from_size_align_uncheckedCskT2QP9QPlNo_17mapped_stack_race(i64 %size, i64 %align), !dbg !694
+  %4 = call { i64, i64 } @_RNvMNtNtCs3p84KrD9aKt_4core5alloc6layoutNtB2_6Layout25from_size_align_uncheckedCsfnYCCstO0CH_18mapped_static_race(i64 %size, i64 %align), !dbg !694
   %5 = extractvalue { i64, i64 } %4, 0, !dbg !694
   %6 = extractvalue { i64, i64 } %4, 1, !dbg !694
   br label %bb3, !dbg !694
@@ -792,7 +792,7 @@ bb3:                                              ; preds = %bb2
 
 ; <core::alloc::layout::Layout>::for_value_raw::<alloc::sync::ArcInner<std::sync::mutex::Mutex<alloc::vec::Vec<u8>>>>
 ; Function Attrs: nonlazybind uwtable
-define internal { i64, i64 } @_RINvMNtNtCs3p84KrD9aKt_4core5alloc6layoutNtB3_6Layout13for_value_rawINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtB19_3vec3VechEEEECskT2QP9QPlNo_17mapped_stack_race(%"alloc::sync::ArcInner<std::sync::Mutex<std::vec::Vec<u8>>>"* %t) unnamed_addr #0 !dbg !696 {
+define internal { i64, i64 } @_RINvMNtNtCs3p84KrD9aKt_4core5alloc6layoutNtB3_6Layout13for_value_rawINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtB19_3vec3VechEEEECsfnYCCstO0CH_18mapped_static_race(%"alloc::sync::ArcInner<std::sync::Mutex<std::vec::Vec<u8>>>"* %t) unnamed_addr #0 !dbg !696 {
 start:
   %align.dbg.spill = alloca i64, align 8
   %size.dbg.spill = alloca i64, align 8
@@ -801,12 +801,12 @@ start:
   store %"alloc::sync::ArcInner<std::sync::Mutex<std::vec::Vec<u8>>>"* %t, %"alloc::sync::ArcInner<std::sync::Mutex<std::vec::Vec<u8>>>"** %t.dbg.spill, align 8
   call void @llvm.dbg.declare(metadata %"alloc::sync::ArcInner<std::sync::Mutex<std::vec::Vec<u8>>>"** %t.dbg.spill, metadata !700, metadata !DIExpression()), !dbg !704
 ; call core::mem::size_of_val_raw::<alloc::sync::ArcInner<std::sync::mutex::Mutex<alloc::vec::Vec<u8>>>>
-  %_5 = call i64 @_RINvNtCs3p84KrD9aKt_4core3mem15size_of_val_rawINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtBN_3vec3VechEEEECskT2QP9QPlNo_17mapped_stack_race(%"alloc::sync::ArcInner<std::sync::Mutex<std::vec::Vec<u8>>>"* %t), !dbg !705
+  %_5 = call i64 @_RINvNtCs3p84KrD9aKt_4core3mem15size_of_val_rawINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtBN_3vec3VechEEEECsfnYCCstO0CH_18mapped_static_race(%"alloc::sync::ArcInner<std::sync::Mutex<std::vec::Vec<u8>>>"* %t), !dbg !705
   br label %bb1, !dbg !705
 
 bb1:                                              ; preds = %start
 ; call core::mem::align_of_val_raw::<alloc::sync::ArcInner<std::sync::mutex::Mutex<alloc::vec::Vec<u8>>>>
-  %_7 = call i64 @_RINvNtCs3p84KrD9aKt_4core3mem16align_of_val_rawINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtBO_3vec3VechEEEECskT2QP9QPlNo_17mapped_stack_race(%"alloc::sync::ArcInner<std::sync::Mutex<std::vec::Vec<u8>>>"* %t), !dbg !706
+  %_7 = call i64 @_RINvNtCs3p84KrD9aKt_4core3mem16align_of_val_rawINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtBO_3vec3VechEEEECsfnYCCstO0CH_18mapped_static_race(%"alloc::sync::ArcInner<std::sync::Mutex<std::vec::Vec<u8>>>"* %t), !dbg !706
   br label %bb2, !dbg !706
 
 bb2:                                              ; preds = %bb1
@@ -823,7 +823,7 @@ bb2:                                              ; preds = %bb1
   store i64 %align, i64* %align.dbg.spill, align 8, !dbg !710
   call void @llvm.dbg.declare(metadata i64* %align.dbg.spill, metadata !703, metadata !DIExpression()), !dbg !711
 ; call <core::alloc::layout::Layout>::from_size_align_unchecked
-  %4 = call { i64, i64 } @_RNvMNtNtCs3p84KrD9aKt_4core5alloc6layoutNtB2_6Layout25from_size_align_uncheckedCskT2QP9QPlNo_17mapped_stack_race(i64 %size, i64 %align), !dbg !712
+  %4 = call { i64, i64 } @_RNvMNtNtCs3p84KrD9aKt_4core5alloc6layoutNtB2_6Layout25from_size_align_uncheckedCsfnYCCstO0CH_18mapped_static_race(i64 %size, i64 %align), !dbg !712
   %5 = extractvalue { i64, i64 } %4, 0, !dbg !712
   %6 = extractvalue { i64, i64 } %4, 1, !dbg !712
   br label %bb3, !dbg !712
@@ -836,7 +836,7 @@ bb3:                                              ; preds = %bb2
 
 ; <core::alloc::layout::Layout>::for_value_raw::<alloc::sync::ArcInner<std::thread::Inner>>
 ; Function Attrs: nonlazybind uwtable
-define internal { i64, i64 } @_RINvMNtNtCs3p84KrD9aKt_4core5alloc6layoutNtB3_6Layout13for_value_rawINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerNtNtCs2bNvlddUlXM_3std6thread5InnerEECskT2QP9QPlNo_17mapped_stack_race(%"alloc::sync::ArcInner<std::thread::Inner>"* %t) unnamed_addr #0 !dbg !714 {
+define internal { i64, i64 } @_RINvMNtNtCs3p84KrD9aKt_4core5alloc6layoutNtB3_6Layout13for_value_rawINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerNtNtCs2bNvlddUlXM_3std6thread5InnerEECsfnYCCstO0CH_18mapped_static_race(%"alloc::sync::ArcInner<std::thread::Inner>"* %t) unnamed_addr #0 !dbg !714 {
 start:
   %align.dbg.spill = alloca i64, align 8
   %size.dbg.spill = alloca i64, align 8
@@ -845,12 +845,12 @@ start:
   store %"alloc::sync::ArcInner<std::thread::Inner>"* %t, %"alloc::sync::ArcInner<std::thread::Inner>"** %t.dbg.spill, align 8
   call void @llvm.dbg.declare(metadata %"alloc::sync::ArcInner<std::thread::Inner>"** %t.dbg.spill, metadata !718, metadata !DIExpression()), !dbg !722
 ; call core::mem::size_of_val_raw::<alloc::sync::ArcInner<std::thread::Inner>>
-  %_5 = call i64 @_RINvNtCs3p84KrD9aKt_4core3mem15size_of_val_rawINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerNtNtCs2bNvlddUlXM_3std6thread5InnerEECskT2QP9QPlNo_17mapped_stack_race(%"alloc::sync::ArcInner<std::thread::Inner>"* %t), !dbg !723
+  %_5 = call i64 @_RINvNtCs3p84KrD9aKt_4core3mem15size_of_val_rawINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerNtNtCs2bNvlddUlXM_3std6thread5InnerEECsfnYCCstO0CH_18mapped_static_race(%"alloc::sync::ArcInner<std::thread::Inner>"* %t), !dbg !723
   br label %bb1, !dbg !723
 
 bb1:                                              ; preds = %start
 ; call core::mem::align_of_val_raw::<alloc::sync::ArcInner<std::thread::Inner>>
-  %_7 = call i64 @_RINvNtCs3p84KrD9aKt_4core3mem16align_of_val_rawINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerNtNtCs2bNvlddUlXM_3std6thread5InnerEECskT2QP9QPlNo_17mapped_stack_race(%"alloc::sync::ArcInner<std::thread::Inner>"* %t), !dbg !724
+  %_7 = call i64 @_RINvNtCs3p84KrD9aKt_4core3mem16align_of_val_rawINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerNtNtCs2bNvlddUlXM_3std6thread5InnerEECsfnYCCstO0CH_18mapped_static_race(%"alloc::sync::ArcInner<std::thread::Inner>"* %t), !dbg !724
   br label %bb2, !dbg !724
 
 bb2:                                              ; preds = %bb1
@@ -867,7 +867,7 @@ bb2:                                              ; preds = %bb1
   store i64 %align, i64* %align.dbg.spill, align 8, !dbg !728
   call void @llvm.dbg.declare(metadata i64* %align.dbg.spill, metadata !721, metadata !DIExpression()), !dbg !729
 ; call <core::alloc::layout::Layout>::from_size_align_unchecked
-  %4 = call { i64, i64 } @_RNvMNtNtCs3p84KrD9aKt_4core5alloc6layoutNtB2_6Layout25from_size_align_uncheckedCskT2QP9QPlNo_17mapped_stack_race(i64 %size, i64 %align), !dbg !730
+  %4 = call { i64, i64 } @_RNvMNtNtCs3p84KrD9aKt_4core5alloc6layoutNtB2_6Layout25from_size_align_uncheckedCsfnYCCstO0CH_18mapped_static_race(i64 %size, i64 %align), !dbg !730
   %5 = extractvalue { i64, i64 } %4, 0, !dbg !730
   %6 = extractvalue { i64, i64 } %4, 1, !dbg !730
   br label %bb3, !dbg !730
@@ -880,7 +880,7 @@ bb3:                                              ; preds = %bb2
 
 ; <core::ptr::unique::Unique<dyn core::any::Any + core::marker::Send>>::cast::<u8>
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal nonnull i8* @_RINvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB6_6UniqueDNtNtBa_3any3AnyNtNtBa_6marker4SendEL_E4casthECskT2QP9QPlNo_17mapped_stack_race(i8* nonnull %self.0, i64* noalias readonly align 8 dereferenceable(24) %self.1) unnamed_addr #1 !dbg !732 {
+define internal nonnull i8* @_RINvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB6_6UniqueDNtNtBa_3any3AnyNtNtBa_6marker4SendEL_E4casthECsfnYCCstO0CH_18mapped_static_race(i8* nonnull %self.0, i64* noalias readonly align 8 dereferenceable(24) %self.1) unnamed_addr #1 !dbg !732 {
 start:
   %self.dbg.spill = alloca { i8*, i64* }, align 8
   %0 = getelementptr inbounds { i8*, i64* }, { i8*, i64* }* %self.dbg.spill, i32 0, i32 0
@@ -889,7 +889,7 @@ start:
   store i64* %self.1, i64** %1, align 8
   call void @llvm.dbg.declare(metadata { i8*, i64* }* %self.dbg.spill, metadata !747, metadata !DIExpression()), !dbg !750
 ; call <core::ptr::unique::Unique<dyn core::any::Any + core::marker::Send>>::as_ptr
-  %2 = call { {}*, [3 x i64]* } @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueDNtNtB9_3any3AnyNtNtB9_6marker4SendEL_E6as_ptrCskT2QP9QPlNo_17mapped_stack_race(i8* nonnull %self.0, i64* noalias readonly align 8 dereferenceable(24) %self.1), !dbg !751
+  %2 = call { {}*, [3 x i64]* } @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueDNtNtB9_3any3AnyNtNtB9_6marker4SendEL_E6as_ptrCsfnYCCstO0CH_18mapped_static_race(i8* nonnull %self.0, i64* noalias readonly align 8 dereferenceable(24) %self.1), !dbg !751
   %_3.0 = extractvalue { {}*, [3 x i64]* } %2, 0, !dbg !751
   %_3.1 = extractvalue { {}*, [3 x i64]* } %2, 1, !dbg !751
   br label %bb1, !dbg !751
@@ -897,7 +897,7 @@ start:
 bb1:                                              ; preds = %start
   %_2 = bitcast {}* %_3.0 to i8*, !dbg !751
 ; call <core::ptr::unique::Unique<u8>>::new_unchecked
-  %3 = call nonnull i8* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniquehE13new_uncheckedCskT2QP9QPlNo_17mapped_stack_race(i8* %_2), !dbg !752
+  %3 = call nonnull i8* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniquehE13new_uncheckedCsfnYCCstO0CH_18mapped_static_race(i8* %_2), !dbg !752
   br label %bb2, !dbg !752
 
 bb2:                                              ; preds = %bb1
@@ -906,7 +906,7 @@ bb2:                                              ; preds = %bb1
 
 ; <core::ptr::unique::Unique<dyn std::error::Error + core::marker::Send + core::marker::Sync>>::cast::<u8>
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal nonnull i8* @_RINvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB6_6UniqueDNtNtCs2bNvlddUlXM_3std5error5ErrorNtNtBa_6marker4SendNtB1s_4SyncEL_E4casthECskT2QP9QPlNo_17mapped_stack_race(i8* nonnull %self.0, i64* noalias readonly align 8 dereferenceable(24) %self.1) unnamed_addr #1 !dbg !754 {
+define internal nonnull i8* @_RINvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB6_6UniqueDNtNtCs2bNvlddUlXM_3std5error5ErrorNtNtBa_6marker4SendNtB1s_4SyncEL_E4casthECsfnYCCstO0CH_18mapped_static_race(i8* nonnull %self.0, i64* noalias readonly align 8 dereferenceable(24) %self.1) unnamed_addr #1 !dbg !754 {
 start:
   %self.dbg.spill = alloca { i8*, i64* }, align 8
   %0 = getelementptr inbounds { i8*, i64* }, { i8*, i64* }* %self.dbg.spill, i32 0, i32 0
@@ -915,7 +915,7 @@ start:
   store i64* %self.1, i64** %1, align 8
   call void @llvm.dbg.declare(metadata { i8*, i64* }* %self.dbg.spill, metadata !768, metadata !DIExpression()), !dbg !770
 ; call <core::ptr::unique::Unique<dyn std::error::Error + core::marker::Send + core::marker::Sync>>::as_ptr
-  %2 = call { {}*, [3 x i64]* } @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueDNtNtCs2bNvlddUlXM_3std5error5ErrorNtNtB9_6marker4SendNtB1r_4SyncEL_E6as_ptrCskT2QP9QPlNo_17mapped_stack_race(i8* nonnull %self.0, i64* noalias readonly align 8 dereferenceable(24) %self.1), !dbg !771
+  %2 = call { {}*, [3 x i64]* } @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueDNtNtCs2bNvlddUlXM_3std5error5ErrorNtNtB9_6marker4SendNtB1r_4SyncEL_E6as_ptrCsfnYCCstO0CH_18mapped_static_race(i8* nonnull %self.0, i64* noalias readonly align 8 dereferenceable(24) %self.1), !dbg !771
   %_3.0 = extractvalue { {}*, [3 x i64]* } %2, 0, !dbg !771
   %_3.1 = extractvalue { {}*, [3 x i64]* } %2, 1, !dbg !771
   br label %bb1, !dbg !771
@@ -923,7 +923,7 @@ start:
 bb1:                                              ; preds = %start
   %_2 = bitcast {}* %_3.0 to i8*, !dbg !771
 ; call <core::ptr::unique::Unique<u8>>::new_unchecked
-  %3 = call nonnull i8* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniquehE13new_uncheckedCskT2QP9QPlNo_17mapped_stack_race(i8* %_2), !dbg !772
+  %3 = call nonnull i8* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniquehE13new_uncheckedCsfnYCCstO0CH_18mapped_static_race(i8* %_2), !dbg !772
   br label %bb2, !dbg !772
 
 bb2:                                              ; preds = %bb1
@@ -932,19 +932,19 @@ bb2:                                              ; preds = %bb1
 
 ; <core::ptr::unique::Unique<alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>>>>::cast::<u8>
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal nonnull i8* @_RINvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB6_6UniqueINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtBa_4cell10UnsafeCellINtNtBa_6option6OptionINtNtBa_6result6ResultuINtNtBW_5boxed3BoxDNtNtBa_3any3AnyNtNtBa_6marker4SendEL_EEEEEE4casthECskT2QP9QPlNo_17mapped_stack_race(i64* nonnull %self) unnamed_addr #1 !dbg !774 {
+define internal nonnull i8* @_RINvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB6_6UniqueINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtBa_4cell10UnsafeCellINtNtBa_6option6OptionINtNtBa_6result6ResultuINtNtBW_5boxed3BoxDNtNtBa_3any3AnyNtNtBa_6marker4SendEL_EEEEEE4casthECsfnYCCstO0CH_18mapped_static_race(i64* nonnull %self) unnamed_addr #1 !dbg !774 {
 start:
   %self.dbg.spill = alloca i64*, align 8
   store i64* %self, i64** %self.dbg.spill, align 8
   call void @llvm.dbg.declare(metadata i64** %self.dbg.spill, metadata !782, metadata !DIExpression()), !dbg !784
 ; call <core::ptr::unique::Unique<alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>>>>::as_ptr
-  %_3 = call %"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtB9_4cell10UnsafeCellINtNtB9_6option6OptionINtNtB9_6result6ResultuINtNtBV_5boxed3BoxDNtNtB9_3any3AnyNtNtB9_6marker4SendEL_EEEEEE6as_ptrCskT2QP9QPlNo_17mapped_stack_race(i64* nonnull %self), !dbg !785
+  %_3 = call %"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtB9_4cell10UnsafeCellINtNtB9_6option6OptionINtNtB9_6result6ResultuINtNtBV_5boxed3BoxDNtNtB9_3any3AnyNtNtB9_6marker4SendEL_EEEEEE6as_ptrCsfnYCCstO0CH_18mapped_static_race(i64* nonnull %self), !dbg !785
   br label %bb1, !dbg !785
 
 bb1:                                              ; preds = %start
   %_2 = bitcast %"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"* %_3 to i8*, !dbg !785
 ; call <core::ptr::unique::Unique<u8>>::new_unchecked
-  %0 = call nonnull i8* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniquehE13new_uncheckedCskT2QP9QPlNo_17mapped_stack_race(i8* %_2), !dbg !786
+  %0 = call nonnull i8* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniquehE13new_uncheckedCsfnYCCstO0CH_18mapped_static_race(i8* %_2), !dbg !786
   br label %bb2, !dbg !786
 
 bb2:                                              ; preds = %bb1
@@ -953,19 +953,19 @@ bb2:                                              ; preds = %bb1
 
 ; <core::ptr::unique::Unique<std::io::error::Custom>>::cast::<u8>
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal nonnull i8* @_RINvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB6_6UniqueNtNtNtCs2bNvlddUlXM_3std2io5error6CustomE4casthECskT2QP9QPlNo_17mapped_stack_race(i64* nonnull %self) unnamed_addr #1 !dbg !788 {
+define internal nonnull i8* @_RINvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB6_6UniqueNtNtNtCs2bNvlddUlXM_3std2io5error6CustomE4casthECsfnYCCstO0CH_18mapped_static_race(i64* nonnull %self) unnamed_addr #1 !dbg !788 {
 start:
   %self.dbg.spill = alloca i64*, align 8
   store i64* %self, i64** %self.dbg.spill, align 8
   call void @llvm.dbg.declare(metadata i64** %self.dbg.spill, metadata !800, metadata !DIExpression()), !dbg !802
 ; call <core::ptr::unique::Unique<std::io::error::Custom>>::as_ptr
-  %_3 = call %"std::io::error::Custom"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueNtNtNtCs2bNvlddUlXM_3std2io5error6CustomE6as_ptrCskT2QP9QPlNo_17mapped_stack_race(i64* nonnull %self), !dbg !803
+  %_3 = call %"std::io::error::Custom"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueNtNtNtCs2bNvlddUlXM_3std2io5error6CustomE6as_ptrCsfnYCCstO0CH_18mapped_static_race(i64* nonnull %self), !dbg !803
   br label %bb1, !dbg !803
 
 bb1:                                              ; preds = %start
   %_2 = bitcast %"std::io::error::Custom"* %_3 to i8*, !dbg !803
 ; call <core::ptr::unique::Unique<u8>>::new_unchecked
-  %0 = call nonnull i8* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniquehE13new_uncheckedCskT2QP9QPlNo_17mapped_stack_race(i8* %_2), !dbg !804
+  %0 = call nonnull i8* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniquehE13new_uncheckedCsfnYCCstO0CH_18mapped_static_race(i8* %_2), !dbg !804
   br label %bb2, !dbg !804
 
 bb2:                                              ; preds = %bb1
@@ -974,19 +974,19 @@ bb2:                                              ; preds = %bb1
 
 ; <core::ptr::unique::Unique<std::sys::unix::mutex::Mutex>>::cast::<u8>
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal nonnull i8* @_RINvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB6_6UniqueNtNtNtNtCs2bNvlddUlXM_3std3sys4unix5mutex5MutexE4casthECskT2QP9QPlNo_17mapped_stack_race(i64* nonnull %self) unnamed_addr #1 !dbg !806 {
+define internal nonnull i8* @_RINvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB6_6UniqueNtNtNtNtCs2bNvlddUlXM_3std3sys4unix5mutex5MutexE4casthECsfnYCCstO0CH_18mapped_static_race(i64* nonnull %self) unnamed_addr #1 !dbg !806 {
 start:
   %self.dbg.spill = alloca i64*, align 8
   store i64* %self, i64** %self.dbg.spill, align 8
   call void @llvm.dbg.declare(metadata i64** %self.dbg.spill, metadata !818, metadata !DIExpression()), !dbg !820
 ; call <core::ptr::unique::Unique<std::sys::unix::mutex::Mutex>>::as_ptr
-  %_3 = call %"std::sys::unix::mutex::Mutex"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueNtNtNtNtCs2bNvlddUlXM_3std3sys4unix5mutex5MutexE6as_ptrCskT2QP9QPlNo_17mapped_stack_race(i64* nonnull %self), !dbg !821
+  %_3 = call %"std::sys::unix::mutex::Mutex"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueNtNtNtNtCs2bNvlddUlXM_3std3sys4unix5mutex5MutexE6as_ptrCsfnYCCstO0CH_18mapped_static_race(i64* nonnull %self), !dbg !821
   br label %bb1, !dbg !821
 
 bb1:                                              ; preds = %start
   %_2 = bitcast %"std::sys::unix::mutex::Mutex"* %_3 to i8*, !dbg !821
 ; call <core::ptr::unique::Unique<u8>>::new_unchecked
-  %0 = call nonnull i8* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniquehE13new_uncheckedCskT2QP9QPlNo_17mapped_stack_race(i8* %_2), !dbg !822
+  %0 = call nonnull i8* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniquehE13new_uncheckedCsfnYCCstO0CH_18mapped_static_race(i8* %_2), !dbg !822
   br label %bb2, !dbg !822
 
 bb2:                                              ; preds = %bb1
@@ -995,7 +995,7 @@ bb2:                                              ; preds = %bb1
 
 ; <core::ptr::unique::Unique<[u8]>>::cast::<u8>
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal nonnull i8* @_RINvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB6_6UniqueShE4casthECskT2QP9QPlNo_17mapped_stack_race(i8* nonnull %self.0, i64 %self.1) unnamed_addr #1 !dbg !824 {
+define internal nonnull i8* @_RINvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB6_6UniqueShE4casthECsfnYCCstO0CH_18mapped_static_race(i8* nonnull %self.0, i64 %self.1) unnamed_addr #1 !dbg !824 {
 start:
   %self.dbg.spill = alloca { i8*, i64 }, align 8
   %0 = getelementptr inbounds { i8*, i64 }, { i8*, i64 }* %self.dbg.spill, i32 0, i32 0
@@ -1004,7 +1004,7 @@ start:
   store i64 %self.1, i64* %1, align 8
   call void @llvm.dbg.declare(metadata { i8*, i64 }* %self.dbg.spill, metadata !838, metadata !DIExpression()), !dbg !840
 ; call <core::ptr::unique::Unique<[u8]>>::as_ptr
-  %2 = call { [0 x i8]*, i64 } @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueShE6as_ptrCskT2QP9QPlNo_17mapped_stack_race(i8* nonnull %self.0, i64 %self.1), !dbg !841
+  %2 = call { [0 x i8]*, i64 } @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueShE6as_ptrCsfnYCCstO0CH_18mapped_static_race(i8* nonnull %self.0, i64 %self.1), !dbg !841
   %_3.0 = extractvalue { [0 x i8]*, i64 } %2, 0, !dbg !841
   %_3.1 = extractvalue { [0 x i8]*, i64 } %2, 1, !dbg !841
   br label %bb1, !dbg !841
@@ -1012,7 +1012,7 @@ start:
 bb1:                                              ; preds = %start
   %_2 = bitcast [0 x i8]* %_3.0 to i8*, !dbg !841
 ; call <core::ptr::unique::Unique<u8>>::new_unchecked
-  %3 = call nonnull i8* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniquehE13new_uncheckedCskT2QP9QPlNo_17mapped_stack_race(i8* %_2), !dbg !842
+  %3 = call nonnull i8* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniquehE13new_uncheckedCsfnYCCstO0CH_18mapped_static_race(i8* %_2), !dbg !842
   br label %bb2, !dbg !842
 
 bb2:                                              ; preds = %bb1
@@ -1021,18 +1021,18 @@ bb2:                                              ; preds = %bb1
 
 ; <core::ptr::unique::Unique<u8>>::cast::<u8>
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal nonnull i8* @_RINvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB6_6UniquehE4casthECskT2QP9QPlNo_17mapped_stack_race(i8* nonnull %self) unnamed_addr #1 !dbg !844 {
+define internal nonnull i8* @_RINvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB6_6UniquehE4casthECsfnYCCstO0CH_18mapped_static_race(i8* nonnull %self) unnamed_addr #1 !dbg !844 {
 start:
   %self.dbg.spill = alloca i8*, align 8
   store i8* %self, i8** %self.dbg.spill, align 8
   call void @llvm.dbg.declare(metadata i8** %self.dbg.spill, metadata !848, metadata !DIExpression()), !dbg !850
 ; call <core::ptr::unique::Unique<u8>>::as_ptr
-  %_3 = call i8* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniquehE6as_ptrCskT2QP9QPlNo_17mapped_stack_race(i8* nonnull %self), !dbg !851
+  %_3 = call i8* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniquehE6as_ptrCsfnYCCstO0CH_18mapped_static_race(i8* nonnull %self), !dbg !851
   br label %bb1, !dbg !851
 
 bb1:                                              ; preds = %start
 ; call <core::ptr::unique::Unique<u8>>::new_unchecked
-  %0 = call nonnull i8* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniquehE13new_uncheckedCskT2QP9QPlNo_17mapped_stack_race(i8* %_3), !dbg !852
+  %0 = call nonnull i8* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniquehE13new_uncheckedCsfnYCCstO0CH_18mapped_static_race(i8* %_3), !dbg !852
   br label %bb2, !dbg !852
 
 bb2:                                              ; preds = %bb1
@@ -1041,19 +1041,19 @@ bb2:                                              ; preds = %bb1
 
 ; <core::ptr::non_null::NonNull<alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>>>>::cast::<u8>
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal nonnull i8* @_RINvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB6_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtBa_4cell10UnsafeCellINtNtBa_6option6OptionINtNtBa_6result6ResultuINtNtBZ_5boxed3BoxDNtNtBa_3any3AnyNtNtBa_6marker4SendEL_EEEEEE4casthECskT2QP9QPlNo_17mapped_stack_race(i64* nonnull %self) unnamed_addr #1 !dbg !854 {
+define internal nonnull i8* @_RINvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB6_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtBa_4cell10UnsafeCellINtNtBa_6option6OptionINtNtBa_6result6ResultuINtNtBZ_5boxed3BoxDNtNtBa_3any3AnyNtNtBa_6marker4SendEL_EEEEEE4casthECsfnYCCstO0CH_18mapped_static_race(i64* nonnull %self) unnamed_addr #1 !dbg !854 {
 start:
   %self.dbg.spill = alloca i64*, align 8
   store i64* %self, i64** %self.dbg.spill, align 8
   call void @llvm.dbg.declare(metadata i64** %self.dbg.spill, metadata !859, metadata !DIExpression()), !dbg !860
 ; call <core::ptr::non_null::NonNull<alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>>>>::as_ptr
-  %_3 = call %"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtB9_4cell10UnsafeCellINtNtB9_6option6OptionINtNtB9_6result6ResultuINtNtBY_5boxed3BoxDNtNtB9_3any3AnyNtNtB9_6marker4SendEL_EEEEEE6as_ptrCskT2QP9QPlNo_17mapped_stack_race(i64* nonnull %self), !dbg !861
+  %_3 = call %"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtB9_4cell10UnsafeCellINtNtB9_6option6OptionINtNtB9_6result6ResultuINtNtBY_5boxed3BoxDNtNtB9_3any3AnyNtNtB9_6marker4SendEL_EEEEEE6as_ptrCsfnYCCstO0CH_18mapped_static_race(i64* nonnull %self), !dbg !861
   br label %bb1, !dbg !861
 
 bb1:                                              ; preds = %start
   %_2 = bitcast %"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"* %_3 to i8*, !dbg !861
 ; call <core::ptr::non_null::NonNull<u8>>::new_unchecked
-  %0 = call nonnull i8* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullhE13new_uncheckedCskT2QP9QPlNo_17mapped_stack_race(i8* %_2), !dbg !862
+  %0 = call nonnull i8* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullhE13new_uncheckedCsfnYCCstO0CH_18mapped_static_race(i8* %_2), !dbg !862
   br label %bb2, !dbg !862
 
 bb2:                                              ; preds = %bb1
@@ -1062,19 +1062,19 @@ bb2:                                              ; preds = %bb1
 
 ; <core::ptr::non_null::NonNull<alloc::sync::ArcInner<std::sync::mutex::Mutex<alloc::vec::Vec<u8>>>>>::cast::<u8>
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal nonnull i8* @_RINvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB6_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtBZ_3vec3VechEEEE4casthECskT2QP9QPlNo_17mapped_stack_race(i64* nonnull %self) unnamed_addr #1 !dbg !864 {
+define internal nonnull i8* @_RINvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB6_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtBZ_3vec3VechEEEE4casthECsfnYCCstO0CH_18mapped_static_race(i64* nonnull %self) unnamed_addr #1 !dbg !864 {
 start:
   %self.dbg.spill = alloca i64*, align 8
   store i64* %self, i64** %self.dbg.spill, align 8
   call void @llvm.dbg.declare(metadata i64** %self.dbg.spill, metadata !868, metadata !DIExpression()), !dbg !870
 ; call <core::ptr::non_null::NonNull<alloc::sync::ArcInner<std::sync::mutex::Mutex<alloc::vec::Vec<u8>>>>>::as_ptr
-  %_3 = call %"alloc::sync::ArcInner<std::sync::Mutex<std::vec::Vec<u8>>>"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtBY_3vec3VechEEEE6as_ptrCskT2QP9QPlNo_17mapped_stack_race(i64* nonnull %self), !dbg !871
+  %_3 = call %"alloc::sync::ArcInner<std::sync::Mutex<std::vec::Vec<u8>>>"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtBY_3vec3VechEEEE6as_ptrCsfnYCCstO0CH_18mapped_static_race(i64* nonnull %self), !dbg !871
   br label %bb1, !dbg !871
 
 bb1:                                              ; preds = %start
   %_2 = bitcast %"alloc::sync::ArcInner<std::sync::Mutex<std::vec::Vec<u8>>>"* %_3 to i8*, !dbg !871
 ; call <core::ptr::non_null::NonNull<u8>>::new_unchecked
-  %0 = call nonnull i8* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullhE13new_uncheckedCskT2QP9QPlNo_17mapped_stack_race(i8* %_2), !dbg !872
+  %0 = call nonnull i8* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullhE13new_uncheckedCsfnYCCstO0CH_18mapped_static_race(i8* %_2), !dbg !872
   br label %bb2, !dbg !872
 
 bb2:                                              ; preds = %bb1
@@ -1083,19 +1083,19 @@ bb2:                                              ; preds = %bb1
 
 ; <core::ptr::non_null::NonNull<alloc::sync::ArcInner<std::thread::Inner>>>::cast::<u8>
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal nonnull i8* @_RINvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB6_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerNtNtCs2bNvlddUlXM_3std6thread5InnerEE4casthECskT2QP9QPlNo_17mapped_stack_race(i64* nonnull %self) unnamed_addr #1 !dbg !874 {
+define internal nonnull i8* @_RINvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB6_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerNtNtCs2bNvlddUlXM_3std6thread5InnerEE4casthECsfnYCCstO0CH_18mapped_static_race(i64* nonnull %self) unnamed_addr #1 !dbg !874 {
 start:
   %self.dbg.spill = alloca i64*, align 8
   store i64* %self, i64** %self.dbg.spill, align 8
   call void @llvm.dbg.declare(metadata i64** %self.dbg.spill, metadata !878, metadata !DIExpression()), !dbg !880
 ; call <core::ptr::non_null::NonNull<alloc::sync::ArcInner<std::thread::Inner>>>::as_ptr
-  %_3 = call %"alloc::sync::ArcInner<std::thread::Inner>"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerNtNtCs2bNvlddUlXM_3std6thread5InnerEE6as_ptrCskT2QP9QPlNo_17mapped_stack_race(i64* nonnull %self), !dbg !881
+  %_3 = call %"alloc::sync::ArcInner<std::thread::Inner>"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerNtNtCs2bNvlddUlXM_3std6thread5InnerEE6as_ptrCsfnYCCstO0CH_18mapped_static_race(i64* nonnull %self), !dbg !881
   br label %bb1, !dbg !881
 
 bb1:                                              ; preds = %start
   %_2 = bitcast %"alloc::sync::ArcInner<std::thread::Inner>"* %_3 to i8*, !dbg !881
 ; call <core::ptr::non_null::NonNull<u8>>::new_unchecked
-  %0 = call nonnull i8* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullhE13new_uncheckedCskT2QP9QPlNo_17mapped_stack_race(i8* %_2), !dbg !882
+  %0 = call nonnull i8* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullhE13new_uncheckedCsfnYCCstO0CH_18mapped_static_race(i8* %_2), !dbg !882
   br label %bb2, !dbg !882
 
 bb2:                                              ; preds = %bb1
@@ -1104,7 +1104,7 @@ bb2:                                              ; preds = %bb1
 
 ; <core::fmt::ArgumentV1>::new::<u8>
 ; Function Attrs: nonlazybind uwtable
-define internal { i8*, i64* } @_RINvMs_NtCs3p84KrD9aKt_4core3fmtNtB5_10ArgumentV13newhECskT2QP9QPlNo_17mapped_stack_race(i8* noalias readonly align 1 dereferenceable(1) %x, i1 (i8*, %"std::fmt::Formatter"*)* nonnull %f) unnamed_addr #0 !dbg !884 {
+define internal { i8*, i64* } @_RINvMs_NtCs3p84KrD9aKt_4core3fmtNtB5_10ArgumentV13newhECsfnYCCstO0CH_18mapped_static_race(i8* noalias readonly align 1 dereferenceable(1) %x, i1 (i8*, %"std::fmt::Formatter"*)* nonnull %f) unnamed_addr #0 !dbg !884 {
 start:
   %0 = alloca %"core::fmt::Opaque"*, align 8
   %1 = alloca i1 (%"core::fmt::Opaque"*, %"std::fmt::Formatter"*)*, align 8
@@ -1143,7 +1143,7 @@ bb2:                                              ; preds = %bb1
 
 ; std::rt::lang_start::<()>
 ; Function Attrs: nonlazybind uwtable
-define hidden i64 @_RINvNtCs2bNvlddUlXM_3std2rt10lang_startuECskT2QP9QPlNo_17mapped_stack_race(void ()* nonnull %main, i64 %argc, i8** %argv) unnamed_addr #0 !dbg !925 {
+define hidden i64 @_RINvNtCs2bNvlddUlXM_3std2rt10lang_startuECsfnYCCstO0CH_18mapped_static_race(void ()* nonnull %main, i64 %argc, i8** %argv) unnamed_addr #0 !dbg !925 {
 start:
   %argv.dbg.spill = alloca i8**, align 8
   %argc.dbg.spill = alloca i64, align 8
@@ -1166,14 +1166,14 @@ bb1:                                              ; preds = %start
   ret i64 %1, !dbg !941
 }
 
-; std::panic::catch_unwind::<std::panic::AssertUnwindSafe<<std::thread::Builder>::spawn_unchecked<mapped_stack_race::main::{closure#0}, ()>::{closure#0}::{closure#0}>, ()>
+; std::panic::catch_unwind::<std::panic::AssertUnwindSafe<<std::thread::Builder>::spawn_unchecked<mapped_static_race::main::{closure#0}, ()>::{closure#0}::{closure#0}>, ()>
 ; Function Attrs: nonlazybind uwtable
-define internal { i8*, i8* } @_RINvNtCs2bNvlddUlXM_3std5panic12catch_unwindINtB2_16AssertUnwindSafeNCNCINvMNtB4_6threadNtB1c_7Builder15spawn_uncheckedNCNvCskT2QP9QPlNo_17mapped_stack_race4main0uE00EuEB1X_() unnamed_addr #0 !dbg !942 {
+define internal { i8*, i8* } @_RINvNtCs2bNvlddUlXM_3std5panic12catch_unwindINtB2_16AssertUnwindSafeNCNCINvMNtB4_6threadNtB1c_7Builder15spawn_uncheckedNCNvCsfnYCCstO0CH_18mapped_static_race4main0uE00EuEB1X_() unnamed_addr #0 !dbg !942 {
 start:
   %f.dbg.spill = alloca %"std::panic::AssertUnwindSafe<[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:10:30: 13:3], ()>::{closure#0}::{closure#0}]>", align 1
   call void @llvm.dbg.declare(metadata %"std::panic::AssertUnwindSafe<[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:10:30: 13:3], ()>::{closure#0}::{closure#0}]>"* %f.dbg.spill, metadata !957, metadata !DIExpression()), !dbg !961
-; call std::panicking::try::<(), std::panic::AssertUnwindSafe<<std::thread::Builder>::spawn_unchecked<mapped_stack_race::main::{closure#0}, ()>::{closure#0}::{closure#0}>>
-  %0 = call { i8*, i8* } @_RINvNtCs2bNvlddUlXM_3std9panicking3tryuINtNtB4_5panic16AssertUnwindSafeNCNCINvMNtB4_6threadNtB1f_7Builder15spawn_uncheckedNCNvCskT2QP9QPlNo_17mapped_stack_race4main0uE00EEB20_(), !dbg !962
+; call std::panicking::try::<(), std::panic::AssertUnwindSafe<<std::thread::Builder>::spawn_unchecked<mapped_static_race::main::{closure#0}, ()>::{closure#0}::{closure#0}>>
+  %0 = call { i8*, i8* } @_RINvNtCs2bNvlddUlXM_3std9panicking3tryuINtNtB4_5panic16AssertUnwindSafeNCNCINvMNtB4_6threadNtB1f_7Builder15spawn_uncheckedNCNvCsfnYCCstO0CH_18mapped_static_race4main0uE00EEB20_(), !dbg !962
   %1 = extractvalue { i8*, i8* } %0, 0, !dbg !962
   %2 = extractvalue { i8*, i8* } %0, 1, !dbg !962
   br label %bb1, !dbg !962
@@ -1184,9 +1184,9 @@ bb1:                                              ; preds = %start
   ret { i8*, i8* } %4, !dbg !963
 }
 
-; std::thread::spawn::<mapped_stack_race::main::{closure#0}, ()>
+; std::thread::spawn::<mapped_static_race::main::{closure#0}, ()>
 ; Function Attrs: nonlazybind uwtable
-define internal void @_RINvNtCs2bNvlddUlXM_3std6thread5spawnNCNvCskT2QP9QPlNo_17mapped_stack_race4main0uEBD_(%"std::thread::JoinHandle<()>"* noalias nocapture sret dereferenceable(32) %0) unnamed_addr #0 personality i32 (i32, i32, i64, %"unwind::libunwind::_Unwind_Exception"*, %"unwind::libunwind::_Unwind_Context"*)* @rust_eh_personality !dbg !964 {
+define internal void @_RINvNtCs2bNvlddUlXM_3std6thread5spawnNCNvCsfnYCCstO0CH_18mapped_static_race4main0uEBD_(%"std::thread::JoinHandle<()>"* noalias nocapture sret dereferenceable(32) %0) unnamed_addr #0 personality i32 (i32, i32, i64, %"unwind::libunwind::_Unwind_Exception"*, %"unwind::libunwind::_Unwind_Context"*)* @rust_eh_personality !dbg !964 {
 start:
   %1 = alloca { i8*, i32 }, align 8
   %f.dbg.spill = alloca %"[closure@src/main.rs:10:30: 13:3]", align 1
@@ -1202,13 +1202,13 @@ start:
 
 bb1:                                              ; preds = %start
   store i8 0, i8* %_7, align 1, !dbg !971
-; invoke <std::thread::Builder>::spawn::<mapped_stack_race::main::{closure#0}, ()>
-  invoke void @_RINvMNtCs2bNvlddUlXM_3std6threadNtB3_7Builder5spawnNCNvCskT2QP9QPlNo_17mapped_stack_race4main0uEBR_(%"std::result::Result<std::thread::JoinHandle<()>, std::io::Error>"* noalias nocapture sret dereferenceable(40) %_2, %"std::thread::Builder"* noalias nocapture dereferenceable(40) %_3)
+; invoke <std::thread::Builder>::spawn::<mapped_static_race::main::{closure#0}, ()>
+  invoke void @_RINvMNtCs2bNvlddUlXM_3std6threadNtB3_7Builder5spawnNCNvCsfnYCCstO0CH_18mapped_static_race4main0uEBR_(%"std::result::Result<std::thread::JoinHandle<()>, std::io::Error>"* noalias nocapture sret dereferenceable(40) %_2, %"std::thread::Builder"* noalias nocapture dereferenceable(40) %_3)
           to label %bb2 unwind label %cleanup, !dbg !970
 
 bb2:                                              ; preds = %bb1
 ; invoke <core::result::Result<std::thread::JoinHandle<()>, std::io::error::Error>>::expect
-  invoke void @_RNvMs3_NtCs3p84KrD9aKt_4core6resultINtB5_6ResultINtNtCs2bNvlddUlXM_3std6thread10JoinHandleuENtNtNtBP_2io5error5ErrorE6expectCskT2QP9QPlNo_17mapped_stack_race(%"std::thread::JoinHandle<()>"* noalias nocapture sret dereferenceable(32) %0, %"std::result::Result<std::thread::JoinHandle<()>, std::io::Error>"* noalias nocapture dereferenceable(40) %_2, [0 x i8]* noalias nonnull readonly align 1 bitcast (<{ [22 x i8] }>* @alloc45 to [0 x i8]*), i64 22, %"std::panic::Location"* noalias readonly align 8 dereferenceable(24) bitcast (<{ i8*, [16 x i8] }>* @alloc47 to %"std::panic::Location"*))
+  invoke void @_RNvMs3_NtCs3p84KrD9aKt_4core6resultINtB5_6ResultINtNtCs2bNvlddUlXM_3std6thread10JoinHandleuENtNtNtBP_2io5error5ErrorE6expectCsfnYCCstO0CH_18mapped_static_race(%"std::thread::JoinHandle<()>"* noalias nocapture sret dereferenceable(32) %0, %"std::result::Result<std::thread::JoinHandle<()>, std::io::Error>"* noalias nocapture dereferenceable(40) %_2, [0 x i8]* noalias nonnull readonly align 1 bitcast (<{ [22 x i8] }>* @alloc45 to [0 x i8]*), i64 22, %"std::panic::Location"* noalias readonly align 8 dereferenceable(24) bitcast (<{ i8*, [16 x i8] }>* @alloc47 to %"std::panic::Location"*))
           to label %bb3 unwind label %cleanup, !dbg !970
 
 bb3:                                              ; preds = %bb2
@@ -1243,9 +1243,9 @@ cleanup:                                          ; preds = %bb2, %bb1, %start
   br label %bb6
 }
 
-; std::panicking::try::<(), std::panic::AssertUnwindSafe<<std::thread::Builder>::spawn_unchecked<mapped_stack_race::main::{closure#0}, ()>::{closure#0}::{closure#0}>>
+; std::panicking::try::<(), std::panic::AssertUnwindSafe<<std::thread::Builder>::spawn_unchecked<mapped_static_race::main::{closure#0}, ()>::{closure#0}::{closure#0}>>
 ; Function Attrs: nonlazybind uwtable
-define internal { i8*, i8* } @_RINvNtCs2bNvlddUlXM_3std9panicking3tryuINtNtB4_5panic16AssertUnwindSafeNCNCINvMNtB4_6threadNtB1f_7Builder15spawn_uncheckedNCNvCskT2QP9QPlNo_17mapped_stack_race4main0uE00EEB20_() unnamed_addr #0 !dbg !975 {
+define internal { i8*, i8* } @_RINvNtCs2bNvlddUlXM_3std9panicking3tryuINtNtB4_5panic16AssertUnwindSafeNCNCINvMNtB4_6threadNtB1f_7Builder15spawn_uncheckedNCNvCsfnYCCstO0CH_18mapped_static_race4main0uE00EEB20_() unnamed_addr #0 !dbg !975 {
 start:
   %slot.dbg.spill.i = alloca { i8*, i64* }, align 8
   %0 = alloca %"std::mem::ManuallyDrop<std::panic::AssertUnwindSafe<[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:10:30: 13:3], ()>::{closure#0}::{closure#0}]>>", align 1
@@ -1265,7 +1265,7 @@ bb1:                                              ; preds = %start
   %data_ptr = bitcast { i8*, i8* }* %data to i8*, !dbg !1019
   store i8* %data_ptr, i8** %data_ptr.dbg.spill, align 8, !dbg !1019
   call void @llvm.dbg.declare(metadata i8** %data_ptr.dbg.spill, metadata !1003, metadata !DIExpression()), !dbg !1020
-  %5 = call i32 @__rust_try(void (i8*)* @_RINvNvNtCs2bNvlddUlXM_3std9panicking3try7do_callINtNtB6_5panic16AssertUnwindSafeNCNCINvMNtB6_6threadNtB1o_7Builder15spawn_uncheckedNCNvCskT2QP9QPlNo_17mapped_stack_race4main0uE00EuEB29_, i8* %data_ptr, void (i8*, i8*)* @_RINvNvNtCs2bNvlddUlXM_3std9panicking3try8do_catchINtNtB6_5panic16AssertUnwindSafeNCNCINvMNtB6_6threadNtB1p_7Builder15spawn_uncheckedNCNvCskT2QP9QPlNo_17mapped_stack_race4main0uE00EuEB2a_), !dbg !1021
+  %5 = call i32 @__rust_try(void (i8*)* @_RINvNvNtCs2bNvlddUlXM_3std9panicking3try7do_callINtNtB6_5panic16AssertUnwindSafeNCNCINvMNtB6_6threadNtB1o_7Builder15spawn_uncheckedNCNvCsfnYCCstO0CH_18mapped_static_race4main0uE00EuEB29_, i8* %data_ptr, void (i8*, i8*)* @_RINvNvNtCs2bNvlddUlXM_3std9panicking3try8do_catchINtNtB6_5panic16AssertUnwindSafeNCNCINvMNtB6_6threadNtB1p_7Builder15spawn_uncheckedNCNvCsfnYCCstO0CH_18mapped_static_race4main0uE00EuEB2a_), !dbg !1021
   store i32 %5, i32* %1, align 4, !dbg !1021
   %_9 = load i32, i32* %1, align 4, !dbg !1021
   br label %bb2, !dbg !1021
@@ -1322,9 +1322,9 @@ bb7:                                              ; preds = %bb5, %bb6
   ret { i8*, i8* } %27, !dbg !1048
 }
 
-; core::intrinsics::copy_nonoverlapping::<std::panic::AssertUnwindSafe<<std::thread::Builder>::spawn_unchecked<mapped_stack_race::main::{closure#0}, ()>::{closure#0}::{closure#0}>>
+; core::intrinsics::copy_nonoverlapping::<std::panic::AssertUnwindSafe<<std::thread::Builder>::spawn_unchecked<mapped_static_race::main::{closure#0}, ()>::{closure#0}::{closure#0}>>
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal void @_RINvNtCs3p84KrD9aKt_4core10intrinsics19copy_nonoverlappingINtNtCs2bNvlddUlXM_3std5panic16AssertUnwindSafeNCNCINvMNtBZ_6threadNtB1N_7Builder15spawn_uncheckedNCNvCskT2QP9QPlNo_17mapped_stack_race4main0uE00EEB2y_(%"std::panic::AssertUnwindSafe<[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:10:30: 13:3], ()>::{closure#0}::{closure#0}]>"* %src, %"std::panic::AssertUnwindSafe<[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:10:30: 13:3], ()>::{closure#0}::{closure#0}]>"* %dst, i64 %count) unnamed_addr #1 !dbg !1049 {
+define internal void @_RINvNtCs3p84KrD9aKt_4core10intrinsics19copy_nonoverlappingINtNtCs2bNvlddUlXM_3std5panic16AssertUnwindSafeNCNCINvMNtBZ_6threadNtB1N_7Builder15spawn_uncheckedNCNvCsfnYCCstO0CH_18mapped_static_race4main0uE00EEB2y_(%"std::panic::AssertUnwindSafe<[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:10:30: 13:3], ()>::{closure#0}::{closure#0}]>"* %src, %"std::panic::AssertUnwindSafe<[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:10:30: 13:3], ()>::{closure#0}::{closure#0}]>"* %dst, i64 %count) unnamed_addr #1 !dbg !1049 {
 start:
   %count.dbg.spill = alloca i64, align 8
   %dst.dbg.spill = alloca %"std::panic::AssertUnwindSafe<[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:10:30: 13:3], ()>::{closure#0}::{closure#0}]>"*, align 8
@@ -1347,7 +1347,7 @@ bb1:                                              ; preds = %start
 
 ; core::mem::size_of_val_raw::<alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>>>
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal i64 @_RINvNtCs3p84KrD9aKt_4core3mem15size_of_val_rawINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtB4_4cell10UnsafeCellINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtBN_5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEEEECskT2QP9QPlNo_17mapped_stack_race(%"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"* %val) unnamed_addr #1 !dbg !1065 {
+define internal i64 @_RINvNtCs3p84KrD9aKt_4core3mem15size_of_val_rawINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtB4_4cell10UnsafeCellINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtBN_5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEEEECsfnYCCstO0CH_18mapped_static_race(%"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"* %val) unnamed_addr #1 !dbg !1065 {
 start:
   %0 = alloca i64, align 8
   %val.dbg.spill = alloca %"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"*, align 8
@@ -1363,7 +1363,7 @@ bb1:                                              ; preds = %start
 
 ; core::mem::size_of_val_raw::<alloc::sync::ArcInner<std::sync::mutex::Mutex<alloc::vec::Vec<u8>>>>
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal i64 @_RINvNtCs3p84KrD9aKt_4core3mem15size_of_val_rawINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtBN_3vec3VechEEEECskT2QP9QPlNo_17mapped_stack_race(%"alloc::sync::ArcInner<std::sync::Mutex<std::vec::Vec<u8>>>"* %val) unnamed_addr #1 !dbg !1074 {
+define internal i64 @_RINvNtCs3p84KrD9aKt_4core3mem15size_of_val_rawINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtBN_3vec3VechEEEECsfnYCCstO0CH_18mapped_static_race(%"alloc::sync::ArcInner<std::sync::Mutex<std::vec::Vec<u8>>>"* %val) unnamed_addr #1 !dbg !1074 {
 start:
   %0 = alloca i64, align 8
   %val.dbg.spill = alloca %"alloc::sync::ArcInner<std::sync::Mutex<std::vec::Vec<u8>>>"*, align 8
@@ -1379,7 +1379,7 @@ bb1:                                              ; preds = %start
 
 ; core::mem::size_of_val_raw::<alloc::sync::ArcInner<std::thread::Inner>>
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal i64 @_RINvNtCs3p84KrD9aKt_4core3mem15size_of_val_rawINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerNtNtCs2bNvlddUlXM_3std6thread5InnerEECskT2QP9QPlNo_17mapped_stack_race(%"alloc::sync::ArcInner<std::thread::Inner>"* %val) unnamed_addr #1 !dbg !1082 {
+define internal i64 @_RINvNtCs3p84KrD9aKt_4core3mem15size_of_val_rawINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerNtNtCs2bNvlddUlXM_3std6thread5InnerEECsfnYCCstO0CH_18mapped_static_race(%"alloc::sync::ArcInner<std::thread::Inner>"* %val) unnamed_addr #1 !dbg !1082 {
 start:
   %0 = alloca i64, align 8
   %val.dbg.spill = alloca %"alloc::sync::ArcInner<std::thread::Inner>"*, align 8
@@ -1395,7 +1395,7 @@ bb1:                                              ; preds = %start
 
 ; core::mem::align_of_val_raw::<alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>>>
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal i64 @_RINvNtCs3p84KrD9aKt_4core3mem16align_of_val_rawINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtB4_4cell10UnsafeCellINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtBO_5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEEEECskT2QP9QPlNo_17mapped_stack_race(%"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"* %val) unnamed_addr #1 !dbg !1090 {
+define internal i64 @_RINvNtCs3p84KrD9aKt_4core3mem16align_of_val_rawINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtB4_4cell10UnsafeCellINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtBO_5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEEEECsfnYCCstO0CH_18mapped_static_race(%"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"* %val) unnamed_addr #1 !dbg !1090 {
 start:
   %0 = alloca i64, align 8
   %val.dbg.spill = alloca %"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"*, align 8
@@ -1411,7 +1411,7 @@ bb1:                                              ; preds = %start
 
 ; core::mem::align_of_val_raw::<alloc::sync::ArcInner<std::sync::mutex::Mutex<alloc::vec::Vec<u8>>>>
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal i64 @_RINvNtCs3p84KrD9aKt_4core3mem16align_of_val_rawINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtBO_3vec3VechEEEECskT2QP9QPlNo_17mapped_stack_race(%"alloc::sync::ArcInner<std::sync::Mutex<std::vec::Vec<u8>>>"* %val) unnamed_addr #1 !dbg !1096 {
+define internal i64 @_RINvNtCs3p84KrD9aKt_4core3mem16align_of_val_rawINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtBO_3vec3VechEEEECsfnYCCstO0CH_18mapped_static_race(%"alloc::sync::ArcInner<std::sync::Mutex<std::vec::Vec<u8>>>"* %val) unnamed_addr #1 !dbg !1096 {
 start:
   %0 = alloca i64, align 8
   %val.dbg.spill = alloca %"alloc::sync::ArcInner<std::sync::Mutex<std::vec::Vec<u8>>>"*, align 8
@@ -1427,7 +1427,7 @@ bb1:                                              ; preds = %start
 
 ; core::mem::align_of_val_raw::<alloc::sync::ArcInner<std::thread::Inner>>
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal i64 @_RINvNtCs3p84KrD9aKt_4core3mem16align_of_val_rawINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerNtNtCs2bNvlddUlXM_3std6thread5InnerEECskT2QP9QPlNo_17mapped_stack_race(%"alloc::sync::ArcInner<std::thread::Inner>"* %val) unnamed_addr #1 !dbg !1102 {
+define internal i64 @_RINvNtCs3p84KrD9aKt_4core3mem16align_of_val_rawINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerNtNtCs2bNvlddUlXM_3std6thread5InnerEECsfnYCCstO0CH_18mapped_static_race(%"alloc::sync::ArcInner<std::thread::Inner>"* %val) unnamed_addr #1 !dbg !1102 {
 start:
   %0 = alloca i64, align 8
   %val.dbg.spill = alloca %"alloc::sync::ArcInner<std::thread::Inner>"*, align 8
@@ -1443,13 +1443,13 @@ bb1:                                              ; preds = %start
 
 ; core::mem::drop::<alloc::sync::Weak<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>>>
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal void @_RINvNtCs3p84KrD9aKt_4core3mem4dropINtNtCs8RW06R9lH2S_5alloc4sync4WeakINtNtB4_4cell10UnsafeCellINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtBB_5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEEEECskT2QP9QPlNo_17mapped_stack_race(i64* nonnull %0) unnamed_addr #1 !dbg !1108 {
+define internal void @_RINvNtCs3p84KrD9aKt_4core3mem4dropINtNtCs8RW06R9lH2S_5alloc4sync4WeakINtNtB4_4cell10UnsafeCellINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtBB_5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEEEECsfnYCCstO0CH_18mapped_static_race(i64* nonnull %0) unnamed_addr #1 !dbg !1108 {
 start:
   %_x = alloca i64*, align 8
   store i64* %0, i64** %_x, align 8
   call void @llvm.dbg.declare(metadata i64** %_x, metadata !1115, metadata !DIExpression()), !dbg !1118
 ; call core::ptr::drop_in_place::<alloc::sync::Weak<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>>>
-  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc4sync4WeakINtNtB4_4cell10UnsafeCellINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtBL_5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEEEECskT2QP9QPlNo_17mapped_stack_race(i64** %_x), !dbg !1119
+  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc4sync4WeakINtNtB4_4cell10UnsafeCellINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtBL_5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEEEECsfnYCCstO0CH_18mapped_static_race(i64** %_x), !dbg !1119
   br label %bb1, !dbg !1119
 
 bb1:                                              ; preds = %start
@@ -1458,13 +1458,13 @@ bb1:                                              ; preds = %start
 
 ; core::mem::drop::<alloc::sync::Weak<std::sync::mutex::Mutex<alloc::vec::Vec<u8>>>>
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal void @_RINvNtCs3p84KrD9aKt_4core3mem4dropINtNtCs8RW06R9lH2S_5alloc4sync4WeakINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtBB_3vec3VechEEEECskT2QP9QPlNo_17mapped_stack_race(i64* nonnull %0) unnamed_addr #1 !dbg !1121 {
+define internal void @_RINvNtCs3p84KrD9aKt_4core3mem4dropINtNtCs8RW06R9lH2S_5alloc4sync4WeakINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtBB_3vec3VechEEEECsfnYCCstO0CH_18mapped_static_race(i64* nonnull %0) unnamed_addr #1 !dbg !1121 {
 start:
   %_x = alloca i64*, align 8
   store i64* %0, i64** %_x, align 8
   call void @llvm.dbg.declare(metadata i64** %_x, metadata !1128, metadata !DIExpression()), !dbg !1131
 ; call core::ptr::drop_in_place::<alloc::sync::Weak<std::sync::mutex::Mutex<alloc::vec::Vec<u8>>>>
-  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc4sync4WeakINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtBL_3vec3VechEEEECskT2QP9QPlNo_17mapped_stack_race(i64** %_x), !dbg !1132
+  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc4sync4WeakINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtBL_3vec3VechEEEECsfnYCCstO0CH_18mapped_static_race(i64** %_x), !dbg !1132
   br label %bb1, !dbg !1132
 
 bb1:                                              ; preds = %start
@@ -1473,13 +1473,13 @@ bb1:                                              ; preds = %start
 
 ; core::mem::drop::<alloc::sync::Weak<std::thread::Inner>>
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal void @_RINvNtCs3p84KrD9aKt_4core3mem4dropINtNtCs8RW06R9lH2S_5alloc4sync4WeakNtNtCs2bNvlddUlXM_3std6thread5InnerEECskT2QP9QPlNo_17mapped_stack_race(i64* nonnull %0) unnamed_addr #1 !dbg !1134 {
+define internal void @_RINvNtCs3p84KrD9aKt_4core3mem4dropINtNtCs8RW06R9lH2S_5alloc4sync4WeakNtNtCs2bNvlddUlXM_3std6thread5InnerEECsfnYCCstO0CH_18mapped_static_race(i64* nonnull %0) unnamed_addr #1 !dbg !1134 {
 start:
   %_x = alloca i64*, align 8
   store i64* %0, i64** %_x, align 8
   call void @llvm.dbg.declare(metadata i64** %_x, metadata !1141, metadata !DIExpression()), !dbg !1144
 ; call core::ptr::drop_in_place::<alloc::sync::Weak<std::thread::Inner>>
-  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc4sync4WeakNtNtCs2bNvlddUlXM_3std6thread5InnerEECskT2QP9QPlNo_17mapped_stack_race(i64** %_x), !dbg !1145
+  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc4sync4WeakNtNtCs2bNvlddUlXM_3std6thread5InnerEECsfnYCCstO0CH_18mapped_static_race(i64** %_x), !dbg !1145
   br label %bb1, !dbg !1145
 
 bb1:                                              ; preds = %start
@@ -1488,7 +1488,7 @@ bb1:                                              ; preds = %start
 
 ; core::ptr::drop_in_place::<dyn core::any::Any + core::marker::Send>
 ; Function Attrs: nonlazybind uwtable
-define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_ECskT2QP9QPlNo_17mapped_stack_race({}* %_1.0, [3 x i64]* noalias readonly align 8 dereferenceable(24) %_1.1) unnamed_addr #0 !dbg !1147 {
+define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_ECsfnYCCstO0CH_18mapped_static_race({}* %_1.0, [3 x i64]* noalias readonly align 8 dereferenceable(24) %_1.1) unnamed_addr #0 !dbg !1147 {
 start:
   %_1.dbg.spill = alloca { {}*, [3 x i64]* }, align 8
   %0 = alloca {}, align 1
@@ -1509,7 +1509,7 @@ bb1:                                              ; preds = %start
 
 ; core::ptr::drop_in_place::<dyn std::error::Error + core::marker::Send + core::marker::Sync>
 ; Function Attrs: nonlazybind uwtable
-define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeDNtNtCs2bNvlddUlXM_3std5error5ErrorNtNtB4_6marker4SendNtB1h_4SyncEL_ECskT2QP9QPlNo_17mapped_stack_race({}* %_1.0, [3 x i64]* noalias readonly align 8 dereferenceable(24) %_1.1) unnamed_addr #0 !dbg !1158 {
+define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeDNtNtCs2bNvlddUlXM_3std5error5ErrorNtNtB4_6marker4SendNtB1h_4SyncEL_ECsfnYCCstO0CH_18mapped_static_race({}* %_1.0, [3 x i64]* noalias readonly align 8 dereferenceable(24) %_1.1) unnamed_addr #0 !dbg !1158 {
 start:
   %_1.dbg.spill = alloca { {}*, [3 x i64]* }, align 8
   %0 = alloca {}, align 1
@@ -1530,7 +1530,7 @@ bb1:                                              ; preds = %start
 
 ; core::ptr::drop_in_place::<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>>
 ; Function Attrs: nonlazybind uwtable
-define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_4cell10UnsafeCellINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEEECskT2QP9QPlNo_17mapped_stack_race(%"std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>"* %_1) unnamed_addr #0 !dbg !1168 {
+define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_4cell10UnsafeCellINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEEECsfnYCCstO0CH_18mapped_static_race(%"std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>"* %_1) unnamed_addr #0 !dbg !1168 {
 start:
   %_1.dbg.spill = alloca %"std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>"*, align 8
   %0 = alloca {}, align 1
@@ -1538,7 +1538,7 @@ start:
   call void @llvm.dbg.declare(metadata %"std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>"** %_1.dbg.spill, metadata !1173, metadata !DIExpression()), !dbg !1174
   %1 = bitcast %"std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>"* %_1 to %"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"*, !dbg !1174
 ; call core::ptr::drop_in_place::<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>
-  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEECskT2QP9QPlNo_17mapped_stack_race(%"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"* %1), !dbg !1174
+  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEECsfnYCCstO0CH_18mapped_static_race(%"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"* %1), !dbg !1174
   br label %bb1, !dbg !1174
 
 bb1:                                              ; preds = %start
@@ -1547,7 +1547,7 @@ bb1:                                              ; preds = %start
 
 ; core::ptr::drop_in_place::<core::cell::UnsafeCell<alloc::vec::Vec<u8>>>
 ; Function Attrs: nonlazybind uwtable
-define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_4cell10UnsafeCellINtNtCs8RW06R9lH2S_5alloc3vec3VechEEECskT2QP9QPlNo_17mapped_stack_race(%"std::cell::UnsafeCell<std::vec::Vec<u8>>"* %_1) unnamed_addr #0 !dbg !1175 {
+define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_4cell10UnsafeCellINtNtCs8RW06R9lH2S_5alloc3vec3VechEEECsfnYCCstO0CH_18mapped_static_race(%"std::cell::UnsafeCell<std::vec::Vec<u8>>"* %_1) unnamed_addr #0 !dbg !1175 {
 start:
   %_1.dbg.spill = alloca %"std::cell::UnsafeCell<std::vec::Vec<u8>>"*, align 8
   %0 = alloca {}, align 1
@@ -1555,7 +1555,7 @@ start:
   call void @llvm.dbg.declare(metadata %"std::cell::UnsafeCell<std::vec::Vec<u8>>"** %_1.dbg.spill, metadata !1180, metadata !DIExpression()), !dbg !1183
   %1 = bitcast %"std::cell::UnsafeCell<std::vec::Vec<u8>>"* %_1 to %"std::vec::Vec<u8>"*, !dbg !1183
 ; call core::ptr::drop_in_place::<alloc::vec::Vec<u8>>
-  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc3vec3VechEECskT2QP9QPlNo_17mapped_stack_race(%"std::vec::Vec<u8>"* %1), !dbg !1183
+  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc3vec3VechEECsfnYCCstO0CH_18mapped_static_race(%"std::vec::Vec<u8>"* %1), !dbg !1183
   br label %bb1, !dbg !1183
 
 bb1:                                              ; preds = %start
@@ -1564,7 +1564,7 @@ bb1:                                              ; preds = %start
 
 ; core::ptr::drop_in_place::<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>
 ; Function Attrs: nonlazybind uwtable
-define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEECskT2QP9QPlNo_17mapped_stack_race(%"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"* %_1) unnamed_addr #0 !dbg !1184 {
+define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEECsfnYCCstO0CH_18mapped_static_race(%"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"* %_1) unnamed_addr #0 !dbg !1184 {
 start:
   %_1.dbg.spill = alloca %"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"*, align 8
   %0 = alloca {}, align 1
@@ -1582,13 +1582,13 @@ bb2:                                              ; preds = %start
   %3 = bitcast %"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"* %_1 to %"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>::Some"*, !dbg !1190
   %4 = getelementptr inbounds %"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>::Some", %"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>::Some"* %3, i32 0, i32 1, !dbg !1190
 ; call core::ptr::drop_in_place::<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>
-  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEECskT2QP9QPlNo_17mapped_stack_race({ i8*, i8* }* %4), !dbg !1190
+  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEECsfnYCCstO0CH_18mapped_static_race({ i8*, i8* }* %4), !dbg !1190
   br label %bb1, !dbg !1190
 }
 
 ; core::ptr::drop_in_place::<core::option::Option<alloc::sync::Arc<std::sync::mutex::Mutex<alloc::vec::Vec<u8>>>>>
 ; Function Attrs: nonlazybind uwtable
-define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_6option6OptionINtNtCs8RW06R9lH2S_5alloc4sync3ArcINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtB17_3vec3VechEEEEECskT2QP9QPlNo_17mapped_stack_race(i64** %_1) unnamed_addr #0 !dbg !1191 {
+define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_6option6OptionINtNtCs8RW06R9lH2S_5alloc4sync3ArcINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtB17_3vec3VechEEEEECsfnYCCstO0CH_18mapped_static_race(i64** %_1) unnamed_addr #0 !dbg !1191 {
 start:
   %_1.dbg.spill = alloca i64**, align 8
   %0 = alloca {}, align 1
@@ -1606,13 +1606,13 @@ bb1:                                              ; preds = %bb2, %start
 
 bb2:                                              ; preds = %start
 ; call core::ptr::drop_in_place::<alloc::sync::Arc<std::sync::mutex::Mutex<alloc::vec::Vec<u8>>>>
-  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc4sync3ArcINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtBL_3vec3VechEEEECskT2QP9QPlNo_17mapped_stack_race(i64** %_1), !dbg !1199
+  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc4sync3ArcINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtBL_3vec3VechEEEECsfnYCCstO0CH_18mapped_static_race(i64** %_1), !dbg !1199
   br label %bb1, !dbg !1199
 }
 
 ; core::ptr::drop_in_place::<core::option::Option<alloc::string::String>>
 ; Function Attrs: nonlazybind uwtable
-define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_6option6OptionNtNtCs8RW06R9lH2S_5alloc6string6StringEECskT2QP9QPlNo_17mapped_stack_race(%"std::option::Option<std::string::String>"* %_1) unnamed_addr #0 !dbg !1200 {
+define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_6option6OptionNtNtCs8RW06R9lH2S_5alloc6string6StringEECsfnYCCstO0CH_18mapped_static_race(%"std::option::Option<std::string::String>"* %_1) unnamed_addr #0 !dbg !1200 {
 start:
   %_1.dbg.spill = alloca %"std::option::Option<std::string::String>"*, align 8
   %0 = alloca {}, align 1
@@ -1632,13 +1632,13 @@ bb2:                                              ; preds = %start
   %5 = bitcast %"std::option::Option<std::string::String>"* %_1 to %"std::option::Option<std::string::String>::Some"*, !dbg !1208
   %6 = bitcast %"std::option::Option<std::string::String>::Some"* %5 to %"std::string::String"*, !dbg !1208
 ; call core::ptr::drop_in_place::<alloc::string::String>
-  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNtNtCs8RW06R9lH2S_5alloc6string6StringECskT2QP9QPlNo_17mapped_stack_race(%"std::string::String"* %6), !dbg !1208
+  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNtNtCs8RW06R9lH2S_5alloc6string6StringECsfnYCCstO0CH_18mapped_static_race(%"std::string::String"* %6), !dbg !1208
   br label %bb1, !dbg !1208
 }
 
 ; core::ptr::drop_in_place::<core::option::Option<std::ffi::c_str::CString>>
 ; Function Attrs: nonlazybind uwtable
-define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_6option6OptionNtNtNtCs2bNvlddUlXM_3std3ffi5c_str7CStringEECskT2QP9QPlNo_17mapped_stack_race({ i8*, i64 }* %_1) unnamed_addr #0 !dbg !1209 {
+define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_6option6OptionNtNtNtCs2bNvlddUlXM_3std3ffi5c_str7CStringEECsfnYCCstO0CH_18mapped_static_race({ i8*, i64 }* %_1) unnamed_addr #0 !dbg !1209 {
 start:
   %_1.dbg.spill = alloca { i8*, i64 }*, align 8
   %0 = alloca {}, align 1
@@ -1656,13 +1656,13 @@ bb1:                                              ; preds = %bb2, %start
 
 bb2:                                              ; preds = %start
 ; call core::ptr::drop_in_place::<std::ffi::c_str::CString>
-  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNtNtNtCs2bNvlddUlXM_3std3ffi5c_str7CStringECskT2QP9QPlNo_17mapped_stack_race({ i8*, i64 }* %_1), !dbg !1217
+  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNtNtNtCs2bNvlddUlXM_3std3ffi5c_str7CStringECsfnYCCstO0CH_18mapped_static_race({ i8*, i64 }* %_1), !dbg !1217
   br label %bb1, !dbg !1217
 }
 
 ; core::ptr::drop_in_place::<core::option::Option<std::sys::unix::thread::Thread>>
 ; Function Attrs: nonlazybind uwtable
-define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_6option6OptionNtNtNtNtCs2bNvlddUlXM_3std3sys4unix6thread6ThreadEECskT2QP9QPlNo_17mapped_stack_race({ i64, i64 }* %_1) unnamed_addr #0 !dbg !1218 {
+define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_6option6OptionNtNtNtNtCs2bNvlddUlXM_3std3sys4unix6thread6ThreadEECsfnYCCstO0CH_18mapped_static_race({ i64, i64 }* %_1) unnamed_addr #0 !dbg !1218 {
 start:
   %_1.dbg.spill = alloca { i64, i64 }*, align 8
   %0 = alloca {}, align 1
@@ -1680,13 +1680,13 @@ bb2:                                              ; preds = %start
   %3 = bitcast { i64, i64 }* %_1 to %"std::option::Option<std::sys::unix::thread::Thread>::Some"*, !dbg !1226
   %4 = getelementptr inbounds %"std::option::Option<std::sys::unix::thread::Thread>::Some", %"std::option::Option<std::sys::unix::thread::Thread>::Some"* %3, i32 0, i32 1, !dbg !1226
 ; call core::ptr::drop_in_place::<std::sys::unix::thread::Thread>
-  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNtNtNtNtCs2bNvlddUlXM_3std3sys4unix6thread6ThreadECskT2QP9QPlNo_17mapped_stack_race(i64* %4), !dbg !1226
+  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNtNtNtNtCs2bNvlddUlXM_3std3sys4unix6thread6ThreadECsfnYCCstO0CH_18mapped_static_race(i64* %4), !dbg !1226
   br label %bb1, !dbg !1226
 }
 
 ; core::ptr::drop_in_place::<core::result::Result<std::thread::JoinHandle<()>, std::io::error::Error>>
 ; Function Attrs: nonlazybind uwtable
-define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_6result6ResultINtNtCs2bNvlddUlXM_3std6thread10JoinHandleuENtNtNtB17_2io5error5ErrorEECskT2QP9QPlNo_17mapped_stack_race(%"std::result::Result<std::thread::JoinHandle<()>, std::io::Error>"* %_1) unnamed_addr #0 !dbg !1227 {
+define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_6result6ResultINtNtCs2bNvlddUlXM_3std6thread10JoinHandleuENtNtNtB17_2io5error5ErrorEECsfnYCCstO0CH_18mapped_static_race(%"std::result::Result<std::thread::JoinHandle<()>, std::io::Error>"* %_1) unnamed_addr #0 !dbg !1227 {
 start:
   %_1.dbg.spill = alloca %"std::result::Result<std::thread::JoinHandle<()>, std::io::Error>"*, align 8
   %0 = alloca {}, align 1
@@ -1704,20 +1704,20 @@ bb2:                                              ; preds = %start
   %3 = bitcast %"std::result::Result<std::thread::JoinHandle<()>, std::io::Error>"* %_1 to %"std::result::Result<std::thread::JoinHandle<()>, std::io::Error>::Ok"*, !dbg !1235
   %4 = getelementptr inbounds %"std::result::Result<std::thread::JoinHandle<()>, std::io::Error>::Ok", %"std::result::Result<std::thread::JoinHandle<()>, std::io::Error>::Ok"* %3, i32 0, i32 1, !dbg !1235
 ; call core::ptr::drop_in_place::<std::thread::JoinHandle<()>>
-  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs2bNvlddUlXM_3std6thread10JoinHandleuEECskT2QP9QPlNo_17mapped_stack_race(%"std::thread::JoinHandle<()>"* %4), !dbg !1235
+  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs2bNvlddUlXM_3std6thread10JoinHandleuEECsfnYCCstO0CH_18mapped_static_race(%"std::thread::JoinHandle<()>"* %4), !dbg !1235
   br label %bb1, !dbg !1235
 
 bb3:                                              ; preds = %start
   %5 = bitcast %"std::result::Result<std::thread::JoinHandle<()>, std::io::Error>"* %_1 to %"std::result::Result<std::thread::JoinHandle<()>, std::io::Error>::Err"*, !dbg !1235
   %6 = getelementptr inbounds %"std::result::Result<std::thread::JoinHandle<()>, std::io::Error>::Err", %"std::result::Result<std::thread::JoinHandle<()>, std::io::Error>::Err"* %5, i32 0, i32 1, !dbg !1235
 ; call core::ptr::drop_in_place::<std::io::error::Error>
-  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNtNtNtCs2bNvlddUlXM_3std2io5error5ErrorECskT2QP9QPlNo_17mapped_stack_race(%"std::io::Error"* %6), !dbg !1235
+  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNtNtNtCs2bNvlddUlXM_3std2io5error5ErrorECsfnYCCstO0CH_18mapped_static_race(%"std::io::Error"* %6), !dbg !1235
   br label %bb1, !dbg !1235
 }
 
 ; core::ptr::drop_in_place::<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>
 ; Function Attrs: nonlazybind uwtable
-define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEECskT2QP9QPlNo_17mapped_stack_race({ i8*, i8* }* %_1) unnamed_addr #0 !dbg !1236 {
+define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEECsfnYCCstO0CH_18mapped_static_race({ i8*, i8* }* %_1) unnamed_addr #0 !dbg !1236 {
 start:
   %_1.dbg.spill = alloca { i8*, i8* }*, align 8
   %0 = alloca {}, align 1
@@ -1736,13 +1736,13 @@ bb1:                                              ; preds = %bb2, %start
 bb2:                                              ; preds = %start
   %5 = bitcast { i8*, i8* }* %_1 to { {}*, [3 x i64]* }*, !dbg !1242
 ; call core::ptr::drop_in_place::<alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>
-  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EECskT2QP9QPlNo_17mapped_stack_race({ {}*, [3 x i64]* }* %5), !dbg !1242
+  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EECsfnYCCstO0CH_18mapped_static_race({ {}*, [3 x i64]* }* %5), !dbg !1242
   br label %bb1, !dbg !1242
 }
 
 ; core::ptr::drop_in_place::<std::thread::JoinHandle<()>>
 ; Function Attrs: nonlazybind uwtable
-define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs2bNvlddUlXM_3std6thread10JoinHandleuEECskT2QP9QPlNo_17mapped_stack_race(%"std::thread::JoinHandle<()>"* %_1) unnamed_addr #0 !dbg !1243 {
+define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs2bNvlddUlXM_3std6thread10JoinHandleuEECsfnYCCstO0CH_18mapped_static_race(%"std::thread::JoinHandle<()>"* %_1) unnamed_addr #0 !dbg !1243 {
 start:
   %_1.dbg.spill = alloca %"std::thread::JoinHandle<()>"*, align 8
   %0 = alloca {}, align 1
@@ -1750,7 +1750,7 @@ start:
   call void @llvm.dbg.declare(metadata %"std::thread::JoinHandle<()>"** %_1.dbg.spill, metadata !1248, metadata !DIExpression()), !dbg !1250
   %1 = bitcast %"std::thread::JoinHandle<()>"* %_1 to %"std::thread::JoinInner<()>"*, !dbg !1250
 ; call core::ptr::drop_in_place::<std::thread::JoinInner<()>>
-  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs2bNvlddUlXM_3std6thread9JoinInneruEECskT2QP9QPlNo_17mapped_stack_race(%"std::thread::JoinInner<()>"* %1), !dbg !1250
+  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs2bNvlddUlXM_3std6thread9JoinInneruEECsfnYCCstO0CH_18mapped_static_race(%"std::thread::JoinInner<()>"* %1), !dbg !1250
   br label %bb1, !dbg !1250
 
 bb1:                                              ; preds = %start
@@ -1759,14 +1759,14 @@ bb1:                                              ; preds = %start
 
 ; core::ptr::drop_in_place::<std::thread::Packet<()>>
 ; Function Attrs: nonlazybind uwtable
-define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs2bNvlddUlXM_3std6thread6PacketuEECskT2QP9QPlNo_17mapped_stack_race(i64** %_1) unnamed_addr #0 !dbg !1251 {
+define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs2bNvlddUlXM_3std6thread6PacketuEECsfnYCCstO0CH_18mapped_static_race(i64** %_1) unnamed_addr #0 !dbg !1251 {
 start:
   %_1.dbg.spill = alloca i64**, align 8
   %0 = alloca {}, align 1
   store i64** %_1, i64*** %_1.dbg.spill, align 8
   call void @llvm.dbg.declare(metadata i64*** %_1.dbg.spill, metadata !1256, metadata !DIExpression()), !dbg !1259
 ; call core::ptr::drop_in_place::<alloc::sync::Arc<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>>>
-  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc4sync3ArcINtNtB4_4cell10UnsafeCellINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtBL_5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEEEECskT2QP9QPlNo_17mapped_stack_race(i64** %_1), !dbg !1259
+  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc4sync3ArcINtNtB4_4cell10UnsafeCellINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtBL_5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEEEECsfnYCCstO0CH_18mapped_static_race(i64** %_1), !dbg !1259
   br label %bb1, !dbg !1259
 
 bb1:                                              ; preds = %start
@@ -1775,7 +1775,7 @@ bb1:                                              ; preds = %start
 
 ; core::ptr::drop_in_place::<std::thread::JoinInner<()>>
 ; Function Attrs: nonlazybind uwtable
-define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs2bNvlddUlXM_3std6thread9JoinInneruEECskT2QP9QPlNo_17mapped_stack_race(%"std::thread::JoinInner<()>"* %_1) unnamed_addr #0 personality i32 (i32, i32, i64, %"unwind::libunwind::_Unwind_Exception"*, %"unwind::libunwind::_Unwind_Context"*)* @rust_eh_personality !dbg !1260 {
+define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs2bNvlddUlXM_3std6thread9JoinInneruEECsfnYCCstO0CH_18mapped_static_race(%"std::thread::JoinInner<()>"* %_1) unnamed_addr #0 personality i32 (i32, i32, i64, %"unwind::libunwind::_Unwind_Exception"*, %"unwind::libunwind::_Unwind_Context"*)* @rust_eh_personality !dbg !1260 {
 start:
   %0 = alloca { i8*, i32 }, align 8
   %_1.dbg.spill = alloca %"std::thread::JoinInner<()>"*, align 8
@@ -1784,7 +1784,7 @@ start:
   call void @llvm.dbg.declare(metadata %"std::thread::JoinInner<()>"** %_1.dbg.spill, metadata !1265, metadata !DIExpression()), !dbg !1268
   %2 = bitcast %"std::thread::JoinInner<()>"* %_1 to { i64, i64 }*, !dbg !1268
 ; invoke core::ptr::drop_in_place::<core::option::Option<std::sys::unix::thread::Thread>>
-  invoke void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_6option6OptionNtNtNtNtCs2bNvlddUlXM_3std3sys4unix6thread6ThreadEECskT2QP9QPlNo_17mapped_stack_race({ i64, i64 }* %2)
+  invoke void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_6option6OptionNtNtNtNtCs2bNvlddUlXM_3std3sys4unix6thread6ThreadEECsfnYCCstO0CH_18mapped_static_race({ i64, i64 }* %2)
           to label %bb6 unwind label %cleanup, !dbg !1268
 
 bb1:                                              ; preds = %bb3
@@ -1802,25 +1802,25 @@ bb2:                                              ; preds = %bb5
 bb3:                                              ; preds = %cleanup1, %bb4
   %9 = getelementptr inbounds %"std::thread::JoinInner<()>", %"std::thread::JoinInner<()>"* %_1, i32 0, i32 5, !dbg !1268
 ; call core::ptr::drop_in_place::<std::thread::Packet<()>>
-  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs2bNvlddUlXM_3std6thread6PacketuEECskT2QP9QPlNo_17mapped_stack_race(i64** %9) #12, !dbg !1268
+  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs2bNvlddUlXM_3std6thread6PacketuEECsfnYCCstO0CH_18mapped_static_race(i64** %9) #12, !dbg !1268
   br label %bb1, !dbg !1268
 
 bb4:                                              ; preds = %cleanup
   %10 = getelementptr inbounds %"std::thread::JoinInner<()>", %"std::thread::JoinInner<()>"* %_1, i32 0, i32 3, !dbg !1268
 ; call core::ptr::drop_in_place::<std::thread::Thread>
-  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNtNtCs2bNvlddUlXM_3std6thread6ThreadECskT2QP9QPlNo_17mapped_stack_race(i64** %10) #12, !dbg !1268
+  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNtNtCs2bNvlddUlXM_3std6thread6ThreadECsfnYCCstO0CH_18mapped_static_race(i64** %10) #12, !dbg !1268
   br label %bb3, !dbg !1268
 
 bb5:                                              ; preds = %bb6
   %11 = getelementptr inbounds %"std::thread::JoinInner<()>", %"std::thread::JoinInner<()>"* %_1, i32 0, i32 5, !dbg !1268
 ; call core::ptr::drop_in_place::<std::thread::Packet<()>>
-  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs2bNvlddUlXM_3std6thread6PacketuEECskT2QP9QPlNo_17mapped_stack_race(i64** %11), !dbg !1268
+  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs2bNvlddUlXM_3std6thread6PacketuEECsfnYCCstO0CH_18mapped_static_race(i64** %11), !dbg !1268
   br label %bb2, !dbg !1268
 
 bb6:                                              ; preds = %start
   %12 = getelementptr inbounds %"std::thread::JoinInner<()>", %"std::thread::JoinInner<()>"* %_1, i32 0, i32 3, !dbg !1268
 ; invoke core::ptr::drop_in_place::<std::thread::Thread>
-  invoke void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNtNtCs2bNvlddUlXM_3std6thread6ThreadECskT2QP9QPlNo_17mapped_stack_race(i64** %12)
+  invoke void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNtNtCs2bNvlddUlXM_3std6thread6ThreadECsfnYCCstO0CH_18mapped_static_race(i64** %12)
           to label %bb5 unwind label %cleanup1, !dbg !1268
 
 cleanup:                                          ; preds = %start
@@ -1848,7 +1848,7 @@ cleanup1:                                         ; preds = %bb6
 
 ; core::ptr::drop_in_place::<alloc::vec::Vec<u8>>
 ; Function Attrs: nonlazybind uwtable
-define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc3vec3VechEECskT2QP9QPlNo_17mapped_stack_race(%"std::vec::Vec<u8>"* %_1) unnamed_addr #0 personality i32 (i32, i32, i64, %"unwind::libunwind::_Unwind_Exception"*, %"unwind::libunwind::_Unwind_Context"*)* @rust_eh_personality !dbg !1269 {
+define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc3vec3VechEECsfnYCCstO0CH_18mapped_static_race(%"std::vec::Vec<u8>"* %_1) unnamed_addr #0 personality i32 (i32, i32, i64, %"unwind::libunwind::_Unwind_Exception"*, %"unwind::libunwind::_Unwind_Context"*)* @rust_eh_personality !dbg !1269 {
 start:
   %0 = alloca { i8*, i32 }, align 8
   %_1.dbg.spill = alloca %"std::vec::Vec<u8>"*, align 8
@@ -1856,7 +1856,7 @@ start:
   store %"std::vec::Vec<u8>"* %_1, %"std::vec::Vec<u8>"** %_1.dbg.spill, align 8
   call void @llvm.dbg.declare(metadata %"std::vec::Vec<u8>"** %_1.dbg.spill, metadata !1274, metadata !DIExpression()), !dbg !1275
 ; invoke <alloc::vec::Vec<u8> as core::ops::drop::Drop>::drop
-  invoke void @_RNvXsm_NtCs8RW06R9lH2S_5alloc3vecINtB5_3VechENtNtNtCs3p84KrD9aKt_4core3ops4drop4Drop4dropCskT2QP9QPlNo_17mapped_stack_race(%"std::vec::Vec<u8>"* align 8 dereferenceable(24) %_1)
+  invoke void @_RNvXsm_NtCs8RW06R9lH2S_5alloc3vecINtB5_3VechENtNtNtCs3p84KrD9aKt_4core3ops4drop4Drop4dropCsfnYCCstO0CH_18mapped_static_race(%"std::vec::Vec<u8>"* align 8 dereferenceable(24) %_1)
           to label %bb4 unwind label %cleanup, !dbg !1275
 
 bb1:                                              ; preds = %bb3
@@ -1874,13 +1874,13 @@ bb2:                                              ; preds = %bb4
 bb3:                                              ; preds = %cleanup
   %8 = bitcast %"std::vec::Vec<u8>"* %_1 to { i8*, i64 }*, !dbg !1275
 ; call core::ptr::drop_in_place::<alloc::raw_vec::RawVec<u8>>
-  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc7raw_vec6RawVechEECskT2QP9QPlNo_17mapped_stack_race({ i8*, i64 }* %8) #12, !dbg !1275
+  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc7raw_vec6RawVechEECsfnYCCstO0CH_18mapped_static_race({ i8*, i64 }* %8) #12, !dbg !1275
   br label %bb1, !dbg !1275
 
 bb4:                                              ; preds = %start
   %9 = bitcast %"std::vec::Vec<u8>"* %_1 to { i8*, i64 }*, !dbg !1275
 ; call core::ptr::drop_in_place::<alloc::raw_vec::RawVec<u8>>
-  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc7raw_vec6RawVechEECskT2QP9QPlNo_17mapped_stack_race({ i8*, i64 }* %9), !dbg !1275
+  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc7raw_vec6RawVechEECsfnYCCstO0CH_18mapped_static_race({ i8*, i64 }* %9), !dbg !1275
   br label %bb2, !dbg !1275
 
 cleanup:                                          ; preds = %start
@@ -1897,14 +1897,14 @@ cleanup:                                          ; preds = %start
 
 ; core::ptr::drop_in_place::<alloc::sync::Arc<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>>>
 ; Function Attrs: nonlazybind uwtable
-define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc4sync3ArcINtNtB4_4cell10UnsafeCellINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtBL_5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEEEECskT2QP9QPlNo_17mapped_stack_race(i64** %_1) unnamed_addr #0 !dbg !1276 {
+define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc4sync3ArcINtNtB4_4cell10UnsafeCellINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtBL_5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEEEECsfnYCCstO0CH_18mapped_static_race(i64** %_1) unnamed_addr #0 !dbg !1276 {
 start:
   %_1.dbg.spill = alloca i64**, align 8
   %0 = alloca {}, align 1
   store i64** %_1, i64*** %_1.dbg.spill, align 8
   call void @llvm.dbg.declare(metadata i64*** %_1.dbg.spill, metadata !1281, metadata !DIExpression()), !dbg !1284
 ; call <alloc::sync::Arc<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>> as core::ops::drop::Drop>::drop
-  call void @_RNvXsp_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtBL_6option6OptionINtNtBL_6result6ResultuINtNtB7_5boxed3BoxDNtNtBL_3any3AnyNtNtBL_6marker4SendEL_EEEEENtNtNtBL_3ops4drop4Drop4dropCskT2QP9QPlNo_17mapped_stack_race(i64** align 8 dereferenceable(8) %_1), !dbg !1284
+  call void @_RNvXsp_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtBL_6option6OptionINtNtBL_6result6ResultuINtNtB7_5boxed3BoxDNtNtBL_3any3AnyNtNtBL_6marker4SendEL_EEEEENtNtNtBL_3ops4drop4Drop4dropCsfnYCCstO0CH_18mapped_static_race(i64** align 8 dereferenceable(8) %_1), !dbg !1284
   br label %bb1, !dbg !1284
 
 bb1:                                              ; preds = %start
@@ -1913,14 +1913,14 @@ bb1:                                              ; preds = %start
 
 ; core::ptr::drop_in_place::<alloc::sync::Arc<std::sync::mutex::Mutex<alloc::vec::Vec<u8>>>>
 ; Function Attrs: nonlazybind uwtable
-define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc4sync3ArcINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtBL_3vec3VechEEEECskT2QP9QPlNo_17mapped_stack_race(i64** %_1) unnamed_addr #0 !dbg !1285 {
+define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc4sync3ArcINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtBL_3vec3VechEEEECsfnYCCstO0CH_18mapped_static_race(i64** %_1) unnamed_addr #0 !dbg !1285 {
 start:
   %_1.dbg.spill = alloca i64**, align 8
   %0 = alloca {}, align 1
   store i64** %_1, i64*** %_1.dbg.spill, align 8
   call void @llvm.dbg.declare(metadata i64*** %_1.dbg.spill, metadata !1290, metadata !DIExpression()), !dbg !1291
 ; call <alloc::sync::Arc<std::sync::mutex::Mutex<alloc::vec::Vec<u8>>> as core::ops::drop::Drop>::drop
-  call void @_RNvXsp_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtB7_3vec3VechEEENtNtNtCs3p84KrD9aKt_4core3ops4drop4Drop4dropCskT2QP9QPlNo_17mapped_stack_race(i64** align 8 dereferenceable(8) %_1), !dbg !1291
+  call void @_RNvXsp_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtB7_3vec3VechEEENtNtNtCs3p84KrD9aKt_4core3ops4drop4Drop4dropCsfnYCCstO0CH_18mapped_static_race(i64** align 8 dereferenceable(8) %_1), !dbg !1291
   br label %bb1, !dbg !1291
 
 bb1:                                              ; preds = %start
@@ -1929,14 +1929,14 @@ bb1:                                              ; preds = %start
 
 ; core::ptr::drop_in_place::<alloc::sync::Arc<std::thread::Inner>>
 ; Function Attrs: nonlazybind uwtable
-define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc4sync3ArcNtNtCs2bNvlddUlXM_3std6thread5InnerEECskT2QP9QPlNo_17mapped_stack_race(i64** %_1) unnamed_addr #0 !dbg !1292 {
+define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc4sync3ArcNtNtCs2bNvlddUlXM_3std6thread5InnerEECsfnYCCstO0CH_18mapped_static_race(i64** %_1) unnamed_addr #0 !dbg !1292 {
 start:
   %_1.dbg.spill = alloca i64**, align 8
   %0 = alloca {}, align 1
   store i64** %_1, i64*** %_1.dbg.spill, align 8
   call void @llvm.dbg.declare(metadata i64*** %_1.dbg.spill, metadata !1297, metadata !DIExpression()), !dbg !1300
 ; call <alloc::sync::Arc<std::thread::Inner> as core::ops::drop::Drop>::drop
-  call void @_RNvXsp_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcNtNtCs2bNvlddUlXM_3std6thread5InnerENtNtNtCs3p84KrD9aKt_4core3ops4drop4Drop4dropCskT2QP9QPlNo_17mapped_stack_race(i64** align 8 dereferenceable(8) %_1), !dbg !1300
+  call void @_RNvXsp_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcNtNtCs2bNvlddUlXM_3std6thread5InnerENtNtNtCs3p84KrD9aKt_4core3ops4drop4Drop4dropCsfnYCCstO0CH_18mapped_static_race(i64** align 8 dereferenceable(8) %_1), !dbg !1300
   br label %bb1, !dbg !1300
 
 bb1:                                              ; preds = %start
@@ -1945,14 +1945,14 @@ bb1:                                              ; preds = %start
 
 ; core::ptr::drop_in_place::<alloc::sync::Weak<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>>>
 ; Function Attrs: nonlazybind uwtable
-define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc4sync4WeakINtNtB4_4cell10UnsafeCellINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtBL_5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEEEECskT2QP9QPlNo_17mapped_stack_race(i64** %_1) unnamed_addr #0 !dbg !1301 {
+define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc4sync4WeakINtNtB4_4cell10UnsafeCellINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtBL_5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEEEECsfnYCCstO0CH_18mapped_static_race(i64** %_1) unnamed_addr #0 !dbg !1301 {
 start:
   %_1.dbg.spill = alloca i64**, align 8
   %0 = alloca {}, align 1
   store i64** %_1, i64*** %_1.dbg.spill, align 8
   call void @llvm.dbg.declare(metadata i64*** %_1.dbg.spill, metadata !1306, metadata !DIExpression()), !dbg !1307
 ; call <alloc::sync::Weak<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>> as core::ops::drop::Drop>::drop
-  call void @_RNvXsw_NtCs8RW06R9lH2S_5alloc4syncINtB5_4WeakINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtBM_6option6OptionINtNtBM_6result6ResultuINtNtB7_5boxed3BoxDNtNtBM_3any3AnyNtNtBM_6marker4SendEL_EEEEENtNtNtBM_3ops4drop4Drop4dropCskT2QP9QPlNo_17mapped_stack_race(i64** align 8 dereferenceable(8) %_1), !dbg !1307
+  call void @_RNvXsw_NtCs8RW06R9lH2S_5alloc4syncINtB5_4WeakINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtBM_6option6OptionINtNtBM_6result6ResultuINtNtB7_5boxed3BoxDNtNtBM_3any3AnyNtNtBM_6marker4SendEL_EEEEENtNtNtBM_3ops4drop4Drop4dropCsfnYCCstO0CH_18mapped_static_race(i64** align 8 dereferenceable(8) %_1), !dbg !1307
   br label %bb1, !dbg !1307
 
 bb1:                                              ; preds = %start
@@ -1961,14 +1961,14 @@ bb1:                                              ; preds = %start
 
 ; core::ptr::drop_in_place::<alloc::sync::Weak<std::sync::mutex::Mutex<alloc::vec::Vec<u8>>>>
 ; Function Attrs: nonlazybind uwtable
-define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc4sync4WeakINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtBL_3vec3VechEEEECskT2QP9QPlNo_17mapped_stack_race(i64** %_1) unnamed_addr #0 !dbg !1308 {
+define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc4sync4WeakINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtBL_3vec3VechEEEECsfnYCCstO0CH_18mapped_static_race(i64** %_1) unnamed_addr #0 !dbg !1308 {
 start:
   %_1.dbg.spill = alloca i64**, align 8
   %0 = alloca {}, align 1
   store i64** %_1, i64*** %_1.dbg.spill, align 8
   call void @llvm.dbg.declare(metadata i64*** %_1.dbg.spill, metadata !1313, metadata !DIExpression()), !dbg !1314
 ; call <alloc::sync::Weak<std::sync::mutex::Mutex<alloc::vec::Vec<u8>>> as core::ops::drop::Drop>::drop
-  call void @_RNvXsw_NtCs8RW06R9lH2S_5alloc4syncINtB5_4WeakINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtB7_3vec3VechEEENtNtNtCs3p84KrD9aKt_4core3ops4drop4Drop4dropCskT2QP9QPlNo_17mapped_stack_race(i64** align 8 dereferenceable(8) %_1), !dbg !1314
+  call void @_RNvXsw_NtCs8RW06R9lH2S_5alloc4syncINtB5_4WeakINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtB7_3vec3VechEEENtNtNtCs3p84KrD9aKt_4core3ops4drop4Drop4dropCsfnYCCstO0CH_18mapped_static_race(i64** align 8 dereferenceable(8) %_1), !dbg !1314
   br label %bb1, !dbg !1314
 
 bb1:                                              ; preds = %start
@@ -1977,14 +1977,14 @@ bb1:                                              ; preds = %start
 
 ; core::ptr::drop_in_place::<alloc::sync::Weak<std::thread::Inner>>
 ; Function Attrs: nonlazybind uwtable
-define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc4sync4WeakNtNtCs2bNvlddUlXM_3std6thread5InnerEECskT2QP9QPlNo_17mapped_stack_race(i64** %_1) unnamed_addr #0 !dbg !1315 {
+define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc4sync4WeakNtNtCs2bNvlddUlXM_3std6thread5InnerEECsfnYCCstO0CH_18mapped_static_race(i64** %_1) unnamed_addr #0 !dbg !1315 {
 start:
   %_1.dbg.spill = alloca i64**, align 8
   %0 = alloca {}, align 1
   store i64** %_1, i64*** %_1.dbg.spill, align 8
   call void @llvm.dbg.declare(metadata i64*** %_1.dbg.spill, metadata !1320, metadata !DIExpression()), !dbg !1321
 ; call <alloc::sync::Weak<std::thread::Inner> as core::ops::drop::Drop>::drop
-  call void @_RNvXsw_NtCs8RW06R9lH2S_5alloc4syncINtB5_4WeakNtNtCs2bNvlddUlXM_3std6thread5InnerENtNtNtCs3p84KrD9aKt_4core3ops4drop4Drop4dropCskT2QP9QPlNo_17mapped_stack_race(i64** align 8 dereferenceable(8) %_1), !dbg !1321
+  call void @_RNvXsw_NtCs8RW06R9lH2S_5alloc4syncINtB5_4WeakNtNtCs2bNvlddUlXM_3std6thread5InnerENtNtNtCs3p84KrD9aKt_4core3ops4drop4Drop4dropCsfnYCCstO0CH_18mapped_static_race(i64** align 8 dereferenceable(8) %_1), !dbg !1321
   br label %bb1, !dbg !1321
 
 bb1:                                              ; preds = %start
@@ -1993,7 +1993,7 @@ bb1:                                              ; preds = %start
 
 ; core::ptr::drop_in_place::<alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>
 ; Function Attrs: nonlazybind uwtable
-define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EECskT2QP9QPlNo_17mapped_stack_race({ {}*, [3 x i64]* }* %_1) unnamed_addr #0 personality i32 (i32, i32, i64, %"unwind::libunwind::_Unwind_Exception"*, %"unwind::libunwind::_Unwind_Context"*)* @rust_eh_personality !dbg !1322 {
+define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EECsfnYCCstO0CH_18mapped_static_race({ {}*, [3 x i64]* }* %_1) unnamed_addr #0 personality i32 (i32, i32, i64, %"unwind::libunwind::_Unwind_Exception"*, %"unwind::libunwind::_Unwind_Context"*)* @rust_eh_personality !dbg !1322 {
 start:
   %0 = alloca { i8*, i32 }, align 8
   %_1.dbg.spill = alloca { {}*, [3 x i64]* }*, align 8
@@ -2029,7 +2029,7 @@ bb3:                                              ; preds = %start
   %18 = getelementptr inbounds { i8*, i64* }, { i8*, i64* }* %15, i32 0, i32 1, !dbg !1328
   %19 = load i64*, i64** %18, align 8, !dbg !1328, !nonnull !4
 ; call alloc::alloc::box_free::<dyn core::any::Any + core::marker::Send, alloc::alloc::Global>
-  call void @_RINvNtCs8RW06R9lH2S_5alloc5alloc8box_freeDNtNtCs3p84KrD9aKt_4core3any3AnyNtNtBI_6marker4SendEL_NtB2_6GlobalECskT2QP9QPlNo_17mapped_stack_race(i8* nonnull %17, i64* noalias readonly align 8 dereferenceable(24) %19), !dbg !1328
+  call void @_RINvNtCs8RW06R9lH2S_5alloc5alloc8box_freeDNtNtCs3p84KrD9aKt_4core3any3AnyNtNtBI_6marker4SendEL_NtB2_6GlobalECsfnYCCstO0CH_18mapped_static_race(i8* nonnull %17, i64* noalias readonly align 8 dereferenceable(24) %19), !dbg !1328
   br label %bb1, !dbg !1328
 
 bb4:                                              ; preds = %cleanup
@@ -2039,7 +2039,7 @@ bb4:                                              ; preds = %cleanup
   %23 = getelementptr inbounds { i8*, i64* }, { i8*, i64* }* %20, i32 0, i32 1, !dbg !1328
   %24 = load i64*, i64** %23, align 8, !dbg !1328, !nonnull !4
 ; call alloc::alloc::box_free::<dyn core::any::Any + core::marker::Send, alloc::alloc::Global>
-  call void @_RINvNtCs8RW06R9lH2S_5alloc5alloc8box_freeDNtNtCs3p84KrD9aKt_4core3any3AnyNtNtBI_6marker4SendEL_NtB2_6GlobalECskT2QP9QPlNo_17mapped_stack_race(i8* nonnull %22, i64* noalias readonly align 8 dereferenceable(24) %24) #12, !dbg !1328
+  call void @_RINvNtCs8RW06R9lH2S_5alloc5alloc8box_freeDNtNtCs3p84KrD9aKt_4core3any3AnyNtNtBI_6marker4SendEL_NtB2_6GlobalECsfnYCCstO0CH_18mapped_static_race(i8* nonnull %22, i64* noalias readonly align 8 dereferenceable(24) %24) #12, !dbg !1328
   br label %bb2, !dbg !1328
 
 cleanup:                                          ; preds = %start
@@ -2056,7 +2056,7 @@ cleanup:                                          ; preds = %start
 
 ; core::ptr::drop_in_place::<alloc::boxed::Box<dyn std::error::Error + core::marker::Send + core::marker::Sync>>
 ; Function Attrs: nonlazybind uwtable
-define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtCs2bNvlddUlXM_3std5error5ErrorNtNtB4_6marker4SendNtB1Q_4SyncEL_EECskT2QP9QPlNo_17mapped_stack_race({ {}*, [3 x i64]* }* %_1) unnamed_addr #0 personality i32 (i32, i32, i64, %"unwind::libunwind::_Unwind_Exception"*, %"unwind::libunwind::_Unwind_Context"*)* @rust_eh_personality !dbg !1329 {
+define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtCs2bNvlddUlXM_3std5error5ErrorNtNtB4_6marker4SendNtB1Q_4SyncEL_EECsfnYCCstO0CH_18mapped_static_race({ {}*, [3 x i64]* }* %_1) unnamed_addr #0 personality i32 (i32, i32, i64, %"unwind::libunwind::_Unwind_Exception"*, %"unwind::libunwind::_Unwind_Context"*)* @rust_eh_personality !dbg !1329 {
 start:
   %0 = alloca { i8*, i32 }, align 8
   %_1.dbg.spill = alloca { {}*, [3 x i64]* }*, align 8
@@ -2092,7 +2092,7 @@ bb3:                                              ; preds = %start
   %18 = getelementptr inbounds { i8*, i64* }, { i8*, i64* }* %15, i32 0, i32 1, !dbg !1337
   %19 = load i64*, i64** %18, align 8, !dbg !1337, !nonnull !4
 ; call alloc::alloc::box_free::<dyn std::error::Error + core::marker::Send + core::marker::Sync, alloc::alloc::Global>
-  call void @_RINvNtCs8RW06R9lH2S_5alloc5alloc8box_freeDNtNtCs2bNvlddUlXM_3std5error5ErrorNtNtCs3p84KrD9aKt_4core6marker4SendNtB1e_4SyncEL_NtB2_6GlobalECskT2QP9QPlNo_17mapped_stack_race(i8* nonnull %17, i64* noalias readonly align 8 dereferenceable(24) %19), !dbg !1337
+  call void @_RINvNtCs8RW06R9lH2S_5alloc5alloc8box_freeDNtNtCs2bNvlddUlXM_3std5error5ErrorNtNtCs3p84KrD9aKt_4core6marker4SendNtB1e_4SyncEL_NtB2_6GlobalECsfnYCCstO0CH_18mapped_static_race(i8* nonnull %17, i64* noalias readonly align 8 dereferenceable(24) %19), !dbg !1337
   br label %bb1, !dbg !1337
 
 bb4:                                              ; preds = %cleanup
@@ -2102,7 +2102,7 @@ bb4:                                              ; preds = %cleanup
   %23 = getelementptr inbounds { i8*, i64* }, { i8*, i64* }* %20, i32 0, i32 1, !dbg !1337
   %24 = load i64*, i64** %23, align 8, !dbg !1337, !nonnull !4
 ; call alloc::alloc::box_free::<dyn std::error::Error + core::marker::Send + core::marker::Sync, alloc::alloc::Global>
-  call void @_RINvNtCs8RW06R9lH2S_5alloc5alloc8box_freeDNtNtCs2bNvlddUlXM_3std5error5ErrorNtNtCs3p84KrD9aKt_4core6marker4SendNtB1e_4SyncEL_NtB2_6GlobalECskT2QP9QPlNo_17mapped_stack_race(i8* nonnull %22, i64* noalias readonly align 8 dereferenceable(24) %24) #12, !dbg !1337
+  call void @_RINvNtCs8RW06R9lH2S_5alloc5alloc8box_freeDNtNtCs2bNvlddUlXM_3std5error5ErrorNtNtCs3p84KrD9aKt_4core6marker4SendNtB1e_4SyncEL_NtB2_6GlobalECsfnYCCstO0CH_18mapped_static_race(i8* nonnull %22, i64* noalias readonly align 8 dereferenceable(24) %24) #12, !dbg !1337
   br label %bb2, !dbg !1337
 
 cleanup:                                          ; preds = %start
@@ -2119,7 +2119,7 @@ cleanup:                                          ; preds = %start
 
 ; core::ptr::drop_in_place::<alloc::boxed::Box<std::io::error::Custom>>
 ; Function Attrs: nonlazybind uwtable
-define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc5boxed3BoxNtNtNtCs2bNvlddUlXM_3std2io5error6CustomEECskT2QP9QPlNo_17mapped_stack_race(%"std::io::error::Custom"** %_1) unnamed_addr #0 personality i32 (i32, i32, i64, %"unwind::libunwind::_Unwind_Exception"*, %"unwind::libunwind::_Unwind_Context"*)* @rust_eh_personality !dbg !1338 {
+define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc5boxed3BoxNtNtNtCs2bNvlddUlXM_3std2io5error6CustomEECsfnYCCstO0CH_18mapped_static_race(%"std::io::error::Custom"** %_1) unnamed_addr #0 personality i32 (i32, i32, i64, %"unwind::libunwind::_Unwind_Exception"*, %"unwind::libunwind::_Unwind_Context"*)* @rust_eh_personality !dbg !1338 {
 start:
   %0 = alloca { i8*, i32 }, align 8
   %_1.dbg.spill = alloca %"std::io::error::Custom"**, align 8
@@ -2128,7 +2128,7 @@ start:
   call void @llvm.dbg.declare(metadata %"std::io::error::Custom"*** %_1.dbg.spill, metadata !1343, metadata !DIExpression()), !dbg !1346
   %2 = load %"std::io::error::Custom"*, %"std::io::error::Custom"** %_1, align 8, !dbg !1346, !nonnull !4
 ; invoke core::ptr::drop_in_place::<std::io::error::Custom>
-  invoke void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNtNtNtCs2bNvlddUlXM_3std2io5error6CustomECskT2QP9QPlNo_17mapped_stack_race(%"std::io::error::Custom"* %2)
+  invoke void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNtNtNtCs2bNvlddUlXM_3std2io5error6CustomECsfnYCCstO0CH_18mapped_static_race(%"std::io::error::Custom"* %2)
           to label %bb3 unwind label %cleanup, !dbg !1346
 
 bb1:                                              ; preds = %bb3
@@ -2147,14 +2147,14 @@ bb3:                                              ; preds = %start
   %9 = bitcast %"std::io::error::Custom"** %_1 to i64**, !dbg !1346
   %10 = load i64*, i64** %9, align 8, !dbg !1346, !nonnull !4
 ; call alloc::alloc::box_free::<std::io::error::Custom, alloc::alloc::Global>
-  call void @_RINvNtCs8RW06R9lH2S_5alloc5alloc8box_freeNtNtNtCs2bNvlddUlXM_3std2io5error6CustomNtB2_6GlobalECskT2QP9QPlNo_17mapped_stack_race(i64* nonnull %10), !dbg !1346
+  call void @_RINvNtCs8RW06R9lH2S_5alloc5alloc8box_freeNtNtNtCs2bNvlddUlXM_3std2io5error6CustomNtB2_6GlobalECsfnYCCstO0CH_18mapped_static_race(i64* nonnull %10), !dbg !1346
   br label %bb1, !dbg !1346
 
 bb4:                                              ; preds = %cleanup
   %11 = bitcast %"std::io::error::Custom"** %_1 to i64**, !dbg !1346
   %12 = load i64*, i64** %11, align 8, !dbg !1346, !nonnull !4
 ; call alloc::alloc::box_free::<std::io::error::Custom, alloc::alloc::Global>
-  call void @_RINvNtCs8RW06R9lH2S_5alloc5alloc8box_freeNtNtNtCs2bNvlddUlXM_3std2io5error6CustomNtB2_6GlobalECskT2QP9QPlNo_17mapped_stack_race(i64* nonnull %12) #12, !dbg !1346
+  call void @_RINvNtCs8RW06R9lH2S_5alloc5alloc8box_freeNtNtNtCs2bNvlddUlXM_3std2io5error6CustomNtB2_6GlobalECsfnYCCstO0CH_18mapped_static_race(i64* nonnull %12) #12, !dbg !1346
   br label %bb2, !dbg !1346
 
 cleanup:                                          ; preds = %start
@@ -2171,7 +2171,7 @@ cleanup:                                          ; preds = %start
 
 ; core::ptr::drop_in_place::<alloc::boxed::Box<std::sys::unix::mutex::Mutex>>
 ; Function Attrs: nonlazybind uwtable
-define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc5boxed3BoxNtNtNtNtCs2bNvlddUlXM_3std3sys4unix5mutex5MutexEECskT2QP9QPlNo_17mapped_stack_race(%"std::sys::unix::mutex::Mutex"** %_1) unnamed_addr #0 personality i32 (i32, i32, i64, %"unwind::libunwind::_Unwind_Exception"*, %"unwind::libunwind::_Unwind_Context"*)* @rust_eh_personality !dbg !1347 {
+define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc5boxed3BoxNtNtNtNtCs2bNvlddUlXM_3std3sys4unix5mutex5MutexEECsfnYCCstO0CH_18mapped_static_race(%"std::sys::unix::mutex::Mutex"** %_1) unnamed_addr #0 personality i32 (i32, i32, i64, %"unwind::libunwind::_Unwind_Exception"*, %"unwind::libunwind::_Unwind_Context"*)* @rust_eh_personality !dbg !1347 {
 start:
   %0 = alloca { i8*, i32 }, align 8
   %_1.dbg.spill = alloca %"std::sys::unix::mutex::Mutex"**, align 8
@@ -2196,20 +2196,20 @@ bb3:                                              ; preds = %start
   %8 = bitcast %"std::sys::unix::mutex::Mutex"** %_1 to i64**, !dbg !1355
   %9 = load i64*, i64** %8, align 8, !dbg !1355, !nonnull !4
 ; call alloc::alloc::box_free::<std::sys::unix::mutex::Mutex, alloc::alloc::Global>
-  call void @_RINvNtCs8RW06R9lH2S_5alloc5alloc8box_freeNtNtNtNtCs2bNvlddUlXM_3std3sys4unix5mutex5MutexNtB2_6GlobalECskT2QP9QPlNo_17mapped_stack_race(i64* nonnull %9), !dbg !1355
+  call void @_RINvNtCs8RW06R9lH2S_5alloc5alloc8box_freeNtNtNtNtCs2bNvlddUlXM_3std3sys4unix5mutex5MutexNtB2_6GlobalECsfnYCCstO0CH_18mapped_static_race(i64* nonnull %9), !dbg !1355
   br label %bb1, !dbg !1355
 
 bb4:                                              ; No predecessors!
   %10 = bitcast %"std::sys::unix::mutex::Mutex"** %_1 to i64**, !dbg !1355
   %11 = load i64*, i64** %10, align 8, !dbg !1355, !nonnull !4
 ; call alloc::alloc::box_free::<std::sys::unix::mutex::Mutex, alloc::alloc::Global>
-  call void @_RINvNtCs8RW06R9lH2S_5alloc5alloc8box_freeNtNtNtNtCs2bNvlddUlXM_3std3sys4unix5mutex5MutexNtB2_6GlobalECskT2QP9QPlNo_17mapped_stack_race(i64* nonnull %11) #12, !dbg !1355
+  call void @_RINvNtCs8RW06R9lH2S_5alloc5alloc8box_freeNtNtNtNtCs2bNvlddUlXM_3std3sys4unix5mutex5MutexNtB2_6GlobalECsfnYCCstO0CH_18mapped_static_race(i64* nonnull %11) #12, !dbg !1355
   br label %bb2, !dbg !1355
 }
 
 ; core::ptr::drop_in_place::<alloc::boxed::Box<[u8]>>
 ; Function Attrs: nonlazybind uwtable
-define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc5boxed3BoxShEECskT2QP9QPlNo_17mapped_stack_race({ [0 x i8]*, i64 }* %_1) unnamed_addr #0 personality i32 (i32, i32, i64, %"unwind::libunwind::_Unwind_Exception"*, %"unwind::libunwind::_Unwind_Context"*)* @rust_eh_personality !dbg !1356 {
+define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc5boxed3BoxShEECsfnYCCstO0CH_18mapped_static_race({ [0 x i8]*, i64 }* %_1) unnamed_addr #0 personality i32 (i32, i32, i64, %"unwind::libunwind::_Unwind_Exception"*, %"unwind::libunwind::_Unwind_Context"*)* @rust_eh_personality !dbg !1356 {
 start:
   %0 = alloca { i8*, i32 }, align 8
   %_1.dbg.spill = alloca { [0 x i8]*, i64 }*, align 8
@@ -2237,7 +2237,7 @@ bb3:                                              ; preds = %start
   %11 = getelementptr inbounds { i8*, i64 }, { i8*, i64 }* %8, i32 0, i32 1, !dbg !1364
   %12 = load i64, i64* %11, align 8, !dbg !1364
 ; call alloc::alloc::box_free::<[u8], alloc::alloc::Global>
-  call void @_RINvNtCs8RW06R9lH2S_5alloc5alloc8box_freeShNtB2_6GlobalECskT2QP9QPlNo_17mapped_stack_race(i8* nonnull %10, i64 %12), !dbg !1364
+  call void @_RINvNtCs8RW06R9lH2S_5alloc5alloc8box_freeShNtB2_6GlobalECsfnYCCstO0CH_18mapped_static_race(i8* nonnull %10, i64 %12), !dbg !1364
   br label %bb1, !dbg !1364
 
 bb4:                                              ; No predecessors!
@@ -2247,20 +2247,20 @@ bb4:                                              ; No predecessors!
   %16 = getelementptr inbounds { i8*, i64 }, { i8*, i64 }* %13, i32 0, i32 1, !dbg !1364
   %17 = load i64, i64* %16, align 8, !dbg !1364
 ; call alloc::alloc::box_free::<[u8], alloc::alloc::Global>
-  call void @_RINvNtCs8RW06R9lH2S_5alloc5alloc8box_freeShNtB2_6GlobalECskT2QP9QPlNo_17mapped_stack_race(i8* nonnull %15, i64 %17) #12, !dbg !1364
+  call void @_RINvNtCs8RW06R9lH2S_5alloc5alloc8box_freeShNtB2_6GlobalECsfnYCCstO0CH_18mapped_static_race(i8* nonnull %15, i64 %17) #12, !dbg !1364
   br label %bb2, !dbg !1364
 }
 
 ; core::ptr::drop_in_place::<alloc::raw_vec::RawVec<u8>>
 ; Function Attrs: nonlazybind uwtable
-define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc7raw_vec6RawVechEECskT2QP9QPlNo_17mapped_stack_race({ i8*, i64 }* %_1) unnamed_addr #0 !dbg !1365 {
+define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc7raw_vec6RawVechEECsfnYCCstO0CH_18mapped_static_race({ i8*, i64 }* %_1) unnamed_addr #0 !dbg !1365 {
 start:
   %_1.dbg.spill = alloca { i8*, i64 }*, align 8
   %0 = alloca {}, align 1
   store { i8*, i64 }* %_1, { i8*, i64 }** %_1.dbg.spill, align 8
   call void @llvm.dbg.declare(metadata { i8*, i64 }** %_1.dbg.spill, metadata !1370, metadata !DIExpression()), !dbg !1373
 ; call <alloc::raw_vec::RawVec<u8> as core::ops::drop::Drop>::drop
-  call void @_RNvXs1_NtCs8RW06R9lH2S_5alloc7raw_vecINtB5_6RawVechENtNtNtCs3p84KrD9aKt_4core3ops4drop4Drop4dropCskT2QP9QPlNo_17mapped_stack_race({ i8*, i64 }* align 8 dereferenceable(16) %_1), !dbg !1373
+  call void @_RNvXs1_NtCs8RW06R9lH2S_5alloc7raw_vecINtB5_6RawVechENtNtNtCs3p84KrD9aKt_4core3ops4drop4Drop4dropCsfnYCCstO0CH_18mapped_static_race({ i8*, i64 }* align 8 dereferenceable(16) %_1), !dbg !1373
   br label %bb1, !dbg !1373
 
 bb1:                                              ; preds = %start
@@ -2269,7 +2269,7 @@ bb1:                                              ; preds = %start
 
 ; core::ptr::drop_in_place::<std::sync::mutex::Mutex<alloc::vec::Vec<u8>>>
 ; Function Attrs: nonlazybind uwtable
-define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtCs8RW06R9lH2S_5alloc3vec3VechEEECskT2QP9QPlNo_17mapped_stack_race(%"std::sync::Mutex<std::vec::Vec<u8>>"* %_1) unnamed_addr #0 personality i32 (i32, i32, i64, %"unwind::libunwind::_Unwind_Exception"*, %"unwind::libunwind::_Unwind_Context"*)* @rust_eh_personality !dbg !1374 {
+define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtCs8RW06R9lH2S_5alloc3vec3VechEEECsfnYCCstO0CH_18mapped_static_race(%"std::sync::Mutex<std::vec::Vec<u8>>"* %_1) unnamed_addr #0 personality i32 (i32, i32, i64, %"unwind::libunwind::_Unwind_Exception"*, %"unwind::libunwind::_Unwind_Context"*)* @rust_eh_personality !dbg !1374 {
 start:
   %0 = alloca { i8*, i32 }, align 8
   %_1.dbg.spill = alloca %"std::sync::Mutex<std::vec::Vec<u8>>"*, align 8
@@ -2278,7 +2278,7 @@ start:
   call void @llvm.dbg.declare(metadata %"std::sync::Mutex<std::vec::Vec<u8>>"** %_1.dbg.spill, metadata !1379, metadata !DIExpression()), !dbg !1380
   %2 = bitcast %"std::sync::Mutex<std::vec::Vec<u8>>"* %_1 to i64**, !dbg !1380
 ; invoke core::ptr::drop_in_place::<std::sys_common::mutex::MovableMutex>
-  invoke void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNtNtNtCs2bNvlddUlXM_3std10sys_common5mutex12MovableMutexECskT2QP9QPlNo_17mapped_stack_race(i64** %2)
+  invoke void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNtNtNtCs2bNvlddUlXM_3std10sys_common5mutex12MovableMutexECsfnYCCstO0CH_18mapped_static_race(i64** %2)
           to label %bb4 unwind label %cleanup, !dbg !1380
 
 bb1:                                              ; preds = %bb3
@@ -2296,13 +2296,13 @@ bb2:                                              ; preds = %bb4
 bb3:                                              ; preds = %cleanup
   %9 = getelementptr inbounds %"std::sync::Mutex<std::vec::Vec<u8>>", %"std::sync::Mutex<std::vec::Vec<u8>>"* %_1, i32 0, i32 5, !dbg !1380
 ; call core::ptr::drop_in_place::<core::cell::UnsafeCell<alloc::vec::Vec<u8>>>
-  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_4cell10UnsafeCellINtNtCs8RW06R9lH2S_5alloc3vec3VechEEECskT2QP9QPlNo_17mapped_stack_race(%"std::cell::UnsafeCell<std::vec::Vec<u8>>"* %9) #12, !dbg !1380
+  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_4cell10UnsafeCellINtNtCs8RW06R9lH2S_5alloc3vec3VechEEECsfnYCCstO0CH_18mapped_static_race(%"std::cell::UnsafeCell<std::vec::Vec<u8>>"* %9) #12, !dbg !1380
   br label %bb1, !dbg !1380
 
 bb4:                                              ; preds = %start
   %10 = getelementptr inbounds %"std::sync::Mutex<std::vec::Vec<u8>>", %"std::sync::Mutex<std::vec::Vec<u8>>"* %_1, i32 0, i32 5, !dbg !1380
 ; call core::ptr::drop_in_place::<core::cell::UnsafeCell<alloc::vec::Vec<u8>>>
-  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_4cell10UnsafeCellINtNtCs8RW06R9lH2S_5alloc3vec3VechEEECskT2QP9QPlNo_17mapped_stack_race(%"std::cell::UnsafeCell<std::vec::Vec<u8>>"* %10), !dbg !1380
+  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_4cell10UnsafeCellINtNtCs8RW06R9lH2S_5alloc3vec3VechEEECsfnYCCstO0CH_18mapped_static_race(%"std::cell::UnsafeCell<std::vec::Vec<u8>>"* %10), !dbg !1380
   br label %bb2, !dbg !1380
 
 cleanup:                                          ; preds = %start
@@ -2317,9 +2317,9 @@ cleanup:                                          ; preds = %start
   br label %bb3
 }
 
-; core::ptr::drop_in_place::<<std::thread::Builder>::spawn_unchecked<mapped_stack_race::main::{closure#0}, ()>::{closure#0}>
+; core::ptr::drop_in_place::<<std::thread::Builder>::spawn_unchecked<mapped_static_race::main::{closure#0}, ()>::{closure#0}>
 ; Function Attrs: nonlazybind uwtable
-define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNCINvMNtCs2bNvlddUlXM_3std6threadNtBM_7Builder15spawn_uncheckedNCNvCskT2QP9QPlNo_17mapped_stack_race4main0uE0EB1L_(%"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:10:30: 13:3], ()>::{closure#0}]"* %_1) unnamed_addr #0 personality i32 (i32, i32, i64, %"unwind::libunwind::_Unwind_Exception"*, %"unwind::libunwind::_Unwind_Context"*)* @rust_eh_personality !dbg !1381 {
+define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNCINvMNtCs2bNvlddUlXM_3std6threadNtBM_7Builder15spawn_uncheckedNCNvCsfnYCCstO0CH_18mapped_static_race4main0uE0EB1L_(%"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:10:30: 13:3], ()>::{closure#0}]"* %_1) unnamed_addr #0 personality i32 (i32, i32, i64, %"unwind::libunwind::_Unwind_Exception"*, %"unwind::libunwind::_Unwind_Context"*)* @rust_eh_personality !dbg !1381 {
 start:
   %0 = alloca { i8*, i32 }, align 8
   %_1.dbg.spill = alloca %"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:10:30: 13:3], ()>::{closure#0}]"*, align 8
@@ -2328,7 +2328,7 @@ start:
   call void @llvm.dbg.declare(metadata %"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:10:30: 13:3], ()>::{closure#0}]"** %_1.dbg.spill, metadata !1386, metadata !DIExpression()), !dbg !1387
   %2 = bitcast %"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:10:30: 13:3], ()>::{closure#0}]"* %_1 to i64**, !dbg !1387
 ; invoke core::ptr::drop_in_place::<std::thread::Thread>
-  invoke void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNtNtCs2bNvlddUlXM_3std6thread6ThreadECskT2QP9QPlNo_17mapped_stack_race(i64** %2)
+  invoke void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNtNtCs2bNvlddUlXM_3std6thread6ThreadECsfnYCCstO0CH_18mapped_static_race(i64** %2)
           to label %bb6 unwind label %cleanup, !dbg !1387
 
 bb1:                                              ; preds = %bb3
@@ -2346,25 +2346,25 @@ bb2:                                              ; preds = %bb5
 bb3:                                              ; preds = %cleanup1, %bb4
   %9 = getelementptr inbounds %"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:10:30: 13:3], ()>::{closure#0}]", %"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:10:30: 13:3], ()>::{closure#0}]"* %_1, i32 0, i32 7, !dbg !1387
 ; call core::ptr::drop_in_place::<alloc::sync::Arc<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>>>
-  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc4sync3ArcINtNtB4_4cell10UnsafeCellINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtBL_5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEEEECskT2QP9QPlNo_17mapped_stack_race(i64** %9) #12, !dbg !1387
+  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc4sync3ArcINtNtB4_4cell10UnsafeCellINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtBL_5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEEEECsfnYCCstO0CH_18mapped_static_race(i64** %9) #12, !dbg !1387
   br label %bb1, !dbg !1387
 
 bb4:                                              ; preds = %cleanup
   %10 = getelementptr inbounds %"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:10:30: 13:3], ()>::{closure#0}]", %"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:10:30: 13:3], ()>::{closure#0}]"* %_1, i32 0, i32 5, !dbg !1387
 ; call core::ptr::drop_in_place::<core::option::Option<alloc::sync::Arc<std::sync::mutex::Mutex<alloc::vec::Vec<u8>>>>>
-  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_6option6OptionINtNtCs8RW06R9lH2S_5alloc4sync3ArcINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtB17_3vec3VechEEEEECskT2QP9QPlNo_17mapped_stack_race(i64** %10) #12, !dbg !1387
+  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_6option6OptionINtNtCs8RW06R9lH2S_5alloc4sync3ArcINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtB17_3vec3VechEEEEECsfnYCCstO0CH_18mapped_static_race(i64** %10) #12, !dbg !1387
   br label %bb3, !dbg !1387
 
 bb5:                                              ; preds = %bb6
   %11 = getelementptr inbounds %"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:10:30: 13:3], ()>::{closure#0}]", %"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:10:30: 13:3], ()>::{closure#0}]"* %_1, i32 0, i32 7, !dbg !1387
 ; call core::ptr::drop_in_place::<alloc::sync::Arc<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>>>
-  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc4sync3ArcINtNtB4_4cell10UnsafeCellINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtBL_5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEEEECskT2QP9QPlNo_17mapped_stack_race(i64** %11), !dbg !1387
+  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc4sync3ArcINtNtB4_4cell10UnsafeCellINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtBL_5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEEEECsfnYCCstO0CH_18mapped_static_race(i64** %11), !dbg !1387
   br label %bb2, !dbg !1387
 
 bb6:                                              ; preds = %start
   %12 = getelementptr inbounds %"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:10:30: 13:3], ()>::{closure#0}]", %"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:10:30: 13:3], ()>::{closure#0}]"* %_1, i32 0, i32 5, !dbg !1387
 ; invoke core::ptr::drop_in_place::<core::option::Option<alloc::sync::Arc<std::sync::mutex::Mutex<alloc::vec::Vec<u8>>>>>
-  invoke void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_6option6OptionINtNtCs8RW06R9lH2S_5alloc4sync3ArcINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtB17_3vec3VechEEEEECskT2QP9QPlNo_17mapped_stack_race(i64** %12)
+  invoke void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_6option6OptionINtNtCs8RW06R9lH2S_5alloc4sync3ArcINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtB17_3vec3VechEEEEECsfnYCCstO0CH_18mapped_static_race(i64** %12)
           to label %bb5 unwind label %cleanup1, !dbg !1387
 
 cleanup:                                          ; preds = %start
@@ -2392,7 +2392,7 @@ cleanup1:                                         ; preds = %bb6
 
 ; core::ptr::drop_in_place::<std::rt::lang_start<()>::{closure#0}>
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNCINvNtCs2bNvlddUlXM_3std2rt10lang_startuE0ECskT2QP9QPlNo_17mapped_stack_race(i64** %_1) unnamed_addr #1 !dbg !1388 {
+define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNCINvNtCs2bNvlddUlXM_3std2rt10lang_startuE0ECsfnYCCstO0CH_18mapped_static_race(i64** %_1) unnamed_addr #1 !dbg !1388 {
 start:
   %_1.dbg.spill = alloca i64**, align 8
   %0 = alloca {}, align 1
@@ -2403,7 +2403,7 @@ start:
 
 ; core::ptr::drop_in_place::<std::thread::Inner>
 ; Function Attrs: nonlazybind uwtable
-define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNtNtCs2bNvlddUlXM_3std6thread5InnerECskT2QP9QPlNo_17mapped_stack_race(%"std::thread::Inner"* %_1) unnamed_addr #0 !dbg !1397 {
+define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNtNtCs2bNvlddUlXM_3std6thread5InnerECsfnYCCstO0CH_18mapped_static_race(%"std::thread::Inner"* %_1) unnamed_addr #0 !dbg !1397 {
 start:
   %_1.dbg.spill = alloca %"std::thread::Inner"*, align 8
   %0 = alloca {}, align 1
@@ -2411,7 +2411,7 @@ start:
   call void @llvm.dbg.declare(metadata %"std::thread::Inner"** %_1.dbg.spill, metadata !1402, metadata !DIExpression()), !dbg !1403
   %1 = bitcast %"std::thread::Inner"* %_1 to { i8*, i64 }*, !dbg !1403
 ; call core::ptr::drop_in_place::<core::option::Option<std::ffi::c_str::CString>>
-  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_6option6OptionNtNtNtCs2bNvlddUlXM_3std3ffi5c_str7CStringEECskT2QP9QPlNo_17mapped_stack_race({ i8*, i64 }* %1), !dbg !1403
+  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_6option6OptionNtNtNtCs2bNvlddUlXM_3std3ffi5c_str7CStringEECsfnYCCstO0CH_18mapped_static_race({ i8*, i64 }* %1), !dbg !1403
   br label %bb1, !dbg !1403
 
 bb1:                                              ; preds = %start
@@ -2420,14 +2420,14 @@ bb1:                                              ; preds = %start
 
 ; core::ptr::drop_in_place::<std::thread::Thread>
 ; Function Attrs: nonlazybind uwtable
-define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNtNtCs2bNvlddUlXM_3std6thread6ThreadECskT2QP9QPlNo_17mapped_stack_race(i64** %_1) unnamed_addr #0 !dbg !1404 {
+define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNtNtCs2bNvlddUlXM_3std6thread6ThreadECsfnYCCstO0CH_18mapped_static_race(i64** %_1) unnamed_addr #0 !dbg !1404 {
 start:
   %_1.dbg.spill = alloca i64**, align 8
   %0 = alloca {}, align 1
   store i64** %_1, i64*** %_1.dbg.spill, align 8
   call void @llvm.dbg.declare(metadata i64*** %_1.dbg.spill, metadata !1409, metadata !DIExpression()), !dbg !1412
 ; call core::ptr::drop_in_place::<alloc::sync::Arc<std::thread::Inner>>
-  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc4sync3ArcNtNtCs2bNvlddUlXM_3std6thread5InnerEECskT2QP9QPlNo_17mapped_stack_race(i64** %_1), !dbg !1412
+  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc4sync3ArcNtNtCs2bNvlddUlXM_3std6thread5InnerEECsfnYCCstO0CH_18mapped_static_race(i64** %_1), !dbg !1412
   br label %bb1, !dbg !1412
 
 bb1:                                              ; preds = %start
@@ -2436,7 +2436,7 @@ bb1:                                              ; preds = %start
 
 ; core::ptr::drop_in_place::<alloc::string::String>
 ; Function Attrs: nonlazybind uwtable
-define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNtNtCs8RW06R9lH2S_5alloc6string6StringECskT2QP9QPlNo_17mapped_stack_race(%"std::string::String"* %_1) unnamed_addr #0 !dbg !1413 {
+define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNtNtCs8RW06R9lH2S_5alloc6string6StringECsfnYCCstO0CH_18mapped_static_race(%"std::string::String"* %_1) unnamed_addr #0 !dbg !1413 {
 start:
   %_1.dbg.spill = alloca %"std::string::String"*, align 8
   %0 = alloca {}, align 1
@@ -2444,7 +2444,7 @@ start:
   call void @llvm.dbg.declare(metadata %"std::string::String"** %_1.dbg.spill, metadata !1418, metadata !DIExpression()), !dbg !1419
   %1 = bitcast %"std::string::String"* %_1 to %"std::vec::Vec<u8>"*, !dbg !1419
 ; call core::ptr::drop_in_place::<alloc::vec::Vec<u8>>
-  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc3vec3VechEECskT2QP9QPlNo_17mapped_stack_race(%"std::vec::Vec<u8>"* %1), !dbg !1419
+  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc3vec3VechEECsfnYCCstO0CH_18mapped_static_race(%"std::vec::Vec<u8>"* %1), !dbg !1419
   br label %bb1, !dbg !1419
 
 bb1:                                              ; preds = %start
@@ -2453,7 +2453,7 @@ bb1:                                              ; preds = %start
 
 ; core::ptr::drop_in_place::<std::sys_common::mutex::MovableMutex>
 ; Function Attrs: nonlazybind uwtable
-define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNtNtNtCs2bNvlddUlXM_3std10sys_common5mutex12MovableMutexECskT2QP9QPlNo_17mapped_stack_race(i64** %_1) unnamed_addr #0 personality i32 (i32, i32, i64, %"unwind::libunwind::_Unwind_Exception"*, %"unwind::libunwind::_Unwind_Context"*)* @rust_eh_personality !dbg !1420 {
+define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNtNtNtCs2bNvlddUlXM_3std10sys_common5mutex12MovableMutexECsfnYCCstO0CH_18mapped_static_race(i64** %_1) unnamed_addr #0 personality i32 (i32, i32, i64, %"unwind::libunwind::_Unwind_Exception"*, %"unwind::libunwind::_Unwind_Context"*)* @rust_eh_personality !dbg !1420 {
 start:
   %0 = alloca { i8*, i32 }, align 8
   %_1.dbg.spill = alloca i64**, align 8
@@ -2479,13 +2479,13 @@ bb2:                                              ; preds = %bb4
 bb3:                                              ; preds = %cleanup
   %8 = bitcast i64** %_1 to %"std::sys::unix::mutex::Mutex"**, !dbg !1428
 ; call core::ptr::drop_in_place::<alloc::boxed::Box<std::sys::unix::mutex::Mutex>>
-  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc5boxed3BoxNtNtNtNtCs2bNvlddUlXM_3std3sys4unix5mutex5MutexEECskT2QP9QPlNo_17mapped_stack_race(%"std::sys::unix::mutex::Mutex"** %8) #12, !dbg !1428
+  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc5boxed3BoxNtNtNtNtCs2bNvlddUlXM_3std3sys4unix5mutex5MutexEECsfnYCCstO0CH_18mapped_static_race(%"std::sys::unix::mutex::Mutex"** %8) #12, !dbg !1428
   br label %bb1, !dbg !1428
 
 bb4:                                              ; preds = %start
   %9 = bitcast i64** %_1 to %"std::sys::unix::mutex::Mutex"**, !dbg !1428
 ; call core::ptr::drop_in_place::<alloc::boxed::Box<std::sys::unix::mutex::Mutex>>
-  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc5boxed3BoxNtNtNtNtCs2bNvlddUlXM_3std3sys4unix5mutex5MutexEECskT2QP9QPlNo_17mapped_stack_race(%"std::sys::unix::mutex::Mutex"** %9), !dbg !1428
+  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc5boxed3BoxNtNtNtNtCs2bNvlddUlXM_3std3sys4unix5mutex5MutexEECsfnYCCstO0CH_18mapped_static_race(%"std::sys::unix::mutex::Mutex"** %9), !dbg !1428
   br label %bb2, !dbg !1428
 
 cleanup:                                          ; preds = %start
@@ -2502,7 +2502,7 @@ cleanup:                                          ; preds = %start
 
 ; core::ptr::drop_in_place::<std::io::error::Repr>
 ; Function Attrs: nonlazybind uwtable
-define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNtNtNtCs2bNvlddUlXM_3std2io5error4ReprECskT2QP9QPlNo_17mapped_stack_race(%"std::io::error::Repr"* %_1) unnamed_addr #0 !dbg !1429 {
+define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNtNtNtCs2bNvlddUlXM_3std2io5error4ReprECsfnYCCstO0CH_18mapped_static_race(%"std::io::error::Repr"* %_1) unnamed_addr #0 !dbg !1429 {
 start:
   %_1.dbg.spill = alloca %"std::io::error::Repr"*, align 8
   %0 = alloca {}, align 1
@@ -2523,13 +2523,13 @@ bb2:                                              ; preds = %start
   %3 = bitcast %"std::io::error::Repr"* %_1 to %"std::io::error::Repr::Custom"*, !dbg !1437
   %4 = getelementptr inbounds %"std::io::error::Repr::Custom", %"std::io::error::Repr::Custom"* %3, i32 0, i32 1, !dbg !1437
 ; call core::ptr::drop_in_place::<alloc::boxed::Box<std::io::error::Custom>>
-  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc5boxed3BoxNtNtNtCs2bNvlddUlXM_3std2io5error6CustomEECskT2QP9QPlNo_17mapped_stack_race(%"std::io::error::Custom"** %4), !dbg !1437
+  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc5boxed3BoxNtNtNtCs2bNvlddUlXM_3std2io5error6CustomEECsfnYCCstO0CH_18mapped_static_race(%"std::io::error::Custom"** %4), !dbg !1437
   br label %bb1, !dbg !1437
 }
 
 ; core::ptr::drop_in_place::<std::io::error::Error>
 ; Function Attrs: nonlazybind uwtable
-define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNtNtNtCs2bNvlddUlXM_3std2io5error5ErrorECskT2QP9QPlNo_17mapped_stack_race(%"std::io::Error"* %_1) unnamed_addr #0 !dbg !1439 {
+define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNtNtNtCs2bNvlddUlXM_3std2io5error5ErrorECsfnYCCstO0CH_18mapped_static_race(%"std::io::Error"* %_1) unnamed_addr #0 !dbg !1439 {
 start:
   %_1.dbg.spill = alloca %"std::io::Error"*, align 8
   %0 = alloca {}, align 1
@@ -2537,7 +2537,7 @@ start:
   call void @llvm.dbg.declare(metadata %"std::io::Error"** %_1.dbg.spill, metadata !1444, metadata !DIExpression()), !dbg !1447
   %1 = bitcast %"std::io::Error"* %_1 to %"std::io::error::Repr"*, !dbg !1447
 ; call core::ptr::drop_in_place::<std::io::error::Repr>
-  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNtNtNtCs2bNvlddUlXM_3std2io5error4ReprECskT2QP9QPlNo_17mapped_stack_race(%"std::io::error::Repr"* %1), !dbg !1447
+  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNtNtNtCs2bNvlddUlXM_3std2io5error4ReprECsfnYCCstO0CH_18mapped_static_race(%"std::io::error::Repr"* %1), !dbg !1447
   br label %bb1, !dbg !1447
 
 bb1:                                              ; preds = %start
@@ -2546,7 +2546,7 @@ bb1:                                              ; preds = %start
 
 ; core::ptr::drop_in_place::<std::io::error::Custom>
 ; Function Attrs: nonlazybind uwtable
-define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNtNtNtCs2bNvlddUlXM_3std2io5error6CustomECskT2QP9QPlNo_17mapped_stack_race(%"std::io::error::Custom"* %_1) unnamed_addr #0 !dbg !1448 {
+define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNtNtNtCs2bNvlddUlXM_3std2io5error6CustomECsfnYCCstO0CH_18mapped_static_race(%"std::io::error::Custom"* %_1) unnamed_addr #0 !dbg !1448 {
 start:
   %_1.dbg.spill = alloca %"std::io::error::Custom"*, align 8
   %0 = alloca {}, align 1
@@ -2554,7 +2554,7 @@ start:
   call void @llvm.dbg.declare(metadata %"std::io::error::Custom"** %_1.dbg.spill, metadata !1453, metadata !DIExpression()), !dbg !1454
   %1 = bitcast %"std::io::error::Custom"* %_1 to { {}*, [3 x i64]* }*, !dbg !1454
 ; call core::ptr::drop_in_place::<alloc::boxed::Box<dyn std::error::Error + core::marker::Send + core::marker::Sync>>
-  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtCs2bNvlddUlXM_3std5error5ErrorNtNtB4_6marker4SendNtB1Q_4SyncEL_EECskT2QP9QPlNo_17mapped_stack_race({ {}*, [3 x i64]* }* %1), !dbg !1454
+  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtCs2bNvlddUlXM_3std5error5ErrorNtNtB4_6marker4SendNtB1Q_4SyncEL_EECsfnYCCstO0CH_18mapped_static_race({ {}*, [3 x i64]* }* %1), !dbg !1454
   br label %bb1, !dbg !1454
 
 bb1:                                              ; preds = %start
@@ -2563,7 +2563,7 @@ bb1:                                              ; preds = %start
 
 ; core::ptr::drop_in_place::<std::ffi::c_str::CString>
 ; Function Attrs: nonlazybind uwtable
-define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNtNtNtCs2bNvlddUlXM_3std3ffi5c_str7CStringECskT2QP9QPlNo_17mapped_stack_race({ i8*, i64 }* %_1) unnamed_addr #0 personality i32 (i32, i32, i64, %"unwind::libunwind::_Unwind_Exception"*, %"unwind::libunwind::_Unwind_Context"*)* @rust_eh_personality !dbg !1455 {
+define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNtNtNtCs2bNvlddUlXM_3std3ffi5c_str7CStringECsfnYCCstO0CH_18mapped_static_race({ i8*, i64 }* %_1) unnamed_addr #0 personality i32 (i32, i32, i64, %"unwind::libunwind::_Unwind_Exception"*, %"unwind::libunwind::_Unwind_Context"*)* @rust_eh_personality !dbg !1455 {
 start:
   %0 = alloca { i8*, i32 }, align 8
   %_1.dbg.spill = alloca { i8*, i64 }*, align 8
@@ -2571,7 +2571,7 @@ start:
   store { i8*, i64 }* %_1, { i8*, i64 }** %_1.dbg.spill, align 8
   call void @llvm.dbg.declare(metadata { i8*, i64 }** %_1.dbg.spill, metadata !1460, metadata !DIExpression()), !dbg !1461
 ; invoke <std::ffi::c_str::CString as core::ops::drop::Drop>::drop
-  invoke void @_RNvXs1_NtNtCs2bNvlddUlXM_3std3ffi5c_strNtB5_7CStringNtNtNtCs3p84KrD9aKt_4core3ops4drop4Drop4dropCskT2QP9QPlNo_17mapped_stack_race({ i8*, i64 }* align 8 dereferenceable(16) %_1)
+  invoke void @_RNvXs1_NtNtCs2bNvlddUlXM_3std3ffi5c_strNtB5_7CStringNtNtNtCs3p84KrD9aKt_4core3ops4drop4Drop4dropCsfnYCCstO0CH_18mapped_static_race({ i8*, i64 }* align 8 dereferenceable(16) %_1)
           to label %bb4 unwind label %cleanup, !dbg !1461
 
 bb1:                                              ; preds = %bb3
@@ -2589,13 +2589,13 @@ bb2:                                              ; preds = %bb4
 bb3:                                              ; preds = %cleanup
   %8 = bitcast { i8*, i64 }* %_1 to { [0 x i8]*, i64 }*, !dbg !1461
 ; call core::ptr::drop_in_place::<alloc::boxed::Box<[u8]>>
-  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc5boxed3BoxShEECskT2QP9QPlNo_17mapped_stack_race({ [0 x i8]*, i64 }* %8) #12, !dbg !1461
+  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc5boxed3BoxShEECsfnYCCstO0CH_18mapped_static_race({ [0 x i8]*, i64 }* %8) #12, !dbg !1461
   br label %bb1, !dbg !1461
 
 bb4:                                              ; preds = %start
   %9 = bitcast { i8*, i64 }* %_1 to { [0 x i8]*, i64 }*, !dbg !1461
 ; call core::ptr::drop_in_place::<alloc::boxed::Box<[u8]>>
-  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc5boxed3BoxShEECskT2QP9QPlNo_17mapped_stack_race({ [0 x i8]*, i64 }* %9), !dbg !1461
+  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc5boxed3BoxShEECsfnYCCstO0CH_18mapped_static_race({ [0 x i8]*, i64 }* %9), !dbg !1461
   br label %bb2, !dbg !1461
 
 cleanup:                                          ; preds = %start
@@ -2612,7 +2612,7 @@ cleanup:                                          ; preds = %start
 
 ; core::ptr::drop_in_place::<std::sys::unix::thread::Thread>
 ; Function Attrs: nonlazybind uwtable
-define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNtNtNtNtCs2bNvlddUlXM_3std3sys4unix6thread6ThreadECskT2QP9QPlNo_17mapped_stack_race(i64* %_1) unnamed_addr #0 !dbg !1462 {
+define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNtNtNtNtCs2bNvlddUlXM_3std3sys4unix6thread6ThreadECsfnYCCstO0CH_18mapped_static_race(i64* %_1) unnamed_addr #0 !dbg !1462 {
 start:
   %_1.dbg.spill = alloca i64*, align 8
   %0 = alloca {}, align 1
@@ -2628,7 +2628,7 @@ bb1:                                              ; preds = %start
 
 ; core::ptr::slice_from_raw_parts_mut::<u8>
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal { [0 x i8]*, i64 } @_RINvNtCs3p84KrD9aKt_4core3ptr24slice_from_raw_parts_muthECskT2QP9QPlNo_17mapped_stack_race(i8* %data, i64 %len) unnamed_addr #1 !dbg !1469 {
+define internal { [0 x i8]*, i64 } @_RINvNtCs3p84KrD9aKt_4core3ptr24slice_from_raw_parts_muthECsfnYCCstO0CH_18mapped_static_race(i8* %data, i64 %len) unnamed_addr #1 !dbg !1469 {
 start:
   %len.dbg.spill = alloca i64, align 8
   %data.dbg.spill = alloca i8*, align 8
@@ -2661,9 +2661,9 @@ start:
   ret { [0 x i8]*, i64 } %15, !dbg !1483
 }
 
-; core::ptr::read::<std::panic::AssertUnwindSafe<<std::thread::Builder>::spawn_unchecked<mapped_stack_race::main::{closure#0}, ()>::{closure#0}::{closure#0}>>
+; core::ptr::read::<std::panic::AssertUnwindSafe<<std::thread::Builder>::spawn_unchecked<mapped_static_race::main::{closure#0}, ()>::{closure#0}::{closure#0}>>
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr4readINtNtCs2bNvlddUlXM_3std5panic16AssertUnwindSafeNCNCINvMNtBB_6threadNtB1p_7Builder15spawn_uncheckedNCNvCskT2QP9QPlNo_17mapped_stack_race4main0uE00EEB2a_(%"std::panic::AssertUnwindSafe<[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:10:30: 13:3], ()>::{closure#0}::{closure#0}]>"* %src) unnamed_addr #1 !dbg !1484 {
+define internal void @_RINvNtCs3p84KrD9aKt_4core3ptr4readINtNtCs2bNvlddUlXM_3std5panic16AssertUnwindSafeNCNCINvMNtBB_6threadNtB1p_7Builder15spawn_uncheckedNCNvCsfnYCCstO0CH_18mapped_static_race4main0uE00EEB2a_(%"std::panic::AssertUnwindSafe<[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:10:30: 13:3], ()>::{closure#0}::{closure#0}]>"* %src) unnamed_addr #1 !dbg !1484 {
 start:
   %self.dbg.spill.i = alloca %"std::mem::MaybeUninit<std::panic::AssertUnwindSafe<[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:10:30: 13:3], ()>::{closure#0}::{closure#0}]>>"*, align 8
   %0 = alloca %"std::mem::MaybeUninit<std::panic::AssertUnwindSafe<[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:10:30: 13:3], ()>::{closure#0}::{closure#0}]>>", align 1
@@ -2682,8 +2682,8 @@ bb1:                                              ; preds = %start
   br label %bb2, !dbg !1512
 
 bb2:                                              ; preds = %bb1
-; call core::intrinsics::copy_nonoverlapping::<std::panic::AssertUnwindSafe<<std::thread::Builder>::spawn_unchecked<mapped_stack_race::main::{closure#0}, ()>::{closure#0}::{closure#0}>>
-  call void @_RINvNtCs3p84KrD9aKt_4core10intrinsics19copy_nonoverlappingINtNtCs2bNvlddUlXM_3std5panic16AssertUnwindSafeNCNCINvMNtBZ_6threadNtB1N_7Builder15spawn_uncheckedNCNvCskT2QP9QPlNo_17mapped_stack_race4main0uE00EEB2y_(%"std::panic::AssertUnwindSafe<[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:10:30: 13:3], ()>::{closure#0}::{closure#0}]>"* %src, %"std::panic::AssertUnwindSafe<[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:10:30: 13:3], ()>::{closure#0}::{closure#0}]>"* %2, i64 1), !dbg !1513
+; call core::intrinsics::copy_nonoverlapping::<std::panic::AssertUnwindSafe<<std::thread::Builder>::spawn_unchecked<mapped_static_race::main::{closure#0}, ()>::{closure#0}::{closure#0}>>
+  call void @_RINvNtCs3p84KrD9aKt_4core10intrinsics19copy_nonoverlappingINtNtCs2bNvlddUlXM_3std5panic16AssertUnwindSafeNCNCINvMNtBZ_6threadNtB1N_7Builder15spawn_uncheckedNCNvCsfnYCCstO0CH_18mapped_static_race4main0uE00EEB2y_(%"std::panic::AssertUnwindSafe<[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:10:30: 13:3], ()>::{closure#0}::{closure#0}]>"* %src, %"std::panic::AssertUnwindSafe<[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:10:30: 13:3], ()>::{closure#0}::{closure#0}]>"* %2, i64 1), !dbg !1513
   br label %bb3, !dbg !1513
 
 bb3:                                              ; preds = %bb2
@@ -2697,7 +2697,7 @@ bb4:                                              ; preds = %bb3
 
 ; core::hint::black_box::<()>
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal void @_RINvNtCs3p84KrD9aKt_4core4hint9black_boxuECskT2QP9QPlNo_17mapped_stack_race() unnamed_addr #1 !dbg !1530 {
+define internal void @_RINvNtCs3p84KrD9aKt_4core4hint9black_boxuECsfnYCCstO0CH_18mapped_static_race() unnamed_addr #1 !dbg !1530 {
 start:
   %dummy = alloca {}, align 1
   call void @llvm.dbg.declare(metadata {}* %dummy, metadata !1536, metadata !DIExpression()), !dbg !1537
@@ -2707,14 +2707,14 @@ start:
 
 ; alloc::rc::is_dangling::<alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>>>
 ; Function Attrs: nonlazybind uwtable
-define internal zeroext i1 @_RINvNtCs8RW06R9lH2S_5alloc2rc11is_danglingINtNtB4_4sync8ArcInnerINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtB15_6option6OptionINtNtB15_6result6ResultuINtNtB4_5boxed3BoxDNtNtB15_3any3AnyNtNtB15_6marker4SendEL_EEEEEECskT2QP9QPlNo_17mapped_stack_race(i64* nonnull %ptr) unnamed_addr #0 !dbg !1541 {
+define internal zeroext i1 @_RINvNtCs8RW06R9lH2S_5alloc2rc11is_danglingINtNtB4_4sync8ArcInnerINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtB15_6option6OptionINtNtB15_6result6ResultuINtNtB4_5boxed3BoxDNtNtB15_3any3AnyNtNtB15_6marker4SendEL_EEEEEECsfnYCCstO0CH_18mapped_static_race(i64* nonnull %ptr) unnamed_addr #0 !dbg !1541 {
 start:
   %address.dbg.spill = alloca i64, align 8
   %ptr.dbg.spill = alloca i64*, align 8
   store i64* %ptr, i64** %ptr.dbg.spill, align 8
   call void @llvm.dbg.declare(metadata i64** %ptr.dbg.spill, metadata !1548, metadata !DIExpression()), !dbg !1551
 ; call <core::ptr::non_null::NonNull<alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>>>>::as_ptr
-  %_4 = call %"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtB9_4cell10UnsafeCellINtNtB9_6option6OptionINtNtB9_6result6ResultuINtNtBY_5boxed3BoxDNtNtB9_3any3AnyNtNtB9_6marker4SendEL_EEEEEE6as_ptrCskT2QP9QPlNo_17mapped_stack_race(i64* nonnull %ptr), !dbg !1552
+  %_4 = call %"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtB9_4cell10UnsafeCellINtNtB9_6option6OptionINtNtB9_6result6ResultuINtNtBY_5boxed3BoxDNtNtB9_3any3AnyNtNtB9_6marker4SendEL_EEEEEE6as_ptrCsfnYCCstO0CH_18mapped_static_race(i64* nonnull %ptr), !dbg !1552
   br label %bb1, !dbg !1552
 
 bb1:                                              ; preds = %start
@@ -2728,14 +2728,14 @@ bb1:                                              ; preds = %start
 
 ; alloc::rc::is_dangling::<alloc::sync::ArcInner<std::sync::mutex::Mutex<alloc::vec::Vec<u8>>>>
 ; Function Attrs: nonlazybind uwtable
-define internal zeroext i1 @_RINvNtCs8RW06R9lH2S_5alloc2rc11is_danglingINtNtB4_4sync8ArcInnerINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtB4_3vec3VechEEEECskT2QP9QPlNo_17mapped_stack_race(i64* nonnull %ptr) unnamed_addr #0 !dbg !1556 {
+define internal zeroext i1 @_RINvNtCs8RW06R9lH2S_5alloc2rc11is_danglingINtNtB4_4sync8ArcInnerINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtB4_3vec3VechEEEECsfnYCCstO0CH_18mapped_static_race(i64* nonnull %ptr) unnamed_addr #0 !dbg !1556 {
 start:
   %address.dbg.spill = alloca i64, align 8
   %ptr.dbg.spill = alloca i64*, align 8
   store i64* %ptr, i64** %ptr.dbg.spill, align 8
   call void @llvm.dbg.declare(metadata i64** %ptr.dbg.spill, metadata !1560, metadata !DIExpression()), !dbg !1563
 ; call <core::ptr::non_null::NonNull<alloc::sync::ArcInner<std::sync::mutex::Mutex<alloc::vec::Vec<u8>>>>>::as_ptr
-  %_4 = call %"alloc::sync::ArcInner<std::sync::Mutex<std::vec::Vec<u8>>>"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtBY_3vec3VechEEEE6as_ptrCskT2QP9QPlNo_17mapped_stack_race(i64* nonnull %ptr), !dbg !1564
+  %_4 = call %"alloc::sync::ArcInner<std::sync::Mutex<std::vec::Vec<u8>>>"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtBY_3vec3VechEEEE6as_ptrCsfnYCCstO0CH_18mapped_static_race(i64* nonnull %ptr), !dbg !1564
   br label %bb1, !dbg !1564
 
 bb1:                                              ; preds = %start
@@ -2749,14 +2749,14 @@ bb1:                                              ; preds = %start
 
 ; alloc::rc::is_dangling::<alloc::sync::ArcInner<std::thread::Inner>>
 ; Function Attrs: nonlazybind uwtable
-define internal zeroext i1 @_RINvNtCs8RW06R9lH2S_5alloc2rc11is_danglingINtNtB4_4sync8ArcInnerNtNtCs2bNvlddUlXM_3std6thread5InnerEECskT2QP9QPlNo_17mapped_stack_race(i64* nonnull %ptr) unnamed_addr #0 !dbg !1568 {
+define internal zeroext i1 @_RINvNtCs8RW06R9lH2S_5alloc2rc11is_danglingINtNtB4_4sync8ArcInnerNtNtCs2bNvlddUlXM_3std6thread5InnerEECsfnYCCstO0CH_18mapped_static_race(i64* nonnull %ptr) unnamed_addr #0 !dbg !1568 {
 start:
   %address.dbg.spill = alloca i64, align 8
   %ptr.dbg.spill = alloca i64*, align 8
   store i64* %ptr, i64** %ptr.dbg.spill, align 8
   call void @llvm.dbg.declare(metadata i64** %ptr.dbg.spill, metadata !1572, metadata !DIExpression()), !dbg !1575
 ; call <core::ptr::non_null::NonNull<alloc::sync::ArcInner<std::thread::Inner>>>::as_ptr
-  %_4 = call %"alloc::sync::ArcInner<std::thread::Inner>"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerNtNtCs2bNvlddUlXM_3std6thread5InnerEE6as_ptrCskT2QP9QPlNo_17mapped_stack_race(i64* nonnull %ptr), !dbg !1576
+  %_4 = call %"alloc::sync::ArcInner<std::thread::Inner>"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerNtNtCs2bNvlddUlXM_3std6thread5InnerEE6as_ptrCsfnYCCstO0CH_18mapped_static_race(i64* nonnull %ptr), !dbg !1576
   br label %bb1, !dbg !1576
 
 bb1:                                              ; preds = %start
@@ -2770,7 +2770,7 @@ bb1:                                              ; preds = %start
 
 ; alloc::alloc::box_free::<dyn std::error::Error + core::marker::Send + core::marker::Sync, alloc::alloc::Global>
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal void @_RINvNtCs8RW06R9lH2S_5alloc5alloc8box_freeDNtNtCs2bNvlddUlXM_3std5error5ErrorNtNtCs3p84KrD9aKt_4core6marker4SendNtB1e_4SyncEL_NtB2_6GlobalECskT2QP9QPlNo_17mapped_stack_race(i8* nonnull %0, i64* noalias readonly align 8 dereferenceable(24) %1) unnamed_addr #1 personality i32 (i32, i32, i64, %"unwind::libunwind::_Unwind_Exception"*, %"unwind::libunwind::_Unwind_Context"*)* @rust_eh_personality !dbg !1580 {
+define internal void @_RINvNtCs8RW06R9lH2S_5alloc5alloc8box_freeDNtNtCs2bNvlddUlXM_3std5error5ErrorNtNtCs3p84KrD9aKt_4core6marker4SendNtB1e_4SyncEL_NtB2_6GlobalECsfnYCCstO0CH_18mapped_static_race(i8* nonnull %0, i64* noalias readonly align 8 dereferenceable(24) %1) unnamed_addr #1 personality i32 (i32, i32, i64, %"unwind::libunwind::_Unwind_Exception"*, %"unwind::libunwind::_Unwind_Context"*)* @rust_eh_personality !dbg !1580 {
 start:
   %layout.dbg.spill = alloca { i64, i64 }, align 8
   %align.dbg.spill = alloca i64, align 8
@@ -2787,7 +2787,7 @@ start:
   call void @llvm.dbg.declare(metadata { i8*, i64* }* %ptr, metadata !1585, metadata !DIExpression()), !dbg !1593
   call void @llvm.dbg.declare(metadata %"std::alloc::Global"* %alloc, metadata !1586, metadata !DIExpression()), !dbg !1594
 ; invoke <core::ptr::unique::Unique<dyn std::error::Error + core::marker::Send + core::marker::Sync>>::as_ref
-  %7 = invoke { {}*, [3 x i64]* } @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueDNtNtCs2bNvlddUlXM_3std5error5ErrorNtNtB9_6marker4SendNtB1r_4SyncEL_E6as_refCskT2QP9QPlNo_17mapped_stack_race({ i8*, i64* }* noalias readonly align 8 dereferenceable(16) %ptr)
+  %7 = invoke { {}*, [3 x i64]* } @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueDNtNtCs2bNvlddUlXM_3std5error5ErrorNtNtB9_6marker4SendNtB1r_4SyncEL_E6as_refCsfnYCCstO0CH_18mapped_static_race({ i8*, i64* }* noalias readonly align 8 dereferenceable(16) %ptr)
           to label %bb1 unwind label %cleanup, !dbg !1595
 
 bb1:                                              ; preds = %start
@@ -2807,7 +2807,7 @@ bb1:                                              ; preds = %start
 
 bb2:                                              ; preds = %bb1
 ; invoke <core::ptr::unique::Unique<dyn std::error::Error + core::marker::Send + core::marker::Sync>>::as_ref
-  %14 = invoke { {}*, [3 x i64]* } @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueDNtNtCs2bNvlddUlXM_3std5error5ErrorNtNtB9_6marker4SendNtB1r_4SyncEL_E6as_refCskT2QP9QPlNo_17mapped_stack_race({ i8*, i64* }* noalias readonly align 8 dereferenceable(16) %ptr)
+  %14 = invoke { {}*, [3 x i64]* } @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueDNtNtCs2bNvlddUlXM_3std5error5ErrorNtNtB9_6marker4SendNtB1r_4SyncEL_E6as_refCsfnYCCstO0CH_18mapped_static_race({ i8*, i64* }* noalias readonly align 8 dereferenceable(16) %ptr)
           to label %bb3 unwind label %cleanup, !dbg !1598
 
 bb3:                                              ; preds = %bb2
@@ -2827,7 +2827,7 @@ bb3:                                              ; preds = %bb2
 
 bb4:                                              ; preds = %bb3
 ; invoke <core::alloc::layout::Layout>::from_size_align_unchecked
-  %21 = invoke { i64, i64 } @_RNvMNtNtCs3p84KrD9aKt_4core5alloc6layoutNtB2_6Layout25from_size_align_uncheckedCskT2QP9QPlNo_17mapped_stack_race(i64 %size, i64 %align)
+  %21 = invoke { i64, i64 } @_RNvMNtNtCs3p84KrD9aKt_4core5alloc6layoutNtB2_6Layout25from_size_align_uncheckedCsfnYCCstO0CH_18mapped_static_race(i64 %size, i64 %align)
           to label %bb5 unwind label %cleanup, !dbg !1601
 
 bb5:                                              ; preds = %bb4
@@ -2843,17 +2843,17 @@ bb5:                                              ; preds = %bb4
   %25 = getelementptr inbounds { i8*, i64* }, { i8*, i64* }* %ptr, i32 0, i32 1, !dbg !1603
   %_17.1 = load i64*, i64** %25, align 8, !dbg !1603, !nonnull !4
 ; invoke <core::ptr::unique::Unique<dyn std::error::Error + core::marker::Send + core::marker::Sync>>::cast::<u8>
-  %_16 = invoke nonnull i8* @_RINvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB6_6UniqueDNtNtCs2bNvlddUlXM_3std5error5ErrorNtNtBa_6marker4SendNtB1s_4SyncEL_E4casthECskT2QP9QPlNo_17mapped_stack_race(i8* nonnull %_17.0, i64* noalias readonly align 8 dereferenceable(24) %_17.1)
+  %_16 = invoke nonnull i8* @_RINvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB6_6UniqueDNtNtCs2bNvlddUlXM_3std5error5ErrorNtNtBa_6marker4SendNtB1s_4SyncEL_E4casthECsfnYCCstO0CH_18mapped_static_race(i8* nonnull %_17.0, i64* noalias readonly align 8 dereferenceable(24) %_17.1)
           to label %bb6 unwind label %cleanup, !dbg !1603
 
 bb6:                                              ; preds = %bb5
 ; invoke <core::ptr::unique::Unique<u8> as core::convert::Into<core::ptr::non_null::NonNull<u8>>>::into
-  %_15 = invoke nonnull i8* @_RNvXs1_NtCs3p84KrD9aKt_4core7convertINtNtNtB7_3ptr6unique6UniquehEINtB5_4IntoINtNtBD_8non_null7NonNullhEE4intoCskT2QP9QPlNo_17mapped_stack_race(i8* nonnull %_16)
+  %_15 = invoke nonnull i8* @_RNvXs1_NtCs3p84KrD9aKt_4core7convertINtNtNtB7_3ptr6unique6UniquehEINtB5_4IntoINtNtBD_8non_null7NonNullhEE4intoCsfnYCCstO0CH_18mapped_static_race(i8* nonnull %_16)
           to label %bb7 unwind label %cleanup, !dbg !1603
 
 bb7:                                              ; preds = %bb6
 ; invoke <alloc::alloc::Global as core::alloc::Allocator>::deallocate
-  invoke void @_RNvXs_NtCs8RW06R9lH2S_5alloc5allocNtB4_6GlobalNtNtCs3p84KrD9aKt_4core5alloc9Allocator10deallocateCskT2QP9QPlNo_17mapped_stack_race(%"std::alloc::Global"* noalias nonnull readonly align 1 %alloc, i8* nonnull %_15, i64 %layout.0, i64 %layout.1)
+  invoke void @_RNvXs_NtCs8RW06R9lH2S_5alloc5allocNtB4_6GlobalNtNtCs3p84KrD9aKt_4core5alloc9Allocator10deallocateCsfnYCCstO0CH_18mapped_static_race(%"std::alloc::Global"* noalias nonnull readonly align 1 %alloc, i8* nonnull %_15, i64 %layout.0, i64 %layout.1)
           to label %bb8 unwind label %cleanup, !dbg !1604
 
 bb8:                                              ; preds = %bb7
@@ -2888,7 +2888,7 @@ cleanup:                                          ; preds = %bb7, %bb6, %bb5, %b
 
 ; alloc::alloc::box_free::<dyn core::any::Any + core::marker::Send, alloc::alloc::Global>
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal void @_RINvNtCs8RW06R9lH2S_5alloc5alloc8box_freeDNtNtCs3p84KrD9aKt_4core3any3AnyNtNtBI_6marker4SendEL_NtB2_6GlobalECskT2QP9QPlNo_17mapped_stack_race(i8* nonnull %0, i64* noalias readonly align 8 dereferenceable(24) %1) unnamed_addr #1 personality i32 (i32, i32, i64, %"unwind::libunwind::_Unwind_Exception"*, %"unwind::libunwind::_Unwind_Context"*)* @rust_eh_personality !dbg !1608 {
+define internal void @_RINvNtCs8RW06R9lH2S_5alloc5alloc8box_freeDNtNtCs3p84KrD9aKt_4core3any3AnyNtNtBI_6marker4SendEL_NtB2_6GlobalECsfnYCCstO0CH_18mapped_static_race(i8* nonnull %0, i64* noalias readonly align 8 dereferenceable(24) %1) unnamed_addr #1 personality i32 (i32, i32, i64, %"unwind::libunwind::_Unwind_Exception"*, %"unwind::libunwind::_Unwind_Context"*)* @rust_eh_personality !dbg !1608 {
 start:
   %layout.dbg.spill = alloca { i64, i64 }, align 8
   %align.dbg.spill = alloca i64, align 8
@@ -2905,7 +2905,7 @@ start:
   call void @llvm.dbg.declare(metadata { i8*, i64* }* %ptr, metadata !1612, metadata !DIExpression()), !dbg !1620
   call void @llvm.dbg.declare(metadata %"std::alloc::Global"* %alloc, metadata !1613, metadata !DIExpression()), !dbg !1621
 ; invoke <core::ptr::unique::Unique<dyn core::any::Any + core::marker::Send>>::as_ref
-  %7 = invoke { {}*, [3 x i64]* } @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueDNtNtB9_3any3AnyNtNtB9_6marker4SendEL_E6as_refCskT2QP9QPlNo_17mapped_stack_race({ i8*, i64* }* noalias readonly align 8 dereferenceable(16) %ptr)
+  %7 = invoke { {}*, [3 x i64]* } @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueDNtNtB9_3any3AnyNtNtB9_6marker4SendEL_E6as_refCsfnYCCstO0CH_18mapped_static_race({ i8*, i64* }* noalias readonly align 8 dereferenceable(16) %ptr)
           to label %bb1 unwind label %cleanup, !dbg !1622
 
 bb1:                                              ; preds = %start
@@ -2925,7 +2925,7 @@ bb1:                                              ; preds = %start
 
 bb2:                                              ; preds = %bb1
 ; invoke <core::ptr::unique::Unique<dyn core::any::Any + core::marker::Send>>::as_ref
-  %14 = invoke { {}*, [3 x i64]* } @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueDNtNtB9_3any3AnyNtNtB9_6marker4SendEL_E6as_refCskT2QP9QPlNo_17mapped_stack_race({ i8*, i64* }* noalias readonly align 8 dereferenceable(16) %ptr)
+  %14 = invoke { {}*, [3 x i64]* } @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueDNtNtB9_3any3AnyNtNtB9_6marker4SendEL_E6as_refCsfnYCCstO0CH_18mapped_static_race({ i8*, i64* }* noalias readonly align 8 dereferenceable(16) %ptr)
           to label %bb3 unwind label %cleanup, !dbg !1625
 
 bb3:                                              ; preds = %bb2
@@ -2945,7 +2945,7 @@ bb3:                                              ; preds = %bb2
 
 bb4:                                              ; preds = %bb3
 ; invoke <core::alloc::layout::Layout>::from_size_align_unchecked
-  %21 = invoke { i64, i64 } @_RNvMNtNtCs3p84KrD9aKt_4core5alloc6layoutNtB2_6Layout25from_size_align_uncheckedCskT2QP9QPlNo_17mapped_stack_race(i64 %size, i64 %align)
+  %21 = invoke { i64, i64 } @_RNvMNtNtCs3p84KrD9aKt_4core5alloc6layoutNtB2_6Layout25from_size_align_uncheckedCsfnYCCstO0CH_18mapped_static_race(i64 %size, i64 %align)
           to label %bb5 unwind label %cleanup, !dbg !1628
 
 bb5:                                              ; preds = %bb4
@@ -2961,17 +2961,17 @@ bb5:                                              ; preds = %bb4
   %25 = getelementptr inbounds { i8*, i64* }, { i8*, i64* }* %ptr, i32 0, i32 1, !dbg !1630
   %_17.1 = load i64*, i64** %25, align 8, !dbg !1630, !nonnull !4
 ; invoke <core::ptr::unique::Unique<dyn core::any::Any + core::marker::Send>>::cast::<u8>
-  %_16 = invoke nonnull i8* @_RINvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB6_6UniqueDNtNtBa_3any3AnyNtNtBa_6marker4SendEL_E4casthECskT2QP9QPlNo_17mapped_stack_race(i8* nonnull %_17.0, i64* noalias readonly align 8 dereferenceable(24) %_17.1)
+  %_16 = invoke nonnull i8* @_RINvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB6_6UniqueDNtNtBa_3any3AnyNtNtBa_6marker4SendEL_E4casthECsfnYCCstO0CH_18mapped_static_race(i8* nonnull %_17.0, i64* noalias readonly align 8 dereferenceable(24) %_17.1)
           to label %bb6 unwind label %cleanup, !dbg !1630
 
 bb6:                                              ; preds = %bb5
 ; invoke <core::ptr::unique::Unique<u8> as core::convert::Into<core::ptr::non_null::NonNull<u8>>>::into
-  %_15 = invoke nonnull i8* @_RNvXs1_NtCs3p84KrD9aKt_4core7convertINtNtNtB7_3ptr6unique6UniquehEINtB5_4IntoINtNtBD_8non_null7NonNullhEE4intoCskT2QP9QPlNo_17mapped_stack_race(i8* nonnull %_16)
+  %_15 = invoke nonnull i8* @_RNvXs1_NtCs3p84KrD9aKt_4core7convertINtNtNtB7_3ptr6unique6UniquehEINtB5_4IntoINtNtBD_8non_null7NonNullhEE4intoCsfnYCCstO0CH_18mapped_static_race(i8* nonnull %_16)
           to label %bb7 unwind label %cleanup, !dbg !1630
 
 bb7:                                              ; preds = %bb6
 ; invoke <alloc::alloc::Global as core::alloc::Allocator>::deallocate
-  invoke void @_RNvXs_NtCs8RW06R9lH2S_5alloc5allocNtB4_6GlobalNtNtCs3p84KrD9aKt_4core5alloc9Allocator10deallocateCskT2QP9QPlNo_17mapped_stack_race(%"std::alloc::Global"* noalias nonnull readonly align 1 %alloc, i8* nonnull %_15, i64 %layout.0, i64 %layout.1)
+  invoke void @_RNvXs_NtCs8RW06R9lH2S_5alloc5allocNtB4_6GlobalNtNtCs3p84KrD9aKt_4core5alloc9Allocator10deallocateCsfnYCCstO0CH_18mapped_static_race(%"std::alloc::Global"* noalias nonnull readonly align 1 %alloc, i8* nonnull %_15, i64 %layout.0, i64 %layout.1)
           to label %bb8 unwind label %cleanup, !dbg !1631
 
 bb8:                                              ; preds = %bb7
@@ -3006,7 +3006,7 @@ cleanup:                                          ; preds = %bb7, %bb6, %bb5, %b
 
 ; alloc::alloc::box_free::<alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>>, alloc::alloc::Global>
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal void @_RINvNtCs8RW06R9lH2S_5alloc5alloc8box_freeINtNtB4_4sync8ArcInnerINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtB14_6option6OptionINtNtB14_6result6ResultuINtNtB4_5boxed3BoxDNtNtB14_3any3AnyNtNtB14_6marker4SendEL_EEEEENtB2_6GlobalECskT2QP9QPlNo_17mapped_stack_race(i64* nonnull %0) unnamed_addr #1 personality i32 (i32, i32, i64, %"unwind::libunwind::_Unwind_Exception"*, %"unwind::libunwind::_Unwind_Context"*)* @rust_eh_personality !dbg !1635 {
+define internal void @_RINvNtCs8RW06R9lH2S_5alloc5alloc8box_freeINtNtB4_4sync8ArcInnerINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtB14_6option6OptionINtNtB14_6result6ResultuINtNtB4_5boxed3BoxDNtNtB14_3any3AnyNtNtB14_6marker4SendEL_EEEEENtB2_6GlobalECsfnYCCstO0CH_18mapped_static_race(i64* nonnull %0) unnamed_addr #1 personality i32 (i32, i32, i64, %"unwind::libunwind::_Unwind_Exception"*, %"unwind::libunwind::_Unwind_Context"*)* @rust_eh_personality !dbg !1635 {
 start:
   %layout.dbg.spill = alloca { i64, i64 }, align 8
   %align.dbg.spill = alloca i64, align 8
@@ -3020,7 +3020,7 @@ start:
   call void @llvm.dbg.declare(metadata i64** %ptr, metadata !1639, metadata !DIExpression()), !dbg !1648
   call void @llvm.dbg.declare(metadata %"std::alloc::Global"* %alloc, metadata !1640, metadata !DIExpression()), !dbg !1649
 ; invoke <core::ptr::unique::Unique<alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>>>>::as_ref
-  %_5 = invoke align 8 dereferenceable(40) %"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtB9_4cell10UnsafeCellINtNtB9_6option6OptionINtNtB9_6result6ResultuINtNtBV_5boxed3BoxDNtNtB9_3any3AnyNtNtB9_6marker4SendEL_EEEEEE6as_refCskT2QP9QPlNo_17mapped_stack_race(i64** noalias readonly align 8 dereferenceable(8) %ptr)
+  %_5 = invoke align 8 dereferenceable(40) %"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtB9_4cell10UnsafeCellINtNtB9_6option6OptionINtNtB9_6result6ResultuINtNtBV_5boxed3BoxDNtNtB9_3any3AnyNtNtB9_6marker4SendEL_EEEEEE6as_refCsfnYCCstO0CH_18mapped_static_race(i64** noalias readonly align 8 dereferenceable(8) %ptr)
           to label %bb1 unwind label %cleanup, !dbg !1650
 
 bb1:                                              ; preds = %start
@@ -3032,7 +3032,7 @@ bb1:                                              ; preds = %start
 
 bb2:                                              ; preds = %bb1
 ; invoke <core::ptr::unique::Unique<alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>>>>::as_ref
-  %_9 = invoke align 8 dereferenceable(40) %"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtB9_4cell10UnsafeCellINtNtB9_6option6OptionINtNtB9_6result6ResultuINtNtBV_5boxed3BoxDNtNtB9_3any3AnyNtNtB9_6marker4SendEL_EEEEEE6as_refCskT2QP9QPlNo_17mapped_stack_race(i64** noalias readonly align 8 dereferenceable(8) %ptr)
+  %_9 = invoke align 8 dereferenceable(40) %"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtB9_4cell10UnsafeCellINtNtB9_6option6OptionINtNtB9_6result6ResultuINtNtBV_5boxed3BoxDNtNtB9_3any3AnyNtNtB9_6marker4SendEL_EEEEEE6as_refCsfnYCCstO0CH_18mapped_static_race(i64** noalias readonly align 8 dereferenceable(8) %ptr)
           to label %bb3 unwind label %cleanup, !dbg !1653
 
 bb3:                                              ; preds = %bb2
@@ -3044,7 +3044,7 @@ bb3:                                              ; preds = %bb2
 
 bb4:                                              ; preds = %bb3
 ; invoke <core::alloc::layout::Layout>::from_size_align_unchecked
-  %4 = invoke { i64, i64 } @_RNvMNtNtCs3p84KrD9aKt_4core5alloc6layoutNtB2_6Layout25from_size_align_uncheckedCskT2QP9QPlNo_17mapped_stack_race(i64 %size, i64 %align)
+  %4 = invoke { i64, i64 } @_RNvMNtNtCs3p84KrD9aKt_4core5alloc6layoutNtB2_6Layout25from_size_align_uncheckedCsfnYCCstO0CH_18mapped_static_race(i64 %size, i64 %align)
           to label %bb5 unwind label %cleanup, !dbg !1656
 
 bb5:                                              ; preds = %bb4
@@ -3057,17 +3057,17 @@ bb5:                                              ; preds = %bb4
   call void @llvm.dbg.declare(metadata { i64, i64 }* %layout.dbg.spill, metadata !1645, metadata !DIExpression()), !dbg !1657
   %_17 = load i64*, i64** %ptr, align 8, !dbg !1658, !nonnull !4
 ; invoke <core::ptr::unique::Unique<alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>>>>::cast::<u8>
-  %_16 = invoke nonnull i8* @_RINvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB6_6UniqueINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtBa_4cell10UnsafeCellINtNtBa_6option6OptionINtNtBa_6result6ResultuINtNtBW_5boxed3BoxDNtNtBa_3any3AnyNtNtBa_6marker4SendEL_EEEEEE4casthECskT2QP9QPlNo_17mapped_stack_race(i64* nonnull %_17)
+  %_16 = invoke nonnull i8* @_RINvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB6_6UniqueINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtBa_4cell10UnsafeCellINtNtBa_6option6OptionINtNtBa_6result6ResultuINtNtBW_5boxed3BoxDNtNtBa_3any3AnyNtNtBa_6marker4SendEL_EEEEEE4casthECsfnYCCstO0CH_18mapped_static_race(i64* nonnull %_17)
           to label %bb6 unwind label %cleanup, !dbg !1658
 
 bb6:                                              ; preds = %bb5
 ; invoke <core::ptr::unique::Unique<u8> as core::convert::Into<core::ptr::non_null::NonNull<u8>>>::into
-  %_15 = invoke nonnull i8* @_RNvXs1_NtCs3p84KrD9aKt_4core7convertINtNtNtB7_3ptr6unique6UniquehEINtB5_4IntoINtNtBD_8non_null7NonNullhEE4intoCskT2QP9QPlNo_17mapped_stack_race(i8* nonnull %_16)
+  %_15 = invoke nonnull i8* @_RNvXs1_NtCs3p84KrD9aKt_4core7convertINtNtNtB7_3ptr6unique6UniquehEINtB5_4IntoINtNtBD_8non_null7NonNullhEE4intoCsfnYCCstO0CH_18mapped_static_race(i8* nonnull %_16)
           to label %bb7 unwind label %cleanup, !dbg !1658
 
 bb7:                                              ; preds = %bb6
 ; invoke <alloc::alloc::Global as core::alloc::Allocator>::deallocate
-  invoke void @_RNvXs_NtCs8RW06R9lH2S_5alloc5allocNtB4_6GlobalNtNtCs3p84KrD9aKt_4core5alloc9Allocator10deallocateCskT2QP9QPlNo_17mapped_stack_race(%"std::alloc::Global"* noalias nonnull readonly align 1 %alloc, i8* nonnull %_15, i64 %layout.0, i64 %layout.1)
+  invoke void @_RNvXs_NtCs8RW06R9lH2S_5alloc5allocNtB4_6GlobalNtNtCs3p84KrD9aKt_4core5alloc9Allocator10deallocateCsfnYCCstO0CH_18mapped_static_race(%"std::alloc::Global"* noalias nonnull readonly align 1 %alloc, i8* nonnull %_15, i64 %layout.0, i64 %layout.1)
           to label %bb8 unwind label %cleanup, !dbg !1659
 
 bb8:                                              ; preds = %bb7
@@ -3102,7 +3102,7 @@ cleanup:                                          ; preds = %bb7, %bb6, %bb5, %b
 
 ; alloc::alloc::box_free::<std::io::error::Custom, alloc::alloc::Global>
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal void @_RINvNtCs8RW06R9lH2S_5alloc5alloc8box_freeNtNtNtCs2bNvlddUlXM_3std2io5error6CustomNtB2_6GlobalECskT2QP9QPlNo_17mapped_stack_race(i64* nonnull %0) unnamed_addr #1 personality i32 (i32, i32, i64, %"unwind::libunwind::_Unwind_Exception"*, %"unwind::libunwind::_Unwind_Context"*)* @rust_eh_personality !dbg !1663 {
+define internal void @_RINvNtCs8RW06R9lH2S_5alloc5alloc8box_freeNtNtNtCs2bNvlddUlXM_3std2io5error6CustomNtB2_6GlobalECsfnYCCstO0CH_18mapped_static_race(i64* nonnull %0) unnamed_addr #1 personality i32 (i32, i32, i64, %"unwind::libunwind::_Unwind_Exception"*, %"unwind::libunwind::_Unwind_Context"*)* @rust_eh_personality !dbg !1663 {
 start:
   %layout.dbg.spill = alloca { i64, i64 }, align 8
   %align.dbg.spill = alloca i64, align 8
@@ -3116,7 +3116,7 @@ start:
   call void @llvm.dbg.declare(metadata i64** %ptr, metadata !1667, metadata !DIExpression()), !dbg !1676
   call void @llvm.dbg.declare(metadata %"std::alloc::Global"* %alloc, metadata !1668, metadata !DIExpression()), !dbg !1677
 ; invoke <core::ptr::unique::Unique<std::io::error::Custom>>::as_ref
-  %_5 = invoke align 8 dereferenceable(24) %"std::io::error::Custom"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueNtNtNtCs2bNvlddUlXM_3std2io5error6CustomE6as_refCskT2QP9QPlNo_17mapped_stack_race(i64** noalias readonly align 8 dereferenceable(8) %ptr)
+  %_5 = invoke align 8 dereferenceable(24) %"std::io::error::Custom"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueNtNtNtCs2bNvlddUlXM_3std2io5error6CustomE6as_refCsfnYCCstO0CH_18mapped_static_race(i64** noalias readonly align 8 dereferenceable(8) %ptr)
           to label %bb1 unwind label %cleanup, !dbg !1678
 
 bb1:                                              ; preds = %start
@@ -3128,7 +3128,7 @@ bb1:                                              ; preds = %start
 
 bb2:                                              ; preds = %bb1
 ; invoke <core::ptr::unique::Unique<std::io::error::Custom>>::as_ref
-  %_9 = invoke align 8 dereferenceable(24) %"std::io::error::Custom"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueNtNtNtCs2bNvlddUlXM_3std2io5error6CustomE6as_refCskT2QP9QPlNo_17mapped_stack_race(i64** noalias readonly align 8 dereferenceable(8) %ptr)
+  %_9 = invoke align 8 dereferenceable(24) %"std::io::error::Custom"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueNtNtNtCs2bNvlddUlXM_3std2io5error6CustomE6as_refCsfnYCCstO0CH_18mapped_static_race(i64** noalias readonly align 8 dereferenceable(8) %ptr)
           to label %bb3 unwind label %cleanup, !dbg !1681
 
 bb3:                                              ; preds = %bb2
@@ -3140,7 +3140,7 @@ bb3:                                              ; preds = %bb2
 
 bb4:                                              ; preds = %bb3
 ; invoke <core::alloc::layout::Layout>::from_size_align_unchecked
-  %4 = invoke { i64, i64 } @_RNvMNtNtCs3p84KrD9aKt_4core5alloc6layoutNtB2_6Layout25from_size_align_uncheckedCskT2QP9QPlNo_17mapped_stack_race(i64 %size, i64 %align)
+  %4 = invoke { i64, i64 } @_RNvMNtNtCs3p84KrD9aKt_4core5alloc6layoutNtB2_6Layout25from_size_align_uncheckedCsfnYCCstO0CH_18mapped_static_race(i64 %size, i64 %align)
           to label %bb5 unwind label %cleanup, !dbg !1684
 
 bb5:                                              ; preds = %bb4
@@ -3153,17 +3153,17 @@ bb5:                                              ; preds = %bb4
   call void @llvm.dbg.declare(metadata { i64, i64 }* %layout.dbg.spill, metadata !1673, metadata !DIExpression()), !dbg !1685
   %_17 = load i64*, i64** %ptr, align 8, !dbg !1686, !nonnull !4
 ; invoke <core::ptr::unique::Unique<std::io::error::Custom>>::cast::<u8>
-  %_16 = invoke nonnull i8* @_RINvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB6_6UniqueNtNtNtCs2bNvlddUlXM_3std2io5error6CustomE4casthECskT2QP9QPlNo_17mapped_stack_race(i64* nonnull %_17)
+  %_16 = invoke nonnull i8* @_RINvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB6_6UniqueNtNtNtCs2bNvlddUlXM_3std2io5error6CustomE4casthECsfnYCCstO0CH_18mapped_static_race(i64* nonnull %_17)
           to label %bb6 unwind label %cleanup, !dbg !1686
 
 bb6:                                              ; preds = %bb5
 ; invoke <core::ptr::unique::Unique<u8> as core::convert::Into<core::ptr::non_null::NonNull<u8>>>::into
-  %_15 = invoke nonnull i8* @_RNvXs1_NtCs3p84KrD9aKt_4core7convertINtNtNtB7_3ptr6unique6UniquehEINtB5_4IntoINtNtBD_8non_null7NonNullhEE4intoCskT2QP9QPlNo_17mapped_stack_race(i8* nonnull %_16)
+  %_15 = invoke nonnull i8* @_RNvXs1_NtCs3p84KrD9aKt_4core7convertINtNtNtB7_3ptr6unique6UniquehEINtB5_4IntoINtNtBD_8non_null7NonNullhEE4intoCsfnYCCstO0CH_18mapped_static_race(i8* nonnull %_16)
           to label %bb7 unwind label %cleanup, !dbg !1686
 
 bb7:                                              ; preds = %bb6
 ; invoke <alloc::alloc::Global as core::alloc::Allocator>::deallocate
-  invoke void @_RNvXs_NtCs8RW06R9lH2S_5alloc5allocNtB4_6GlobalNtNtCs3p84KrD9aKt_4core5alloc9Allocator10deallocateCskT2QP9QPlNo_17mapped_stack_race(%"std::alloc::Global"* noalias nonnull readonly align 1 %alloc, i8* nonnull %_15, i64 %layout.0, i64 %layout.1)
+  invoke void @_RNvXs_NtCs8RW06R9lH2S_5alloc5allocNtB4_6GlobalNtNtCs3p84KrD9aKt_4core5alloc9Allocator10deallocateCsfnYCCstO0CH_18mapped_static_race(%"std::alloc::Global"* noalias nonnull readonly align 1 %alloc, i8* nonnull %_15, i64 %layout.0, i64 %layout.1)
           to label %bb8 unwind label %cleanup, !dbg !1687
 
 bb8:                                              ; preds = %bb7
@@ -3198,7 +3198,7 @@ cleanup:                                          ; preds = %bb7, %bb6, %bb5, %b
 
 ; alloc::alloc::box_free::<std::sys::unix::mutex::Mutex, alloc::alloc::Global>
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal void @_RINvNtCs8RW06R9lH2S_5alloc5alloc8box_freeNtNtNtNtCs2bNvlddUlXM_3std3sys4unix5mutex5MutexNtB2_6GlobalECskT2QP9QPlNo_17mapped_stack_race(i64* nonnull %0) unnamed_addr #1 personality i32 (i32, i32, i64, %"unwind::libunwind::_Unwind_Exception"*, %"unwind::libunwind::_Unwind_Context"*)* @rust_eh_personality !dbg !1691 {
+define internal void @_RINvNtCs8RW06R9lH2S_5alloc5alloc8box_freeNtNtNtNtCs2bNvlddUlXM_3std3sys4unix5mutex5MutexNtB2_6GlobalECsfnYCCstO0CH_18mapped_static_race(i64* nonnull %0) unnamed_addr #1 personality i32 (i32, i32, i64, %"unwind::libunwind::_Unwind_Exception"*, %"unwind::libunwind::_Unwind_Context"*)* @rust_eh_personality !dbg !1691 {
 start:
   %layout.dbg.spill = alloca { i64, i64 }, align 8
   %align.dbg.spill = alloca i64, align 8
@@ -3212,7 +3212,7 @@ start:
   call void @llvm.dbg.declare(metadata i64** %ptr, metadata !1695, metadata !DIExpression()), !dbg !1704
   call void @llvm.dbg.declare(metadata %"std::alloc::Global"* %alloc, metadata !1696, metadata !DIExpression()), !dbg !1705
 ; invoke <core::ptr::unique::Unique<std::sys::unix::mutex::Mutex>>::as_ref
-  %_5 = invoke align 8 dereferenceable(40) %"std::sys::unix::mutex::Mutex"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueNtNtNtNtCs2bNvlddUlXM_3std3sys4unix5mutex5MutexE6as_refCskT2QP9QPlNo_17mapped_stack_race(i64** noalias readonly align 8 dereferenceable(8) %ptr)
+  %_5 = invoke align 8 dereferenceable(40) %"std::sys::unix::mutex::Mutex"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueNtNtNtNtCs2bNvlddUlXM_3std3sys4unix5mutex5MutexE6as_refCsfnYCCstO0CH_18mapped_static_race(i64** noalias readonly align 8 dereferenceable(8) %ptr)
           to label %bb1 unwind label %cleanup, !dbg !1706
 
 bb1:                                              ; preds = %start
@@ -3224,7 +3224,7 @@ bb1:                                              ; preds = %start
 
 bb2:                                              ; preds = %bb1
 ; invoke <core::ptr::unique::Unique<std::sys::unix::mutex::Mutex>>::as_ref
-  %_9 = invoke align 8 dereferenceable(40) %"std::sys::unix::mutex::Mutex"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueNtNtNtNtCs2bNvlddUlXM_3std3sys4unix5mutex5MutexE6as_refCskT2QP9QPlNo_17mapped_stack_race(i64** noalias readonly align 8 dereferenceable(8) %ptr)
+  %_9 = invoke align 8 dereferenceable(40) %"std::sys::unix::mutex::Mutex"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueNtNtNtNtCs2bNvlddUlXM_3std3sys4unix5mutex5MutexE6as_refCsfnYCCstO0CH_18mapped_static_race(i64** noalias readonly align 8 dereferenceable(8) %ptr)
           to label %bb3 unwind label %cleanup, !dbg !1709
 
 bb3:                                              ; preds = %bb2
@@ -3236,7 +3236,7 @@ bb3:                                              ; preds = %bb2
 
 bb4:                                              ; preds = %bb3
 ; invoke <core::alloc::layout::Layout>::from_size_align_unchecked
-  %4 = invoke { i64, i64 } @_RNvMNtNtCs3p84KrD9aKt_4core5alloc6layoutNtB2_6Layout25from_size_align_uncheckedCskT2QP9QPlNo_17mapped_stack_race(i64 %size, i64 %align)
+  %4 = invoke { i64, i64 } @_RNvMNtNtCs3p84KrD9aKt_4core5alloc6layoutNtB2_6Layout25from_size_align_uncheckedCsfnYCCstO0CH_18mapped_static_race(i64 %size, i64 %align)
           to label %bb5 unwind label %cleanup, !dbg !1712
 
 bb5:                                              ; preds = %bb4
@@ -3249,17 +3249,17 @@ bb5:                                              ; preds = %bb4
   call void @llvm.dbg.declare(metadata { i64, i64 }* %layout.dbg.spill, metadata !1701, metadata !DIExpression()), !dbg !1713
   %_17 = load i64*, i64** %ptr, align 8, !dbg !1714, !nonnull !4
 ; invoke <core::ptr::unique::Unique<std::sys::unix::mutex::Mutex>>::cast::<u8>
-  %_16 = invoke nonnull i8* @_RINvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB6_6UniqueNtNtNtNtCs2bNvlddUlXM_3std3sys4unix5mutex5MutexE4casthECskT2QP9QPlNo_17mapped_stack_race(i64* nonnull %_17)
+  %_16 = invoke nonnull i8* @_RINvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB6_6UniqueNtNtNtNtCs2bNvlddUlXM_3std3sys4unix5mutex5MutexE4casthECsfnYCCstO0CH_18mapped_static_race(i64* nonnull %_17)
           to label %bb6 unwind label %cleanup, !dbg !1714
 
 bb6:                                              ; preds = %bb5
 ; invoke <core::ptr::unique::Unique<u8> as core::convert::Into<core::ptr::non_null::NonNull<u8>>>::into
-  %_15 = invoke nonnull i8* @_RNvXs1_NtCs3p84KrD9aKt_4core7convertINtNtNtB7_3ptr6unique6UniquehEINtB5_4IntoINtNtBD_8non_null7NonNullhEE4intoCskT2QP9QPlNo_17mapped_stack_race(i8* nonnull %_16)
+  %_15 = invoke nonnull i8* @_RNvXs1_NtCs3p84KrD9aKt_4core7convertINtNtNtB7_3ptr6unique6UniquehEINtB5_4IntoINtNtBD_8non_null7NonNullhEE4intoCsfnYCCstO0CH_18mapped_static_race(i8* nonnull %_16)
           to label %bb7 unwind label %cleanup, !dbg !1714
 
 bb7:                                              ; preds = %bb6
 ; invoke <alloc::alloc::Global as core::alloc::Allocator>::deallocate
-  invoke void @_RNvXs_NtCs8RW06R9lH2S_5alloc5allocNtB4_6GlobalNtNtCs3p84KrD9aKt_4core5alloc9Allocator10deallocateCskT2QP9QPlNo_17mapped_stack_race(%"std::alloc::Global"* noalias nonnull readonly align 1 %alloc, i8* nonnull %_15, i64 %layout.0, i64 %layout.1)
+  invoke void @_RNvXs_NtCs8RW06R9lH2S_5alloc5allocNtB4_6GlobalNtNtCs3p84KrD9aKt_4core5alloc9Allocator10deallocateCsfnYCCstO0CH_18mapped_static_race(%"std::alloc::Global"* noalias nonnull readonly align 1 %alloc, i8* nonnull %_15, i64 %layout.0, i64 %layout.1)
           to label %bb8 unwind label %cleanup, !dbg !1715
 
 bb8:                                              ; preds = %bb7
@@ -3294,7 +3294,7 @@ cleanup:                                          ; preds = %bb7, %bb6, %bb5, %b
 
 ; alloc::alloc::box_free::<[u8], alloc::alloc::Global>
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal void @_RINvNtCs8RW06R9lH2S_5alloc5alloc8box_freeShNtB2_6GlobalECskT2QP9QPlNo_17mapped_stack_race(i8* nonnull %0, i64 %1) unnamed_addr #1 personality i32 (i32, i32, i64, %"unwind::libunwind::_Unwind_Exception"*, %"unwind::libunwind::_Unwind_Context"*)* @rust_eh_personality !dbg !1719 {
+define internal void @_RINvNtCs8RW06R9lH2S_5alloc5alloc8box_freeShNtB2_6GlobalECsfnYCCstO0CH_18mapped_static_race(i8* nonnull %0, i64 %1) unnamed_addr #1 personality i32 (i32, i32, i64, %"unwind::libunwind::_Unwind_Exception"*, %"unwind::libunwind::_Unwind_Context"*)* @rust_eh_personality !dbg !1719 {
 start:
   %layout.dbg.spill = alloca { i64, i64 }, align 8
   %align.dbg.spill = alloca i64, align 8
@@ -3311,7 +3311,7 @@ start:
   call void @llvm.dbg.declare(metadata { i8*, i64 }* %ptr, metadata !1723, metadata !DIExpression()), !dbg !1731
   call void @llvm.dbg.declare(metadata %"std::alloc::Global"* %alloc, metadata !1724, metadata !DIExpression()), !dbg !1732
 ; invoke <core::ptr::unique::Unique<[u8]>>::as_ref
-  %7 = invoke { [0 x i8]*, i64 } @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueShE6as_refCskT2QP9QPlNo_17mapped_stack_race({ i8*, i64 }* noalias readonly align 8 dereferenceable(16) %ptr)
+  %7 = invoke { [0 x i8]*, i64 } @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueShE6as_refCsfnYCCstO0CH_18mapped_static_race({ i8*, i64 }* noalias readonly align 8 dereferenceable(16) %ptr)
           to label %bb1 unwind label %cleanup, !dbg !1733
 
 bb1:                                              ; preds = %start
@@ -3326,7 +3326,7 @@ bb1:                                              ; preds = %start
 
 bb2:                                              ; preds = %bb1
 ; invoke <core::ptr::unique::Unique<[u8]>>::as_ref
-  %9 = invoke { [0 x i8]*, i64 } @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueShE6as_refCskT2QP9QPlNo_17mapped_stack_race({ i8*, i64 }* noalias readonly align 8 dereferenceable(16) %ptr)
+  %9 = invoke { [0 x i8]*, i64 } @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueShE6as_refCsfnYCCstO0CH_18mapped_static_race({ i8*, i64 }* noalias readonly align 8 dereferenceable(16) %ptr)
           to label %bb3 unwind label %cleanup, !dbg !1736
 
 bb3:                                              ; preds = %bb2
@@ -3341,7 +3341,7 @@ bb3:                                              ; preds = %bb2
 
 bb4:                                              ; preds = %bb3
 ; invoke <core::alloc::layout::Layout>::from_size_align_unchecked
-  %11 = invoke { i64, i64 } @_RNvMNtNtCs3p84KrD9aKt_4core5alloc6layoutNtB2_6Layout25from_size_align_uncheckedCskT2QP9QPlNo_17mapped_stack_race(i64 %size, i64 %align)
+  %11 = invoke { i64, i64 } @_RNvMNtNtCs3p84KrD9aKt_4core5alloc6layoutNtB2_6Layout25from_size_align_uncheckedCsfnYCCstO0CH_18mapped_static_race(i64 %size, i64 %align)
           to label %bb5 unwind label %cleanup, !dbg !1739
 
 bb5:                                              ; preds = %bb4
@@ -3357,17 +3357,17 @@ bb5:                                              ; preds = %bb4
   %15 = getelementptr inbounds { i8*, i64 }, { i8*, i64 }* %ptr, i32 0, i32 1, !dbg !1741
   %_17.1 = load i64, i64* %15, align 8, !dbg !1741
 ; invoke <core::ptr::unique::Unique<[u8]>>::cast::<u8>
-  %_16 = invoke nonnull i8* @_RINvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB6_6UniqueShE4casthECskT2QP9QPlNo_17mapped_stack_race(i8* nonnull %_17.0, i64 %_17.1)
+  %_16 = invoke nonnull i8* @_RINvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB6_6UniqueShE4casthECsfnYCCstO0CH_18mapped_static_race(i8* nonnull %_17.0, i64 %_17.1)
           to label %bb6 unwind label %cleanup, !dbg !1741
 
 bb6:                                              ; preds = %bb5
 ; invoke <core::ptr::unique::Unique<u8> as core::convert::Into<core::ptr::non_null::NonNull<u8>>>::into
-  %_15 = invoke nonnull i8* @_RNvXs1_NtCs3p84KrD9aKt_4core7convertINtNtNtB7_3ptr6unique6UniquehEINtB5_4IntoINtNtBD_8non_null7NonNullhEE4intoCskT2QP9QPlNo_17mapped_stack_race(i8* nonnull %_16)
+  %_15 = invoke nonnull i8* @_RNvXs1_NtCs3p84KrD9aKt_4core7convertINtNtNtB7_3ptr6unique6UniquehEINtB5_4IntoINtNtBD_8non_null7NonNullhEE4intoCsfnYCCstO0CH_18mapped_static_race(i8* nonnull %_16)
           to label %bb7 unwind label %cleanup, !dbg !1741
 
 bb7:                                              ; preds = %bb6
 ; invoke <alloc::alloc::Global as core::alloc::Allocator>::deallocate
-  invoke void @_RNvXs_NtCs8RW06R9lH2S_5alloc5allocNtB4_6GlobalNtNtCs3p84KrD9aKt_4core5alloc9Allocator10deallocateCskT2QP9QPlNo_17mapped_stack_race(%"std::alloc::Global"* noalias nonnull readonly align 1 %alloc, i8* nonnull %_15, i64 %layout.0, i64 %layout.1)
+  invoke void @_RNvXs_NtCs8RW06R9lH2S_5alloc5allocNtB4_6GlobalNtNtCs3p84KrD9aKt_4core5alloc9Allocator10deallocateCsfnYCCstO0CH_18mapped_static_race(%"std::alloc::Global"* noalias nonnull readonly align 1 %alloc, i8* nonnull %_15, i64 %layout.0, i64 %layout.1)
           to label %bb8 unwind label %cleanup, !dbg !1742
 
 bb8:                                              ; preds = %bb7
@@ -3402,7 +3402,7 @@ cleanup:                                          ; preds = %bb7, %bb6, %bb5, %b
 
 ; std::sys_common::backtrace::__rust_begin_short_backtrace::<fn(), ()>
 ; Function Attrs: noinline nonlazybind uwtable
-define internal void @_RINvNtNtCs2bNvlddUlXM_3std10sys_common9backtrace28___rust_begin_short_backtraceFEuuECskT2QP9QPlNo_17mapped_stack_race(void ()* nonnull %f) unnamed_addr #2 personality i32 (i32, i32, i64, %"unwind::libunwind::_Unwind_Exception"*, %"unwind::libunwind::_Unwind_Context"*)* @rust_eh_personality !dbg !1746 {
+define internal void @_RINvNtNtCs2bNvlddUlXM_3std10sys_common9backtrace28___rust_begin_short_backtraceFEuuECsfnYCCstO0CH_18mapped_static_race(void ()* nonnull %f) unnamed_addr #2 personality i32 (i32, i32, i64, %"unwind::libunwind::_Unwind_Exception"*, %"unwind::libunwind::_Unwind_Context"*)* @rust_eh_personality !dbg !1746 {
 start:
   %0 = alloca { i8*, i32 }, align 8
   %f.dbg.spill = alloca void ()*, align 8
@@ -3413,12 +3413,12 @@ start:
   store void ()* %f, void ()** %f.dbg.spill, align 8
   call void @llvm.dbg.declare(metadata void ()** %f.dbg.spill, metadata !1752, metadata !DIExpression()), !dbg !1758
 ; call <fn() as core::ops::function::FnOnce<()>>::call_once
-  call void @_RNvYFEuINtNtNtCs3p84KrD9aKt_4core3ops8function6FnOnceuE9call_onceCskT2QP9QPlNo_17mapped_stack_race(void ()* nonnull %f), !dbg !1759
+  call void @_RNvYFEuINtNtNtCs3p84KrD9aKt_4core3ops8function6FnOnceuE9call_onceCsfnYCCstO0CH_18mapped_static_race(void ()* nonnull %f), !dbg !1759
   br label %bb1, !dbg !1759
 
 bb1:                                              ; preds = %start
 ; invoke core::hint::black_box::<()>
-  invoke void @_RINvNtCs3p84KrD9aKt_4core4hint9black_boxuECskT2QP9QPlNo_17mapped_stack_race()
+  invoke void @_RINvNtCs3p84KrD9aKt_4core4hint9black_boxuECsfnYCCstO0CH_18mapped_static_race()
           to label %bb2 unwind label %cleanup, !dbg !1760
 
 bb2:                                              ; preds = %bb1
@@ -3448,9 +3448,9 @@ cleanup:                                          ; preds = %bb1
   br label %bb3
 }
 
-; std::sys_common::backtrace::__rust_begin_short_backtrace::<mapped_stack_race::main::{closure#0}, ()>
+; std::sys_common::backtrace::__rust_begin_short_backtrace::<mapped_static_race::main::{closure#0}, ()>
 ; Function Attrs: noinline nonlazybind uwtable
-define internal void @_RINvNtNtCs2bNvlddUlXM_3std10sys_common9backtrace28___rust_begin_short_backtraceNCNvCskT2QP9QPlNo_17mapped_stack_race4main0uEB1j_() unnamed_addr #2 personality i32 (i32, i32, i64, %"unwind::libunwind::_Unwind_Exception"*, %"unwind::libunwind::_Unwind_Context"*)* @rust_eh_personality !dbg !1764 {
+define internal void @_RINvNtNtCs2bNvlddUlXM_3std10sys_common9backtrace28___rust_begin_short_backtraceNCNvCsfnYCCstO0CH_18mapped_static_race4main0uEB1j_() unnamed_addr #2 personality i32 (i32, i32, i64, %"unwind::libunwind::_Unwind_Exception"*, %"unwind::libunwind::_Unwind_Context"*)* @rust_eh_personality !dbg !1764 {
 start:
   %0 = alloca { i8*, i32 }, align 8
   %f.dbg.spill = alloca %"[closure@src/main.rs:10:30: 13:3]", align 1
@@ -3459,13 +3459,13 @@ start:
   %_3 = alloca {}, align 1
   call void @llvm.dbg.declare(metadata {}* %result.dbg.spill, metadata !1769, metadata !DIExpression()), !dbg !1771
   call void @llvm.dbg.declare(metadata %"[closure@src/main.rs:10:30: 13:3]"* %f.dbg.spill, metadata !1768, metadata !DIExpression()), !dbg !1772
-; call mapped_stack_race::main::{closure#0}
-  call void @_RNCNvCskT2QP9QPlNo_17mapped_stack_race4main0B3_(), !dbg !1773
+; call mapped_static_race::main::{closure#0}
+  call void @_RNCNvCsfnYCCstO0CH_18mapped_static_race4main0B3_(), !dbg !1773
   br label %bb1, !dbg !1773
 
 bb1:                                              ; preds = %start
 ; invoke core::hint::black_box::<()>
-  invoke void @_RINvNtCs3p84KrD9aKt_4core4hint9black_boxuECskT2QP9QPlNo_17mapped_stack_race()
+  invoke void @_RINvNtCs3p84KrD9aKt_4core4hint9black_boxuECsfnYCCstO0CH_18mapped_static_race()
           to label %bb2 unwind label %cleanup, !dbg !1774
 
 bb2:                                              ; preds = %bb1
@@ -3497,7 +3497,7 @@ cleanup:                                          ; preds = %bb1
 
 ; core::sync::atomic::atomic_add::<usize>
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal i64 @_RINvNtNtCs3p84KrD9aKt_4core4sync6atomic10atomic_addjECskT2QP9QPlNo_17mapped_stack_race(i64* %dst, i64 %val, i8 %0) unnamed_addr #1 !dbg !1778 {
+define internal i64 @_RINvNtNtCs3p84KrD9aKt_4core4sync6atomic10atomic_addjECsfnYCCstO0CH_18mapped_static_race(i64* %dst, i64 %val, i8 %0) unnamed_addr #1 !dbg !1778 {
 start:
   %val.dbg.spill = alloca i64, align 8
   %dst.dbg.spill = alloca i64*, align 8
@@ -3569,7 +3569,7 @@ bb12:                                             ; preds = %bb10, %bb6, %bb4, %
 
 ; core::sync::atomic::atomic_sub::<usize>
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal i64 @_RINvNtNtCs3p84KrD9aKt_4core4sync6atomic10atomic_subjECskT2QP9QPlNo_17mapped_stack_race(i64* %dst, i64 %val, i8 %0) unnamed_addr #1 !dbg !1800 {
+define internal i64 @_RINvNtNtCs3p84KrD9aKt_4core4sync6atomic10atomic_subjECsfnYCCstO0CH_18mapped_static_race(i64* %dst, i64 %val, i8 %0) unnamed_addr #1 !dbg !1800 {
 start:
   %val.dbg.spill = alloca i64, align 8
   %dst.dbg.spill = alloca i64*, align 8
@@ -3639,9 +3639,9 @@ bb12:                                             ; preds = %bb10, %bb6, %bb4, %
   ret i64 %8, !dbg !1816
 }
 
-; std::panicking::try::do_call::<std::panic::AssertUnwindSafe<<std::thread::Builder>::spawn_unchecked<mapped_stack_race::main::{closure#0}, ()>::{closure#0}::{closure#0}>, ()>
+; std::panicking::try::do_call::<std::panic::AssertUnwindSafe<<std::thread::Builder>::spawn_unchecked<mapped_static_race::main::{closure#0}, ()>::{closure#0}::{closure#0}>, ()>
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal void @_RINvNvNtCs2bNvlddUlXM_3std9panicking3try7do_callINtNtB6_5panic16AssertUnwindSafeNCNCINvMNtB6_6threadNtB1o_7Builder15spawn_uncheckedNCNvCskT2QP9QPlNo_17mapped_stack_race4main0uE00EuEB29_(i8* %data) unnamed_addr #1 !dbg !1817 {
+define internal void @_RINvNvNtCs2bNvlddUlXM_3std9panicking3try7do_callINtNtB6_5panic16AssertUnwindSafeNCNCINvMNtB6_6threadNtB1o_7Builder15spawn_uncheckedNCNvCsfnYCCstO0CH_18mapped_static_race4main0uE00EuEB29_(i8* %data) unnamed_addr #1 !dbg !1817 {
 start:
   %0 = alloca %"std::mem::ManuallyDrop<()>", align 1
   %data.dbg.spill3 = alloca { i8*, i8* }*, align 8
@@ -3658,13 +3658,13 @@ start:
   store { i8*, i8* }* %data1, { i8*, i8* }** %data.dbg.spill3, align 8, !dbg !1834
   call void @llvm.dbg.declare(metadata { i8*, i8* }** %data.dbg.spill3, metadata !1825, metadata !DIExpression()), !dbg !1835
   %_7 = bitcast { i8*, i8* }* %data1 to %"std::mem::ManuallyDrop<std::panic::AssertUnwindSafe<[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:10:30: 13:3], ()>::{closure#0}::{closure#0}]>>"*, !dbg !1836
-; call <core::mem::manually_drop::ManuallyDrop<std::panic::AssertUnwindSafe<<std::thread::Builder>::spawn_unchecked<mapped_stack_race::main::{closure#0}, ()>::{closure#0}::{closure#0}>>>::take
-  call void @_RNvMNtNtCs3p84KrD9aKt_4core3mem13manually_dropINtB2_12ManuallyDropINtNtCs2bNvlddUlXM_3std5panic16AssertUnwindSafeNCNCINvMNtB17_6threadNtB1V_7Builder15spawn_uncheckedNCNvCskT2QP9QPlNo_17mapped_stack_race4main0uE00EE4takeB2H_(%"std::mem::ManuallyDrop<std::panic::AssertUnwindSafe<[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:10:30: 13:3], ()>::{closure#0}::{closure#0}]>>"* nonnull align 1 %_7), !dbg !1837
+; call <core::mem::manually_drop::ManuallyDrop<std::panic::AssertUnwindSafe<<std::thread::Builder>::spawn_unchecked<mapped_static_race::main::{closure#0}, ()>::{closure#0}::{closure#0}>>>::take
+  call void @_RNvMNtNtCs3p84KrD9aKt_4core3mem13manually_dropINtB2_12ManuallyDropINtNtCs2bNvlddUlXM_3std5panic16AssertUnwindSafeNCNCINvMNtB17_6threadNtB1V_7Builder15spawn_uncheckedNCNvCsfnYCCstO0CH_18mapped_static_race4main0uE00EE4takeB2H_(%"std::mem::ManuallyDrop<std::panic::AssertUnwindSafe<[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:10:30: 13:3], ()>::{closure#0}::{closure#0}]>>"* nonnull align 1 %_7), !dbg !1837
   br label %bb1, !dbg !1837
 
 bb1:                                              ; preds = %start
-; call <std::panic::AssertUnwindSafe<<std::thread::Builder>::spawn_unchecked<mapped_stack_race::main::{closure#0}, ()>::{closure#0}::{closure#0}> as core::ops::function::FnOnce<()>>::call_once
-  call void @_RNvXss_NtCs2bNvlddUlXM_3std5panicINtB5_16AssertUnwindSafeNCNCINvMNtB7_6threadNtB11_7Builder15spawn_uncheckedNCNvCskT2QP9QPlNo_17mapped_stack_race4main0uE00EINtNtNtCs3p84KrD9aKt_4core3ops8function6FnOnceuE9call_onceB1M_(), !dbg !1838
+; call <std::panic::AssertUnwindSafe<<std::thread::Builder>::spawn_unchecked<mapped_static_race::main::{closure#0}, ()>::{closure#0}::{closure#0}> as core::ops::function::FnOnce<()>>::call_once
+  call void @_RNvXss_NtCs2bNvlddUlXM_3std5panicINtB5_16AssertUnwindSafeNCNCINvMNtB7_6threadNtB11_7Builder15spawn_uncheckedNCNvCsfnYCCstO0CH_18mapped_static_race4main0uE00EINtNtNtCs3p84KrD9aKt_4core3ops8function6FnOnceuE9call_onceB1M_(), !dbg !1838
   br label %bb2, !dbg !1838
 
 bb2:                                              ; preds = %bb1
@@ -3677,9 +3677,9 @@ bb3:                                              ; preds = %bb2
   ret void, !dbg !1847
 }
 
-; std::panicking::try::do_catch::<std::panic::AssertUnwindSafe<<std::thread::Builder>::spawn_unchecked<mapped_stack_race::main::{closure#0}, ()>::{closure#0}::{closure#0}>, ()>
+; std::panicking::try::do_catch::<std::panic::AssertUnwindSafe<<std::thread::Builder>::spawn_unchecked<mapped_static_race::main::{closure#0}, ()>::{closure#0}::{closure#0}>, ()>
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal void @_RINvNvNtCs2bNvlddUlXM_3std9panicking3try8do_catchINtNtB6_5panic16AssertUnwindSafeNCNCINvMNtB6_6threadNtB1p_7Builder15spawn_uncheckedNCNvCskT2QP9QPlNo_17mapped_stack_race4main0uE00EuEB2a_(i8* %data, i8* %payload) unnamed_addr #1 !dbg !1848 {
+define internal void @_RINvNvNtCs2bNvlddUlXM_3std9panicking3try8do_catchINtNtB6_5panic16AssertUnwindSafeNCNCINvMNtB6_6threadNtB1p_7Builder15spawn_uncheckedNCNvCsfnYCCstO0CH_18mapped_static_race4main0uE00EuEB2a_(i8* %data, i8* %payload) unnamed_addr #1 !dbg !1848 {
 start:
   %value.dbg.spill.i = alloca { {}*, [3 x i64]* }, align 8
   %0 = alloca { i8*, i64* }, align 8
@@ -3738,9 +3738,9 @@ bb2:                                              ; preds = %bb1
   ret void, !dbg !1883
 }
 
-; <std::thread::Builder>::spawn_unchecked::<mapped_stack_race::main::{closure#0}, ()>::{closure#0}
+; <std::thread::Builder>::spawn_unchecked::<mapped_static_race::main::{closure#0}, ()>::{closure#0}
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal void @_RNCINvMNtCs2bNvlddUlXM_3std6threadNtB5_7Builder15spawn_uncheckedNCNvCskT2QP9QPlNo_17mapped_stack_race4main0uE0B14_(%"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:10:30: 13:3], ()>::{closure#0}]"* noalias nocapture dereferenceable(24) %_1) unnamed_addr #1 personality i32 (i32, i32, i64, %"unwind::libunwind::_Unwind_Exception"*, %"unwind::libunwind::_Unwind_Context"*)* @rust_eh_personality !dbg !1884 {
+define internal void @_RNCINvMNtCs2bNvlddUlXM_3std6threadNtB5_7Builder15spawn_uncheckedNCNvCsfnYCCstO0CH_18mapped_static_race4main0uE0B14_(%"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:10:30: 13:3], ()>::{closure#0}]"* noalias nocapture dereferenceable(24) %_1) unnamed_addr #1 personality i32 (i32, i32, i64, %"unwind::libunwind::_Unwind_Exception"*, %"unwind::libunwind::_Unwind_Context"*)* @rust_eh_personality !dbg !1884 {
 start:
   %try_result.dbg.spill = alloca { i8*, i8* }, align 8
   %name.dbg.spill = alloca { %"std::ffi::CStr"*, i64 }, align 8
@@ -3810,7 +3810,7 @@ bb5:                                              ; preds = %bb4, %bb2
 bb6:                                              ; preds = %bb5
   store i64* %12, i64** %_8, align 8, !dbg !1913
 ; invoke core::ptr::drop_in_place::<core::option::Option<alloc::sync::Arc<std::sync::mutex::Mutex<alloc::vec::Vec<u8>>>>>
-  invoke void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_6option6OptionINtNtCs8RW06R9lH2S_5alloc4sync3ArcINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtB17_3vec3VechEEEEECskT2QP9QPlNo_17mapped_stack_race(i64** %_8)
+  invoke void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_6option6OptionINtNtCs8RW06R9lH2S_5alloc4sync3ArcINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtB17_3vec3VechEEEEECsfnYCCstO0CH_18mapped_static_race(i64** %_8)
           to label %bb7 unwind label %cleanup, !dbg !1914
 
 bb7:                                              ; preds = %bb6
@@ -3830,8 +3830,8 @@ bb9:                                              ; preds = %bb8
   store i8 0, i8* %_22, align 1, !dbg !1918
   %14 = bitcast %"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:10:30: 13:3], ()>::{closure#0}::{closure#0}]"* %_15 to %"[closure@src/main.rs:10:30: 13:3]"*, !dbg !1918
   %15 = bitcast %"std::panic::AssertUnwindSafe<[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:10:30: 13:3], ()>::{closure#0}::{closure#0}]>"* %_14 to %"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:10:30: 13:3], ()>::{closure#0}::{closure#0}]"*, !dbg !1919
-; invoke std::panic::catch_unwind::<std::panic::AssertUnwindSafe<<std::thread::Builder>::spawn_unchecked<mapped_stack_race::main::{closure#0}, ()>::{closure#0}::{closure#0}>, ()>
-  %16 = invoke { i8*, i8* } @_RINvNtCs2bNvlddUlXM_3std5panic12catch_unwindINtB2_16AssertUnwindSafeNCNCINvMNtB4_6threadNtB1c_7Builder15spawn_uncheckedNCNvCskT2QP9QPlNo_17mapped_stack_race4main0uE00EuEB1X_()
+; invoke std::panic::catch_unwind::<std::panic::AssertUnwindSafe<<std::thread::Builder>::spawn_unchecked<mapped_static_race::main::{closure#0}, ()>::{closure#0}::{closure#0}>, ()>
+  %16 = invoke { i8*, i8* } @_RINvNtCs2bNvlddUlXM_3std5panic12catch_unwindINtB2_16AssertUnwindSafeNCNCINvMNtB4_6threadNtB1c_7Builder15spawn_uncheckedNCNvCsfnYCCstO0CH_18mapped_static_race4main0uE00EuEB1X_()
           to label %bb10 unwind label %cleanup, !dbg !1920
 
 bb10:                                             ; preds = %bb9
@@ -3852,22 +3852,22 @@ bb10:                                             ; preds = %bb9
   store i64 1, i64* %23, align 8, !dbg !1922
   %_21 = getelementptr inbounds %"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:10:30: 13:3], ()>::{closure#0}]", %"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:10:30: 13:3], ()>::{closure#0}]"* %_1, i32 0, i32 7, !dbg !1923
 ; invoke <alloc::sync::Arc<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>> as core::ops::deref::Deref>::deref
-  %_20 = invoke align 8 dereferenceable(24) %"std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>"* @_RNvXsl_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtBL_6option6OptionINtNtBL_6result6ResultuINtNtB7_5boxed3BoxDNtNtBL_3any3AnyNtNtBL_6marker4SendEL_EEEEENtNtNtBL_3ops5deref5Deref5derefCskT2QP9QPlNo_17mapped_stack_race(i64** noalias readonly align 8 dereferenceable(8) %_21)
+  %_20 = invoke align 8 dereferenceable(24) %"std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>"* @_RNvXsl_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtBL_6option6OptionINtNtBL_6result6ResultuINtNtB7_5boxed3BoxDNtNtBL_3any3AnyNtNtBL_6marker4SendEL_EEEEENtNtNtBL_3ops5deref5Deref5derefCsfnYCCstO0CH_18mapped_static_race(i64** noalias readonly align 8 dereferenceable(8) %_21)
           to label %bb11 unwind label %cleanup1, !dbg !1923
 
 bb11:                                             ; preds = %bb10
 ; invoke <core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>>::get
-  %_18 = invoke %"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"* @_RNvMsK_NtCs3p84KrD9aKt_4core4cellINtB5_10UnsafeCellINtNtB7_6option6OptionINtNtB7_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB7_3any3AnyNtNtB7_6marker4SendEL_EEEE3getCskT2QP9QPlNo_17mapped_stack_race(%"std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>"* align 8 dereferenceable(24) %_20)
+  %_18 = invoke %"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"* @_RNvMsK_NtCs3p84KrD9aKt_4core4cellINtB5_10UnsafeCellINtNtB7_6option6OptionINtNtB7_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB7_3any3AnyNtNtB7_6marker4SendEL_EEEE3getCsfnYCCstO0CH_18mapped_static_race(%"std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>"* align 8 dereferenceable(24) %_20)
           to label %bb12 unwind label %cleanup1, !dbg !1923
 
 bb12:                                             ; preds = %bb11
 ; invoke core::ptr::drop_in_place::<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>
-  invoke void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEECskT2QP9QPlNo_17mapped_stack_race(%"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"* %_18)
+  invoke void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEECsfnYCCstO0CH_18mapped_static_race(%"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"* %_18)
           to label %bb16 unwind label %cleanup2, !dbg !1924
 
 bb13:                                             ; preds = %cleanup1
 ; call core::ptr::drop_in_place::<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>
-  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEECskT2QP9QPlNo_17mapped_stack_race(%"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"* %_16) #12, !dbg !1925
+  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEECsfnYCCstO0CH_18mapped_static_race(%"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"* %_16) #12, !dbg !1925
   br label %bb24, !dbg !1925
 
 bb14:                                             ; preds = %bb18
@@ -3891,7 +3891,7 @@ bb16:                                             ; preds = %bb12
   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 8 %32, i8* align 8 %33, i64 24, i1 false), !dbg !1924
   %34 = getelementptr inbounds %"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:10:30: 13:3], ()>::{closure#0}]", %"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:10:30: 13:3], ()>::{closure#0}]"* %_1, i32 0, i32 7, !dbg !1927
 ; call core::ptr::drop_in_place::<alloc::sync::Arc<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>>>
-  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc4sync3ArcINtNtB4_4cell10UnsafeCellINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtBL_5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEEEECskT2QP9QPlNo_17mapped_stack_race(i64** %34), !dbg !1927
+  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc4sync3ArcINtNtB4_4cell10UnsafeCellINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtBL_5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEEEECsfnYCCstO0CH_18mapped_static_race(i64** %34), !dbg !1927
   br label %bb17, !dbg !1927
 
 bb17:                                             ; preds = %bb16
@@ -3900,7 +3900,7 @@ bb17:                                             ; preds = %bb16
 bb18:                                             ; preds = %bb20, %bb19
   %35 = getelementptr inbounds %"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:10:30: 13:3], ()>::{closure#0}]", %"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:10:30: 13:3], ()>::{closure#0}]"* %_1, i32 0, i32 7, !dbg !1927
 ; call core::ptr::drop_in_place::<alloc::sync::Arc<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>>>
-  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc4sync3ArcINtNtB4_4cell10UnsafeCellINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtBL_5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEEEECskT2QP9QPlNo_17mapped_stack_race(i64** %35) #12, !dbg !1927
+  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc4sync3ArcINtNtB4_4cell10UnsafeCellINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtBL_5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEEEECsfnYCCstO0CH_18mapped_static_race(i64** %35) #12, !dbg !1927
   br label %bb14, !dbg !1927
 
 bb19:                                             ; preds = %bb22, %bb21
@@ -3919,13 +3919,13 @@ bb21:                                             ; preds = %bb23, %bb24
 bb22:                                             ; preds = %bb21
   %40 = getelementptr inbounds %"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:10:30: 13:3], ()>::{closure#0}]", %"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:10:30: 13:3], ()>::{closure#0}]"* %_1, i32 0, i32 5, !dbg !1927
 ; call core::ptr::drop_in_place::<core::option::Option<alloc::sync::Arc<std::sync::mutex::Mutex<alloc::vec::Vec<u8>>>>>
-  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_6option6OptionINtNtCs8RW06R9lH2S_5alloc4sync3ArcINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtB17_3vec3VechEEEEECskT2QP9QPlNo_17mapped_stack_race(i64** %40) #12, !dbg !1927
+  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_6option6OptionINtNtCs8RW06R9lH2S_5alloc4sync3ArcINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtB17_3vec3VechEEEEECsfnYCCstO0CH_18mapped_static_race(i64** %40) #12, !dbg !1927
   br label %bb19, !dbg !1927
 
 bb23:                                             ; preds = %bb24
   %41 = bitcast %"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:10:30: 13:3], ()>::{closure#0}]"* %_1 to i64**, !dbg !1927
 ; call core::ptr::drop_in_place::<std::thread::Thread>
-  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNtNtCs2bNvlddUlXM_3std6thread6ThreadECskT2QP9QPlNo_17mapped_stack_race(i64** %41) #12, !dbg !1927
+  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNtNtCs2bNvlddUlXM_3std6thread6ThreadECsfnYCCstO0CH_18mapped_static_race(i64** %41) #12, !dbg !1927
   br label %bb21, !dbg !1927
 
 bb24:                                             ; preds = %bb15, %bb13, %cleanup
@@ -3969,7 +3969,7 @@ cleanup2:                                         ; preds = %bb12
 
 ; std::rt::lang_start::<()>::{closure#0}
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal i32 @_RNCINvNtCs2bNvlddUlXM_3std2rt10lang_startuE0CskT2QP9QPlNo_17mapped_stack_race(i64** noalias readonly align 8 dereferenceable(8) %_1) unnamed_addr #1 !dbg !1929 {
+define internal i32 @_RNCINvNtCs2bNvlddUlXM_3std2rt10lang_startuE0CsfnYCCstO0CH_18mapped_static_race(i64** noalias readonly align 8 dereferenceable(8) %_1) unnamed_addr #1 !dbg !1929 {
 start:
   %_1.dbg.spill = alloca i64**, align 8
   store i64** %_1, i64*** %_1.dbg.spill, align 8
@@ -3977,43 +3977,43 @@ start:
   %0 = bitcast i64** %_1 to void ()**, !dbg !1936
   %_3 = load void ()*, void ()** %0, align 8, !dbg !1936, !nonnull !4
 ; call std::sys_common::backtrace::__rust_begin_short_backtrace::<fn(), ()>
-  call void @_RINvNtNtCs2bNvlddUlXM_3std10sys_common9backtrace28___rust_begin_short_backtraceFEuuECskT2QP9QPlNo_17mapped_stack_race(void ()* nonnull %_3), !dbg !1937
+  call void @_RINvNtNtCs2bNvlddUlXM_3std10sys_common9backtrace28___rust_begin_short_backtraceFEuuECsfnYCCstO0CH_18mapped_static_race(void ()* nonnull %_3), !dbg !1937
   br label %bb1, !dbg !1937
 
 bb1:                                              ; preds = %start
 ; call <() as std::process::Termination>::report
-  %1 = call i32 @_RNvXsC_NtCs2bNvlddUlXM_3std7processuNtB5_11Termination6reportCskT2QP9QPlNo_17mapped_stack_race(), !dbg !1937
+  %1 = call i32 @_RNvXsC_NtCs2bNvlddUlXM_3std7processuNtB5_11Termination6reportCsfnYCCstO0CH_18mapped_static_race(), !dbg !1937
   br label %bb2, !dbg !1937
 
 bb2:                                              ; preds = %bb1
   ret i32 %1, !dbg !1938
 }
 
-; <std::thread::Builder>::spawn_unchecked::<mapped_stack_race::main::{closure#0}, ()>::{closure#0}::{closure#0}
+; <std::thread::Builder>::spawn_unchecked::<mapped_static_race::main::{closure#0}, ()>::{closure#0}::{closure#0}
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal void @_RNCNCINvMNtCs2bNvlddUlXM_3std6threadNtB7_7Builder15spawn_uncheckedNCNvCskT2QP9QPlNo_17mapped_stack_race4main0uE00B16_() unnamed_addr #1 !dbg !1939 {
+define internal void @_RNCNCINvMNtCs2bNvlddUlXM_3std6threadNtB7_7Builder15spawn_uncheckedNCNvCsfnYCCstO0CH_18mapped_static_race4main0uE00B16_() unnamed_addr #1 !dbg !1939 {
 start:
   %_1.dbg.spill = alloca %"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:10:30: 13:3], ()>::{closure#0}::{closure#0}]", align 1
   call void @llvm.dbg.declare(metadata %"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:10:30: 13:3], ()>::{closure#0}::{closure#0}]"* %_1.dbg.spill, metadata !1943, metadata !DIExpression()), !dbg !1944
-; call std::sys_common::backtrace::__rust_begin_short_backtrace::<mapped_stack_race::main::{closure#0}, ()>
-  call void @_RINvNtNtCs2bNvlddUlXM_3std10sys_common9backtrace28___rust_begin_short_backtraceNCNvCskT2QP9QPlNo_17mapped_stack_race4main0uEB1j_(), !dbg !1945
+; call std::sys_common::backtrace::__rust_begin_short_backtrace::<mapped_static_race::main::{closure#0}, ()>
+  call void @_RINvNtNtCs2bNvlddUlXM_3std10sys_common9backtrace28___rust_begin_short_backtraceNCNvCsfnYCCstO0CH_18mapped_static_race4main0uEB1j_(), !dbg !1945
   br label %bb1, !dbg !1945
 
 bb1:                                              ; preds = %start
   ret void, !dbg !1946
 }
 
-; <<std::thread::Builder>::spawn_unchecked<mapped_stack_race::main::{closure#0}, ()>::{closure#0} as core::ops::function::FnOnce<()>>::call_once::{shim:vtable#0}
+; <<std::thread::Builder>::spawn_unchecked<mapped_static_race::main::{closure#0}, ()>::{closure#0} as core::ops::function::FnOnce<()>>::call_once::{shim:vtable#0}
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal void @_RNSNvYNCINvMNtCs2bNvlddUlXM_3std6threadNtBa_7Builder15spawn_uncheckedNCNvCskT2QP9QPlNo_17mapped_stack_race4main0uE0INtNtNtCs3p84KrD9aKt_4core3ops8function6FnOnceuE9call_once6vtableB19_(%"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:10:30: 13:3], ()>::{closure#0}]"* %_1) unnamed_addr #1 !dbg !1947 {
+define internal void @_RNSNvYNCINvMNtCs2bNvlddUlXM_3std6threadNtBa_7Builder15spawn_uncheckedNCNvCsfnYCCstO0CH_18mapped_static_race4main0uE0INtNtNtCs3p84KrD9aKt_4core3ops8function6FnOnceuE9call_once6vtableB19_(%"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:10:30: 13:3], ()>::{closure#0}]"* %_1) unnamed_addr #1 !dbg !1947 {
 start:
   %_1.dbg.spill = alloca %"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:10:30: 13:3], ()>::{closure#0}]"*, align 8
   %_2 = alloca {}, align 1
   store %"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:10:30: 13:3], ()>::{closure#0}]"* %_1, %"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:10:30: 13:3], ()>::{closure#0}]"** %_1.dbg.spill, align 8
   call void @llvm.dbg.declare(metadata %"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:10:30: 13:3], ()>::{closure#0}]"** %_1.dbg.spill, metadata !1953, metadata !DIExpression()), !dbg !1958
   call void @llvm.dbg.declare(metadata {}* %_2, metadata !1954, metadata !DIExpression()), !dbg !1958
-; call <std::thread::Builder>::spawn_unchecked::<mapped_stack_race::main::{closure#0}, ()>::{closure#0}
-  call void @_RNCINvMNtCs2bNvlddUlXM_3std6threadNtB5_7Builder15spawn_uncheckedNCNvCskT2QP9QPlNo_17mapped_stack_race4main0uE0B14_(%"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:10:30: 13:3], ()>::{closure#0}]"* noalias nocapture dereferenceable(24) %_1), !dbg !1958
+; call <std::thread::Builder>::spawn_unchecked::<mapped_static_race::main::{closure#0}, ()>::{closure#0}
+  call void @_RNCINvMNtCs2bNvlddUlXM_3std6threadNtB5_7Builder15spawn_uncheckedNCNvCsfnYCCstO0CH_18mapped_static_race4main0uE0B14_(%"[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:10:30: 13:3], ()>::{closure#0}]"* noalias nocapture dereferenceable(24) %_1), !dbg !1958
   br label %bb1, !dbg !1958
 
 bb1:                                              ; preds = %start
@@ -4022,7 +4022,7 @@ bb1:                                              ; preds = %start
 
 ; <std::rt::lang_start<()>::{closure#0} as core::ops::function::FnOnce<()>>::call_once::{shim:vtable#0}
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal i32 @_RNSNvYNCINvNtCs2bNvlddUlXM_3std2rt10lang_startuE0INtNtNtCs3p84KrD9aKt_4core3ops8function6FnOnceuE9call_once6vtableCskT2QP9QPlNo_17mapped_stack_race(i64** %_1) unnamed_addr #1 !dbg !1959 {
+define internal i32 @_RNSNvYNCINvNtCs2bNvlddUlXM_3std2rt10lang_startuE0INtNtNtCs3p84KrD9aKt_4core3ops8function6FnOnceuE9call_once6vtableCsfnYCCstO0CH_18mapped_static_race(i64** %_1) unnamed_addr #1 !dbg !1959 {
 start:
   %_1.dbg.spill = alloca i64**, align 8
   %_2 = alloca {}, align 1
@@ -4031,7 +4031,7 @@ start:
   call void @llvm.dbg.declare(metadata {}* %_2, metadata !1964, metadata !DIExpression()), !dbg !1967
   %0 = load i64*, i64** %_1, align 8, !dbg !1967, !nonnull !4
 ; call <std::rt::lang_start<()>::{closure#0} as core::ops::function::FnOnce<()>>::call_once
-  %1 = call i32 @_RNvYNCINvNtCs2bNvlddUlXM_3std2rt10lang_startuE0INtNtNtCs3p84KrD9aKt_4core3ops8function6FnOnceuE9call_onceCskT2QP9QPlNo_17mapped_stack_race(i64* nonnull %0), !dbg !1967
+  %1 = call i32 @_RNvYNCINvNtCs2bNvlddUlXM_3std2rt10lang_startuE0INtNtNtCs3p84KrD9aKt_4core3ops8function6FnOnceuE9call_onceCsfnYCCstO0CH_18mapped_static_race(i64* nonnull %0), !dbg !1967
   br label %bb1, !dbg !1967
 
 bb1:                                              ; preds = %start
@@ -4040,7 +4040,7 @@ bb1:                                              ; preds = %start
 
 ; <alloc::alloc::Global>::alloc_impl
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal { i8*, i64 } @_RNvMNtCs8RW06R9lH2S_5alloc5allocNtB2_6Global10alloc_implCskT2QP9QPlNo_17mapped_stack_race(%"std::alloc::Global"* noalias nonnull readonly align 1 %self, i64 %0, i64 %1, i1 zeroext %zeroed) unnamed_addr #1 !dbg !1968 {
+define internal { i8*, i64 } @_RNvMNtCs8RW06R9lH2S_5alloc5allocNtB2_6Global10alloc_implCsfnYCCstO0CH_18mapped_static_race(%"std::alloc::Global"* noalias nonnull readonly align 1 %self, i64 %0, i64 %1, i1 zeroext %zeroed) unnamed_addr #1 !dbg !1968 {
 start:
   %ptr.dbg.spill = alloca i8*, align 8
   %val.dbg.spill = alloca i8*, align 8
@@ -4066,7 +4066,7 @@ start:
   call void @llvm.dbg.declare(metadata i8** %raw_ptr, metadata !1995, metadata !DIExpression()), !dbg !2006
   call void @llvm.dbg.declare(metadata %"std::alloc::AllocError"* %err.dbg.spill, metadata !1999, metadata !DIExpression()), !dbg !2007
 ; call <core::alloc::layout::Layout>::size
-  %_4 = call i64 @_RNvMNtNtCs3p84KrD9aKt_4core5alloc6layoutNtB2_6Layout4sizeCskT2QP9QPlNo_17mapped_stack_race({ i64, i64 }* noalias readonly align 8 dereferenceable(16) %layout), !dbg !2008
+  %_4 = call i64 @_RNvMNtNtCs3p84KrD9aKt_4core5alloc6layoutNtB2_6Layout4sizeCsfnYCCstO0CH_18mapped_static_race({ i64, i64 }* noalias readonly align 8 dereferenceable(16) %layout), !dbg !2008
   br label %bb1, !dbg !2008
 
 bb1:                                              ; preds = %start
@@ -4080,12 +4080,12 @@ bb2:                                              ; preds = %bb1
 
 bb3:                                              ; preds = %bb1
 ; call <core::alloc::layout::Layout>::dangling
-  %_7 = call nonnull i8* @_RNvMNtNtCs3p84KrD9aKt_4core5alloc6layoutNtB2_6Layout8danglingCskT2QP9QPlNo_17mapped_stack_race({ i64, i64 }* noalias readonly align 8 dereferenceable(16) %layout), !dbg !2013
+  %_7 = call nonnull i8* @_RNvMNtNtCs3p84KrD9aKt_4core5alloc6layoutNtB2_6Layout8danglingCsfnYCCstO0CH_18mapped_static_race({ i64, i64 }* noalias readonly align 8 dereferenceable(16) %layout), !dbg !2013
   br label %bb4, !dbg !2013
 
 bb4:                                              ; preds = %bb3
 ; call <core::ptr::non_null::NonNull<[u8]>>::slice_from_raw_parts
-  %7 = call { i8*, i64 } @_RNvMs2_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullShE20slice_from_raw_partsCskT2QP9QPlNo_17mapped_stack_race(i8* nonnull %_7, i64 0), !dbg !2014
+  %7 = call { i8*, i64 } @_RNvMs2_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullShE20slice_from_raw_partsCsfnYCCstO0CH_18mapped_static_race(i8* nonnull %_7, i64 0), !dbg !2014
   %_6.0 = extractvalue { i8*, i64 } %7, 0, !dbg !2014
   %_6.1 = extractvalue { i8*, i64 } %7, 1, !dbg !2014
   br label %bb5, !dbg !2014
@@ -4103,7 +4103,7 @@ bb6:                                              ; preds = %bb2
   %11 = getelementptr inbounds { i64, i64 }, { i64, i64 }* %layout, i32 0, i32 1, !dbg !2017
   %_12.1 = load i64, i64* %11, align 8, !dbg !2017, !range !2018
 ; call alloc::alloc::alloc_zeroed
-  %12 = call i8* @_RNvNtCs8RW06R9lH2S_5alloc5alloc12alloc_zeroedCskT2QP9QPlNo_17mapped_stack_race(i64 %_12.0, i64 %_12.1), !dbg !2019
+  %12 = call i8* @_RNvNtCs8RW06R9lH2S_5alloc5alloc12alloc_zeroedCsfnYCCstO0CH_18mapped_static_race(i64 %_12.0, i64 %_12.1), !dbg !2019
   store i8* %12, i8** %raw_ptr, align 8, !dbg !2019
   br label %bb8, !dbg !2019
 
@@ -4113,7 +4113,7 @@ bb7:                                              ; preds = %bb2
   %14 = getelementptr inbounds { i64, i64 }, { i64, i64 }* %layout, i32 0, i32 1, !dbg !2020
   %_13.1 = load i64, i64* %14, align 8, !dbg !2020, !range !2018
 ; call alloc::alloc::alloc
-  %15 = call i8* @_RNvNtCs8RW06R9lH2S_5alloc5alloc5allocCskT2QP9QPlNo_17mapped_stack_race(i64 %_13.0, i64 %_13.1), !dbg !2021
+  %15 = call i8* @_RNvNtCs8RW06R9lH2S_5alloc5alloc5allocCsfnYCCstO0CH_18mapped_static_race(i64 %_13.0, i64 %_13.1), !dbg !2021
   store i8* %15, i8** %raw_ptr, align 8, !dbg !2021
   br label %bb9, !dbg !2021
 
@@ -4126,17 +4126,17 @@ bb9:                                              ; preds = %bb7
 bb10:                                             ; preds = %bb9, %bb8
   %_18 = load i8*, i8** %raw_ptr, align 8, !dbg !2022
 ; call <core::ptr::non_null::NonNull<u8>>::new
-  %_17 = call i8* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullhE3newCskT2QP9QPlNo_17mapped_stack_race(i8* %_18), !dbg !2023
+  %_17 = call i8* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullhE3newCsfnYCCstO0CH_18mapped_static_race(i8* %_18), !dbg !2023
   br label %bb11, !dbg !2023
 
 bb11:                                             ; preds = %bb10
 ; call <core::option::Option<core::ptr::non_null::NonNull<u8>>>::ok_or::<core::alloc::AllocError>
-  %_16 = call i8* @_RINvMNtCs3p84KrD9aKt_4core6optionINtB3_6OptionINtNtNtB5_3ptr8non_null7NonNullhEE5ok_orNtNtB5_5alloc10AllocErrorECskT2QP9QPlNo_17mapped_stack_race(i8* %_17), !dbg !2023
+  %_16 = call i8* @_RINvMNtCs3p84KrD9aKt_4core6optionINtB3_6OptionINtNtNtB5_3ptr8non_null7NonNullhEE5ok_orNtNtB5_5alloc10AllocErrorECsfnYCCstO0CH_18mapped_static_race(i8* %_17), !dbg !2023
   br label %bb12, !dbg !2023
 
 bb12:                                             ; preds = %bb11
 ; call <core::result::Result<core::ptr::non_null::NonNull<u8>, core::alloc::AllocError> as core::ops::try::Try>::into_result
-  %16 = call i8* @_RNvXsw_NtCs3p84KrD9aKt_4core6resultINtB5_6ResultINtNtNtB7_3ptr8non_null7NonNullhENtNtB7_5alloc10AllocErrorENtNtNtB7_3ops3try3Try11into_resultCskT2QP9QPlNo_17mapped_stack_race(i8* %_16), !dbg !2023
+  %16 = call i8* @_RNvXsw_NtCs3p84KrD9aKt_4core6resultINtB5_6ResultINtNtNtB7_3ptr8non_null7NonNullhENtNtB7_5alloc10AllocErrorENtNtNtB7_3ops3try3Try11into_resultCsfnYCCstO0CH_18mapped_static_race(i8* %_16), !dbg !2023
   store i8* %16, i8** %_15, align 8, !dbg !2023
   br label %bb13, !dbg !2023
 
@@ -4157,7 +4157,7 @@ bb14:                                             ; preds = %bb13
   store i8* %val, i8** %ptr.dbg.spill, align 8, !dbg !2025
   call void @llvm.dbg.declare(metadata i8** %ptr.dbg.spill, metadata !1997, metadata !DIExpression()), !dbg !2026
 ; call <core::ptr::non_null::NonNull<[u8]>>::slice_from_raw_parts
-  %20 = call { i8*, i64 } @_RNvMs2_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullShE20slice_from_raw_partsCskT2QP9QPlNo_17mapped_stack_race(i8* nonnull %val, i64 %_4), !dbg !2027
+  %20 = call { i8*, i64 } @_RNvMs2_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullShE20slice_from_raw_partsCsfnYCCstO0CH_18mapped_static_race(i8* nonnull %val, i64 %_4), !dbg !2027
   %_25.0 = extractvalue { i8*, i64 } %20, 0, !dbg !2027
   %_25.1 = extractvalue { i8*, i64 } %20, 1, !dbg !2027
   br label %bb19, !dbg !2027
@@ -4167,12 +4167,12 @@ bb15:                                             ; preds = %bb13
 
 bb16:                                             ; preds = %bb13
 ; call <core::alloc::AllocError as core::convert::From<core::alloc::AllocError>>::from
-  call void @_RNvXs2_NtCs3p84KrD9aKt_4core7convertNtNtB7_5alloc10AllocErrorINtB5_4FromBy_E4fromCskT2QP9QPlNo_17mapped_stack_race(), !dbg !2007
+  call void @_RNvXs2_NtCs3p84KrD9aKt_4core7convertNtNtB7_5alloc10AllocErrorINtB5_4FromBy_E4fromCsfnYCCstO0CH_18mapped_static_race(), !dbg !2007
   br label %bb17, !dbg !2007
 
 bb17:                                             ; preds = %bb16
 ; call <core::result::Result<core::ptr::non_null::NonNull<[u8]>, core::alloc::AllocError> as core::ops::try::Try>::from_error
-  %21 = call { i8*, i64 } @_RNvXsw_NtCs3p84KrD9aKt_4core6resultINtB5_6ResultINtNtNtB7_3ptr8non_null7NonNullShENtNtB7_5alloc10AllocErrorENtNtNtB7_3ops3try3Try10from_errorCskT2QP9QPlNo_17mapped_stack_race(), !dbg !2028
+  %21 = call { i8*, i64 } @_RNvXsw_NtCs3p84KrD9aKt_4core6resultINtB5_6ResultINtNtNtB7_3ptr8non_null7NonNullShENtNtB7_5alloc10AllocErrorENtNtNtB7_3ops3try3Try10from_errorCsfnYCCstO0CH_18mapped_static_race(), !dbg !2028
   store { i8*, i64 } %21, { i8*, i64 }* %2, align 8, !dbg !2028
   br label %bb18, !dbg !2028
 
@@ -4199,16 +4199,16 @@ bb21:                                             ; preds = %bb20, %bb18
   ret { i8*, i64 } %29, !dbg !2029
 }
 
-; <core::mem::manually_drop::ManuallyDrop<std::panic::AssertUnwindSafe<<std::thread::Builder>::spawn_unchecked<mapped_stack_race::main::{closure#0}, ()>::{closure#0}::{closure#0}>>>::take
+; <core::mem::manually_drop::ManuallyDrop<std::panic::AssertUnwindSafe<<std::thread::Builder>::spawn_unchecked<mapped_static_race::main::{closure#0}, ()>::{closure#0}::{closure#0}>>>::take
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal void @_RNvMNtNtCs3p84KrD9aKt_4core3mem13manually_dropINtB2_12ManuallyDropINtNtCs2bNvlddUlXM_3std5panic16AssertUnwindSafeNCNCINvMNtB17_6threadNtB1V_7Builder15spawn_uncheckedNCNvCskT2QP9QPlNo_17mapped_stack_race4main0uE00EE4takeB2H_(%"std::mem::ManuallyDrop<std::panic::AssertUnwindSafe<[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:10:30: 13:3], ()>::{closure#0}::{closure#0}]>>"* nonnull align 1 %slot) unnamed_addr #1 !dbg !2031 {
+define internal void @_RNvMNtNtCs3p84KrD9aKt_4core3mem13manually_dropINtB2_12ManuallyDropINtNtCs2bNvlddUlXM_3std5panic16AssertUnwindSafeNCNCINvMNtB17_6threadNtB1V_7Builder15spawn_uncheckedNCNvCsfnYCCstO0CH_18mapped_static_race4main0uE00EE4takeB2H_(%"std::mem::ManuallyDrop<std::panic::AssertUnwindSafe<[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:10:30: 13:3], ()>::{closure#0}::{closure#0}]>>"* nonnull align 1 %slot) unnamed_addr #1 !dbg !2031 {
 start:
   %slot.dbg.spill = alloca %"std::mem::ManuallyDrop<std::panic::AssertUnwindSafe<[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:10:30: 13:3], ()>::{closure#0}::{closure#0}]>>"*, align 8
   store %"std::mem::ManuallyDrop<std::panic::AssertUnwindSafe<[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:10:30: 13:3], ()>::{closure#0}::{closure#0}]>>"* %slot, %"std::mem::ManuallyDrop<std::panic::AssertUnwindSafe<[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:10:30: 13:3], ()>::{closure#0}::{closure#0}]>>"** %slot.dbg.spill, align 8
   call void @llvm.dbg.declare(metadata %"std::mem::ManuallyDrop<std::panic::AssertUnwindSafe<[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:10:30: 13:3], ()>::{closure#0}::{closure#0}]>>"** %slot.dbg.spill, metadata !2036, metadata !DIExpression()), !dbg !2037
   %_3 = bitcast %"std::mem::ManuallyDrop<std::panic::AssertUnwindSafe<[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:10:30: 13:3], ()>::{closure#0}::{closure#0}]>>"* %slot to %"std::panic::AssertUnwindSafe<[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:10:30: 13:3], ()>::{closure#0}::{closure#0}]>"*, !dbg !2038
-; call core::ptr::read::<std::panic::AssertUnwindSafe<<std::thread::Builder>::spawn_unchecked<mapped_stack_race::main::{closure#0}, ()>::{closure#0}::{closure#0}>>
-  call void @_RINvNtCs3p84KrD9aKt_4core3ptr4readINtNtCs2bNvlddUlXM_3std5panic16AssertUnwindSafeNCNCINvMNtBB_6threadNtB1p_7Builder15spawn_uncheckedNCNvCskT2QP9QPlNo_17mapped_stack_race4main0uE00EEB2a_(%"std::panic::AssertUnwindSafe<[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:10:30: 13:3], ()>::{closure#0}::{closure#0}]>"* %_3), !dbg !2039
+; call core::ptr::read::<std::panic::AssertUnwindSafe<<std::thread::Builder>::spawn_unchecked<mapped_static_race::main::{closure#0}, ()>::{closure#0}::{closure#0}>>
+  call void @_RINvNtCs3p84KrD9aKt_4core3ptr4readINtNtCs2bNvlddUlXM_3std5panic16AssertUnwindSafeNCNCINvMNtBB_6threadNtB1p_7Builder15spawn_uncheckedNCNvCsfnYCCstO0CH_18mapped_static_race4main0uE00EEB2a_(%"std::panic::AssertUnwindSafe<[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:10:30: 13:3], ()>::{closure#0}::{closure#0}]>"* %_3), !dbg !2039
   br label %bb1, !dbg !2039
 
 bb1:                                              ; preds = %start
@@ -4217,7 +4217,7 @@ bb1:                                              ; preds = %start
 
 ; <*mut u8>::guaranteed_eq
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal zeroext i1 @_RNvMNtNtCs3p84KrD9aKt_4core3ptr7mut_ptrOh13guaranteed_eqCskT2QP9QPlNo_17mapped_stack_race(i8* %self, i8* %other) unnamed_addr #1 !dbg !2041 {
+define internal zeroext i1 @_RNvMNtNtCs3p84KrD9aKt_4core3ptr7mut_ptrOh13guaranteed_eqCsfnYCCstO0CH_18mapped_static_race(i8* %self, i8* %other) unnamed_addr #1 !dbg !2041 {
 start:
   %0 = alloca i8, align 1
   %other.dbg.spill = alloca i8*, align 8
@@ -4239,7 +4239,7 @@ bb1:                                              ; preds = %start
 
 ; <*mut u8>::add
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal i8* @_RNvMNtNtCs3p84KrD9aKt_4core3ptr7mut_ptrOh3addCskT2QP9QPlNo_17mapped_stack_race(i8* %self, i64 %count) unnamed_addr #1 !dbg !2054 {
+define internal i8* @_RNvMNtNtCs3p84KrD9aKt_4core3ptr7mut_ptrOh3addCsfnYCCstO0CH_18mapped_static_race(i8* %self, i64 %count) unnamed_addr #1 !dbg !2054 {
 start:
   %count.dbg.spill = alloca i64, align 8
   %self.dbg.spill = alloca i8*, align 8
@@ -4248,7 +4248,7 @@ start:
   store i64 %count, i64* %count.dbg.spill, align 8
   call void @llvm.dbg.declare(metadata i64* %count.dbg.spill, metadata !2059, metadata !DIExpression()), !dbg !2061
 ; call <*mut u8>::offset
-  %0 = call i8* @_RNvMNtNtCs3p84KrD9aKt_4core3ptr7mut_ptrOh6offsetCskT2QP9QPlNo_17mapped_stack_race(i8* %self, i64 %count), !dbg !2062
+  %0 = call i8* @_RNvMNtNtCs3p84KrD9aKt_4core3ptr7mut_ptrOh6offsetCsfnYCCstO0CH_18mapped_static_race(i8* %self, i64 %count), !dbg !2062
   br label %bb1, !dbg !2062
 
 bb1:                                              ; preds = %start
@@ -4257,7 +4257,7 @@ bb1:                                              ; preds = %start
 
 ; <*mut u8>::offset
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal i8* @_RNvMNtNtCs3p84KrD9aKt_4core3ptr7mut_ptrOh6offsetCskT2QP9QPlNo_17mapped_stack_race(i8* %self, i64 %count) unnamed_addr #1 !dbg !2064 {
+define internal i8* @_RNvMNtNtCs3p84KrD9aKt_4core3ptr7mut_ptrOh6offsetCsfnYCCstO0CH_18mapped_static_race(i8* %self, i64 %count) unnamed_addr #1 !dbg !2064 {
 start:
   %0 = alloca i8*, align 8
   %count.dbg.spill = alloca i64, align 8
@@ -4277,7 +4277,7 @@ bb1:                                              ; preds = %start
 
 ; <*mut u8>::is_null
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal zeroext i1 @_RNvMNtNtCs3p84KrD9aKt_4core3ptr7mut_ptrOh7is_nullCskT2QP9QPlNo_17mapped_stack_race(i8* %self) unnamed_addr #1 !dbg !2074 {
+define internal zeroext i1 @_RNvMNtNtCs3p84KrD9aKt_4core3ptr7mut_ptrOh7is_nullCsfnYCCstO0CH_18mapped_static_race(i8* %self) unnamed_addr #1 !dbg !2074 {
 start:
   %self.dbg.spill = alloca i8*, align 8
   store i8* %self, i8** %self.dbg.spill, align 8
@@ -4286,7 +4286,7 @@ start:
 
 bb1:                                              ; preds = %start
 ; call <*mut u8>::guaranteed_eq
-  %0 = call zeroext i1 @_RNvMNtNtCs3p84KrD9aKt_4core3ptr7mut_ptrOh13guaranteed_eqCskT2QP9QPlNo_17mapped_stack_race(i8* %self, i8* null), !dbg !2081
+  %0 = call zeroext i1 @_RNvMNtNtCs3p84KrD9aKt_4core3ptr7mut_ptrOh13guaranteed_eqCsfnYCCstO0CH_18mapped_static_race(i8* %self, i8* null), !dbg !2081
   br label %bb2, !dbg !2081
 
 bb2:                                              ; preds = %bb1
@@ -4295,7 +4295,7 @@ bb2:                                              ; preds = %bb1
 
 ; <core::alloc::layout::Layout>::from_size_align_unchecked
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal { i64, i64 } @_RNvMNtNtCs3p84KrD9aKt_4core5alloc6layoutNtB2_6Layout25from_size_align_uncheckedCskT2QP9QPlNo_17mapped_stack_race(i64 %size, i64 %align) unnamed_addr #1 !dbg !2083 {
+define internal { i64, i64 } @_RNvMNtNtCs3p84KrD9aKt_4core5alloc6layoutNtB2_6Layout25from_size_align_uncheckedCsfnYCCstO0CH_18mapped_static_race(i64 %size, i64 %align) unnamed_addr #1 !dbg !2083 {
 start:
   %align.dbg.spill = alloca i64, align 8
   %size.dbg.spill = alloca i64, align 8
@@ -4305,7 +4305,7 @@ start:
   store i64 %align, i64* %align.dbg.spill, align 8
   call void @llvm.dbg.declare(metadata i64* %align.dbg.spill, metadata !2088, metadata !DIExpression()), !dbg !2090
 ; call <core::num::nonzero::NonZeroUsize>::new_unchecked
-  %_4 = call i64 @_RNvMsx_NtNtCs3p84KrD9aKt_4core3num7nonzeroNtB5_12NonZeroUsize13new_uncheckedCskT2QP9QPlNo_17mapped_stack_race(i64 %align), !dbg !2091, !range !2018
+  %_4 = call i64 @_RNvMsx_NtNtCs3p84KrD9aKt_4core3num7nonzeroNtB5_12NonZeroUsize13new_uncheckedCsfnYCCstO0CH_18mapped_static_race(i64 %align), !dbg !2091, !range !2018
   br label %bb1, !dbg !2091
 
 bb1:                                              ; preds = %start
@@ -4324,7 +4324,7 @@ bb1:                                              ; preds = %start
 
 ; <core::alloc::layout::Layout>::size
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal i64 @_RNvMNtNtCs3p84KrD9aKt_4core5alloc6layoutNtB2_6Layout4sizeCskT2QP9QPlNo_17mapped_stack_race({ i64, i64 }* noalias readonly align 8 dereferenceable(16) %self) unnamed_addr #1 !dbg !2094 {
+define internal i64 @_RNvMNtNtCs3p84KrD9aKt_4core5alloc6layoutNtB2_6Layout4sizeCsfnYCCstO0CH_18mapped_static_race({ i64, i64 }* noalias readonly align 8 dereferenceable(16) %self) unnamed_addr #1 !dbg !2094 {
 start:
   %self.dbg.spill = alloca { i64, i64 }*, align 8
   store { i64, i64 }* %self, { i64, i64 }** %self.dbg.spill, align 8
@@ -4336,7 +4336,7 @@ start:
 
 ; <core::alloc::layout::Layout>::align
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal i64 @_RNvMNtNtCs3p84KrD9aKt_4core5alloc6layoutNtB2_6Layout5alignCskT2QP9QPlNo_17mapped_stack_race({ i64, i64 }* noalias readonly align 8 dereferenceable(16) %self) unnamed_addr #1 !dbg !2103 {
+define internal i64 @_RNvMNtNtCs3p84KrD9aKt_4core5alloc6layoutNtB2_6Layout5alignCsfnYCCstO0CH_18mapped_static_race({ i64, i64 }* noalias readonly align 8 dereferenceable(16) %self) unnamed_addr #1 !dbg !2103 {
 start:
   %self.dbg.spill = alloca { i64, i64 }*, align 8
   store { i64, i64 }* %self, { i64, i64 }** %self.dbg.spill, align 8
@@ -4344,7 +4344,7 @@ start:
   %0 = getelementptr inbounds { i64, i64 }, { i64, i64 }* %self, i32 0, i32 1, !dbg !2107
   %_2 = load i64, i64* %0, align 8, !dbg !2107, !range !2018
 ; call <core::num::nonzero::NonZeroUsize>::get
-  %1 = call i64 @_RNvMsx_NtNtCs3p84KrD9aKt_4core3num7nonzeroNtB5_12NonZeroUsize3getCskT2QP9QPlNo_17mapped_stack_race(i64 %_2), !dbg !2107
+  %1 = call i64 @_RNvMsx_NtNtCs3p84KrD9aKt_4core3num7nonzeroNtB5_12NonZeroUsize3getCsfnYCCstO0CH_18mapped_static_race(i64 %_2), !dbg !2107
   br label %bb1, !dbg !2107
 
 bb1:                                              ; preds = %start
@@ -4353,19 +4353,19 @@ bb1:                                              ; preds = %start
 
 ; <core::alloc::layout::Layout>::dangling
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal nonnull i8* @_RNvMNtNtCs3p84KrD9aKt_4core5alloc6layoutNtB2_6Layout8danglingCskT2QP9QPlNo_17mapped_stack_race({ i64, i64 }* noalias readonly align 8 dereferenceable(16) %self) unnamed_addr #1 !dbg !2109 {
+define internal nonnull i8* @_RNvMNtNtCs3p84KrD9aKt_4core5alloc6layoutNtB2_6Layout8danglingCsfnYCCstO0CH_18mapped_static_race({ i64, i64 }* noalias readonly align 8 dereferenceable(16) %self) unnamed_addr #1 !dbg !2109 {
 start:
   %self.dbg.spill = alloca { i64, i64 }*, align 8
   store { i64, i64 }* %self, { i64, i64 }** %self.dbg.spill, align 8
   call void @llvm.dbg.declare(metadata { i64, i64 }** %self.dbg.spill, metadata !2113, metadata !DIExpression()), !dbg !2114
 ; call <core::alloc::layout::Layout>::align
-  %_3 = call i64 @_RNvMNtNtCs3p84KrD9aKt_4core5alloc6layoutNtB2_6Layout5alignCskT2QP9QPlNo_17mapped_stack_race({ i64, i64 }* noalias readonly align 8 dereferenceable(16) %self), !dbg !2115
+  %_3 = call i64 @_RNvMNtNtCs3p84KrD9aKt_4core5alloc6layoutNtB2_6Layout5alignCsfnYCCstO0CH_18mapped_static_race({ i64, i64 }* noalias readonly align 8 dereferenceable(16) %self), !dbg !2115
   br label %bb1, !dbg !2115
 
 bb1:                                              ; preds = %start
   %_2 = inttoptr i64 %_3 to i8*, !dbg !2115
 ; call <core::ptr::non_null::NonNull<u8>>::new_unchecked
-  %0 = call nonnull i8* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullhE13new_uncheckedCskT2QP9QPlNo_17mapped_stack_race(i8* %_2), !dbg !2116
+  %0 = call nonnull i8* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullhE13new_uncheckedCsfnYCCstO0CH_18mapped_static_race(i8* %_2), !dbg !2116
   br label %bb2, !dbg !2116
 
 bb2:                                              ; preds = %bb1
@@ -4374,7 +4374,7 @@ bb2:                                              ; preds = %bb1
 
 ; <core::fmt::Arguments>::new_v1
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal void @_RNvMs0_NtCs3p84KrD9aKt_4core3fmtNtB5_9Arguments6new_v1CskT2QP9QPlNo_17mapped_stack_race(%"std::fmt::Arguments"* noalias nocapture sret dereferenceable(48) %0, [0 x { [0 x i8]*, i64 }]* noalias nonnull readonly align 8 %pieces.0, i64 %pieces.1, [0 x { i8*, i64* }]* noalias nonnull readonly align 8 %args.0, i64 %args.1) unnamed_addr #1 !dbg !2118 {
+define internal void @_RNvMs0_NtCs3p84KrD9aKt_4core3fmtNtB5_9Arguments6new_v1CsfnYCCstO0CH_18mapped_static_race(%"std::fmt::Arguments"* noalias nocapture sret dereferenceable(48) %0, [0 x { [0 x i8]*, i64 }]* noalias nonnull readonly align 8 %pieces.0, i64 %pieces.1, [0 x { i8*, i64* }]* noalias nonnull readonly align 8 %args.0, i64 %args.1) unnamed_addr #1 !dbg !2118 {
 start:
   %args.dbg.spill = alloca { [0 x { i8*, i64* }]*, i64 }, align 8
   %pieces.dbg.spill = alloca { [0 x { [0 x i8]*, i64 }]*, i64 }, align 8
@@ -4415,14 +4415,14 @@ start:
 
 ; <core::sync::atomic::AtomicUsize>::new
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal i64 @_RNvMs15_NtNtCs3p84KrD9aKt_4core4sync6atomicNtB6_11AtomicUsize3newCskT2QP9QPlNo_17mapped_stack_race(i64 %v) unnamed_addr #1 !dbg !2191 {
+define internal i64 @_RNvMs15_NtNtCs3p84KrD9aKt_4core4sync6atomicNtB6_11AtomicUsize3newCsfnYCCstO0CH_18mapped_static_race(i64 %v) unnamed_addr #1 !dbg !2191 {
 start:
   %v.dbg.spill = alloca i64, align 8
   %0 = alloca %"std::sync::atomic::AtomicUsize", align 8
   store i64 %v, i64* %v.dbg.spill, align 8
   call void @llvm.dbg.declare(metadata i64* %v.dbg.spill, metadata !2195, metadata !DIExpression()), !dbg !2196
 ; call <core::cell::UnsafeCell<usize>>::new
-  %_2 = call i64 @_RNvMsJ_NtCs3p84KrD9aKt_4core4cellINtB5_10UnsafeCelljE3newCskT2QP9QPlNo_17mapped_stack_race(i64 %v), !dbg !2197
+  %_2 = call i64 @_RNvMsJ_NtCs3p84KrD9aKt_4core4cellINtB5_10UnsafeCelljE3newCsfnYCCstO0CH_18mapped_static_race(i64 %v), !dbg !2197
   br label %bb1, !dbg !2197
 
 bb1:                                              ; preds = %start
@@ -4435,7 +4435,7 @@ bb1:                                              ; preds = %start
 
 ; <core::sync::atomic::AtomicUsize>::fetch_add
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal i64 @_RNvMs15_NtNtCs3p84KrD9aKt_4core4sync6atomicNtB6_11AtomicUsize9fetch_addCskT2QP9QPlNo_17mapped_stack_race(%"std::sync::atomic::AtomicUsize"* align 8 dereferenceable(8) %self, i64 %val, i8 %order) unnamed_addr #1 !dbg !2200 {
+define internal i64 @_RNvMs15_NtNtCs3p84KrD9aKt_4core4sync6atomicNtB6_11AtomicUsize9fetch_addCsfnYCCstO0CH_18mapped_static_race(%"std::sync::atomic::AtomicUsize"* align 8 dereferenceable(8) %self, i64 %val, i8 %order) unnamed_addr #1 !dbg !2200 {
 start:
   %order.dbg.spill = alloca i8, align 1
   %val.dbg.spill = alloca i64, align 8
@@ -4448,12 +4448,12 @@ start:
   call void @llvm.dbg.declare(metadata i8* %order.dbg.spill, metadata !2207, metadata !DIExpression()), !dbg !2210
   %_5 = bitcast %"std::sync::atomic::AtomicUsize"* %self to i64*, !dbg !2211
 ; call <core::cell::UnsafeCell<usize>>::get
-  %_4 = call i64* @_RNvMsK_NtCs3p84KrD9aKt_4core4cellINtB5_10UnsafeCelljE3getCskT2QP9QPlNo_17mapped_stack_race(i64* align 8 dereferenceable(8) %_5), !dbg !2211
+  %_4 = call i64* @_RNvMsK_NtCs3p84KrD9aKt_4core4cellINtB5_10UnsafeCelljE3getCsfnYCCstO0CH_18mapped_static_race(i64* align 8 dereferenceable(8) %_5), !dbg !2211
   br label %bb1, !dbg !2211
 
 bb1:                                              ; preds = %start
 ; call core::sync::atomic::atomic_add::<usize>
-  %0 = call i64 @_RINvNtNtCs3p84KrD9aKt_4core4sync6atomic10atomic_addjECskT2QP9QPlNo_17mapped_stack_race(i64* %_4, i64 %val, i8 %order), !dbg !2212
+  %0 = call i64 @_RINvNtNtCs3p84KrD9aKt_4core4sync6atomic10atomic_addjECsfnYCCstO0CH_18mapped_static_race(i64* %_4, i64 %val, i8 %order), !dbg !2212
   br label %bb2, !dbg !2212
 
 bb2:                                              ; preds = %bb1
@@ -4462,7 +4462,7 @@ bb2:                                              ; preds = %bb1
 
 ; <core::sync::atomic::AtomicUsize>::fetch_sub
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal i64 @_RNvMs15_NtNtCs3p84KrD9aKt_4core4sync6atomicNtB6_11AtomicUsize9fetch_subCskT2QP9QPlNo_17mapped_stack_race(%"std::sync::atomic::AtomicUsize"* align 8 dereferenceable(8) %self, i64 %val, i8 %order) unnamed_addr #1 !dbg !2214 {
+define internal i64 @_RNvMs15_NtNtCs3p84KrD9aKt_4core4sync6atomicNtB6_11AtomicUsize9fetch_subCsfnYCCstO0CH_18mapped_static_race(%"std::sync::atomic::AtomicUsize"* align 8 dereferenceable(8) %self, i64 %val, i8 %order) unnamed_addr #1 !dbg !2214 {
 start:
   %order.dbg.spill = alloca i8, align 1
   %val.dbg.spill = alloca i64, align 8
@@ -4475,12 +4475,12 @@ start:
   call void @llvm.dbg.declare(metadata i8* %order.dbg.spill, metadata !2218, metadata !DIExpression()), !dbg !2221
   %_5 = bitcast %"std::sync::atomic::AtomicUsize"* %self to i64*, !dbg !2222
 ; call <core::cell::UnsafeCell<usize>>::get
-  %_4 = call i64* @_RNvMsK_NtCs3p84KrD9aKt_4core4cellINtB5_10UnsafeCelljE3getCskT2QP9QPlNo_17mapped_stack_race(i64* align 8 dereferenceable(8) %_5), !dbg !2222
+  %_4 = call i64* @_RNvMsK_NtCs3p84KrD9aKt_4core4cellINtB5_10UnsafeCelljE3getCsfnYCCstO0CH_18mapped_static_race(i64* align 8 dereferenceable(8) %_5), !dbg !2222
   br label %bb1, !dbg !2222
 
 bb1:                                              ; preds = %start
 ; call core::sync::atomic::atomic_sub::<usize>
-  %0 = call i64 @_RINvNtNtCs3p84KrD9aKt_4core4sync6atomic10atomic_subjECskT2QP9QPlNo_17mapped_stack_race(i64* %_4, i64 %val, i8 %order), !dbg !2223
+  %0 = call i64 @_RINvNtNtCs3p84KrD9aKt_4core4sync6atomic10atomic_subjECsfnYCCstO0CH_18mapped_static_race(i64* %_4, i64 %val, i8 %order), !dbg !2223
   br label %bb2, !dbg !2223
 
 bb2:                                              ; preds = %bb1
@@ -4489,7 +4489,7 @@ bb2:                                              ; preds = %bb1
 
 ; <core::ptr::unique::Unique<dyn core::any::Any + core::marker::Send>>::as_ptr
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal { {}*, [3 x i64]* } @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueDNtNtB9_3any3AnyNtNtB9_6marker4SendEL_E6as_ptrCskT2QP9QPlNo_17mapped_stack_race(i8* nonnull %self.0, i64* noalias readonly align 8 dereferenceable(24) %self.1) unnamed_addr #1 !dbg !2225 {
+define internal { {}*, [3 x i64]* } @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueDNtNtB9_3any3AnyNtNtB9_6marker4SendEL_E6as_ptrCsfnYCCstO0CH_18mapped_static_race(i8* nonnull %self.0, i64* noalias readonly align 8 dereferenceable(24) %self.1) unnamed_addr #1 !dbg !2225 {
 start:
   %self.dbg.spill = alloca { i8*, i64* }, align 8
   %0 = getelementptr inbounds { i8*, i64* }, { i8*, i64* }* %self.dbg.spill, i32 0, i32 0
@@ -4506,7 +4506,7 @@ start:
 
 ; <core::ptr::unique::Unique<dyn core::any::Any + core::marker::Send>>::as_ref
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal { {}*, [3 x i64]* } @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueDNtNtB9_3any3AnyNtNtB9_6marker4SendEL_E6as_refCskT2QP9QPlNo_17mapped_stack_race({ i8*, i64* }* noalias readonly align 8 dereferenceable(16) %self) unnamed_addr #1 !dbg !2233 {
+define internal { {}*, [3 x i64]* } @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueDNtNtB9_3any3AnyNtNtB9_6marker4SendEL_E6as_refCsfnYCCstO0CH_18mapped_static_race({ i8*, i64* }* noalias readonly align 8 dereferenceable(16) %self) unnamed_addr #1 !dbg !2233 {
 start:
   %self.dbg.spill = alloca { i8*, i64* }*, align 8
   store { i8*, i64* }* %self, { i8*, i64* }** %self.dbg.spill, align 8
@@ -4516,7 +4516,7 @@ start:
   %1 = getelementptr inbounds { i8*, i64* }, { i8*, i64* }* %self, i32 0, i32 1, !dbg !2244
   %_3.1 = load i64*, i64** %1, align 8, !dbg !2244, !nonnull !4
 ; call <core::ptr::unique::Unique<dyn core::any::Any + core::marker::Send>>::as_ptr
-  %2 = call { {}*, [3 x i64]* } @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueDNtNtB9_3any3AnyNtNtB9_6marker4SendEL_E6as_ptrCskT2QP9QPlNo_17mapped_stack_race(i8* nonnull %_3.0, i64* noalias readonly align 8 dereferenceable(24) %_3.1), !dbg !2244
+  %2 = call { {}*, [3 x i64]* } @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueDNtNtB9_3any3AnyNtNtB9_6marker4SendEL_E6as_ptrCsfnYCCstO0CH_18mapped_static_race(i8* nonnull %_3.0, i64* noalias readonly align 8 dereferenceable(24) %_3.1), !dbg !2244
   %_2.0 = extractvalue { {}*, [3 x i64]* } %2, 0, !dbg !2244
   %_2.1 = extractvalue { {}*, [3 x i64]* } %2, 1, !dbg !2244
   br label %bb1, !dbg !2244
@@ -4529,7 +4529,7 @@ bb1:                                              ; preds = %start
 
 ; <core::ptr::unique::Unique<dyn std::error::Error + core::marker::Send + core::marker::Sync>>::as_ptr
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal { {}*, [3 x i64]* } @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueDNtNtCs2bNvlddUlXM_3std5error5ErrorNtNtB9_6marker4SendNtB1r_4SyncEL_E6as_ptrCskT2QP9QPlNo_17mapped_stack_race(i8* nonnull %self.0, i64* noalias readonly align 8 dereferenceable(24) %self.1) unnamed_addr #1 !dbg !2246 {
+define internal { {}*, [3 x i64]* } @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueDNtNtCs2bNvlddUlXM_3std5error5ErrorNtNtB9_6marker4SendNtB1r_4SyncEL_E6as_ptrCsfnYCCstO0CH_18mapped_static_race(i8* nonnull %self.0, i64* noalias readonly align 8 dereferenceable(24) %self.1) unnamed_addr #1 !dbg !2246 {
 start:
   %self.dbg.spill = alloca { i8*, i64* }, align 8
   %0 = getelementptr inbounds { i8*, i64* }, { i8*, i64* }* %self.dbg.spill, i32 0, i32 0
@@ -4546,7 +4546,7 @@ start:
 
 ; <core::ptr::unique::Unique<dyn std::error::Error + core::marker::Send + core::marker::Sync>>::as_ref
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal { {}*, [3 x i64]* } @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueDNtNtCs2bNvlddUlXM_3std5error5ErrorNtNtB9_6marker4SendNtB1r_4SyncEL_E6as_refCskT2QP9QPlNo_17mapped_stack_race({ i8*, i64* }* noalias readonly align 8 dereferenceable(16) %self) unnamed_addr #1 !dbg !2254 {
+define internal { {}*, [3 x i64]* } @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueDNtNtCs2bNvlddUlXM_3std5error5ErrorNtNtB9_6marker4SendNtB1r_4SyncEL_E6as_refCsfnYCCstO0CH_18mapped_static_race({ i8*, i64* }* noalias readonly align 8 dereferenceable(16) %self) unnamed_addr #1 !dbg !2254 {
 start:
   %self.dbg.spill = alloca { i8*, i64* }*, align 8
   store { i8*, i64* }* %self, { i8*, i64* }** %self.dbg.spill, align 8
@@ -4556,7 +4556,7 @@ start:
   %1 = getelementptr inbounds { i8*, i64* }, { i8*, i64* }* %self, i32 0, i32 1, !dbg !2265
   %_3.1 = load i64*, i64** %1, align 8, !dbg !2265, !nonnull !4
 ; call <core::ptr::unique::Unique<dyn std::error::Error + core::marker::Send + core::marker::Sync>>::as_ptr
-  %2 = call { {}*, [3 x i64]* } @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueDNtNtCs2bNvlddUlXM_3std5error5ErrorNtNtB9_6marker4SendNtB1r_4SyncEL_E6as_ptrCskT2QP9QPlNo_17mapped_stack_race(i8* nonnull %_3.0, i64* noalias readonly align 8 dereferenceable(24) %_3.1), !dbg !2265
+  %2 = call { {}*, [3 x i64]* } @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueDNtNtCs2bNvlddUlXM_3std5error5ErrorNtNtB9_6marker4SendNtB1r_4SyncEL_E6as_ptrCsfnYCCstO0CH_18mapped_static_race(i8* nonnull %_3.0, i64* noalias readonly align 8 dereferenceable(24) %_3.1), !dbg !2265
   %_2.0 = extractvalue { {}*, [3 x i64]* } %2, 0, !dbg !2265
   %_2.1 = extractvalue { {}*, [3 x i64]* } %2, 1, !dbg !2265
   br label %bb1, !dbg !2265
@@ -4569,7 +4569,7 @@ bb1:                                              ; preds = %start
 
 ; <core::ptr::unique::Unique<alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>>>>::as_ptr
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal %"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtB9_4cell10UnsafeCellINtNtB9_6option6OptionINtNtB9_6result6ResultuINtNtBV_5boxed3BoxDNtNtB9_3any3AnyNtNtB9_6marker4SendEL_EEEEEE6as_ptrCskT2QP9QPlNo_17mapped_stack_race(i64* nonnull %self) unnamed_addr #1 !dbg !2267 {
+define internal %"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtB9_4cell10UnsafeCellINtNtB9_6option6OptionINtNtB9_6result6ResultuINtNtBV_5boxed3BoxDNtNtB9_3any3AnyNtNtB9_6marker4SendEL_EEEEEE6as_ptrCsfnYCCstO0CH_18mapped_static_race(i64* nonnull %self) unnamed_addr #1 !dbg !2267 {
 start:
   %self.dbg.spill = alloca i64*, align 8
   store i64* %self, i64** %self.dbg.spill, align 8
@@ -4580,14 +4580,14 @@ start:
 
 ; <core::ptr::unique::Unique<alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>>>>::as_ref
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal align 8 dereferenceable(40) %"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtB9_4cell10UnsafeCellINtNtB9_6option6OptionINtNtB9_6result6ResultuINtNtBV_5boxed3BoxDNtNtB9_3any3AnyNtNtB9_6marker4SendEL_EEEEEE6as_refCskT2QP9QPlNo_17mapped_stack_race(i64** noalias readonly align 8 dereferenceable(8) %self) unnamed_addr #1 !dbg !2276 {
+define internal align 8 dereferenceable(40) %"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtB9_4cell10UnsafeCellINtNtB9_6option6OptionINtNtB9_6result6ResultuINtNtBV_5boxed3BoxDNtNtB9_3any3AnyNtNtB9_6marker4SendEL_EEEEEE6as_refCsfnYCCstO0CH_18mapped_static_race(i64** noalias readonly align 8 dereferenceable(8) %self) unnamed_addr #1 !dbg !2276 {
 start:
   %self.dbg.spill = alloca i64**, align 8
   store i64** %self, i64*** %self.dbg.spill, align 8
   call void @llvm.dbg.declare(metadata i64*** %self.dbg.spill, metadata !2282, metadata !DIExpression()), !dbg !2283
   %_3 = load i64*, i64** %self, align 8, !dbg !2284, !nonnull !4
 ; call <core::ptr::unique::Unique<alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>>>>::as_ptr
-  %_2 = call %"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtB9_4cell10UnsafeCellINtNtB9_6option6OptionINtNtB9_6result6ResultuINtNtBV_5boxed3BoxDNtNtB9_3any3AnyNtNtB9_6marker4SendEL_EEEEEE6as_ptrCskT2QP9QPlNo_17mapped_stack_race(i64* nonnull %_3), !dbg !2284
+  %_2 = call %"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtB9_4cell10UnsafeCellINtNtB9_6option6OptionINtNtB9_6result6ResultuINtNtBV_5boxed3BoxDNtNtB9_3any3AnyNtNtB9_6marker4SendEL_EEEEEE6as_ptrCsfnYCCstO0CH_18mapped_static_race(i64* nonnull %_3), !dbg !2284
   br label %bb1, !dbg !2284
 
 bb1:                                              ; preds = %start
@@ -4596,7 +4596,7 @@ bb1:                                              ; preds = %start
 
 ; <core::ptr::unique::Unique<std::io::error::Custom>>::as_ptr
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal %"std::io::error::Custom"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueNtNtNtCs2bNvlddUlXM_3std2io5error6CustomE6as_ptrCskT2QP9QPlNo_17mapped_stack_race(i64* nonnull %self) unnamed_addr #1 !dbg !2286 {
+define internal %"std::io::error::Custom"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueNtNtNtCs2bNvlddUlXM_3std2io5error6CustomE6as_ptrCsfnYCCstO0CH_18mapped_static_race(i64* nonnull %self) unnamed_addr #1 !dbg !2286 {
 start:
   %self.dbg.spill = alloca i64*, align 8
   store i64* %self, i64** %self.dbg.spill, align 8
@@ -4607,14 +4607,14 @@ start:
 
 ; <core::ptr::unique::Unique<std::io::error::Custom>>::as_ref
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal align 8 dereferenceable(24) %"std::io::error::Custom"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueNtNtNtCs2bNvlddUlXM_3std2io5error6CustomE6as_refCskT2QP9QPlNo_17mapped_stack_race(i64** noalias readonly align 8 dereferenceable(8) %self) unnamed_addr #1 !dbg !2294 {
+define internal align 8 dereferenceable(24) %"std::io::error::Custom"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueNtNtNtCs2bNvlddUlXM_3std2io5error6CustomE6as_refCsfnYCCstO0CH_18mapped_static_race(i64** noalias readonly align 8 dereferenceable(8) %self) unnamed_addr #1 !dbg !2294 {
 start:
   %self.dbg.spill = alloca i64**, align 8
   store i64** %self, i64*** %self.dbg.spill, align 8
   call void @llvm.dbg.declare(metadata i64*** %self.dbg.spill, metadata !2300, metadata !DIExpression()), !dbg !2301
   %_3 = load i64*, i64** %self, align 8, !dbg !2302, !nonnull !4
 ; call <core::ptr::unique::Unique<std::io::error::Custom>>::as_ptr
-  %_2 = call %"std::io::error::Custom"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueNtNtNtCs2bNvlddUlXM_3std2io5error6CustomE6as_ptrCskT2QP9QPlNo_17mapped_stack_race(i64* nonnull %_3), !dbg !2302
+  %_2 = call %"std::io::error::Custom"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueNtNtNtCs2bNvlddUlXM_3std2io5error6CustomE6as_ptrCsfnYCCstO0CH_18mapped_static_race(i64* nonnull %_3), !dbg !2302
   br label %bb1, !dbg !2302
 
 bb1:                                              ; preds = %start
@@ -4623,7 +4623,7 @@ bb1:                                              ; preds = %start
 
 ; <core::ptr::unique::Unique<std::sys::unix::mutex::Mutex>>::as_ptr
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal %"std::sys::unix::mutex::Mutex"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueNtNtNtNtCs2bNvlddUlXM_3std3sys4unix5mutex5MutexE6as_ptrCskT2QP9QPlNo_17mapped_stack_race(i64* nonnull %self) unnamed_addr #1 !dbg !2304 {
+define internal %"std::sys::unix::mutex::Mutex"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueNtNtNtNtCs2bNvlddUlXM_3std3sys4unix5mutex5MutexE6as_ptrCsfnYCCstO0CH_18mapped_static_race(i64* nonnull %self) unnamed_addr #1 !dbg !2304 {
 start:
   %self.dbg.spill = alloca i64*, align 8
   store i64* %self, i64** %self.dbg.spill, align 8
@@ -4634,14 +4634,14 @@ start:
 
 ; <core::ptr::unique::Unique<std::sys::unix::mutex::Mutex>>::as_ref
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal align 8 dereferenceable(40) %"std::sys::unix::mutex::Mutex"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueNtNtNtNtCs2bNvlddUlXM_3std3sys4unix5mutex5MutexE6as_refCskT2QP9QPlNo_17mapped_stack_race(i64** noalias readonly align 8 dereferenceable(8) %self) unnamed_addr #1 !dbg !2313 {
+define internal align 8 dereferenceable(40) %"std::sys::unix::mutex::Mutex"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueNtNtNtNtCs2bNvlddUlXM_3std3sys4unix5mutex5MutexE6as_refCsfnYCCstO0CH_18mapped_static_race(i64** noalias readonly align 8 dereferenceable(8) %self) unnamed_addr #1 !dbg !2313 {
 start:
   %self.dbg.spill = alloca i64**, align 8
   store i64** %self, i64*** %self.dbg.spill, align 8
   call void @llvm.dbg.declare(metadata i64*** %self.dbg.spill, metadata !2319, metadata !DIExpression()), !dbg !2320
   %_3 = load i64*, i64** %self, align 8, !dbg !2321, !nonnull !4
 ; call <core::ptr::unique::Unique<std::sys::unix::mutex::Mutex>>::as_ptr
-  %_2 = call %"std::sys::unix::mutex::Mutex"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueNtNtNtNtCs2bNvlddUlXM_3std3sys4unix5mutex5MutexE6as_ptrCskT2QP9QPlNo_17mapped_stack_race(i64* nonnull %_3), !dbg !2321
+  %_2 = call %"std::sys::unix::mutex::Mutex"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueNtNtNtNtCs2bNvlddUlXM_3std3sys4unix5mutex5MutexE6as_ptrCsfnYCCstO0CH_18mapped_static_race(i64* nonnull %_3), !dbg !2321
   br label %bb1, !dbg !2321
 
 bb1:                                              ; preds = %start
@@ -4650,7 +4650,7 @@ bb1:                                              ; preds = %start
 
 ; <core::ptr::unique::Unique<[u8]>>::as_ptr
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal { [0 x i8]*, i64 } @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueShE6as_ptrCskT2QP9QPlNo_17mapped_stack_race(i8* nonnull %self.0, i64 %self.1) unnamed_addr #1 !dbg !2323 {
+define internal { [0 x i8]*, i64 } @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueShE6as_ptrCsfnYCCstO0CH_18mapped_static_race(i8* nonnull %self.0, i64 %self.1) unnamed_addr #1 !dbg !2323 {
 start:
   %self.dbg.spill = alloca { i8*, i64 }, align 8
   %0 = getelementptr inbounds { i8*, i64 }, { i8*, i64 }* %self.dbg.spill, i32 0, i32 0
@@ -4666,7 +4666,7 @@ start:
 
 ; <core::ptr::unique::Unique<[u8]>>::as_ref
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal { [0 x i8]*, i64 } @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueShE6as_refCskT2QP9QPlNo_17mapped_stack_race({ i8*, i64 }* noalias readonly align 8 dereferenceable(16) %self) unnamed_addr #1 !dbg !2331 {
+define internal { [0 x i8]*, i64 } @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueShE6as_refCsfnYCCstO0CH_18mapped_static_race({ i8*, i64 }* noalias readonly align 8 dereferenceable(16) %self) unnamed_addr #1 !dbg !2331 {
 start:
   %self.dbg.spill = alloca { i8*, i64 }*, align 8
   store { i8*, i64 }* %self, { i8*, i64 }** %self.dbg.spill, align 8
@@ -4676,7 +4676,7 @@ start:
   %1 = getelementptr inbounds { i8*, i64 }, { i8*, i64 }* %self, i32 0, i32 1, !dbg !2342
   %_3.1 = load i64, i64* %1, align 8, !dbg !2342
 ; call <core::ptr::unique::Unique<[u8]>>::as_ptr
-  %2 = call { [0 x i8]*, i64 } @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueShE6as_ptrCskT2QP9QPlNo_17mapped_stack_race(i8* nonnull %_3.0, i64 %_3.1), !dbg !2342
+  %2 = call { [0 x i8]*, i64 } @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueShE6as_ptrCsfnYCCstO0CH_18mapped_static_race(i8* nonnull %_3.0, i64 %_3.1), !dbg !2342
   %_2.0 = extractvalue { [0 x i8]*, i64 } %2, 0, !dbg !2342
   %_2.1 = extractvalue { [0 x i8]*, i64 } %2, 1, !dbg !2342
   br label %bb1, !dbg !2342
@@ -4689,7 +4689,7 @@ bb1:                                              ; preds = %start
 
 ; <core::ptr::unique::Unique<u8>>::new_unchecked
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal nonnull i8* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniquehE13new_uncheckedCskT2QP9QPlNo_17mapped_stack_race(i8* %ptr) unnamed_addr #1 !dbg !2344 {
+define internal nonnull i8* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniquehE13new_uncheckedCsfnYCCstO0CH_18mapped_static_race(i8* %ptr) unnamed_addr #1 !dbg !2344 {
 start:
   %ptr.dbg.spill = alloca i8*, align 8
   %_5 = alloca %"std::marker::PhantomData<u8>", align 1
@@ -4704,7 +4704,7 @@ start:
 
 ; <core::ptr::unique::Unique<u8>>::as_ptr
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal i8* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniquehE6as_ptrCskT2QP9QPlNo_17mapped_stack_race(i8* nonnull %self) unnamed_addr #1 !dbg !2352 {
+define internal i8* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniquehE6as_ptrCsfnYCCstO0CH_18mapped_static_race(i8* nonnull %self) unnamed_addr #1 !dbg !2352 {
 start:
   %self.dbg.spill = alloca i8*, align 8
   store i8* %self, i8** %self.dbg.spill, align 8
@@ -4714,7 +4714,7 @@ start:
 
 ; <core::ptr::non_null::NonNull<alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>>>>::as_ptr
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal %"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtB9_4cell10UnsafeCellINtNtB9_6option6OptionINtNtB9_6result6ResultuINtNtBY_5boxed3BoxDNtNtB9_3any3AnyNtNtB9_6marker4SendEL_EEEEEE6as_ptrCskT2QP9QPlNo_17mapped_stack_race(i64* nonnull %self) unnamed_addr #1 !dbg !2359 {
+define internal %"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtB9_4cell10UnsafeCellINtNtB9_6option6OptionINtNtB9_6result6ResultuINtNtBY_5boxed3BoxDNtNtB9_3any3AnyNtNtB9_6marker4SendEL_EEEEEE6as_ptrCsfnYCCstO0CH_18mapped_static_race(i64* nonnull %self) unnamed_addr #1 !dbg !2359 {
 start:
   %self.dbg.spill = alloca i64*, align 8
   store i64* %self, i64** %self.dbg.spill, align 8
@@ -4725,14 +4725,14 @@ start:
 
 ; <core::ptr::non_null::NonNull<alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>>>>::as_ref
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal align 8 dereferenceable(40) %"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtB9_4cell10UnsafeCellINtNtB9_6option6OptionINtNtB9_6result6ResultuINtNtBY_5boxed3BoxDNtNtB9_3any3AnyNtNtB9_6marker4SendEL_EEEEEE6as_refCskT2QP9QPlNo_17mapped_stack_race(i64** noalias readonly align 8 dereferenceable(8) %self) unnamed_addr #1 !dbg !2367 {
+define internal align 8 dereferenceable(40) %"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtB9_4cell10UnsafeCellINtNtB9_6option6OptionINtNtB9_6result6ResultuINtNtBY_5boxed3BoxDNtNtB9_3any3AnyNtNtB9_6marker4SendEL_EEEEEE6as_refCsfnYCCstO0CH_18mapped_static_race(i64** noalias readonly align 8 dereferenceable(8) %self) unnamed_addr #1 !dbg !2367 {
 start:
   %self.dbg.spill = alloca i64**, align 8
   store i64** %self, i64*** %self.dbg.spill, align 8
   call void @llvm.dbg.declare(metadata i64*** %self.dbg.spill, metadata !2372, metadata !DIExpression()), !dbg !2373
   %_3 = load i64*, i64** %self, align 8, !dbg !2374, !nonnull !4
 ; call <core::ptr::non_null::NonNull<alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>>>>::as_ptr
-  %_2 = call %"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtB9_4cell10UnsafeCellINtNtB9_6option6OptionINtNtB9_6result6ResultuINtNtBY_5boxed3BoxDNtNtB9_3any3AnyNtNtB9_6marker4SendEL_EEEEEE6as_ptrCskT2QP9QPlNo_17mapped_stack_race(i64* nonnull %_3), !dbg !2374
+  %_2 = call %"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtB9_4cell10UnsafeCellINtNtB9_6option6OptionINtNtB9_6result6ResultuINtNtBY_5boxed3BoxDNtNtB9_3any3AnyNtNtB9_6marker4SendEL_EEEEEE6as_ptrCsfnYCCstO0CH_18mapped_static_race(i64* nonnull %_3), !dbg !2374
   br label %bb1, !dbg !2374
 
 bb1:                                              ; preds = %start
@@ -4741,7 +4741,7 @@ bb1:                                              ; preds = %start
 
 ; <core::ptr::non_null::NonNull<alloc::sync::ArcInner<std::sync::mutex::Mutex<alloc::vec::Vec<u8>>>>>::as_ptr
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal %"alloc::sync::ArcInner<std::sync::Mutex<std::vec::Vec<u8>>>"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtBY_3vec3VechEEEE6as_ptrCskT2QP9QPlNo_17mapped_stack_race(i64* nonnull %self) unnamed_addr #1 !dbg !2376 {
+define internal %"alloc::sync::ArcInner<std::sync::Mutex<std::vec::Vec<u8>>>"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtBY_3vec3VechEEEE6as_ptrCsfnYCCstO0CH_18mapped_static_race(i64* nonnull %self) unnamed_addr #1 !dbg !2376 {
 start:
   %self.dbg.spill = alloca i64*, align 8
   store i64* %self, i64** %self.dbg.spill, align 8
@@ -4752,14 +4752,14 @@ start:
 
 ; <core::ptr::non_null::NonNull<alloc::sync::ArcInner<std::sync::mutex::Mutex<alloc::vec::Vec<u8>>>>>::as_ref
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal align 8 dereferenceable(56) %"alloc::sync::ArcInner<std::sync::Mutex<std::vec::Vec<u8>>>"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtBY_3vec3VechEEEE6as_refCskT2QP9QPlNo_17mapped_stack_race(i64** noalias readonly align 8 dereferenceable(8) %self) unnamed_addr #1 !dbg !2385 {
+define internal align 8 dereferenceable(56) %"alloc::sync::ArcInner<std::sync::Mutex<std::vec::Vec<u8>>>"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtBY_3vec3VechEEEE6as_refCsfnYCCstO0CH_18mapped_static_race(i64** noalias readonly align 8 dereferenceable(8) %self) unnamed_addr #1 !dbg !2385 {
 start:
   %self.dbg.spill = alloca i64**, align 8
   store i64** %self, i64*** %self.dbg.spill, align 8
   call void @llvm.dbg.declare(metadata i64*** %self.dbg.spill, metadata !2391, metadata !DIExpression()), !dbg !2392
   %_3 = load i64*, i64** %self, align 8, !dbg !2393, !nonnull !4
 ; call <core::ptr::non_null::NonNull<alloc::sync::ArcInner<std::sync::mutex::Mutex<alloc::vec::Vec<u8>>>>>::as_ptr
-  %_2 = call %"alloc::sync::ArcInner<std::sync::Mutex<std::vec::Vec<u8>>>"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtBY_3vec3VechEEEE6as_ptrCskT2QP9QPlNo_17mapped_stack_race(i64* nonnull %_3), !dbg !2393
+  %_2 = call %"alloc::sync::ArcInner<std::sync::Mutex<std::vec::Vec<u8>>>"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtBY_3vec3VechEEEE6as_ptrCsfnYCCstO0CH_18mapped_static_race(i64* nonnull %_3), !dbg !2393
   br label %bb1, !dbg !2393
 
 bb1:                                              ; preds = %start
@@ -4768,7 +4768,7 @@ bb1:                                              ; preds = %start
 
 ; <core::ptr::non_null::NonNull<alloc::sync::ArcInner<std::thread::Inner>>>::as_ptr
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal %"alloc::sync::ArcInner<std::thread::Inner>"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerNtNtCs2bNvlddUlXM_3std6thread5InnerEE6as_ptrCskT2QP9QPlNo_17mapped_stack_race(i64* nonnull %self) unnamed_addr #1 !dbg !2395 {
+define internal %"alloc::sync::ArcInner<std::thread::Inner>"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerNtNtCs2bNvlddUlXM_3std6thread5InnerEE6as_ptrCsfnYCCstO0CH_18mapped_static_race(i64* nonnull %self) unnamed_addr #1 !dbg !2395 {
 start:
   %self.dbg.spill = alloca i64*, align 8
   store i64* %self, i64** %self.dbg.spill, align 8
@@ -4779,14 +4779,14 @@ start:
 
 ; <core::ptr::non_null::NonNull<alloc::sync::ArcInner<std::thread::Inner>>>::as_ref
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal align 8 dereferenceable(48) %"alloc::sync::ArcInner<std::thread::Inner>"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerNtNtCs2bNvlddUlXM_3std6thread5InnerEE6as_refCskT2QP9QPlNo_17mapped_stack_race(i64** noalias readonly align 8 dereferenceable(8) %self) unnamed_addr #1 !dbg !2404 {
+define internal align 8 dereferenceable(48) %"alloc::sync::ArcInner<std::thread::Inner>"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerNtNtCs2bNvlddUlXM_3std6thread5InnerEE6as_refCsfnYCCstO0CH_18mapped_static_race(i64** noalias readonly align 8 dereferenceable(8) %self) unnamed_addr #1 !dbg !2404 {
 start:
   %self.dbg.spill = alloca i64**, align 8
   store i64** %self, i64*** %self.dbg.spill, align 8
   call void @llvm.dbg.declare(metadata i64*** %self.dbg.spill, metadata !2410, metadata !DIExpression()), !dbg !2411
   %_3 = load i64*, i64** %self, align 8, !dbg !2412, !nonnull !4
 ; call <core::ptr::non_null::NonNull<alloc::sync::ArcInner<std::thread::Inner>>>::as_ptr
-  %_2 = call %"alloc::sync::ArcInner<std::thread::Inner>"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerNtNtCs2bNvlddUlXM_3std6thread5InnerEE6as_ptrCskT2QP9QPlNo_17mapped_stack_race(i64* nonnull %_3), !dbg !2412
+  %_2 = call %"alloc::sync::ArcInner<std::thread::Inner>"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerNtNtCs2bNvlddUlXM_3std6thread5InnerEE6as_ptrCsfnYCCstO0CH_18mapped_static_race(i64* nonnull %_3), !dbg !2412
   br label %bb1, !dbg !2412
 
 bb1:                                              ; preds = %start
@@ -4795,7 +4795,7 @@ bb1:                                              ; preds = %start
 
 ; <core::ptr::non_null::NonNull<[u8]>>::new_unchecked
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal { i8*, i64 } @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullShE13new_uncheckedCskT2QP9QPlNo_17mapped_stack_race([0 x i8]* %ptr.0, i64 %ptr.1) unnamed_addr #1 !dbg !2414 {
+define internal { i8*, i64 } @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullShE13new_uncheckedCsfnYCCstO0CH_18mapped_static_race([0 x i8]* %ptr.0, i64 %ptr.1) unnamed_addr #1 !dbg !2414 {
 start:
   %ptr.dbg.spill = alloca { [0 x i8]*, i64 }, align 8
   %0 = alloca { i8*, i64 }, align 8
@@ -4820,7 +4820,7 @@ start:
 
 ; <core::ptr::non_null::NonNull<[u8]>>::as_ptr
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal { [0 x i8]*, i64 } @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullShE6as_ptrCskT2QP9QPlNo_17mapped_stack_race(i8* nonnull %self.0, i64 %self.1) unnamed_addr #1 !dbg !2422 {
+define internal { [0 x i8]*, i64 } @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullShE6as_ptrCsfnYCCstO0CH_18mapped_static_race(i8* nonnull %self.0, i64 %self.1) unnamed_addr #1 !dbg !2422 {
 start:
   %self.dbg.spill = alloca { i8*, i64 }, align 8
   %0 = getelementptr inbounds { i8*, i64 }, { i8*, i64 }* %self.dbg.spill, i32 0, i32 0
@@ -4836,7 +4836,7 @@ start:
 
 ; <core::ptr::non_null::NonNull<u8>>::new_unchecked
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal nonnull i8* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullhE13new_uncheckedCskT2QP9QPlNo_17mapped_stack_race(i8* %ptr) unnamed_addr #1 !dbg !2430 {
+define internal nonnull i8* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullhE13new_uncheckedCsfnYCCstO0CH_18mapped_static_race(i8* %ptr) unnamed_addr #1 !dbg !2430 {
 start:
   %ptr.dbg.spill = alloca i8*, align 8
   %0 = alloca i8*, align 8
@@ -4849,14 +4849,14 @@ start:
 
 ; <core::ptr::non_null::NonNull<u8>>::new
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal i8* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullhE3newCskT2QP9QPlNo_17mapped_stack_race(i8* %ptr) unnamed_addr #1 !dbg !2438 {
+define internal i8* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullhE3newCsfnYCCstO0CH_18mapped_static_race(i8* %ptr) unnamed_addr #1 !dbg !2438 {
 start:
   %ptr.dbg.spill = alloca i8*, align 8
   %0 = alloca i8*, align 8
   store i8* %ptr, i8** %ptr.dbg.spill, align 8
   call void @llvm.dbg.declare(metadata i8** %ptr.dbg.spill, metadata !2442, metadata !DIExpression()), !dbg !2443
 ; call <*mut u8>::is_null
-  %_3 = call zeroext i1 @_RNvMNtNtCs3p84KrD9aKt_4core3ptr7mut_ptrOh7is_nullCskT2QP9QPlNo_17mapped_stack_race(i8* %ptr), !dbg !2444
+  %_3 = call zeroext i1 @_RNvMNtNtCs3p84KrD9aKt_4core3ptr7mut_ptrOh7is_nullCsfnYCCstO0CH_18mapped_static_race(i8* %ptr), !dbg !2444
   br label %bb1, !dbg !2444
 
 bb1:                                              ; preds = %start
@@ -4865,7 +4865,7 @@ bb1:                                              ; preds = %start
 
 bb2:                                              ; preds = %bb1
 ; call <core::ptr::non_null::NonNull<u8>>::new_unchecked
-  %_5 = call nonnull i8* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullhE13new_uncheckedCskT2QP9QPlNo_17mapped_stack_race(i8* %ptr), !dbg !2447
+  %_5 = call nonnull i8* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullhE13new_uncheckedCsfnYCCstO0CH_18mapped_static_race(i8* %ptr), !dbg !2447
   br label %bb4, !dbg !2447
 
 bb3:                                              ; preds = %bb1
@@ -4884,7 +4884,7 @@ bb5:                                              ; preds = %bb3, %bb4
 
 ; <core::ptr::non_null::NonNull<u8>>::as_ptr
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal i8* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullhE6as_ptrCskT2QP9QPlNo_17mapped_stack_race(i8* nonnull %self) unnamed_addr #1 !dbg !2451 {
+define internal i8* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullhE6as_ptrCsfnYCCstO0CH_18mapped_static_race(i8* nonnull %self) unnamed_addr #1 !dbg !2451 {
 start:
   %self.dbg.spill = alloca i8*, align 8
   store i8* %self, i8** %self.dbg.spill, align 8
@@ -4894,7 +4894,7 @@ start:
 
 ; <alloc::sync::Arc<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>>>::from_inner
 ; Function Attrs: nonlazybind uwtable
-define internal nonnull i64* @_RNvMs2_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtBL_6option6OptionINtNtBL_6result6ResultuINtNtB7_5boxed3BoxDNtNtBL_3any3AnyNtNtBL_6marker4SendEL_EEEEE10from_innerCskT2QP9QPlNo_17mapped_stack_race(i64* nonnull %ptr) unnamed_addr #0 !dbg !2458 {
+define internal nonnull i64* @_RNvMs2_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtBL_6option6OptionINtNtBL_6result6ResultuINtNtB7_5boxed3BoxDNtNtBL_3any3AnyNtNtBL_6marker4SendEL_EEEEE10from_innerCsfnYCCstO0CH_18mapped_static_race(i64* nonnull %ptr) unnamed_addr #0 !dbg !2458 {
 start:
   %ptr.dbg.spill = alloca i64*, align 8
   %_3 = alloca %"std::marker::PhantomData<alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>>", align 1
@@ -4909,7 +4909,7 @@ start:
 
 ; <alloc::sync::Arc<std::sync::mutex::Mutex<alloc::vec::Vec<u8>>>>::from_inner
 ; Function Attrs: nonlazybind uwtable
-define internal nonnull i64* @_RNvMs2_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtB7_3vec3VechEEE10from_innerCskT2QP9QPlNo_17mapped_stack_race(i64* nonnull %ptr) unnamed_addr #0 !dbg !2467 {
+define internal nonnull i64* @_RNvMs2_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtB7_3vec3VechEEE10from_innerCsfnYCCstO0CH_18mapped_static_race(i64* nonnull %ptr) unnamed_addr #0 !dbg !2467 {
 start:
   %ptr.dbg.spill = alloca i64*, align 8
   %_3 = alloca %"std::marker::PhantomData<alloc::sync::ArcInner<std::sync::Mutex<std::vec::Vec<u8>>>>", align 1
@@ -4924,7 +4924,7 @@ start:
 
 ; <alloc::sync::Arc<std::thread::Inner>>::from_inner
 ; Function Attrs: nonlazybind uwtable
-define internal nonnull i64* @_RNvMs2_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcNtNtCs2bNvlddUlXM_3std6thread5InnerE10from_innerCskT2QP9QPlNo_17mapped_stack_race(i64* nonnull %ptr) unnamed_addr #0 !dbg !2475 {
+define internal nonnull i64* @_RNvMs2_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcNtNtCs2bNvlddUlXM_3std6thread5InnerE10from_innerCsfnYCCstO0CH_18mapped_static_race(i64* nonnull %ptr) unnamed_addr #0 !dbg !2475 {
 start:
   %ptr.dbg.spill = alloca i64*, align 8
   %_3 = alloca %"std::marker::PhantomData<alloc::sync::ArcInner<std::thread::Inner>>", align 1
@@ -4939,7 +4939,7 @@ start:
 
 ; <core::ptr::non_null::NonNull<[u8]>>::as_mut_ptr
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal i8* @_RNvMs2_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullShE10as_mut_ptrCskT2QP9QPlNo_17mapped_stack_race(i8* nonnull %self.0, i64 %self.1) unnamed_addr #1 !dbg !2483 {
+define internal i8* @_RNvMs2_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullShE10as_mut_ptrCsfnYCCstO0CH_18mapped_static_race(i8* nonnull %self.0, i64 %self.1) unnamed_addr #1 !dbg !2483 {
 start:
   %self.dbg.spill = alloca { i8*, i64 }, align 8
   %0 = getelementptr inbounds { i8*, i64 }, { i8*, i64 }* %self.dbg.spill, i32 0, i32 0
@@ -4948,12 +4948,12 @@ start:
   store i64 %self.1, i64* %1, align 8
   call void @llvm.dbg.declare(metadata { i8*, i64 }* %self.dbg.spill, metadata !2487, metadata !DIExpression()), !dbg !2488
 ; call <core::ptr::non_null::NonNull<[u8]>>::as_non_null_ptr
-  %_2 = call nonnull i8* @_RNvMs2_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullShE15as_non_null_ptrCskT2QP9QPlNo_17mapped_stack_race(i8* nonnull %self.0, i64 %self.1), !dbg !2489
+  %_2 = call nonnull i8* @_RNvMs2_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullShE15as_non_null_ptrCsfnYCCstO0CH_18mapped_static_race(i8* nonnull %self.0, i64 %self.1), !dbg !2489
   br label %bb1, !dbg !2489
 
 bb1:                                              ; preds = %start
 ; call <core::ptr::non_null::NonNull<u8>>::as_ptr
-  %2 = call i8* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullhE6as_ptrCskT2QP9QPlNo_17mapped_stack_race(i8* nonnull %_2), !dbg !2489
+  %2 = call i8* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullhE6as_ptrCsfnYCCstO0CH_18mapped_static_race(i8* nonnull %_2), !dbg !2489
   br label %bb2, !dbg !2489
 
 bb2:                                              ; preds = %bb1
@@ -4962,7 +4962,7 @@ bb2:                                              ; preds = %bb1
 
 ; <core::ptr::non_null::NonNull<[u8]>>::as_non_null_ptr
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal nonnull i8* @_RNvMs2_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullShE15as_non_null_ptrCskT2QP9QPlNo_17mapped_stack_race(i8* nonnull %self.0, i64 %self.1) unnamed_addr #1 !dbg !2491 {
+define internal nonnull i8* @_RNvMs2_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullShE15as_non_null_ptrCsfnYCCstO0CH_18mapped_static_race(i8* nonnull %self.0, i64 %self.1) unnamed_addr #1 !dbg !2491 {
 start:
   %self.dbg.spill = alloca { i8*, i64 }, align 8
   %0 = getelementptr inbounds { i8*, i64 }, { i8*, i64 }* %self.dbg.spill, i32 0, i32 0
@@ -4971,19 +4971,19 @@ start:
   store i64 %self.1, i64* %1, align 8
   call void @llvm.dbg.declare(metadata { i8*, i64 }* %self.dbg.spill, metadata !2495, metadata !DIExpression()), !dbg !2496
 ; call <core::ptr::non_null::NonNull<[u8]>>::as_ptr
-  %2 = call { [0 x i8]*, i64 } @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullShE6as_ptrCskT2QP9QPlNo_17mapped_stack_race(i8* nonnull %self.0, i64 %self.1), !dbg !2497
+  %2 = call { [0 x i8]*, i64 } @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullShE6as_ptrCsfnYCCstO0CH_18mapped_static_race(i8* nonnull %self.0, i64 %self.1), !dbg !2497
   %_3.0 = extractvalue { [0 x i8]*, i64 } %2, 0, !dbg !2497
   %_3.1 = extractvalue { [0 x i8]*, i64 } %2, 1, !dbg !2497
   br label %bb1, !dbg !2497
 
 bb1:                                              ; preds = %start
 ; call <*mut [u8]>::as_mut_ptr
-  %_2 = call i8* @_RNvMs_NtNtCs3p84KrD9aKt_4core3ptr7mut_ptrOSh10as_mut_ptrCskT2QP9QPlNo_17mapped_stack_race([0 x i8]* %_3.0, i64 %_3.1), !dbg !2497
+  %_2 = call i8* @_RNvMs_NtNtCs3p84KrD9aKt_4core3ptr7mut_ptrOSh10as_mut_ptrCsfnYCCstO0CH_18mapped_static_race([0 x i8]* %_3.0, i64 %_3.1), !dbg !2497
   br label %bb2, !dbg !2497
 
 bb2:                                              ; preds = %bb1
 ; call <core::ptr::non_null::NonNull<u8>>::new_unchecked
-  %3 = call nonnull i8* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullhE13new_uncheckedCskT2QP9QPlNo_17mapped_stack_race(i8* %_2), !dbg !2498
+  %3 = call nonnull i8* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullhE13new_uncheckedCsfnYCCstO0CH_18mapped_static_race(i8* %_2), !dbg !2498
   br label %bb3, !dbg !2498
 
 bb3:                                              ; preds = %bb2
@@ -4992,7 +4992,7 @@ bb3:                                              ; preds = %bb2
 
 ; <core::ptr::non_null::NonNull<[u8]>>::slice_from_raw_parts
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal { i8*, i64 } @_RNvMs2_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullShE20slice_from_raw_partsCskT2QP9QPlNo_17mapped_stack_race(i8* nonnull %data, i64 %len) unnamed_addr #1 !dbg !2500 {
+define internal { i8*, i64 } @_RNvMs2_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullShE20slice_from_raw_partsCsfnYCCstO0CH_18mapped_static_race(i8* nonnull %data, i64 %len) unnamed_addr #1 !dbg !2500 {
 start:
   %len.dbg.spill = alloca i64, align 8
   %data.dbg.spill = alloca i8*, align 8
@@ -5001,19 +5001,19 @@ start:
   store i64 %len, i64* %len.dbg.spill, align 8
   call void @llvm.dbg.declare(metadata i64* %len.dbg.spill, metadata !2505, metadata !DIExpression()), !dbg !2507
 ; call <core::ptr::non_null::NonNull<u8>>::as_ptr
-  %_4 = call i8* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullhE6as_ptrCskT2QP9QPlNo_17mapped_stack_race(i8* nonnull %data), !dbg !2508
+  %_4 = call i8* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullhE6as_ptrCsfnYCCstO0CH_18mapped_static_race(i8* nonnull %data), !dbg !2508
   br label %bb1, !dbg !2508
 
 bb1:                                              ; preds = %start
 ; call core::ptr::slice_from_raw_parts_mut::<u8>
-  %0 = call { [0 x i8]*, i64 } @_RINvNtCs3p84KrD9aKt_4core3ptr24slice_from_raw_parts_muthECskT2QP9QPlNo_17mapped_stack_race(i8* %_4, i64 %len), !dbg !2509
+  %0 = call { [0 x i8]*, i64 } @_RINvNtCs3p84KrD9aKt_4core3ptr24slice_from_raw_parts_muthECsfnYCCstO0CH_18mapped_static_race(i8* %_4, i64 %len), !dbg !2509
   %_3.0 = extractvalue { [0 x i8]*, i64 } %0, 0, !dbg !2509
   %_3.1 = extractvalue { [0 x i8]*, i64 } %0, 1, !dbg !2509
   br label %bb2, !dbg !2509
 
 bb2:                                              ; preds = %bb1
 ; call <core::ptr::non_null::NonNull<[u8]>>::new_unchecked
-  %1 = call { i8*, i64 } @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullShE13new_uncheckedCskT2QP9QPlNo_17mapped_stack_race([0 x i8]* %_3.0, i64 %_3.1), !dbg !2510
+  %1 = call { i8*, i64 } @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullShE13new_uncheckedCsfnYCCstO0CH_18mapped_static_race([0 x i8]* %_3.0, i64 %_3.1), !dbg !2510
   %2 = extractvalue { i8*, i64 } %1, 0, !dbg !2510
   %3 = extractvalue { i8*, i64 } %1, 1, !dbg !2510
   br label %bb3, !dbg !2510
@@ -5026,7 +5026,7 @@ bb3:                                              ; preds = %bb2
 
 ; <core::result::Result<std::thread::JoinHandle<()>, std::io::error::Error>>::expect
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal void @_RNvMs3_NtCs3p84KrD9aKt_4core6resultINtB5_6ResultINtNtCs2bNvlddUlXM_3std6thread10JoinHandleuENtNtNtBP_2io5error5ErrorE6expectCskT2QP9QPlNo_17mapped_stack_race(%"std::thread::JoinHandle<()>"* noalias nocapture sret dereferenceable(32) %t, %"std::result::Result<std::thread::JoinHandle<()>, std::io::Error>"* noalias nocapture dereferenceable(40) %self, [0 x i8]* noalias nonnull readonly align 1 %msg.0, i64 %msg.1, %"std::panic::Location"* noalias readonly align 8 dereferenceable(24) %0) unnamed_addr #1 personality i32 (i32, i32, i64, %"unwind::libunwind::_Unwind_Exception"*, %"unwind::libunwind::_Unwind_Context"*)* @rust_eh_personality !dbg !2512 {
+define internal void @_RNvMs3_NtCs3p84KrD9aKt_4core6resultINtB5_6ResultINtNtCs2bNvlddUlXM_3std6thread10JoinHandleuENtNtNtBP_2io5error5ErrorE6expectCsfnYCCstO0CH_18mapped_static_race(%"std::thread::JoinHandle<()>"* noalias nocapture sret dereferenceable(32) %t, %"std::result::Result<std::thread::JoinHandle<()>, std::io::Error>"* noalias nocapture dereferenceable(40) %self, [0 x i8]* noalias nonnull readonly align 1 %msg.0, i64 %msg.1, %"std::panic::Location"* noalias readonly align 8 dereferenceable(24) %0) unnamed_addr #1 personality i32 (i32, i32, i64, %"unwind::libunwind::_Unwind_Exception"*, %"unwind::libunwind::_Unwind_Context"*)* @rust_eh_personality !dbg !2512 {
 start:
   %1 = alloca { i8*, i32 }, align 8
   %msg.dbg.spill = alloca { [0 x i8]*, i64 }, align 8
@@ -5070,7 +5070,7 @@ bb3:                                              ; preds = %start
 
 bb4:                                              ; preds = %cleanup
 ; call core::ptr::drop_in_place::<std::io::error::Error>
-  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNtNtNtCs2bNvlddUlXM_3std2io5error5ErrorECskT2QP9QPlNo_17mapped_stack_race(%"std::io::Error"* %e) #12, !dbg !2541
+  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNtNtNtCs2bNvlddUlXM_3std2io5error5ErrorECsfnYCCstO0CH_18mapped_static_race(%"std::io::Error"* %e) #12, !dbg !2541
   br label %bb5, !dbg !2541
 
 bb5:                                              ; preds = %bb4
@@ -5099,7 +5099,7 @@ cleanup:                                          ; preds = %bb1
 
 ; <alloc::boxed::Box<alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>>>>::leak
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal align 8 dereferenceable(40) %"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"* @_RNvMs5_NtCs8RW06R9lH2S_5alloc5boxedINtB5_3BoxINtNtB7_4sync8ArcInnerINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtB18_6option6OptionINtNtB18_6result6ResultuIBy_DNtNtB18_3any3AnyNtNtB18_6marker4SendEL_EEEEEE4leakCskT2QP9QPlNo_17mapped_stack_race(%"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"* noalias nonnull align 8 %b) unnamed_addr #1 !dbg !2543 {
+define internal align 8 dereferenceable(40) %"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"* @_RNvMs5_NtCs8RW06R9lH2S_5alloc5boxedINtB5_3BoxINtNtB7_4sync8ArcInnerINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtB18_6option6OptionINtNtB18_6result6ResultuIBy_DNtNtB18_3any3AnyNtNtB18_6marker4SendEL_EEEEEE4leakCsfnYCCstO0CH_18mapped_static_race(%"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"* noalias nonnull align 8 %b) unnamed_addr #1 !dbg !2543 {
 start:
   %self.dbg.spill.i = alloca i64**, align 8
   %value.dbg.spill.i = alloca %"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"*, align 8
@@ -5126,7 +5126,7 @@ bb2:                                              ; preds = %bb1
   %4 = bitcast %"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"** %3 to i64**, !dbg !2568
   %_6 = load i64*, i64** %4, align 8, !dbg !2568, !nonnull !4
 ; call <core::ptr::unique::Unique<alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>>>>::as_ptr
-  %_5 = call %"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtB9_4cell10UnsafeCellINtNtB9_6option6OptionINtNtB9_6result6ResultuINtNtBV_5boxed3BoxDNtNtB9_3any3AnyNtNtB9_6marker4SendEL_EEEEEE6as_ptrCskT2QP9QPlNo_17mapped_stack_race(i64* nonnull %_6), !dbg !2568
+  %_5 = call %"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtB9_4cell10UnsafeCellINtNtB9_6option6OptionINtNtB9_6result6ResultuINtNtBV_5boxed3BoxDNtNtB9_3any3AnyNtNtB9_6marker4SendEL_EEEEEE6as_ptrCsfnYCCstO0CH_18mapped_static_race(i64* nonnull %_6), !dbg !2568
   br label %bb3, !dbg !2568
 
 bb3:                                              ; preds = %bb2
@@ -5135,7 +5135,7 @@ bb3:                                              ; preds = %bb2
 
 ; <std::sys::unix::process::process_common::ExitCode>::as_i32
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal i32 @_RNvMs7_NtNtNtNtCs2bNvlddUlXM_3std3sys4unix7process14process_commonNtB5_8ExitCode6as_i32CskT2QP9QPlNo_17mapped_stack_race(i8* noalias readonly align 1 dereferenceable(1) %self) unnamed_addr #1 !dbg !2584 {
+define internal i32 @_RNvMs7_NtNtNtNtCs2bNvlddUlXM_3std3sys4unix7process14process_commonNtB5_8ExitCode6as_i32CsfnYCCstO0CH_18mapped_static_race(i8* noalias readonly align 1 dereferenceable(1) %self) unnamed_addr #1 !dbg !2584 {
 start:
   %self.dbg.spill = alloca i8*, align 8
   store i8* %self, i8** %self.dbg.spill, align 8
@@ -5147,7 +5147,7 @@ start:
 
 ; <core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>>::new
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal void @_RNvMsJ_NtCs3p84KrD9aKt_4core4cellINtB5_10UnsafeCellINtNtB7_6option6OptionINtNtB7_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB7_3any3AnyNtNtB7_6marker4SendEL_EEEE3newCskT2QP9QPlNo_17mapped_stack_race(%"std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>"* noalias nocapture sret dereferenceable(24) %0, %"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"* noalias nocapture dereferenceable(24) %value) unnamed_addr #1 !dbg !2599 {
+define internal void @_RNvMsJ_NtCs3p84KrD9aKt_4core4cellINtB5_10UnsafeCellINtNtB7_6option6OptionINtNtB7_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB7_3any3AnyNtNtB7_6marker4SendEL_EEEE3newCsfnYCCstO0CH_18mapped_static_race(%"std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>"* noalias nocapture sret dereferenceable(24) %0, %"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"* noalias nocapture dereferenceable(24) %value) unnamed_addr #1 !dbg !2599 {
 start:
   %_2 = alloca %"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>", align 8
   call void @llvm.dbg.declare(metadata %"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"* %value, metadata !2604, metadata !DIExpression()), !dbg !2605
@@ -5163,7 +5163,7 @@ start:
 
 ; <core::cell::UnsafeCell<usize>>::new
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal i64 @_RNvMsJ_NtCs3p84KrD9aKt_4core4cellINtB5_10UnsafeCelljE3newCskT2QP9QPlNo_17mapped_stack_race(i64 %value) unnamed_addr #1 !dbg !2609 {
+define internal i64 @_RNvMsJ_NtCs3p84KrD9aKt_4core4cellINtB5_10UnsafeCelljE3newCsfnYCCstO0CH_18mapped_static_race(i64 %value) unnamed_addr #1 !dbg !2609 {
 start:
   %value.dbg.spill = alloca i64, align 8
   %0 = alloca i64, align 8
@@ -5176,7 +5176,7 @@ start:
 
 ; <core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>>::get
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal %"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"* @_RNvMsK_NtCs3p84KrD9aKt_4core4cellINtB5_10UnsafeCellINtNtB7_6option6OptionINtNtB7_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB7_3any3AnyNtNtB7_6marker4SendEL_EEEE3getCskT2QP9QPlNo_17mapped_stack_race(%"std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>"* align 8 dereferenceable(24) %self) unnamed_addr #1 !dbg !2617 {
+define internal %"std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>"* @_RNvMsK_NtCs3p84KrD9aKt_4core4cellINtB5_10UnsafeCellINtNtB7_6option6OptionINtNtB7_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB7_3any3AnyNtNtB7_6marker4SendEL_EEEE3getCsfnYCCstO0CH_18mapped_static_race(%"std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>"* align 8 dereferenceable(24) %self) unnamed_addr #1 !dbg !2617 {
 start:
   %self.dbg.spill = alloca %"std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>"*, align 8
   store %"std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>"* %self, %"std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>"** %self.dbg.spill, align 8
@@ -5187,7 +5187,7 @@ start:
 
 ; <core::cell::UnsafeCell<usize>>::get
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal i64* @_RNvMsK_NtCs3p84KrD9aKt_4core4cellINtB5_10UnsafeCelljE3getCskT2QP9QPlNo_17mapped_stack_race(i64* align 8 dereferenceable(8) %self) unnamed_addr #1 !dbg !2626 {
+define internal i64* @_RNvMsK_NtCs3p84KrD9aKt_4core4cellINtB5_10UnsafeCelljE3getCsfnYCCstO0CH_18mapped_static_race(i64* align 8 dereferenceable(8) %self) unnamed_addr #1 !dbg !2626 {
 start:
   %self.dbg.spill = alloca i64*, align 8
   store i64* %self, i64** %self.dbg.spill, align 8
@@ -5197,7 +5197,7 @@ start:
 
 ; <alloc::vec::Vec<u8>>::as_mut_ptr
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal i8* @_RNvMs_NtCs8RW06R9lH2S_5alloc3vecINtB4_3VechE10as_mut_ptrCskT2QP9QPlNo_17mapped_stack_race(%"std::vec::Vec<u8>"* align 8 dereferenceable(24) %self) unnamed_addr #1 !dbg !2634 {
+define internal i8* @_RNvMs_NtCs8RW06R9lH2S_5alloc3vecINtB4_3VechE10as_mut_ptrCsfnYCCstO0CH_18mapped_static_race(%"std::vec::Vec<u8>"* align 8 dereferenceable(24) %self) unnamed_addr #1 !dbg !2634 {
 start:
   %ptr.dbg.spill = alloca i8*, align 8
   %self.dbg.spill = alloca %"std::vec::Vec<u8>"*, align 8
@@ -5205,14 +5205,14 @@ start:
   call void @llvm.dbg.declare(metadata %"std::vec::Vec<u8>"** %self.dbg.spill, metadata !2640, metadata !DIExpression()), !dbg !2643
   %_2 = bitcast %"std::vec::Vec<u8>"* %self to { i8*, i64 }*, !dbg !2644
 ; call <alloc::raw_vec::RawVec<u8>>::ptr
-  %ptr = call i8* @_RNvMs_NtCs8RW06R9lH2S_5alloc7raw_vecINtB4_6RawVechE3ptrCskT2QP9QPlNo_17mapped_stack_race({ i8*, i64 }* noalias readonly align 8 dereferenceable(16) %_2), !dbg !2644
+  %ptr = call i8* @_RNvMs_NtCs8RW06R9lH2S_5alloc7raw_vecINtB4_6RawVechE3ptrCsfnYCCstO0CH_18mapped_static_race({ i8*, i64 }* noalias readonly align 8 dereferenceable(16) %_2), !dbg !2644
   store i8* %ptr, i8** %ptr.dbg.spill, align 8, !dbg !2644
   call void @llvm.dbg.declare(metadata i8** %ptr.dbg.spill, metadata !2641, metadata !DIExpression()), !dbg !2645
   br label %bb1, !dbg !2644
 
 bb1:                                              ; preds = %start
 ; call <*mut u8>::is_null
-  %_5 = call zeroext i1 @_RNvMNtNtCs3p84KrD9aKt_4core3ptr7mut_ptrOh7is_nullCskT2QP9QPlNo_17mapped_stack_race(i8* %ptr), !dbg !2646
+  %_5 = call zeroext i1 @_RNvMNtNtCs3p84KrD9aKt_4core3ptr7mut_ptrOh7is_nullCsfnYCCstO0CH_18mapped_static_race(i8* %ptr), !dbg !2646
   br label %bb2, !dbg !2646
 
 bb2:                                              ; preds = %bb1
@@ -5226,7 +5226,7 @@ bb3:                                              ; preds = %bb2
 
 ; <alloc::raw_vec::RawVec<u8>>::current_memory
 ; Function Attrs: nonlazybind uwtable
-define internal void @_RNvMs_NtCs8RW06R9lH2S_5alloc7raw_vecINtB4_6RawVechE14current_memoryCskT2QP9QPlNo_17mapped_stack_race(%"std::option::Option<(std::ptr::NonNull<u8>, std::alloc::Layout)>"* noalias nocapture sret dereferenceable(24) %0, { i8*, i64 }* noalias readonly align 8 dereferenceable(16) %self) unnamed_addr #0 !dbg !2650 {
+define internal void @_RNvMs_NtCs8RW06R9lH2S_5alloc7raw_vecINtB4_6RawVechE14current_memoryCsfnYCCstO0CH_18mapped_static_race(%"std::option::Option<(std::ptr::NonNull<u8>, std::alloc::Layout)>"* noalias nocapture sret dereferenceable(24) %0, { i8*, i64 }* noalias readonly align 8 dereferenceable(16) %self) unnamed_addr #0 !dbg !2650 {
 start:
   %1 = alloca i64, align 8
   %layout.dbg.spill = alloca { i64, i64 }, align 8
@@ -5284,7 +5284,7 @@ bb9:                                              ; preds = %bb8
   store i64 %size, i64* %size.dbg.spill, align 8, !dbg !2689
   call void @llvm.dbg.declare(metadata i64* %size.dbg.spill, metadata !2675, metadata !DIExpression()), !dbg !2691
 ; call <core::alloc::layout::Layout>::from_size_align_unchecked
-  %10 = call { i64, i64 } @_RNvMNtNtCs3p84KrD9aKt_4core5alloc6layoutNtB2_6Layout25from_size_align_uncheckedCskT2QP9QPlNo_17mapped_stack_race(i64 %size, i64 %8), !dbg !2692
+  %10 = call { i64, i64 } @_RNvMNtNtCs3p84KrD9aKt_4core5alloc6layoutNtB2_6Layout25from_size_align_uncheckedCsfnYCCstO0CH_18mapped_static_race(i64 %size, i64 %8), !dbg !2692
   %layout.0 = extractvalue { i64, i64 } %10, 0, !dbg !2692
   %layout.1 = extractvalue { i64, i64 } %10, 1, !dbg !2692
   %11 = getelementptr inbounds { i64, i64 }, { i64, i64 }* %layout.dbg.spill, i32 0, i32 0, !dbg !2692
@@ -5298,12 +5298,12 @@ bb10:                                             ; preds = %bb9
   %13 = bitcast { i8*, i64 }* %self to i8**, !dbg !2694
   %_15 = load i8*, i8** %13, align 8, !dbg !2694, !nonnull !4
 ; call <core::ptr::unique::Unique<u8>>::cast::<u8>
-  %_14 = call nonnull i8* @_RINvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB6_6UniquehE4casthECskT2QP9QPlNo_17mapped_stack_race(i8* nonnull %_15), !dbg !2694
+  %_14 = call nonnull i8* @_RINvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB6_6UniquehE4casthECsfnYCCstO0CH_18mapped_static_race(i8* nonnull %_15), !dbg !2694
   br label %bb11, !dbg !2694
 
 bb11:                                             ; preds = %bb10
 ; call <core::ptr::unique::Unique<u8> as core::convert::Into<core::ptr::non_null::NonNull<u8>>>::into
-  %_13 = call nonnull i8* @_RNvXs1_NtCs3p84KrD9aKt_4core7convertINtNtNtB7_3ptr6unique6UniquehEINtB5_4IntoINtNtBD_8non_null7NonNullhEE4intoCskT2QP9QPlNo_17mapped_stack_race(i8* nonnull %_14), !dbg !2694
+  %_13 = call nonnull i8* @_RNvXs1_NtCs3p84KrD9aKt_4core7convertINtNtNtB7_3ptr6unique6UniquehEINtB5_4IntoINtNtBD_8non_null7NonNullhEE4intoCsfnYCCstO0CH_18mapped_static_race(i8* nonnull %_14), !dbg !2694
   br label %bb12, !dbg !2694
 
 bb12:                                             ; preds = %bb11
@@ -5327,7 +5327,7 @@ bb13:                                             ; preds = %bb12, %bb6
 
 ; <alloc::raw_vec::RawVec<u8>>::ptr
 ; Function Attrs: nonlazybind uwtable
-define internal i8* @_RNvMs_NtCs8RW06R9lH2S_5alloc7raw_vecINtB4_6RawVechE3ptrCskT2QP9QPlNo_17mapped_stack_race({ i8*, i64 }* noalias readonly align 8 dereferenceable(16) %self) unnamed_addr #0 !dbg !2698 {
+define internal i8* @_RNvMs_NtCs8RW06R9lH2S_5alloc7raw_vecINtB4_6RawVechE3ptrCsfnYCCstO0CH_18mapped_static_race({ i8*, i64 }* noalias readonly align 8 dereferenceable(16) %self) unnamed_addr #0 !dbg !2698 {
 start:
   %self.dbg.spill = alloca { i8*, i64 }*, align 8
   store { i8*, i64 }* %self, { i8*, i64 }** %self.dbg.spill, align 8
@@ -5335,7 +5335,7 @@ start:
   %0 = bitcast { i8*, i64 }* %self to i8**, !dbg !2704
   %_2 = load i8*, i8** %0, align 8, !dbg !2704, !nonnull !4
 ; call <core::ptr::unique::Unique<u8>>::as_ptr
-  %1 = call i8* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniquehE6as_ptrCskT2QP9QPlNo_17mapped_stack_race(i8* nonnull %_2), !dbg !2704
+  %1 = call i8* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniquehE6as_ptrCsfnYCCstO0CH_18mapped_static_race(i8* nonnull %_2), !dbg !2704
   br label %bb1, !dbg !2704
 
 bb1:                                              ; preds = %start
@@ -5344,7 +5344,7 @@ bb1:                                              ; preds = %start
 
 ; <*mut [u8]>::as_mut_ptr
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal i8* @_RNvMs_NtNtCs3p84KrD9aKt_4core3ptr7mut_ptrOSh10as_mut_ptrCskT2QP9QPlNo_17mapped_stack_race([0 x i8]* %self.0, i64 %self.1) unnamed_addr #1 !dbg !2706 {
+define internal i8* @_RNvMs_NtNtCs3p84KrD9aKt_4core3ptr7mut_ptrOSh10as_mut_ptrCsfnYCCstO0CH_18mapped_static_race([0 x i8]* %self.0, i64 %self.1) unnamed_addr #1 !dbg !2706 {
 start:
   %self.dbg.spill = alloca { [0 x i8]*, i64 }, align 8
   %0 = getelementptr inbounds { [0 x i8]*, i64 }, { [0 x i8]*, i64 }* %self.dbg.spill, i32 0, i32 0
@@ -5358,7 +5358,7 @@ start:
 
 ; <alloc::sync::Arc<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>>>::new
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal nonnull i64* @_RNvMsa_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtBL_6option6OptionINtNtBL_6result6ResultuINtNtB7_5boxed3BoxDNtNtBL_3any3AnyNtNtBL_6marker4SendEL_EEEEE3newCskT2QP9QPlNo_17mapped_stack_race(%"std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>"* noalias nocapture dereferenceable(24) %data) unnamed_addr #1 personality i32 (i32, i32, i64, %"unwind::libunwind::_Unwind_Exception"*, %"unwind::libunwind::_Unwind_Context"*)* @rust_eh_personality !dbg !2714 {
+define internal nonnull i64* @_RNvMsa_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtBL_6option6OptionINtNtBL_6result6ResultuINtNtB7_5boxed3BoxDNtNtBL_3any3AnyNtNtBL_6marker4SendEL_EEEEE3newCsfnYCCstO0CH_18mapped_static_race(%"std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>"* noalias nocapture dereferenceable(24) %data) unnamed_addr #1 personality i32 (i32, i32, i64, %"unwind::libunwind::_Unwind_Exception"*, %"unwind::libunwind::_Unwind_Context"*)* @rust_eh_personality !dbg !2714 {
 start:
   %x.dbg.spill = alloca %"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"*, align 8
   %0 = alloca i64, align 8
@@ -5373,11 +5373,11 @@ start:
   store i8 0, i8* %_11, align 1, !dbg !2722
   store i8 1, i8* %_11, align 1, !dbg !2722
 ; call alloc::alloc::exchange_malloc
-  %3 = call i8* @_RNvNtCs8RW06R9lH2S_5alloc5alloc15exchange_mallocCskT2QP9QPlNo_17mapped_stack_race(i64 40, i64 8), !dbg !2723
+  %3 = call i8* @_RNvNtCs8RW06R9lH2S_5alloc5alloc15exchange_mallocCsfnYCCstO0CH_18mapped_static_race(i64 40, i64 8), !dbg !2723
   %4 = bitcast i8* %3 to %"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"*, !dbg !2723
   store %"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"* %4, %"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"** %_3, align 8, !dbg !2723
 ; invoke <core::sync::atomic::AtomicUsize>::new
-  %5 = invoke i64 @_RNvMs15_NtNtCs3p84KrD9aKt_4core4sync6atomicNtB6_11AtomicUsize3newCskT2QP9QPlNo_17mapped_stack_race(i64 1)
+  %5 = invoke i64 @_RNvMs15_NtNtCs3p84KrD9aKt_4core4sync6atomicNtB6_11AtomicUsize3newCsfnYCCstO0CH_18mapped_static_race(i64 1)
           to label %bb1 unwind label %cleanup, !dbg !2724
 
 bb1:                                              ; preds = %start
@@ -5386,7 +5386,7 @@ bb1:                                              ; preds = %start
   %7 = bitcast i64* %1 to i8*, !dbg !2724
   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 8 %6, i8* align 8 %7, i64 8, i1 false), !dbg !2724
 ; invoke <core::sync::atomic::AtomicUsize>::new
-  %8 = invoke i64 @_RNvMs15_NtNtCs3p84KrD9aKt_4core4sync6atomicNtB6_11AtomicUsize3newCskT2QP9QPlNo_17mapped_stack_race(i64 1)
+  %8 = invoke i64 @_RNvMs15_NtNtCs3p84KrD9aKt_4core4sync6atomicNtB6_11AtomicUsize3newCsfnYCCstO0CH_18mapped_static_race(i64 1)
           to label %bb2 unwind label %cleanup, !dbg !2725
 
 bb2:                                              ; preds = %bb1
@@ -5417,17 +5417,17 @@ bb2:                                              ; preds = %bb1
   store %"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"* %x, %"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"** %x.dbg.spill, align 8, !dbg !2723
   call void @llvm.dbg.declare(metadata %"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"** %x.dbg.spill, metadata !2719, metadata !DIExpression()), !dbg !2728
 ; invoke <alloc::boxed::Box<alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>>>>::leak
-  %_9 = invoke align 8 dereferenceable(40) %"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"* @_RNvMs5_NtCs8RW06R9lH2S_5alloc5boxedINtB5_3BoxINtNtB7_4sync8ArcInnerINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtB18_6option6OptionINtNtB18_6result6ResultuIBy_DNtNtB18_3any3AnyNtNtB18_6marker4SendEL_EEEEEE4leakCskT2QP9QPlNo_17mapped_stack_race(%"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"* noalias nonnull align 8 %x)
+  %_9 = invoke align 8 dereferenceable(40) %"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"* @_RNvMs5_NtCs8RW06R9lH2S_5alloc5boxedINtB5_3BoxINtNtB7_4sync8ArcInnerINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtB18_6option6OptionINtNtB18_6result6ResultuIBy_DNtNtB18_3any3AnyNtNtB18_6marker4SendEL_EEEEEE4leakCsfnYCCstO0CH_18mapped_static_race(%"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"* noalias nonnull align 8 %x)
           to label %bb3 unwind label %cleanup1, !dbg !2729
 
 bb3:                                              ; preds = %bb2
 ; invoke <&mut alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>> as core::convert::Into<core::ptr::non_null::NonNull<alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>>>>>::into
-  %_7 = invoke nonnull i64* @_RNvXs1_NtCs3p84KrD9aKt_4core7convertQINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtB7_4cell10UnsafeCellINtNtB7_6option6OptionINtNtB7_6result6ResultuINtNtBE_5boxed3BoxDNtNtB7_3any3AnyNtNtB7_6marker4SendEL_EEEEEINtB5_4IntoINtNtNtB7_3ptr8non_null7NonNullBz_EE4intoCskT2QP9QPlNo_17mapped_stack_race(%"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"* align 8 dereferenceable(40) %_9)
+  %_7 = invoke nonnull i64* @_RNvXs1_NtCs3p84KrD9aKt_4core7convertQINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtB7_4cell10UnsafeCellINtNtB7_6option6OptionINtNtB7_6result6ResultuINtNtBE_5boxed3BoxDNtNtB7_3any3AnyNtNtB7_6marker4SendEL_EEEEEINtB5_4IntoINtNtNtB7_3ptr8non_null7NonNullBz_EE4intoCsfnYCCstO0CH_18mapped_static_race(%"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"* align 8 dereferenceable(40) %_9)
           to label %bb4 unwind label %cleanup1, !dbg !2729
 
 bb4:                                              ; preds = %bb3
 ; invoke <alloc::sync::Arc<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>>>::from_inner
-  %25 = invoke nonnull i64* @_RNvMs2_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtBL_6option6OptionINtNtBL_6result6ResultuINtNtB7_5boxed3BoxDNtNtBL_3any3AnyNtNtBL_6marker4SendEL_EEEEE10from_innerCskT2QP9QPlNo_17mapped_stack_race(i64* nonnull %_7)
+  %25 = invoke nonnull i64* @_RNvMs2_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtBL_6option6OptionINtNtBL_6result6ResultuINtNtB7_5boxed3BoxDNtNtBL_3any3AnyNtNtBL_6marker4SendEL_EEEEE10from_innerCsfnYCCstO0CH_18mapped_static_race(i64* nonnull %_7)
           to label %bb5 unwind label %cleanup1, !dbg !2730
 
 bb5:                                              ; preds = %bb4
@@ -5446,12 +5446,12 @@ bb7:                                              ; preds = %cleanup
   %32 = bitcast %"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"** %_3 to i64**, !dbg !2733
   %33 = load i64*, i64** %32, align 8, !dbg !2733, !nonnull !4
 ; call alloc::alloc::box_free::<alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>>, alloc::alloc::Global>
-  call void @_RINvNtCs8RW06R9lH2S_5alloc5alloc8box_freeINtNtB4_4sync8ArcInnerINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtB14_6option6OptionINtNtB14_6result6ResultuINtNtB4_5boxed3BoxDNtNtB14_3any3AnyNtNtB14_6marker4SendEL_EEEEENtB2_6GlobalECskT2QP9QPlNo_17mapped_stack_race(i64* nonnull %33) #12, !dbg !2733
+  call void @_RINvNtCs8RW06R9lH2S_5alloc5alloc8box_freeINtNtB4_4sync8ArcInnerINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtB14_6option6OptionINtNtB14_6result6ResultuINtNtB4_5boxed3BoxDNtNtB14_3any3AnyNtNtB14_6marker4SendEL_EEEEENtB2_6GlobalECsfnYCCstO0CH_18mapped_static_race(i64* nonnull %33) #12, !dbg !2733
   br label %bb9, !dbg !2733
 
 bb8:                                              ; preds = %bb9
 ; call core::ptr::drop_in_place::<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>>
-  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_4cell10UnsafeCellINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEEECskT2QP9QPlNo_17mapped_stack_race(%"std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>"* %data) #12, !dbg !2734
+  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_4cell10UnsafeCellINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEEECsfnYCCstO0CH_18mapped_static_race(%"std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>"* %data) #12, !dbg !2734
   br label %bb6, !dbg !2734
 
 bb9:                                              ; preds = %cleanup1, %bb7
@@ -5484,13 +5484,13 @@ cleanup1:                                         ; preds = %bb4, %bb3, %bb2
 
 ; <alloc::sync::Arc<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>>>::inner
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal align 8 dereferenceable(40) %"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"* @_RNvMse_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtBL_6option6OptionINtNtBL_6result6ResultuINtNtB7_5boxed3BoxDNtNtBL_3any3AnyNtNtBL_6marker4SendEL_EEEEE5innerCskT2QP9QPlNo_17mapped_stack_race(i64** noalias readonly align 8 dereferenceable(8) %self) unnamed_addr #1 !dbg !2735 {
+define internal align 8 dereferenceable(40) %"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"* @_RNvMse_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtBL_6option6OptionINtNtBL_6result6ResultuINtNtB7_5boxed3BoxDNtNtBL_3any3AnyNtNtBL_6marker4SendEL_EEEEE5innerCsfnYCCstO0CH_18mapped_static_race(i64** noalias readonly align 8 dereferenceable(8) %self) unnamed_addr #1 !dbg !2735 {
 start:
   %self.dbg.spill = alloca i64**, align 8
   store i64** %self, i64*** %self.dbg.spill, align 8
   call void @llvm.dbg.declare(metadata i64*** %self.dbg.spill, metadata !2740, metadata !DIExpression()), !dbg !2741
 ; call <core::ptr::non_null::NonNull<alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>>>>::as_ref
-  %0 = call align 8 dereferenceable(40) %"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtB9_4cell10UnsafeCellINtNtB9_6option6OptionINtNtB9_6result6ResultuINtNtBY_5boxed3BoxDNtNtB9_3any3AnyNtNtB9_6marker4SendEL_EEEEEE6as_refCskT2QP9QPlNo_17mapped_stack_race(i64** noalias readonly align 8 dereferenceable(8) %self), !dbg !2742
+  %0 = call align 8 dereferenceable(40) %"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtB9_4cell10UnsafeCellINtNtB9_6option6OptionINtNtB9_6result6ResultuINtNtBY_5boxed3BoxDNtNtB9_3any3AnyNtNtB9_6marker4SendEL_EEEEEE6as_refCsfnYCCstO0CH_18mapped_static_race(i64** noalias readonly align 8 dereferenceable(8) %self), !dbg !2742
   br label %bb1, !dbg !2742
 
 bb1:                                              ; preds = %start
@@ -5499,19 +5499,19 @@ bb1:                                              ; preds = %start
 
 ; <alloc::sync::Arc<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>>>::drop_slow
 ; Function Attrs: noinline nonlazybind uwtable
-define internal void @_RNvMse_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtBL_6option6OptionINtNtBL_6result6ResultuINtNtB7_5boxed3BoxDNtNtBL_3any3AnyNtNtBL_6marker4SendEL_EEEEE9drop_slowCskT2QP9QPlNo_17mapped_stack_race(i64** align 8 dereferenceable(8) %self) unnamed_addr #2 !dbg !2744 {
+define internal void @_RNvMse_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtBL_6option6OptionINtNtBL_6result6ResultuINtNtB7_5boxed3BoxDNtNtBL_3any3AnyNtNtBL_6marker4SendEL_EEEEE9drop_slowCsfnYCCstO0CH_18mapped_static_race(i64** align 8 dereferenceable(8) %self) unnamed_addr #2 !dbg !2744 {
 start:
   %self.dbg.spill = alloca i64**, align 8
   %_7 = alloca i64*, align 8
   store i64** %self, i64*** %self.dbg.spill, align 8
   call void @llvm.dbg.declare(metadata i64*** %self.dbg.spill, metadata !2749, metadata !DIExpression()), !dbg !2750
 ; call <alloc::sync::Arc<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>>>::get_mut_unchecked
-  %_4 = call align 8 dereferenceable(24) %"std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>"* @_RNvMso_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtBL_6option6OptionINtNtBL_6result6ResultuINtNtB7_5boxed3BoxDNtNtBL_3any3AnyNtNtBL_6marker4SendEL_EEEEE17get_mut_uncheckedCskT2QP9QPlNo_17mapped_stack_race(i64** align 8 dereferenceable(8) %self), !dbg !2751
+  %_4 = call align 8 dereferenceable(24) %"std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>"* @_RNvMso_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtBL_6option6OptionINtNtBL_6result6ResultuINtNtB7_5boxed3BoxDNtNtBL_3any3AnyNtNtBL_6marker4SendEL_EEEEE17get_mut_uncheckedCsfnYCCstO0CH_18mapped_static_race(i64** align 8 dereferenceable(8) %self), !dbg !2751
   br label %bb1, !dbg !2751
 
 bb1:                                              ; preds = %start
 ; call core::ptr::drop_in_place::<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>>
-  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_4cell10UnsafeCellINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEEECskT2QP9QPlNo_17mapped_stack_race(%"std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>"* %_4), !dbg !2752
+  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_4cell10UnsafeCellINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEEECsfnYCCstO0CH_18mapped_static_race(%"std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>"* %_4), !dbg !2752
   br label %bb2, !dbg !2752
 
 bb2:                                              ; preds = %bb1
@@ -5519,7 +5519,7 @@ bb2:                                              ; preds = %bb1
   store i64* %_8, i64** %_7, align 8, !dbg !2754
   %0 = load i64*, i64** %_7, align 8, !dbg !2755, !nonnull !4
 ; call core::mem::drop::<alloc::sync::Weak<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>>>
-  call void @_RINvNtCs3p84KrD9aKt_4core3mem4dropINtNtCs8RW06R9lH2S_5alloc4sync4WeakINtNtB4_4cell10UnsafeCellINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtBB_5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEEEECskT2QP9QPlNo_17mapped_stack_race(i64* nonnull %0), !dbg !2755
+  call void @_RINvNtCs3p84KrD9aKt_4core3mem4dropINtNtCs8RW06R9lH2S_5alloc4sync4WeakINtNtB4_4cell10UnsafeCellINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtBB_5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEEEECsfnYCCstO0CH_18mapped_static_race(i64* nonnull %0), !dbg !2755
   br label %bb3, !dbg !2755
 
 bb3:                                              ; preds = %bb2
@@ -5528,13 +5528,13 @@ bb3:                                              ; preds = %bb2
 
 ; <alloc::sync::Arc<std::sync::mutex::Mutex<alloc::vec::Vec<u8>>>>::inner
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal align 8 dereferenceable(56) %"alloc::sync::ArcInner<std::sync::Mutex<std::vec::Vec<u8>>>"* @_RNvMse_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtB7_3vec3VechEEE5innerCskT2QP9QPlNo_17mapped_stack_race(i64** noalias readonly align 8 dereferenceable(8) %self) unnamed_addr #1 !dbg !2757 {
+define internal align 8 dereferenceable(56) %"alloc::sync::ArcInner<std::sync::Mutex<std::vec::Vec<u8>>>"* @_RNvMse_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtB7_3vec3VechEEE5innerCsfnYCCstO0CH_18mapped_static_race(i64** noalias readonly align 8 dereferenceable(8) %self) unnamed_addr #1 !dbg !2757 {
 start:
   %self.dbg.spill = alloca i64**, align 8
   store i64** %self, i64*** %self.dbg.spill, align 8
   call void @llvm.dbg.declare(metadata i64*** %self.dbg.spill, metadata !2762, metadata !DIExpression()), !dbg !2763
 ; call <core::ptr::non_null::NonNull<alloc::sync::ArcInner<std::sync::mutex::Mutex<alloc::vec::Vec<u8>>>>>::as_ref
-  %0 = call align 8 dereferenceable(56) %"alloc::sync::ArcInner<std::sync::Mutex<std::vec::Vec<u8>>>"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtBY_3vec3VechEEEE6as_refCskT2QP9QPlNo_17mapped_stack_race(i64** noalias readonly align 8 dereferenceable(8) %self), !dbg !2764
+  %0 = call align 8 dereferenceable(56) %"alloc::sync::ArcInner<std::sync::Mutex<std::vec::Vec<u8>>>"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtBY_3vec3VechEEEE6as_refCsfnYCCstO0CH_18mapped_static_race(i64** noalias readonly align 8 dereferenceable(8) %self), !dbg !2764
   br label %bb1, !dbg !2764
 
 bb1:                                              ; preds = %start
@@ -5543,19 +5543,19 @@ bb1:                                              ; preds = %start
 
 ; <alloc::sync::Arc<std::sync::mutex::Mutex<alloc::vec::Vec<u8>>>>::drop_slow
 ; Function Attrs: noinline nonlazybind uwtable
-define internal void @_RNvMse_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtB7_3vec3VechEEE9drop_slowCskT2QP9QPlNo_17mapped_stack_race(i64** align 8 dereferenceable(8) %self) unnamed_addr #2 !dbg !2766 {
+define internal void @_RNvMse_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtB7_3vec3VechEEE9drop_slowCsfnYCCstO0CH_18mapped_static_race(i64** align 8 dereferenceable(8) %self) unnamed_addr #2 !dbg !2766 {
 start:
   %self.dbg.spill = alloca i64**, align 8
   %_7 = alloca i64*, align 8
   store i64** %self, i64*** %self.dbg.spill, align 8
   call void @llvm.dbg.declare(metadata i64*** %self.dbg.spill, metadata !2771, metadata !DIExpression()), !dbg !2772
 ; call <alloc::sync::Arc<std::sync::mutex::Mutex<alloc::vec::Vec<u8>>>>::get_mut_unchecked
-  %_4 = call align 8 dereferenceable(40) %"std::sync::Mutex<std::vec::Vec<u8>>"* @_RNvMso_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtB7_3vec3VechEEE17get_mut_uncheckedCskT2QP9QPlNo_17mapped_stack_race(i64** align 8 dereferenceable(8) %self), !dbg !2773
+  %_4 = call align 8 dereferenceable(40) %"std::sync::Mutex<std::vec::Vec<u8>>"* @_RNvMso_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtB7_3vec3VechEEE17get_mut_uncheckedCsfnYCCstO0CH_18mapped_static_race(i64** align 8 dereferenceable(8) %self), !dbg !2773
   br label %bb1, !dbg !2773
 
 bb1:                                              ; preds = %start
 ; call core::ptr::drop_in_place::<std::sync::mutex::Mutex<alloc::vec::Vec<u8>>>
-  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtCs8RW06R9lH2S_5alloc3vec3VechEEECskT2QP9QPlNo_17mapped_stack_race(%"std::sync::Mutex<std::vec::Vec<u8>>"* %_4), !dbg !2774
+  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtCs8RW06R9lH2S_5alloc3vec3VechEEECsfnYCCstO0CH_18mapped_static_race(%"std::sync::Mutex<std::vec::Vec<u8>>"* %_4), !dbg !2774
   br label %bb2, !dbg !2774
 
 bb2:                                              ; preds = %bb1
@@ -5563,7 +5563,7 @@ bb2:                                              ; preds = %bb1
   store i64* %_8, i64** %_7, align 8, !dbg !2776
   %0 = load i64*, i64** %_7, align 8, !dbg !2777, !nonnull !4
 ; call core::mem::drop::<alloc::sync::Weak<std::sync::mutex::Mutex<alloc::vec::Vec<u8>>>>
-  call void @_RINvNtCs3p84KrD9aKt_4core3mem4dropINtNtCs8RW06R9lH2S_5alloc4sync4WeakINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtBB_3vec3VechEEEECskT2QP9QPlNo_17mapped_stack_race(i64* nonnull %0), !dbg !2777
+  call void @_RINvNtCs3p84KrD9aKt_4core3mem4dropINtNtCs8RW06R9lH2S_5alloc4sync4WeakINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtBB_3vec3VechEEEECsfnYCCstO0CH_18mapped_static_race(i64* nonnull %0), !dbg !2777
   br label %bb3, !dbg !2777
 
 bb3:                                              ; preds = %bb2
@@ -5572,13 +5572,13 @@ bb3:                                              ; preds = %bb2
 
 ; <alloc::sync::Arc<std::thread::Inner>>::inner
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal align 8 dereferenceable(48) %"alloc::sync::ArcInner<std::thread::Inner>"* @_RNvMse_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcNtNtCs2bNvlddUlXM_3std6thread5InnerE5innerCskT2QP9QPlNo_17mapped_stack_race(i64** noalias readonly align 8 dereferenceable(8) %self) unnamed_addr #1 !dbg !2779 {
+define internal align 8 dereferenceable(48) %"alloc::sync::ArcInner<std::thread::Inner>"* @_RNvMse_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcNtNtCs2bNvlddUlXM_3std6thread5InnerE5innerCsfnYCCstO0CH_18mapped_static_race(i64** noalias readonly align 8 dereferenceable(8) %self) unnamed_addr #1 !dbg !2779 {
 start:
   %self.dbg.spill = alloca i64**, align 8
   store i64** %self, i64*** %self.dbg.spill, align 8
   call void @llvm.dbg.declare(metadata i64*** %self.dbg.spill, metadata !2784, metadata !DIExpression()), !dbg !2785
 ; call <core::ptr::non_null::NonNull<alloc::sync::ArcInner<std::thread::Inner>>>::as_ref
-  %0 = call align 8 dereferenceable(48) %"alloc::sync::ArcInner<std::thread::Inner>"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerNtNtCs2bNvlddUlXM_3std6thread5InnerEE6as_refCskT2QP9QPlNo_17mapped_stack_race(i64** noalias readonly align 8 dereferenceable(8) %self), !dbg !2786
+  %0 = call align 8 dereferenceable(48) %"alloc::sync::ArcInner<std::thread::Inner>"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerNtNtCs2bNvlddUlXM_3std6thread5InnerEE6as_refCsfnYCCstO0CH_18mapped_static_race(i64** noalias readonly align 8 dereferenceable(8) %self), !dbg !2786
   br label %bb1, !dbg !2786
 
 bb1:                                              ; preds = %start
@@ -5587,19 +5587,19 @@ bb1:                                              ; preds = %start
 
 ; <alloc::sync::Arc<std::thread::Inner>>::drop_slow
 ; Function Attrs: noinline nonlazybind uwtable
-define internal void @_RNvMse_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcNtNtCs2bNvlddUlXM_3std6thread5InnerE9drop_slowCskT2QP9QPlNo_17mapped_stack_race(i64** align 8 dereferenceable(8) %self) unnamed_addr #2 !dbg !2788 {
+define internal void @_RNvMse_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcNtNtCs2bNvlddUlXM_3std6thread5InnerE9drop_slowCsfnYCCstO0CH_18mapped_static_race(i64** align 8 dereferenceable(8) %self) unnamed_addr #2 !dbg !2788 {
 start:
   %self.dbg.spill = alloca i64**, align 8
   %_7 = alloca i64*, align 8
   store i64** %self, i64*** %self.dbg.spill, align 8
   call void @llvm.dbg.declare(metadata i64*** %self.dbg.spill, metadata !2793, metadata !DIExpression()), !dbg !2794
 ; call <alloc::sync::Arc<std::thread::Inner>>::get_mut_unchecked
-  %_4 = call align 8 dereferenceable(32) %"std::thread::Inner"* @_RNvMso_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcNtNtCs2bNvlddUlXM_3std6thread5InnerE17get_mut_uncheckedCskT2QP9QPlNo_17mapped_stack_race(i64** align 8 dereferenceable(8) %self), !dbg !2795
+  %_4 = call align 8 dereferenceable(32) %"std::thread::Inner"* @_RNvMso_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcNtNtCs2bNvlddUlXM_3std6thread5InnerE17get_mut_uncheckedCsfnYCCstO0CH_18mapped_static_race(i64** align 8 dereferenceable(8) %self), !dbg !2795
   br label %bb1, !dbg !2795
 
 bb1:                                              ; preds = %start
 ; call core::ptr::drop_in_place::<std::thread::Inner>
-  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNtNtCs2bNvlddUlXM_3std6thread5InnerECskT2QP9QPlNo_17mapped_stack_race(%"std::thread::Inner"* %_4), !dbg !2796
+  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNtNtCs2bNvlddUlXM_3std6thread5InnerECsfnYCCstO0CH_18mapped_static_race(%"std::thread::Inner"* %_4), !dbg !2796
   br label %bb2, !dbg !2796
 
 bb2:                                              ; preds = %bb1
@@ -5607,7 +5607,7 @@ bb2:                                              ; preds = %bb1
   store i64* %_8, i64** %_7, align 8, !dbg !2798
   %0 = load i64*, i64** %_7, align 8, !dbg !2799, !nonnull !4
 ; call core::mem::drop::<alloc::sync::Weak<std::thread::Inner>>
-  call void @_RINvNtCs3p84KrD9aKt_4core3mem4dropINtNtCs8RW06R9lH2S_5alloc4sync4WeakNtNtCs2bNvlddUlXM_3std6thread5InnerEECskT2QP9QPlNo_17mapped_stack_race(i64* nonnull %0), !dbg !2799
+  call void @_RINvNtCs3p84KrD9aKt_4core3mem4dropINtNtCs8RW06R9lH2S_5alloc4sync4WeakNtNtCs2bNvlddUlXM_3std6thread5InnerEECsfnYCCstO0CH_18mapped_static_race(i64* nonnull %0), !dbg !2799
   br label %bb3, !dbg !2799
 
 bb3:                                              ; preds = %bb2
@@ -5616,14 +5616,14 @@ bb3:                                              ; preds = %bb2
 
 ; <alloc::sync::Arc<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>>>::get_mut_unchecked
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal align 8 dereferenceable(24) %"std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>"* @_RNvMso_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtBL_6option6OptionINtNtBL_6result6ResultuINtNtB7_5boxed3BoxDNtNtBL_3any3AnyNtNtBL_6marker4SendEL_EEEEE17get_mut_uncheckedCskT2QP9QPlNo_17mapped_stack_race(i64** align 8 dereferenceable(8) %this) unnamed_addr #1 !dbg !2801 {
+define internal align 8 dereferenceable(24) %"std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>"* @_RNvMso_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtBL_6option6OptionINtNtBL_6result6ResultuINtNtB7_5boxed3BoxDNtNtBL_3any3AnyNtNtBL_6marker4SendEL_EEEEE17get_mut_uncheckedCsfnYCCstO0CH_18mapped_static_race(i64** align 8 dereferenceable(8) %this) unnamed_addr #1 !dbg !2801 {
 start:
   %this.dbg.spill = alloca i64**, align 8
   store i64** %this, i64*** %this.dbg.spill, align 8
   call void @llvm.dbg.declare(metadata i64*** %this.dbg.spill, metadata !2806, metadata !DIExpression()), !dbg !2807
   %_6 = load i64*, i64** %this, align 8, !dbg !2808, !nonnull !4
 ; call <core::ptr::non_null::NonNull<alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>>>>::as_ptr
-  %_5 = call %"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtB9_4cell10UnsafeCellINtNtB9_6option6OptionINtNtB9_6result6ResultuINtNtBY_5boxed3BoxDNtNtB9_3any3AnyNtNtB9_6marker4SendEL_EEEEEE6as_ptrCskT2QP9QPlNo_17mapped_stack_race(i64* nonnull %_6), !dbg !2808
+  %_5 = call %"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtB9_4cell10UnsafeCellINtNtB9_6option6OptionINtNtB9_6result6ResultuINtNtBY_5boxed3BoxDNtNtB9_3any3AnyNtNtB9_6marker4SendEL_EEEEEE6as_ptrCsfnYCCstO0CH_18mapped_static_race(i64* nonnull %_6), !dbg !2808
   br label %bb1, !dbg !2808
 
 bb1:                                              ; preds = %start
@@ -5633,14 +5633,14 @@ bb1:                                              ; preds = %start
 
 ; <alloc::sync::Arc<std::sync::mutex::Mutex<alloc::vec::Vec<u8>>>>::get_mut_unchecked
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal align 8 dereferenceable(40) %"std::sync::Mutex<std::vec::Vec<u8>>"* @_RNvMso_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtB7_3vec3VechEEE17get_mut_uncheckedCskT2QP9QPlNo_17mapped_stack_race(i64** align 8 dereferenceable(8) %this) unnamed_addr #1 !dbg !2811 {
+define internal align 8 dereferenceable(40) %"std::sync::Mutex<std::vec::Vec<u8>>"* @_RNvMso_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtB7_3vec3VechEEE17get_mut_uncheckedCsfnYCCstO0CH_18mapped_static_race(i64** align 8 dereferenceable(8) %this) unnamed_addr #1 !dbg !2811 {
 start:
   %this.dbg.spill = alloca i64**, align 8
   store i64** %this, i64*** %this.dbg.spill, align 8
   call void @llvm.dbg.declare(metadata i64*** %this.dbg.spill, metadata !2816, metadata !DIExpression()), !dbg !2817
   %_6 = load i64*, i64** %this, align 8, !dbg !2818, !nonnull !4
 ; call <core::ptr::non_null::NonNull<alloc::sync::ArcInner<std::sync::mutex::Mutex<alloc::vec::Vec<u8>>>>>::as_ptr
-  %_5 = call %"alloc::sync::ArcInner<std::sync::Mutex<std::vec::Vec<u8>>>"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtBY_3vec3VechEEEE6as_ptrCskT2QP9QPlNo_17mapped_stack_race(i64* nonnull %_6), !dbg !2818
+  %_5 = call %"alloc::sync::ArcInner<std::sync::Mutex<std::vec::Vec<u8>>>"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtBY_3vec3VechEEEE6as_ptrCsfnYCCstO0CH_18mapped_static_race(i64* nonnull %_6), !dbg !2818
   br label %bb1, !dbg !2818
 
 bb1:                                              ; preds = %start
@@ -5650,14 +5650,14 @@ bb1:                                              ; preds = %start
 
 ; <alloc::sync::Arc<std::thread::Inner>>::get_mut_unchecked
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal align 8 dereferenceable(32) %"std::thread::Inner"* @_RNvMso_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcNtNtCs2bNvlddUlXM_3std6thread5InnerE17get_mut_uncheckedCskT2QP9QPlNo_17mapped_stack_race(i64** align 8 dereferenceable(8) %this) unnamed_addr #1 !dbg !2821 {
+define internal align 8 dereferenceable(32) %"std::thread::Inner"* @_RNvMso_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcNtNtCs2bNvlddUlXM_3std6thread5InnerE17get_mut_uncheckedCsfnYCCstO0CH_18mapped_static_race(i64** align 8 dereferenceable(8) %this) unnamed_addr #1 !dbg !2821 {
 start:
   %this.dbg.spill = alloca i64**, align 8
   store i64** %this, i64*** %this.dbg.spill, align 8
   call void @llvm.dbg.declare(metadata i64*** %this.dbg.spill, metadata !2826, metadata !DIExpression()), !dbg !2827
   %_6 = load i64*, i64** %this, align 8, !dbg !2828, !nonnull !4
 ; call <core::ptr::non_null::NonNull<alloc::sync::ArcInner<std::thread::Inner>>>::as_ptr
-  %_5 = call %"alloc::sync::ArcInner<std::thread::Inner>"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerNtNtCs2bNvlddUlXM_3std6thread5InnerEE6as_ptrCskT2QP9QPlNo_17mapped_stack_race(i64* nonnull %_6), !dbg !2828
+  %_5 = call %"alloc::sync::ArcInner<std::thread::Inner>"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerNtNtCs2bNvlddUlXM_3std6thread5InnerEE6as_ptrCsfnYCCstO0CH_18mapped_static_race(i64* nonnull %_6), !dbg !2828
   br label %bb1, !dbg !2828
 
 bb1:                                              ; preds = %start
@@ -5667,7 +5667,7 @@ bb1:                                              ; preds = %start
 
 ; <alloc::sync::Weak<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>>>::inner
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal { i64*, i8* } @_RNvMst_NtCs8RW06R9lH2S_5alloc4syncINtB5_4WeakINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtBM_6option6OptionINtNtBM_6result6ResultuINtNtB7_5boxed3BoxDNtNtBM_3any3AnyNtNtBM_6marker4SendEL_EEEEE5innerCskT2QP9QPlNo_17mapped_stack_race(i64** noalias readonly align 8 dereferenceable(8) %self) unnamed_addr #1 !dbg !2831 {
+define internal { i64*, i8* } @_RNvMst_NtCs8RW06R9lH2S_5alloc4syncINtB5_4WeakINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtBM_6option6OptionINtNtBM_6result6ResultuINtNtB7_5boxed3BoxDNtNtBM_3any3AnyNtNtBM_6marker4SendEL_EEEEE5innerCsfnYCCstO0CH_18mapped_static_race(i64** noalias readonly align 8 dereferenceable(8) %self) unnamed_addr #1 !dbg !2831 {
 start:
   %ptr.dbg.spill = alloca %"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"*, align 8
   %self.dbg.spill = alloca i64**, align 8
@@ -5677,7 +5677,7 @@ start:
   call void @llvm.dbg.declare(metadata i64*** %self.dbg.spill, metadata !2852, metadata !DIExpression()), !dbg !2855
   %_3 = load i64*, i64** %self, align 8, !dbg !2856, !nonnull !4
 ; call alloc::rc::is_dangling::<alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>>>
-  %_2 = call zeroext i1 @_RINvNtCs8RW06R9lH2S_5alloc2rc11is_danglingINtNtB4_4sync8ArcInnerINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtB15_6option6OptionINtNtB15_6result6ResultuINtNtB4_5boxed3BoxDNtNtB15_3any3AnyNtNtB15_6marker4SendEL_EEEEEECskT2QP9QPlNo_17mapped_stack_race(i64* nonnull %_3), !dbg !2857
+  %_2 = call zeroext i1 @_RINvNtCs8RW06R9lH2S_5alloc2rc11is_danglingINtNtB4_4sync8ArcInnerINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtB15_6option6OptionINtNtB15_6result6ResultuINtNtB4_5boxed3BoxDNtNtB15_3any3AnyNtNtB15_6marker4SendEL_EEEEEECsfnYCCstO0CH_18mapped_static_race(i64* nonnull %_3), !dbg !2857
   br label %bb1, !dbg !2857
 
 bb1:                                              ; preds = %start
@@ -5691,7 +5691,7 @@ bb2:                                              ; preds = %bb1
 bb3:                                              ; preds = %bb1
   %_6 = load i64*, i64** %self, align 8, !dbg !2860, !nonnull !4
 ; call <core::ptr::non_null::NonNull<alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>>>>::as_ptr
-  %ptr = call %"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtB9_4cell10UnsafeCellINtNtB9_6option6OptionINtNtB9_6result6ResultuINtNtBY_5boxed3BoxDNtNtB9_3any3AnyNtNtB9_6marker4SendEL_EEEEEE6as_ptrCskT2QP9QPlNo_17mapped_stack_race(i64* nonnull %_6), !dbg !2860
+  %ptr = call %"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtB9_4cell10UnsafeCellINtNtB9_6option6OptionINtNtB9_6result6ResultuINtNtBY_5boxed3BoxDNtNtB9_3any3AnyNtNtB9_6marker4SendEL_EEEEEE6as_ptrCsfnYCCstO0CH_18mapped_static_race(i64* nonnull %_6), !dbg !2860
   store %"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"* %ptr, %"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"** %ptr.dbg.spill, align 8, !dbg !2860
   call void @llvm.dbg.declare(metadata %"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"** %ptr.dbg.spill, metadata !2853, metadata !DIExpression()), !dbg !2861
   br label %bb4, !dbg !2860
@@ -5727,7 +5727,7 @@ bb5:                                              ; preds = %bb4, %bb2
 
 ; <alloc::sync::Weak<std::sync::mutex::Mutex<alloc::vec::Vec<u8>>>>::inner
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal { i64*, i8* } @_RNvMst_NtCs8RW06R9lH2S_5alloc4syncINtB5_4WeakINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtB7_3vec3VechEEE5innerCskT2QP9QPlNo_17mapped_stack_race(i64** noalias readonly align 8 dereferenceable(8) %self) unnamed_addr #1 !dbg !2867 {
+define internal { i64*, i8* } @_RNvMst_NtCs8RW06R9lH2S_5alloc4syncINtB5_4WeakINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtB7_3vec3VechEEE5innerCsfnYCCstO0CH_18mapped_static_race(i64** noalias readonly align 8 dereferenceable(8) %self) unnamed_addr #1 !dbg !2867 {
 start:
   %ptr.dbg.spill = alloca %"alloc::sync::ArcInner<std::sync::Mutex<std::vec::Vec<u8>>>"*, align 8
   %self.dbg.spill = alloca i64**, align 8
@@ -5737,7 +5737,7 @@ start:
   call void @llvm.dbg.declare(metadata i64*** %self.dbg.spill, metadata !2872, metadata !DIExpression()), !dbg !2875
   %_3 = load i64*, i64** %self, align 8, !dbg !2876, !nonnull !4
 ; call alloc::rc::is_dangling::<alloc::sync::ArcInner<std::sync::mutex::Mutex<alloc::vec::Vec<u8>>>>
-  %_2 = call zeroext i1 @_RINvNtCs8RW06R9lH2S_5alloc2rc11is_danglingINtNtB4_4sync8ArcInnerINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtB4_3vec3VechEEEECskT2QP9QPlNo_17mapped_stack_race(i64* nonnull %_3), !dbg !2877
+  %_2 = call zeroext i1 @_RINvNtCs8RW06R9lH2S_5alloc2rc11is_danglingINtNtB4_4sync8ArcInnerINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtB4_3vec3VechEEEECsfnYCCstO0CH_18mapped_static_race(i64* nonnull %_3), !dbg !2877
   br label %bb1, !dbg !2877
 
 bb1:                                              ; preds = %start
@@ -5751,7 +5751,7 @@ bb2:                                              ; preds = %bb1
 bb3:                                              ; preds = %bb1
   %_6 = load i64*, i64** %self, align 8, !dbg !2880, !nonnull !4
 ; call <core::ptr::non_null::NonNull<alloc::sync::ArcInner<std::sync::mutex::Mutex<alloc::vec::Vec<u8>>>>>::as_ptr
-  %ptr = call %"alloc::sync::ArcInner<std::sync::Mutex<std::vec::Vec<u8>>>"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtBY_3vec3VechEEEE6as_ptrCskT2QP9QPlNo_17mapped_stack_race(i64* nonnull %_6), !dbg !2880
+  %ptr = call %"alloc::sync::ArcInner<std::sync::Mutex<std::vec::Vec<u8>>>"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtBY_3vec3VechEEEE6as_ptrCsfnYCCstO0CH_18mapped_static_race(i64* nonnull %_6), !dbg !2880
   store %"alloc::sync::ArcInner<std::sync::Mutex<std::vec::Vec<u8>>>"* %ptr, %"alloc::sync::ArcInner<std::sync::Mutex<std::vec::Vec<u8>>>"** %ptr.dbg.spill, align 8, !dbg !2880
   call void @llvm.dbg.declare(metadata %"alloc::sync::ArcInner<std::sync::Mutex<std::vec::Vec<u8>>>"** %ptr.dbg.spill, metadata !2873, metadata !DIExpression()), !dbg !2881
   br label %bb4, !dbg !2880
@@ -5787,7 +5787,7 @@ bb5:                                              ; preds = %bb4, %bb2
 
 ; <alloc::sync::Weak<std::thread::Inner>>::inner
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal { i64*, i8* } @_RNvMst_NtCs8RW06R9lH2S_5alloc4syncINtB5_4WeakNtNtCs2bNvlddUlXM_3std6thread5InnerE5innerCskT2QP9QPlNo_17mapped_stack_race(i64** noalias readonly align 8 dereferenceable(8) %self) unnamed_addr #1 !dbg !2887 {
+define internal { i64*, i8* } @_RNvMst_NtCs8RW06R9lH2S_5alloc4syncINtB5_4WeakNtNtCs2bNvlddUlXM_3std6thread5InnerE5innerCsfnYCCstO0CH_18mapped_static_race(i64** noalias readonly align 8 dereferenceable(8) %self) unnamed_addr #1 !dbg !2887 {
 start:
   %ptr.dbg.spill = alloca %"alloc::sync::ArcInner<std::thread::Inner>"*, align 8
   %self.dbg.spill = alloca i64**, align 8
@@ -5797,7 +5797,7 @@ start:
   call void @llvm.dbg.declare(metadata i64*** %self.dbg.spill, metadata !2892, metadata !DIExpression()), !dbg !2895
   %_3 = load i64*, i64** %self, align 8, !dbg !2896, !nonnull !4
 ; call alloc::rc::is_dangling::<alloc::sync::ArcInner<std::thread::Inner>>
-  %_2 = call zeroext i1 @_RINvNtCs8RW06R9lH2S_5alloc2rc11is_danglingINtNtB4_4sync8ArcInnerNtNtCs2bNvlddUlXM_3std6thread5InnerEECskT2QP9QPlNo_17mapped_stack_race(i64* nonnull %_3), !dbg !2897
+  %_2 = call zeroext i1 @_RINvNtCs8RW06R9lH2S_5alloc2rc11is_danglingINtNtB4_4sync8ArcInnerNtNtCs2bNvlddUlXM_3std6thread5InnerEECsfnYCCstO0CH_18mapped_static_race(i64* nonnull %_3), !dbg !2897
   br label %bb1, !dbg !2897
 
 bb1:                                              ; preds = %start
@@ -5811,7 +5811,7 @@ bb2:                                              ; preds = %bb1
 bb3:                                              ; preds = %bb1
   %_6 = load i64*, i64** %self, align 8, !dbg !2900, !nonnull !4
 ; call <core::ptr::non_null::NonNull<alloc::sync::ArcInner<std::thread::Inner>>>::as_ptr
-  %ptr = call %"alloc::sync::ArcInner<std::thread::Inner>"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerNtNtCs2bNvlddUlXM_3std6thread5InnerEE6as_ptrCskT2QP9QPlNo_17mapped_stack_race(i64* nonnull %_6), !dbg !2900
+  %ptr = call %"alloc::sync::ArcInner<std::thread::Inner>"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerNtNtCs2bNvlddUlXM_3std6thread5InnerEE6as_ptrCsfnYCCstO0CH_18mapped_static_race(i64* nonnull %_6), !dbg !2900
   store %"alloc::sync::ArcInner<std::thread::Inner>"* %ptr, %"alloc::sync::ArcInner<std::thread::Inner>"** %ptr.dbg.spill, align 8, !dbg !2900
   call void @llvm.dbg.declare(metadata %"alloc::sync::ArcInner<std::thread::Inner>"** %ptr.dbg.spill, metadata !2893, metadata !DIExpression()), !dbg !2901
   br label %bb4, !dbg !2900
@@ -5847,7 +5847,7 @@ bb5:                                              ; preds = %bb4, %bb2
 
 ; <core::num::nonzero::NonZeroUsize>::new_unchecked
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal i64 @_RNvMsx_NtNtCs3p84KrD9aKt_4core3num7nonzeroNtB5_12NonZeroUsize13new_uncheckedCskT2QP9QPlNo_17mapped_stack_race(i64 %n) unnamed_addr #1 !dbg !2907 {
+define internal i64 @_RNvMsx_NtNtCs3p84KrD9aKt_4core3num7nonzeroNtB5_12NonZeroUsize13new_uncheckedCsfnYCCstO0CH_18mapped_static_race(i64 %n) unnamed_addr #1 !dbg !2907 {
 start:
   %n.dbg.spill = alloca i64, align 8
   %0 = alloca i64, align 8
@@ -5860,7 +5860,7 @@ start:
 
 ; <core::num::nonzero::NonZeroUsize>::get
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal i64 @_RNvMsx_NtNtCs3p84KrD9aKt_4core3num7nonzeroNtB5_12NonZeroUsize3getCskT2QP9QPlNo_17mapped_stack_race(i64 %self) unnamed_addr #1 !dbg !2916 {
+define internal i64 @_RNvMsx_NtNtCs3p84KrD9aKt_4core3num7nonzeroNtB5_12NonZeroUsize3getCsfnYCCstO0CH_18mapped_static_race(i64 %self) unnamed_addr #1 !dbg !2916 {
 start:
   %self.dbg.spill = alloca i64, align 8
   store i64 %self, i64* %self.dbg.spill, align 8
@@ -5870,7 +5870,7 @@ start:
 
 ; alloc::alloc::alloc_zeroed
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal i8* @_RNvNtCs8RW06R9lH2S_5alloc5alloc12alloc_zeroedCskT2QP9QPlNo_17mapped_stack_race(i64 %0, i64 %1) unnamed_addr #1 !dbg !2923 {
+define internal i8* @_RNvNtCs8RW06R9lH2S_5alloc5alloc12alloc_zeroedCsfnYCCstO0CH_18mapped_static_race(i64 %0, i64 %1) unnamed_addr #1 !dbg !2923 {
 start:
   %layout = alloca { i64, i64 }, align 8
   %2 = getelementptr inbounds { i64, i64 }, { i64, i64 }* %layout, i32 0, i32 0
@@ -5879,12 +5879,12 @@ start:
   store i64 %1, i64* %3, align 8
   call void @llvm.dbg.declare(metadata { i64, i64 }* %layout, metadata !2927, metadata !DIExpression()), !dbg !2928
 ; call <core::alloc::layout::Layout>::size
-  %_2 = call i64 @_RNvMNtNtCs3p84KrD9aKt_4core5alloc6layoutNtB2_6Layout4sizeCskT2QP9QPlNo_17mapped_stack_race({ i64, i64 }* noalias readonly align 8 dereferenceable(16) %layout), !dbg !2929
+  %_2 = call i64 @_RNvMNtNtCs3p84KrD9aKt_4core5alloc6layoutNtB2_6Layout4sizeCsfnYCCstO0CH_18mapped_static_race({ i64, i64 }* noalias readonly align 8 dereferenceable(16) %layout), !dbg !2929
   br label %bb1, !dbg !2929
 
 bb1:                                              ; preds = %start
 ; call <core::alloc::layout::Layout>::align
-  %_4 = call i64 @_RNvMNtNtCs3p84KrD9aKt_4core5alloc6layoutNtB2_6Layout5alignCskT2QP9QPlNo_17mapped_stack_race({ i64, i64 }* noalias readonly align 8 dereferenceable(16) %layout), !dbg !2930
+  %_4 = call i64 @_RNvMNtNtCs3p84KrD9aKt_4core5alloc6layoutNtB2_6Layout5alignCsfnYCCstO0CH_18mapped_static_race({ i64, i64 }* noalias readonly align 8 dereferenceable(16) %layout), !dbg !2930
   br label %bb2, !dbg !2930
 
 bb2:                                              ; preds = %bb1
@@ -5897,7 +5897,7 @@ bb3:                                              ; preds = %bb2
 
 ; alloc::alloc::exchange_malloc
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal i8* @_RNvNtCs8RW06R9lH2S_5alloc5alloc15exchange_mallocCskT2QP9QPlNo_17mapped_stack_race(i64 %size, i64 %align) unnamed_addr #1 !dbg !2933 {
+define internal i8* @_RNvNtCs8RW06R9lH2S_5alloc5alloc15exchange_mallocCsfnYCCstO0CH_18mapped_static_race(i64 %size, i64 %align) unnamed_addr #1 !dbg !2933 {
 start:
   %ptr.dbg.spill = alloca { i8*, i64 }, align 8
   %layout.dbg.spill = alloca { i64, i64 }, align 8
@@ -5909,7 +5909,7 @@ start:
   store i64 %align, i64* %align.dbg.spill, align 8
   call void @llvm.dbg.declare(metadata i64* %align.dbg.spill, metadata !2938, metadata !DIExpression()), !dbg !2944
 ; call <core::alloc::layout::Layout>::from_size_align_unchecked
-  %0 = call { i64, i64 } @_RNvMNtNtCs3p84KrD9aKt_4core5alloc6layoutNtB2_6Layout25from_size_align_uncheckedCskT2QP9QPlNo_17mapped_stack_race(i64 %size, i64 %align), !dbg !2945
+  %0 = call { i64, i64 } @_RNvMNtNtCs3p84KrD9aKt_4core5alloc6layoutNtB2_6Layout25from_size_align_uncheckedCsfnYCCstO0CH_18mapped_static_race(i64 %size, i64 %align), !dbg !2945
   %layout.0 = extractvalue { i64, i64 } %0, 0, !dbg !2945
   %layout.1 = extractvalue { i64, i64 } %0, 1, !dbg !2945
   %1 = getelementptr inbounds { i64, i64 }, { i64, i64 }* %layout.dbg.spill, i32 0, i32 0, !dbg !2945
@@ -5921,7 +5921,7 @@ start:
 
 bb1:                                              ; preds = %start
 ; call <alloc::alloc::Global as core::alloc::Allocator>::allocate
-  %3 = call { i8*, i64 } @_RNvXs_NtCs8RW06R9lH2S_5alloc5allocNtB4_6GlobalNtNtCs3p84KrD9aKt_4core5alloc9Allocator8allocateCskT2QP9QPlNo_17mapped_stack_race(%"std::alloc::Global"* noalias nonnull readonly align 1 bitcast (<{ [0 x i8] }>* @alloc20 to %"std::alloc::Global"*), i64 %layout.0, i64 %layout.1), !dbg !2947
+  %3 = call { i8*, i64 } @_RNvXs_NtCs8RW06R9lH2S_5alloc5allocNtB4_6GlobalNtNtCs3p84KrD9aKt_4core5alloc9Allocator8allocateCsfnYCCstO0CH_18mapped_static_race(%"std::alloc::Global"* noalias nonnull readonly align 1 bitcast (<{ [0 x i8] }>* @alloc20 to %"std::alloc::Global"*), i64 %layout.0, i64 %layout.1), !dbg !2947
   store { i8*, i64 } %3, { i8*, i64 }* %_6, align 8, !dbg !2947
   br label %bb2, !dbg !2947
 
@@ -5954,7 +5954,7 @@ bb5:                                              ; preds = %bb2
   store i64 %ptr.1, i64* %10, align 8, !dbg !2950
   call void @llvm.dbg.declare(metadata { i8*, i64 }* %ptr.dbg.spill, metadata !2941, metadata !DIExpression()), !dbg !2951
 ; call <core::ptr::non_null::NonNull<[u8]>>::as_mut_ptr
-  %11 = call i8* @_RNvMs2_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullShE10as_mut_ptrCskT2QP9QPlNo_17mapped_stack_race(i8* nonnull %ptr.0, i64 %ptr.1), !dbg !2952
+  %11 = call i8* @_RNvMs2_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullShE10as_mut_ptrCsfnYCCstO0CH_18mapped_static_race(i8* nonnull %ptr.0, i64 %ptr.1), !dbg !2952
   br label %bb6, !dbg !2952
 
 bb6:                                              ; preds = %bb5
@@ -5963,7 +5963,7 @@ bb6:                                              ; preds = %bb5
 
 ; alloc::alloc::alloc
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal i8* @_RNvNtCs8RW06R9lH2S_5alloc5alloc5allocCskT2QP9QPlNo_17mapped_stack_race(i64 %0, i64 %1) unnamed_addr #1 !dbg !2954 {
+define internal i8* @_RNvNtCs8RW06R9lH2S_5alloc5alloc5allocCsfnYCCstO0CH_18mapped_static_race(i64 %0, i64 %1) unnamed_addr #1 !dbg !2954 {
 start:
   %layout = alloca { i64, i64 }, align 8
   %2 = getelementptr inbounds { i64, i64 }, { i64, i64 }* %layout, i32 0, i32 0
@@ -5972,12 +5972,12 @@ start:
   store i64 %1, i64* %3, align 8
   call void @llvm.dbg.declare(metadata { i64, i64 }* %layout, metadata !2956, metadata !DIExpression()), !dbg !2957
 ; call <core::alloc::layout::Layout>::size
-  %_2 = call i64 @_RNvMNtNtCs3p84KrD9aKt_4core5alloc6layoutNtB2_6Layout4sizeCskT2QP9QPlNo_17mapped_stack_race({ i64, i64 }* noalias readonly align 8 dereferenceable(16) %layout), !dbg !2958
+  %_2 = call i64 @_RNvMNtNtCs3p84KrD9aKt_4core5alloc6layoutNtB2_6Layout4sizeCsfnYCCstO0CH_18mapped_static_race({ i64, i64 }* noalias readonly align 8 dereferenceable(16) %layout), !dbg !2958
   br label %bb1, !dbg !2958
 
 bb1:                                              ; preds = %start
 ; call <core::alloc::layout::Layout>::align
-  %_4 = call i64 @_RNvMNtNtCs3p84KrD9aKt_4core5alloc6layoutNtB2_6Layout5alignCskT2QP9QPlNo_17mapped_stack_race({ i64, i64 }* noalias readonly align 8 dereferenceable(16) %layout), !dbg !2959
+  %_4 = call i64 @_RNvMNtNtCs3p84KrD9aKt_4core5alloc6layoutNtB2_6Layout5alignCsfnYCCstO0CH_18mapped_static_race({ i64, i64 }* noalias readonly align 8 dereferenceable(16) %layout), !dbg !2959
   br label %bb2, !dbg !2959
 
 bb2:                                              ; preds = %bb1
@@ -5990,7 +5990,7 @@ bb3:                                              ; preds = %bb2
 
 ; alloc::alloc::dealloc
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal void @_RNvNtCs8RW06R9lH2S_5alloc5alloc7deallocCskT2QP9QPlNo_17mapped_stack_race(i8* %ptr, i64 %0, i64 %1) unnamed_addr #1 !dbg !2962 {
+define internal void @_RNvNtCs8RW06R9lH2S_5alloc5alloc7deallocCsfnYCCstO0CH_18mapped_static_race(i8* %ptr, i64 %0, i64 %1) unnamed_addr #1 !dbg !2962 {
 start:
   %ptr.dbg.spill = alloca i8*, align 8
   %layout = alloca { i64, i64 }, align 8
@@ -6002,12 +6002,12 @@ start:
   call void @llvm.dbg.declare(metadata i8** %ptr.dbg.spill, metadata !2966, metadata !DIExpression()), !dbg !2968
   call void @llvm.dbg.declare(metadata { i64, i64 }* %layout, metadata !2967, metadata !DIExpression()), !dbg !2969
 ; call <core::alloc::layout::Layout>::size
-  %_4 = call i64 @_RNvMNtNtCs3p84KrD9aKt_4core5alloc6layoutNtB2_6Layout4sizeCskT2QP9QPlNo_17mapped_stack_race({ i64, i64 }* noalias readonly align 8 dereferenceable(16) %layout), !dbg !2970
+  %_4 = call i64 @_RNvMNtNtCs3p84KrD9aKt_4core5alloc6layoutNtB2_6Layout4sizeCsfnYCCstO0CH_18mapped_static_race({ i64, i64 }* noalias readonly align 8 dereferenceable(16) %layout), !dbg !2970
   br label %bb1, !dbg !2970
 
 bb1:                                              ; preds = %start
 ; call <core::alloc::layout::Layout>::align
-  %_6 = call i64 @_RNvMNtNtCs3p84KrD9aKt_4core5alloc6layoutNtB2_6Layout5alignCskT2QP9QPlNo_17mapped_stack_race({ i64, i64 }* noalias readonly align 8 dereferenceable(16) %layout), !dbg !2971
+  %_6 = call i64 @_RNvMNtNtCs3p84KrD9aKt_4core5alloc6layoutNtB2_6Layout5alignCsfnYCCstO0CH_18mapped_static_race({ i64, i64 }* noalias readonly align 8 dereferenceable(16) %layout), !dbg !2971
   br label %bb2, !dbg !2971
 
 bb2:                                              ; preds = %bb1
@@ -6020,7 +6020,7 @@ bb3:                                              ; preds = %bb2
 
 ; core::sync::atomic::fence
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal void @_RNvNtNtCs3p84KrD9aKt_4core4sync6atomic5fenceCskT2QP9QPlNo_17mapped_stack_race(i8 %0) unnamed_addr #1 !dbg !2974 {
+define internal void @_RNvNtNtCs3p84KrD9aKt_4core4sync6atomic5fenceCsfnYCCstO0CH_18mapped_static_race(i8 %0) unnamed_addr #1 !dbg !2974 {
 start:
   %1 = alloca {}, align 1
   %order = alloca i8, align 1
@@ -6066,7 +6066,7 @@ bb7:                                              ; preds = %bb4, %bb3, %bb5, %b
 
 ; <usize as core::slice::index::SliceIndex<[u8]>>::get_unchecked_mut
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal i8* @_RNvXs0_NtNtCs3p84KrD9aKt_4core5slice5indexjINtB5_10SliceIndexShE17get_unchecked_mutCskT2QP9QPlNo_17mapped_stack_race(i64 %self, [0 x i8]* %slice.0, i64 %slice.1) unnamed_addr #1 !dbg !2988 {
+define internal i8* @_RNvXs0_NtNtCs3p84KrD9aKt_4core5slice5indexjINtB5_10SliceIndexShE17get_unchecked_mutCsfnYCCstO0CH_18mapped_static_race(i64 %self, [0 x i8]* %slice.0, i64 %slice.1) unnamed_addr #1 !dbg !2988 {
 start:
   %slice.dbg.spill = alloca { [0 x i8]*, i64 }, align 8
   %self.dbg.spill = alloca i64, align 8
@@ -6078,12 +6078,12 @@ start:
   store i64 %slice.1, i64* %1, align 8
   call void @llvm.dbg.declare(metadata { [0 x i8]*, i64 }* %slice.dbg.spill, metadata !2996, metadata !DIExpression()), !dbg !2998
 ; call <*mut [u8]>::as_mut_ptr
-  %_3 = call i8* @_RNvMs_NtNtCs3p84KrD9aKt_4core3ptr7mut_ptrOSh10as_mut_ptrCskT2QP9QPlNo_17mapped_stack_race([0 x i8]* %slice.0, i64 %slice.1), !dbg !2999
+  %_3 = call i8* @_RNvMs_NtNtCs3p84KrD9aKt_4core3ptr7mut_ptrOSh10as_mut_ptrCsfnYCCstO0CH_18mapped_static_race([0 x i8]* %slice.0, i64 %slice.1), !dbg !2999
   br label %bb1, !dbg !2999
 
 bb1:                                              ; preds = %start
 ; call <*mut u8>::add
-  %2 = call i8* @_RNvMNtNtCs3p84KrD9aKt_4core3ptr7mut_ptrOh3addCskT2QP9QPlNo_17mapped_stack_race(i8* %_3, i64 %self), !dbg !2999
+  %2 = call i8* @_RNvMNtNtCs3p84KrD9aKt_4core3ptr7mut_ptrOh3addCsfnYCCstO0CH_18mapped_static_race(i8* %_3, i64 %self), !dbg !2999
   br label %bb2, !dbg !2999
 
 bb2:                                              ; preds = %bb1
@@ -6092,13 +6092,13 @@ bb2:                                              ; preds = %bb1
 
 ; <core::ptr::unique::Unique<u8> as core::convert::Into<core::ptr::non_null::NonNull<u8>>>::into
 ; Function Attrs: nonlazybind uwtable
-define internal nonnull i8* @_RNvXs1_NtCs3p84KrD9aKt_4core7convertINtNtNtB7_3ptr6unique6UniquehEINtB5_4IntoINtNtBD_8non_null7NonNullhEE4intoCskT2QP9QPlNo_17mapped_stack_race(i8* nonnull %self) unnamed_addr #0 !dbg !3001 {
+define internal nonnull i8* @_RNvXs1_NtCs3p84KrD9aKt_4core7convertINtNtNtB7_3ptr6unique6UniquehEINtB5_4IntoINtNtBD_8non_null7NonNullhEE4intoCsfnYCCstO0CH_18mapped_static_race(i8* nonnull %self) unnamed_addr #0 !dbg !3001 {
 start:
   %self.dbg.spill = alloca i8*, align 8
   store i8* %self, i8** %self.dbg.spill, align 8
   call void @llvm.dbg.declare(metadata i8** %self.dbg.spill, metadata !3008, metadata !DIExpression()), !dbg !3012
 ; call <core::ptr::non_null::NonNull<u8> as core::convert::From<core::ptr::unique::Unique<u8>>>::from
-  %0 = call nonnull i8* @_RNvXse_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullhEINtNtB9_7convert4FromINtNtB7_6unique6UniquehEE4fromCskT2QP9QPlNo_17mapped_stack_race(i8* nonnull %self), !dbg !3013
+  %0 = call nonnull i8* @_RNvXse_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullhEINtNtB9_7convert4FromINtNtB7_6unique6UniquehEE4fromCsfnYCCstO0CH_18mapped_static_race(i8* nonnull %self), !dbg !3013
   br label %bb1, !dbg !3013
 
 bb1:                                              ; preds = %start
@@ -6107,13 +6107,13 @@ bb1:                                              ; preds = %start
 
 ; <&mut alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>> as core::convert::Into<core::ptr::non_null::NonNull<alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>>>>>::into
 ; Function Attrs: nonlazybind uwtable
-define internal nonnull i64* @_RNvXs1_NtCs3p84KrD9aKt_4core7convertQINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtB7_4cell10UnsafeCellINtNtB7_6option6OptionINtNtB7_6result6ResultuINtNtBE_5boxed3BoxDNtNtB7_3any3AnyNtNtB7_6marker4SendEL_EEEEEINtB5_4IntoINtNtNtB7_3ptr8non_null7NonNullBz_EE4intoCskT2QP9QPlNo_17mapped_stack_race(%"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"* align 8 dereferenceable(40) %self) unnamed_addr #0 !dbg !3015 {
+define internal nonnull i64* @_RNvXs1_NtCs3p84KrD9aKt_4core7convertQINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtB7_4cell10UnsafeCellINtNtB7_6option6OptionINtNtB7_6result6ResultuINtNtBE_5boxed3BoxDNtNtB7_3any3AnyNtNtB7_6marker4SendEL_EEEEEINtB5_4IntoINtNtNtB7_3ptr8non_null7NonNullBz_EE4intoCsfnYCCstO0CH_18mapped_static_race(%"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"* align 8 dereferenceable(40) %self) unnamed_addr #0 !dbg !3015 {
 start:
   %self.dbg.spill = alloca %"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"*, align 8
   store %"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"* %self, %"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"** %self.dbg.spill, align 8
   call void @llvm.dbg.declare(metadata %"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"** %self.dbg.spill, metadata !3019, metadata !DIExpression()), !dbg !3023
 ; call <core::ptr::non_null::NonNull<alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>>> as core::convert::From<&mut alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>>>>::from
-  %0 = call nonnull i64* @_RNvXsf_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtB9_4cell10UnsafeCellINtNtB9_6option6OptionINtNtB9_6result6ResultuINtNtBY_5boxed3BoxDNtNtB9_3any3AnyNtNtB9_6marker4SendEL_EEEEEEINtNtB9_7convert4FromQBT_E4fromCskT2QP9QPlNo_17mapped_stack_race(%"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"* align 8 dereferenceable(40) %self), !dbg !3024
+  %0 = call nonnull i64* @_RNvXsf_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtB9_4cell10UnsafeCellINtNtB9_6option6OptionINtNtB9_6result6ResultuINtNtBY_5boxed3BoxDNtNtB9_3any3AnyNtNtB9_6marker4SendEL_EEEEEEINtNtB9_7convert4FromQBT_E4fromCsfnYCCstO0CH_18mapped_static_race(%"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"* align 8 dereferenceable(40) %self), !dbg !3024
   br label %bb1, !dbg !3024
 
 bb1:                                              ; preds = %start
@@ -6122,7 +6122,7 @@ bb1:                                              ; preds = %start
 
 ; <alloc::raw_vec::RawVec<u8> as core::ops::drop::Drop>::drop
 ; Function Attrs: nonlazybind uwtable
-define internal void @_RNvXs1_NtCs8RW06R9lH2S_5alloc7raw_vecINtB5_6RawVechENtNtNtCs3p84KrD9aKt_4core3ops4drop4Drop4dropCskT2QP9QPlNo_17mapped_stack_race({ i8*, i64 }* align 8 dereferenceable(16) %self) unnamed_addr #0 !dbg !3026 {
+define internal void @_RNvXs1_NtCs8RW06R9lH2S_5alloc7raw_vecINtB5_6RawVechENtNtNtCs3p84KrD9aKt_4core3ops4drop4Drop4dropCsfnYCCstO0CH_18mapped_static_race({ i8*, i64 }* align 8 dereferenceable(16) %self) unnamed_addr #0 !dbg !3026 {
 start:
   %layout.dbg.spill = alloca { i64, i64 }, align 8
   %ptr.dbg.spill = alloca i8*, align 8
@@ -6132,7 +6132,7 @@ start:
   store { i8*, i64 }* %self, { i8*, i64 }** %self.dbg.spill, align 8
   call void @llvm.dbg.declare(metadata { i8*, i64 }** %self.dbg.spill, metadata !3032, metadata !DIExpression()), !dbg !3036
 ; call <alloc::raw_vec::RawVec<u8>>::current_memory
-  call void @_RNvMs_NtCs8RW06R9lH2S_5alloc7raw_vecINtB4_6RawVechE14current_memoryCskT2QP9QPlNo_17mapped_stack_race(%"std::option::Option<(std::ptr::NonNull<u8>, std::alloc::Layout)>"* noalias nocapture sret dereferenceable(24) %_2, { i8*, i64 }* noalias readonly align 8 dereferenceable(16) %self), !dbg !3037
+  call void @_RNvMs_NtCs8RW06R9lH2S_5alloc7raw_vecINtB4_6RawVechE14current_memoryCsfnYCCstO0CH_18mapped_static_race(%"std::option::Option<(std::ptr::NonNull<u8>, std::alloc::Layout)>"* noalias nocapture sret dereferenceable(24) %_2, { i8*, i64 }* noalias readonly align 8 dereferenceable(16) %self), !dbg !3037
   br label %bb1, !dbg !3037
 
 bb1:                                              ; preds = %start
@@ -6167,7 +6167,7 @@ bb3:                                              ; preds = %bb1
   call void @llvm.dbg.declare(metadata { i64, i64 }* %layout.dbg.spill, metadata !3035, metadata !DIExpression()), !dbg !3043
   %_7 = bitcast { i8*, i64 }* %self to %"std::alloc::Global"*, !dbg !3044
 ; call <alloc::alloc::Global as core::alloc::Allocator>::deallocate
-  call void @_RNvXs_NtCs8RW06R9lH2S_5alloc5allocNtB4_6GlobalNtNtCs3p84KrD9aKt_4core5alloc9Allocator10deallocateCskT2QP9QPlNo_17mapped_stack_race(%"std::alloc::Global"* noalias nonnull readonly align 1 %_7, i8* nonnull %ptr, i64 %layout.0, i64 %layout.1), !dbg !3044
+  call void @_RNvXs_NtCs8RW06R9lH2S_5alloc5allocNtB4_6GlobalNtNtCs3p84KrD9aKt_4core5alloc9Allocator10deallocateCsfnYCCstO0CH_18mapped_static_race(%"std::alloc::Global"* noalias nonnull readonly align 1 %_7, i8* nonnull %ptr, i64 %layout.0, i64 %layout.1), !dbg !3044
   br label %bb4, !dbg !3044
 
 bb4:                                              ; preds = %bb3
@@ -6179,7 +6179,7 @@ bb5:                                              ; preds = %bb4, %bb2
 
 ; <std::ffi::c_str::CString as core::ops::drop::Drop>::drop
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal void @_RNvXs1_NtNtCs2bNvlddUlXM_3std3ffi5c_strNtB5_7CStringNtNtNtCs3p84KrD9aKt_4core3ops4drop4Drop4dropCskT2QP9QPlNo_17mapped_stack_race({ i8*, i64 }* align 8 dereferenceable(16) %self) unnamed_addr #1 !dbg !3046 {
+define internal void @_RNvXs1_NtNtCs2bNvlddUlXM_3std3ffi5c_strNtB5_7CStringNtNtNtCs3p84KrD9aKt_4core3ops4drop4Drop4dropCsfnYCCstO0CH_18mapped_static_race({ i8*, i64 }* align 8 dereferenceable(16) %self) unnamed_addr #1 !dbg !3046 {
 start:
   %self.dbg.spill = alloca { i8*, i64 }*, align 8
   store { i8*, i64 }* %self, { i8*, i64 }** %self.dbg.spill, align 8
@@ -6190,7 +6190,7 @@ start:
   %2 = getelementptr inbounds { [0 x i8]*, i64 }, { [0 x i8]*, i64 }* %0, i32 0, i32 1, !dbg !3055
   %_3.1 = load i64, i64* %2, align 8, !dbg !3055
 ; call <[u8]>::get_unchecked_mut::<usize>
-  %_2 = call align 1 dereferenceable(1) i8* @_RINvMNtCs3p84KrD9aKt_4core5sliceSh17get_unchecked_mutjECskT2QP9QPlNo_17mapped_stack_race([0 x i8]* nonnull align 1 %_3.0, i64 %_3.1, i64 0), !dbg !3055
+  %_2 = call align 1 dereferenceable(1) i8* @_RINvMNtCs3p84KrD9aKt_4core5sliceSh17get_unchecked_mutjECsfnYCCstO0CH_18mapped_static_race([0 x i8]* nonnull align 1 %_3.0, i64 %_3.1, i64 0), !dbg !3055
   br label %bb1, !dbg !3055
 
 bb1:                                              ; preds = %start
@@ -6200,7 +6200,7 @@ bb1:                                              ; preds = %start
 
 ; <core::alloc::AllocError as core::convert::From<core::alloc::AllocError>>::from
 ; Function Attrs: nonlazybind uwtable
-define internal void @_RNvXs2_NtCs3p84KrD9aKt_4core7convertNtNtB7_5alloc10AllocErrorINtB5_4FromBy_E4fromCskT2QP9QPlNo_17mapped_stack_race() unnamed_addr #0 !dbg !3058 {
+define internal void @_RNvXs2_NtCs3p84KrD9aKt_4core7convertNtNtB7_5alloc10AllocErrorINtB5_4FromBy_E4fromCsfnYCCstO0CH_18mapped_static_race() unnamed_addr #0 !dbg !3058 {
 start:
   %t.dbg.spill = alloca %"std::alloc::AllocError", align 1
   call void @llvm.dbg.declare(metadata %"std::alloc::AllocError"* %t.dbg.spill, metadata !3062, metadata !DIExpression()), !dbg !3065
@@ -6209,7 +6209,7 @@ start:
 
 ; <std::io::error::Error as core::convert::From<std::io::error::Error>>::from
 ; Function Attrs: nonlazybind uwtable
-define internal i128 @_RNvXs2_NtCs3p84KrD9aKt_4core7convertNtNtNtCs2bNvlddUlXM_3std2io5error5ErrorINtB5_4FromBy_E4fromCskT2QP9QPlNo_17mapped_stack_race(i128 %0) unnamed_addr #0 !dbg !3067 {
+define internal i128 @_RNvXs2_NtCs3p84KrD9aKt_4core7convertNtNtNtCs2bNvlddUlXM_3std2io5error5ErrorINtB5_4FromBy_E4fromCsfnYCCstO0CH_18mapped_static_race(i128 %0) unnamed_addr #0 !dbg !3067 {
 start:
   %1 = alloca %"std::io::Error", align 8
   %2 = alloca i128, align 8
@@ -6229,7 +6229,7 @@ start:
 
 ; <core::option::Option<alloc::sync::Arc<std::sync::mutex::Mutex<alloc::vec::Vec<u8>>>> as core::clone::Clone>::clone
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal i64* @_RNvXs8_NtCs3p84KrD9aKt_4core6optionINtB5_6OptionINtNtCs8RW06R9lH2S_5alloc4sync3ArcINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtBP_3vec3VechEEEENtNtB7_5clone5Clone5cloneCskT2QP9QPlNo_17mapped_stack_race(i64** noalias readonly align 8 dereferenceable(8) %self) unnamed_addr #1 !dbg !3075 {
+define internal i64* @_RNvXs8_NtCs3p84KrD9aKt_4core6optionINtB5_6OptionINtNtCs8RW06R9lH2S_5alloc4sync3ArcINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtBP_3vec3VechEEEENtNtB7_5clone5Clone5cloneCsfnYCCstO0CH_18mapped_static_race(i64** noalias readonly align 8 dereferenceable(8) %self) unnamed_addr #1 !dbg !3075 {
 start:
   %x.dbg.spill = alloca i64**, align 8
   %self.dbg.spill = alloca i64**, align 8
@@ -6257,7 +6257,7 @@ bb3:                                              ; preds = %start
   store i64** %self, i64*** %x.dbg.spill, align 8, !dbg !3089
   call void @llvm.dbg.declare(metadata i64*** %x.dbg.spill, metadata !3082, metadata !DIExpression()), !dbg !3090
 ; call <alloc::sync::Arc<std::sync::mutex::Mutex<alloc::vec::Vec<u8>>> as core::clone::Clone>::clone
-  %_4 = call nonnull i64* @_RNvXsk_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtB7_3vec3VechEEENtNtCs3p84KrD9aKt_4core5clone5Clone5cloneCskT2QP9QPlNo_17mapped_stack_race(i64** noalias readonly align 8 dereferenceable(8) %self), !dbg !3091
+  %_4 = call nonnull i64* @_RNvXsk_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtB7_3vec3VechEEENtNtCs3p84KrD9aKt_4core5clone5Clone5cloneCsfnYCCstO0CH_18mapped_static_race(i64** noalias readonly align 8 dereferenceable(8) %self), !dbg !3091
   br label %bb4, !dbg !3091
 
 bb4:                                              ; preds = %bb3
@@ -6271,12 +6271,12 @@ bb5:                                              ; preds = %bb1, %bb4
 
 ; <() as std::process::Termination>::report
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal i32 @_RNvXsC_NtCs2bNvlddUlXM_3std7processuNtB5_11Termination6reportCskT2QP9QPlNo_17mapped_stack_race() unnamed_addr #1 !dbg !3094 {
+define internal i32 @_RNvXsC_NtCs2bNvlddUlXM_3std7processuNtB5_11Termination6reportCsfnYCCstO0CH_18mapped_static_race() unnamed_addr #1 !dbg !3094 {
 start:
   %self.dbg.spill = alloca {}, align 1
   call void @llvm.dbg.declare(metadata {}* %self.dbg.spill, metadata !3101, metadata !DIExpression()), !dbg !3102
 ; call <std::process::ExitCode as std::process::Termination>::report
-  %0 = call i32 @_RNvXsG_NtCs2bNvlddUlXM_3std7processNtB5_8ExitCodeNtB5_11Termination6reportCskT2QP9QPlNo_17mapped_stack_race(i8 0), !dbg !3103
+  %0 = call i32 @_RNvXsG_NtCs2bNvlddUlXM_3std7processNtB5_8ExitCodeNtB5_11Termination6reportCsfnYCCstO0CH_18mapped_static_race(i8 0), !dbg !3103
   br label %bb1, !dbg !3103
 
 bb1:                                              ; preds = %start
@@ -6285,13 +6285,13 @@ bb1:                                              ; preds = %start
 
 ; <std::process::ExitCode as std::process::Termination>::report
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal i32 @_RNvXsG_NtCs2bNvlddUlXM_3std7processNtB5_8ExitCodeNtB5_11Termination6reportCskT2QP9QPlNo_17mapped_stack_race(i8 %0) unnamed_addr #1 !dbg !3105 {
+define internal i32 @_RNvXsG_NtCs2bNvlddUlXM_3std7processNtB5_8ExitCodeNtB5_11Termination6reportCsfnYCCstO0CH_18mapped_static_race(i8 %0) unnamed_addr #1 !dbg !3105 {
 start:
   %self = alloca i8, align 1
   store i8 %0, i8* %self, align 1
   call void @llvm.dbg.declare(metadata i8* %self, metadata !3112, metadata !DIExpression()), !dbg !3113
 ; call <std::sys::unix::process::process_common::ExitCode>::as_i32
-  %1 = call i32 @_RNvMs7_NtNtNtNtCs2bNvlddUlXM_3std3sys4unix7process14process_commonNtB5_8ExitCode6as_i32CskT2QP9QPlNo_17mapped_stack_race(i8* noalias readonly align 1 dereferenceable(1) %self), !dbg !3114
+  %1 = call i32 @_RNvMs7_NtNtNtNtCs2bNvlddUlXM_3std3sys4unix7process14process_commonNtB5_8ExitCode6as_i32CsfnYCCstO0CH_18mapped_static_race(i8* noalias readonly align 1 dereferenceable(1) %self), !dbg !3114
   br label %bb1, !dbg !3114
 
 bb1:                                              ; preds = %start
@@ -6300,7 +6300,7 @@ bb1:                                              ; preds = %start
 
 ; <alloc::alloc::Global as core::alloc::Allocator>::deallocate
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal void @_RNvXs_NtCs8RW06R9lH2S_5alloc5allocNtB4_6GlobalNtNtCs3p84KrD9aKt_4core5alloc9Allocator10deallocateCskT2QP9QPlNo_17mapped_stack_race(%"std::alloc::Global"* noalias nonnull readonly align 1 %self, i8* nonnull %ptr, i64 %0, i64 %1) unnamed_addr #1 !dbg !3116 {
+define internal void @_RNvXs_NtCs8RW06R9lH2S_5alloc5allocNtB4_6GlobalNtNtCs3p84KrD9aKt_4core5alloc9Allocator10deallocateCsfnYCCstO0CH_18mapped_static_race(%"std::alloc::Global"* noalias nonnull readonly align 1 %self, i8* nonnull %ptr, i64 %0, i64 %1) unnamed_addr #1 !dbg !3116 {
 start:
   %ptr.dbg.spill = alloca i8*, align 8
   %self.dbg.spill = alloca %"std::alloc::Global"*, align 8
@@ -6316,7 +6316,7 @@ start:
   call void @llvm.dbg.declare(metadata i8** %ptr.dbg.spill, metadata !3122, metadata !DIExpression()), !dbg !3125
   call void @llvm.dbg.declare(metadata { i64, i64 }* %layout, metadata !3123, metadata !DIExpression()), !dbg !3126
 ; call <core::alloc::layout::Layout>::size
-  %_4 = call i64 @_RNvMNtNtCs3p84KrD9aKt_4core5alloc6layoutNtB2_6Layout4sizeCskT2QP9QPlNo_17mapped_stack_race({ i64, i64 }* noalias readonly align 8 dereferenceable(16) %layout), !dbg !3127
+  %_4 = call i64 @_RNvMNtNtCs3p84KrD9aKt_4core5alloc6layoutNtB2_6Layout4sizeCsfnYCCstO0CH_18mapped_static_race({ i64, i64 }* noalias readonly align 8 dereferenceable(16) %layout), !dbg !3127
   br label %bb1, !dbg !3127
 
 bb1:                                              ; preds = %start
@@ -6325,7 +6325,7 @@ bb1:                                              ; preds = %start
 
 bb2:                                              ; preds = %bb1
 ; call <core::ptr::non_null::NonNull<u8>>::as_ptr
-  %_6 = call i8* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullhE6as_ptrCskT2QP9QPlNo_17mapped_stack_race(i8* nonnull %ptr), !dbg !3129
+  %_6 = call i8* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullhE6as_ptrCsfnYCCstO0CH_18mapped_static_race(i8* nonnull %ptr), !dbg !3129
   br label %bb4, !dbg !3129
 
 bb3:                                              ; preds = %bb1
@@ -6337,7 +6337,7 @@ bb4:                                              ; preds = %bb2
   %7 = getelementptr inbounds { i64, i64 }, { i64, i64 }* %layout, i32 0, i32 1, !dbg !3130
   %_8.1 = load i64, i64* %7, align 8, !dbg !3130, !range !2018
 ; call alloc::alloc::dealloc
-  call void @_RNvNtCs8RW06R9lH2S_5alloc5alloc7deallocCskT2QP9QPlNo_17mapped_stack_race(i8* %_6, i64 %_8.0, i64 %_8.1), !dbg !3131
+  call void @_RNvNtCs8RW06R9lH2S_5alloc5alloc7deallocCsfnYCCstO0CH_18mapped_static_race(i8* %_6, i64 %_8.0, i64 %_8.1), !dbg !3131
   br label %bb5, !dbg !3131
 
 bb5:                                              ; preds = %bb4
@@ -6349,7 +6349,7 @@ bb6:                                              ; preds = %bb3, %bb5
 
 ; <alloc::alloc::Global as core::alloc::Allocator>::allocate
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal { i8*, i64 } @_RNvXs_NtCs8RW06R9lH2S_5alloc5allocNtB4_6GlobalNtNtCs3p84KrD9aKt_4core5alloc9Allocator8allocateCskT2QP9QPlNo_17mapped_stack_race(%"std::alloc::Global"* noalias nonnull readonly align 1 %self, i64 %layout.0, i64 %layout.1) unnamed_addr #1 !dbg !3133 {
+define internal { i8*, i64 } @_RNvXs_NtCs8RW06R9lH2S_5alloc5allocNtB4_6GlobalNtNtCs3p84KrD9aKt_4core5alloc9Allocator8allocateCsfnYCCstO0CH_18mapped_static_race(%"std::alloc::Global"* noalias nonnull readonly align 1 %self, i64 %layout.0, i64 %layout.1) unnamed_addr #1 !dbg !3133 {
 start:
   %layout.dbg.spill = alloca { i64, i64 }, align 8
   %self.dbg.spill = alloca %"std::alloc::Global"*, align 8
@@ -6361,7 +6361,7 @@ start:
   store i64 %layout.1, i64* %1, align 8
   call void @llvm.dbg.declare(metadata { i64, i64 }* %layout.dbg.spill, metadata !3138, metadata !DIExpression()), !dbg !3140
 ; call <alloc::alloc::Global>::alloc_impl
-  %2 = call { i8*, i64 } @_RNvMNtCs8RW06R9lH2S_5alloc5allocNtB2_6Global10alloc_implCskT2QP9QPlNo_17mapped_stack_race(%"std::alloc::Global"* noalias nonnull readonly align 1 %self, i64 %layout.0, i64 %layout.1, i1 zeroext false), !dbg !3141
+  %2 = call { i8*, i64 } @_RNvMNtCs8RW06R9lH2S_5alloc5allocNtB2_6Global10alloc_implCsfnYCCstO0CH_18mapped_static_race(%"std::alloc::Global"* noalias nonnull readonly align 1 %self, i64 %layout.0, i64 %layout.1, i1 zeroext false), !dbg !3141
   %3 = extractvalue { i8*, i64 } %2, 0, !dbg !3141
   %4 = extractvalue { i8*, i64 } %2, 1, !dbg !3141
   br label %bb1, !dbg !3141
@@ -6374,18 +6374,18 @@ bb1:                                              ; preds = %start
 
 ; <core::ptr::non_null::NonNull<u8> as core::convert::From<core::ptr::unique::Unique<u8>>>::from
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal nonnull i8* @_RNvXse_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullhEINtNtB9_7convert4FromINtNtB7_6unique6UniquehEE4fromCskT2QP9QPlNo_17mapped_stack_race(i8* nonnull %unique) unnamed_addr #1 !dbg !3143 {
+define internal nonnull i8* @_RNvXse_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullhEINtNtB9_7convert4FromINtNtB7_6unique6UniquehEE4fromCsfnYCCstO0CH_18mapped_static_race(i8* nonnull %unique) unnamed_addr #1 !dbg !3143 {
 start:
   %unique.dbg.spill = alloca i8*, align 8
   store i8* %unique, i8** %unique.dbg.spill, align 8
   call void @llvm.dbg.declare(metadata i8** %unique.dbg.spill, metadata !3146, metadata !DIExpression()), !dbg !3147
 ; call <core::ptr::unique::Unique<u8>>::as_ptr
-  %_2 = call i8* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniquehE6as_ptrCskT2QP9QPlNo_17mapped_stack_race(i8* nonnull %unique), !dbg !3148
+  %_2 = call i8* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniquehE6as_ptrCsfnYCCstO0CH_18mapped_static_race(i8* nonnull %unique), !dbg !3148
   br label %bb1, !dbg !3148
 
 bb1:                                              ; preds = %start
 ; call <core::ptr::non_null::NonNull<u8>>::new_unchecked
-  %0 = call nonnull i8* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullhE13new_uncheckedCskT2QP9QPlNo_17mapped_stack_race(i8* %_2), !dbg !3149
+  %0 = call nonnull i8* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullhE13new_uncheckedCsfnYCCstO0CH_18mapped_static_race(i8* %_2), !dbg !3149
   br label %bb2, !dbg !3149
 
 bb2:                                              ; preds = %bb1
@@ -6394,7 +6394,7 @@ bb2:                                              ; preds = %bb1
 
 ; <core::ptr::non_null::NonNull<alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>>> as core::convert::From<&mut alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>>>>::from
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal nonnull i64* @_RNvXsf_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtB9_4cell10UnsafeCellINtNtB9_6option6OptionINtNtB9_6result6ResultuINtNtBY_5boxed3BoxDNtNtB9_3any3AnyNtNtB9_6marker4SendEL_EEEEEEINtNtB9_7convert4FromQBT_E4fromCskT2QP9QPlNo_17mapped_stack_race(%"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"* align 8 dereferenceable(40) %reference) unnamed_addr #1 !dbg !3151 {
+define internal nonnull i64* @_RNvXsf_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtB9_4cell10UnsafeCellINtNtB9_6option6OptionINtNtB9_6result6ResultuINtNtBY_5boxed3BoxDNtNtB9_3any3AnyNtNtB9_6marker4SendEL_EEEEEEINtNtB9_7convert4FromQBT_E4fromCsfnYCCstO0CH_18mapped_static_race(%"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"* align 8 dereferenceable(40) %reference) unnamed_addr #1 !dbg !3151 {
 start:
   %reference.dbg.spill = alloca %"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"*, align 8
   %0 = alloca i64*, align 8
@@ -6408,7 +6408,7 @@ start:
 
 ; <std::thread::Thread as core::clone::Clone>::clone
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal nonnull i64* @_RNvXsk_NtCs2bNvlddUlXM_3std6threadNtB5_6ThreadNtNtCs3p84KrD9aKt_4core5clone5Clone5cloneCskT2QP9QPlNo_17mapped_stack_race(i64** noalias readonly align 8 dereferenceable(8) %self) unnamed_addr #1 !dbg !3157 {
+define internal nonnull i64* @_RNvXsk_NtCs2bNvlddUlXM_3std6threadNtB5_6ThreadNtNtCs3p84KrD9aKt_4core5clone5Clone5cloneCsfnYCCstO0CH_18mapped_static_race(i64** noalias readonly align 8 dereferenceable(8) %self) unnamed_addr #1 !dbg !3157 {
 start:
   %__self_0_0.dbg.spill = alloca i64**, align 8
   %self.dbg.spill = alloca i64**, align 8
@@ -6418,7 +6418,7 @@ start:
   store i64** %self, i64*** %__self_0_0.dbg.spill, align 8, !dbg !3166
   call void @llvm.dbg.declare(metadata i64*** %__self_0_0.dbg.spill, metadata !3163, metadata !DIExpression()), !dbg !3167
 ; call <alloc::sync::Arc<std::thread::Inner> as core::clone::Clone>::clone
-  %_3 = call nonnull i64* @_RNvXsk_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcNtNtCs2bNvlddUlXM_3std6thread5InnerENtNtCs3p84KrD9aKt_4core5clone5Clone5cloneCskT2QP9QPlNo_17mapped_stack_race(i64** noalias readonly align 8 dereferenceable(8) %self), !dbg !3167
+  %_3 = call nonnull i64* @_RNvXsk_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcNtNtCs2bNvlddUlXM_3std6thread5InnerENtNtCs3p84KrD9aKt_4core5clone5Clone5cloneCsfnYCCstO0CH_18mapped_static_race(i64** noalias readonly align 8 dereferenceable(8) %self), !dbg !3167
   br label %bb1, !dbg !3167
 
 bb1:                                              ; preds = %start
@@ -6429,7 +6429,7 @@ bb1:                                              ; preds = %start
 
 ; <alloc::sync::Arc<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>> as core::clone::Clone>::clone
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal nonnull i64* @_RNvXsk_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtBL_6option6OptionINtNtBL_6result6ResultuINtNtB7_5boxed3BoxDNtNtBL_3any3AnyNtNtBL_6marker4SendEL_EEEEENtNtBL_5clone5Clone5cloneCskT2QP9QPlNo_17mapped_stack_race(i64** noalias readonly align 8 dereferenceable(8) %self) unnamed_addr #1 !dbg !3170 {
+define internal nonnull i64* @_RNvXsk_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtBL_6option6OptionINtNtBL_6result6ResultuINtNtB7_5boxed3BoxDNtNtBL_3any3AnyNtNtBL_6marker4SendEL_EEEEENtNtBL_5clone5Clone5cloneCsfnYCCstO0CH_18mapped_static_race(i64** noalias readonly align 8 dereferenceable(8) %self) unnamed_addr #1 !dbg !3170 {
 start:
   %old_size.dbg.spill = alloca i64, align 8
   %self.dbg.spill = alloca i64**, align 8
@@ -6437,7 +6437,7 @@ start:
   store i64** %self, i64*** %self.dbg.spill, align 8
   call void @llvm.dbg.declare(metadata i64*** %self.dbg.spill, metadata !3175, metadata !DIExpression()), !dbg !3178
 ; call <alloc::sync::Arc<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>>>::inner
-  %_4 = call align 8 dereferenceable(40) %"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"* @_RNvMse_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtBL_6option6OptionINtNtBL_6result6ResultuINtNtB7_5boxed3BoxDNtNtBL_3any3AnyNtNtBL_6marker4SendEL_EEEEE5innerCskT2QP9QPlNo_17mapped_stack_race(i64** noalias readonly align 8 dereferenceable(8) %self), !dbg !3179
+  %_4 = call align 8 dereferenceable(40) %"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"* @_RNvMse_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtBL_6option6OptionINtNtBL_6result6ResultuINtNtB7_5boxed3BoxDNtNtBL_3any3AnyNtNtBL_6marker4SendEL_EEEEE5innerCsfnYCCstO0CH_18mapped_static_race(i64** noalias readonly align 8 dereferenceable(8) %self), !dbg !3179
   br label %bb1, !dbg !3179
 
 bb1:                                              ; preds = %start
@@ -6445,7 +6445,7 @@ bb1:                                              ; preds = %start
   store i8 0, i8* %_6, align 1, !dbg !3180
   %0 = load i8, i8* %_6, align 1, !dbg !3179, !range !1791
 ; call <core::sync::atomic::AtomicUsize>::fetch_add
-  %old_size = call i64 @_RNvMs15_NtNtCs3p84KrD9aKt_4core4sync6atomicNtB6_11AtomicUsize9fetch_addCskT2QP9QPlNo_17mapped_stack_race(%"std::sync::atomic::AtomicUsize"* align 8 dereferenceable(8) %_3, i64 1, i8 %0), !dbg !3179
+  %old_size = call i64 @_RNvMs15_NtNtCs3p84KrD9aKt_4core4sync6atomicNtB6_11AtomicUsize9fetch_addCsfnYCCstO0CH_18mapped_static_race(%"std::sync::atomic::AtomicUsize"* align 8 dereferenceable(8) %_3, i64 1, i8 %0), !dbg !3179
   store i64 %old_size, i64* %old_size.dbg.spill, align 8, !dbg !3179
   call void @llvm.dbg.declare(metadata i64* %old_size.dbg.spill, metadata !3176, metadata !DIExpression()), !dbg !3181
   br label %bb2, !dbg !3179
@@ -6461,7 +6461,7 @@ bb3:                                              ; preds = %bb2
 bb4:                                              ; preds = %bb2
   %_9 = load i64*, i64** %self, align 8, !dbg !3185, !nonnull !4
 ; call <alloc::sync::Arc<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>>>::from_inner
-  %1 = call nonnull i64* @_RNvMs2_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtBL_6option6OptionINtNtBL_6result6ResultuINtNtB7_5boxed3BoxDNtNtBL_3any3AnyNtNtBL_6marker4SendEL_EEEEE10from_innerCskT2QP9QPlNo_17mapped_stack_race(i64* nonnull %_9), !dbg !3186
+  %1 = call nonnull i64* @_RNvMs2_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtBL_6option6OptionINtNtBL_6result6ResultuINtNtB7_5boxed3BoxDNtNtBL_3any3AnyNtNtBL_6marker4SendEL_EEEEE10from_innerCsfnYCCstO0CH_18mapped_static_race(i64* nonnull %_9), !dbg !3186
   br label %bb5, !dbg !3186
 
 bb5:                                              ; preds = %bb4
@@ -6470,7 +6470,7 @@ bb5:                                              ; preds = %bb4
 
 ; <alloc::sync::Arc<std::sync::mutex::Mutex<alloc::vec::Vec<u8>>> as core::clone::Clone>::clone
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal nonnull i64* @_RNvXsk_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtB7_3vec3VechEEENtNtCs3p84KrD9aKt_4core5clone5Clone5cloneCskT2QP9QPlNo_17mapped_stack_race(i64** noalias readonly align 8 dereferenceable(8) %self) unnamed_addr #1 !dbg !3188 {
+define internal nonnull i64* @_RNvXsk_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtB7_3vec3VechEEENtNtCs3p84KrD9aKt_4core5clone5Clone5cloneCsfnYCCstO0CH_18mapped_static_race(i64** noalias readonly align 8 dereferenceable(8) %self) unnamed_addr #1 !dbg !3188 {
 start:
   %old_size.dbg.spill = alloca i64, align 8
   %self.dbg.spill = alloca i64**, align 8
@@ -6478,7 +6478,7 @@ start:
   store i64** %self, i64*** %self.dbg.spill, align 8
   call void @llvm.dbg.declare(metadata i64*** %self.dbg.spill, metadata !3192, metadata !DIExpression()), !dbg !3195
 ; call <alloc::sync::Arc<std::sync::mutex::Mutex<alloc::vec::Vec<u8>>>>::inner
-  %_4 = call align 8 dereferenceable(56) %"alloc::sync::ArcInner<std::sync::Mutex<std::vec::Vec<u8>>>"* @_RNvMse_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtB7_3vec3VechEEE5innerCskT2QP9QPlNo_17mapped_stack_race(i64** noalias readonly align 8 dereferenceable(8) %self), !dbg !3196
+  %_4 = call align 8 dereferenceable(56) %"alloc::sync::ArcInner<std::sync::Mutex<std::vec::Vec<u8>>>"* @_RNvMse_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtB7_3vec3VechEEE5innerCsfnYCCstO0CH_18mapped_static_race(i64** noalias readonly align 8 dereferenceable(8) %self), !dbg !3196
   br label %bb1, !dbg !3196
 
 bb1:                                              ; preds = %start
@@ -6486,7 +6486,7 @@ bb1:                                              ; preds = %start
   store i8 0, i8* %_6, align 1, !dbg !3197
   %0 = load i8, i8* %_6, align 1, !dbg !3196, !range !1791
 ; call <core::sync::atomic::AtomicUsize>::fetch_add
-  %old_size = call i64 @_RNvMs15_NtNtCs3p84KrD9aKt_4core4sync6atomicNtB6_11AtomicUsize9fetch_addCskT2QP9QPlNo_17mapped_stack_race(%"std::sync::atomic::AtomicUsize"* align 8 dereferenceable(8) %_3, i64 1, i8 %0), !dbg !3196
+  %old_size = call i64 @_RNvMs15_NtNtCs3p84KrD9aKt_4core4sync6atomicNtB6_11AtomicUsize9fetch_addCsfnYCCstO0CH_18mapped_static_race(%"std::sync::atomic::AtomicUsize"* align 8 dereferenceable(8) %_3, i64 1, i8 %0), !dbg !3196
   store i64 %old_size, i64* %old_size.dbg.spill, align 8, !dbg !3196
   call void @llvm.dbg.declare(metadata i64* %old_size.dbg.spill, metadata !3193, metadata !DIExpression()), !dbg !3198
   br label %bb2, !dbg !3196
@@ -6502,7 +6502,7 @@ bb3:                                              ; preds = %bb2
 bb4:                                              ; preds = %bb2
   %_9 = load i64*, i64** %self, align 8, !dbg !3202, !nonnull !4
 ; call <alloc::sync::Arc<std::sync::mutex::Mutex<alloc::vec::Vec<u8>>>>::from_inner
-  %1 = call nonnull i64* @_RNvMs2_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtB7_3vec3VechEEE10from_innerCskT2QP9QPlNo_17mapped_stack_race(i64* nonnull %_9), !dbg !3203
+  %1 = call nonnull i64* @_RNvMs2_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtB7_3vec3VechEEE10from_innerCsfnYCCstO0CH_18mapped_static_race(i64* nonnull %_9), !dbg !3203
   br label %bb5, !dbg !3203
 
 bb5:                                              ; preds = %bb4
@@ -6511,7 +6511,7 @@ bb5:                                              ; preds = %bb4
 
 ; <alloc::sync::Arc<std::thread::Inner> as core::clone::Clone>::clone
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal nonnull i64* @_RNvXsk_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcNtNtCs2bNvlddUlXM_3std6thread5InnerENtNtCs3p84KrD9aKt_4core5clone5Clone5cloneCskT2QP9QPlNo_17mapped_stack_race(i64** noalias readonly align 8 dereferenceable(8) %self) unnamed_addr #1 !dbg !3205 {
+define internal nonnull i64* @_RNvXsk_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcNtNtCs2bNvlddUlXM_3std6thread5InnerENtNtCs3p84KrD9aKt_4core5clone5Clone5cloneCsfnYCCstO0CH_18mapped_static_race(i64** noalias readonly align 8 dereferenceable(8) %self) unnamed_addr #1 !dbg !3205 {
 start:
   %old_size.dbg.spill = alloca i64, align 8
   %self.dbg.spill = alloca i64**, align 8
@@ -6519,7 +6519,7 @@ start:
   store i64** %self, i64*** %self.dbg.spill, align 8
   call void @llvm.dbg.declare(metadata i64*** %self.dbg.spill, metadata !3209, metadata !DIExpression()), !dbg !3212
 ; call <alloc::sync::Arc<std::thread::Inner>>::inner
-  %_4 = call align 8 dereferenceable(48) %"alloc::sync::ArcInner<std::thread::Inner>"* @_RNvMse_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcNtNtCs2bNvlddUlXM_3std6thread5InnerE5innerCskT2QP9QPlNo_17mapped_stack_race(i64** noalias readonly align 8 dereferenceable(8) %self), !dbg !3213
+  %_4 = call align 8 dereferenceable(48) %"alloc::sync::ArcInner<std::thread::Inner>"* @_RNvMse_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcNtNtCs2bNvlddUlXM_3std6thread5InnerE5innerCsfnYCCstO0CH_18mapped_static_race(i64** noalias readonly align 8 dereferenceable(8) %self), !dbg !3213
   br label %bb1, !dbg !3213
 
 bb1:                                              ; preds = %start
@@ -6527,7 +6527,7 @@ bb1:                                              ; preds = %start
   store i8 0, i8* %_6, align 1, !dbg !3214
   %0 = load i8, i8* %_6, align 1, !dbg !3213, !range !1791
 ; call <core::sync::atomic::AtomicUsize>::fetch_add
-  %old_size = call i64 @_RNvMs15_NtNtCs3p84KrD9aKt_4core4sync6atomicNtB6_11AtomicUsize9fetch_addCskT2QP9QPlNo_17mapped_stack_race(%"std::sync::atomic::AtomicUsize"* align 8 dereferenceable(8) %_3, i64 1, i8 %0), !dbg !3213
+  %old_size = call i64 @_RNvMs15_NtNtCs3p84KrD9aKt_4core4sync6atomicNtB6_11AtomicUsize9fetch_addCsfnYCCstO0CH_18mapped_static_race(%"std::sync::atomic::AtomicUsize"* align 8 dereferenceable(8) %_3, i64 1, i8 %0), !dbg !3213
   store i64 %old_size, i64* %old_size.dbg.spill, align 8, !dbg !3213
   call void @llvm.dbg.declare(metadata i64* %old_size.dbg.spill, metadata !3210, metadata !DIExpression()), !dbg !3215
   br label %bb2, !dbg !3213
@@ -6543,7 +6543,7 @@ bb3:                                              ; preds = %bb2
 bb4:                                              ; preds = %bb2
   %_9 = load i64*, i64** %self, align 8, !dbg !3219, !nonnull !4
 ; call <alloc::sync::Arc<std::thread::Inner>>::from_inner
-  %1 = call nonnull i64* @_RNvMs2_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcNtNtCs2bNvlddUlXM_3std6thread5InnerE10from_innerCskT2QP9QPlNo_17mapped_stack_race(i64* nonnull %_9), !dbg !3220
+  %1 = call nonnull i64* @_RNvMs2_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcNtNtCs2bNvlddUlXM_3std6thread5InnerE10from_innerCsfnYCCstO0CH_18mapped_static_race(i64* nonnull %_9), !dbg !3220
   br label %bb5, !dbg !3220
 
 bb5:                                              ; preds = %bb4
@@ -6552,13 +6552,13 @@ bb5:                                              ; preds = %bb4
 
 ; <alloc::sync::Arc<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>> as core::ops::deref::Deref>::deref
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal align 8 dereferenceable(24) %"std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>"* @_RNvXsl_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtBL_6option6OptionINtNtBL_6result6ResultuINtNtB7_5boxed3BoxDNtNtBL_3any3AnyNtNtBL_6marker4SendEL_EEEEENtNtNtBL_3ops5deref5Deref5derefCskT2QP9QPlNo_17mapped_stack_race(i64** noalias readonly align 8 dereferenceable(8) %self) unnamed_addr #1 !dbg !3222 {
+define internal align 8 dereferenceable(24) %"std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>"* @_RNvXsl_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtBL_6option6OptionINtNtBL_6result6ResultuINtNtB7_5boxed3BoxDNtNtBL_3any3AnyNtNtBL_6marker4SendEL_EEEEENtNtNtBL_3ops5deref5Deref5derefCsfnYCCstO0CH_18mapped_static_race(i64** noalias readonly align 8 dereferenceable(8) %self) unnamed_addr #1 !dbg !3222 {
 start:
   %self.dbg.spill = alloca i64**, align 8
   store i64** %self, i64*** %self.dbg.spill, align 8
   call void @llvm.dbg.declare(metadata i64*** %self.dbg.spill, metadata !3226, metadata !DIExpression()), !dbg !3227
 ; call <alloc::sync::Arc<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>>>::inner
-  %_2 = call align 8 dereferenceable(40) %"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"* @_RNvMse_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtBL_6option6OptionINtNtBL_6result6ResultuINtNtB7_5boxed3BoxDNtNtBL_3any3AnyNtNtBL_6marker4SendEL_EEEEE5innerCskT2QP9QPlNo_17mapped_stack_race(i64** noalias readonly align 8 dereferenceable(8) %self), !dbg !3228
+  %_2 = call align 8 dereferenceable(40) %"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"* @_RNvMse_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtBL_6option6OptionINtNtBL_6result6ResultuINtNtB7_5boxed3BoxDNtNtBL_3any3AnyNtNtBL_6marker4SendEL_EEEEE5innerCsfnYCCstO0CH_18mapped_static_race(i64** noalias readonly align 8 dereferenceable(8) %self), !dbg !3228
   br label %bb1, !dbg !3228
 
 bb1:                                              ; preds = %start
@@ -6568,20 +6568,20 @@ bb1:                                              ; preds = %start
 
 ; <alloc::vec::Vec<u8> as core::ops::drop::Drop>::drop
 ; Function Attrs: nonlazybind uwtable
-define internal void @_RNvXsm_NtCs8RW06R9lH2S_5alloc3vecINtB5_3VechENtNtNtCs3p84KrD9aKt_4core3ops4drop4Drop4dropCskT2QP9QPlNo_17mapped_stack_race(%"std::vec::Vec<u8>"* align 8 dereferenceable(24) %self) unnamed_addr #0 !dbg !3231 {
+define internal void @_RNvXsm_NtCs8RW06R9lH2S_5alloc3vecINtB5_3VechENtNtNtCs3p84KrD9aKt_4core3ops4drop4Drop4dropCsfnYCCstO0CH_18mapped_static_race(%"std::vec::Vec<u8>"* align 8 dereferenceable(24) %self) unnamed_addr #0 !dbg !3231 {
 start:
   %self.dbg.spill = alloca %"std::vec::Vec<u8>"*, align 8
   store %"std::vec::Vec<u8>"* %self, %"std::vec::Vec<u8>"** %self.dbg.spill, align 8
   call void @llvm.dbg.declare(metadata %"std::vec::Vec<u8>"** %self.dbg.spill, metadata !3236, metadata !DIExpression()), !dbg !3237
 ; call <alloc::vec::Vec<u8>>::as_mut_ptr
-  %_3 = call i8* @_RNvMs_NtCs8RW06R9lH2S_5alloc3vecINtB4_3VechE10as_mut_ptrCskT2QP9QPlNo_17mapped_stack_race(%"std::vec::Vec<u8>"* align 8 dereferenceable(24) %self), !dbg !3238
+  %_3 = call i8* @_RNvMs_NtCs8RW06R9lH2S_5alloc3vecINtB4_3VechE10as_mut_ptrCsfnYCCstO0CH_18mapped_static_race(%"std::vec::Vec<u8>"* align 8 dereferenceable(24) %self), !dbg !3238
   br label %bb1, !dbg !3238
 
 bb1:                                              ; preds = %start
   %0 = getelementptr inbounds %"std::vec::Vec<u8>", %"std::vec::Vec<u8>"* %self, i32 0, i32 3, !dbg !3239
   %_5 = load i64, i64* %0, align 8, !dbg !3239
 ; call core::ptr::slice_from_raw_parts_mut::<u8>
-  %1 = call { [0 x i8]*, i64 } @_RINvNtCs3p84KrD9aKt_4core3ptr24slice_from_raw_parts_muthECskT2QP9QPlNo_17mapped_stack_race(i8* %_3, i64 %_5), !dbg !3240
+  %1 = call { [0 x i8]*, i64 } @_RINvNtCs3p84KrD9aKt_4core3ptr24slice_from_raw_parts_muthECsfnYCCstO0CH_18mapped_static_race(i8* %_3, i64 %_5), !dbg !3240
   %_2.0 = extractvalue { [0 x i8]*, i64 } %1, 0, !dbg !3240
   %_2.1 = extractvalue { [0 x i8]*, i64 } %1, 1, !dbg !3240
   br label %bb2, !dbg !3240
@@ -6595,7 +6595,7 @@ bb3:                                              ; preds = %bb2
 
 ; <alloc::sync::Arc<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>> as core::ops::drop::Drop>::drop
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal void @_RNvXsp_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtBL_6option6OptionINtNtBL_6result6ResultuINtNtB7_5boxed3BoxDNtNtBL_3any3AnyNtNtBL_6marker4SendEL_EEEEENtNtNtBL_3ops4drop4Drop4dropCskT2QP9QPlNo_17mapped_stack_race(i64** align 8 dereferenceable(8) %self) unnamed_addr #1 !dbg !3243 {
+define internal void @_RNvXsp_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtBL_6option6OptionINtNtBL_6result6ResultuINtNtB7_5boxed3BoxDNtNtBL_3any3AnyNtNtBL_6marker4SendEL_EEEEENtNtNtBL_3ops4drop4Drop4dropCsfnYCCstO0CH_18mapped_static_race(i64** align 8 dereferenceable(8) %self) unnamed_addr #1 !dbg !3243 {
 start:
   %self.dbg.spill = alloca i64**, align 8
   %_8 = alloca i8, align 1
@@ -6604,7 +6604,7 @@ start:
   store i64** %self, i64*** %self.dbg.spill, align 8
   call void @llvm.dbg.declare(metadata i64*** %self.dbg.spill, metadata !3245, metadata !DIExpression()), !dbg !3246
 ; call <alloc::sync::Arc<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>>>::inner
-  %_4 = call align 8 dereferenceable(40) %"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"* @_RNvMse_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtBL_6option6OptionINtNtBL_6result6ResultuINtNtB7_5boxed3BoxDNtNtBL_3any3AnyNtNtBL_6marker4SendEL_EEEEE5innerCskT2QP9QPlNo_17mapped_stack_race(i64** noalias readonly align 8 dereferenceable(8) %self), !dbg !3247
+  %_4 = call align 8 dereferenceable(40) %"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"* @_RNvMse_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtBL_6option6OptionINtNtBL_6result6ResultuINtNtB7_5boxed3BoxDNtNtBL_3any3AnyNtNtBL_6marker4SendEL_EEEEE5innerCsfnYCCstO0CH_18mapped_static_race(i64** noalias readonly align 8 dereferenceable(8) %self), !dbg !3247
   br label %bb1, !dbg !3247
 
 bb1:                                              ; preds = %start
@@ -6612,7 +6612,7 @@ bb1:                                              ; preds = %start
   store i8 1, i8* %_6, align 1, !dbg !3248
   %1 = load i8, i8* %_6, align 1, !dbg !3247, !range !1791
 ; call <core::sync::atomic::AtomicUsize>::fetch_sub
-  %_2 = call i64 @_RNvMs15_NtNtCs3p84KrD9aKt_4core4sync6atomicNtB6_11AtomicUsize9fetch_subCskT2QP9QPlNo_17mapped_stack_race(%"std::sync::atomic::AtomicUsize"* align 8 dereferenceable(8) %_3, i64 1, i8 %1), !dbg !3247
+  %_2 = call i64 @_RNvMs15_NtNtCs3p84KrD9aKt_4core4sync6atomicNtB6_11AtomicUsize9fetch_subCsfnYCCstO0CH_18mapped_static_race(%"std::sync::atomic::AtomicUsize"* align 8 dereferenceable(8) %_3, i64 1, i8 %1), !dbg !3247
   br label %bb2, !dbg !3247
 
 bb2:                                              ; preds = %bb1
@@ -6626,12 +6626,12 @@ bb4:                                              ; preds = %bb2
   store i8 2, i8* %_8, align 1, !dbg !3251
   %3 = load i8, i8* %_8, align 1, !dbg !3251, !range !1791
 ; call core::sync::atomic::fence
-  call void @_RNvNtNtCs3p84KrD9aKt_4core4sync6atomic5fenceCskT2QP9QPlNo_17mapped_stack_race(i8 %3), !dbg !3251
+  call void @_RNvNtNtCs3p84KrD9aKt_4core4sync6atomic5fenceCsfnYCCstO0CH_18mapped_static_race(i8 %3), !dbg !3251
   br label %bb5, !dbg !3251
 
 bb5:                                              ; preds = %bb4
 ; call <alloc::sync::Arc<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>>>::drop_slow
-  call void @_RNvMse_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtBL_6option6OptionINtNtBL_6result6ResultuINtNtB7_5boxed3BoxDNtNtBL_3any3AnyNtNtBL_6marker4SendEL_EEEEE9drop_slowCskT2QP9QPlNo_17mapped_stack_race(i64** align 8 dereferenceable(8) %self), !dbg !3252
+  call void @_RNvMse_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtBL_6option6OptionINtNtBL_6result6ResultuINtNtB7_5boxed3BoxDNtNtBL_3any3AnyNtNtBL_6marker4SendEL_EEEEE9drop_slowCsfnYCCstO0CH_18mapped_static_race(i64** align 8 dereferenceable(8) %self), !dbg !3252
   br label %bb6, !dbg !3252
 
 bb6:                                              ; preds = %bb5
@@ -6643,7 +6643,7 @@ bb7:                                              ; preds = %bb6, %bb3
 
 ; <alloc::sync::Arc<std::sync::mutex::Mutex<alloc::vec::Vec<u8>>> as core::ops::drop::Drop>::drop
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal void @_RNvXsp_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtB7_3vec3VechEEENtNtNtCs3p84KrD9aKt_4core3ops4drop4Drop4dropCskT2QP9QPlNo_17mapped_stack_race(i64** align 8 dereferenceable(8) %self) unnamed_addr #1 !dbg !3253 {
+define internal void @_RNvXsp_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtB7_3vec3VechEEENtNtNtCs3p84KrD9aKt_4core3ops4drop4Drop4dropCsfnYCCstO0CH_18mapped_static_race(i64** align 8 dereferenceable(8) %self) unnamed_addr #1 !dbg !3253 {
 start:
   %self.dbg.spill = alloca i64**, align 8
   %_8 = alloca i8, align 1
@@ -6652,7 +6652,7 @@ start:
   store i64** %self, i64*** %self.dbg.spill, align 8
   call void @llvm.dbg.declare(metadata i64*** %self.dbg.spill, metadata !3255, metadata !DIExpression()), !dbg !3256
 ; call <alloc::sync::Arc<std::sync::mutex::Mutex<alloc::vec::Vec<u8>>>>::inner
-  %_4 = call align 8 dereferenceable(56) %"alloc::sync::ArcInner<std::sync::Mutex<std::vec::Vec<u8>>>"* @_RNvMse_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtB7_3vec3VechEEE5innerCskT2QP9QPlNo_17mapped_stack_race(i64** noalias readonly align 8 dereferenceable(8) %self), !dbg !3257
+  %_4 = call align 8 dereferenceable(56) %"alloc::sync::ArcInner<std::sync::Mutex<std::vec::Vec<u8>>>"* @_RNvMse_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtB7_3vec3VechEEE5innerCsfnYCCstO0CH_18mapped_static_race(i64** noalias readonly align 8 dereferenceable(8) %self), !dbg !3257
   br label %bb1, !dbg !3257
 
 bb1:                                              ; preds = %start
@@ -6660,7 +6660,7 @@ bb1:                                              ; preds = %start
   store i8 1, i8* %_6, align 1, !dbg !3258
   %1 = load i8, i8* %_6, align 1, !dbg !3257, !range !1791
 ; call <core::sync::atomic::AtomicUsize>::fetch_sub
-  %_2 = call i64 @_RNvMs15_NtNtCs3p84KrD9aKt_4core4sync6atomicNtB6_11AtomicUsize9fetch_subCskT2QP9QPlNo_17mapped_stack_race(%"std::sync::atomic::AtomicUsize"* align 8 dereferenceable(8) %_3, i64 1, i8 %1), !dbg !3257
+  %_2 = call i64 @_RNvMs15_NtNtCs3p84KrD9aKt_4core4sync6atomicNtB6_11AtomicUsize9fetch_subCsfnYCCstO0CH_18mapped_static_race(%"std::sync::atomic::AtomicUsize"* align 8 dereferenceable(8) %_3, i64 1, i8 %1), !dbg !3257
   br label %bb2, !dbg !3257
 
 bb2:                                              ; preds = %bb1
@@ -6674,12 +6674,12 @@ bb4:                                              ; preds = %bb2
   store i8 2, i8* %_8, align 1, !dbg !3261
   %3 = load i8, i8* %_8, align 1, !dbg !3261, !range !1791
 ; call core::sync::atomic::fence
-  call void @_RNvNtNtCs3p84KrD9aKt_4core4sync6atomic5fenceCskT2QP9QPlNo_17mapped_stack_race(i8 %3), !dbg !3261
+  call void @_RNvNtNtCs3p84KrD9aKt_4core4sync6atomic5fenceCsfnYCCstO0CH_18mapped_static_race(i8 %3), !dbg !3261
   br label %bb5, !dbg !3261
 
 bb5:                                              ; preds = %bb4
 ; call <alloc::sync::Arc<std::sync::mutex::Mutex<alloc::vec::Vec<u8>>>>::drop_slow
-  call void @_RNvMse_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtB7_3vec3VechEEE9drop_slowCskT2QP9QPlNo_17mapped_stack_race(i64** align 8 dereferenceable(8) %self), !dbg !3262
+  call void @_RNvMse_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtB7_3vec3VechEEE9drop_slowCsfnYCCstO0CH_18mapped_static_race(i64** align 8 dereferenceable(8) %self), !dbg !3262
   br label %bb6, !dbg !3262
 
 bb6:                                              ; preds = %bb5
@@ -6691,7 +6691,7 @@ bb7:                                              ; preds = %bb6, %bb3
 
 ; <alloc::sync::Arc<std::thread::Inner> as core::ops::drop::Drop>::drop
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal void @_RNvXsp_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcNtNtCs2bNvlddUlXM_3std6thread5InnerENtNtNtCs3p84KrD9aKt_4core3ops4drop4Drop4dropCskT2QP9QPlNo_17mapped_stack_race(i64** align 8 dereferenceable(8) %self) unnamed_addr #1 !dbg !3263 {
+define internal void @_RNvXsp_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcNtNtCs2bNvlddUlXM_3std6thread5InnerENtNtNtCs3p84KrD9aKt_4core3ops4drop4Drop4dropCsfnYCCstO0CH_18mapped_static_race(i64** align 8 dereferenceable(8) %self) unnamed_addr #1 !dbg !3263 {
 start:
   %self.dbg.spill = alloca i64**, align 8
   %_8 = alloca i8, align 1
@@ -6700,7 +6700,7 @@ start:
   store i64** %self, i64*** %self.dbg.spill, align 8
   call void @llvm.dbg.declare(metadata i64*** %self.dbg.spill, metadata !3265, metadata !DIExpression()), !dbg !3266
 ; call <alloc::sync::Arc<std::thread::Inner>>::inner
-  %_4 = call align 8 dereferenceable(48) %"alloc::sync::ArcInner<std::thread::Inner>"* @_RNvMse_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcNtNtCs2bNvlddUlXM_3std6thread5InnerE5innerCskT2QP9QPlNo_17mapped_stack_race(i64** noalias readonly align 8 dereferenceable(8) %self), !dbg !3267
+  %_4 = call align 8 dereferenceable(48) %"alloc::sync::ArcInner<std::thread::Inner>"* @_RNvMse_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcNtNtCs2bNvlddUlXM_3std6thread5InnerE5innerCsfnYCCstO0CH_18mapped_static_race(i64** noalias readonly align 8 dereferenceable(8) %self), !dbg !3267
   br label %bb1, !dbg !3267
 
 bb1:                                              ; preds = %start
@@ -6708,7 +6708,7 @@ bb1:                                              ; preds = %start
   store i8 1, i8* %_6, align 1, !dbg !3268
   %1 = load i8, i8* %_6, align 1, !dbg !3267, !range !1791
 ; call <core::sync::atomic::AtomicUsize>::fetch_sub
-  %_2 = call i64 @_RNvMs15_NtNtCs3p84KrD9aKt_4core4sync6atomicNtB6_11AtomicUsize9fetch_subCskT2QP9QPlNo_17mapped_stack_race(%"std::sync::atomic::AtomicUsize"* align 8 dereferenceable(8) %_3, i64 1, i8 %1), !dbg !3267
+  %_2 = call i64 @_RNvMs15_NtNtCs3p84KrD9aKt_4core4sync6atomicNtB6_11AtomicUsize9fetch_subCsfnYCCstO0CH_18mapped_static_race(%"std::sync::atomic::AtomicUsize"* align 8 dereferenceable(8) %_3, i64 1, i8 %1), !dbg !3267
   br label %bb2, !dbg !3267
 
 bb2:                                              ; preds = %bb1
@@ -6722,12 +6722,12 @@ bb4:                                              ; preds = %bb2
   store i8 2, i8* %_8, align 1, !dbg !3271
   %3 = load i8, i8* %_8, align 1, !dbg !3271, !range !1791
 ; call core::sync::atomic::fence
-  call void @_RNvNtNtCs3p84KrD9aKt_4core4sync6atomic5fenceCskT2QP9QPlNo_17mapped_stack_race(i8 %3), !dbg !3271
+  call void @_RNvNtNtCs3p84KrD9aKt_4core4sync6atomic5fenceCsfnYCCstO0CH_18mapped_static_race(i8 %3), !dbg !3271
   br label %bb5, !dbg !3271
 
 bb5:                                              ; preds = %bb4
 ; call <alloc::sync::Arc<std::thread::Inner>>::drop_slow
-  call void @_RNvMse_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcNtNtCs2bNvlddUlXM_3std6thread5InnerE9drop_slowCskT2QP9QPlNo_17mapped_stack_race(i64** align 8 dereferenceable(8) %self), !dbg !3272
+  call void @_RNvMse_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcNtNtCs2bNvlddUlXM_3std6thread5InnerE9drop_slowCsfnYCCstO0CH_18mapped_static_race(i64** align 8 dereferenceable(8) %self), !dbg !3272
   br label %bb6, !dbg !3272
 
 bb6:                                              ; preds = %bb5
@@ -6737,17 +6737,17 @@ bb7:                                              ; preds = %bb6, %bb3
   ret void, !dbg !3270
 }
 
-; <std::panic::AssertUnwindSafe<<std::thread::Builder>::spawn_unchecked<mapped_stack_race::main::{closure#0}, ()>::{closure#0}::{closure#0}> as core::ops::function::FnOnce<()>>::call_once
+; <std::panic::AssertUnwindSafe<<std::thread::Builder>::spawn_unchecked<mapped_static_race::main::{closure#0}, ()>::{closure#0}::{closure#0}> as core::ops::function::FnOnce<()>>::call_once
 ; Function Attrs: nonlazybind uwtable
-define internal void @_RNvXss_NtCs2bNvlddUlXM_3std5panicINtB5_16AssertUnwindSafeNCNCINvMNtB7_6threadNtB11_7Builder15spawn_uncheckedNCNvCskT2QP9QPlNo_17mapped_stack_race4main0uE00EINtNtNtCs3p84KrD9aKt_4core3ops8function6FnOnceuE9call_onceB1M_() unnamed_addr #0 !dbg !3273 {
+define internal void @_RNvXss_NtCs2bNvlddUlXM_3std5panicINtB5_16AssertUnwindSafeNCNCINvMNtB7_6threadNtB11_7Builder15spawn_uncheckedNCNvCsfnYCCstO0CH_18mapped_static_race4main0uE00EINtNtNtCs3p84KrD9aKt_4core3ops8function6FnOnceuE9call_onceB1M_() unnamed_addr #0 !dbg !3273 {
 start:
   %self.dbg.spill = alloca %"std::panic::AssertUnwindSafe<[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:10:30: 13:3], ()>::{closure#0}::{closure#0}]>", align 1
   %_4 = alloca {}, align 1
   %_args = alloca {}, align 1
   call void @llvm.dbg.declare(metadata %"std::panic::AssertUnwindSafe<[closure@std::thread::Builder::spawn_unchecked<[closure@src/main.rs:10:30: 13:3], ()>::{closure#0}::{closure#0}]>"* %self.dbg.spill, metadata !3276, metadata !DIExpression()), !dbg !3280
   call void @llvm.dbg.declare(metadata {}* %_args, metadata !3277, metadata !DIExpression()), !dbg !3281
-; call <std::thread::Builder>::spawn_unchecked::<mapped_stack_race::main::{closure#0}, ()>::{closure#0}::{closure#0}
-  call void @_RNCNCINvMNtCs2bNvlddUlXM_3std6threadNtB7_7Builder15spawn_uncheckedNCNvCskT2QP9QPlNo_17mapped_stack_race4main0uE00B16_(), !dbg !3282
+; call <std::thread::Builder>::spawn_unchecked::<mapped_static_race::main::{closure#0}, ()>::{closure#0}::{closure#0}
+  call void @_RNCNCINvMNtCs2bNvlddUlXM_3std6threadNtB7_7Builder15spawn_uncheckedNCNvCsfnYCCstO0CH_18mapped_static_race4main0uE00B16_(), !dbg !3282
   br label %bb1, !dbg !3282
 
 bb1:                                              ; preds = %start
@@ -6756,7 +6756,7 @@ bb1:                                              ; preds = %start
 
 ; <core::result::Result<std::thread::JoinHandle<()>, std::io::error::Error> as core::ops::try::Try>::from_error
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal void @_RNvXsw_NtCs3p84KrD9aKt_4core6resultINtB5_6ResultINtNtCs2bNvlddUlXM_3std6thread10JoinHandleuENtNtNtBP_2io5error5ErrorENtNtNtB7_3ops3try3Try10from_errorCskT2QP9QPlNo_17mapped_stack_race(%"std::result::Result<std::thread::JoinHandle<()>, std::io::Error>"* noalias nocapture sret dereferenceable(40) %0, i128 %1) unnamed_addr #1 !dbg !3284 {
+define internal void @_RNvXsw_NtCs3p84KrD9aKt_4core6resultINtB5_6ResultINtNtCs2bNvlddUlXM_3std6thread10JoinHandleuENtNtNtBP_2io5error5ErrorENtNtNtB7_3ops3try3Try10from_errorCsfnYCCstO0CH_18mapped_static_race(%"std::result::Result<std::thread::JoinHandle<()>, std::io::Error>"* noalias nocapture sret dereferenceable(40) %0, i128 %1) unnamed_addr #1 !dbg !3284 {
 start:
   %_2 = alloca %"std::io::Error", align 8
   %2 = alloca i128, align 8
@@ -6781,7 +6781,7 @@ start:
 
 ; <core::result::Result<core::ptr::non_null::NonNull<[u8]>, core::alloc::AllocError> as core::ops::try::Try>::from_error
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal { i8*, i64 } @_RNvXsw_NtCs3p84KrD9aKt_4core6resultINtB5_6ResultINtNtNtB7_3ptr8non_null7NonNullShENtNtB7_5alloc10AllocErrorENtNtNtB7_3ops3try3Try10from_errorCskT2QP9QPlNo_17mapped_stack_race() unnamed_addr #1 !dbg !3294 {
+define internal { i8*, i64 } @_RNvXsw_NtCs3p84KrD9aKt_4core6resultINtB5_6ResultINtNtNtB7_3ptr8non_null7NonNullShENtNtB7_5alloc10AllocErrorENtNtNtB7_3ops3try3Try10from_errorCsfnYCCstO0CH_18mapped_static_race() unnamed_addr #1 !dbg !3294 {
 start:
   %v.dbg.spill = alloca %"std::alloc::AllocError", align 1
   %0 = alloca { i8*, i64 }, align 8
@@ -6801,7 +6801,7 @@ start:
 
 ; <core::result::Result<core::ptr::non_null::NonNull<u8>, core::alloc::AllocError> as core::ops::try::Try>::into_result
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal i8* @_RNvXsw_NtCs3p84KrD9aKt_4core6resultINtB5_6ResultINtNtNtB7_3ptr8non_null7NonNullhENtNtB7_5alloc10AllocErrorENtNtNtB7_3ops3try3Try11into_resultCskT2QP9QPlNo_17mapped_stack_race(i8* %self) unnamed_addr #1 !dbg !3302 {
+define internal i8* @_RNvXsw_NtCs3p84KrD9aKt_4core6resultINtB5_6ResultINtNtNtB7_3ptr8non_null7NonNullhENtNtB7_5alloc10AllocErrorENtNtNtB7_3ops3try3Try11into_resultCsfnYCCstO0CH_18mapped_static_race(i8* %self) unnamed_addr #1 !dbg !3302 {
 start:
   %self.dbg.spill = alloca i8*, align 8
   store i8* %self, i8** %self.dbg.spill, align 8
@@ -6811,7 +6811,7 @@ start:
 
 ; <core::result::Result<std::sys::unix::thread::Thread, std::io::error::Error> as core::ops::try::Try>::into_result
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal void @_RNvXsw_NtCs3p84KrD9aKt_4core6resultINtB5_6ResultNtNtNtNtCs2bNvlddUlXM_3std3sys4unix6thread6ThreadNtNtNtBS_2io5error5ErrorENtNtNtB7_3ops3try3Try11into_resultCskT2QP9QPlNo_17mapped_stack_race(%"std::result::Result<std::sys::unix::thread::Thread, std::io::Error>"* noalias nocapture sret dereferenceable(24) %0, %"std::result::Result<std::sys::unix::thread::Thread, std::io::Error>"* noalias nocapture dereferenceable(24) %self) unnamed_addr #1 !dbg !3309 {
+define internal void @_RNvXsw_NtCs3p84KrD9aKt_4core6resultINtB5_6ResultNtNtNtNtCs2bNvlddUlXM_3std3sys4unix6thread6ThreadNtNtNtBS_2io5error5ErrorENtNtNtB7_3ops3try3Try11into_resultCsfnYCCstO0CH_18mapped_static_race(%"std::result::Result<std::sys::unix::thread::Thread, std::io::Error>"* noalias nocapture sret dereferenceable(24) %0, %"std::result::Result<std::sys::unix::thread::Thread, std::io::Error>"* noalias nocapture dereferenceable(24) %self) unnamed_addr #1 !dbg !3309 {
 start:
   call void @llvm.dbg.declare(metadata %"std::result::Result<std::sys::unix::thread::Thread, std::io::Error>"* %self, metadata !3326, metadata !DIExpression()), !dbg !3327
   %1 = bitcast %"std::result::Result<std::sys::unix::thread::Thread, std::io::Error>"* %0 to i8*, !dbg !3328
@@ -6822,7 +6822,7 @@ start:
 
 ; <alloc::sync::Weak<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>> as core::ops::drop::Drop>::drop
 ; Function Attrs: nonlazybind uwtable
-define internal void @_RNvXsw_NtCs8RW06R9lH2S_5alloc4syncINtB5_4WeakINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtBM_6option6OptionINtNtBM_6result6ResultuINtNtB7_5boxed3BoxDNtNtBM_3any3AnyNtNtBM_6marker4SendEL_EEEEENtNtNtBM_3ops4drop4Drop4dropCskT2QP9QPlNo_17mapped_stack_race(i64** align 8 dereferenceable(8) %self) unnamed_addr #0 !dbg !3330 {
+define internal void @_RNvXsw_NtCs8RW06R9lH2S_5alloc4syncINtB5_4WeakINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtBM_6option6OptionINtNtBM_6result6ResultuINtNtB7_5boxed3BoxDNtNtBM_3any3AnyNtNtBM_6marker4SendEL_EEEEENtNtNtBM_3ops4drop4Drop4dropCsfnYCCstO0CH_18mapped_static_race(i64** align 8 dereferenceable(8) %self) unnamed_addr #0 !dbg !3330 {
 start:
   %inner.dbg.spill1 = alloca { i64*, i64* }, align 8
   %inner.dbg.spill = alloca { i64*, i64* }, align 8
@@ -6834,7 +6834,7 @@ start:
   store i64** %self, i64*** %self.dbg.spill, align 8
   call void @llvm.dbg.declare(metadata i64*** %self.dbg.spill, metadata !3335, metadata !DIExpression()), !dbg !3340
 ; call <alloc::sync::Weak<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>>>::inner
-  %1 = call { i64*, i8* } @_RNvMst_NtCs8RW06R9lH2S_5alloc4syncINtB5_4WeakINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtBM_6option6OptionINtNtBM_6result6ResultuINtNtB7_5boxed3BoxDNtNtBM_3any3AnyNtNtBM_6marker4SendEL_EEEEE5innerCskT2QP9QPlNo_17mapped_stack_race(i64** noalias readonly align 8 dereferenceable(8) %self), !dbg !3341
+  %1 = call { i64*, i8* } @_RNvMst_NtCs8RW06R9lH2S_5alloc4syncINtB5_4WeakINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtBM_6option6OptionINtNtBM_6result6ResultuINtNtB7_5boxed3BoxDNtNtBM_3any3AnyNtNtBM_6marker4SendEL_EEEEE5innerCsfnYCCstO0CH_18mapped_static_race(i64** noalias readonly align 8 dereferenceable(8) %self), !dbg !3341
   store { i64*, i8* } %1, { i64*, i8* }* %_3, align 8, !dbg !3341
   br label %bb1, !dbg !3341
 
@@ -6869,7 +6869,7 @@ bb3:                                              ; preds = %bb1
   store i8 1, i8* %_9, align 1, !dbg !3349
   %13 = load i8, i8* %_9, align 1, !dbg !3348, !range !1791
 ; call <core::sync::atomic::AtomicUsize>::fetch_sub
-  %_7 = call i64 @_RNvMs15_NtNtCs3p84KrD9aKt_4core4sync6atomicNtB6_11AtomicUsize9fetch_subCskT2QP9QPlNo_17mapped_stack_race(%"std::sync::atomic::AtomicUsize"* align 8 dereferenceable(8) %_8, i64 1, i8 %13), !dbg !3348
+  %_7 = call i64 @_RNvMs15_NtNtCs3p84KrD9aKt_4core4sync6atomicNtB6_11AtomicUsize9fetch_subCsfnYCCstO0CH_18mapped_static_race(%"std::sync::atomic::AtomicUsize"* align 8 dereferenceable(8) %_8, i64 1, i8 %13), !dbg !3348
   br label %bb4, !dbg !3348
 
 bb4:                                              ; preds = %bb3
@@ -6880,7 +6880,7 @@ bb5:                                              ; preds = %bb4
   store i8 2, i8* %_11, align 1, !dbg !3351
   %15 = load i8, i8* %_11, align 1, !dbg !3351, !range !1791
 ; call core::sync::atomic::fence
-  call void @_RNvNtNtCs3p84KrD9aKt_4core4sync6atomic5fenceCskT2QP9QPlNo_17mapped_stack_race(i8 %15), !dbg !3351
+  call void @_RNvNtNtCs3p84KrD9aKt_4core4sync6atomic5fenceCsfnYCCstO0CH_18mapped_static_race(i8 %15), !dbg !3351
   br label %bb7, !dbg !3351
 
 bb6:                                              ; preds = %bb4
@@ -6889,25 +6889,25 @@ bb6:                                              ; preds = %bb4
 bb7:                                              ; preds = %bb5
   %_14 = load i64*, i64** %self, align 8, !dbg !3352, !nonnull !4
 ; call <core::ptr::non_null::NonNull<alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>>>>::cast::<u8>
-  %_13 = call nonnull i8* @_RINvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB6_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtBa_4cell10UnsafeCellINtNtBa_6option6OptionINtNtBa_6result6ResultuINtNtBZ_5boxed3BoxDNtNtBa_3any3AnyNtNtBa_6marker4SendEL_EEEEEE4casthECskT2QP9QPlNo_17mapped_stack_race(i64* nonnull %_14), !dbg !3352
+  %_13 = call nonnull i8* @_RINvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB6_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtBa_4cell10UnsafeCellINtNtBa_6option6OptionINtNtBa_6result6ResultuINtNtBZ_5boxed3BoxDNtNtBa_3any3AnyNtNtBa_6marker4SendEL_EEEEEE4casthECsfnYCCstO0CH_18mapped_static_race(i64* nonnull %_14), !dbg !3352
   br label %bb8, !dbg !3352
 
 bb8:                                              ; preds = %bb7
   %_18 = load i64*, i64** %self, align 8, !dbg !3353, !nonnull !4
 ; call <core::ptr::non_null::NonNull<alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>>>>::as_ptr
-  %_17 = call %"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtB9_4cell10UnsafeCellINtNtB9_6option6OptionINtNtB9_6result6ResultuINtNtBY_5boxed3BoxDNtNtB9_3any3AnyNtNtB9_6marker4SendEL_EEEEEE6as_ptrCskT2QP9QPlNo_17mapped_stack_race(i64* nonnull %_18), !dbg !3353
+  %_17 = call %"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtB9_4cell10UnsafeCellINtNtB9_6option6OptionINtNtB9_6result6ResultuINtNtBY_5boxed3BoxDNtNtB9_3any3AnyNtNtB9_6marker4SendEL_EEEEEE6as_ptrCsfnYCCstO0CH_18mapped_static_race(i64* nonnull %_18), !dbg !3353
   br label %bb9, !dbg !3353
 
 bb9:                                              ; preds = %bb8
 ; call <core::alloc::layout::Layout>::for_value_raw::<alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>>>
-  %16 = call { i64, i64 } @_RINvMNtNtCs3p84KrD9aKt_4core5alloc6layoutNtB3_6Layout13for_value_rawINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtB7_4cell10UnsafeCellINtNtB7_6option6OptionINtNtB7_6result6ResultuINtNtB19_5boxed3BoxDNtNtB7_3any3AnyNtNtB7_6marker4SendEL_EEEEEECskT2QP9QPlNo_17mapped_stack_race(%"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"* %_17), !dbg !3354
+  %16 = call { i64, i64 } @_RINvMNtNtCs3p84KrD9aKt_4core5alloc6layoutNtB3_6Layout13for_value_rawINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtB7_4cell10UnsafeCellINtNtB7_6option6OptionINtNtB7_6result6ResultuINtNtB19_5boxed3BoxDNtNtB7_3any3AnyNtNtB7_6marker4SendEL_EEEEEECsfnYCCstO0CH_18mapped_static_race(%"alloc::sync::ArcInner<std::cell::UnsafeCell<std::option::Option<std::result::Result<(), std::boxed::Box<dyn std::any::Any + std::marker::Send>>>>>"* %_17), !dbg !3354
   %_15.0 = extractvalue { i64, i64 } %16, 0, !dbg !3354
   %_15.1 = extractvalue { i64, i64 } %16, 1, !dbg !3354
   br label %bb10, !dbg !3354
 
 bb10:                                             ; preds = %bb9
 ; call <alloc::alloc::Global as core::alloc::Allocator>::deallocate
-  call void @_RNvXs_NtCs8RW06R9lH2S_5alloc5allocNtB4_6GlobalNtNtCs3p84KrD9aKt_4core5alloc9Allocator10deallocateCskT2QP9QPlNo_17mapped_stack_race(%"std::alloc::Global"* noalias nonnull readonly align 1 bitcast (<{ [0 x i8] }>* @alloc20 to %"std::alloc::Global"*), i8* nonnull %_13, i64 %_15.0, i64 %_15.1), !dbg !3355
+  call void @_RNvXs_NtCs8RW06R9lH2S_5alloc5allocNtB4_6GlobalNtNtCs3p84KrD9aKt_4core5alloc9Allocator10deallocateCsfnYCCstO0CH_18mapped_static_race(%"std::alloc::Global"* noalias nonnull readonly align 1 bitcast (<{ [0 x i8] }>* @alloc20 to %"std::alloc::Global"*), i8* nonnull %_13, i64 %_15.0, i64 %_15.1), !dbg !3355
   br label %bb11, !dbg !3355
 
 bb11:                                             ; preds = %bb10
@@ -6922,7 +6922,7 @@ bb13:                                             ; preds = %bb12, %bb2
 
 ; <alloc::sync::Weak<std::sync::mutex::Mutex<alloc::vec::Vec<u8>>> as core::ops::drop::Drop>::drop
 ; Function Attrs: nonlazybind uwtable
-define internal void @_RNvXsw_NtCs8RW06R9lH2S_5alloc4syncINtB5_4WeakINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtB7_3vec3VechEEENtNtNtCs3p84KrD9aKt_4core3ops4drop4Drop4dropCskT2QP9QPlNo_17mapped_stack_race(i64** align 8 dereferenceable(8) %self) unnamed_addr #0 !dbg !3356 {
+define internal void @_RNvXsw_NtCs8RW06R9lH2S_5alloc4syncINtB5_4WeakINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtB7_3vec3VechEEENtNtNtCs3p84KrD9aKt_4core3ops4drop4Drop4dropCsfnYCCstO0CH_18mapped_static_race(i64** align 8 dereferenceable(8) %self) unnamed_addr #0 !dbg !3356 {
 start:
   %inner.dbg.spill1 = alloca { i64*, i64* }, align 8
   %inner.dbg.spill = alloca { i64*, i64* }, align 8
@@ -6934,7 +6934,7 @@ start:
   store i64** %self, i64*** %self.dbg.spill, align 8
   call void @llvm.dbg.declare(metadata i64*** %self.dbg.spill, metadata !3361, metadata !DIExpression()), !dbg !3366
 ; call <alloc::sync::Weak<std::sync::mutex::Mutex<alloc::vec::Vec<u8>>>>::inner
-  %1 = call { i64*, i8* } @_RNvMst_NtCs8RW06R9lH2S_5alloc4syncINtB5_4WeakINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtB7_3vec3VechEEE5innerCskT2QP9QPlNo_17mapped_stack_race(i64** noalias readonly align 8 dereferenceable(8) %self), !dbg !3367
+  %1 = call { i64*, i8* } @_RNvMst_NtCs8RW06R9lH2S_5alloc4syncINtB5_4WeakINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtB7_3vec3VechEEE5innerCsfnYCCstO0CH_18mapped_static_race(i64** noalias readonly align 8 dereferenceable(8) %self), !dbg !3367
   store { i64*, i8* } %1, { i64*, i8* }* %_3, align 8, !dbg !3367
   br label %bb1, !dbg !3367
 
@@ -6969,7 +6969,7 @@ bb3:                                              ; preds = %bb1
   store i8 1, i8* %_9, align 1, !dbg !3375
   %13 = load i8, i8* %_9, align 1, !dbg !3374, !range !1791
 ; call <core::sync::atomic::AtomicUsize>::fetch_sub
-  %_7 = call i64 @_RNvMs15_NtNtCs3p84KrD9aKt_4core4sync6atomicNtB6_11AtomicUsize9fetch_subCskT2QP9QPlNo_17mapped_stack_race(%"std::sync::atomic::AtomicUsize"* align 8 dereferenceable(8) %_8, i64 1, i8 %13), !dbg !3374
+  %_7 = call i64 @_RNvMs15_NtNtCs3p84KrD9aKt_4core4sync6atomicNtB6_11AtomicUsize9fetch_subCsfnYCCstO0CH_18mapped_static_race(%"std::sync::atomic::AtomicUsize"* align 8 dereferenceable(8) %_8, i64 1, i8 %13), !dbg !3374
   br label %bb4, !dbg !3374
 
 bb4:                                              ; preds = %bb3
@@ -6980,7 +6980,7 @@ bb5:                                              ; preds = %bb4
   store i8 2, i8* %_11, align 1, !dbg !3377
   %15 = load i8, i8* %_11, align 1, !dbg !3377, !range !1791
 ; call core::sync::atomic::fence
-  call void @_RNvNtNtCs3p84KrD9aKt_4core4sync6atomic5fenceCskT2QP9QPlNo_17mapped_stack_race(i8 %15), !dbg !3377
+  call void @_RNvNtNtCs3p84KrD9aKt_4core4sync6atomic5fenceCsfnYCCstO0CH_18mapped_static_race(i8 %15), !dbg !3377
   br label %bb7, !dbg !3377
 
 bb6:                                              ; preds = %bb4
@@ -6989,25 +6989,25 @@ bb6:                                              ; preds = %bb4
 bb7:                                              ; preds = %bb5
   %_14 = load i64*, i64** %self, align 8, !dbg !3378, !nonnull !4
 ; call <core::ptr::non_null::NonNull<alloc::sync::ArcInner<std::sync::mutex::Mutex<alloc::vec::Vec<u8>>>>>::cast::<u8>
-  %_13 = call nonnull i8* @_RINvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB6_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtBZ_3vec3VechEEEE4casthECskT2QP9QPlNo_17mapped_stack_race(i64* nonnull %_14), !dbg !3378
+  %_13 = call nonnull i8* @_RINvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB6_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtBZ_3vec3VechEEEE4casthECsfnYCCstO0CH_18mapped_static_race(i64* nonnull %_14), !dbg !3378
   br label %bb8, !dbg !3378
 
 bb8:                                              ; preds = %bb7
   %_18 = load i64*, i64** %self, align 8, !dbg !3379, !nonnull !4
 ; call <core::ptr::non_null::NonNull<alloc::sync::ArcInner<std::sync::mutex::Mutex<alloc::vec::Vec<u8>>>>>::as_ptr
-  %_17 = call %"alloc::sync::ArcInner<std::sync::Mutex<std::vec::Vec<u8>>>"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtBY_3vec3VechEEEE6as_ptrCskT2QP9QPlNo_17mapped_stack_race(i64* nonnull %_18), !dbg !3379
+  %_17 = call %"alloc::sync::ArcInner<std::sync::Mutex<std::vec::Vec<u8>>>"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtBY_3vec3VechEEEE6as_ptrCsfnYCCstO0CH_18mapped_static_race(i64* nonnull %_18), !dbg !3379
   br label %bb9, !dbg !3379
 
 bb9:                                              ; preds = %bb8
 ; call <core::alloc::layout::Layout>::for_value_raw::<alloc::sync::ArcInner<std::sync::mutex::Mutex<alloc::vec::Vec<u8>>>>
-  %16 = call { i64, i64 } @_RINvMNtNtCs3p84KrD9aKt_4core5alloc6layoutNtB3_6Layout13for_value_rawINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtB19_3vec3VechEEEECskT2QP9QPlNo_17mapped_stack_race(%"alloc::sync::ArcInner<std::sync::Mutex<std::vec::Vec<u8>>>"* %_17), !dbg !3380
+  %16 = call { i64, i64 } @_RINvMNtNtCs3p84KrD9aKt_4core5alloc6layoutNtB3_6Layout13for_value_rawINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtB19_3vec3VechEEEECsfnYCCstO0CH_18mapped_static_race(%"alloc::sync::ArcInner<std::sync::Mutex<std::vec::Vec<u8>>>"* %_17), !dbg !3380
   %_15.0 = extractvalue { i64, i64 } %16, 0, !dbg !3380
   %_15.1 = extractvalue { i64, i64 } %16, 1, !dbg !3380
   br label %bb10, !dbg !3380
 
 bb10:                                             ; preds = %bb9
 ; call <alloc::alloc::Global as core::alloc::Allocator>::deallocate
-  call void @_RNvXs_NtCs8RW06R9lH2S_5alloc5allocNtB4_6GlobalNtNtCs3p84KrD9aKt_4core5alloc9Allocator10deallocateCskT2QP9QPlNo_17mapped_stack_race(%"std::alloc::Global"* noalias nonnull readonly align 1 bitcast (<{ [0 x i8] }>* @alloc20 to %"std::alloc::Global"*), i8* nonnull %_13, i64 %_15.0, i64 %_15.1), !dbg !3381
+  call void @_RNvXs_NtCs8RW06R9lH2S_5alloc5allocNtB4_6GlobalNtNtCs3p84KrD9aKt_4core5alloc9Allocator10deallocateCsfnYCCstO0CH_18mapped_static_race(%"std::alloc::Global"* noalias nonnull readonly align 1 bitcast (<{ [0 x i8] }>* @alloc20 to %"std::alloc::Global"*), i8* nonnull %_13, i64 %_15.0, i64 %_15.1), !dbg !3381
   br label %bb11, !dbg !3381
 
 bb11:                                             ; preds = %bb10
@@ -7022,7 +7022,7 @@ bb13:                                             ; preds = %bb12, %bb2
 
 ; <alloc::sync::Weak<std::thread::Inner> as core::ops::drop::Drop>::drop
 ; Function Attrs: nonlazybind uwtable
-define internal void @_RNvXsw_NtCs8RW06R9lH2S_5alloc4syncINtB5_4WeakNtNtCs2bNvlddUlXM_3std6thread5InnerENtNtNtCs3p84KrD9aKt_4core3ops4drop4Drop4dropCskT2QP9QPlNo_17mapped_stack_race(i64** align 8 dereferenceable(8) %self) unnamed_addr #0 !dbg !3382 {
+define internal void @_RNvXsw_NtCs8RW06R9lH2S_5alloc4syncINtB5_4WeakNtNtCs2bNvlddUlXM_3std6thread5InnerENtNtNtCs3p84KrD9aKt_4core3ops4drop4Drop4dropCsfnYCCstO0CH_18mapped_static_race(i64** align 8 dereferenceable(8) %self) unnamed_addr #0 !dbg !3382 {
 start:
   %inner.dbg.spill1 = alloca { i64*, i64* }, align 8
   %inner.dbg.spill = alloca { i64*, i64* }, align 8
@@ -7034,7 +7034,7 @@ start:
   store i64** %self, i64*** %self.dbg.spill, align 8
   call void @llvm.dbg.declare(metadata i64*** %self.dbg.spill, metadata !3387, metadata !DIExpression()), !dbg !3392
 ; call <alloc::sync::Weak<std::thread::Inner>>::inner
-  %1 = call { i64*, i8* } @_RNvMst_NtCs8RW06R9lH2S_5alloc4syncINtB5_4WeakNtNtCs2bNvlddUlXM_3std6thread5InnerE5innerCskT2QP9QPlNo_17mapped_stack_race(i64** noalias readonly align 8 dereferenceable(8) %self), !dbg !3393
+  %1 = call { i64*, i8* } @_RNvMst_NtCs8RW06R9lH2S_5alloc4syncINtB5_4WeakNtNtCs2bNvlddUlXM_3std6thread5InnerE5innerCsfnYCCstO0CH_18mapped_static_race(i64** noalias readonly align 8 dereferenceable(8) %self), !dbg !3393
   store { i64*, i8* } %1, { i64*, i8* }* %_3, align 8, !dbg !3393
   br label %bb1, !dbg !3393
 
@@ -7069,7 +7069,7 @@ bb3:                                              ; preds = %bb1
   store i8 1, i8* %_9, align 1, !dbg !3401
   %13 = load i8, i8* %_9, align 1, !dbg !3400, !range !1791
 ; call <core::sync::atomic::AtomicUsize>::fetch_sub
-  %_7 = call i64 @_RNvMs15_NtNtCs3p84KrD9aKt_4core4sync6atomicNtB6_11AtomicUsize9fetch_subCskT2QP9QPlNo_17mapped_stack_race(%"std::sync::atomic::AtomicUsize"* align 8 dereferenceable(8) %_8, i64 1, i8 %13), !dbg !3400
+  %_7 = call i64 @_RNvMs15_NtNtCs3p84KrD9aKt_4core4sync6atomicNtB6_11AtomicUsize9fetch_subCsfnYCCstO0CH_18mapped_static_race(%"std::sync::atomic::AtomicUsize"* align 8 dereferenceable(8) %_8, i64 1, i8 %13), !dbg !3400
   br label %bb4, !dbg !3400
 
 bb4:                                              ; preds = %bb3
@@ -7080,7 +7080,7 @@ bb5:                                              ; preds = %bb4
   store i8 2, i8* %_11, align 1, !dbg !3403
   %15 = load i8, i8* %_11, align 1, !dbg !3403, !range !1791
 ; call core::sync::atomic::fence
-  call void @_RNvNtNtCs3p84KrD9aKt_4core4sync6atomic5fenceCskT2QP9QPlNo_17mapped_stack_race(i8 %15), !dbg !3403
+  call void @_RNvNtNtCs3p84KrD9aKt_4core4sync6atomic5fenceCsfnYCCstO0CH_18mapped_static_race(i8 %15), !dbg !3403
   br label %bb7, !dbg !3403
 
 bb6:                                              ; preds = %bb4
@@ -7089,25 +7089,25 @@ bb6:                                              ; preds = %bb4
 bb7:                                              ; preds = %bb5
   %_14 = load i64*, i64** %self, align 8, !dbg !3404, !nonnull !4
 ; call <core::ptr::non_null::NonNull<alloc::sync::ArcInner<std::thread::Inner>>>::cast::<u8>
-  %_13 = call nonnull i8* @_RINvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB6_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerNtNtCs2bNvlddUlXM_3std6thread5InnerEE4casthECskT2QP9QPlNo_17mapped_stack_race(i64* nonnull %_14), !dbg !3404
+  %_13 = call nonnull i8* @_RINvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB6_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerNtNtCs2bNvlddUlXM_3std6thread5InnerEE4casthECsfnYCCstO0CH_18mapped_static_race(i64* nonnull %_14), !dbg !3404
   br label %bb8, !dbg !3404
 
 bb8:                                              ; preds = %bb7
   %_18 = load i64*, i64** %self, align 8, !dbg !3405, !nonnull !4
 ; call <core::ptr::non_null::NonNull<alloc::sync::ArcInner<std::thread::Inner>>>::as_ptr
-  %_17 = call %"alloc::sync::ArcInner<std::thread::Inner>"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerNtNtCs2bNvlddUlXM_3std6thread5InnerEE6as_ptrCskT2QP9QPlNo_17mapped_stack_race(i64* nonnull %_18), !dbg !3405
+  %_17 = call %"alloc::sync::ArcInner<std::thread::Inner>"* @_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerNtNtCs2bNvlddUlXM_3std6thread5InnerEE6as_ptrCsfnYCCstO0CH_18mapped_static_race(i64* nonnull %_18), !dbg !3405
   br label %bb9, !dbg !3405
 
 bb9:                                              ; preds = %bb8
 ; call <core::alloc::layout::Layout>::for_value_raw::<alloc::sync::ArcInner<std::thread::Inner>>
-  %16 = call { i64, i64 } @_RINvMNtNtCs3p84KrD9aKt_4core5alloc6layoutNtB3_6Layout13for_value_rawINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerNtNtCs2bNvlddUlXM_3std6thread5InnerEECskT2QP9QPlNo_17mapped_stack_race(%"alloc::sync::ArcInner<std::thread::Inner>"* %_17), !dbg !3406
+  %16 = call { i64, i64 } @_RINvMNtNtCs3p84KrD9aKt_4core5alloc6layoutNtB3_6Layout13for_value_rawINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerNtNtCs2bNvlddUlXM_3std6thread5InnerEECsfnYCCstO0CH_18mapped_static_race(%"alloc::sync::ArcInner<std::thread::Inner>"* %_17), !dbg !3406
   %_15.0 = extractvalue { i64, i64 } %16, 0, !dbg !3406
   %_15.1 = extractvalue { i64, i64 } %16, 1, !dbg !3406
   br label %bb10, !dbg !3406
 
 bb10:                                             ; preds = %bb9
 ; call <alloc::alloc::Global as core::alloc::Allocator>::deallocate
-  call void @_RNvXs_NtCs8RW06R9lH2S_5alloc5allocNtB4_6GlobalNtNtCs3p84KrD9aKt_4core5alloc9Allocator10deallocateCskT2QP9QPlNo_17mapped_stack_race(%"std::alloc::Global"* noalias nonnull readonly align 1 bitcast (<{ [0 x i8] }>* @alloc20 to %"std::alloc::Global"*), i8* nonnull %_13, i64 %_15.0, i64 %_15.1), !dbg !3407
+  call void @_RNvXs_NtCs8RW06R9lH2S_5alloc5allocNtB4_6GlobalNtNtCs3p84KrD9aKt_4core5alloc9Allocator10deallocateCsfnYCCstO0CH_18mapped_static_race(%"std::alloc::Global"* noalias nonnull readonly align 1 bitcast (<{ [0 x i8] }>* @alloc20 to %"std::alloc::Global"*), i8* nonnull %_13, i64 %_15.0, i64 %_15.1), !dbg !3407
   br label %bb11, !dbg !3407
 
 bb11:                                             ; preds = %bb10
@@ -7122,7 +7122,7 @@ bb13:                                             ; preds = %bb12, %bb2
 
 ; <fn() as core::ops::function::FnOnce<()>>::call_once
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal void @_RNvYFEuINtNtNtCs3p84KrD9aKt_4core3ops8function6FnOnceuE9call_onceCskT2QP9QPlNo_17mapped_stack_race(void ()* nonnull %_1) unnamed_addr #1 !dbg !3408 {
+define internal void @_RNvYFEuINtNtNtCs3p84KrD9aKt_4core3ops8function6FnOnceuE9call_onceCsfnYCCstO0CH_18mapped_static_race(void ()* nonnull %_1) unnamed_addr #1 !dbg !3408 {
 start:
   %_1.dbg.spill = alloca void ()*, align 8
   %_2 = alloca {}, align 1
@@ -7138,7 +7138,7 @@ bb1:                                              ; preds = %start
 
 ; <std::rt::lang_start<()>::{closure#0} as core::ops::function::FnOnce<()>>::call_once
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal i32 @_RNvYNCINvNtCs2bNvlddUlXM_3std2rt10lang_startuE0INtNtNtCs3p84KrD9aKt_4core3ops8function6FnOnceuE9call_onceCskT2QP9QPlNo_17mapped_stack_race(i64* nonnull %0) unnamed_addr #1 personality i32 (i32, i32, i64, %"unwind::libunwind::_Unwind_Exception"*, %"unwind::libunwind::_Unwind_Context"*)* @rust_eh_personality !dbg !3415 {
+define internal i32 @_RNvYNCINvNtCs2bNvlddUlXM_3std2rt10lang_startuE0INtNtNtCs3p84KrD9aKt_4core3ops8function6FnOnceuE9call_onceCsfnYCCstO0CH_18mapped_static_race(i64* nonnull %0) unnamed_addr #1 personality i32 (i32, i32, i64, %"unwind::libunwind::_Unwind_Exception"*, %"unwind::libunwind::_Unwind_Context"*)* @rust_eh_personality !dbg !3415 {
 start:
   %1 = alloca { i8*, i32 }, align 8
   %_2 = alloca {}, align 1
@@ -7147,7 +7147,7 @@ start:
   call void @llvm.dbg.declare(metadata i64** %_1, metadata !3419, metadata !DIExpression()), !dbg !3421
   call void @llvm.dbg.declare(metadata {}* %_2, metadata !3420, metadata !DIExpression()), !dbg !3421
 ; invoke std::rt::lang_start::<()>::{closure#0}
-  %2 = invoke i32 @_RNCINvNtCs2bNvlddUlXM_3std2rt10lang_startuE0CskT2QP9QPlNo_17mapped_stack_race(i64** noalias readonly align 8 dereferenceable(8) %_1)
+  %2 = invoke i32 @_RNCINvNtCs2bNvlddUlXM_3std2rt10lang_startuE0CsfnYCCstO0CH_18mapped_static_race(i64** noalias readonly align 8 dereferenceable(8) %_1)
           to label %bb1 unwind label %cleanup, !dbg !3421
 
 bb1:                                              ; preds = %start
@@ -7182,7 +7182,7 @@ cleanup:                                          ; preds = %start
 
 ; <std::sys_common::thread::min_stack as core::ops::function::FnOnce<()>>::call_once
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal i64 @_RNvYNvNtNtCs2bNvlddUlXM_3std10sys_common6thread9min_stackINtNtNtCs3p84KrD9aKt_4core3ops8function6FnOnceuE9call_onceCskT2QP9QPlNo_17mapped_stack_race() unnamed_addr #1 !dbg !3422 {
+define internal i64 @_RNvYNvNtNtCs2bNvlddUlXM_3std10sys_common6thread9min_stackINtNtNtCs3p84KrD9aKt_4core3ops8function6FnOnceuE9call_onceCsfnYCCstO0CH_18mapped_static_race() unnamed_addr #1 !dbg !3422 {
 start:
   %_1.dbg.spill = alloca {}, align 1
   %_2 = alloca {}, align 1
@@ -7196,9 +7196,9 @@ bb1:                                              ; preds = %start
   ret i64 %0, !dbg !3430
 }
 
-; mapped_stack_race::main
+; mapped_static_race::main
 ; Function Attrs: nonlazybind uwtable
-define internal void @_RNvCskT2QP9QPlNo_17mapped_stack_race4main() unnamed_addr #0 personality i32 (i32, i32, i64, %"unwind::libunwind::_Unwind_Exception"*, %"unwind::libunwind::_Unwind_Context"*)* @rust_eh_personality !dbg !3431 {
+define internal void @_RNvCsfnYCCstO0CH_18mapped_static_race4main() unnamed_addr #0 personality i32 (i32, i32, i64, %"unwind::libunwind::_Unwind_Exception"*, %"unwind::libunwind::_Unwind_Context"*)* @rust_eh_personality !dbg !3431 {
 start:
   %0 = alloca { i8*, i32 }, align 8
   %arg0.dbg.spill = alloca i8*, align 8
@@ -7208,18 +7208,18 @@ start:
   %_2 = alloca %"[closure@src/main.rs:10:30: 13:3]", align 1
   %_child = alloca %"std::thread::JoinHandle<()>", align 8
   call void @llvm.dbg.declare(metadata %"std::thread::JoinHandle<()>"* %_child, metadata !3433, metadata !DIExpression()), !dbg !3439
-; call std::thread::spawn::<mapped_stack_race::main::{closure#0}, ()>
-  call void @_RINvNtCs2bNvlddUlXM_3std6thread5spawnNCNvCskT2QP9QPlNo_17mapped_stack_race4main0uEBD_(%"std::thread::JoinHandle<()>"* noalias nocapture sret dereferenceable(32) %_child), !dbg !3440
+; call std::thread::spawn::<mapped_static_race::main::{closure#0}, ()>
+  call void @_RINvNtCs2bNvlddUlXM_3std6thread5spawnNCNvCsfnYCCstO0CH_18mapped_static_race4main0uEBD_(%"std::thread::JoinHandle<()>"* noalias nocapture sret dereferenceable(32) %_child), !dbg !3440
   br label %bb1, !dbg !3440
 
 bb1:                                              ; preds = %start
-  store i8 32, i8* getelementptr inbounds (<{ [1 x i8] }>, <{ [1 x i8] }>* @_RNvNvCskT2QP9QPlNo_17mapped_stack_race4main8stackvar, i32 0, i32 0, i32 0), align 1, !dbg !3441
-  store i8* getelementptr inbounds (<{ [1 x i8] }>, <{ [1 x i8] }>* @_RNvNvCskT2QP9QPlNo_17mapped_stack_race4main8stackvar, i32 0, i32 0, i32 0), i8** %_13, align 8, !dbg !3442
+  store i8 32, i8* getelementptr inbounds (<{ [1 x i8] }>, <{ [1 x i8] }>* @_RNvNvCsfnYCCstO0CH_18mapped_static_race4main9staticvar, i32 0, i32 0, i32 0), align 1, !dbg !3441
+  store i8* getelementptr inbounds (<{ [1 x i8] }>, <{ [1 x i8] }>* @_RNvNvCsfnYCCstO0CH_18mapped_static_race4main9staticvar, i32 0, i32 0, i32 0), i8** %_13, align 8, !dbg !3442
   %arg0 = load i8*, i8** %_13, align 8, !dbg !3442, !nonnull !4
   store i8* %arg0, i8** %arg0.dbg.spill, align 8, !dbg !3442
   call void @llvm.dbg.declare(metadata i8** %arg0.dbg.spill, metadata !3435, metadata !DIExpression()), !dbg !3443
 ; invoke <core::fmt::ArgumentV1>::new::<u8>
-  %1 = invoke { i8*, i64* } @_RINvMs_NtCs3p84KrD9aKt_4core3fmtNtB5_10ArgumentV13newhECskT2QP9QPlNo_17mapped_stack_race(i8* noalias readonly align 1 dereferenceable(1) %arg0, i1 (i8*, %"std::fmt::Formatter"*)* nonnull @"_ZN4core3fmt3num3imp51_$LT$impl$u20$core..fmt..Display$u20$for$u20$u8$GT$3fmt17h4bfcdc6a2168a05fE")
+  %1 = invoke { i8*, i64* } @_RINvMs_NtCs3p84KrD9aKt_4core3fmtNtB5_10ArgumentV13newhECsfnYCCstO0CH_18mapped_static_race(i8* noalias readonly align 1 dereferenceable(1) %arg0, i1 (i8*, %"std::fmt::Formatter"*)* nonnull @"_ZN4core3fmt3num3imp51_$LT$impl$u20$core..fmt..Display$u20$for$u20$u8$GT$3fmt17h4bfcdc6a2168a05fE")
           to label %bb2 unwind label %cleanup, !dbg !3443
 
 bb2:                                              ; preds = %bb1
@@ -7232,7 +7232,7 @@ bb2:                                              ; preds = %bb1
   store i64* %_17.1, i64** %4, align 8, !dbg !3443
   %_9.0 = bitcast [1 x { i8*, i64* }]* %_12 to [0 x { i8*, i64* }]*, !dbg !3442
 ; invoke <core::fmt::Arguments>::new_v1
-  invoke void @_RNvMs0_NtCs3p84KrD9aKt_4core3fmtNtB5_9Arguments6new_v1CskT2QP9QPlNo_17mapped_stack_race(%"std::fmt::Arguments"* noalias nocapture sret dereferenceable(48) %_5, [0 x { [0 x i8]*, i64 }]* noalias nonnull readonly align 8 bitcast (<{ i8*, [8 x i8], i8*, [8 x i8] }>* @alloc4 to [0 x { [0 x i8]*, i64 }]*), i64 2, [0 x { i8*, i64* }]* noalias nonnull readonly align 8 %_9.0, i64 1)
+  invoke void @_RNvMs0_NtCs3p84KrD9aKt_4core3fmtNtB5_9Arguments6new_v1CsfnYCCstO0CH_18mapped_static_race(%"std::fmt::Arguments"* noalias nocapture sret dereferenceable(48) %_5, [0 x { [0 x i8]*, i64 }]* noalias nonnull readonly align 8 bitcast (<{ i8*, [8 x i8], i8*, [8 x i8] }>* @alloc4 to [0 x { [0 x i8]*, i64 }]*), i64 2, [0 x { i8*, i64* }]* noalias nonnull readonly align 8 %_9.0, i64 1)
           to label %bb3 unwind label %cleanup, !dbg !3442
 
 bb3:                                              ; preds = %bb2
@@ -7242,7 +7242,7 @@ bb3:                                              ; preds = %bb2
 
 bb4:                                              ; preds = %bb3
 ; call core::ptr::drop_in_place::<std::thread::JoinHandle<()>>
-  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs2bNvlddUlXM_3std6thread10JoinHandleuEECskT2QP9QPlNo_17mapped_stack_race(%"std::thread::JoinHandle<()>"* %_child), !dbg !3444
+  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs2bNvlddUlXM_3std6thread10JoinHandleuEECsfnYCCstO0CH_18mapped_static_race(%"std::thread::JoinHandle<()>"* %_child), !dbg !3444
   br label %bb5, !dbg !3444
 
 bb5:                                              ; preds = %bb4
@@ -7250,7 +7250,7 @@ bb5:                                              ; preds = %bb4
 
 bb6:                                              ; preds = %cleanup
 ; call core::ptr::drop_in_place::<std::thread::JoinHandle<()>>
-  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs2bNvlddUlXM_3std6thread10JoinHandleuEECskT2QP9QPlNo_17mapped_stack_race(%"std::thread::JoinHandle<()>"* %_child) #12, !dbg !3444
+  call void @_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs2bNvlddUlXM_3std6thread10JoinHandleuEECsfnYCCstO0CH_18mapped_static_race(%"std::thread::JoinHandle<()>"* %_child) #12, !dbg !3444
   br label %bb7, !dbg !3444
 
 bb7:                                              ; preds = %bb6
@@ -7274,13 +7274,13 @@ cleanup:                                          ; preds = %bb3, %bb2, %bb1
   br label %bb6
 }
 
-; mapped_stack_race::main::{closure#0}
+; mapped_static_race::main::{closure#0}
 ; Function Attrs: inlinehint nonlazybind uwtable
-define internal void @_RNCNvCskT2QP9QPlNo_17mapped_stack_race4main0B3_() unnamed_addr #1 !dbg !3447 {
+define internal void @_RNCNvCsfnYCCstO0CH_18mapped_static_race4main0B3_() unnamed_addr #1 !dbg !3447 {
 start:
   %_1.dbg.spill = alloca %"[closure@src/main.rs:10:30: 13:3]", align 1
   call void @llvm.dbg.declare(metadata %"[closure@src/main.rs:10:30: 13:3]"* %_1.dbg.spill, metadata !3449, metadata !DIExpression()), !dbg !3450
-  store i8 99, i8* getelementptr inbounds (<{ [1 x i8] }>, <{ [1 x i8] }>* @_RNvNvCskT2QP9QPlNo_17mapped_stack_race4main8stackvar, i32 0, i32 0, i32 0), align 1, !dbg !3451
+  store i8 99, i8* getelementptr inbounds (<{ [1 x i8] }>, <{ [1 x i8] }>* @_RNvNvCsfnYCCstO0CH_18mapped_static_race4main9staticvar, i32 0, i32 0, i32 0), align 1, !dbg !3451
   ret void, !dbg !3452
 }
 
@@ -7407,7 +7407,7 @@ top:
   %2 = load volatile i8, i8* getelementptr inbounds ([34 x i8], [34 x i8]* @__rustc_debug_gdb_scripts_section__, i32 0, i32 0), align 1
   %3 = sext i32 %0 to i64
 ; call std::rt::lang_start::<()>
-  %4 = call i64 @_RINvNtCs2bNvlddUlXM_3std2rt10lang_startuECskT2QP9QPlNo_17mapped_stack_race(void ()* @_RNvCskT2QP9QPlNo_17mapped_stack_race4main, i64 %3, i8** %1)
+  %4 = call i64 @_RINvNtCs2bNvlddUlXM_3std2rt10lang_startuECsfnYCCstO0CH_18mapped_static_race(void ()* @_RNvCsfnYCCstO0CH_18mapped_static_race4main, i64 %3, i8** %1)
   %5 = trunc i64 %4 to i32
   ret i32 %5
 }
@@ -7434,7 +7434,7 @@ attributes #12 = { noinline }
 !2 = !DIFile(filename: "<unknown>", directory: "")
 !3 = !DICompositeType(tag: DW_TAG_structure_type, name: "vtable", file: !2, align: 64, flags: DIFlagArtificial, elements: !4, vtableHolder: !5, identifier: "vtable")
 !4 = !{}
-!5 = !DICompositeType(tag: DW_TAG_structure_type, name: "closure-0", scope: !6, file: !2, size: 192, align: 64, elements: !10, templateParams: !4, identifier: "2ac05b4bc88ab5ae32bbd784e13b12e")
+!5 = !DICompositeType(tag: DW_TAG_structure_type, name: "closure-0", scope: !6, file: !2, size: 192, align: 64, elements: !10, templateParams: !4, identifier: "f8ab98658d07cdfdc8926d6bbe10926e")
 !6 = !DINamespace(name: "spawn_unchecked", scope: !7)
 !7 = !DINamespace(name: "{{impl}}", scope: !8)
 !8 = !DINamespace(name: "thread", scope: !9)
@@ -7642,9 +7642,9 @@ attributes #12 = { noinline }
 !210 = !{!211}
 !211 = !DIDerivedType(tag: DW_TAG_member, name: "__0", scope: !209, file: !2, baseType: !122, size: 64, align: 64)
 !212 = !DIDerivedType(tag: DW_TAG_member, name: "__2", scope: !5, file: !2, baseType: !213, align: 8)
-!213 = !DICompositeType(tag: DW_TAG_structure_type, name: "closure-0", scope: !214, file: !2, align: 8, elements: !4, templateParams: !4, identifier: "896575bdef1e0c78a9771d79e5703f68")
+!213 = !DICompositeType(tag: DW_TAG_structure_type, name: "closure-0", scope: !214, file: !2, align: 8, elements: !4, templateParams: !4, identifier: "71adb70ccfb16645a8f0a300bf7e6485")
 !214 = !DINamespace(name: "main", scope: !215)
-!215 = !DINamespace(name: "mapped_stack_race", scope: null)
+!215 = !DINamespace(name: "mapped_static_race", scope: null)
 !216 = !DIDerivedType(tag: DW_TAG_member, name: "__3", scope: !5, file: !2, baseType: !217, size: 64, align: 64, offset: 128)
 !217 = !DICompositeType(tag: DW_TAG_structure_type, name: "Arc<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>>", scope: !16, file: !2, size: 64, align: 64, elements: !218, templateParams: !280, identifier: "9f69d4a4ef5bfc588f581d4ebf813744")
 !218 = !{!219, !284}
@@ -7788,14 +7788,14 @@ attributes #12 = { noinline }
 !356 = !DIDerivedType(tag: DW_TAG_member, name: "vtable", scope: !353, file: !2, baseType: !259, size: 64, align: 64, offset: 64, flags: DIFlagArtificial)
 !357 = !DIDerivedType(tag: DW_TAG_member, scope: !301, file: !2, baseType: !65, size: 8, align: 8, flags: DIFlagArtificial)
 !358 = !DIGlobalVariableExpression(var: !359, expr: !DIExpression())
-!359 = distinct !DIGlobalVariable(name: "stackvar", linkageName: "_RNvNvCskT2QP9QPlNo_17mapped_stack_race4main8stackvar", scope: !214, file: !360, line: 7, type: !65, isLocal: true, isDefinition: true, align: 1)
-!360 = !DIFile(filename: "src/main.rs", directory: "/home/skeet/Documents/o2_lab/rust/race_examples/mapped_stack_race", checksumkind: CSK_MD5, checksum: "b5b2311a8c9064783a4e73f0c2428267")
+!359 = distinct !DIGlobalVariable(name: "staticvar", linkageName: "_RNvNvCsfnYCCstO0CH_18mapped_static_race4main9staticvar", scope: !214, file: !360, line: 7, type: !65, isLocal: true, isDefinition: true, align: 1)
+!360 = !DIFile(filename: "src/main.rs", directory: "/home/skeet/Documents/o2_lab/rust/race_examples/mapped_static_race", checksumkind: CSK_MD5, checksum: "9c67e8ca4446988731ae6fe210fd2001")
 !361 = !{i32 7, !"PIC Level", i32 2}
 !362 = !{i32 7, !"PIE Level", i32 2}
 !363 = !{i32 2, !"RtLibUseGOT", i32 1}
 !364 = !{i32 2, !"Debug Info Version", i32 3}
 !365 = distinct !DICompileUnit(language: DW_LANG_Rust, file: !366, producer: "clang LLVM (rustc version 1.51.0-nightly (e38fb306b 2021-01-14))", isOptimized: false, runtimeVersion: 0, emissionKind: FullDebug, enums: !367, globals: !388)
-!366 = !DIFile(filename: "src/main.rs", directory: "/home/skeet/Documents/o2_lab/rust/race_examples/mapped_stack_race/target/debug/deps")
+!366 = !DIFile(filename: "src/main.rs", directory: "/home/skeet/Documents/o2_lab/rust/race_examples/mapped_static_race/target/debug/deps")
 !367 = !{!317, !368, !372, !381}
 !368 = !DICompositeType(tag: DW_TAG_enumeration_type, name: "Result", scope: !241, file: !2, baseType: !65, size: 8, align: 8, flags: DIFlagEnumClass, elements: !369)
 !369 = !{!370, !371}
@@ -7818,7 +7818,7 @@ attributes #12 = { noinline }
 !386 = !DIEnumerator(name: "AcqRel", value: 3)
 !387 = !DIEnumerator(name: "SeqCst", value: 4)
 !388 = !{!0, !286, !297, !358}
-!389 = distinct !DISubprogram(name: "spawn_unchecked<closure-0,()>", linkageName: "_RINvMNtCs2bNvlddUlXM_3std6threadNtB3_7Builder15spawn_uncheckedNCNvCskT2QP9QPlNo_17mapped_stack_race4main0uEB12_", scope: !391, file: !390, line: 443, type: !421, scopeLine: 443, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !490, retainedNodes: !466)
+!389 = distinct !DISubprogram(name: "spawn_unchecked<closure-0,()>", linkageName: "_RINvMNtCs2bNvlddUlXM_3std6threadNtB3_7Builder15spawn_uncheckedNCNvCsfnYCCstO0CH_18mapped_static_race4main0uEB12_", scope: !391, file: !390, line: 443, type: !421, scopeLine: 443, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !490, retainedNodes: !466)
 !390 = !DIFile(filename: "/rustc/e38fb306b7f5e65cca34df2dab1f0db15e1defb4/library/std/src/thread/mod.rs", directory: "", checksumkind: CSK_MD5, checksum: "f26192c994bf4f410829d52b5e501e96")
 !391 = !DICompositeType(tag: DW_TAG_structure_type, name: "Builder", scope: !8, file: !2, size: 320, align: 64, elements: !392, templateParams: !4, identifier: "b16137263913302cd67d8a5c187f6b38")
 !392 = !{!393, !410}
@@ -7955,7 +7955,7 @@ attributes #12 = { noinline }
 !523 = !DILocation(line: 462, column: 20, scope: !483)
 !524 = !DILocation(line: 501, column: 34, scope: !485)
 !525 = !DILocalVariable(name: "x", arg: 1, scope: !526, file: !527, line: 183, type: !5)
-!526 = distinct !DISubprogram(name: "new<closure-0>", linkageName: "_RNvMNtCs8RW06R9lH2S_5alloc5boxedINtB2_3BoxNCINvMNtCs2bNvlddUlXM_3std6threadNtBK_7Builder15spawn_uncheckedNCNvCskT2QP9QPlNo_17mapped_stack_race4main0uE0E3newB1J_", scope: !528, file: !527, line: 183, type: !530, scopeLine: 183, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !534, retainedNodes: !533)
+!526 = distinct !DISubprogram(name: "new<closure-0>", linkageName: "_RNvMNtCs8RW06R9lH2S_5alloc5boxedINtB2_3BoxNCINvMNtCs2bNvlddUlXM_3std6threadNtBK_7Builder15spawn_uncheckedNCNvCsfnYCCstO0CH_18mapped_static_race4main0uE0E3newB1J_", scope: !528, file: !527, line: 183, type: !530, scopeLine: 183, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !534, retainedNodes: !533)
 !527 = !DIFile(filename: "/rustc/e38fb306b7f5e65cca34df2dab1f0db15e1defb4/library/alloc/src/boxed.rs", directory: "", checksumkind: CSK_MD5, checksum: "642b07ec25e018ad0c5bd5b89a13146f")
 !528 = !DINamespace(name: "{{impl}}", scope: !529)
 !529 = !DINamespace(name: "boxed", scope: !17)
@@ -7992,7 +7992,7 @@ attributes #12 = { noinline }
 !560 = !DILocation(line: 508, column: 6, scope: !389)
 !561 = !{i8 0, i8 2}
 !562 = !DILocation(line: 443, column: 5, scope: !389)
-!563 = distinct !DISubprogram(name: "spawn<closure-0,()>", linkageName: "_RINvMNtCs2bNvlddUlXM_3std6threadNtB3_7Builder5spawnNCNvCskT2QP9QPlNo_17mapped_stack_race4main0uEBR_", scope: !391, file: !390, line: 375, type: !421, scopeLine: 375, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !490, retainedNodes: !564)
+!563 = distinct !DISubprogram(name: "spawn<closure-0,()>", linkageName: "_RINvMNtCs2bNvlddUlXM_3std6threadNtB3_7Builder5spawnNCNvCsfnYCCstO0CH_18mapped_static_race4main0uEBR_", scope: !391, file: !390, line: 375, type: !421, scopeLine: 375, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !490, retainedNodes: !564)
 !564 = !{!565, !566}
 !565 = !DILocalVariable(name: "self", arg: 1, scope: !563, file: !390, line: 375, type: !391)
 !566 = !DILocalVariable(name: "f", arg: 2, scope: !563, file: !390, line: 375, type: !213)
@@ -8000,7 +8000,7 @@ attributes #12 = { noinline }
 !568 = !DILocation(line: 375, column: 30, scope: !563)
 !569 = !DILocation(line: 381, column: 18, scope: !563)
 !570 = !DILocation(line: 382, column: 6, scope: !563)
-!571 = distinct !DISubprogram(name: "get_unchecked_mut<u8,usize>", linkageName: "_RINvMNtCs3p84KrD9aKt_4core5sliceSh17get_unchecked_mutjECskT2QP9QPlNo_17mapped_stack_race", scope: !573, file: !572, line: 373, type: !575, scopeLine: 373, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !585, retainedNodes: !582)
+!571 = distinct !DISubprogram(name: "get_unchecked_mut<u8,usize>", linkageName: "_RINvMNtCs3p84KrD9aKt_4core5sliceSh17get_unchecked_mutjECsfnYCCstO0CH_18mapped_static_race", scope: !573, file: !572, line: 373, type: !575, scopeLine: 373, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !585, retainedNodes: !582)
 !572 = !DIFile(filename: "/rustc/e38fb306b7f5e65cca34df2dab1f0db15e1defb4/library/core/src/slice/mod.rs", directory: "", checksumkind: CSK_MD5, checksum: "f5494adcfbc3c204c13d8f3611aba5e3")
 !573 = !DINamespace(name: "{{impl}}", scope: !574)
 !574 = !DINamespace(name: "slice", scope: !23)
@@ -8020,7 +8020,7 @@ attributes #12 = { noinline }
 !588 = !DILocation(line: 373, column: 51, scope: !571)
 !589 = !DILocation(line: 380, column: 24, scope: !571)
 !590 = !DILocation(line: 381, column: 6, scope: !571)
-!591 = distinct !DISubprogram(name: "ok_or<core::ptr::non_null::NonNull<u8>,core::alloc::AllocError>", linkageName: "_RINvMNtCs3p84KrD9aKt_4core6optionINtB3_6OptionINtNtNtB5_3ptr8non_null7NonNullhEE5ok_orNtNtB5_5alloc10AllocErrorECskT2QP9QPlNo_17mapped_stack_race", scope: !593, file: !592, line: 531, type: !608, scopeLine: 531, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !618, retainedNodes: !626)
+!591 = distinct !DISubprogram(name: "ok_or<core::ptr::non_null::NonNull<u8>,core::alloc::AllocError>", linkageName: "_RINvMNtCs3p84KrD9aKt_4core6optionINtB3_6OptionINtNtNtB5_3ptr8non_null7NonNullhEE5ok_orNtNtB5_5alloc10AllocErrorECsfnYCCstO0CH_18mapped_static_race", scope: !593, file: !592, line: 531, type: !608, scopeLine: 531, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !618, retainedNodes: !626)
 !592 = !DIFile(filename: "/rustc/e38fb306b7f5e65cca34df2dab1f0db15e1defb4/library/core/src/option.rs", directory: "", checksumkind: CSK_MD5, checksum: "bf7fc38cde9f1dd32b300f1d80413818")
 !593 = !DICompositeType(tag: DW_TAG_structure_type, name: "Option<core::ptr::non_null::NonNull<u8>>", scope: !48, file: !2, size: 64, align: 64, elements: !594, identifier: "47741a1cc8aeefeeef407fb45e4501fc")
 !594 = !{!595}
@@ -8073,7 +8073,7 @@ attributes #12 = { noinline }
 !641 = !DILocation(line: 536, column: 5, scope: !591)
 !642 = !DILocation(line: 536, column: 6, scope: !591)
 !643 = !DILocation(line: 531, column: 5, scope: !591)
-!644 = distinct !DISubprogram(name: "unwrap_or_else<usize,fn() -> usize>", linkageName: "_RINvMNtCs3p84KrD9aKt_4core6optionINtB3_6OptionjE14unwrap_or_elseNvNtNtCs2bNvlddUlXM_3std10sys_common6thread9min_stackECskT2QP9QPlNo_17mapped_stack_race", scope: !411, file: !592, line: 424, type: !645, scopeLine: 424, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !655, retainedNodes: !650)
+!644 = distinct !DISubprogram(name: "unwrap_or_else<usize,fn() -> usize>", linkageName: "_RINvMNtCs3p84KrD9aKt_4core6optionINtB3_6OptionjE14unwrap_or_elseNvNtNtCs2bNvlddUlXM_3std10sys_common6thread9min_stackECsfnYCCstO0CH_18mapped_static_race", scope: !411, file: !592, line: 424, type: !645, scopeLine: 424, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !655, retainedNodes: !650)
 !645 = !DISubroutineType(types: !646)
 !646 = !{!39, !411, !647}
 !647 = !DIDerivedType(tag: DW_TAG_pointer_type, name: "fn() -> usize", baseType: !648, align: 8, dwarfAddressSpace: 0)
@@ -8098,7 +8098,7 @@ attributes #12 = { noinline }
 !666 = !DILocation(line: 429, column: 6, scope: !644)
 !667 = !DILocation(line: 429, column: 5, scope: !644)
 !668 = !DILocation(line: 424, column: 5, scope: !644)
-!669 = distinct !DISubprogram(name: "for_value_raw<alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>>>", linkageName: "_RINvMNtNtCs3p84KrD9aKt_4core5alloc6layoutNtB3_6Layout13for_value_rawINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtB7_4cell10UnsafeCellINtNtB7_6option6OptionINtNtB7_6result6ResultuINtNtB19_5boxed3BoxDNtNtB7_3any3AnyNtNtB7_6marker4SendEL_EEEEEECskT2QP9QPlNo_17mapped_stack_race", scope: !671, file: !670, line: 171, type: !679, scopeLine: 171, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !282, retainedNodes: !681)
+!669 = distinct !DISubprogram(name: "for_value_raw<alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>>>", linkageName: "_RINvMNtNtCs3p84KrD9aKt_4core5alloc6layoutNtB3_6Layout13for_value_rawINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtB7_4cell10UnsafeCellINtNtB7_6option6OptionINtNtB7_6result6ResultuINtNtB19_5boxed3BoxDNtNtB7_3any3AnyNtNtB7_6marker4SendEL_EEEEEECsfnYCCstO0CH_18mapped_static_race", scope: !671, file: !670, line: 171, type: !679, scopeLine: 171, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !282, retainedNodes: !681)
 !670 = !DIFile(filename: "/rustc/e38fb306b7f5e65cca34df2dab1f0db15e1defb4/library/core/src/alloc/layout.rs", directory: "", checksumkind: CSK_MD5, checksum: "d987aedeaa886c998af5931f7a6b26ef")
 !671 = !DICompositeType(tag: DW_TAG_structure_type, name: "Layout", scope: !672, file: !2, size: 128, align: 64, elements: !673, templateParams: !4, identifier: "47ebd78136bba33e1426e42e4eaa8268")
 !672 = !DINamespace(name: "layout", scope: !621)
@@ -8125,7 +8125,7 @@ attributes #12 = { noinline }
 !693 = !DILocation(line: 173, column: 20, scope: !684)
 !694 = !DILocation(line: 176, column: 18, scope: !684)
 !695 = !DILocation(line: 177, column: 6, scope: !669)
-!696 = distinct !DISubprogram(name: "for_value_raw<alloc::sync::ArcInner<std::sync::mutex::Mutex<alloc::vec::Vec<u8, alloc::alloc::Global>>>>", linkageName: "_RINvMNtNtCs3p84KrD9aKt_4core5alloc6layoutNtB3_6Layout13for_value_rawINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtB19_3vec3VechEEEECskT2QP9QPlNo_17mapped_stack_race", scope: !671, file: !670, line: 171, type: !697, scopeLine: 171, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !204, retainedNodes: !699)
+!696 = distinct !DISubprogram(name: "for_value_raw<alloc::sync::ArcInner<std::sync::mutex::Mutex<alloc::vec::Vec<u8, alloc::alloc::Global>>>>", linkageName: "_RINvMNtNtCs3p84KrD9aKt_4core5alloc6layoutNtB3_6Layout13for_value_rawINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtB19_3vec3VechEEEECsfnYCCstO0CH_18mapped_static_race", scope: !671, file: !670, line: 171, type: !697, scopeLine: 171, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !204, retainedNodes: !699)
 !697 = !DISubroutineType(types: !698)
 !698 = !{!671, !128}
 !699 = !{!700, !701, !703}
@@ -8143,7 +8143,7 @@ attributes #12 = { noinline }
 !711 = !DILocation(line: 173, column: 20, scope: !702)
 !712 = !DILocation(line: 176, column: 18, scope: !702)
 !713 = !DILocation(line: 177, column: 6, scope: !696)
-!714 = distinct !DISubprogram(name: "for_value_raw<alloc::sync::ArcInner<std::thread::Inner>>", linkageName: "_RINvMNtNtCs3p84KrD9aKt_4core5alloc6layoutNtB3_6Layout13for_value_rawINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerNtNtCs2bNvlddUlXM_3std6thread5InnerEECskT2QP9QPlNo_17mapped_stack_race", scope: !671, file: !670, line: 171, type: !715, scopeLine: 171, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !108, retainedNodes: !717)
+!714 = distinct !DISubprogram(name: "for_value_raw<alloc::sync::ArcInner<std::thread::Inner>>", linkageName: "_RINvMNtNtCs3p84KrD9aKt_4core5alloc6layoutNtB3_6Layout13for_value_rawINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerNtNtCs2bNvlddUlXM_3std6thread5InnerEECsfnYCCstO0CH_18mapped_static_race", scope: !671, file: !670, line: 171, type: !715, scopeLine: 171, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !108, retainedNodes: !717)
 !715 = !DISubroutineType(types: !716)
 !716 = !{!671, !26}
 !717 = !{!718, !719, !721}
@@ -8161,7 +8161,7 @@ attributes #12 = { noinline }
 !729 = !DILocation(line: 173, column: 20, scope: !720)
 !730 = !DILocation(line: 176, column: 18, scope: !720)
 !731 = !DILocation(line: 177, column: 6, scope: !714)
-!732 = distinct !DISubprogram(name: "cast<Any,u8>", linkageName: "_RINvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB6_6UniqueDNtNtBa_3any3AnyNtNtBa_6marker4SendEL_E4casthECskT2QP9QPlNo_17mapped_stack_race", scope: !734, file: !733, line: 135, type: !744, scopeLine: 135, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !748, retainedNodes: !746)
+!732 = distinct !DISubprogram(name: "cast<Any,u8>", linkageName: "_RINvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB6_6UniqueDNtNtBa_3any3AnyNtNtBa_6marker4SendEL_E4casthECsfnYCCstO0CH_18mapped_static_race", scope: !734, file: !733, line: 135, type: !744, scopeLine: 135, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !748, retainedNodes: !746)
 !733 = !DIFile(filename: "/rustc/e38fb306b7f5e65cca34df2dab1f0db15e1defb4/library/core/src/ptr/unique.rs", directory: "", checksumkind: CSK_MD5, checksum: "a83acd9c3d0e6cc1331d6a0f78f4f2e9")
 !734 = !DICompositeType(tag: DW_TAG_structure_type, name: "Unique<Any>", scope: !191, file: !2, size: 128, align: 64, elements: !735, templateParams: !743, identifier: "2938af5a0200ac042e410e76a3595198")
 !735 = !{!736, !741}
@@ -8183,7 +8183,7 @@ attributes #12 = { noinline }
 !751 = !DILocation(line: 139, column: 40, scope: !732)
 !752 = !DILocation(line: 139, column: 18, scope: !732)
 !753 = !DILocation(line: 140, column: 6, scope: !732)
-!754 = distinct !DISubprogram(name: "cast<Error,u8>", linkageName: "_RINvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB6_6UniqueDNtNtCs2bNvlddUlXM_3std5error5ErrorNtNtBa_6marker4SendNtB1s_4SyncEL_E4casthECskT2QP9QPlNo_17mapped_stack_race", scope: !755, file: !733, line: 135, type: !765, scopeLine: 135, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !769, retainedNodes: !767)
+!754 = distinct !DISubprogram(name: "cast<Error,u8>", linkageName: "_RINvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB6_6UniqueDNtNtCs2bNvlddUlXM_3std5error5ErrorNtNtBa_6marker4SendNtB1s_4SyncEL_E4casthECsfnYCCstO0CH_18mapped_static_race", scope: !755, file: !733, line: 135, type: !765, scopeLine: 135, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !769, retainedNodes: !767)
 !755 = !DICompositeType(tag: DW_TAG_structure_type, name: "Unique<Error>", scope: !191, file: !2, size: 128, align: 64, elements: !756, templateParams: !764, identifier: "493a69d9adf60043ff68a2f27ef2f0f2")
 !756 = !{!757, !762}
 !757 = !DIDerivedType(tag: DW_TAG_member, name: "pointer", scope: !755, file: !2, baseType: !758, size: 128, align: 64)
@@ -8203,7 +8203,7 @@ attributes #12 = { noinline }
 !771 = !DILocation(line: 139, column: 40, scope: !754)
 !772 = !DILocation(line: 139, column: 18, scope: !754)
 !773 = !DILocation(line: 140, column: 6, scope: !754)
-!774 = distinct !DISubprogram(name: "cast<alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>>,u8>", linkageName: "_RINvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB6_6UniqueINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtBa_4cell10UnsafeCellINtNtBa_6option6OptionINtNtBa_6result6ResultuINtNtBW_5boxed3BoxDNtNtBa_3any3AnyNtNtBa_6marker4SendEL_EEEEEE4casthECskT2QP9QPlNo_17mapped_stack_race", scope: !775, file: !733, line: 135, type: !779, scopeLine: 135, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !783, retainedNodes: !781)
+!774 = distinct !DISubprogram(name: "cast<alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>>,u8>", linkageName: "_RINvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB6_6UniqueINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtBa_4cell10UnsafeCellINtNtBa_6option6OptionINtNtBa_6result6ResultuINtNtBW_5boxed3BoxDNtNtBa_3any3AnyNtNtBa_6marker4SendEL_EEEEEE4casthECsfnYCCstO0CH_18mapped_static_race", scope: !775, file: !733, line: 135, type: !779, scopeLine: 135, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !783, retainedNodes: !781)
 !775 = !DICompositeType(tag: DW_TAG_structure_type, name: "Unique<alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>>>", scope: !191, file: !2, size: 64, align: 64, elements: !776, templateParams: !282, identifier: "322efd7761c4475ad8c6ddc6a7748863")
 !776 = !{!777, !778}
 !777 = !DIDerivedType(tag: DW_TAG_member, name: "pointer", scope: !775, file: !2, baseType: !223, size: 64, align: 64)
@@ -8217,7 +8217,7 @@ attributes #12 = { noinline }
 !785 = !DILocation(line: 139, column: 40, scope: !774)
 !786 = !DILocation(line: 139, column: 18, scope: !774)
 !787 = !DILocation(line: 140, column: 6, scope: !774)
-!788 = distinct !DISubprogram(name: "cast<std::io::error::Custom,u8>", linkageName: "_RINvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB6_6UniqueNtNtNtCs2bNvlddUlXM_3std2io5error6CustomE4casthECskT2QP9QPlNo_17mapped_stack_race", scope: !789, file: !733, line: 135, type: !797, scopeLine: 135, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !801, retainedNodes: !799)
+!788 = distinct !DISubprogram(name: "cast<std::io::error::Custom,u8>", linkageName: "_RINvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB6_6UniqueNtNtNtCs2bNvlddUlXM_3std2io5error6CustomE4casthECsfnYCCstO0CH_18mapped_static_race", scope: !789, file: !733, line: 135, type: !797, scopeLine: 135, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !801, retainedNodes: !799)
 !789 = !DICompositeType(tag: DW_TAG_structure_type, name: "Unique<std::io::error::Custom>", scope: !191, file: !2, size: 64, align: 64, elements: !790, templateParams: !795, identifier: "4611d10263019a5289b9af2041f45d0b")
 !790 = !{!791, !793}
 !791 = !DIDerivedType(tag: DW_TAG_member, name: "pointer", scope: !789, file: !2, baseType: !792, size: 64, align: 64)
@@ -8235,7 +8235,7 @@ attributes #12 = { noinline }
 !803 = !DILocation(line: 139, column: 40, scope: !788)
 !804 = !DILocation(line: 139, column: 18, scope: !788)
 !805 = !DILocation(line: 140, column: 6, scope: !788)
-!806 = distinct !DISubprogram(name: "cast<std::sys::unix::mutex::Mutex,u8>", linkageName: "_RINvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB6_6UniqueNtNtNtNtCs2bNvlddUlXM_3std3sys4unix5mutex5MutexE4casthECskT2QP9QPlNo_17mapped_stack_race", scope: !807, file: !733, line: 135, type: !815, scopeLine: 135, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !819, retainedNodes: !817)
+!806 = distinct !DISubprogram(name: "cast<std::sys::unix::mutex::Mutex,u8>", linkageName: "_RINvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB6_6UniqueNtNtNtNtCs2bNvlddUlXM_3std3sys4unix5mutex5MutexE4casthECsfnYCCstO0CH_18mapped_static_race", scope: !807, file: !733, line: 135, type: !815, scopeLine: 135, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !819, retainedNodes: !817)
 !807 = !DICompositeType(tag: DW_TAG_structure_type, name: "Unique<std::sys::unix::mutex::Mutex>", scope: !191, file: !2, size: 64, align: 64, elements: !808, templateParams: !813, identifier: "3afbb3cff744085763686298ba17cd3e")
 !808 = !{!809, !811}
 !809 = !DIDerivedType(tag: DW_TAG_member, name: "pointer", scope: !807, file: !2, baseType: !810, size: 64, align: 64)
@@ -8253,7 +8253,7 @@ attributes #12 = { noinline }
 !821 = !DILocation(line: 139, column: 40, scope: !806)
 !822 = !DILocation(line: 139, column: 18, scope: !806)
 !823 = !DILocation(line: 140, column: 6, scope: !806)
-!824 = distinct !DISubprogram(name: "cast<[u8],u8>", linkageName: "_RINvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB6_6UniqueShE4casthECskT2QP9QPlNo_17mapped_stack_race", scope: !825, file: !733, line: 135, type: !835, scopeLine: 135, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !839, retainedNodes: !837)
+!824 = distinct !DISubprogram(name: "cast<[u8],u8>", linkageName: "_RINvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB6_6UniqueShE4casthECsfnYCCstO0CH_18mapped_static_race", scope: !825, file: !733, line: 135, type: !835, scopeLine: 135, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !839, retainedNodes: !837)
 !825 = !DICompositeType(tag: DW_TAG_structure_type, name: "Unique<[u8]>", scope: !191, file: !2, size: 128, align: 64, elements: !826, templateParams: !834, identifier: "ff7710dc8332129f3df7d07581b1e09")
 !826 = !{!827, !832}
 !827 = !DIDerivedType(tag: DW_TAG_member, name: "pointer", scope: !825, file: !2, baseType: !828, size: 128, align: 64)
@@ -8273,7 +8273,7 @@ attributes #12 = { noinline }
 !841 = !DILocation(line: 139, column: 40, scope: !824)
 !842 = !DILocation(line: 139, column: 18, scope: !824)
 !843 = !DILocation(line: 140, column: 6, scope: !824)
-!844 = distinct !DISubprogram(name: "cast<u8,u8>", linkageName: "_RINvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB6_6UniquehE4casthECskT2QP9QPlNo_17mapped_stack_race", scope: !190, file: !733, line: 135, type: !845, scopeLine: 135, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !849, retainedNodes: !847)
+!844 = distinct !DISubprogram(name: "cast<u8,u8>", linkageName: "_RINvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB6_6UniquehE4casthECsfnYCCstO0CH_18mapped_static_race", scope: !190, file: !733, line: 135, type: !845, scopeLine: 135, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !849, retainedNodes: !847)
 !845 = !DISubroutineType(types: !846)
 !846 = !{!190, !190}
 !847 = !{!848}
@@ -8283,7 +8283,7 @@ attributes #12 = { noinline }
 !851 = !DILocation(line: 139, column: 40, scope: !844)
 !852 = !DILocation(line: 139, column: 18, scope: !844)
 !853 = !DILocation(line: 140, column: 6, scope: !844)
-!854 = distinct !DISubprogram(name: "cast<alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>>,u8>", linkageName: "_RINvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB6_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtBa_4cell10UnsafeCellINtNtBa_6option6OptionINtNtBa_6result6ResultuINtNtBZ_5boxed3BoxDNtNtBa_3any3AnyNtNtBa_6marker4SendEL_EEEEEE4casthECskT2QP9QPlNo_17mapped_stack_race", scope: !220, file: !855, line: 255, type: !856, scopeLine: 255, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !783, retainedNodes: !858)
+!854 = distinct !DISubprogram(name: "cast<alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>>,u8>", linkageName: "_RINvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB6_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtBa_4cell10UnsafeCellINtNtBa_6option6OptionINtNtBa_6result6ResultuINtNtBZ_5boxed3BoxDNtNtBa_3any3AnyNtNtBa_6marker4SendEL_EEEEEE4casthECsfnYCCstO0CH_18mapped_static_race", scope: !220, file: !855, line: 255, type: !856, scopeLine: 255, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !783, retainedNodes: !858)
 !855 = !DIFile(filename: "/rustc/e38fb306b7f5e65cca34df2dab1f0db15e1defb4/library/core/src/ptr/non_null.rs", directory: "", checksumkind: CSK_MD5, checksum: "4af9bac76cacc4c0d76dcda470f37347")
 !856 = !DISubroutineType(types: !857)
 !857 = !{!601, !220}
@@ -8293,7 +8293,7 @@ attributes #12 = { noinline }
 !861 = !DILocation(line: 257, column: 41, scope: !854)
 !862 = !DILocation(line: 257, column: 18, scope: !854)
 !863 = !DILocation(line: 258, column: 6, scope: !854)
-!864 = distinct !DISubprogram(name: "cast<alloc::sync::ArcInner<std::sync::mutex::Mutex<alloc::vec::Vec<u8, alloc::alloc::Global>>>,u8>", linkageName: "_RINvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB6_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtBZ_3vec3VechEEEE4casthECskT2QP9QPlNo_17mapped_stack_race", scope: !125, file: !855, line: 255, type: !865, scopeLine: 255, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !869, retainedNodes: !867)
+!864 = distinct !DISubprogram(name: "cast<alloc::sync::ArcInner<std::sync::mutex::Mutex<alloc::vec::Vec<u8, alloc::alloc::Global>>>,u8>", linkageName: "_RINvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB6_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtBZ_3vec3VechEEEE4casthECsfnYCCstO0CH_18mapped_static_race", scope: !125, file: !855, line: 255, type: !865, scopeLine: 255, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !869, retainedNodes: !867)
 !865 = !DISubroutineType(types: !866)
 !866 = !{!601, !125}
 !867 = !{!868}
@@ -8303,7 +8303,7 @@ attributes #12 = { noinline }
 !871 = !DILocation(line: 257, column: 41, scope: !864)
 !872 = !DILocation(line: 257, column: 18, scope: !864)
 !873 = !DILocation(line: 258, column: 6, scope: !864)
-!874 = distinct !DISubprogram(name: "cast<alloc::sync::ArcInner<std::thread::Inner>,u8>", linkageName: "_RINvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB6_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerNtNtCs2bNvlddUlXM_3std6thread5InnerEE4casthECskT2QP9QPlNo_17mapped_stack_race", scope: !20, file: !855, line: 255, type: !875, scopeLine: 255, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !879, retainedNodes: !877)
+!874 = distinct !DISubprogram(name: "cast<alloc::sync::ArcInner<std::thread::Inner>,u8>", linkageName: "_RINvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB6_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerNtNtCs2bNvlddUlXM_3std6thread5InnerEE4casthECsfnYCCstO0CH_18mapped_static_race", scope: !20, file: !855, line: 255, type: !875, scopeLine: 255, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !879, retainedNodes: !877)
 !875 = !DISubroutineType(types: !876)
 !876 = !{!601, !20}
 !877 = !{!878}
@@ -8313,7 +8313,7 @@ attributes #12 = { noinline }
 !881 = !DILocation(line: 257, column: 41, scope: !874)
 !882 = !DILocation(line: 257, column: 18, scope: !874)
 !883 = !DILocation(line: 258, column: 6, scope: !874)
-!884 = distinct !DISubprogram(name: "new<u8>", linkageName: "_RINvMs_NtCs3p84KrD9aKt_4core3fmtNtB5_10ArgumentV13newhECskT2QP9QPlNo_17mapped_stack_race", scope: !886, file: !885, line: 267, type: !910, scopeLine: 267, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !176, retainedNodes: !916)
+!884 = distinct !DISubprogram(name: "new<u8>", linkageName: "_RINvMs_NtCs3p84KrD9aKt_4core3fmtNtB5_10ArgumentV13newhECsfnYCCstO0CH_18mapped_static_race", scope: !886, file: !885, line: 267, type: !910, scopeLine: 267, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !176, retainedNodes: !916)
 !885 = !DIFile(filename: "/rustc/e38fb306b7f5e65cca34df2dab1f0db15e1defb4/library/core/src/fmt/mod.rs", directory: "", checksumkind: CSK_MD5, checksum: "9c2303bc954c30225b64b2e88dce24d2")
 !886 = !DICompositeType(tag: DW_TAG_structure_type, name: "ArgumentV1", scope: !375, file: !2, size: 128, align: 64, elements: !887, templateParams: !4, identifier: "9a207610fc99920354284f0b24eecf92")
 !887 = !{!888, !891}
@@ -8354,7 +8354,7 @@ attributes #12 = { noinline }
 !922 = !DILocation(line: 276, column: 68, scope: !884)
 !923 = !DILocation(line: 276, column: 18, scope: !884)
 !924 = !DILocation(line: 277, column: 6, scope: !884)
-!925 = distinct !DISubprogram(name: "lang_start<()>", linkageName: "_RINvNtCs2bNvlddUlXM_3std2rt10lang_startuECskT2QP9QPlNo_17mapped_stack_race", scope: !291, file: !926, line: 60, type: !927, scopeLine: 60, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !458, retainedNodes: !931)
+!925 = distinct !DISubprogram(name: "lang_start<()>", linkageName: "_RINvNtCs2bNvlddUlXM_3std2rt10lang_startuECsfnYCCstO0CH_18mapped_static_race", scope: !291, file: !926, line: 60, type: !927, scopeLine: 60, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !458, retainedNodes: !931)
 !926 = !DIFile(filename: "/rustc/e38fb306b7f5e65cca34df2dab1f0db15e1defb4/library/std/src/rt.rs", directory: "", checksumkind: CSK_MD5, checksum: "a29dbe91f6c44a4e9c1b3c06440e8785")
 !927 = !DISubroutineType(types: !928)
 !928 = !{!929, !294, !929, !930}
@@ -8371,15 +8371,15 @@ attributes #12 = { noinline }
 !939 = !DILocation(line: 66, column: 9, scope: !925)
 !940 = !DILocation(line: 65, column: 5, scope: !925)
 !941 = !DILocation(line: 70, column: 2, scope: !925)
-!942 = distinct !DISubprogram(name: "catch_unwind<std::panic::AssertUnwindSafe<closure-0>,()>", linkageName: "_RINvNtCs2bNvlddUlXM_3std5panic12catch_unwindINtB2_16AssertUnwindSafeNCNCINvMNtB4_6threadNtB1c_7Builder15spawn_uncheckedNCNvCskT2QP9QPlNo_17mapped_stack_race4main0uE00EuEB1X_", scope: !944, file: !943, line: 395, type: !945, scopeLine: 395, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !958, retainedNodes: !956)
+!942 = distinct !DISubprogram(name: "catch_unwind<std::panic::AssertUnwindSafe<closure-0>,()>", linkageName: "_RINvNtCs2bNvlddUlXM_3std5panic12catch_unwindINtB2_16AssertUnwindSafeNCNCINvMNtB4_6threadNtB1c_7Builder15spawn_uncheckedNCNvCsfnYCCstO0CH_18mapped_static_race4main0uE00EuEB1X_", scope: !944, file: !943, line: 395, type: !945, scopeLine: 395, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !958, retainedNodes: !956)
 !943 = !DIFile(filename: "/rustc/e38fb306b7f5e65cca34df2dab1f0db15e1defb4/library/std/src/panic.rs", directory: "", checksumkind: CSK_MD5, checksum: "ee3ba309b2a789c4753fc4b47a6b09eb")
 !944 = !DINamespace(name: "panic", scope: !9)
 !945 = !DISubroutineType(types: !946)
 !946 = !{!240, !947}
-!947 = !DICompositeType(tag: DW_TAG_structure_type, name: "AssertUnwindSafe<closure-0>", scope: !944, file: !2, align: 8, elements: !948, templateParams: !954, identifier: "75b8e61a7df4c78f303ff37aa54548ee")
+!947 = !DICompositeType(tag: DW_TAG_structure_type, name: "AssertUnwindSafe<closure-0>", scope: !944, file: !2, align: 8, elements: !948, templateParams: !954, identifier: "2ae2d6c4130481581791fb213e65406")
 !948 = !{!949}
 !949 = !DIDerivedType(tag: DW_TAG_member, name: "__0", scope: !947, file: !2, baseType: !950, align: 8)
-!950 = !DICompositeType(tag: DW_TAG_structure_type, name: "closure-0", scope: !951, file: !2, align: 8, elements: !952, templateParams: !4, identifier: "cfbdcfd0d9eb797c4dc1f3d424e6fac7")
+!950 = !DICompositeType(tag: DW_TAG_structure_type, name: "closure-0", scope: !951, file: !2, align: 8, elements: !952, templateParams: !4, identifier: "5c097db619978a80fefb45764683418")
 !951 = !DINamespace(name: "{{closure}}", scope: !6)
 !952 = !{!953}
 !953 = !DIDerivedType(tag: DW_TAG_member, name: "__0", scope: !950, file: !2, baseType: !213, align: 8)
@@ -8393,7 +8393,7 @@ attributes #12 = { noinline }
 !961 = !DILocation(line: 395, column: 55, scope: !942)
 !962 = !DILocation(line: 396, column: 14, scope: !942)
 !963 = !DILocation(line: 397, column: 2, scope: !942)
-!964 = distinct !DISubprogram(name: "spawn<closure-0,()>", linkageName: "_RINvNtCs2bNvlddUlXM_3std6thread5spawnNCNvCskT2QP9QPlNo_17mapped_stack_race4main0uEBD_", scope: !8, file: !390, line: 614, type: !965, scopeLine: 614, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !490, retainedNodes: !967)
+!964 = distinct !DISubprogram(name: "spawn<closure-0,()>", linkageName: "_RINvNtCs2bNvlddUlXM_3std6thread5spawnNCNvCsfnYCCstO0CH_18mapped_static_race4main0uEBD_", scope: !8, file: !390, line: 614, type: !965, scopeLine: 614, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !490, retainedNodes: !967)
 !965 = !DISubroutineType(types: !966)
 !966 = !{!431, !213}
 !967 = !{!968}
@@ -8404,18 +8404,18 @@ attributes #12 = { noinline }
 !972 = !DILocation(line: 621, column: 2, scope: !964)
 !973 = !DILocation(line: 614, column: 1, scope: !964)
 !974 = !DILocation(line: 621, column: 1, scope: !964)
-!975 = distinct !DISubprogram(name: "try<(),std::panic::AssertUnwindSafe<closure-0>>", linkageName: "_RINvNtCs2bNvlddUlXM_3std9panicking3tryuINtNtB4_5panic16AssertUnwindSafeNCNCINvMNtB4_6threadNtB1f_7Builder15spawn_uncheckedNCNvCskT2QP9QPlNo_17mapped_stack_race4main0uE00EEB20_", scope: !977, file: !976, line: 299, type: !945, scopeLine: 299, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !1005, retainedNodes: !978)
+!975 = distinct !DISubprogram(name: "try<(),std::panic::AssertUnwindSafe<closure-0>>", linkageName: "_RINvNtCs2bNvlddUlXM_3std9panicking3tryuINtNtB4_5panic16AssertUnwindSafeNCNCINvMNtB4_6threadNtB1f_7Builder15spawn_uncheckedNCNvCsfnYCCstO0CH_18mapped_static_race4main0uE00EEB20_", scope: !977, file: !976, line: 299, type: !945, scopeLine: 299, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !1005, retainedNodes: !978)
 !976 = !DIFile(filename: "/rustc/e38fb306b7f5e65cca34df2dab1f0db15e1defb4/library/std/src/panicking.rs", directory: "", checksumkind: CSK_MD5, checksum: "bdd031218ff7e983922876460fb688ec")
 !977 = !DINamespace(name: "panicking", scope: !9)
 !978 = !{!979, !980, !1003}
 !979 = !DILocalVariable(name: "f", arg: 1, scope: !975, file: !976, line: 299, type: !947)
 !980 = !DILocalVariable(name: "data", scope: !981, file: !976, line: 330, type: !982, align: 8)
 !981 = distinct !DILexicalBlock(scope: !975, file: !976, line: 330, column: 5)
-!982 = !DICompositeType(tag: DW_TAG_union_type, name: "Data<std::panic::AssertUnwindSafe<closure-0>, ()>", scope: !983, file: !2, size: 128, align: 64, elements: !984, templateParams: !958, identifier: "2d8381da02517d19c395882c344beec5")
+!982 = !DICompositeType(tag: DW_TAG_union_type, name: "Data<std::panic::AssertUnwindSafe<closure-0>, ()>", scope: !983, file: !2, size: 128, align: 64, elements: !984, templateParams: !958, identifier: "8c02a7af9a6448e711bddbcf9e64ebf8")
 !983 = !DINamespace(name: "try", scope: !977)
 !984 = !{!985, !993, !997}
 !985 = !DIDerivedType(tag: DW_TAG_member, name: "f", scope: !982, file: !2, baseType: !986, align: 8)
-!986 = !DICompositeType(tag: DW_TAG_structure_type, name: "ManuallyDrop<std::panic::AssertUnwindSafe<closure-0>>", scope: !987, file: !2, align: 8, elements: !989, templateParams: !991, identifier: "ed9165a819303298963c1e649d26cd88")
+!986 = !DICompositeType(tag: DW_TAG_structure_type, name: "ManuallyDrop<std::panic::AssertUnwindSafe<closure-0>>", scope: !987, file: !2, align: 8, elements: !989, templateParams: !991, identifier: "603031a217dc7f30994eccef099a9533")
 !987 = !DINamespace(name: "manually_drop", scope: !988)
 !988 = !DINamespace(name: "mem", scope: !23)
 !989 = !{!990}
@@ -8438,7 +8438,7 @@ attributes #12 = { noinline }
 !1006 = !DILocation(line: 299, column: 42, scope: !975)
 !1007 = !DILocation(line: 330, column: 9, scope: !981)
 !1008 = !DILocalVariable(name: "value", arg: 1, scope: !1009, file: !1010, line: 69, type: !947)
-!1009 = distinct !DISubprogram(name: "new<std::panic::AssertUnwindSafe<closure-0>>", linkageName: "_RNvMNtNtCs3p84KrD9aKt_4core3mem13manually_dropINtB2_12ManuallyDropINtNtCs2bNvlddUlXM_3std5panic16AssertUnwindSafeNCNCINvMNtB17_6threadNtB1V_7Builder15spawn_uncheckedNCNvCskT2QP9QPlNo_17mapped_stack_race4main0uE00EE3newB2H_", scope: !986, file: !1010, line: 69, type: !1011, scopeLine: 69, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !991, retainedNodes: !1013)
+!1009 = distinct !DISubprogram(name: "new<std::panic::AssertUnwindSafe<closure-0>>", linkageName: "_RNvMNtNtCs3p84KrD9aKt_4core3mem13manually_dropINtB2_12ManuallyDropINtNtCs2bNvlddUlXM_3std5panic16AssertUnwindSafeNCNCINvMNtB17_6threadNtB1V_7Builder15spawn_uncheckedNCNvCsfnYCCstO0CH_18mapped_static_race4main0uE00EE3newB2H_", scope: !986, file: !1010, line: 69, type: !1011, scopeLine: 69, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !991, retainedNodes: !1013)
 !1010 = !DIFile(filename: "/rustc/e38fb306b7f5e65cca34df2dab1f0db15e1defb4/library/core/src/mem/manually_drop.rs", directory: "", checksumkind: CSK_MD5, checksum: "1ebb77b55900bbb941b074f7b36dbdc1")
 !1011 = !DISubroutineType(types: !1012)
 !1012 = !{null, !947}
@@ -8453,7 +8453,7 @@ attributes #12 = { noinline }
 !1021 = !DILocation(line: 343, column: 19, scope: !1004)
 !1022 = !DILocation(line: 343, column: 16, scope: !1004)
 !1023 = !DILocalVariable(name: "slot", arg: 1, scope: !1024, file: !1010, line: 87, type: !994)
-!1024 = distinct !DISubprogram(name: "into_inner<()>", linkageName: "_RNvMNtNtCs3p84KrD9aKt_4core3mem13manually_dropINtB2_12ManuallyDropuE10into_innerCskT2QP9QPlNo_17mapped_stack_race", scope: !994, file: !1010, line: 87, type: !1025, scopeLine: 87, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !458, retainedNodes: !1027)
+!1024 = distinct !DISubprogram(name: "into_inner<()>", linkageName: "_RNvMNtNtCs3p84KrD9aKt_4core3mem13manually_dropINtB2_12ManuallyDropuE10into_innerCsfnYCCstO0CH_18mapped_static_race", scope: !994, file: !1010, line: 87, type: !1025, scopeLine: 87, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !458, retainedNodes: !1027)
 !1025 = !DISubroutineType(types: !1026)
 !1026 = !{null, !994}
 !1027 = !{!1023}
@@ -8462,11 +8462,11 @@ attributes #12 = { noinline }
 !1030 = !DILocation(line: 344, column: 16, scope: !1004)
 !1031 = !DILocation(line: 346, column: 42, scope: !1004)
 !1032 = !{!1033, !1035}
-!1033 = distinct !{!1033, !1034, !"_RNvMNtNtCs3p84KrD9aKt_4core3mem13manually_dropINtB2_12ManuallyDropINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB6_3any3AnyNtNtB6_6marker4SendEL_EE10into_innerCskT2QP9QPlNo_17mapped_stack_race: %slot.0"}
-!1034 = distinct !{!1034, !"_RNvMNtNtCs3p84KrD9aKt_4core3mem13manually_dropINtB2_12ManuallyDropINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB6_3any3AnyNtNtB6_6marker4SendEL_EE10into_innerCskT2QP9QPlNo_17mapped_stack_race"}
-!1035 = distinct !{!1035, !1034, !"_RNvMNtNtCs3p84KrD9aKt_4core3mem13manually_dropINtB2_12ManuallyDropINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB6_3any3AnyNtNtB6_6marker4SendEL_EE10into_innerCskT2QP9QPlNo_17mapped_stack_race: %slot.1"}
+!1033 = distinct !{!1033, !1034, !"_RNvMNtNtCs3p84KrD9aKt_4core3mem13manually_dropINtB2_12ManuallyDropINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB6_3any3AnyNtNtB6_6marker4SendEL_EE10into_innerCsfnYCCstO0CH_18mapped_static_race: %slot.0"}
+!1034 = distinct !{!1034, !"_RNvMNtNtCs3p84KrD9aKt_4core3mem13manually_dropINtB2_12ManuallyDropINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB6_3any3AnyNtNtB6_6marker4SendEL_EE10into_innerCsfnYCCstO0CH_18mapped_static_race"}
+!1035 = distinct !{!1035, !1034, !"_RNvMNtNtCs3p84KrD9aKt_4core3mem13manually_dropINtB2_12ManuallyDropINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB6_3any3AnyNtNtB6_6marker4SendEL_EE10into_innerCsfnYCCstO0CH_18mapped_static_race: %slot.1"}
 !1036 = !DILocalVariable(name: "slot", arg: 1, scope: !1037, file: !1010, line: 87, type: !998)
-!1037 = distinct !DISubprogram(name: "into_inner<alloc::boxed::Box<Any, alloc::alloc::Global>>", linkageName: "_RNvMNtNtCs3p84KrD9aKt_4core3mem13manually_dropINtB2_12ManuallyDropINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB6_3any3AnyNtNtB6_6marker4SendEL_EE10into_innerCskT2QP9QPlNo_17mapped_stack_race", scope: !998, file: !1010, line: 87, type: !1038, scopeLine: 87, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !1001, retainedNodes: !1040)
+!1037 = distinct !DISubprogram(name: "into_inner<alloc::boxed::Box<Any, alloc::alloc::Global>>", linkageName: "_RNvMNtNtCs3p84KrD9aKt_4core3mem13manually_dropINtB2_12ManuallyDropINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB6_3any3AnyNtNtB6_6marker4SendEL_EE10into_innerCsfnYCCstO0CH_18mapped_static_race", scope: !998, file: !1010, line: 87, type: !1038, scopeLine: 87, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !1001, retainedNodes: !1040)
 !1038 = !DISubroutineType(types: !1039)
 !1039 = !{!253, !998}
 !1040 = !{!1036}
@@ -8478,7 +8478,7 @@ attributes #12 = { noinline }
 !1046 = !DILocation(line: 344, column: 13, scope: !1004)
 !1047 = !DILocation(line: 346, column: 13, scope: !1004)
 !1048 = !DILocation(line: 408, column: 2, scope: !975)
-!1049 = distinct !DISubprogram(name: "copy_nonoverlapping<std::panic::AssertUnwindSafe<closure-0>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core10intrinsics19copy_nonoverlappingINtNtCs2bNvlddUlXM_3std5panic16AssertUnwindSafeNCNCINvMNtBZ_6threadNtB1N_7Builder15spawn_uncheckedNCNvCskT2QP9QPlNo_17mapped_stack_race4main0uE00EEB2y_", scope: !1051, file: !1050, line: 1850, type: !1052, scopeLine: 1850, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !991, retainedNodes: !1056)
+!1049 = distinct !DISubprogram(name: "copy_nonoverlapping<std::panic::AssertUnwindSafe<closure-0>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core10intrinsics19copy_nonoverlappingINtNtCs2bNvlddUlXM_3std5panic16AssertUnwindSafeNCNCINvMNtBZ_6threadNtB1N_7Builder15spawn_uncheckedNCNvCsfnYCCstO0CH_18mapped_static_race4main0uE00EEB2y_", scope: !1051, file: !1050, line: 1850, type: !1052, scopeLine: 1850, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !991, retainedNodes: !1056)
 !1050 = !DIFile(filename: "/rustc/e38fb306b7f5e65cca34df2dab1f0db15e1defb4/library/core/src/intrinsics.rs", directory: "", checksumkind: CSK_MD5, checksum: "acd1651055d303e606af8417f4049b52")
 !1051 = !DINamespace(name: "intrinsics", scope: !23)
 !1052 = !DISubroutineType(types: !1053)
@@ -8494,7 +8494,7 @@ attributes #12 = { noinline }
 !1062 = !DILocation(line: 1850, column: 72, scope: !1049)
 !1063 = !DILocation(line: 1867, column: 14, scope: !1049)
 !1064 = !DILocation(line: 1868, column: 2, scope: !1049)
-!1065 = distinct !DISubprogram(name: "size_of_val_raw<alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3mem15size_of_val_rawINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtB4_4cell10UnsafeCellINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtBN_5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEEEECskT2QP9QPlNo_17mapped_stack_race", scope: !988, file: !1066, line: 385, type: !1067, scopeLine: 385, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !282, retainedNodes: !1069)
+!1065 = distinct !DISubprogram(name: "size_of_val_raw<alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3mem15size_of_val_rawINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtB4_4cell10UnsafeCellINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtBN_5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEEEECsfnYCCstO0CH_18mapped_static_race", scope: !988, file: !1066, line: 385, type: !1067, scopeLine: 385, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !282, retainedNodes: !1069)
 !1066 = !DIFile(filename: "/rustc/e38fb306b7f5e65cca34df2dab1f0db15e1defb4/library/core/src/mem/mod.rs", directory: "", checksumkind: CSK_MD5, checksum: "ff5cc0252364b4423923f22a7e70b9cb")
 !1067 = !DISubroutineType(types: !1068)
 !1068 = !{!39, !223}
@@ -8503,7 +8503,7 @@ attributes #12 = { noinline }
 !1071 = !DILocation(line: 385, column: 48, scope: !1065)
 !1072 = !DILocation(line: 387, column: 14, scope: !1065)
 !1073 = !DILocation(line: 388, column: 2, scope: !1065)
-!1074 = distinct !DISubprogram(name: "size_of_val_raw<alloc::sync::ArcInner<std::sync::mutex::Mutex<alloc::vec::Vec<u8, alloc::alloc::Global>>>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3mem15size_of_val_rawINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtBN_3vec3VechEEEECskT2QP9QPlNo_17mapped_stack_race", scope: !988, file: !1066, line: 385, type: !1075, scopeLine: 385, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !204, retainedNodes: !1077)
+!1074 = distinct !DISubprogram(name: "size_of_val_raw<alloc::sync::ArcInner<std::sync::mutex::Mutex<alloc::vec::Vec<u8, alloc::alloc::Global>>>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3mem15size_of_val_rawINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtBN_3vec3VechEEEECsfnYCCstO0CH_18mapped_static_race", scope: !988, file: !1066, line: 385, type: !1075, scopeLine: 385, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !204, retainedNodes: !1077)
 !1075 = !DISubroutineType(types: !1076)
 !1076 = !{!39, !128}
 !1077 = !{!1078}
@@ -8511,7 +8511,7 @@ attributes #12 = { noinline }
 !1079 = !DILocation(line: 385, column: 48, scope: !1074)
 !1080 = !DILocation(line: 387, column: 14, scope: !1074)
 !1081 = !DILocation(line: 388, column: 2, scope: !1074)
-!1082 = distinct !DISubprogram(name: "size_of_val_raw<alloc::sync::ArcInner<std::thread::Inner>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3mem15size_of_val_rawINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerNtNtCs2bNvlddUlXM_3std6thread5InnerEECskT2QP9QPlNo_17mapped_stack_race", scope: !988, file: !1066, line: 385, type: !1083, scopeLine: 385, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !108, retainedNodes: !1085)
+!1082 = distinct !DISubprogram(name: "size_of_val_raw<alloc::sync::ArcInner<std::thread::Inner>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3mem15size_of_val_rawINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerNtNtCs2bNvlddUlXM_3std6thread5InnerEECsfnYCCstO0CH_18mapped_static_race", scope: !988, file: !1066, line: 385, type: !1083, scopeLine: 385, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !108, retainedNodes: !1085)
 !1083 = !DISubroutineType(types: !1084)
 !1084 = !{!39, !26}
 !1085 = !{!1086}
@@ -8519,25 +8519,25 @@ attributes #12 = { noinline }
 !1087 = !DILocation(line: 385, column: 48, scope: !1082)
 !1088 = !DILocation(line: 387, column: 14, scope: !1082)
 !1089 = !DILocation(line: 388, column: 2, scope: !1082)
-!1090 = distinct !DISubprogram(name: "align_of_val_raw<alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3mem16align_of_val_rawINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtB4_4cell10UnsafeCellINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtBO_5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEEEECskT2QP9QPlNo_17mapped_stack_race", scope: !988, file: !1066, line: 520, type: !1067, scopeLine: 520, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !282, retainedNodes: !1091)
+!1090 = distinct !DISubprogram(name: "align_of_val_raw<alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3mem16align_of_val_rawINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtB4_4cell10UnsafeCellINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtBO_5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEEEECsfnYCCstO0CH_18mapped_static_race", scope: !988, file: !1066, line: 520, type: !1067, scopeLine: 520, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !282, retainedNodes: !1091)
 !1091 = !{!1092}
 !1092 = !DILocalVariable(name: "val", arg: 1, scope: !1090, file: !1066, line: 520, type: !223)
 !1093 = !DILocation(line: 520, column: 49, scope: !1090)
 !1094 = !DILocation(line: 522, column: 14, scope: !1090)
 !1095 = !DILocation(line: 523, column: 2, scope: !1090)
-!1096 = distinct !DISubprogram(name: "align_of_val_raw<alloc::sync::ArcInner<std::sync::mutex::Mutex<alloc::vec::Vec<u8, alloc::alloc::Global>>>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3mem16align_of_val_rawINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtBO_3vec3VechEEEECskT2QP9QPlNo_17mapped_stack_race", scope: !988, file: !1066, line: 520, type: !1075, scopeLine: 520, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !204, retainedNodes: !1097)
+!1096 = distinct !DISubprogram(name: "align_of_val_raw<alloc::sync::ArcInner<std::sync::mutex::Mutex<alloc::vec::Vec<u8, alloc::alloc::Global>>>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3mem16align_of_val_rawINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtBO_3vec3VechEEEECsfnYCCstO0CH_18mapped_static_race", scope: !988, file: !1066, line: 520, type: !1075, scopeLine: 520, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !204, retainedNodes: !1097)
 !1097 = !{!1098}
 !1098 = !DILocalVariable(name: "val", arg: 1, scope: !1096, file: !1066, line: 520, type: !128)
 !1099 = !DILocation(line: 520, column: 49, scope: !1096)
 !1100 = !DILocation(line: 522, column: 14, scope: !1096)
 !1101 = !DILocation(line: 523, column: 2, scope: !1096)
-!1102 = distinct !DISubprogram(name: "align_of_val_raw<alloc::sync::ArcInner<std::thread::Inner>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3mem16align_of_val_rawINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerNtNtCs2bNvlddUlXM_3std6thread5InnerEECskT2QP9QPlNo_17mapped_stack_race", scope: !988, file: !1066, line: 520, type: !1083, scopeLine: 520, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !108, retainedNodes: !1103)
+!1102 = distinct !DISubprogram(name: "align_of_val_raw<alloc::sync::ArcInner<std::thread::Inner>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3mem16align_of_val_rawINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerNtNtCs2bNvlddUlXM_3std6thread5InnerEECsfnYCCstO0CH_18mapped_static_race", scope: !988, file: !1066, line: 520, type: !1083, scopeLine: 520, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !108, retainedNodes: !1103)
 !1103 = !{!1104}
 !1104 = !DILocalVariable(name: "val", arg: 1, scope: !1102, file: !1066, line: 520, type: !26)
 !1105 = !DILocation(line: 520, column: 49, scope: !1102)
 !1106 = !DILocation(line: 522, column: 14, scope: !1102)
 !1107 = !DILocation(line: 523, column: 2, scope: !1102)
-!1108 = distinct !DISubprogram(name: "drop<alloc::sync::Weak<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3mem4dropINtNtCs8RW06R9lH2S_5alloc4sync4WeakINtNtB4_4cell10UnsafeCellINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtBB_5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEEEECskT2QP9QPlNo_17mapped_stack_race", scope: !988, file: !1066, line: 894, type: !1109, scopeLine: 894, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !1116, retainedNodes: !1114)
+!1108 = distinct !DISubprogram(name: "drop<alloc::sync::Weak<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3mem4dropINtNtCs8RW06R9lH2S_5alloc4sync4WeakINtNtB4_4cell10UnsafeCellINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtBB_5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEEEECsfnYCCstO0CH_18mapped_static_race", scope: !988, file: !1066, line: 894, type: !1109, scopeLine: 894, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !1116, retainedNodes: !1114)
 !1109 = !DISubroutineType(types: !1110)
 !1110 = !{null, !1111}
 !1111 = !DICompositeType(tag: DW_TAG_structure_type, name: "Weak<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>>", scope: !16, file: !2, size: 64, align: 64, elements: !1112, templateParams: !280, identifier: "64ecc188cea16e14c91f799a1d43c01e")
@@ -8550,7 +8550,7 @@ attributes #12 = { noinline }
 !1118 = !DILocation(line: 894, column: 16, scope: !1108)
 !1119 = !DILocation(line: 894, column: 24, scope: !1108)
 !1120 = !DILocation(line: 894, column: 25, scope: !1108)
-!1121 = distinct !DISubprogram(name: "drop<alloc::sync::Weak<std::sync::mutex::Mutex<alloc::vec::Vec<u8, alloc::alloc::Global>>>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3mem4dropINtNtCs8RW06R9lH2S_5alloc4sync4WeakINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtBB_3vec3VechEEEECskT2QP9QPlNo_17mapped_stack_race", scope: !988, file: !1066, line: 894, type: !1122, scopeLine: 894, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !1129, retainedNodes: !1127)
+!1121 = distinct !DISubprogram(name: "drop<alloc::sync::Weak<std::sync::mutex::Mutex<alloc::vec::Vec<u8, alloc::alloc::Global>>>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3mem4dropINtNtCs8RW06R9lH2S_5alloc4sync4WeakINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtBB_3vec3VechEEEECsfnYCCstO0CH_18mapped_static_race", scope: !988, file: !1066, line: 894, type: !1122, scopeLine: 894, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !1129, retainedNodes: !1127)
 !1122 = !DISubroutineType(types: !1123)
 !1123 = !{null, !1124}
 !1124 = !DICompositeType(tag: DW_TAG_structure_type, name: "Weak<std::sync::mutex::Mutex<alloc::vec::Vec<u8, alloc::alloc::Global>>>", scope: !16, file: !2, size: 64, align: 64, elements: !1125, templateParams: !202, identifier: "3114643c2c8f38a698864c328256007")
@@ -8563,7 +8563,7 @@ attributes #12 = { noinline }
 !1131 = !DILocation(line: 894, column: 16, scope: !1121)
 !1132 = !DILocation(line: 894, column: 24, scope: !1121)
 !1133 = !DILocation(line: 894, column: 25, scope: !1121)
-!1134 = distinct !DISubprogram(name: "drop<alloc::sync::Weak<std::thread::Inner>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3mem4dropINtNtCs8RW06R9lH2S_5alloc4sync4WeakNtNtCs2bNvlddUlXM_3std6thread5InnerEECskT2QP9QPlNo_17mapped_stack_race", scope: !988, file: !1066, line: 894, type: !1135, scopeLine: 894, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !1142, retainedNodes: !1140)
+!1134 = distinct !DISubprogram(name: "drop<alloc::sync::Weak<std::thread::Inner>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3mem4dropINtNtCs8RW06R9lH2S_5alloc4sync4WeakNtNtCs2bNvlddUlXM_3std6thread5InnerEECsfnYCCstO0CH_18mapped_static_race", scope: !988, file: !1066, line: 894, type: !1135, scopeLine: 894, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !1142, retainedNodes: !1140)
 !1135 = !DISubroutineType(types: !1136)
 !1136 = !{null, !1137}
 !1137 = !DICompositeType(tag: DW_TAG_structure_type, name: "Weak<std::thread::Inner>", scope: !16, file: !2, size: 64, align: 64, elements: !1138, templateParams: !106, identifier: "fe16d0d532d110afab32ec297d839e61")
@@ -8576,7 +8576,7 @@ attributes #12 = { noinline }
 !1144 = !DILocation(line: 894, column: 16, scope: !1134)
 !1145 = !DILocation(line: 894, column: 24, scope: !1134)
 !1146 = !DILocation(line: 894, column: 25, scope: !1134)
-!1147 = distinct !DISubprogram(name: "drop_in_place<Any>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_ECskT2QP9QPlNo_17mapped_stack_race", scope: !22, file: !1148, line: 179, type: !1149, scopeLine: 179, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !743, retainedNodes: !1155)
+!1147 = distinct !DISubprogram(name: "drop_in_place<Any>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_ECsfnYCCstO0CH_18mapped_static_race", scope: !22, file: !1148, line: 179, type: !1149, scopeLine: 179, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !743, retainedNodes: !1155)
 !1148 = !DIFile(filename: "/rustc/e38fb306b7f5e65cca34df2dab1f0db15e1defb4/library/core/src/ptr/mod.rs", directory: "", checksumkind: CSK_MD5, checksum: "62bf03e848f29bf1b3b558b2b14c39ad")
 !1149 = !DISubroutineType(types: !1150)
 !1150 = !{null, !1151}
@@ -8587,7 +8587,7 @@ attributes #12 = { noinline }
 !1155 = !{!1156}
 !1156 = !DILocalVariable(arg: 1, scope: !1147, file: !1148, line: 179, type: !1151)
 !1157 = !DILocation(line: 179, column: 1, scope: !1147)
-!1158 = distinct !DISubprogram(name: "drop_in_place<Error>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeDNtNtCs2bNvlddUlXM_3std5error5ErrorNtNtB4_6marker4SendNtB1h_4SyncEL_ECskT2QP9QPlNo_17mapped_stack_race", scope: !22, file: !1148, line: 179, type: !1159, scopeLine: 179, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !764, retainedNodes: !1165)
+!1158 = distinct !DISubprogram(name: "drop_in_place<Error>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeDNtNtCs2bNvlddUlXM_3std5error5ErrorNtNtB4_6marker4SendNtB1h_4SyncEL_ECsfnYCCstO0CH_18mapped_static_race", scope: !22, file: !1148, line: 179, type: !1159, scopeLine: 179, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !764, retainedNodes: !1165)
 !1159 = !DISubroutineType(types: !1160)
 !1160 = !{null, !1161}
 !1161 = !DICompositeType(tag: DW_TAG_structure_type, name: "*mut Error", scope: !347, file: !2, size: 128, align: 64, elements: !1162, templateParams: !4, identifier: "7181f3abbdef506167a71481c7c8eb65")
@@ -8597,14 +8597,14 @@ attributes #12 = { noinline }
 !1165 = !{!1166}
 !1166 = !DILocalVariable(arg: 1, scope: !1158, file: !1148, line: 179, type: !1161)
 !1167 = !DILocation(line: 179, column: 1, scope: !1158)
-!1168 = distinct !DISubprogram(name: "drop_in_place<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_4cell10UnsafeCellINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEEECskT2QP9QPlNo_17mapped_stack_race", scope: !22, file: !1148, line: 179, type: !1169, scopeLine: 179, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !280, retainedNodes: !1172)
+!1168 = distinct !DISubprogram(name: "drop_in_place<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_4cell10UnsafeCellINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEEECsfnYCCstO0CH_18mapped_static_race", scope: !22, file: !1148, line: 179, type: !1169, scopeLine: 179, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !280, retainedNodes: !1172)
 !1169 = !DISubroutineType(types: !1170)
 !1170 = !{null, !1171}
 !1171 = !DIDerivedType(tag: DW_TAG_pointer_type, name: "*mut core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>", baseType: !229, size: 64, align: 64, dwarfAddressSpace: 0)
 !1172 = !{!1173}
 !1173 = !DILocalVariable(arg: 1, scope: !1168, file: !1148, line: 179, type: !1171)
 !1174 = !DILocation(line: 179, column: 1, scope: !1168)
-!1175 = distinct !DISubprogram(name: "drop_in_place<core::cell::UnsafeCell<alloc::vec::Vec<u8, alloc::alloc::Global>>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_4cell10UnsafeCellINtNtCs8RW06R9lH2S_5alloc3vec3VechEEECskT2QP9QPlNo_17mapped_stack_race", scope: !22, file: !1148, line: 179, type: !1176, scopeLine: 179, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !1181, retainedNodes: !1179)
+!1175 = distinct !DISubprogram(name: "drop_in_place<core::cell::UnsafeCell<alloc::vec::Vec<u8, alloc::alloc::Global>>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_4cell10UnsafeCellINtNtCs8RW06R9lH2S_5alloc3vec3VechEEECsfnYCCstO0CH_18mapped_static_race", scope: !22, file: !1148, line: 179, type: !1176, scopeLine: 179, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !1181, retainedNodes: !1179)
 !1176 = !DISubroutineType(types: !1177)
 !1177 = !{null, !1178}
 !1178 = !DIDerivedType(tag: DW_TAG_pointer_type, name: "*mut core::cell::UnsafeCell<alloc::vec::Vec<u8, alloc::alloc::Global>>", baseType: !179, size: 64, align: 64, dwarfAddressSpace: 0)
@@ -8613,14 +8613,14 @@ attributes #12 = { noinline }
 !1181 = !{!1182}
 !1182 = !DITemplateTypeParameter(name: "T", type: !179)
 !1183 = !DILocation(line: 179, column: 1, scope: !1175)
-!1184 = distinct !DISubprogram(name: "drop_in_place<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEECskT2QP9QPlNo_17mapped_stack_race", scope: !22, file: !1148, line: 179, type: !1185, scopeLine: 179, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !278, retainedNodes: !1188)
+!1184 = distinct !DISubprogram(name: "drop_in_place<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEECsfnYCCstO0CH_18mapped_static_race", scope: !22, file: !1148, line: 179, type: !1185, scopeLine: 179, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !278, retainedNodes: !1188)
 !1185 = !DISubroutineType(types: !1186)
 !1186 = !{null, !1187}
 !1187 = !DIDerivedType(tag: DW_TAG_pointer_type, name: "*mut core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>", baseType: !232, size: 64, align: 64, dwarfAddressSpace: 0)
 !1188 = !{!1189}
 !1189 = !DILocalVariable(arg: 1, scope: !1184, file: !1148, line: 179, type: !1187)
 !1190 = !DILocation(line: 179, column: 1, scope: !1184)
-!1191 = distinct !DISubprogram(name: "drop_in_place<core::option::Option<alloc::sync::Arc<std::sync::mutex::Mutex<alloc::vec::Vec<u8, alloc::alloc::Global>>>>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_6option6OptionINtNtCs8RW06R9lH2S_5alloc4sync3ArcINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtB17_3vec3VechEEEEECskT2QP9QPlNo_17mapped_stack_race", scope: !22, file: !1148, line: 179, type: !1192, scopeLine: 179, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !1197, retainedNodes: !1195)
+!1191 = distinct !DISubprogram(name: "drop_in_place<core::option::Option<alloc::sync::Arc<std::sync::mutex::Mutex<alloc::vec::Vec<u8, alloc::alloc::Global>>>>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_6option6OptionINtNtCs8RW06R9lH2S_5alloc4sync3ArcINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtB17_3vec3VechEEEEECsfnYCCstO0CH_18mapped_static_race", scope: !22, file: !1148, line: 179, type: !1192, scopeLine: 179, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !1197, retainedNodes: !1195)
 !1192 = !DISubroutineType(types: !1193)
 !1193 = !{null, !1194}
 !1194 = !DIDerivedType(tag: DW_TAG_pointer_type, name: "*mut core::option::Option<alloc::sync::Arc<std::sync::mutex::Mutex<alloc::vec::Vec<u8, alloc::alloc::Global>>>>", baseType: !114, size: 64, align: 64, dwarfAddressSpace: 0)
@@ -8629,7 +8629,7 @@ attributes #12 = { noinline }
 !1197 = !{!1198}
 !1198 = !DITemplateTypeParameter(name: "T", type: !114)
 !1199 = !DILocation(line: 179, column: 1, scope: !1191)
-!1200 = distinct !DISubprogram(name: "drop_in_place<core::option::Option<alloc::string::String>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_6option6OptionNtNtCs8RW06R9lH2S_5alloc6string6StringEECskT2QP9QPlNo_17mapped_stack_race", scope: !22, file: !1148, line: 179, type: !1201, scopeLine: 179, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !1206, retainedNodes: !1204)
+!1200 = distinct !DISubprogram(name: "drop_in_place<core::option::Option<alloc::string::String>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_6option6OptionNtNtCs8RW06R9lH2S_5alloc6string6StringEECsfnYCCstO0CH_18mapped_static_race", scope: !22, file: !1148, line: 179, type: !1201, scopeLine: 179, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !1206, retainedNodes: !1204)
 !1201 = !DISubroutineType(types: !1202)
 !1202 = !{null, !1203}
 !1203 = !DIDerivedType(tag: DW_TAG_pointer_type, name: "*mut core::option::Option<alloc::string::String>", baseType: !394, size: 64, align: 64, dwarfAddressSpace: 0)
@@ -8638,7 +8638,7 @@ attributes #12 = { noinline }
 !1206 = !{!1207}
 !1207 = !DITemplateTypeParameter(name: "T", type: !394)
 !1208 = !DILocation(line: 179, column: 1, scope: !1200)
-!1209 = distinct !DISubprogram(name: "drop_in_place<core::option::Option<std::ffi::c_str::CString>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_6option6OptionNtNtNtCs2bNvlddUlXM_3std3ffi5c_str7CStringEECskT2QP9QPlNo_17mapped_stack_race", scope: !22, file: !1148, line: 179, type: !1210, scopeLine: 179, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !1215, retainedNodes: !1213)
+!1209 = distinct !DISubprogram(name: "drop_in_place<core::option::Option<std::ffi::c_str::CString>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_6option6OptionNtNtNtCs2bNvlddUlXM_3std3ffi5c_str7CStringEECsfnYCCstO0CH_18mapped_static_race", scope: !22, file: !1148, line: 179, type: !1210, scopeLine: 179, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !1215, retainedNodes: !1213)
 !1210 = !DISubroutineType(types: !1211)
 !1211 = !{null, !1212}
 !1212 = !DIDerivedType(tag: DW_TAG_pointer_type, name: "*mut core::option::Option<std::ffi::c_str::CString>", baseType: !47, size: 64, align: 64, dwarfAddressSpace: 0)
@@ -8647,7 +8647,7 @@ attributes #12 = { noinline }
 !1215 = !{!1216}
 !1216 = !DITemplateTypeParameter(name: "T", type: !47)
 !1217 = !DILocation(line: 179, column: 1, scope: !1209)
-!1218 = distinct !DISubprogram(name: "drop_in_place<core::option::Option<std::sys::unix::thread::Thread>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_6option6OptionNtNtNtNtCs2bNvlddUlXM_3std3sys4unix6thread6ThreadEECskT2QP9QPlNo_17mapped_stack_race", scope: !22, file: !1148, line: 179, type: !1219, scopeLine: 179, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !1224, retainedNodes: !1222)
+!1218 = distinct !DISubprogram(name: "drop_in_place<core::option::Option<std::sys::unix::thread::Thread>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_6option6OptionNtNtNtNtCs2bNvlddUlXM_3std3sys4unix6thread6ThreadEECsfnYCCstO0CH_18mapped_static_race", scope: !22, file: !1148, line: 179, type: !1219, scopeLine: 179, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !1224, retainedNodes: !1222)
 !1219 = !DISubroutineType(types: !1220)
 !1220 = !{null, !1221}
 !1221 = !DIDerivedType(tag: DW_TAG_pointer_type, name: "*mut core::option::Option<std::sys::unix::thread::Thread>", baseType: !437, size: 64, align: 64, dwarfAddressSpace: 0)
@@ -8656,7 +8656,7 @@ attributes #12 = { noinline }
 !1224 = !{!1225}
 !1225 = !DITemplateTypeParameter(name: "T", type: !437)
 !1226 = !DILocation(line: 179, column: 1, scope: !1218)
-!1227 = distinct !DISubprogram(name: "drop_in_place<core::result::Result<std::thread::JoinHandle<()>, std::io::error::Error>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_6result6ResultINtNtCs2bNvlddUlXM_3std6thread10JoinHandleuENtNtNtB17_2io5error5ErrorEECskT2QP9QPlNo_17mapped_stack_race", scope: !22, file: !1148, line: 179, type: !1228, scopeLine: 179, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !1233, retainedNodes: !1231)
+!1227 = distinct !DISubprogram(name: "drop_in_place<core::result::Result<std::thread::JoinHandle<()>, std::io::error::Error>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_6result6ResultINtNtCs2bNvlddUlXM_3std6thread10JoinHandleuENtNtNtB17_2io5error5ErrorEECsfnYCCstO0CH_18mapped_static_race", scope: !22, file: !1148, line: 179, type: !1228, scopeLine: 179, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !1233, retainedNodes: !1231)
 !1228 = !DISubroutineType(types: !1229)
 !1229 = !{null, !1230}
 !1230 = !DIDerivedType(tag: DW_TAG_pointer_type, name: "*mut core::result::Result<std::thread::JoinHandle<()>, std::io::error::Error>", baseType: !423, size: 64, align: 64, dwarfAddressSpace: 0)
@@ -8665,14 +8665,14 @@ attributes #12 = { noinline }
 !1233 = !{!1234}
 !1234 = !DITemplateTypeParameter(name: "T", type: !423)
 !1235 = !DILocation(line: 179, column: 1, scope: !1227)
-!1236 = distinct !DISubprogram(name: "drop_in_place<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEECskT2QP9QPlNo_17mapped_stack_race", scope: !22, file: !1148, line: 179, type: !1237, scopeLine: 179, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !238, retainedNodes: !1240)
+!1236 = distinct !DISubprogram(name: "drop_in_place<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtB4_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEECsfnYCCstO0CH_18mapped_static_race", scope: !22, file: !1148, line: 179, type: !1237, scopeLine: 179, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !238, retainedNodes: !1240)
 !1237 = !DISubroutineType(types: !1238)
 !1238 = !{null, !1239}
 !1239 = !DIDerivedType(tag: DW_TAG_pointer_type, name: "*mut core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>", baseType: !240, size: 64, align: 64, dwarfAddressSpace: 0)
 !1240 = !{!1241}
 !1241 = !DILocalVariable(arg: 1, scope: !1236, file: !1148, line: 179, type: !1239)
 !1242 = !DILocation(line: 179, column: 1, scope: !1236)
-!1243 = distinct !DISubprogram(name: "drop_in_place<std::thread::JoinHandle<()>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs2bNvlddUlXM_3std6thread10JoinHandleuEECskT2QP9QPlNo_17mapped_stack_race", scope: !22, file: !1148, line: 179, type: !1244, scopeLine: 179, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !1249, retainedNodes: !1247)
+!1243 = distinct !DISubprogram(name: "drop_in_place<std::thread::JoinHandle<()>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs2bNvlddUlXM_3std6thread10JoinHandleuEECsfnYCCstO0CH_18mapped_static_race", scope: !22, file: !1148, line: 179, type: !1244, scopeLine: 179, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !1249, retainedNodes: !1247)
 !1244 = !DISubroutineType(types: !1245)
 !1245 = !{null, !1246}
 !1246 = !DIDerivedType(tag: DW_TAG_pointer_type, name: "*mut std::thread::JoinHandle<()>", baseType: !431, size: 64, align: 64, dwarfAddressSpace: 0)
@@ -8680,7 +8680,7 @@ attributes #12 = { noinline }
 !1248 = !DILocalVariable(arg: 1, scope: !1243, file: !1148, line: 179, type: !1246)
 !1249 = !{!460}
 !1250 = !DILocation(line: 179, column: 1, scope: !1243)
-!1251 = distinct !DISubprogram(name: "drop_in_place<std::thread::Packet<()>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs2bNvlddUlXM_3std6thread6PacketuEECskT2QP9QPlNo_17mapped_stack_race", scope: !22, file: !1148, line: 179, type: !1252, scopeLine: 179, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !1257, retainedNodes: !1255)
+!1251 = distinct !DISubprogram(name: "drop_in_place<std::thread::Packet<()>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs2bNvlddUlXM_3std6thread6PacketuEECsfnYCCstO0CH_18mapped_static_race", scope: !22, file: !1148, line: 179, type: !1252, scopeLine: 179, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !1257, retainedNodes: !1255)
 !1252 = !DISubroutineType(types: !1253)
 !1253 = !{null, !1254}
 !1254 = !DIDerivedType(tag: DW_TAG_pointer_type, name: "*mut std::thread::Packet<()>", baseType: !455, size: 64, align: 64, dwarfAddressSpace: 0)
@@ -8689,7 +8689,7 @@ attributes #12 = { noinline }
 !1257 = !{!1258}
 !1258 = !DITemplateTypeParameter(name: "T", type: !455)
 !1259 = !DILocation(line: 179, column: 1, scope: !1251)
-!1260 = distinct !DISubprogram(name: "drop_in_place<std::thread::JoinInner<()>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs2bNvlddUlXM_3std6thread9JoinInneruEECskT2QP9QPlNo_17mapped_stack_race", scope: !22, file: !1148, line: 179, type: !1261, scopeLine: 179, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !1266, retainedNodes: !1264)
+!1260 = distinct !DISubprogram(name: "drop_in_place<std::thread::JoinInner<()>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs2bNvlddUlXM_3std6thread9JoinInneruEECsfnYCCstO0CH_18mapped_static_race", scope: !22, file: !1148, line: 179, type: !1261, scopeLine: 179, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !1266, retainedNodes: !1264)
 !1261 = !DISubroutineType(types: !1262)
 !1262 = !{null, !1263}
 !1263 = !DIDerivedType(tag: DW_TAG_pointer_type, name: "*mut std::thread::JoinInner<()>", baseType: !434, size: 64, align: 64, dwarfAddressSpace: 0)
@@ -8698,14 +8698,14 @@ attributes #12 = { noinline }
 !1266 = !{!1267}
 !1267 = !DITemplateTypeParameter(name: "T", type: !434)
 !1268 = !DILocation(line: 179, column: 1, scope: !1260)
-!1269 = distinct !DISubprogram(name: "drop_in_place<alloc::vec::Vec<u8, alloc::alloc::Global>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc3vec3VechEECskT2QP9QPlNo_17mapped_stack_race", scope: !22, file: !1148, line: 179, type: !1270, scopeLine: 179, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !200, retainedNodes: !1273)
+!1269 = distinct !DISubprogram(name: "drop_in_place<alloc::vec::Vec<u8, alloc::alloc::Global>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc3vec3VechEECsfnYCCstO0CH_18mapped_static_race", scope: !22, file: !1148, line: 179, type: !1270, scopeLine: 179, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !200, retainedNodes: !1273)
 !1270 = !DISubroutineType(types: !1271)
 !1271 = !{null, !1272}
 !1272 = !DIDerivedType(tag: DW_TAG_pointer_type, name: "*mut alloc::vec::Vec<u8, alloc::alloc::Global>", baseType: !182, size: 64, align: 64, dwarfAddressSpace: 0)
 !1273 = !{!1274}
 !1274 = !DILocalVariable(arg: 1, scope: !1269, file: !1148, line: 179, type: !1272)
 !1275 = !DILocation(line: 179, column: 1, scope: !1269)
-!1276 = distinct !DISubprogram(name: "drop_in_place<alloc::sync::Arc<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc4sync3ArcINtNtB4_4cell10UnsafeCellINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtBL_5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEEEECskT2QP9QPlNo_17mapped_stack_race", scope: !22, file: !1148, line: 179, type: !1277, scopeLine: 179, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !1282, retainedNodes: !1280)
+!1276 = distinct !DISubprogram(name: "drop_in_place<alloc::sync::Arc<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc4sync3ArcINtNtB4_4cell10UnsafeCellINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtBL_5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEEEECsfnYCCstO0CH_18mapped_static_race", scope: !22, file: !1148, line: 179, type: !1277, scopeLine: 179, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !1282, retainedNodes: !1280)
 !1277 = !DISubroutineType(types: !1278)
 !1278 = !{null, !1279}
 !1279 = !DIDerivedType(tag: DW_TAG_pointer_type, name: "*mut alloc::sync::Arc<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>>", baseType: !217, size: 64, align: 64, dwarfAddressSpace: 0)
@@ -8714,14 +8714,14 @@ attributes #12 = { noinline }
 !1282 = !{!1283}
 !1283 = !DITemplateTypeParameter(name: "T", type: !217)
 !1284 = !DILocation(line: 179, column: 1, scope: !1276)
-!1285 = distinct !DISubprogram(name: "drop_in_place<alloc::sync::Arc<std::sync::mutex::Mutex<alloc::vec::Vec<u8, alloc::alloc::Global>>>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc4sync3ArcINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtBL_3vec3VechEEEECskT2QP9QPlNo_17mapped_stack_race", scope: !22, file: !1148, line: 179, type: !1286, scopeLine: 179, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !120, retainedNodes: !1289)
+!1285 = distinct !DISubprogram(name: "drop_in_place<alloc::sync::Arc<std::sync::mutex::Mutex<alloc::vec::Vec<u8, alloc::alloc::Global>>>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc4sync3ArcINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtBL_3vec3VechEEEECsfnYCCstO0CH_18mapped_static_race", scope: !22, file: !1148, line: 179, type: !1286, scopeLine: 179, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !120, retainedNodes: !1289)
 !1286 = !DISubroutineType(types: !1287)
 !1287 = !{null, !1288}
 !1288 = !DIDerivedType(tag: DW_TAG_pointer_type, name: "*mut alloc::sync::Arc<std::sync::mutex::Mutex<alloc::vec::Vec<u8, alloc::alloc::Global>>>", baseType: !122, size: 64, align: 64, dwarfAddressSpace: 0)
 !1289 = !{!1290}
 !1290 = !DILocalVariable(arg: 1, scope: !1285, file: !1148, line: 179, type: !1288)
 !1291 = !DILocation(line: 179, column: 1, scope: !1285)
-!1292 = distinct !DISubprogram(name: "drop_in_place<alloc::sync::Arc<std::thread::Inner>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc4sync3ArcNtNtCs2bNvlddUlXM_3std6thread5InnerEECskT2QP9QPlNo_17mapped_stack_race", scope: !22, file: !1148, line: 179, type: !1293, scopeLine: 179, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !1298, retainedNodes: !1296)
+!1292 = distinct !DISubprogram(name: "drop_in_place<alloc::sync::Arc<std::thread::Inner>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc4sync3ArcNtNtCs2bNvlddUlXM_3std6thread5InnerEECsfnYCCstO0CH_18mapped_static_race", scope: !22, file: !1148, line: 179, type: !1293, scopeLine: 179, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !1298, retainedNodes: !1296)
 !1293 = !DISubroutineType(types: !1294)
 !1294 = !{null, !1295}
 !1295 = !DIDerivedType(tag: DW_TAG_pointer_type, name: "*mut alloc::sync::Arc<std::thread::Inner>", baseType: !15, size: 64, align: 64, dwarfAddressSpace: 0)
@@ -8730,35 +8730,35 @@ attributes #12 = { noinline }
 !1298 = !{!1299}
 !1299 = !DITemplateTypeParameter(name: "T", type: !15)
 !1300 = !DILocation(line: 179, column: 1, scope: !1292)
-!1301 = distinct !DISubprogram(name: "drop_in_place<alloc::sync::Weak<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc4sync4WeakINtNtB4_4cell10UnsafeCellINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtBL_5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEEEECskT2QP9QPlNo_17mapped_stack_race", scope: !22, file: !1148, line: 179, type: !1302, scopeLine: 179, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !1116, retainedNodes: !1305)
+!1301 = distinct !DISubprogram(name: "drop_in_place<alloc::sync::Weak<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc4sync4WeakINtNtB4_4cell10UnsafeCellINtNtB4_6option6OptionINtNtB4_6result6ResultuINtNtBL_5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EEEEEECsfnYCCstO0CH_18mapped_static_race", scope: !22, file: !1148, line: 179, type: !1302, scopeLine: 179, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !1116, retainedNodes: !1305)
 !1302 = !DISubroutineType(types: !1303)
 !1303 = !{null, !1304}
 !1304 = !DIDerivedType(tag: DW_TAG_pointer_type, name: "*mut alloc::sync::Weak<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>>", baseType: !1111, size: 64, align: 64, dwarfAddressSpace: 0)
 !1305 = !{!1306}
 !1306 = !DILocalVariable(arg: 1, scope: !1301, file: !1148, line: 179, type: !1304)
 !1307 = !DILocation(line: 179, column: 1, scope: !1301)
-!1308 = distinct !DISubprogram(name: "drop_in_place<alloc::sync::Weak<std::sync::mutex::Mutex<alloc::vec::Vec<u8, alloc::alloc::Global>>>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc4sync4WeakINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtBL_3vec3VechEEEECskT2QP9QPlNo_17mapped_stack_race", scope: !22, file: !1148, line: 179, type: !1309, scopeLine: 179, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !1129, retainedNodes: !1312)
+!1308 = distinct !DISubprogram(name: "drop_in_place<alloc::sync::Weak<std::sync::mutex::Mutex<alloc::vec::Vec<u8, alloc::alloc::Global>>>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc4sync4WeakINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtBL_3vec3VechEEEECsfnYCCstO0CH_18mapped_static_race", scope: !22, file: !1148, line: 179, type: !1309, scopeLine: 179, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !1129, retainedNodes: !1312)
 !1309 = !DISubroutineType(types: !1310)
 !1310 = !{null, !1311}
 !1311 = !DIDerivedType(tag: DW_TAG_pointer_type, name: "*mut alloc::sync::Weak<std::sync::mutex::Mutex<alloc::vec::Vec<u8, alloc::alloc::Global>>>", baseType: !1124, size: 64, align: 64, dwarfAddressSpace: 0)
 !1312 = !{!1313}
 !1313 = !DILocalVariable(arg: 1, scope: !1308, file: !1148, line: 179, type: !1311)
 !1314 = !DILocation(line: 179, column: 1, scope: !1308)
-!1315 = distinct !DISubprogram(name: "drop_in_place<alloc::sync::Weak<std::thread::Inner>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc4sync4WeakNtNtCs2bNvlddUlXM_3std6thread5InnerEECskT2QP9QPlNo_17mapped_stack_race", scope: !22, file: !1148, line: 179, type: !1316, scopeLine: 179, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !1142, retainedNodes: !1319)
+!1315 = distinct !DISubprogram(name: "drop_in_place<alloc::sync::Weak<std::thread::Inner>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc4sync4WeakNtNtCs2bNvlddUlXM_3std6thread5InnerEECsfnYCCstO0CH_18mapped_static_race", scope: !22, file: !1148, line: 179, type: !1316, scopeLine: 179, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !1142, retainedNodes: !1319)
 !1316 = !DISubroutineType(types: !1317)
 !1317 = !{null, !1318}
 !1318 = !DIDerivedType(tag: DW_TAG_pointer_type, name: "*mut alloc::sync::Weak<std::thread::Inner>", baseType: !1137, size: 64, align: 64, dwarfAddressSpace: 0)
 !1319 = !{!1320}
 !1320 = !DILocalVariable(arg: 1, scope: !1315, file: !1148, line: 179, type: !1318)
 !1321 = !DILocation(line: 179, column: 1, scope: !1315)
-!1322 = distinct !DISubprogram(name: "drop_in_place<alloc::boxed::Box<Any, alloc::alloc::Global>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EECskT2QP9QPlNo_17mapped_stack_race", scope: !22, file: !1148, line: 179, type: !1323, scopeLine: 179, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !1001, retainedNodes: !1326)
+!1322 = distinct !DISubprogram(name: "drop_in_place<alloc::boxed::Box<Any, alloc::alloc::Global>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB4_3any3AnyNtNtB4_6marker4SendEL_EECsfnYCCstO0CH_18mapped_static_race", scope: !22, file: !1148, line: 179, type: !1323, scopeLine: 179, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !1001, retainedNodes: !1326)
 !1323 = !DISubroutineType(types: !1324)
 !1324 = !{null, !1325}
 !1325 = !DIDerivedType(tag: DW_TAG_pointer_type, name: "*mut alloc::boxed::Box<Any, alloc::alloc::Global>", baseType: !253, size: 64, align: 64, dwarfAddressSpace: 0)
 !1326 = !{!1327}
 !1327 = !DILocalVariable(arg: 1, scope: !1322, file: !1148, line: 179, type: !1325)
 !1328 = !DILocation(line: 179, column: 1, scope: !1322)
-!1329 = distinct !DISubprogram(name: "drop_in_place<alloc::boxed::Box<Error, alloc::alloc::Global>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtCs2bNvlddUlXM_3std5error5ErrorNtNtB4_6marker4SendNtB1Q_4SyncEL_EECskT2QP9QPlNo_17mapped_stack_race", scope: !22, file: !1148, line: 179, type: !1330, scopeLine: 179, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !1335, retainedNodes: !1333)
+!1329 = distinct !DISubprogram(name: "drop_in_place<alloc::boxed::Box<Error, alloc::alloc::Global>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtCs2bNvlddUlXM_3std5error5ErrorNtNtB4_6marker4SendNtB1Q_4SyncEL_EECsfnYCCstO0CH_18mapped_static_race", scope: !22, file: !1148, line: 179, type: !1330, scopeLine: 179, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !1335, retainedNodes: !1333)
 !1330 = !DISubroutineType(types: !1331)
 !1331 = !{null, !1332}
 !1332 = !DIDerivedType(tag: DW_TAG_pointer_type, name: "*mut alloc::boxed::Box<Error, alloc::alloc::Global>", baseType: !346, size: 64, align: 64, dwarfAddressSpace: 0)
@@ -8767,7 +8767,7 @@ attributes #12 = { noinline }
 !1335 = !{!1336}
 !1336 = !DITemplateTypeParameter(name: "T", type: !346)
 !1337 = !DILocation(line: 179, column: 1, scope: !1329)
-!1338 = distinct !DISubprogram(name: "drop_in_place<alloc::boxed::Box<std::io::error::Custom, alloc::alloc::Global>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc5boxed3BoxNtNtNtCs2bNvlddUlXM_3std2io5error6CustomEECskT2QP9QPlNo_17mapped_stack_race", scope: !22, file: !1148, line: 179, type: !1339, scopeLine: 179, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !1344, retainedNodes: !1342)
+!1338 = distinct !DISubprogram(name: "drop_in_place<alloc::boxed::Box<std::io::error::Custom, alloc::alloc::Global>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc5boxed3BoxNtNtNtCs2bNvlddUlXM_3std2io5error6CustomEECsfnYCCstO0CH_18mapped_static_race", scope: !22, file: !1148, line: 179, type: !1339, scopeLine: 179, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !1344, retainedNodes: !1342)
 !1339 = !DISubroutineType(types: !1340)
 !1340 = !{null, !1341}
 !1341 = !DIDerivedType(tag: DW_TAG_pointer_type, name: "*mut alloc::boxed::Box<std::io::error::Custom, alloc::alloc::Global>", baseType: !341, size: 64, align: 64, dwarfAddressSpace: 0)
@@ -8776,7 +8776,7 @@ attributes #12 = { noinline }
 !1344 = !{!1345}
 !1345 = !DITemplateTypeParameter(name: "T", type: !341)
 !1346 = !DILocation(line: 179, column: 1, scope: !1338)
-!1347 = distinct !DISubprogram(name: "drop_in_place<alloc::boxed::Box<std::sys::unix::mutex::Mutex, alloc::alloc::Global>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc5boxed3BoxNtNtNtNtCs2bNvlddUlXM_3std3sys4unix5mutex5MutexEECskT2QP9QPlNo_17mapped_stack_race", scope: !22, file: !1148, line: 179, type: !1348, scopeLine: 179, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !1353, retainedNodes: !1351)
+!1347 = distinct !DISubprogram(name: "drop_in_place<alloc::boxed::Box<std::sys::unix::mutex::Mutex, alloc::alloc::Global>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc5boxed3BoxNtNtNtNtCs2bNvlddUlXM_3std3sys4unix5mutex5MutexEECsfnYCCstO0CH_18mapped_static_race", scope: !22, file: !1148, line: 179, type: !1348, scopeLine: 179, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !1353, retainedNodes: !1351)
 !1348 = !DISubroutineType(types: !1349)
 !1349 = !{null, !1350}
 !1350 = !DIDerivedType(tag: DW_TAG_pointer_type, name: "*mut alloc::boxed::Box<std::sys::unix::mutex::Mutex, alloc::alloc::Global>", baseType: !143, size: 64, align: 64, dwarfAddressSpace: 0)
@@ -8785,7 +8785,7 @@ attributes #12 = { noinline }
 !1353 = !{!1354}
 !1354 = !DITemplateTypeParameter(name: "T", type: !143)
 !1355 = !DILocation(line: 179, column: 1, scope: !1347)
-!1356 = distinct !DISubprogram(name: "drop_in_place<alloc::boxed::Box<[u8], alloc::alloc::Global>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc5boxed3BoxShEECskT2QP9QPlNo_17mapped_stack_race", scope: !22, file: !1148, line: 179, type: !1357, scopeLine: 179, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !1362, retainedNodes: !1360)
+!1356 = distinct !DISubprogram(name: "drop_in_place<alloc::boxed::Box<[u8], alloc::alloc::Global>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc5boxed3BoxShEECsfnYCCstO0CH_18mapped_static_race", scope: !22, file: !1148, line: 179, type: !1357, scopeLine: 179, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !1362, retainedNodes: !1360)
 !1357 = !DISubroutineType(types: !1358)
 !1358 = !{null, !1359}
 !1359 = !DIDerivedType(tag: DW_TAG_pointer_type, name: "*mut alloc::boxed::Box<[u8], alloc::alloc::Global>", baseType: !61, size: 64, align: 64, dwarfAddressSpace: 0)
@@ -8794,7 +8794,7 @@ attributes #12 = { noinline }
 !1362 = !{!1363}
 !1363 = !DITemplateTypeParameter(name: "T", type: !61)
 !1364 = !DILocation(line: 179, column: 1, scope: !1356)
-!1365 = distinct !DISubprogram(name: "drop_in_place<alloc::raw_vec::RawVec<u8, alloc::alloc::Global>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc7raw_vec6RawVechEECskT2QP9QPlNo_17mapped_stack_race", scope: !22, file: !1148, line: 179, type: !1366, scopeLine: 179, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !1371, retainedNodes: !1369)
+!1365 = distinct !DISubprogram(name: "drop_in_place<alloc::raw_vec::RawVec<u8, alloc::alloc::Global>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtCs8RW06R9lH2S_5alloc7raw_vec6RawVechEECsfnYCCstO0CH_18mapped_static_race", scope: !22, file: !1148, line: 179, type: !1366, scopeLine: 179, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !1371, retainedNodes: !1369)
 !1366 = !DISubroutineType(types: !1367)
 !1367 = !{null, !1368}
 !1368 = !DIDerivedType(tag: DW_TAG_pointer_type, name: "*mut alloc::raw_vec::RawVec<u8, alloc::alloc::Global>", baseType: !186, size: 64, align: 64, dwarfAddressSpace: 0)
@@ -8803,21 +8803,21 @@ attributes #12 = { noinline }
 !1371 = !{!1372}
 !1372 = !DITemplateTypeParameter(name: "T", type: !186)
 !1373 = !DILocation(line: 179, column: 1, scope: !1365)
-!1374 = distinct !DISubprogram(name: "drop_in_place<std::sync::mutex::Mutex<alloc::vec::Vec<u8, alloc::alloc::Global>>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtCs8RW06R9lH2S_5alloc3vec3VechEEECskT2QP9QPlNo_17mapped_stack_race", scope: !22, file: !1148, line: 179, type: !1375, scopeLine: 179, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !202, retainedNodes: !1378)
+!1374 = distinct !DISubprogram(name: "drop_in_place<std::sync::mutex::Mutex<alloc::vec::Vec<u8, alloc::alloc::Global>>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtCs8RW06R9lH2S_5alloc3vec3VechEEECsfnYCCstO0CH_18mapped_static_race", scope: !22, file: !1148, line: 179, type: !1375, scopeLine: 179, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !202, retainedNodes: !1378)
 !1375 = !DISubroutineType(types: !1376)
 !1376 = !{null, !1377}
 !1377 = !DIDerivedType(tag: DW_TAG_pointer_type, name: "*mut std::sync::mutex::Mutex<alloc::vec::Vec<u8, alloc::alloc::Global>>", baseType: !134, size: 64, align: 64, dwarfAddressSpace: 0)
 !1378 = !{!1379}
 !1379 = !DILocalVariable(arg: 1, scope: !1374, file: !1148, line: 179, type: !1377)
 !1380 = !DILocation(line: 179, column: 1, scope: !1374)
-!1381 = distinct !DISubprogram(name: "drop_in_place<closure-0>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNCINvMNtCs2bNvlddUlXM_3std6threadNtBM_7Builder15spawn_uncheckedNCNvCskT2QP9QPlNo_17mapped_stack_race4main0uE0EB1L_", scope: !22, file: !1148, line: 179, type: !1382, scopeLine: 179, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !534, retainedNodes: !1385)
+!1381 = distinct !DISubprogram(name: "drop_in_place<closure-0>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNCINvMNtCs2bNvlddUlXM_3std6threadNtBM_7Builder15spawn_uncheckedNCNvCsfnYCCstO0CH_18mapped_static_race4main0uE0EB1L_", scope: !22, file: !1148, line: 179, type: !1382, scopeLine: 179, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !534, retainedNodes: !1385)
 !1382 = !DISubroutineType(types: !1383)
 !1383 = !{null, !1384}
 !1384 = !DIDerivedType(tag: DW_TAG_pointer_type, name: "*mut closure-0", baseType: !5, size: 64, align: 64, dwarfAddressSpace: 0)
 !1385 = !{!1386}
 !1386 = !DILocalVariable(arg: 1, scope: !1381, file: !1148, line: 179, type: !1384)
 !1387 = !DILocation(line: 179, column: 1, scope: !1381)
-!1388 = distinct !DISubprogram(name: "drop_in_place<closure-0>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNCINvNtCs2bNvlddUlXM_3std2rt10lang_startuE0ECskT2QP9QPlNo_17mapped_stack_race", scope: !22, file: !1148, line: 179, type: !1389, scopeLine: 179, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !1394, retainedNodes: !1392)
+!1388 = distinct !DISubprogram(name: "drop_in_place<closure-0>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNCINvNtCs2bNvlddUlXM_3std2rt10lang_startuE0ECsfnYCCstO0CH_18mapped_static_race", scope: !22, file: !1148, line: 179, type: !1389, scopeLine: 179, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !1394, retainedNodes: !1392)
 !1389 = !DISubroutineType(types: !1390)
 !1390 = !{null, !1391}
 !1391 = !DIDerivedType(tag: DW_TAG_pointer_type, name: "*mut closure-0", baseType: !289, size: 64, align: 64, dwarfAddressSpace: 0)
@@ -8826,14 +8826,14 @@ attributes #12 = { noinline }
 !1394 = !{!1395}
 !1395 = !DITemplateTypeParameter(name: "T", type: !289)
 !1396 = !DILocation(line: 179, column: 1, scope: !1388)
-!1397 = distinct !DISubprogram(name: "drop_in_place<std::thread::Inner>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNtNtCs2bNvlddUlXM_3std6thread5InnerECskT2QP9QPlNo_17mapped_stack_race", scope: !22, file: !1148, line: 179, type: !1398, scopeLine: 179, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !106, retainedNodes: !1401)
+!1397 = distinct !DISubprogram(name: "drop_in_place<std::thread::Inner>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNtNtCs2bNvlddUlXM_3std6thread5InnerECsfnYCCstO0CH_18mapped_static_race", scope: !22, file: !1148, line: 179, type: !1398, scopeLine: 179, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !106, retainedNodes: !1401)
 !1398 = !DISubroutineType(types: !1399)
 !1399 = !{null, !1400}
 !1400 = !DIDerivedType(tag: DW_TAG_pointer_type, name: "*mut std::thread::Inner", baseType: !44, size: 64, align: 64, dwarfAddressSpace: 0)
 !1401 = !{!1402}
 !1402 = !DILocalVariable(arg: 1, scope: !1397, file: !1148, line: 179, type: !1400)
 !1403 = !DILocation(line: 179, column: 1, scope: !1397)
-!1404 = distinct !DISubprogram(name: "drop_in_place<std::thread::Thread>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNtNtCs2bNvlddUlXM_3std6thread6ThreadECskT2QP9QPlNo_17mapped_stack_race", scope: !22, file: !1148, line: 179, type: !1405, scopeLine: 179, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !1410, retainedNodes: !1408)
+!1404 = distinct !DISubprogram(name: "drop_in_place<std::thread::Thread>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNtNtCs2bNvlddUlXM_3std6thread6ThreadECsfnYCCstO0CH_18mapped_static_race", scope: !22, file: !1148, line: 179, type: !1405, scopeLine: 179, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !1410, retainedNodes: !1408)
 !1405 = !DISubroutineType(types: !1406)
 !1406 = !{null, !1407}
 !1407 = !DIDerivedType(tag: DW_TAG_pointer_type, name: "*mut std::thread::Thread", baseType: !12, size: 64, align: 64, dwarfAddressSpace: 0)
@@ -8842,14 +8842,14 @@ attributes #12 = { noinline }
 !1410 = !{!1411}
 !1411 = !DITemplateTypeParameter(name: "T", type: !12)
 !1412 = !DILocation(line: 179, column: 1, scope: !1404)
-!1413 = distinct !DISubprogram(name: "drop_in_place<alloc::string::String>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNtNtCs8RW06R9lH2S_5alloc6string6StringECskT2QP9QPlNo_17mapped_stack_race", scope: !22, file: !1148, line: 179, type: !1414, scopeLine: 179, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !400, retainedNodes: !1417)
+!1413 = distinct !DISubprogram(name: "drop_in_place<alloc::string::String>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNtNtCs8RW06R9lH2S_5alloc6string6StringECsfnYCCstO0CH_18mapped_static_race", scope: !22, file: !1148, line: 179, type: !1414, scopeLine: 179, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !400, retainedNodes: !1417)
 !1414 = !DISubroutineType(types: !1415)
 !1415 = !{null, !1416}
 !1416 = !DIDerivedType(tag: DW_TAG_pointer_type, name: "*mut alloc::string::String", baseType: !402, size: 64, align: 64, dwarfAddressSpace: 0)
 !1417 = !{!1418}
 !1418 = !DILocalVariable(arg: 1, scope: !1413, file: !1148, line: 179, type: !1416)
 !1419 = !DILocation(line: 179, column: 1, scope: !1413)
-!1420 = distinct !DISubprogram(name: "drop_in_place<std::sys_common::mutex::MovableMutex>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNtNtNtCs2bNvlddUlXM_3std10sys_common5mutex12MovableMutexECskT2QP9QPlNo_17mapped_stack_race", scope: !22, file: !1148, line: 179, type: !1421, scopeLine: 179, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !1426, retainedNodes: !1424)
+!1420 = distinct !DISubprogram(name: "drop_in_place<std::sys_common::mutex::MovableMutex>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNtNtNtCs2bNvlddUlXM_3std10sys_common5mutex12MovableMutexECsfnYCCstO0CH_18mapped_static_race", scope: !22, file: !1148, line: 179, type: !1421, scopeLine: 179, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !1426, retainedNodes: !1424)
 !1421 = !DISubroutineType(types: !1422)
 !1422 = !{null, !1423}
 !1423 = !DIDerivedType(tag: DW_TAG_pointer_type, name: "*mut std::sys_common::mutex::MovableMutex", baseType: !139, size: 64, align: 64, dwarfAddressSpace: 0)
@@ -8858,7 +8858,7 @@ attributes #12 = { noinline }
 !1426 = !{!1427}
 !1427 = !DITemplateTypeParameter(name: "T", type: !139)
 !1428 = !DILocation(line: 179, column: 1, scope: !1420)
-!1429 = distinct !DISubprogram(name: "drop_in_place<std::io::error::Repr>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNtNtNtCs2bNvlddUlXM_3std2io5error4ReprECskT2QP9QPlNo_17mapped_stack_race", scope: !22, file: !1148, line: 179, type: !1430, scopeLine: 179, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !1435, retainedNodes: !1433)
+!1429 = distinct !DISubprogram(name: "drop_in_place<std::io::error::Repr>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNtNtNtCs2bNvlddUlXM_3std2io5error4ReprECsfnYCCstO0CH_18mapped_static_race", scope: !22, file: !1148, line: 179, type: !1430, scopeLine: 179, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !1435, retainedNodes: !1433)
 !1430 = !DISubroutineType(types: !1431)
 !1431 = !{null, !1432}
 !1432 = !DIDerivedType(tag: DW_TAG_pointer_type, name: "*mut std::io::error::Repr", baseType: !305, size: 64, align: 64, dwarfAddressSpace: 0)
@@ -8868,7 +8868,7 @@ attributes #12 = { noinline }
 !1436 = !DITemplateTypeParameter(name: "T", type: !305)
 !1437 = !DILocation(line: 179, column: 1, scope: !1429)
 !1438 = !{i8 0, i8 3}
-!1439 = distinct !DISubprogram(name: "drop_in_place<std::io::error::Error>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNtNtNtCs2bNvlddUlXM_3std2io5error5ErrorECskT2QP9QPlNo_17mapped_stack_race", scope: !22, file: !1148, line: 179, type: !1440, scopeLine: 179, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !1445, retainedNodes: !1443)
+!1439 = distinct !DISubprogram(name: "drop_in_place<std::io::error::Error>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNtNtNtCs2bNvlddUlXM_3std2io5error5ErrorECsfnYCCstO0CH_18mapped_static_race", scope: !22, file: !1148, line: 179, type: !1440, scopeLine: 179, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !1445, retainedNodes: !1443)
 !1440 = !DISubroutineType(types: !1441)
 !1441 = !{null, !1442}
 !1442 = !DIDerivedType(tag: DW_TAG_pointer_type, name: "*mut std::io::error::Error", baseType: !300, size: 64, align: 64, dwarfAddressSpace: 0)
@@ -8877,28 +8877,28 @@ attributes #12 = { noinline }
 !1445 = !{!1446}
 !1446 = !DITemplateTypeParameter(name: "T", type: !300)
 !1447 = !DILocation(line: 179, column: 1, scope: !1439)
-!1448 = distinct !DISubprogram(name: "drop_in_place<std::io::error::Custom>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNtNtNtCs2bNvlddUlXM_3std2io5error6CustomECskT2QP9QPlNo_17mapped_stack_race", scope: !22, file: !1148, line: 179, type: !1449, scopeLine: 179, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !795, retainedNodes: !1452)
+!1448 = distinct !DISubprogram(name: "drop_in_place<std::io::error::Custom>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNtNtNtCs2bNvlddUlXM_3std2io5error6CustomECsfnYCCstO0CH_18mapped_static_race", scope: !22, file: !1148, line: 179, type: !1449, scopeLine: 179, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !795, retainedNodes: !1452)
 !1449 = !DISubroutineType(types: !1450)
 !1450 = !{null, !1451}
 !1451 = !DIDerivedType(tag: DW_TAG_pointer_type, name: "*mut std::io::error::Custom", baseType: !342, size: 64, align: 64, dwarfAddressSpace: 0)
 !1452 = !{!1453}
 !1453 = !DILocalVariable(arg: 1, scope: !1448, file: !1148, line: 179, type: !1451)
 !1454 = !DILocation(line: 179, column: 1, scope: !1448)
-!1455 = distinct !DISubprogram(name: "drop_in_place<std::ffi::c_str::CString>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNtNtNtCs2bNvlddUlXM_3std3ffi5c_str7CStringECskT2QP9QPlNo_17mapped_stack_race", scope: !22, file: !1148, line: 179, type: !1456, scopeLine: 179, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !54, retainedNodes: !1459)
+!1455 = distinct !DISubprogram(name: "drop_in_place<std::ffi::c_str::CString>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNtNtNtCs2bNvlddUlXM_3std3ffi5c_str7CStringECsfnYCCstO0CH_18mapped_static_race", scope: !22, file: !1148, line: 179, type: !1456, scopeLine: 179, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !54, retainedNodes: !1459)
 !1456 = !DISubroutineType(types: !1457)
 !1457 = !{null, !1458}
 !1458 = !DIDerivedType(tag: DW_TAG_pointer_type, name: "*mut std::ffi::c_str::CString", baseType: !56, size: 64, align: 64, dwarfAddressSpace: 0)
 !1459 = !{!1460}
 !1460 = !DILocalVariable(arg: 1, scope: !1455, file: !1148, line: 179, type: !1458)
 !1461 = !DILocation(line: 179, column: 1, scope: !1455)
-!1462 = distinct !DISubprogram(name: "drop_in_place<std::sys::unix::thread::Thread>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNtNtNtNtCs2bNvlddUlXM_3std3sys4unix6thread6ThreadECskT2QP9QPlNo_17mapped_stack_race", scope: !22, file: !1148, line: 179, type: !1463, scopeLine: 179, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !443, retainedNodes: !1466)
+!1462 = distinct !DISubprogram(name: "drop_in_place<std::sys::unix::thread::Thread>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr13drop_in_placeNtNtNtNtCs2bNvlddUlXM_3std3sys4unix6thread6ThreadECsfnYCCstO0CH_18mapped_static_race", scope: !22, file: !1148, line: 179, type: !1463, scopeLine: 179, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !443, retainedNodes: !1466)
 !1463 = !DISubroutineType(types: !1464)
 !1464 = !{null, !1465}
 !1465 = !DIDerivedType(tag: DW_TAG_pointer_type, name: "*mut std::sys::unix::thread::Thread", baseType: !445, size: 64, align: 64, dwarfAddressSpace: 0)
 !1466 = !{!1467}
 !1467 = !DILocalVariable(arg: 1, scope: !1462, file: !1148, line: 179, type: !1465)
 !1468 = !DILocation(line: 179, column: 1, scope: !1462)
-!1469 = distinct !DISubprogram(name: "slice_from_raw_parts_mut<u8>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr24slice_from_raw_parts_muthECskT2QP9QPlNo_17mapped_stack_race", scope: !22, file: !1148, line: 304, type: !1470, scopeLine: 304, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !176, retainedNodes: !1476)
+!1469 = distinct !DISubprogram(name: "slice_from_raw_parts_mut<u8>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr24slice_from_raw_parts_muthECsfnYCCstO0CH_18mapped_static_race", scope: !22, file: !1148, line: 304, type: !1470, scopeLine: 304, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !176, retainedNodes: !1476)
 !1470 = !DISubroutineType(types: !1471)
 !1471 = !{!1472, !257, !39}
 !1472 = !DICompositeType(tag: DW_TAG_structure_type, name: "*mut [u8]", file: !2, size: 128, align: 64, elements: !1473, templateParams: !4, identifier: "5196b2ee1fdbf734c7f3a78e14d50170")
@@ -8913,14 +8913,14 @@ attributes #12 = { noinline }
 !1481 = !DILocation(line: 307, column: 26, scope: !1469)
 !1482 = !DILocation(line: 307, column: 14, scope: !1469)
 !1483 = !DILocation(line: 308, column: 2, scope: !1469)
-!1484 = distinct !DISubprogram(name: "read<std::panic::AssertUnwindSafe<closure-0>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr4readINtNtCs2bNvlddUlXM_3std5panic16AssertUnwindSafeNCNCINvMNtBB_6threadNtB1p_7Builder15spawn_uncheckedNCNvCskT2QP9QPlNo_17mapped_stack_race4main0uE00EEB2a_", scope: !22, file: !1148, line: 689, type: !1485, scopeLine: 689, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !991, retainedNodes: !1487)
+!1484 = distinct !DISubprogram(name: "read<std::panic::AssertUnwindSafe<closure-0>>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3ptr4readINtNtCs2bNvlddUlXM_3std5panic16AssertUnwindSafeNCNCINvMNtBB_6threadNtB1p_7Builder15spawn_uncheckedNCNvCsfnYCCstO0CH_18mapped_static_race4main0uE00EEB2a_", scope: !22, file: !1148, line: 689, type: !1485, scopeLine: 689, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !991, retainedNodes: !1487)
 !1485 = !DISubroutineType(types: !1486)
 !1486 = !{null, !1054}
 !1487 = !{!1488, !1489}
 !1488 = !DILocalVariable(name: "src", arg: 1, scope: !1484, file: !1148, line: 689, type: !1054)
 !1489 = !DILocalVariable(name: "tmp", scope: !1490, file: !1148, line: 691, type: !1491, align: 1)
 !1490 = distinct !DILexicalBlock(scope: !1484, file: !1148, line: 691, column: 5)
-!1491 = !DICompositeType(tag: DW_TAG_union_type, name: "MaybeUninit<std::panic::AssertUnwindSafe<closure-0>>", scope: !1492, file: !2, align: 8, elements: !1493, templateParams: !991, identifier: "5c5d567a25a51d0c305482229c12d5a")
+!1491 = !DICompositeType(tag: DW_TAG_union_type, name: "MaybeUninit<std::panic::AssertUnwindSafe<closure-0>>", scope: !1492, file: !2, align: 8, elements: !1493, templateParams: !991, identifier: "a38f16c74d6abd7c7fb2d230e9c0a9a3")
 !1492 = !DINamespace(name: "maybe_uninit", scope: !988)
 !1493 = !{!1494, !1495}
 !1494 = !DIDerivedType(tag: DW_TAG_member, name: "uninit", scope: !1491, file: !2, baseType: !249, align: 8)
@@ -8928,12 +8928,12 @@ attributes #12 = { noinline }
 !1496 = !DILocation(line: 689, column: 29, scope: !1484)
 !1497 = !DILocation(line: 691, column: 9, scope: !1490)
 !1498 = !DILocation(line: 284, column: 9, scope: !1499, inlinedAt: !1501)
-!1499 = distinct !DISubprogram(name: "uninit<std::panic::AssertUnwindSafe<closure-0>>", linkageName: "_RNvMs0_NtNtCs3p84KrD9aKt_4core3mem12maybe_uninitINtB5_11MaybeUninitINtNtCs2bNvlddUlXM_3std5panic16AssertUnwindSafeNCNCINvMNtB18_6threadNtB1W_7Builder15spawn_uncheckedNCNvCskT2QP9QPlNo_17mapped_stack_race4main0uE00EE6uninitB2I_", scope: !1491, file: !1500, line: 283, type: !295, scopeLine: 283, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !991, retainedNodes: !4)
+!1499 = distinct !DISubprogram(name: "uninit<std::panic::AssertUnwindSafe<closure-0>>", linkageName: "_RNvMs0_NtNtCs3p84KrD9aKt_4core3mem12maybe_uninitINtB5_11MaybeUninitINtNtCs2bNvlddUlXM_3std5panic16AssertUnwindSafeNCNCINvMNtB18_6threadNtB1W_7Builder15spawn_uncheckedNCNvCsfnYCCstO0CH_18mapped_static_race4main0uE00EE6uninitB2I_", scope: !1491, file: !1500, line: 283, type: !295, scopeLine: 283, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !991, retainedNodes: !4)
 !1500 = !DIFile(filename: "/rustc/e38fb306b7f5e65cca34df2dab1f0db15e1defb4/library/core/src/mem/maybe_uninit.rs", directory: "", checksumkind: CSK_MD5, checksum: "c905ca137d1c22ddb5e1fb2be46b7b21")
 !1501 = distinct !DILocation(line: 691, column: 19, scope: !1484)
 !1502 = !DILocation(line: 691, column: 19, scope: !1484)
 !1503 = !DILocalVariable(name: "self", arg: 1, scope: !1504, file: !1500, line: 457, type: !1507)
-!1504 = distinct !DISubprogram(name: "as_mut_ptr<std::panic::AssertUnwindSafe<closure-0>>", linkageName: "_RNvMs0_NtNtCs3p84KrD9aKt_4core3mem12maybe_uninitINtB5_11MaybeUninitINtNtCs2bNvlddUlXM_3std5panic16AssertUnwindSafeNCNCINvMNtB18_6threadNtB1W_7Builder15spawn_uncheckedNCNvCskT2QP9QPlNo_17mapped_stack_race4main0uE00EE10as_mut_ptrB2I_", scope: !1491, file: !1500, line: 457, type: !1505, scopeLine: 457, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !991, retainedNodes: !1508)
+!1504 = distinct !DISubprogram(name: "as_mut_ptr<std::panic::AssertUnwindSafe<closure-0>>", linkageName: "_RNvMs0_NtNtCs3p84KrD9aKt_4core3mem12maybe_uninitINtB5_11MaybeUninitINtNtCs2bNvlddUlXM_3std5panic16AssertUnwindSafeNCNCINvMNtB18_6threadNtB1W_7Builder15spawn_uncheckedNCNvCsfnYCCstO0CH_18mapped_static_race4main0uE00EE10as_mut_ptrB2I_", scope: !1491, file: !1500, line: 457, type: !1505, scopeLine: 457, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !991, retainedNodes: !1508)
 !1505 = !DISubroutineType(types: !1506)
 !1506 = !{!1055, !1507}
 !1507 = !DIDerivedType(tag: DW_TAG_pointer_type, name: "&mut core::mem::maybe_uninit::MaybeUninit<std::panic::AssertUnwindSafe<closure-0>>", baseType: !1491, size: 64, align: 64, dwarfAddressSpace: 0)
@@ -8944,14 +8944,14 @@ attributes #12 = { noinline }
 !1512 = !DILocation(line: 699, column: 34, scope: !1490)
 !1513 = !DILocation(line: 699, column: 9, scope: !1490)
 !1514 = !DILocalVariable(name: "self", arg: 1, scope: !1515, file: !1500, line: 511, type: !1491)
-!1515 = distinct !DISubprogram(name: "assume_init<std::panic::AssertUnwindSafe<closure-0>>", linkageName: "_RNvMs0_NtNtCs3p84KrD9aKt_4core3mem12maybe_uninitINtB5_11MaybeUninitINtNtCs2bNvlddUlXM_3std5panic16AssertUnwindSafeNCNCINvMNtB18_6threadNtB1W_7Builder15spawn_uncheckedNCNvCskT2QP9QPlNo_17mapped_stack_race4main0uE00EE11assume_initB2I_", scope: !1491, file: !1500, line: 511, type: !1516, scopeLine: 511, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !991, retainedNodes: !1518)
+!1515 = distinct !DISubprogram(name: "assume_init<std::panic::AssertUnwindSafe<closure-0>>", linkageName: "_RNvMs0_NtNtCs3p84KrD9aKt_4core3mem12maybe_uninitINtB5_11MaybeUninitINtNtCs2bNvlddUlXM_3std5panic16AssertUnwindSafeNCNCINvMNtB18_6threadNtB1W_7Builder15spawn_uncheckedNCNvCsfnYCCstO0CH_18mapped_static_race4main0uE00EE11assume_initB2I_", scope: !1491, file: !1500, line: 511, type: !1516, scopeLine: 511, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !991, retainedNodes: !1518)
 !1516 = !DISubroutineType(types: !1517)
 !1517 = !{null, !1491}
 !1518 = !{!1514}
 !1519 = !DILocation(line: 511, column: 37, scope: !1515, inlinedAt: !1520)
 !1520 = distinct !DILocation(line: 700, column: 9, scope: !1490)
 !1521 = !DILocalVariable(name: "slot", arg: 1, scope: !1522, file: !1010, line: 87, type: !986)
-!1522 = distinct !DISubprogram(name: "into_inner<std::panic::AssertUnwindSafe<closure-0>>", linkageName: "_RNvMNtNtCs3p84KrD9aKt_4core3mem13manually_dropINtB2_12ManuallyDropINtNtCs2bNvlddUlXM_3std5panic16AssertUnwindSafeNCNCINvMNtB17_6threadNtB1V_7Builder15spawn_uncheckedNCNvCskT2QP9QPlNo_17mapped_stack_race4main0uE00EE10into_innerB2H_", scope: !986, file: !1010, line: 87, type: !1523, scopeLine: 87, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !991, retainedNodes: !1525)
+!1522 = distinct !DISubprogram(name: "into_inner<std::panic::AssertUnwindSafe<closure-0>>", linkageName: "_RNvMNtNtCs3p84KrD9aKt_4core3mem13manually_dropINtB2_12ManuallyDropINtNtCs2bNvlddUlXM_3std5panic16AssertUnwindSafeNCNCINvMNtB17_6threadNtB1V_7Builder15spawn_uncheckedNCNvCsfnYCCstO0CH_18mapped_static_race4main0uE00EE10into_innerB2H_", scope: !986, file: !1010, line: 87, type: !1523, scopeLine: 87, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !991, retainedNodes: !1525)
 !1523 = !DISubroutineType(types: !1524)
 !1524 = !{null, !986}
 !1525 = !{!1521}
@@ -8959,7 +8959,7 @@ attributes #12 = { noinline }
 !1527 = distinct !DILocation(line: 516, column: 13, scope: !1515, inlinedAt: !1520)
 !1528 = !DILocation(line: 700, column: 9, scope: !1490)
 !1529 = !DILocation(line: 702, column: 2, scope: !1484)
-!1530 = distinct !DISubprogram(name: "black_box<()>", linkageName: "_RINvNtCs3p84KrD9aKt_4core4hint9black_boxuECskT2QP9QPlNo_17mapped_stack_race", scope: !1532, file: !1531, line: 159, type: !1533, scopeLine: 159, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !458, retainedNodes: !1535)
+!1530 = distinct !DISubprogram(name: "black_box<()>", linkageName: "_RINvNtCs3p84KrD9aKt_4core4hint9black_boxuECsfnYCCstO0CH_18mapped_static_race", scope: !1532, file: !1531, line: 159, type: !1533, scopeLine: 159, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !458, retainedNodes: !1535)
 !1531 = !DIFile(filename: "/rustc/e38fb306b7f5e65cca34df2dab1f0db15e1defb4/library/core/src/hint.rs", directory: "", checksumkind: CSK_MD5, checksum: "e859926b2ab373eb68666ba2c9fa193f")
 !1532 = !DINamespace(name: "hint", scope: !23)
 !1533 = !DISubroutineType(types: !1534)
@@ -8968,9 +8968,9 @@ attributes #12 = { noinline }
 !1536 = !DILocalVariable(name: "dummy", arg: 1, scope: !1530, file: !1531, line: 159, type: !249)
 !1537 = !DILocation(line: 159, column: 21, scope: !1530)
 !1538 = !DILocation(line: 170, column: 9, scope: !1530)
-!1539 = !{i32 2807193}
+!1539 = !{i32 2807210}
 !1540 = !DILocation(line: 174, column: 2, scope: !1530)
-!1541 = distinct !DISubprogram(name: "is_dangling<alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>>>", linkageName: "_RINvNtCs8RW06R9lH2S_5alloc2rc11is_danglingINtNtB4_4sync8ArcInnerINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtB15_6option6OptionINtNtB15_6result6ResultuINtNtB4_5boxed3BoxDNtNtB15_3any3AnyNtNtB15_6marker4SendEL_EEEEEECskT2QP9QPlNo_17mapped_stack_race", scope: !1543, file: !1542, line: 1863, type: !1544, scopeLine: 1863, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !282, retainedNodes: !1547)
+!1541 = distinct !DISubprogram(name: "is_dangling<alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>>>", linkageName: "_RINvNtCs8RW06R9lH2S_5alloc2rc11is_danglingINtNtB4_4sync8ArcInnerINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtB15_6option6OptionINtNtB15_6result6ResultuINtNtB4_5boxed3BoxDNtNtB15_3any3AnyNtNtB15_6marker4SendEL_EEEEEECsfnYCCstO0CH_18mapped_static_race", scope: !1543, file: !1542, line: 1863, type: !1544, scopeLine: 1863, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !282, retainedNodes: !1547)
 !1542 = !DIFile(filename: "/rustc/e38fb306b7f5e65cca34df2dab1f0db15e1defb4/library/alloc/src/rc.rs", directory: "", checksumkind: CSK_MD5, checksum: "334c7d6a82665ba9c636dfac0836de58")
 !1543 = !DINamespace(name: "rc", scope: !17)
 !1544 = !DISubroutineType(types: !1545)
@@ -8985,7 +8985,7 @@ attributes #12 = { noinline }
 !1553 = !DILocation(line: 1864, column: 9, scope: !1550)
 !1554 = !DILocation(line: 1865, column: 5, scope: !1550)
 !1555 = !DILocation(line: 1866, column: 2, scope: !1541)
-!1556 = distinct !DISubprogram(name: "is_dangling<alloc::sync::ArcInner<std::sync::mutex::Mutex<alloc::vec::Vec<u8, alloc::alloc::Global>>>>", linkageName: "_RINvNtCs8RW06R9lH2S_5alloc2rc11is_danglingINtNtB4_4sync8ArcInnerINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtB4_3vec3VechEEEECskT2QP9QPlNo_17mapped_stack_race", scope: !1543, file: !1542, line: 1863, type: !1557, scopeLine: 1863, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !204, retainedNodes: !1559)
+!1556 = distinct !DISubprogram(name: "is_dangling<alloc::sync::ArcInner<std::sync::mutex::Mutex<alloc::vec::Vec<u8, alloc::alloc::Global>>>>", linkageName: "_RINvNtCs8RW06R9lH2S_5alloc2rc11is_danglingINtNtB4_4sync8ArcInnerINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtB4_3vec3VechEEEECsfnYCCstO0CH_18mapped_static_race", scope: !1543, file: !1542, line: 1863, type: !1557, scopeLine: 1863, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !204, retainedNodes: !1559)
 !1557 = !DISubroutineType(types: !1558)
 !1558 = !{!1546, !125}
 !1559 = !{!1560, !1561}
@@ -8997,7 +8997,7 @@ attributes #12 = { noinline }
 !1565 = !DILocation(line: 1864, column: 9, scope: !1562)
 !1566 = !DILocation(line: 1865, column: 5, scope: !1562)
 !1567 = !DILocation(line: 1866, column: 2, scope: !1556)
-!1568 = distinct !DISubprogram(name: "is_dangling<alloc::sync::ArcInner<std::thread::Inner>>", linkageName: "_RINvNtCs8RW06R9lH2S_5alloc2rc11is_danglingINtNtB4_4sync8ArcInnerNtNtCs2bNvlddUlXM_3std6thread5InnerEECskT2QP9QPlNo_17mapped_stack_race", scope: !1543, file: !1542, line: 1863, type: !1569, scopeLine: 1863, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !108, retainedNodes: !1571)
+!1568 = distinct !DISubprogram(name: "is_dangling<alloc::sync::ArcInner<std::thread::Inner>>", linkageName: "_RINvNtCs8RW06R9lH2S_5alloc2rc11is_danglingINtNtB4_4sync8ArcInnerNtNtCs2bNvlddUlXM_3std6thread5InnerEECsfnYCCstO0CH_18mapped_static_race", scope: !1543, file: !1542, line: 1863, type: !1569, scopeLine: 1863, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !108, retainedNodes: !1571)
 !1569 = !DISubroutineType(types: !1570)
 !1570 = !{!1546, !20}
 !1571 = !{!1572, !1573}
@@ -9009,7 +9009,7 @@ attributes #12 = { noinline }
 !1577 = !DILocation(line: 1864, column: 9, scope: !1574)
 !1578 = !DILocation(line: 1865, column: 5, scope: !1574)
 !1579 = !DILocation(line: 1866, column: 2, scope: !1568)
-!1580 = distinct !DISubprogram(name: "box_free<Error,alloc::alloc::Global>", linkageName: "_RINvNtCs8RW06R9lH2S_5alloc5alloc8box_freeDNtNtCs2bNvlddUlXM_3std5error5ErrorNtNtCs3p84KrD9aKt_4core6marker4SendNtB1e_4SyncEL_NtB2_6GlobalECskT2QP9QPlNo_17mapped_stack_race", scope: !74, file: !1581, line: 329, type: !1582, scopeLine: 329, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !351, retainedNodes: !1584)
+!1580 = distinct !DISubprogram(name: "box_free<Error,alloc::alloc::Global>", linkageName: "_RINvNtCs8RW06R9lH2S_5alloc5alloc8box_freeDNtNtCs2bNvlddUlXM_3std5error5ErrorNtNtCs3p84KrD9aKt_4core6marker4SendNtB1e_4SyncEL_NtB2_6GlobalECsfnYCCstO0CH_18mapped_static_race", scope: !74, file: !1581, line: 329, type: !1582, scopeLine: 329, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !351, retainedNodes: !1584)
 !1581 = !DIFile(filename: "/rustc/e38fb306b7f5e65cca34df2dab1f0db15e1defb4/library/alloc/src/alloc.rs", directory: "", checksumkind: CSK_MD5, checksum: "001ed139cef428bdddab35378b8bfdd6")
 !1582 = !DISubroutineType(types: !1583)
 !1583 = !{null, !755, !73}
@@ -9037,7 +9037,7 @@ attributes #12 = { noinline }
 !1605 = !DILocation(line: 336, column: 1, scope: !1580)
 !1606 = !DILocation(line: 336, column: 2, scope: !1580)
 !1607 = !DILocation(line: 329, column: 1, scope: !1580)
-!1608 = distinct !DISubprogram(name: "box_free<Any,alloc::alloc::Global>", linkageName: "_RINvNtCs8RW06R9lH2S_5alloc5alloc8box_freeDNtNtCs3p84KrD9aKt_4core3any3AnyNtNtBI_6marker4SendEL_NtB2_6GlobalECskT2QP9QPlNo_17mapped_stack_race", scope: !74, file: !1581, line: 329, type: !1609, scopeLine: 329, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !263, retainedNodes: !1611)
+!1608 = distinct !DISubprogram(name: "box_free<Any,alloc::alloc::Global>", linkageName: "_RINvNtCs8RW06R9lH2S_5alloc5alloc8box_freeDNtNtCs3p84KrD9aKt_4core3any3AnyNtNtBI_6marker4SendEL_NtB2_6GlobalECsfnYCCstO0CH_18mapped_static_race", scope: !74, file: !1581, line: 329, type: !1609, scopeLine: 329, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !263, retainedNodes: !1611)
 !1609 = !DISubroutineType(types: !1610)
 !1610 = !{null, !734, !73}
 !1611 = !{!1612, !1613, !1614, !1616, !1618}
@@ -9064,7 +9064,7 @@ attributes #12 = { noinline }
 !1632 = !DILocation(line: 336, column: 1, scope: !1608)
 !1633 = !DILocation(line: 336, column: 2, scope: !1608)
 !1634 = !DILocation(line: 329, column: 1, scope: !1608)
-!1635 = distinct !DISubprogram(name: "box_free<alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>>,alloc::alloc::Global>", linkageName: "_RINvNtCs8RW06R9lH2S_5alloc5alloc8box_freeINtNtB4_4sync8ArcInnerINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtB14_6option6OptionINtNtB14_6result6ResultuINtNtB4_5boxed3BoxDNtNtB14_3any3AnyNtNtB14_6marker4SendEL_EEEEENtB2_6GlobalECskT2QP9QPlNo_17mapped_stack_race", scope: !74, file: !1581, line: 329, type: !1636, scopeLine: 329, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !1647, retainedNodes: !1638)
+!1635 = distinct !DISubprogram(name: "box_free<alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>>,alloc::alloc::Global>", linkageName: "_RINvNtCs8RW06R9lH2S_5alloc5alloc8box_freeINtNtB4_4sync8ArcInnerINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtB14_6option6OptionINtNtB14_6result6ResultuINtNtB4_5boxed3BoxDNtNtB14_3any3AnyNtNtB14_6marker4SendEL_EEEEENtB2_6GlobalECsfnYCCstO0CH_18mapped_static_race", scope: !74, file: !1581, line: 329, type: !1636, scopeLine: 329, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !1647, retainedNodes: !1638)
 !1636 = !DISubroutineType(types: !1637)
 !1637 = !{null, !775, !73}
 !1638 = !{!1639, !1640, !1641, !1643, !1645}
@@ -9092,7 +9092,7 @@ attributes #12 = { noinline }
 !1660 = !DILocation(line: 336, column: 1, scope: !1635)
 !1661 = !DILocation(line: 336, column: 2, scope: !1635)
 !1662 = !DILocation(line: 329, column: 1, scope: !1635)
-!1663 = distinct !DISubprogram(name: "box_free<std::io::error::Custom,alloc::alloc::Global>", linkageName: "_RINvNtCs8RW06R9lH2S_5alloc5alloc8box_freeNtNtNtCs2bNvlddUlXM_3std2io5error6CustomNtB2_6GlobalECskT2QP9QPlNo_17mapped_stack_race", scope: !74, file: !1581, line: 329, type: !1664, scopeLine: 329, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !1675, retainedNodes: !1666)
+!1663 = distinct !DISubprogram(name: "box_free<std::io::error::Custom,alloc::alloc::Global>", linkageName: "_RINvNtCs8RW06R9lH2S_5alloc5alloc8box_freeNtNtNtCs2bNvlddUlXM_3std2io5error6CustomNtB2_6GlobalECsfnYCCstO0CH_18mapped_static_race", scope: !74, file: !1581, line: 329, type: !1664, scopeLine: 329, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !1675, retainedNodes: !1666)
 !1664 = !DISubroutineType(types: !1665)
 !1665 = !{null, !789, !73}
 !1666 = !{!1667, !1668, !1669, !1671, !1673}
@@ -9120,7 +9120,7 @@ attributes #12 = { noinline }
 !1688 = !DILocation(line: 336, column: 1, scope: !1663)
 !1689 = !DILocation(line: 336, column: 2, scope: !1663)
 !1690 = !DILocation(line: 329, column: 1, scope: !1663)
-!1691 = distinct !DISubprogram(name: "box_free<std::sys::unix::mutex::Mutex,alloc::alloc::Global>", linkageName: "_RINvNtCs8RW06R9lH2S_5alloc5alloc8box_freeNtNtNtNtCs2bNvlddUlXM_3std3sys4unix5mutex5MutexNtB2_6GlobalECskT2QP9QPlNo_17mapped_stack_race", scope: !74, file: !1581, line: 329, type: !1692, scopeLine: 329, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !1703, retainedNodes: !1694)
+!1691 = distinct !DISubprogram(name: "box_free<std::sys::unix::mutex::Mutex,alloc::alloc::Global>", linkageName: "_RINvNtCs8RW06R9lH2S_5alloc5alloc8box_freeNtNtNtNtCs2bNvlddUlXM_3std3sys4unix5mutex5MutexNtB2_6GlobalECsfnYCCstO0CH_18mapped_static_race", scope: !74, file: !1581, line: 329, type: !1692, scopeLine: 329, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !1703, retainedNodes: !1694)
 !1692 = !DISubroutineType(types: !1693)
 !1693 = !{null, !807, !73}
 !1694 = !{!1695, !1696, !1697, !1699, !1701}
@@ -9148,7 +9148,7 @@ attributes #12 = { noinline }
 !1716 = !DILocation(line: 336, column: 1, scope: !1691)
 !1717 = !DILocation(line: 336, column: 2, scope: !1691)
 !1718 = !DILocation(line: 329, column: 1, scope: !1691)
-!1719 = distinct !DISubprogram(name: "box_free<[u8],alloc::alloc::Global>", linkageName: "_RINvNtCs8RW06R9lH2S_5alloc5alloc8box_freeShNtB2_6GlobalECskT2QP9QPlNo_17mapped_stack_race", scope: !74, file: !1581, line: 329, type: !1720, scopeLine: 329, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !67, retainedNodes: !1722)
+!1719 = distinct !DISubprogram(name: "box_free<[u8],alloc::alloc::Global>", linkageName: "_RINvNtCs8RW06R9lH2S_5alloc5alloc8box_freeShNtB2_6GlobalECsfnYCCstO0CH_18mapped_static_race", scope: !74, file: !1581, line: 329, type: !1720, scopeLine: 329, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !67, retainedNodes: !1722)
 !1720 = !DISubroutineType(types: !1721)
 !1721 = !{null, !825, !73}
 !1722 = !{!1723, !1724, !1725, !1727, !1729}
@@ -9175,7 +9175,7 @@ attributes #12 = { noinline }
 !1743 = !DILocation(line: 336, column: 1, scope: !1719)
 !1744 = !DILocation(line: 336, column: 2, scope: !1719)
 !1745 = !DILocation(line: 329, column: 1, scope: !1719)
-!1746 = distinct !DISubprogram(name: "__rust_begin_short_backtrace<fn(),()>", linkageName: "_RINvNtNtCs2bNvlddUlXM_3std10sys_common9backtrace28___rust_begin_short_backtraceFEuuECskT2QP9QPlNo_17mapped_stack_race", scope: !1748, file: !1747, line: 121, type: !1749, scopeLine: 121, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !1755, retainedNodes: !1751)
+!1746 = distinct !DISubprogram(name: "__rust_begin_short_backtrace<fn(),()>", linkageName: "_RINvNtNtCs2bNvlddUlXM_3std10sys_common9backtrace28___rust_begin_short_backtraceFEuuECsfnYCCstO0CH_18mapped_static_race", scope: !1748, file: !1747, line: 121, type: !1749, scopeLine: 121, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !1755, retainedNodes: !1751)
 !1747 = !DIFile(filename: "/rustc/e38fb306b7f5e65cca34df2dab1f0db15e1defb4/library/std/src/sys_common/backtrace.rs", directory: "", checksumkind: CSK_MD5, checksum: "a66d3ea15c41bfcbfadc8617be007fe2")
 !1748 = !DINamespace(name: "backtrace", scope: !94)
 !1749 = !DISubroutineType(types: !1750)
@@ -9193,7 +9193,7 @@ attributes #12 = { noinline }
 !1761 = !DILocation(line: 131, column: 2, scope: !1746)
 !1762 = !DILocation(line: 131, column: 1, scope: !1746)
 !1763 = !DILocation(line: 121, column: 1, scope: !1746)
-!1764 = distinct !DISubprogram(name: "__rust_begin_short_backtrace<closure-0,()>", linkageName: "_RINvNtNtCs2bNvlddUlXM_3std10sys_common9backtrace28___rust_begin_short_backtraceNCNvCskT2QP9QPlNo_17mapped_stack_race4main0uEB1j_", scope: !1748, file: !1747, line: 121, type: !1765, scopeLine: 121, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !490, retainedNodes: !1767)
+!1764 = distinct !DISubprogram(name: "__rust_begin_short_backtrace<closure-0,()>", linkageName: "_RINvNtNtCs2bNvlddUlXM_3std10sys_common9backtrace28___rust_begin_short_backtraceNCNvCsfnYCCstO0CH_18mapped_static_race4main0uEB1j_", scope: !1748, file: !1747, line: 121, type: !1765, scopeLine: 121, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !490, retainedNodes: !1767)
 !1765 = !DISubroutineType(types: !1766)
 !1766 = !{null, !213}
 !1767 = !{!1768, !1769}
@@ -9207,7 +9207,7 @@ attributes #12 = { noinline }
 !1775 = !DILocation(line: 131, column: 2, scope: !1764)
 !1776 = !DILocation(line: 131, column: 1, scope: !1764)
 !1777 = !DILocation(line: 121, column: 1, scope: !1764)
-!1778 = distinct !DISubprogram(name: "atomic_add<usize>", linkageName: "_RINvNtNtCs3p84KrD9aKt_4core4sync6atomic10atomic_addjECskT2QP9QPlNo_17mapped_stack_race", scope: !31, file: !1779, line: 2379, type: !1780, scopeLine: 2379, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !40, retainedNodes: !1783)
+!1778 = distinct !DISubprogram(name: "atomic_add<usize>", linkageName: "_RINvNtNtCs3p84KrD9aKt_4core4sync6atomic10atomic_addjECsfnYCCstO0CH_18mapped_static_race", scope: !31, file: !1779, line: 2379, type: !1780, scopeLine: 2379, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !40, retainedNodes: !1783)
 !1779 = !DIFile(filename: "/rustc/e38fb306b7f5e65cca34df2dab1f0db15e1defb4/library/core/src/sync/atomic.rs", directory: "", checksumkind: CSK_MD5, checksum: "f1c8782d1e80116ea8e1a5d6409304a5")
 !1780 = !DISubroutineType(types: !1781)
 !1781 = !{!39, !1782, !39, !381}
@@ -9229,7 +9229,7 @@ attributes #12 = { noinline }
 !1797 = !DILocation(line: 2385, column: 23, scope: !1778)
 !1798 = !DILocation(line: 2386, column: 24, scope: !1778)
 !1799 = !DILocation(line: 2390, column: 2, scope: !1778)
-!1800 = distinct !DISubprogram(name: "atomic_sub<usize>", linkageName: "_RINvNtNtCs3p84KrD9aKt_4core4sync6atomic10atomic_subjECskT2QP9QPlNo_17mapped_stack_race", scope: !31, file: !1779, line: 2395, type: !1780, scopeLine: 2395, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !40, retainedNodes: !1801)
+!1800 = distinct !DISubprogram(name: "atomic_sub<usize>", linkageName: "_RINvNtNtCs3p84KrD9aKt_4core4sync6atomic10atomic_subjECsfnYCCstO0CH_18mapped_static_race", scope: !31, file: !1779, line: 2395, type: !1780, scopeLine: 2395, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !40, retainedNodes: !1801)
 !1801 = !{!1802, !1803, !1804}
 !1802 = !DILocalVariable(name: "dst", arg: 1, scope: !1800, file: !1779, line: 2395, type: !1782)
 !1803 = !DILocalVariable(name: "val", arg: 2, scope: !1800, file: !1779, line: 2395, type: !39)
@@ -9246,7 +9246,7 @@ attributes #12 = { noinline }
 !1814 = !DILocation(line: 2401, column: 23, scope: !1800)
 !1815 = !DILocation(line: 2402, column: 24, scope: !1800)
 !1816 = !DILocation(line: 2406, column: 2, scope: !1800)
-!1817 = distinct !DISubprogram(name: "do_call<std::panic::AssertUnwindSafe<closure-0>,()>", linkageName: "_RINvNvNtCs2bNvlddUlXM_3std9panicking3try7do_callINtNtB6_5panic16AssertUnwindSafeNCNCINvMNtB6_6threadNtB1o_7Builder15spawn_uncheckedNCNvCskT2QP9QPlNo_17mapped_stack_race4main0uE00EuEB29_", scope: !983, file: !976, line: 373, type: !1818, scopeLine: 373, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !958, retainedNodes: !1820)
+!1817 = distinct !DISubprogram(name: "do_call<std::panic::AssertUnwindSafe<closure-0>,()>", linkageName: "_RINvNvNtCs2bNvlddUlXM_3std9panicking3try7do_callINtNtB6_5panic16AssertUnwindSafeNCNCINvMNtB6_6threadNtB1o_7Builder15spawn_uncheckedNCNvCsfnYCCstO0CH_18mapped_static_race4main0uE00EuEB29_", scope: !983, file: !976, line: 373, type: !1818, scopeLine: 373, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !958, retainedNodes: !1820)
 !1818 = !DISubroutineType(types: !1819)
 !1819 = !{null, !257}
 !1820 = !{!1821, !1822, !1825, !1828}
@@ -9269,7 +9269,7 @@ attributes #12 = { noinline }
 !1837 = !DILocation(line: 378, column: 21, scope: !1826)
 !1838 = !DILocation(line: 379, column: 40, scope: !1829)
 !1839 = !DILocalVariable(name: "value", arg: 1, scope: !1840, file: !1010, line: 69, type: !249)
-!1840 = distinct !DISubprogram(name: "new<()>", linkageName: "_RNvMNtNtCs3p84KrD9aKt_4core3mem13manually_dropINtB2_12ManuallyDropuE3newCskT2QP9QPlNo_17mapped_stack_race", scope: !994, file: !1010, line: 69, type: !1533, scopeLine: 69, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !458, retainedNodes: !1841)
+!1840 = distinct !DISubprogram(name: "new<()>", linkageName: "_RNvMNtNtCs3p84KrD9aKt_4core3mem13manually_dropINtB2_12ManuallyDropuE3newCsfnYCCstO0CH_18mapped_static_race", scope: !994, file: !1010, line: 69, type: !1533, scopeLine: 69, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !458, retainedNodes: !1841)
 !1841 = !{!1839}
 !1842 = !DILocation(line: 69, column: 22, scope: !1840, inlinedAt: !1843)
 !1843 = distinct !DILocation(line: 379, column: 22, scope: !1829)
@@ -9277,7 +9277,7 @@ attributes #12 = { noinline }
 !1845 = !DILocation(line: 379, column: 22, scope: !1829)
 !1846 = !DILocation(line: 379, column: 13, scope: !1829)
 !1847 = !DILocation(line: 381, column: 6, scope: !1817)
-!1848 = distinct !DISubprogram(name: "do_catch<std::panic::AssertUnwindSafe<closure-0>,()>", linkageName: "_RINvNvNtCs2bNvlddUlXM_3std9panicking3try8do_catchINtNtB6_5panic16AssertUnwindSafeNCNCINvMNtB6_6threadNtB1p_7Builder15spawn_uncheckedNCNvCskT2QP9QPlNo_17mapped_stack_race4main0uE00EuEB2a_", scope: !983, file: !976, line: 395, type: !1849, scopeLine: 395, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !958, retainedNodes: !1851)
+!1848 = distinct !DISubprogram(name: "do_catch<std::panic::AssertUnwindSafe<closure-0>,()>", linkageName: "_RINvNvNtCs2bNvlddUlXM_3std9panicking3try8do_catchINtNtB6_5panic16AssertUnwindSafeNCNCINvMNtB6_6threadNtB1p_7Builder15spawn_uncheckedNCNvCsfnYCCstO0CH_18mapped_static_race4main0uE00EuEB2a_", scope: !983, file: !976, line: 395, type: !1849, scopeLine: 395, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !958, retainedNodes: !1851)
 !1849 = !DISubroutineType(types: !1850)
 !1850 = !{null, !257, !257}
 !1851 = !{!1852, !1853, !1854, !1856, !1858}
@@ -9298,11 +9298,11 @@ attributes #12 = { noinline }
 !1866 = !DILocation(line: 404, column: 23, scope: !1857)
 !1867 = !DILocation(line: 404, column: 17, scope: !1859)
 !1868 = !{!1869, !1871}
-!1869 = distinct !{!1869, !1870, !"_RNvMNtNtCs3p84KrD9aKt_4core3mem13manually_dropINtB2_12ManuallyDropINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB6_3any3AnyNtNtB6_6marker4SendEL_EE3newCskT2QP9QPlNo_17mapped_stack_race: %value.0"}
-!1870 = distinct !{!1870, !"_RNvMNtNtCs3p84KrD9aKt_4core3mem13manually_dropINtB2_12ManuallyDropINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB6_3any3AnyNtNtB6_6marker4SendEL_EE3newCskT2QP9QPlNo_17mapped_stack_race"}
-!1871 = distinct !{!1871, !1870, !"_RNvMNtNtCs3p84KrD9aKt_4core3mem13manually_dropINtB2_12ManuallyDropINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB6_3any3AnyNtNtB6_6marker4SendEL_EE3newCskT2QP9QPlNo_17mapped_stack_race: %value.1"}
+!1869 = distinct !{!1869, !1870, !"_RNvMNtNtCs3p84KrD9aKt_4core3mem13manually_dropINtB2_12ManuallyDropINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB6_3any3AnyNtNtB6_6marker4SendEL_EE3newCsfnYCCstO0CH_18mapped_static_race: %value.0"}
+!1870 = distinct !{!1870, !"_RNvMNtNtCs3p84KrD9aKt_4core3mem13manually_dropINtB2_12ManuallyDropINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB6_3any3AnyNtNtB6_6marker4SendEL_EE3newCsfnYCCstO0CH_18mapped_static_race"}
+!1871 = distinct !{!1871, !1870, !"_RNvMNtNtCs3p84KrD9aKt_4core3mem13manually_dropINtB2_12ManuallyDropINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB6_3any3AnyNtNtB6_6marker4SendEL_EE3newCsfnYCCstO0CH_18mapped_static_race: %value.1"}
 !1872 = !DILocalVariable(name: "value", arg: 1, scope: !1873, file: !1010, line: 69, type: !253)
-!1873 = distinct !DISubprogram(name: "new<alloc::boxed::Box<Any, alloc::alloc::Global>>", linkageName: "_RNvMNtNtCs3p84KrD9aKt_4core3mem13manually_dropINtB2_12ManuallyDropINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB6_3any3AnyNtNtB6_6marker4SendEL_EE3newCskT2QP9QPlNo_17mapped_stack_race", scope: !998, file: !1010, line: 69, type: !1874, scopeLine: 69, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !1001, retainedNodes: !1876)
+!1873 = distinct !DISubprogram(name: "new<alloc::boxed::Box<Any, alloc::alloc::Global>>", linkageName: "_RNvMNtNtCs3p84KrD9aKt_4core3mem13manually_dropINtB2_12ManuallyDropINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB6_3any3AnyNtNtB6_6marker4SendEL_EE3newCsfnYCCstO0CH_18mapped_static_race", scope: !998, file: !1010, line: 69, type: !1874, scopeLine: 69, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !1001, retainedNodes: !1876)
 !1874 = !DISubroutineType(types: !1875)
 !1875 = !{!998, !253}
 !1876 = !{!1872}
@@ -9313,7 +9313,7 @@ attributes #12 = { noinline }
 !1881 = !DILocation(line: 405, column: 22, scope: !1859)
 !1882 = !DILocation(line: 405, column: 13, scope: !1859)
 !1883 = !DILocation(line: 407, column: 6, scope: !1848)
-!1884 = distinct !DISubprogram(name: "{{closure}}<closure-0,()>", linkageName: "_RNCINvMNtCs2bNvlddUlXM_3std6threadNtB5_7Builder15spawn_uncheckedNCNvCskT2QP9QPlNo_17mapped_stack_race4main0uE0B14_", scope: !6, file: !390, line: 462, type: !1885, scopeLine: 462, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !490, retainedNodes: !1887)
+!1884 = distinct !DISubprogram(name: "{{closure}}<closure-0,()>", linkageName: "_RNCINvMNtCs2bNvlddUlXM_3std6threadNtB5_7Builder15spawn_uncheckedNCNvCsfnYCCstO0CH_18mapped_static_race4main0uE0B14_", scope: !6, file: !390, line: 462, type: !1885, scopeLine: 462, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !490, retainedNodes: !1887)
 !1885 = !DISubroutineType(types: !1886)
 !1886 = !{null, !5}
 !1887 = !{!1888, !1889, !1890, !1891, !1892, !1900}
@@ -9358,7 +9358,7 @@ attributes #12 = { noinline }
 !1926 = !DILocation(line: 462, column: 20, scope: !1884)
 !1927 = !DILocation(line: 481, column: 9, scope: !1884)
 !1928 = !DILocation(line: 481, column: 10, scope: !1884)
-!1929 = distinct !DISubprogram(name: "{{closure}}<()>", linkageName: "_RNCINvNtCs2bNvlddUlXM_3std2rt10lang_startuE0CskT2QP9QPlNo_17mapped_stack_race", scope: !290, file: !926, line: 66, type: !1930, scopeLine: 66, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !458, retainedNodes: !1933)
+!1929 = distinct !DISubprogram(name: "{{closure}}<()>", linkageName: "_RNCINvNtCs2bNvlddUlXM_3std2rt10lang_startuE0CsfnYCCstO0CH_18mapped_static_race", scope: !290, file: !926, line: 66, type: !1930, scopeLine: 66, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !458, retainedNodes: !1933)
 !1930 = !DISubroutineType(types: !1931)
 !1931 = !{!103, !1932}
 !1932 = !DIDerivedType(tag: DW_TAG_pointer_type, name: "&closure-0", baseType: !289, size: 64, align: 64, dwarfAddressSpace: 0)
@@ -9368,7 +9368,7 @@ attributes #12 = { noinline }
 !1936 = !DILocation(line: 66, column: 77, scope: !1929)
 !1937 = !DILocation(line: 66, column: 18, scope: !1929)
 !1938 = !DILocation(line: 66, column: 91, scope: !1929)
-!1939 = distinct !DISubprogram(name: "{{closure}}<closure-0,()>", linkageName: "_RNCNCINvMNtCs2bNvlddUlXM_3std6threadNtB7_7Builder15spawn_uncheckedNCNvCskT2QP9QPlNo_17mapped_stack_race4main0uE00B16_", scope: !951, file: !390, line: 473, type: !1940, scopeLine: 473, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !490, retainedNodes: !1942)
+!1939 = distinct !DISubprogram(name: "{{closure}}<closure-0,()>", linkageName: "_RNCNCINvMNtCs2bNvlddUlXM_3std6threadNtB7_7Builder15spawn_uncheckedNCNvCsfnYCCstO0CH_18mapped_static_race4main0uE00B16_", scope: !951, file: !390, line: 473, type: !1940, scopeLine: 473, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !490, retainedNodes: !1942)
 !1940 = !DISubroutineType(types: !1941)
 !1941 = !{null, !950}
 !1942 = !{!1943}
@@ -9376,7 +9376,7 @@ attributes #12 = { noinline }
 !1944 = !DILocation(line: 443, column: 51, scope: !1939)
 !1945 = !DILocation(line: 474, column: 17, scope: !1939)
 !1946 = !DILocation(line: 475, column: 14, scope: !1939)
-!1947 = distinct !DISubprogram(name: "call_once<closure-0,()>", linkageName: "_RNSNvYNCINvMNtCs2bNvlddUlXM_3std6threadNtBa_7Builder15spawn_uncheckedNCNvCskT2QP9QPlNo_17mapped_stack_race4main0uE0INtNtNtCs3p84KrD9aKt_4core3ops8function6FnOnceuE9call_once6vtableB19_", scope: !1949, file: !1948, line: 227, type: !1382, scopeLine: 227, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !1955, retainedNodes: !1952)
+!1947 = distinct !DISubprogram(name: "call_once<closure-0,()>", linkageName: "_RNSNvYNCINvMNtCs2bNvlddUlXM_3std6threadNtBa_7Builder15spawn_uncheckedNCNvCsfnYCCstO0CH_18mapped_static_race4main0uE0INtNtNtCs3p84KrD9aKt_4core3ops8function6FnOnceuE9call_once6vtableB19_", scope: !1949, file: !1948, line: 227, type: !1382, scopeLine: 227, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !1955, retainedNodes: !1952)
 !1948 = !DIFile(filename: "/rustc/e38fb306b7f5e65cca34df2dab1f0db15e1defb4/library/core/src/ops/function.rs", directory: "", checksumkind: CSK_MD5, checksum: "e7b2206724943b8a8140f7c1065997a3")
 !1949 = !DINamespace(name: "FnOnce", scope: !1950)
 !1950 = !DINamespace(name: "function", scope: !1951)
@@ -9388,7 +9388,7 @@ attributes #12 = { noinline }
 !1956 = !DITemplateTypeParameter(name: "Self", type: !5)
 !1957 = !DITemplateTypeParameter(name: "Args", type: !249)
 !1958 = !DILocation(line: 227, column: 5, scope: !1947)
-!1959 = distinct !DISubprogram(name: "call_once<closure-0,()>", linkageName: "_RNSNvYNCINvNtCs2bNvlddUlXM_3std2rt10lang_startuE0INtNtNtCs3p84KrD9aKt_4core3ops8function6FnOnceuE9call_once6vtableCskT2QP9QPlNo_17mapped_stack_race", scope: !1949, file: !1948, line: 227, type: !1960, scopeLine: 227, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !1965, retainedNodes: !1962)
+!1959 = distinct !DISubprogram(name: "call_once<closure-0,()>", linkageName: "_RNSNvYNCINvNtCs2bNvlddUlXM_3std2rt10lang_startuE0INtNtNtCs3p84KrD9aKt_4core3ops8function6FnOnceuE9call_once6vtableCsfnYCCstO0CH_18mapped_static_race", scope: !1949, file: !1948, line: 227, type: !1960, scopeLine: 227, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !1965, retainedNodes: !1962)
 !1960 = !DISubroutineType(types: !1961)
 !1961 = !{!103, !1391}
 !1962 = !{!1963, !1964}
@@ -9397,7 +9397,7 @@ attributes #12 = { noinline }
 !1965 = !{!1966, !1957}
 !1966 = !DITemplateTypeParameter(name: "Self", type: !289)
 !1967 = !DILocation(line: 227, column: 5, scope: !1959)
-!1968 = distinct !DISubprogram(name: "alloc_impl", linkageName: "_RNvMNtCs8RW06R9lH2S_5alloc5allocNtB2_6Global10alloc_implCskT2QP9QPlNo_17mapped_stack_race", scope: !73, file: !1581, line: 161, type: !1969, scopeLine: 161, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !4, retainedNodes: !1989)
+!1968 = distinct !DISubprogram(name: "alloc_impl", linkageName: "_RNvMNtCs8RW06R9lH2S_5alloc5allocNtB2_6Global10alloc_implCsfnYCCstO0CH_18mapped_static_race", scope: !73, file: !1581, line: 161, type: !1969, scopeLine: 161, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !4, retainedNodes: !1989)
 !1969 = !DISubroutineType(types: !1970)
 !1970 = !{!1971, !1988, !671, !1546}
 !1971 = !DICompositeType(tag: DW_TAG_structure_type, name: "Result<core::ptr::non_null::NonNull<[u8]>, core::alloc::AllocError>", scope: !241, file: !2, size: 128, align: 64, elements: !1972, identifier: "cfac83fc313fc34b980ba2be9966605f")
@@ -9460,7 +9460,7 @@ attributes #12 = { noinline }
 !2028 = !DILocation(line: 167, column: 27, scope: !2000)
 !2029 = !DILocation(line: 171, column: 6, scope: !1968)
 !2030 = !DILocation(line: 168, column: 17, scope: !1998)
-!2031 = distinct !DISubprogram(name: "take<std::panic::AssertUnwindSafe<closure-0>>", linkageName: "_RNvMNtNtCs3p84KrD9aKt_4core3mem13manually_dropINtB2_12ManuallyDropINtNtCs2bNvlddUlXM_3std5panic16AssertUnwindSafeNCNCINvMNtB17_6threadNtB1V_7Builder15spawn_uncheckedNCNvCskT2QP9QPlNo_17mapped_stack_race4main0uE00EE4takeB2H_", scope: !986, file: !1010, line: 109, type: !2032, scopeLine: 109, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !991, retainedNodes: !2035)
+!2031 = distinct !DISubprogram(name: "take<std::panic::AssertUnwindSafe<closure-0>>", linkageName: "_RNvMNtNtCs3p84KrD9aKt_4core3mem13manually_dropINtB2_12ManuallyDropINtNtCs2bNvlddUlXM_3std5panic16AssertUnwindSafeNCNCINvMNtB17_6threadNtB1V_7Builder15spawn_uncheckedNCNvCsfnYCCstO0CH_18mapped_static_race4main0uE00EE4takeB2H_", scope: !986, file: !1010, line: 109, type: !2032, scopeLine: 109, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !991, retainedNodes: !2035)
 !2032 = !DISubroutineType(types: !2033)
 !2033 = !{null, !2034}
 !2034 = !DIDerivedType(tag: DW_TAG_pointer_type, name: "&mut core::mem::manually_drop::ManuallyDrop<std::panic::AssertUnwindSafe<closure-0>>", baseType: !986, size: 64, align: 64, dwarfAddressSpace: 0)
@@ -9470,7 +9470,7 @@ attributes #12 = { noinline }
 !2038 = !DILocation(line: 112, column: 28, scope: !2031)
 !2039 = !DILocation(line: 112, column: 18, scope: !2031)
 !2040 = !DILocation(line: 113, column: 6, scope: !2031)
-!2041 = distinct !DISubprogram(name: "guaranteed_eq<u8>", linkageName: "_RNvMNtNtCs3p84KrD9aKt_4core3ptr7mut_ptrOh13guaranteed_eqCskT2QP9QPlNo_17mapped_stack_race", scope: !2043, file: !2042, line: 426, type: !2045, scopeLine: 426, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !176, retainedNodes: !2047)
+!2041 = distinct !DISubprogram(name: "guaranteed_eq<u8>", linkageName: "_RNvMNtNtCs3p84KrD9aKt_4core3ptr7mut_ptrOh13guaranteed_eqCsfnYCCstO0CH_18mapped_static_race", scope: !2043, file: !2042, line: 426, type: !2045, scopeLine: 426, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !176, retainedNodes: !2047)
 !2042 = !DIFile(filename: "/rustc/e38fb306b7f5e65cca34df2dab1f0db15e1defb4/library/core/src/ptr/mut_ptr.rs", directory: "", checksumkind: CSK_MD5, checksum: "0ea6480c8fde45b63ebd619a80d4e44e")
 !2043 = !DINamespace(name: "{{impl}}", scope: !2044)
 !2044 = !DINamespace(name: "mut_ptr", scope: !22)
@@ -9483,7 +9483,7 @@ attributes #12 = { noinline }
 !2051 = !DILocation(line: 426, column: 38, scope: !2041)
 !2052 = !DILocation(line: 430, column: 9, scope: !2041)
 !2053 = !DILocation(line: 431, column: 6, scope: !2041)
-!2054 = distinct !DISubprogram(name: "add<u8>", linkageName: "_RNvMNtNtCs3p84KrD9aKt_4core3ptr7mut_ptrOh3addCskT2QP9QPlNo_17mapped_stack_race", scope: !2043, file: !2042, line: 605, type: !2055, scopeLine: 605, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !176, retainedNodes: !2057)
+!2054 = distinct !DISubprogram(name: "add<u8>", linkageName: "_RNvMNtNtCs3p84KrD9aKt_4core3ptr7mut_ptrOh3addCsfnYCCstO0CH_18mapped_static_race", scope: !2043, file: !2042, line: 605, type: !2055, scopeLine: 605, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !176, retainedNodes: !2057)
 !2055 = !DISubroutineType(types: !2056)
 !2056 = !{!257, !257, !39}
 !2057 = !{!2058, !2059}
@@ -9493,7 +9493,7 @@ attributes #12 = { noinline }
 !2061 = !DILocation(line: 605, column: 35, scope: !2054)
 !2062 = !DILocation(line: 610, column: 18, scope: !2054)
 !2063 = !DILocation(line: 611, column: 6, scope: !2054)
-!2064 = distinct !DISubprogram(name: "offset<u8>", linkageName: "_RNvMNtNtCs3p84KrD9aKt_4core3ptr7mut_ptrOh6offsetCskT2QP9QPlNo_17mapped_stack_race", scope: !2043, file: !2042, line: 225, type: !2065, scopeLine: 225, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !176, retainedNodes: !2067)
+!2064 = distinct !DISubprogram(name: "offset<u8>", linkageName: "_RNvMNtNtCs3p84KrD9aKt_4core3ptr7mut_ptrOh6offsetCsfnYCCstO0CH_18mapped_static_race", scope: !2043, file: !2042, line: 225, type: !2065, scopeLine: 225, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !176, retainedNodes: !2067)
 !2065 = !DISubroutineType(types: !2066)
 !2066 = !{!257, !257, !929}
 !2067 = !{!2068, !2069}
@@ -9503,7 +9503,7 @@ attributes #12 = { noinline }
 !2071 = !DILocation(line: 225, column: 38, scope: !2064)
 !2072 = !DILocation(line: 232, column: 18, scope: !2064)
 !2073 = !DILocation(line: 233, column: 6, scope: !2064)
-!2074 = distinct !DISubprogram(name: "is_null<u8>", linkageName: "_RNvMNtNtCs3p84KrD9aKt_4core3ptr7mut_ptrOh7is_nullCskT2QP9QPlNo_17mapped_stack_race", scope: !2043, file: !2042, line: 36, type: !2075, scopeLine: 36, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !176, retainedNodes: !2077)
+!2074 = distinct !DISubprogram(name: "is_null<u8>", linkageName: "_RNvMNtNtCs3p84KrD9aKt_4core3ptr7mut_ptrOh7is_nullCsfnYCCstO0CH_18mapped_static_race", scope: !2043, file: !2042, line: 36, type: !2075, scopeLine: 36, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !176, retainedNodes: !2077)
 !2075 = !DISubroutineType(types: !2076)
 !2076 = !{!1546, !257}
 !2077 = !{!2078}
@@ -9512,7 +9512,7 @@ attributes #12 = { noinline }
 !2080 = !DILocation(line: 39, column: 41, scope: !2074)
 !2081 = !DILocation(line: 39, column: 9, scope: !2074)
 !2082 = !DILocation(line: 40, column: 6, scope: !2074)
-!2083 = distinct !DISubprogram(name: "from_size_align_unchecked", linkageName: "_RNvMNtNtCs3p84KrD9aKt_4core5alloc6layoutNtB2_6Layout25from_size_align_uncheckedCskT2QP9QPlNo_17mapped_stack_race", scope: !671, file: !670, line: 98, type: !2084, scopeLine: 98, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !4, retainedNodes: !2086)
+!2083 = distinct !DISubprogram(name: "from_size_align_unchecked", linkageName: "_RNvMNtNtCs3p84KrD9aKt_4core5alloc6layoutNtB2_6Layout25from_size_align_uncheckedCsfnYCCstO0CH_18mapped_static_race", scope: !671, file: !670, line: 98, type: !2084, scopeLine: 98, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !4, retainedNodes: !2086)
 !2084 = !DISubroutineType(types: !2085)
 !2085 = !{!671, !39, !39}
 !2086 = !{!2087, !2088}
@@ -9523,7 +9523,7 @@ attributes #12 = { noinline }
 !2091 = !DILocation(line: 100, column: 48, scope: !2083)
 !2092 = !DILocation(line: 100, column: 9, scope: !2083)
 !2093 = !DILocation(line: 101, column: 6, scope: !2083)
-!2094 = distinct !DISubprogram(name: "size", linkageName: "_RNvMNtNtCs3p84KrD9aKt_4core5alloc6layoutNtB2_6Layout4sizeCskT2QP9QPlNo_17mapped_stack_race", scope: !671, file: !670, line: 107, type: !2095, scopeLine: 107, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !4, retainedNodes: !2098)
+!2094 = distinct !DISubprogram(name: "size", linkageName: "_RNvMNtNtCs3p84KrD9aKt_4core5alloc6layoutNtB2_6Layout4sizeCsfnYCCstO0CH_18mapped_static_race", scope: !671, file: !670, line: 107, type: !2095, scopeLine: 107, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !4, retainedNodes: !2098)
 !2095 = !DISubroutineType(types: !2096)
 !2096 = !{!39, !2097}
 !2097 = !DIDerivedType(tag: DW_TAG_pointer_type, name: "&core::alloc::layout::Layout", baseType: !671, size: 64, align: 64, dwarfAddressSpace: 0)
@@ -9532,13 +9532,13 @@ attributes #12 = { noinline }
 !2100 = !DILocation(line: 107, column: 23, scope: !2094)
 !2101 = !DILocation(line: 108, column: 9, scope: !2094)
 !2102 = !DILocation(line: 109, column: 6, scope: !2094)
-!2103 = distinct !DISubprogram(name: "align", linkageName: "_RNvMNtNtCs3p84KrD9aKt_4core5alloc6layoutNtB2_6Layout5alignCskT2QP9QPlNo_17mapped_stack_race", scope: !671, file: !670, line: 115, type: !2095, scopeLine: 115, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !4, retainedNodes: !2104)
+!2103 = distinct !DISubprogram(name: "align", linkageName: "_RNvMNtNtCs3p84KrD9aKt_4core5alloc6layoutNtB2_6Layout5alignCsfnYCCstO0CH_18mapped_static_race", scope: !671, file: !670, line: 115, type: !2095, scopeLine: 115, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !4, retainedNodes: !2104)
 !2104 = !{!2105}
 !2105 = !DILocalVariable(name: "self", arg: 1, scope: !2103, file: !670, line: 115, type: !2097)
 !2106 = !DILocation(line: 115, column: 24, scope: !2103)
 !2107 = !DILocation(line: 116, column: 9, scope: !2103)
 !2108 = !DILocation(line: 117, column: 6, scope: !2103)
-!2109 = distinct !DISubprogram(name: "dangling", linkageName: "_RNvMNtNtCs3p84KrD9aKt_4core5alloc6layoutNtB2_6Layout8danglingCskT2QP9QPlNo_17mapped_stack_race", scope: !671, file: !670, line: 188, type: !2110, scopeLine: 188, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !4, retainedNodes: !2112)
+!2109 = distinct !DISubprogram(name: "dangling", linkageName: "_RNvMNtNtCs3p84KrD9aKt_4core5alloc6layoutNtB2_6Layout8danglingCsfnYCCstO0CH_18mapped_static_race", scope: !671, file: !670, line: 188, type: !2110, scopeLine: 188, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !4, retainedNodes: !2112)
 !2110 = !DISubroutineType(types: !2111)
 !2111 = !{!601, !2097}
 !2112 = !{!2113}
@@ -9547,7 +9547,7 @@ attributes #12 = { noinline }
 !2115 = !DILocation(line: 190, column: 41, scope: !2109)
 !2116 = !DILocation(line: 190, column: 18, scope: !2109)
 !2117 = !DILocation(line: 191, column: 6, scope: !2109)
-!2118 = distinct !DISubprogram(name: "new_v1", linkageName: "_RNvMs0_NtCs3p84KrD9aKt_4core3fmtNtB5_9Arguments6new_v1CskT2QP9QPlNo_17mapped_stack_race", scope: !2119, file: !885, line: 313, type: !2181, scopeLine: 313, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !4, retainedNodes: !2183)
+!2118 = distinct !DISubprogram(name: "new_v1", linkageName: "_RNvMs0_NtCs3p84KrD9aKt_4core3fmtNtB5_9Arguments6new_v1CsfnYCCstO0CH_18mapped_static_race", scope: !2119, file: !885, line: 313, type: !2181, scopeLine: 313, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !4, retainedNodes: !2183)
 !2119 = !DICompositeType(tag: DW_TAG_structure_type, name: "Arguments", scope: !375, file: !2, size: 384, align: 64, elements: !2120, templateParams: !4, identifier: "db3b45ab6c1e1b9e8324345adb8e75ee")
 !2120 = !{!2121, !2131, !2175}
 !2121 = !DIDerivedType(tag: DW_TAG_member, name: "pieces", scope: !2119, file: !2, baseType: !2122, size: 128, align: 64)
@@ -9620,7 +9620,7 @@ attributes #12 = { noinline }
 !2188 = !DILocation(line: 314, column: 34, scope: !2118)
 !2189 = !DILocation(line: 314, column: 9, scope: !2118)
 !2190 = !DILocation(line: 315, column: 6, scope: !2118)
-!2191 = distinct !DISubprogram(name: "new", linkageName: "_RNvMs15_NtNtCs3p84KrD9aKt_4core4sync6atomicNtB6_11AtomicUsize3newCskT2QP9QPlNo_17mapped_stack_race", scope: !30, file: !1779, line: 1389, type: !2192, scopeLine: 1389, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !4, retainedNodes: !2194)
+!2191 = distinct !DISubprogram(name: "new", linkageName: "_RNvMs15_NtNtCs3p84KrD9aKt_4core4sync6atomicNtB6_11AtomicUsize3newCsfnYCCstO0CH_18mapped_static_race", scope: !30, file: !1779, line: 1389, type: !2192, scopeLine: 1389, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !4, retainedNodes: !2194)
 !2192 = !DISubroutineType(types: !2193)
 !2193 = !{!30, !39}
 !2194 = !{!2195}
@@ -9629,7 +9629,7 @@ attributes #12 = { noinline }
 !2197 = !DILocation(line: 1390, column: 26, scope: !2191)
 !2198 = !DILocation(line: 1390, column: 17, scope: !2191)
 !2199 = !DILocation(line: 1391, column: 14, scope: !2191)
-!2200 = distinct !DISubprogram(name: "fetch_add", linkageName: "_RNvMs15_NtNtCs3p84KrD9aKt_4core4sync6atomicNtB6_11AtomicUsize9fetch_addCskT2QP9QPlNo_17mapped_stack_race", scope: !30, file: !1779, line: 1737, type: !2201, scopeLine: 1737, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !4, retainedNodes: !2204)
+!2200 = distinct !DISubprogram(name: "fetch_add", linkageName: "_RNvMs15_NtNtCs3p84KrD9aKt_4core4sync6atomicNtB6_11AtomicUsize9fetch_addCsfnYCCstO0CH_18mapped_static_race", scope: !30, file: !1779, line: 1737, type: !2201, scopeLine: 1737, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !4, retainedNodes: !2204)
 !2201 = !DISubroutineType(types: !2202)
 !2202 = !{!39, !2203, !39, !381}
 !2203 = !DIDerivedType(tag: DW_TAG_pointer_type, name: "&core::sync::atomic::AtomicUsize", baseType: !30, size: 64, align: 64, dwarfAddressSpace: 0)
@@ -9643,7 +9643,7 @@ attributes #12 = { noinline }
 !2211 = !DILocation(line: 1739, column: 37, scope: !2200)
 !2212 = !DILocation(line: 1739, column: 26, scope: !2200)
 !2213 = !DILocation(line: 1740, column: 14, scope: !2200)
-!2214 = distinct !DISubprogram(name: "fetch_sub", linkageName: "_RNvMs15_NtNtCs3p84KrD9aKt_4core4sync6atomicNtB6_11AtomicUsize9fetch_subCskT2QP9QPlNo_17mapped_stack_race", scope: !30, file: !1779, line: 1766, type: !2201, scopeLine: 1766, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !4, retainedNodes: !2215)
+!2214 = distinct !DISubprogram(name: "fetch_sub", linkageName: "_RNvMs15_NtNtCs3p84KrD9aKt_4core4sync6atomicNtB6_11AtomicUsize9fetch_subCsfnYCCstO0CH_18mapped_static_race", scope: !30, file: !1779, line: 1766, type: !2201, scopeLine: 1766, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !4, retainedNodes: !2215)
 !2215 = !{!2216, !2217, !2218}
 !2216 = !DILocalVariable(name: "self", arg: 1, scope: !2214, file: !1779, line: 1766, type: !2203)
 !2217 = !DILocalVariable(name: "val", arg: 2, scope: !2214, file: !1779, line: 1766, type: !39)
@@ -9654,7 +9654,7 @@ attributes #12 = { noinline }
 !2222 = !DILocation(line: 1768, column: 37, scope: !2214)
 !2223 = !DILocation(line: 1768, column: 26, scope: !2214)
 !2224 = !DILocation(line: 1769, column: 14, scope: !2214)
-!2225 = distinct !DISubprogram(name: "as_ptr<Any>", linkageName: "_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueDNtNtB9_3any3AnyNtNtB9_6marker4SendEL_E6as_ptrCskT2QP9QPlNo_17mapped_stack_race", scope: !734, file: !733, line: 105, type: !2226, scopeLine: 105, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !743, retainedNodes: !2228)
+!2225 = distinct !DISubprogram(name: "as_ptr<Any>", linkageName: "_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueDNtNtB9_3any3AnyNtNtB9_6marker4SendEL_E6as_ptrCsfnYCCstO0CH_18mapped_static_race", scope: !734, file: !733, line: 105, type: !2226, scopeLine: 105, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !743, retainedNodes: !2228)
 !2226 = !DISubroutineType(types: !2227)
 !2227 = !{!1151, !734}
 !2228 = !{!2229}
@@ -9662,7 +9662,7 @@ attributes #12 = { noinline }
 !2230 = !DILocation(line: 105, column: 25, scope: !2225)
 !2231 = !DILocation(line: 106, column: 9, scope: !2225)
 !2232 = !DILocation(line: 107, column: 6, scope: !2225)
-!2233 = distinct !DISubprogram(name: "as_ref<Any>", linkageName: "_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueDNtNtB9_3any3AnyNtNtB9_6marker4SendEL_E6as_refCskT2QP9QPlNo_17mapped_stack_race", scope: !734, file: !733, line: 115, type: !2234, scopeLine: 115, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !743, retainedNodes: !2241)
+!2233 = distinct !DISubprogram(name: "as_ref<Any>", linkageName: "_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueDNtNtB9_3any3AnyNtNtB9_6marker4SendEL_E6as_refCsfnYCCstO0CH_18mapped_static_race", scope: !734, file: !733, line: 115, type: !2234, scopeLine: 115, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !743, retainedNodes: !2241)
 !2234 = !DISubroutineType(types: !2235)
 !2235 = !{!2236, !2240}
 !2236 = !DICompositeType(tag: DW_TAG_structure_type, name: "&Any", scope: !254, file: !2, size: 128, align: 64, elements: !2237, templateParams: !4, identifier: "fc3b18fb602b5b48b4c7e96a3e65db7b")
@@ -9675,7 +9675,7 @@ attributes #12 = { noinline }
 !2243 = !DILocation(line: 115, column: 26, scope: !2233)
 !2244 = !DILocation(line: 118, column: 20, scope: !2233)
 !2245 = !DILocation(line: 119, column: 6, scope: !2233)
-!2246 = distinct !DISubprogram(name: "as_ptr<Error>", linkageName: "_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueDNtNtCs2bNvlddUlXM_3std5error5ErrorNtNtB9_6marker4SendNtB1r_4SyncEL_E6as_ptrCskT2QP9QPlNo_17mapped_stack_race", scope: !755, file: !733, line: 105, type: !2247, scopeLine: 105, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !764, retainedNodes: !2249)
+!2246 = distinct !DISubprogram(name: "as_ptr<Error>", linkageName: "_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueDNtNtCs2bNvlddUlXM_3std5error5ErrorNtNtB9_6marker4SendNtB1r_4SyncEL_E6as_ptrCsfnYCCstO0CH_18mapped_static_race", scope: !755, file: !733, line: 105, type: !2247, scopeLine: 105, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !764, retainedNodes: !2249)
 !2247 = !DISubroutineType(types: !2248)
 !2248 = !{!1161, !755}
 !2249 = !{!2250}
@@ -9683,7 +9683,7 @@ attributes #12 = { noinline }
 !2251 = !DILocation(line: 105, column: 25, scope: !2246)
 !2252 = !DILocation(line: 106, column: 9, scope: !2246)
 !2253 = !DILocation(line: 107, column: 6, scope: !2246)
-!2254 = distinct !DISubprogram(name: "as_ref<Error>", linkageName: "_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueDNtNtCs2bNvlddUlXM_3std5error5ErrorNtNtB9_6marker4SendNtB1r_4SyncEL_E6as_refCskT2QP9QPlNo_17mapped_stack_race", scope: !755, file: !733, line: 115, type: !2255, scopeLine: 115, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !764, retainedNodes: !2262)
+!2254 = distinct !DISubprogram(name: "as_ref<Error>", linkageName: "_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueDNtNtCs2bNvlddUlXM_3std5error5ErrorNtNtB9_6marker4SendNtB1r_4SyncEL_E6as_refCsfnYCCstO0CH_18mapped_static_race", scope: !755, file: !733, line: 115, type: !2255, scopeLine: 115, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !764, retainedNodes: !2262)
 !2255 = !DISubroutineType(types: !2256)
 !2256 = !{!2257, !2261}
 !2257 = !DICompositeType(tag: DW_TAG_structure_type, name: "&Error", scope: !347, file: !2, size: 128, align: 64, elements: !2258, templateParams: !4, identifier: "35827f73cd7215ae7001d617c78302b0")
@@ -9696,7 +9696,7 @@ attributes #12 = { noinline }
 !2264 = !DILocation(line: 115, column: 26, scope: !2254)
 !2265 = !DILocation(line: 118, column: 20, scope: !2254)
 !2266 = !DILocation(line: 119, column: 6, scope: !2254)
-!2267 = distinct !DISubprogram(name: "as_ptr<alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>>>", linkageName: "_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtB9_4cell10UnsafeCellINtNtB9_6option6OptionINtNtB9_6result6ResultuINtNtBV_5boxed3BoxDNtNtB9_3any3AnyNtNtB9_6marker4SendEL_EEEEEE6as_ptrCskT2QP9QPlNo_17mapped_stack_race", scope: !775, file: !733, line: 105, type: !2268, scopeLine: 105, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !282, retainedNodes: !2271)
+!2267 = distinct !DISubprogram(name: "as_ptr<alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>>>", linkageName: "_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtB9_4cell10UnsafeCellINtNtB9_6option6OptionINtNtB9_6result6ResultuINtNtBV_5boxed3BoxDNtNtB9_3any3AnyNtNtB9_6marker4SendEL_EEEEEE6as_ptrCsfnYCCstO0CH_18mapped_static_race", scope: !775, file: !733, line: 105, type: !2268, scopeLine: 105, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !282, retainedNodes: !2271)
 !2268 = !DISubroutineType(types: !2269)
 !2269 = !{!2270, !775}
 !2270 = !DIDerivedType(tag: DW_TAG_pointer_type, name: "*mut alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>>", baseType: !224, size: 64, align: 64, dwarfAddressSpace: 0)
@@ -9705,7 +9705,7 @@ attributes #12 = { noinline }
 !2273 = !DILocation(line: 105, column: 25, scope: !2267)
 !2274 = !DILocation(line: 106, column: 9, scope: !2267)
 !2275 = !DILocation(line: 107, column: 6, scope: !2267)
-!2276 = distinct !DISubprogram(name: "as_ref<alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>>>", linkageName: "_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtB9_4cell10UnsafeCellINtNtB9_6option6OptionINtNtB9_6result6ResultuINtNtBV_5boxed3BoxDNtNtB9_3any3AnyNtNtB9_6marker4SendEL_EEEEEE6as_refCskT2QP9QPlNo_17mapped_stack_race", scope: !775, file: !733, line: 115, type: !2277, scopeLine: 115, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !282, retainedNodes: !2281)
+!2276 = distinct !DISubprogram(name: "as_ref<alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>>>", linkageName: "_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtB9_4cell10UnsafeCellINtNtB9_6option6OptionINtNtB9_6result6ResultuINtNtBV_5boxed3BoxDNtNtB9_3any3AnyNtNtB9_6marker4SendEL_EEEEEE6as_refCsfnYCCstO0CH_18mapped_static_race", scope: !775, file: !733, line: 115, type: !2277, scopeLine: 115, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !282, retainedNodes: !2281)
 !2277 = !DISubroutineType(types: !2278)
 !2278 = !{!2279, !2280}
 !2279 = !DIDerivedType(tag: DW_TAG_pointer_type, name: "&alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>>", baseType: !224, size: 64, align: 64, dwarfAddressSpace: 0)
@@ -9715,7 +9715,7 @@ attributes #12 = { noinline }
 !2283 = !DILocation(line: 115, column: 26, scope: !2276)
 !2284 = !DILocation(line: 118, column: 20, scope: !2276)
 !2285 = !DILocation(line: 119, column: 6, scope: !2276)
-!2286 = distinct !DISubprogram(name: "as_ptr<std::io::error::Custom>", linkageName: "_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueNtNtNtCs2bNvlddUlXM_3std2io5error6CustomE6as_ptrCskT2QP9QPlNo_17mapped_stack_race", scope: !789, file: !733, line: 105, type: !2287, scopeLine: 105, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !795, retainedNodes: !2289)
+!2286 = distinct !DISubprogram(name: "as_ptr<std::io::error::Custom>", linkageName: "_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueNtNtNtCs2bNvlddUlXM_3std2io5error6CustomE6as_ptrCsfnYCCstO0CH_18mapped_static_race", scope: !789, file: !733, line: 105, type: !2287, scopeLine: 105, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !795, retainedNodes: !2289)
 !2287 = !DISubroutineType(types: !2288)
 !2288 = !{!1451, !789}
 !2289 = !{!2290}
@@ -9723,7 +9723,7 @@ attributes #12 = { noinline }
 !2291 = !DILocation(line: 105, column: 25, scope: !2286)
 !2292 = !DILocation(line: 106, column: 9, scope: !2286)
 !2293 = !DILocation(line: 107, column: 6, scope: !2286)
-!2294 = distinct !DISubprogram(name: "as_ref<std::io::error::Custom>", linkageName: "_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueNtNtNtCs2bNvlddUlXM_3std2io5error6CustomE6as_refCskT2QP9QPlNo_17mapped_stack_race", scope: !789, file: !733, line: 115, type: !2295, scopeLine: 115, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !795, retainedNodes: !2299)
+!2294 = distinct !DISubprogram(name: "as_ref<std::io::error::Custom>", linkageName: "_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueNtNtNtCs2bNvlddUlXM_3std2io5error6CustomE6as_refCsfnYCCstO0CH_18mapped_static_race", scope: !789, file: !733, line: 115, type: !2295, scopeLine: 115, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !795, retainedNodes: !2299)
 !2295 = !DISubroutineType(types: !2296)
 !2296 = !{!2297, !2298}
 !2297 = !DIDerivedType(tag: DW_TAG_pointer_type, name: "&std::io::error::Custom", baseType: !342, size: 64, align: 64, dwarfAddressSpace: 0)
@@ -9733,7 +9733,7 @@ attributes #12 = { noinline }
 !2301 = !DILocation(line: 115, column: 26, scope: !2294)
 !2302 = !DILocation(line: 118, column: 20, scope: !2294)
 !2303 = !DILocation(line: 119, column: 6, scope: !2294)
-!2304 = distinct !DISubprogram(name: "as_ptr<std::sys::unix::mutex::Mutex>", linkageName: "_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueNtNtNtNtCs2bNvlddUlXM_3std3sys4unix5mutex5MutexE6as_ptrCskT2QP9QPlNo_17mapped_stack_race", scope: !807, file: !733, line: 105, type: !2305, scopeLine: 105, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !813, retainedNodes: !2308)
+!2304 = distinct !DISubprogram(name: "as_ptr<std::sys::unix::mutex::Mutex>", linkageName: "_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueNtNtNtNtCs2bNvlddUlXM_3std3sys4unix5mutex5MutexE6as_ptrCsfnYCCstO0CH_18mapped_static_race", scope: !807, file: !733, line: 105, type: !2305, scopeLine: 105, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !813, retainedNodes: !2308)
 !2305 = !DISubroutineType(types: !2306)
 !2306 = !{!2307, !807}
 !2307 = !DIDerivedType(tag: DW_TAG_pointer_type, name: "*mut std::sys::unix::mutex::Mutex", baseType: !144, size: 64, align: 64, dwarfAddressSpace: 0)
@@ -9742,7 +9742,7 @@ attributes #12 = { noinline }
 !2310 = !DILocation(line: 105, column: 25, scope: !2304)
 !2311 = !DILocation(line: 106, column: 9, scope: !2304)
 !2312 = !DILocation(line: 107, column: 6, scope: !2304)
-!2313 = distinct !DISubprogram(name: "as_ref<std::sys::unix::mutex::Mutex>", linkageName: "_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueNtNtNtNtCs2bNvlddUlXM_3std3sys4unix5mutex5MutexE6as_refCskT2QP9QPlNo_17mapped_stack_race", scope: !807, file: !733, line: 115, type: !2314, scopeLine: 115, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !813, retainedNodes: !2318)
+!2313 = distinct !DISubprogram(name: "as_ref<std::sys::unix::mutex::Mutex>", linkageName: "_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueNtNtNtNtCs2bNvlddUlXM_3std3sys4unix5mutex5MutexE6as_refCsfnYCCstO0CH_18mapped_static_race", scope: !807, file: !733, line: 115, type: !2314, scopeLine: 115, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !813, retainedNodes: !2318)
 !2314 = !DISubroutineType(types: !2315)
 !2315 = !{!2316, !2317}
 !2316 = !DIDerivedType(tag: DW_TAG_pointer_type, name: "&std::sys::unix::mutex::Mutex", baseType: !144, size: 64, align: 64, dwarfAddressSpace: 0)
@@ -9752,7 +9752,7 @@ attributes #12 = { noinline }
 !2320 = !DILocation(line: 115, column: 26, scope: !2313)
 !2321 = !DILocation(line: 118, column: 20, scope: !2313)
 !2322 = !DILocation(line: 119, column: 6, scope: !2313)
-!2323 = distinct !DISubprogram(name: "as_ptr<[u8]>", linkageName: "_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueShE6as_ptrCskT2QP9QPlNo_17mapped_stack_race", scope: !825, file: !733, line: 105, type: !2324, scopeLine: 105, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !834, retainedNodes: !2326)
+!2323 = distinct !DISubprogram(name: "as_ptr<[u8]>", linkageName: "_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueShE6as_ptrCsfnYCCstO0CH_18mapped_static_race", scope: !825, file: !733, line: 105, type: !2324, scopeLine: 105, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !834, retainedNodes: !2326)
 !2324 = !DISubroutineType(types: !2325)
 !2325 = !{!1472, !825}
 !2326 = !{!2327}
@@ -9760,7 +9760,7 @@ attributes #12 = { noinline }
 !2328 = !DILocation(line: 105, column: 25, scope: !2323)
 !2329 = !DILocation(line: 106, column: 9, scope: !2323)
 !2330 = !DILocation(line: 107, column: 6, scope: !2323)
-!2331 = distinct !DISubprogram(name: "as_ref<[u8]>", linkageName: "_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueShE6as_refCskT2QP9QPlNo_17mapped_stack_race", scope: !825, file: !733, line: 115, type: !2332, scopeLine: 115, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !834, retainedNodes: !2339)
+!2331 = distinct !DISubprogram(name: "as_ref<[u8]>", linkageName: "_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniqueShE6as_refCsfnYCCstO0CH_18mapped_static_race", scope: !825, file: !733, line: 115, type: !2332, scopeLine: 115, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !834, retainedNodes: !2339)
 !2332 = !DISubroutineType(types: !2333)
 !2333 = !{!2334, !2338}
 !2334 = !DICompositeType(tag: DW_TAG_structure_type, name: "&[u8]", file: !2, size: 128, align: 64, elements: !2335, templateParams: !4, identifier: "585202bcfc7dfd1dd72e8befe2491ee4")
@@ -9773,7 +9773,7 @@ attributes #12 = { noinline }
 !2341 = !DILocation(line: 115, column: 26, scope: !2331)
 !2342 = !DILocation(line: 118, column: 20, scope: !2331)
 !2343 = !DILocation(line: 119, column: 6, scope: !2331)
-!2344 = distinct !DISubprogram(name: "new_unchecked<u8>", linkageName: "_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniquehE13new_uncheckedCskT2QP9QPlNo_17mapped_stack_race", scope: !190, file: !733, line: 87, type: !2345, scopeLine: 87, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !176, retainedNodes: !2347)
+!2344 = distinct !DISubprogram(name: "new_unchecked<u8>", linkageName: "_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniquehE13new_uncheckedCsfnYCCstO0CH_18mapped_static_race", scope: !190, file: !733, line: 87, type: !2345, scopeLine: 87, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !176, retainedNodes: !2347)
 !2345 = !DISubroutineType(types: !2346)
 !2346 = !{!190, !257}
 !2347 = !{!2348}
@@ -9781,14 +9781,14 @@ attributes #12 = { noinline }
 !2349 = !DILocation(line: 87, column: 39, scope: !2344)
 !2350 = !DILocation(line: 89, column: 18, scope: !2344)
 !2351 = !DILocation(line: 90, column: 6, scope: !2344)
-!2352 = distinct !DISubprogram(name: "as_ptr<u8>", linkageName: "_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniquehE6as_ptrCskT2QP9QPlNo_17mapped_stack_race", scope: !190, file: !733, line: 105, type: !2353, scopeLine: 105, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !176, retainedNodes: !2355)
+!2352 = distinct !DISubprogram(name: "as_ptr<u8>", linkageName: "_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr6uniqueINtB5_6UniquehE6as_ptrCsfnYCCstO0CH_18mapped_static_race", scope: !190, file: !733, line: 105, type: !2353, scopeLine: 105, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !176, retainedNodes: !2355)
 !2353 = !DISubroutineType(types: !2354)
 !2354 = !{!257, !190}
 !2355 = !{!2356}
 !2356 = !DILocalVariable(name: "self", arg: 1, scope: !2352, file: !733, line: 105, type: !190)
 !2357 = !DILocation(line: 105, column: 25, scope: !2352)
 !2358 = !DILocation(line: 107, column: 6, scope: !2352)
-!2359 = distinct !DISubprogram(name: "as_ptr<alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>>>", linkageName: "_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtB9_4cell10UnsafeCellINtNtB9_6option6OptionINtNtB9_6result6ResultuINtNtBY_5boxed3BoxDNtNtB9_3any3AnyNtNtB9_6marker4SendEL_EEEEEE6as_ptrCskT2QP9QPlNo_17mapped_stack_race", scope: !220, file: !855, line: 175, type: !2360, scopeLine: 175, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !282, retainedNodes: !2362)
+!2359 = distinct !DISubprogram(name: "as_ptr<alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>>>", linkageName: "_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtB9_4cell10UnsafeCellINtNtB9_6option6OptionINtNtB9_6result6ResultuINtNtBY_5boxed3BoxDNtNtB9_3any3AnyNtNtB9_6marker4SendEL_EEEEEE6as_ptrCsfnYCCstO0CH_18mapped_static_race", scope: !220, file: !855, line: 175, type: !2360, scopeLine: 175, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !282, retainedNodes: !2362)
 !2360 = !DISubroutineType(types: !2361)
 !2361 = !{!2270, !220}
 !2362 = !{!2363}
@@ -9796,7 +9796,7 @@ attributes #12 = { noinline }
 !2364 = !DILocation(line: 175, column: 25, scope: !2359)
 !2365 = !DILocation(line: 176, column: 9, scope: !2359)
 !2366 = !DILocation(line: 177, column: 6, scope: !2359)
-!2367 = distinct !DISubprogram(name: "as_ref<alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>>>", linkageName: "_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtB9_4cell10UnsafeCellINtNtB9_6option6OptionINtNtB9_6result6ResultuINtNtBY_5boxed3BoxDNtNtB9_3any3AnyNtNtB9_6marker4SendEL_EEEEEE6as_refCskT2QP9QPlNo_17mapped_stack_race", scope: !220, file: !855, line: 209, type: !2368, scopeLine: 209, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !282, retainedNodes: !2371)
+!2367 = distinct !DISubprogram(name: "as_ref<alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>>>", linkageName: "_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtB9_4cell10UnsafeCellINtNtB9_6option6OptionINtNtB9_6result6ResultuINtNtBY_5boxed3BoxDNtNtB9_3any3AnyNtNtB9_6marker4SendEL_EEEEEE6as_refCsfnYCCstO0CH_18mapped_static_race", scope: !220, file: !855, line: 209, type: !2368, scopeLine: 209, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !282, retainedNodes: !2371)
 !2368 = !DISubroutineType(types: !2369)
 !2369 = !{!2279, !2370}
 !2370 = !DIDerivedType(tag: DW_TAG_pointer_type, name: "&core::ptr::non_null::NonNull<alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>>>", baseType: !220, size: 64, align: 64, dwarfAddressSpace: 0)
@@ -9805,7 +9805,7 @@ attributes #12 = { noinline }
 !2373 = !DILocation(line: 209, column: 26, scope: !2367)
 !2374 = !DILocation(line: 212, column: 20, scope: !2367)
 !2375 = !DILocation(line: 213, column: 6, scope: !2367)
-!2376 = distinct !DISubprogram(name: "as_ptr<alloc::sync::ArcInner<std::sync::mutex::Mutex<alloc::vec::Vec<u8, alloc::alloc::Global>>>>", linkageName: "_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtBY_3vec3VechEEEE6as_ptrCskT2QP9QPlNo_17mapped_stack_race", scope: !125, file: !855, line: 175, type: !2377, scopeLine: 175, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !204, retainedNodes: !2380)
+!2376 = distinct !DISubprogram(name: "as_ptr<alloc::sync::ArcInner<std::sync::mutex::Mutex<alloc::vec::Vec<u8, alloc::alloc::Global>>>>", linkageName: "_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtBY_3vec3VechEEEE6as_ptrCsfnYCCstO0CH_18mapped_static_race", scope: !125, file: !855, line: 175, type: !2377, scopeLine: 175, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !204, retainedNodes: !2380)
 !2377 = !DISubroutineType(types: !2378)
 !2378 = !{!2379, !125}
 !2379 = !DIDerivedType(tag: DW_TAG_pointer_type, name: "*mut alloc::sync::ArcInner<std::sync::mutex::Mutex<alloc::vec::Vec<u8, alloc::alloc::Global>>>", baseType: !129, size: 64, align: 64, dwarfAddressSpace: 0)
@@ -9814,7 +9814,7 @@ attributes #12 = { noinline }
 !2382 = !DILocation(line: 175, column: 25, scope: !2376)
 !2383 = !DILocation(line: 176, column: 9, scope: !2376)
 !2384 = !DILocation(line: 177, column: 6, scope: !2376)
-!2385 = distinct !DISubprogram(name: "as_ref<alloc::sync::ArcInner<std::sync::mutex::Mutex<alloc::vec::Vec<u8, alloc::alloc::Global>>>>", linkageName: "_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtBY_3vec3VechEEEE6as_refCskT2QP9QPlNo_17mapped_stack_race", scope: !125, file: !855, line: 209, type: !2386, scopeLine: 209, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !204, retainedNodes: !2390)
+!2385 = distinct !DISubprogram(name: "as_ref<alloc::sync::ArcInner<std::sync::mutex::Mutex<alloc::vec::Vec<u8, alloc::alloc::Global>>>>", linkageName: "_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtBY_3vec3VechEEEE6as_refCsfnYCCstO0CH_18mapped_static_race", scope: !125, file: !855, line: 209, type: !2386, scopeLine: 209, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !204, retainedNodes: !2390)
 !2386 = !DISubroutineType(types: !2387)
 !2387 = !{!2388, !2389}
 !2388 = !DIDerivedType(tag: DW_TAG_pointer_type, name: "&alloc::sync::ArcInner<std::sync::mutex::Mutex<alloc::vec::Vec<u8, alloc::alloc::Global>>>", baseType: !129, size: 64, align: 64, dwarfAddressSpace: 0)
@@ -9824,7 +9824,7 @@ attributes #12 = { noinline }
 !2392 = !DILocation(line: 209, column: 26, scope: !2385)
 !2393 = !DILocation(line: 212, column: 20, scope: !2385)
 !2394 = !DILocation(line: 213, column: 6, scope: !2385)
-!2395 = distinct !DISubprogram(name: "as_ptr<alloc::sync::ArcInner<std::thread::Inner>>", linkageName: "_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerNtNtCs2bNvlddUlXM_3std6thread5InnerEE6as_ptrCskT2QP9QPlNo_17mapped_stack_race", scope: !20, file: !855, line: 175, type: !2396, scopeLine: 175, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !108, retainedNodes: !2399)
+!2395 = distinct !DISubprogram(name: "as_ptr<alloc::sync::ArcInner<std::thread::Inner>>", linkageName: "_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerNtNtCs2bNvlddUlXM_3std6thread5InnerEE6as_ptrCsfnYCCstO0CH_18mapped_static_race", scope: !20, file: !855, line: 175, type: !2396, scopeLine: 175, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !108, retainedNodes: !2399)
 !2396 = !DISubroutineType(types: !2397)
 !2397 = !{!2398, !20}
 !2398 = !DIDerivedType(tag: DW_TAG_pointer_type, name: "*mut alloc::sync::ArcInner<std::thread::Inner>", baseType: !27, size: 64, align: 64, dwarfAddressSpace: 0)
@@ -9833,7 +9833,7 @@ attributes #12 = { noinline }
 !2401 = !DILocation(line: 175, column: 25, scope: !2395)
 !2402 = !DILocation(line: 176, column: 9, scope: !2395)
 !2403 = !DILocation(line: 177, column: 6, scope: !2395)
-!2404 = distinct !DISubprogram(name: "as_ref<alloc::sync::ArcInner<std::thread::Inner>>", linkageName: "_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerNtNtCs2bNvlddUlXM_3std6thread5InnerEE6as_refCskT2QP9QPlNo_17mapped_stack_race", scope: !20, file: !855, line: 209, type: !2405, scopeLine: 209, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !108, retainedNodes: !2409)
+!2404 = distinct !DISubprogram(name: "as_ref<alloc::sync::ArcInner<std::thread::Inner>>", linkageName: "_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerNtNtCs2bNvlddUlXM_3std6thread5InnerEE6as_refCsfnYCCstO0CH_18mapped_static_race", scope: !20, file: !855, line: 209, type: !2405, scopeLine: 209, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !108, retainedNodes: !2409)
 !2405 = !DISubroutineType(types: !2406)
 !2406 = !{!2407, !2408}
 !2407 = !DIDerivedType(tag: DW_TAG_pointer_type, name: "&alloc::sync::ArcInner<std::thread::Inner>", baseType: !27, size: 64, align: 64, dwarfAddressSpace: 0)
@@ -9843,7 +9843,7 @@ attributes #12 = { noinline }
 !2411 = !DILocation(line: 209, column: 26, scope: !2404)
 !2412 = !DILocation(line: 212, column: 20, scope: !2404)
 !2413 = !DILocation(line: 213, column: 6, scope: !2404)
-!2414 = distinct !DISubprogram(name: "new_unchecked<[u8]>", linkageName: "_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullShE13new_uncheckedCskT2QP9QPlNo_17mapped_stack_race", scope: !1979, file: !855, line: 154, type: !2415, scopeLine: 154, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !834, retainedNodes: !2417)
+!2414 = distinct !DISubprogram(name: "new_unchecked<[u8]>", linkageName: "_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullShE13new_uncheckedCsfnYCCstO0CH_18mapped_static_race", scope: !1979, file: !855, line: 154, type: !2415, scopeLine: 154, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !834, retainedNodes: !2417)
 !2415 = !DISubroutineType(types: !2416)
 !2416 = !{!1979, !1472}
 !2417 = !{!2418}
@@ -9851,7 +9851,7 @@ attributes #12 = { noinline }
 !2419 = !DILocation(line: 154, column: 39, scope: !2414)
 !2420 = !DILocation(line: 156, column: 18, scope: !2414)
 !2421 = !DILocation(line: 157, column: 6, scope: !2414)
-!2422 = distinct !DISubprogram(name: "as_ptr<[u8]>", linkageName: "_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullShE6as_ptrCskT2QP9QPlNo_17mapped_stack_race", scope: !1979, file: !855, line: 175, type: !2423, scopeLine: 175, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !834, retainedNodes: !2425)
+!2422 = distinct !DISubprogram(name: "as_ptr<[u8]>", linkageName: "_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullShE6as_ptrCsfnYCCstO0CH_18mapped_static_race", scope: !1979, file: !855, line: 175, type: !2423, scopeLine: 175, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !834, retainedNodes: !2425)
 !2423 = !DISubroutineType(types: !2424)
 !2424 = !{!1472, !1979}
 !2425 = !{!2426}
@@ -9859,7 +9859,7 @@ attributes #12 = { noinline }
 !2427 = !DILocation(line: 175, column: 25, scope: !2422)
 !2428 = !DILocation(line: 176, column: 9, scope: !2422)
 !2429 = !DILocation(line: 177, column: 6, scope: !2422)
-!2430 = distinct !DISubprogram(name: "new_unchecked<u8>", linkageName: "_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullhE13new_uncheckedCskT2QP9QPlNo_17mapped_stack_race", scope: !601, file: !855, line: 154, type: !2431, scopeLine: 154, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !176, retainedNodes: !2433)
+!2430 = distinct !DISubprogram(name: "new_unchecked<u8>", linkageName: "_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullhE13new_uncheckedCsfnYCCstO0CH_18mapped_static_race", scope: !601, file: !855, line: 154, type: !2431, scopeLine: 154, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !176, retainedNodes: !2433)
 !2431 = !DISubroutineType(types: !2432)
 !2432 = !{!601, !257}
 !2433 = !{!2434}
@@ -9867,7 +9867,7 @@ attributes #12 = { noinline }
 !2435 = !DILocation(line: 154, column: 39, scope: !2430)
 !2436 = !DILocation(line: 156, column: 18, scope: !2430)
 !2437 = !DILocation(line: 157, column: 6, scope: !2430)
-!2438 = distinct !DISubprogram(name: "new<u8>", linkageName: "_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullhE3newCskT2QP9QPlNo_17mapped_stack_race", scope: !601, file: !855, line: 162, type: !2439, scopeLine: 162, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !176, retainedNodes: !2441)
+!2438 = distinct !DISubprogram(name: "new<u8>", linkageName: "_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullhE3newCsfnYCCstO0CH_18mapped_static_race", scope: !601, file: !855, line: 162, type: !2439, scopeLine: 162, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !176, retainedNodes: !2441)
 !2439 = !DISubroutineType(types: !2440)
 !2440 = !{!593, !257}
 !2441 = !{!2442}
@@ -9880,14 +9880,14 @@ attributes #12 = { noinline }
 !2448 = !DILocation(line: 167, column: 13, scope: !2438)
 !2449 = !DILocation(line: 165, column: 13, scope: !2438)
 !2450 = !DILocation(line: 169, column: 6, scope: !2438)
-!2451 = distinct !DISubprogram(name: "as_ptr<u8>", linkageName: "_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullhE6as_ptrCskT2QP9QPlNo_17mapped_stack_race", scope: !601, file: !855, line: 175, type: !2452, scopeLine: 175, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !176, retainedNodes: !2454)
+!2451 = distinct !DISubprogram(name: "as_ptr<u8>", linkageName: "_RNvMs1_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullhE6as_ptrCsfnYCCstO0CH_18mapped_static_race", scope: !601, file: !855, line: 175, type: !2452, scopeLine: 175, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !176, retainedNodes: !2454)
 !2452 = !DISubroutineType(types: !2453)
 !2453 = !{!257, !601}
 !2454 = !{!2455}
 !2455 = !DILocalVariable(name: "self", arg: 1, scope: !2451, file: !855, line: 175, type: !601)
 !2456 = !DILocation(line: 175, column: 25, scope: !2451)
 !2457 = !DILocation(line: 177, column: 6, scope: !2451)
-!2458 = distinct !DISubprogram(name: "from_inner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>>", linkageName: "_RNvMs2_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtBL_6option6OptionINtNtBL_6result6ResultuINtNtB7_5boxed3BoxDNtNtBL_3any3AnyNtNtBL_6marker4SendEL_EEEEE10from_innerCskT2QP9QPlNo_17mapped_stack_race", scope: !217, file: !2459, line: 242, type: !2460, scopeLine: 242, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !280, retainedNodes: !2462)
+!2458 = distinct !DISubprogram(name: "from_inner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>>", linkageName: "_RNvMs2_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtBL_6option6OptionINtNtBL_6result6ResultuINtNtB7_5boxed3BoxDNtNtBL_3any3AnyNtNtBL_6marker4SendEL_EEEEE10from_innerCsfnYCCstO0CH_18mapped_static_race", scope: !217, file: !2459, line: 242, type: !2460, scopeLine: 242, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !280, retainedNodes: !2462)
 !2459 = !DIFile(filename: "/rustc/e38fb306b7f5e65cca34df2dab1f0db15e1defb4/library/alloc/src/sync.rs", directory: "", checksumkind: CSK_MD5, checksum: "f9dacf1821713e5e07d5fe77686a1160")
 !2460 = !DISubroutineType(types: !2461)
 !2461 = !{!217, !220}
@@ -9896,7 +9896,7 @@ attributes #12 = { noinline }
 !2464 = !DILocation(line: 242, column: 19, scope: !2458)
 !2465 = !DILocation(line: 243, column: 9, scope: !2458)
 !2466 = !DILocation(line: 244, column: 6, scope: !2458)
-!2467 = distinct !DISubprogram(name: "from_inner<std::sync::mutex::Mutex<alloc::vec::Vec<u8, alloc::alloc::Global>>>", linkageName: "_RNvMs2_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtB7_3vec3VechEEE10from_innerCskT2QP9QPlNo_17mapped_stack_race", scope: !122, file: !2459, line: 242, type: !2468, scopeLine: 242, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !202, retainedNodes: !2470)
+!2467 = distinct !DISubprogram(name: "from_inner<std::sync::mutex::Mutex<alloc::vec::Vec<u8, alloc::alloc::Global>>>", linkageName: "_RNvMs2_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtB7_3vec3VechEEE10from_innerCsfnYCCstO0CH_18mapped_static_race", scope: !122, file: !2459, line: 242, type: !2468, scopeLine: 242, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !202, retainedNodes: !2470)
 !2468 = !DISubroutineType(types: !2469)
 !2469 = !{!122, !125}
 !2470 = !{!2471}
@@ -9904,7 +9904,7 @@ attributes #12 = { noinline }
 !2472 = !DILocation(line: 242, column: 19, scope: !2467)
 !2473 = !DILocation(line: 243, column: 9, scope: !2467)
 !2474 = !DILocation(line: 244, column: 6, scope: !2467)
-!2475 = distinct !DISubprogram(name: "from_inner<std::thread::Inner>", linkageName: "_RNvMs2_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcNtNtCs2bNvlddUlXM_3std6thread5InnerE10from_innerCskT2QP9QPlNo_17mapped_stack_race", scope: !15, file: !2459, line: 242, type: !2476, scopeLine: 242, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !106, retainedNodes: !2478)
+!2475 = distinct !DISubprogram(name: "from_inner<std::thread::Inner>", linkageName: "_RNvMs2_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcNtNtCs2bNvlddUlXM_3std6thread5InnerE10from_innerCsfnYCCstO0CH_18mapped_static_race", scope: !15, file: !2459, line: 242, type: !2476, scopeLine: 242, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !106, retainedNodes: !2478)
 !2476 = !DISubroutineType(types: !2477)
 !2477 = !{!15, !20}
 !2478 = !{!2479}
@@ -9912,7 +9912,7 @@ attributes #12 = { noinline }
 !2480 = !DILocation(line: 242, column: 19, scope: !2475)
 !2481 = !DILocation(line: 243, column: 9, scope: !2475)
 !2482 = !DILocation(line: 244, column: 6, scope: !2475)
-!2483 = distinct !DISubprogram(name: "as_mut_ptr<u8>", linkageName: "_RNvMs2_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullShE10as_mut_ptrCskT2QP9QPlNo_17mapped_stack_race", scope: !1979, file: !855, line: 349, type: !2484, scopeLine: 349, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !176, retainedNodes: !2486)
+!2483 = distinct !DISubprogram(name: "as_mut_ptr<u8>", linkageName: "_RNvMs2_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullShE10as_mut_ptrCsfnYCCstO0CH_18mapped_static_race", scope: !1979, file: !855, line: 349, type: !2484, scopeLine: 349, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !176, retainedNodes: !2486)
 !2484 = !DISubroutineType(types: !2485)
 !2485 = !{!257, !1979}
 !2486 = !{!2487}
@@ -9920,7 +9920,7 @@ attributes #12 = { noinline }
 !2488 = !DILocation(line: 349, column: 29, scope: !2483)
 !2489 = !DILocation(line: 350, column: 9, scope: !2483)
 !2490 = !DILocation(line: 351, column: 6, scope: !2483)
-!2491 = distinct !DISubprogram(name: "as_non_null_ptr<u8>", linkageName: "_RNvMs2_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullShE15as_non_null_ptrCskT2QP9QPlNo_17mapped_stack_race", scope: !1979, file: !855, line: 330, type: !2492, scopeLine: 330, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !176, retainedNodes: !2494)
+!2491 = distinct !DISubprogram(name: "as_non_null_ptr<u8>", linkageName: "_RNvMs2_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullShE15as_non_null_ptrCsfnYCCstO0CH_18mapped_static_race", scope: !1979, file: !855, line: 330, type: !2492, scopeLine: 330, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !176, retainedNodes: !2494)
 !2492 = !DISubroutineType(types: !2493)
 !2493 = !{!601, !1979}
 !2494 = !{!2495}
@@ -9929,7 +9929,7 @@ attributes #12 = { noinline }
 !2497 = !DILocation(line: 332, column: 41, scope: !2491)
 !2498 = !DILocation(line: 332, column: 18, scope: !2491)
 !2499 = !DILocation(line: 333, column: 6, scope: !2491)
-!2500 = distinct !DISubprogram(name: "slice_from_raw_parts<u8>", linkageName: "_RNvMs2_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullShE20slice_from_raw_partsCskT2QP9QPlNo_17mapped_stack_race", scope: !1979, file: !855, line: 288, type: !2501, scopeLine: 288, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !176, retainedNodes: !2503)
+!2500 = distinct !DISubprogram(name: "slice_from_raw_parts<u8>", linkageName: "_RNvMs2_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullShE20slice_from_raw_partsCsfnYCCstO0CH_18mapped_static_race", scope: !1979, file: !855, line: 288, type: !2501, scopeLine: 288, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !176, retainedNodes: !2503)
 !2501 = !DISubroutineType(types: !2502)
 !2502 = !{!1979, !601, !39}
 !2503 = !{!2504, !2505}
@@ -9941,7 +9941,7 @@ attributes #12 = { noinline }
 !2509 = !DILocation(line: 290, column: 38, scope: !2500)
 !2510 = !DILocation(line: 290, column: 18, scope: !2500)
 !2511 = !DILocation(line: 291, column: 6, scope: !2500)
-!2512 = distinct !DISubprogram(name: "expect<std::thread::JoinHandle<()>,std::io::error::Error>", linkageName: "_RNvMs3_NtCs3p84KrD9aKt_4core6resultINtB5_6ResultINtNtCs2bNvlddUlXM_3std6thread10JoinHandleuENtNtNtBP_2io5error5ErrorE6expectCskT2QP9QPlNo_17mapped_stack_race", scope: !423, file: !2513, line: 926, type: !2514, scopeLine: 926, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !459, retainedNodes: !2523)
+!2512 = distinct !DISubprogram(name: "expect<std::thread::JoinHandle<()>,std::io::error::Error>", linkageName: "_RNvMs3_NtCs3p84KrD9aKt_4core6resultINtB5_6ResultINtNtCs2bNvlddUlXM_3std6thread10JoinHandleuENtNtNtBP_2io5error5ErrorE6expectCsfnYCCstO0CH_18mapped_static_race", scope: !423, file: !2513, line: 926, type: !2514, scopeLine: 926, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !459, retainedNodes: !2523)
 !2513 = !DIFile(filename: "/rustc/e38fb306b7f5e65cca34df2dab1f0db15e1defb4/library/core/src/result.rs", directory: "", checksumkind: CSK_MD5, checksum: "3454b54db8f644e9ee009e9fd7e31fa5")
 !2514 = !DISubroutineType(types: !2515)
 !2515 = !{!431, !423, !2126, !2516}
@@ -9972,7 +9972,7 @@ attributes #12 = { noinline }
 !2540 = !DILocation(line: 931, column: 6, scope: !2512)
 !2541 = !DILocation(line: 929, column: 44, scope: !2512)
 !2542 = !DILocation(line: 926, column: 5, scope: !2512)
-!2543 = distinct !DISubprogram(name: "leak<alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>>,alloc::alloc::Global>", linkageName: "_RNvMs5_NtCs8RW06R9lH2S_5alloc5boxedINtB5_3BoxINtNtB7_4sync8ArcInnerINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtB18_6option6OptionINtNtB18_6result6ResultuIBy_DNtNtB18_3any3AnyNtNtB18_6marker4SendEL_EEEEEE4leakCskT2QP9QPlNo_17mapped_stack_race", scope: !528, file: !527, line: 948, type: !2544, scopeLine: 948, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !1647, retainedNodes: !2548)
+!2543 = distinct !DISubprogram(name: "leak<alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>>,alloc::alloc::Global>", linkageName: "_RNvMs5_NtCs8RW06R9lH2S_5alloc5boxedINtB5_3BoxINtNtB7_4sync8ArcInnerINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtB18_6option6OptionINtNtB18_6result6ResultuIBy_DNtNtB18_3any3AnyNtNtB18_6marker4SendEL_EEEEEE4leakCsfnYCCstO0CH_18mapped_static_race", scope: !528, file: !527, line: 948, type: !2544, scopeLine: 948, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !1647, retainedNodes: !2548)
 !2544 = !DISubroutineType(types: !2545)
 !2545 = !{!2546, !2547}
 !2546 = !DIDerivedType(tag: DW_TAG_pointer_type, name: "&mut alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>>", baseType: !224, size: 64, align: 64, dwarfAddressSpace: 0)
@@ -9981,10 +9981,10 @@ attributes #12 = { noinline }
 !2549 = !DILocalVariable(name: "b", arg: 1, scope: !2543, file: !527, line: 948, type: !2547)
 !2550 = !DILocation(line: 948, column: 21, scope: !2543)
 !2551 = !{!2552}
-!2552 = distinct !{!2552, !2553, !"_RNvMNtNtCs3p84KrD9aKt_4core3mem13manually_dropINtB2_12ManuallyDropINtNtCs8RW06R9lH2S_5alloc5boxed3BoxINtNtB17_4sync8ArcInnerINtNtB6_4cell10UnsafeCellINtNtB6_6option6OptionINtNtB6_6result6ResultuIB13_DNtNtB6_3any3AnyNtNtB6_6marker4SendEL_EEEEEEE3newCskT2QP9QPlNo_17mapped_stack_race: %value"}
-!2553 = distinct !{!2553, !"_RNvMNtNtCs3p84KrD9aKt_4core3mem13manually_dropINtB2_12ManuallyDropINtNtCs8RW06R9lH2S_5alloc5boxed3BoxINtNtB17_4sync8ArcInnerINtNtB6_4cell10UnsafeCellINtNtB6_6option6OptionINtNtB6_6result6ResultuIB13_DNtNtB6_3any3AnyNtNtB6_6marker4SendEL_EEEEEEE3newCskT2QP9QPlNo_17mapped_stack_race"}
+!2552 = distinct !{!2552, !2553, !"_RNvMNtNtCs3p84KrD9aKt_4core3mem13manually_dropINtB2_12ManuallyDropINtNtCs8RW06R9lH2S_5alloc5boxed3BoxINtNtB17_4sync8ArcInnerINtNtB6_4cell10UnsafeCellINtNtB6_6option6OptionINtNtB6_6result6ResultuIB13_DNtNtB6_3any3AnyNtNtB6_6marker4SendEL_EEEEEEE3newCsfnYCCstO0CH_18mapped_static_race: %value"}
+!2553 = distinct !{!2553, !"_RNvMNtNtCs3p84KrD9aKt_4core3mem13manually_dropINtB2_12ManuallyDropINtNtCs8RW06R9lH2S_5alloc5boxed3BoxINtNtB17_4sync8ArcInnerINtNtB6_4cell10UnsafeCellINtNtB6_6option6OptionINtNtB6_6result6ResultuIB13_DNtNtB6_3any3AnyNtNtB6_6marker4SendEL_EEEEEEE3newCsfnYCCstO0CH_18mapped_static_race"}
 !2554 = !DILocalVariable(name: "value", arg: 1, scope: !2555, file: !1010, line: 69, type: !2547)
-!2555 = distinct !DISubprogram(name: "new<alloc::boxed::Box<alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>>, alloc::alloc::Global>>", linkageName: "_RNvMNtNtCs3p84KrD9aKt_4core3mem13manually_dropINtB2_12ManuallyDropINtNtCs8RW06R9lH2S_5alloc5boxed3BoxINtNtB17_4sync8ArcInnerINtNtB6_4cell10UnsafeCellINtNtB6_6option6OptionINtNtB6_6result6ResultuIB13_DNtNtB6_3any3AnyNtNtB6_6marker4SendEL_EEEEEEE3newCskT2QP9QPlNo_17mapped_stack_race", scope: !2556, file: !1010, line: 69, type: !2561, scopeLine: 69, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !2559, retainedNodes: !2563)
+!2555 = distinct !DISubprogram(name: "new<alloc::boxed::Box<alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>>, alloc::alloc::Global>>", linkageName: "_RNvMNtNtCs3p84KrD9aKt_4core3mem13manually_dropINtB2_12ManuallyDropINtNtCs8RW06R9lH2S_5alloc5boxed3BoxINtNtB17_4sync8ArcInnerINtNtB6_4cell10UnsafeCellINtNtB6_6option6OptionINtNtB6_6result6ResultuIB13_DNtNtB6_3any3AnyNtNtB6_6marker4SendEL_EEEEEEE3newCsfnYCCstO0CH_18mapped_static_race", scope: !2556, file: !1010, line: 69, type: !2561, scopeLine: 69, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !2559, retainedNodes: !2563)
 !2556 = !DICompositeType(tag: DW_TAG_structure_type, name: "ManuallyDrop<alloc::boxed::Box<alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>>, alloc::alloc::Global>>", scope: !987, file: !2, size: 64, align: 64, elements: !2557, templateParams: !2559, identifier: "1aaa5612fda101b7ed0c332d3412d168")
 !2557 = !{!2558}
 !2558 = !DIDerivedType(tag: DW_TAG_member, name: "value", scope: !2556, file: !2, baseType: !2547, size: 64, align: 64)
@@ -9999,10 +9999,10 @@ attributes #12 = { noinline }
 !2567 = !DILocation(line: 71, column: 6, scope: !2555, inlinedAt: !2565)
 !2568 = !DILocation(line: 952, column: 24, scope: !2543)
 !2569 = !{!2570}
-!2570 = distinct !{!2570, !2571, !"_RNvXs0_NtNtCs3p84KrD9aKt_4core3mem13manually_dropINtB5_12ManuallyDropINtNtCs8RW06R9lH2S_5alloc5boxed3BoxINtNtB1a_4sync8ArcInnerINtNtB9_4cell10UnsafeCellINtNtB9_6option6OptionINtNtB9_6result6ResultuIB16_DNtNtB9_3any3AnyNtNtB9_6marker4SendEL_EEEEEEENtNtNtB9_3ops5deref5Deref5derefCskT2QP9QPlNo_17mapped_stack_race: %self"}
-!2571 = distinct !{!2571, !"_RNvXs0_NtNtCs3p84KrD9aKt_4core3mem13manually_dropINtB5_12ManuallyDropINtNtCs8RW06R9lH2S_5alloc5boxed3BoxINtNtB1a_4sync8ArcInnerINtNtB9_4cell10UnsafeCellINtNtB9_6option6OptionINtNtB9_6result6ResultuIB16_DNtNtB9_3any3AnyNtNtB9_6marker4SendEL_EEEEEEENtNtNtB9_3ops5deref5Deref5derefCskT2QP9QPlNo_17mapped_stack_race"}
+!2570 = distinct !{!2570, !2571, !"_RNvXs0_NtNtCs3p84KrD9aKt_4core3mem13manually_dropINtB5_12ManuallyDropINtNtCs8RW06R9lH2S_5alloc5boxed3BoxINtNtB1a_4sync8ArcInnerINtNtB9_4cell10UnsafeCellINtNtB9_6option6OptionINtNtB9_6result6ResultuIB16_DNtNtB9_3any3AnyNtNtB9_6marker4SendEL_EEEEEEENtNtNtB9_3ops5deref5Deref5derefCsfnYCCstO0CH_18mapped_static_race: %self"}
+!2571 = distinct !{!2571, !"_RNvXs0_NtNtCs3p84KrD9aKt_4core3mem13manually_dropINtB5_12ManuallyDropINtNtCs8RW06R9lH2S_5alloc5boxed3BoxINtNtB1a_4sync8ArcInnerINtNtB9_4cell10UnsafeCellINtNtB9_6option6OptionINtNtB9_6result6ResultuIB16_DNtNtB9_3any3AnyNtNtB9_6marker4SendEL_EEEEEEENtNtNtB9_3ops5deref5Deref5derefCsfnYCCstO0CH_18mapped_static_race"}
 !2572 = !DILocalVariable(name: "self", arg: 1, scope: !2573, file: !1010, line: 151, type: !2578)
-!2573 = distinct !DISubprogram(name: "deref<alloc::boxed::Box<alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>>, alloc::alloc::Global>>", linkageName: "_RNvXs0_NtNtCs3p84KrD9aKt_4core3mem13manually_dropINtB5_12ManuallyDropINtNtCs8RW06R9lH2S_5alloc5boxed3BoxINtNtB1a_4sync8ArcInnerINtNtB9_4cell10UnsafeCellINtNtB9_6option6OptionINtNtB9_6result6ResultuIB16_DNtNtB9_3any3AnyNtNtB9_6marker4SendEL_EEEEEEENtNtNtB9_3ops5deref5Deref5derefCskT2QP9QPlNo_17mapped_stack_race", scope: !2574, file: !1010, line: 151, type: !2575, scopeLine: 151, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !2559, retainedNodes: !2579)
+!2573 = distinct !DISubprogram(name: "deref<alloc::boxed::Box<alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>>, alloc::alloc::Global>>", linkageName: "_RNvXs0_NtNtCs3p84KrD9aKt_4core3mem13manually_dropINtB5_12ManuallyDropINtNtCs8RW06R9lH2S_5alloc5boxed3BoxINtNtB1a_4sync8ArcInnerINtNtB9_4cell10UnsafeCellINtNtB9_6option6OptionINtNtB9_6result6ResultuIB16_DNtNtB9_3any3AnyNtNtB9_6marker4SendEL_EEEEEEENtNtNtB9_3ops5deref5Deref5derefCsfnYCCstO0CH_18mapped_static_race", scope: !2574, file: !1010, line: 151, type: !2575, scopeLine: 151, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !2559, retainedNodes: !2579)
 !2574 = !DINamespace(name: "{{impl}}", scope: !987)
 !2575 = !DISubroutineType(types: !2576)
 !2576 = !{!2577, !2578}
@@ -10013,7 +10013,7 @@ attributes #12 = { noinline }
 !2581 = distinct !DILocation(line: 952, column: 24, scope: !2543)
 !2582 = !DILocation(line: 152, column: 9, scope: !2573, inlinedAt: !2581)
 !2583 = !DILocation(line: 953, column: 6, scope: !2543)
-!2584 = distinct !DISubprogram(name: "as_i32", linkageName: "_RNvMs7_NtNtNtNtCs2bNvlddUlXM_3std3sys4unix7process14process_commonNtB5_8ExitCode6as_i32CskT2QP9QPlNo_17mapped_stack_race", scope: !2586, file: !2585, line: 429, type: !2591, scopeLine: 429, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !4, retainedNodes: !2594)
+!2584 = distinct !DISubprogram(name: "as_i32", linkageName: "_RNvMs7_NtNtNtNtCs2bNvlddUlXM_3std3sys4unix7process14process_commonNtB5_8ExitCode6as_i32CsfnYCCstO0CH_18mapped_static_race", scope: !2586, file: !2585, line: 429, type: !2591, scopeLine: 429, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !4, retainedNodes: !2594)
 !2585 = !DIFile(filename: "/rustc/e38fb306b7f5e65cca34df2dab1f0db15e1defb4/library/std/src/sys/unix/process/process_common.rs", directory: "", checksumkind: CSK_MD5, checksum: "0e90531be854973cc338b563f3ec214e")
 !2586 = !DICompositeType(tag: DW_TAG_structure_type, name: "ExitCode", scope: !2587, file: !2, size: 8, align: 8, elements: !2589, templateParams: !4, identifier: "98156806465d6b5f23325078019b1cb6")
 !2587 = !DINamespace(name: "process_common", scope: !2588)
@@ -10028,7 +10028,7 @@ attributes #12 = { noinline }
 !2596 = !DILocation(line: 429, column: 19, scope: !2584)
 !2597 = !DILocation(line: 430, column: 9, scope: !2584)
 !2598 = !DILocation(line: 431, column: 6, scope: !2584)
-!2599 = distinct !DISubprogram(name: "new<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>", linkageName: "_RNvMsJ_NtCs3p84KrD9aKt_4core4cellINtB5_10UnsafeCellINtNtB7_6option6OptionINtNtB7_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB7_3any3AnyNtNtB7_6marker4SendEL_EEEE3newCskT2QP9QPlNo_17mapped_stack_race", scope: !229, file: !2600, line: 1666, type: !2601, scopeLine: 1666, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !278, retainedNodes: !2603)
+!2599 = distinct !DISubprogram(name: "new<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>", linkageName: "_RNvMsJ_NtCs3p84KrD9aKt_4core4cellINtB5_10UnsafeCellINtNtB7_6option6OptionINtNtB7_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB7_3any3AnyNtNtB7_6marker4SendEL_EEEE3newCsfnYCCstO0CH_18mapped_static_race", scope: !229, file: !2600, line: 1666, type: !2601, scopeLine: 1666, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !278, retainedNodes: !2603)
 !2600 = !DIFile(filename: "/rustc/e38fb306b7f5e65cca34df2dab1f0db15e1defb4/library/core/src/cell.rs", directory: "", checksumkind: CSK_MD5, checksum: "e295056d9b3dcb448946702a86c18240")
 !2601 = !DISubroutineType(types: !2602)
 !2602 = !{!229, !232}
@@ -10038,7 +10038,7 @@ attributes #12 = { noinline }
 !2606 = !DILocation(line: 1667, column: 22, scope: !2599)
 !2607 = !DILocation(line: 1667, column: 9, scope: !2599)
 !2608 = !DILocation(line: 1668, column: 6, scope: !2599)
-!2609 = distinct !DISubprogram(name: "new<usize>", linkageName: "_RNvMsJ_NtCs3p84KrD9aKt_4core4cellINtB5_10UnsafeCelljE3newCskT2QP9QPlNo_17mapped_stack_race", scope: !35, file: !2600, line: 1666, type: !2610, scopeLine: 1666, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !40, retainedNodes: !2612)
+!2609 = distinct !DISubprogram(name: "new<usize>", linkageName: "_RNvMsJ_NtCs3p84KrD9aKt_4core4cellINtB5_10UnsafeCelljE3newCsfnYCCstO0CH_18mapped_static_race", scope: !35, file: !2600, line: 1666, type: !2610, scopeLine: 1666, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !40, retainedNodes: !2612)
 !2610 = !DISubroutineType(types: !2611)
 !2611 = !{!35, !39}
 !2612 = !{!2613}
@@ -10046,7 +10046,7 @@ attributes #12 = { noinline }
 !2614 = !DILocation(line: 1666, column: 22, scope: !2609)
 !2615 = !DILocation(line: 1667, column: 9, scope: !2609)
 !2616 = !DILocation(line: 1668, column: 6, scope: !2609)
-!2617 = distinct !DISubprogram(name: "get<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>", linkageName: "_RNvMsK_NtCs3p84KrD9aKt_4core4cellINtB5_10UnsafeCellINtNtB7_6option6OptionINtNtB7_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB7_3any3AnyNtNtB7_6marker4SendEL_EEEE3getCskT2QP9QPlNo_17mapped_stack_race", scope: !229, file: !2600, line: 1709, type: !2618, scopeLine: 1709, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !278, retainedNodes: !2621)
+!2617 = distinct !DISubprogram(name: "get<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>", linkageName: "_RNvMsK_NtCs3p84KrD9aKt_4core4cellINtB5_10UnsafeCellINtNtB7_6option6OptionINtNtB7_6result6ResultuINtNtCs8RW06R9lH2S_5alloc5boxed3BoxDNtNtB7_3any3AnyNtNtB7_6marker4SendEL_EEEE3getCsfnYCCstO0CH_18mapped_static_race", scope: !229, file: !2600, line: 1709, type: !2618, scopeLine: 1709, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !278, retainedNodes: !2621)
 !2618 = !DISubroutineType(types: !2619)
 !2619 = !{!1187, !2620}
 !2620 = !DIDerivedType(tag: DW_TAG_pointer_type, name: "&core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>", baseType: !229, size: 64, align: 64, dwarfAddressSpace: 0)
@@ -10055,7 +10055,7 @@ attributes #12 = { noinline }
 !2623 = !DILocation(line: 1709, column: 22, scope: !2617)
 !2624 = !DILocation(line: 1713, column: 9, scope: !2617)
 !2625 = !DILocation(line: 1714, column: 6, scope: !2617)
-!2626 = distinct !DISubprogram(name: "get<usize>", linkageName: "_RNvMsK_NtCs3p84KrD9aKt_4core4cellINtB5_10UnsafeCelljE3getCskT2QP9QPlNo_17mapped_stack_race", scope: !35, file: !2600, line: 1709, type: !2627, scopeLine: 1709, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !40, retainedNodes: !2630)
+!2626 = distinct !DISubprogram(name: "get<usize>", linkageName: "_RNvMsK_NtCs3p84KrD9aKt_4core4cellINtB5_10UnsafeCelljE3getCsfnYCCstO0CH_18mapped_static_race", scope: !35, file: !2600, line: 1709, type: !2627, scopeLine: 1709, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !40, retainedNodes: !2630)
 !2627 = !DISubroutineType(types: !2628)
 !2628 = !{!1782, !2629}
 !2629 = !DIDerivedType(tag: DW_TAG_pointer_type, name: "&core::cell::UnsafeCell<usize>", baseType: !35, size: 64, align: 64, dwarfAddressSpace: 0)
@@ -10063,7 +10063,7 @@ attributes #12 = { noinline }
 !2631 = !DILocalVariable(name: "self", arg: 1, scope: !2626, file: !2600, line: 1709, type: !2629)
 !2632 = !DILocation(line: 1709, column: 22, scope: !2626)
 !2633 = !DILocation(line: 1714, column: 6, scope: !2626)
-!2634 = distinct !DISubprogram(name: "as_mut_ptr<u8,alloc::alloc::Global>", linkageName: "_RNvMs_NtCs8RW06R9lH2S_5alloc3vecINtB4_3VechE10as_mut_ptrCskT2QP9QPlNo_17mapped_stack_race", scope: !182, file: !2635, line: 1103, type: !2636, scopeLine: 1103, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !198, retainedNodes: !2639)
+!2634 = distinct !DISubprogram(name: "as_mut_ptr<u8,alloc::alloc::Global>", linkageName: "_RNvMs_NtCs8RW06R9lH2S_5alloc3vecINtB4_3VechE10as_mut_ptrCsfnYCCstO0CH_18mapped_static_race", scope: !182, file: !2635, line: 1103, type: !2636, scopeLine: 1103, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !198, retainedNodes: !2639)
 !2635 = !DIFile(filename: "/rustc/e38fb306b7f5e65cca34df2dab1f0db15e1defb4/library/alloc/src/vec/mod.rs", directory: "", checksumkind: CSK_MD5, checksum: "68d3cb798ca32b700b4485247dd90316")
 !2636 = !DISubroutineType(types: !2637)
 !2637 = !{!257, !2638}
@@ -10079,7 +10079,7 @@ attributes #12 = { noinline }
 !2647 = !DILocation(line: 1108, column: 20, scope: !2642)
 !2648 = !DILocation(line: 1108, column: 13, scope: !2642)
 !2649 = !DILocation(line: 1111, column: 6, scope: !2634)
-!2650 = distinct !DISubprogram(name: "current_memory<u8,alloc::alloc::Global>", linkageName: "_RNvMs_NtCs8RW06R9lH2S_5alloc7raw_vecINtB4_6RawVechE14current_memoryCskT2QP9QPlNo_17mapped_stack_race", scope: !186, file: !2651, line: 239, type: !2652, scopeLine: 239, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !198, retainedNodes: !2671)
+!2650 = distinct !DISubprogram(name: "current_memory<u8,alloc::alloc::Global>", linkageName: "_RNvMs_NtCs8RW06R9lH2S_5alloc7raw_vecINtB4_6RawVechE14current_memoryCsfnYCCstO0CH_18mapped_static_race", scope: !186, file: !2651, line: 239, type: !2652, scopeLine: 239, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !198, retainedNodes: !2671)
 !2651 = !DIFile(filename: "/rustc/e38fb306b7f5e65cca34df2dab1f0db15e1defb4/library/alloc/src/raw_vec.rs", directory: "", checksumkind: CSK_MD5, checksum: "09a988e2e342b98a6b0cab47ae048fb6")
 !2652 = !DISubroutineType(types: !2653)
 !2653 = !{!2654, !2670}
@@ -10114,7 +10114,7 @@ attributes #12 = { noinline }
 !2682 = !DILocation(line: 240, column: 9, scope: !2650)
 !2683 = !DILocation(line: 241, column: 13, scope: !2650)
 !2684 = !DILocation(line: 455, column: 5, scope: !2685, inlinedAt: !2686)
-!2685 = distinct !DISubprogram(name: "align_of<u8>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3mem8align_ofhECskT2QP9QPlNo_17mapped_stack_race", scope: !988, file: !1066, line: 454, type: !648, scopeLine: 454, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !176, retainedNodes: !4)
+!2685 = distinct !DISubprogram(name: "align_of<u8>", linkageName: "_RINvNtCs3p84KrD9aKt_4core3mem8align_ofhECsfnYCCstO0CH_18mapped_static_race", scope: !988, file: !1066, line: 454, type: !648, scopeLine: 454, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !176, retainedNodes: !4)
 !2686 = distinct !DILocation(line: 246, column: 29, scope: !2650)
 !2687 = !DILocation(line: 246, column: 29, scope: !2650)
 !2688 = !DILocation(line: 246, column: 21, scope: !2674)
@@ -10127,7 +10127,7 @@ attributes #12 = { noinline }
 !2695 = !DILocation(line: 249, column: 22, scope: !2678)
 !2696 = !DILocation(line: 249, column: 17, scope: !2678)
 !2697 = !DILocation(line: 252, column: 6, scope: !2650)
-!2698 = distinct !DISubprogram(name: "ptr<u8,alloc::alloc::Global>", linkageName: "_RNvMs_NtCs8RW06R9lH2S_5alloc7raw_vecINtB4_6RawVechE3ptrCskT2QP9QPlNo_17mapped_stack_race", scope: !186, file: !2651, line: 222, type: !2699, scopeLine: 222, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !198, retainedNodes: !2701)
+!2698 = distinct !DISubprogram(name: "ptr<u8,alloc::alloc::Global>", linkageName: "_RNvMs_NtCs8RW06R9lH2S_5alloc7raw_vecINtB4_6RawVechE3ptrCsfnYCCstO0CH_18mapped_static_race", scope: !186, file: !2651, line: 222, type: !2699, scopeLine: 222, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !198, retainedNodes: !2701)
 !2699 = !DISubroutineType(types: !2700)
 !2700 = !{!257, !2670}
 !2701 = !{!2702}
@@ -10135,7 +10135,7 @@ attributes #12 = { noinline }
 !2703 = !DILocation(line: 222, column: 16, scope: !2698)
 !2704 = !DILocation(line: 223, column: 9, scope: !2698)
 !2705 = !DILocation(line: 224, column: 6, scope: !2698)
-!2706 = distinct !DISubprogram(name: "as_mut_ptr<u8>", linkageName: "_RNvMs_NtNtCs3p84KrD9aKt_4core3ptr7mut_ptrOSh10as_mut_ptrCskT2QP9QPlNo_17mapped_stack_race", scope: !2043, file: !2042, line: 1186, type: !2707, scopeLine: 1186, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !176, retainedNodes: !2709)
+!2706 = distinct !DISubprogram(name: "as_mut_ptr<u8>", linkageName: "_RNvMs_NtNtCs3p84KrD9aKt_4core3ptr7mut_ptrOSh10as_mut_ptrCsfnYCCstO0CH_18mapped_static_race", scope: !2043, file: !2042, line: 1186, type: !2707, scopeLine: 1186, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !176, retainedNodes: !2709)
 !2707 = !DISubroutineType(types: !2708)
 !2708 = !{!257, !1472}
 !2709 = !{!2710}
@@ -10143,7 +10143,7 @@ attributes #12 = { noinline }
 !2711 = !DILocation(line: 1186, column: 29, scope: !2706)
 !2712 = !DILocation(line: 1187, column: 9, scope: !2706)
 !2713 = !DILocation(line: 1188, column: 6, scope: !2706)
-!2714 = distinct !DISubprogram(name: "new<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>>", linkageName: "_RNvMsa_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtBL_6option6OptionINtNtBL_6result6ResultuINtNtB7_5boxed3BoxDNtNtBL_3any3AnyNtNtBL_6marker4SendEL_EEEEE3newCskT2QP9QPlNo_17mapped_stack_race", scope: !217, file: !2459, line: 329, type: !2715, scopeLine: 329, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !280, retainedNodes: !2717)
+!2714 = distinct !DISubprogram(name: "new<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>>", linkageName: "_RNvMsa_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtBL_6option6OptionINtNtBL_6result6ResultuINtNtB7_5boxed3BoxDNtNtBL_3any3AnyNtNtBL_6marker4SendEL_EEEEE3newCsfnYCCstO0CH_18mapped_static_race", scope: !217, file: !2459, line: 329, type: !2715, scopeLine: 329, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !280, retainedNodes: !2717)
 !2715 = !DISubroutineType(types: !2716)
 !2716 = !{!217, !229}
 !2717 = !{!2718, !2719}
@@ -10164,7 +10164,7 @@ attributes #12 = { noinline }
 !2732 = !DILocation(line: 329, column: 5, scope: !2714)
 !2733 = !DILocation(line: 336, column: 9, scope: !2714)
 !2734 = !DILocation(line: 338, column: 5, scope: !2714)
-!2735 = distinct !DISubprogram(name: "inner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>>", linkageName: "_RNvMse_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtBL_6option6OptionINtNtBL_6result6ResultuINtNtB7_5boxed3BoxDNtNtBL_3any3AnyNtNtBL_6marker4SendEL_EEEEE5innerCskT2QP9QPlNo_17mapped_stack_race", scope: !217, file: !2459, line: 1030, type: !2736, scopeLine: 1030, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !280, retainedNodes: !2739)
+!2735 = distinct !DISubprogram(name: "inner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>>", linkageName: "_RNvMse_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtBL_6option6OptionINtNtBL_6result6ResultuINtNtB7_5boxed3BoxDNtNtBL_3any3AnyNtNtBL_6marker4SendEL_EEEEE5innerCsfnYCCstO0CH_18mapped_static_race", scope: !217, file: !2459, line: 1030, type: !2736, scopeLine: 1030, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !280, retainedNodes: !2739)
 !2736 = !DISubroutineType(types: !2737)
 !2737 = !{!2279, !2738}
 !2738 = !DIDerivedType(tag: DW_TAG_pointer_type, name: "&alloc::sync::Arc<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>>", baseType: !217, size: 64, align: 64, dwarfAddressSpace: 0)
@@ -10173,7 +10173,7 @@ attributes #12 = { noinline }
 !2741 = !DILocation(line: 1030, column: 14, scope: !2735)
 !2742 = !DILocation(line: 1036, column: 18, scope: !2735)
 !2743 = !DILocation(line: 1037, column: 6, scope: !2735)
-!2744 = distinct !DISubprogram(name: "drop_slow<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>>", linkageName: "_RNvMse_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtBL_6option6OptionINtNtBL_6result6ResultuINtNtB7_5boxed3BoxDNtNtBL_3any3AnyNtNtBL_6marker4SendEL_EEEEE9drop_slowCskT2QP9QPlNo_17mapped_stack_race", scope: !217, file: !2459, line: 1041, type: !2745, scopeLine: 1041, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !280, retainedNodes: !2748)
+!2744 = distinct !DISubprogram(name: "drop_slow<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>>", linkageName: "_RNvMse_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtBL_6option6OptionINtNtBL_6result6ResultuINtNtB7_5boxed3BoxDNtNtBL_3any3AnyNtNtBL_6marker4SendEL_EEEEE9drop_slowCsfnYCCstO0CH_18mapped_static_race", scope: !217, file: !2459, line: 1041, type: !2745, scopeLine: 1041, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !280, retainedNodes: !2748)
 !2745 = !DISubroutineType(types: !2746)
 !2746 = !{null, !2747}
 !2747 = !DIDerivedType(tag: DW_TAG_pointer_type, name: "&mut alloc::sync::Arc<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>>", baseType: !217, size: 64, align: 64, dwarfAddressSpace: 0)
@@ -10186,7 +10186,7 @@ attributes #12 = { noinline }
 !2754 = !DILocation(line: 1047, column: 14, scope: !2744)
 !2755 = !DILocation(line: 1047, column: 9, scope: !2744)
 !2756 = !DILocation(line: 1048, column: 6, scope: !2744)
-!2757 = distinct !DISubprogram(name: "inner<std::sync::mutex::Mutex<alloc::vec::Vec<u8, alloc::alloc::Global>>>", linkageName: "_RNvMse_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtB7_3vec3VechEEE5innerCskT2QP9QPlNo_17mapped_stack_race", scope: !122, file: !2459, line: 1030, type: !2758, scopeLine: 1030, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !202, retainedNodes: !2761)
+!2757 = distinct !DISubprogram(name: "inner<std::sync::mutex::Mutex<alloc::vec::Vec<u8, alloc::alloc::Global>>>", linkageName: "_RNvMse_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtB7_3vec3VechEEE5innerCsfnYCCstO0CH_18mapped_static_race", scope: !122, file: !2459, line: 1030, type: !2758, scopeLine: 1030, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !202, retainedNodes: !2761)
 !2758 = !DISubroutineType(types: !2759)
 !2759 = !{!2388, !2760}
 !2760 = !DIDerivedType(tag: DW_TAG_pointer_type, name: "&alloc::sync::Arc<std::sync::mutex::Mutex<alloc::vec::Vec<u8, alloc::alloc::Global>>>", baseType: !122, size: 64, align: 64, dwarfAddressSpace: 0)
@@ -10195,7 +10195,7 @@ attributes #12 = { noinline }
 !2763 = !DILocation(line: 1030, column: 14, scope: !2757)
 !2764 = !DILocation(line: 1036, column: 18, scope: !2757)
 !2765 = !DILocation(line: 1037, column: 6, scope: !2757)
-!2766 = distinct !DISubprogram(name: "drop_slow<std::sync::mutex::Mutex<alloc::vec::Vec<u8, alloc::alloc::Global>>>", linkageName: "_RNvMse_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtB7_3vec3VechEEE9drop_slowCskT2QP9QPlNo_17mapped_stack_race", scope: !122, file: !2459, line: 1041, type: !2767, scopeLine: 1041, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !202, retainedNodes: !2770)
+!2766 = distinct !DISubprogram(name: "drop_slow<std::sync::mutex::Mutex<alloc::vec::Vec<u8, alloc::alloc::Global>>>", linkageName: "_RNvMse_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtB7_3vec3VechEEE9drop_slowCsfnYCCstO0CH_18mapped_static_race", scope: !122, file: !2459, line: 1041, type: !2767, scopeLine: 1041, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !202, retainedNodes: !2770)
 !2767 = !DISubroutineType(types: !2768)
 !2768 = !{null, !2769}
 !2769 = !DIDerivedType(tag: DW_TAG_pointer_type, name: "&mut alloc::sync::Arc<std::sync::mutex::Mutex<alloc::vec::Vec<u8, alloc::alloc::Global>>>", baseType: !122, size: 64, align: 64, dwarfAddressSpace: 0)
@@ -10208,7 +10208,7 @@ attributes #12 = { noinline }
 !2776 = !DILocation(line: 1047, column: 14, scope: !2766)
 !2777 = !DILocation(line: 1047, column: 9, scope: !2766)
 !2778 = !DILocation(line: 1048, column: 6, scope: !2766)
-!2779 = distinct !DISubprogram(name: "inner<std::thread::Inner>", linkageName: "_RNvMse_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcNtNtCs2bNvlddUlXM_3std6thread5InnerE5innerCskT2QP9QPlNo_17mapped_stack_race", scope: !15, file: !2459, line: 1030, type: !2780, scopeLine: 1030, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !106, retainedNodes: !2783)
+!2779 = distinct !DISubprogram(name: "inner<std::thread::Inner>", linkageName: "_RNvMse_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcNtNtCs2bNvlddUlXM_3std6thread5InnerE5innerCsfnYCCstO0CH_18mapped_static_race", scope: !15, file: !2459, line: 1030, type: !2780, scopeLine: 1030, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !106, retainedNodes: !2783)
 !2780 = !DISubroutineType(types: !2781)
 !2781 = !{!2407, !2782}
 !2782 = !DIDerivedType(tag: DW_TAG_pointer_type, name: "&alloc::sync::Arc<std::thread::Inner>", baseType: !15, size: 64, align: 64, dwarfAddressSpace: 0)
@@ -10217,7 +10217,7 @@ attributes #12 = { noinline }
 !2785 = !DILocation(line: 1030, column: 14, scope: !2779)
 !2786 = !DILocation(line: 1036, column: 18, scope: !2779)
 !2787 = !DILocation(line: 1037, column: 6, scope: !2779)
-!2788 = distinct !DISubprogram(name: "drop_slow<std::thread::Inner>", linkageName: "_RNvMse_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcNtNtCs2bNvlddUlXM_3std6thread5InnerE9drop_slowCskT2QP9QPlNo_17mapped_stack_race", scope: !15, file: !2459, line: 1041, type: !2789, scopeLine: 1041, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !106, retainedNodes: !2792)
+!2788 = distinct !DISubprogram(name: "drop_slow<std::thread::Inner>", linkageName: "_RNvMse_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcNtNtCs2bNvlddUlXM_3std6thread5InnerE9drop_slowCsfnYCCstO0CH_18mapped_static_race", scope: !15, file: !2459, line: 1041, type: !2789, scopeLine: 1041, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !106, retainedNodes: !2792)
 !2789 = !DISubroutineType(types: !2790)
 !2790 = !{null, !2791}
 !2791 = !DIDerivedType(tag: DW_TAG_pointer_type, name: "&mut alloc::sync::Arc<std::thread::Inner>", baseType: !15, size: 64, align: 64, dwarfAddressSpace: 0)
@@ -10230,7 +10230,7 @@ attributes #12 = { noinline }
 !2798 = !DILocation(line: 1047, column: 14, scope: !2788)
 !2799 = !DILocation(line: 1047, column: 9, scope: !2788)
 !2800 = !DILocation(line: 1048, column: 6, scope: !2788)
-!2801 = distinct !DISubprogram(name: "get_mut_unchecked<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>>", linkageName: "_RNvMso_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtBL_6option6OptionINtNtBL_6result6ResultuINtNtB7_5boxed3BoxDNtNtBL_3any3AnyNtNtBL_6marker4SendEL_EEEEE17get_mut_uncheckedCskT2QP9QPlNo_17mapped_stack_race", scope: !217, file: !2459, line: 1487, type: !2802, scopeLine: 1487, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !280, retainedNodes: !2805)
+!2801 = distinct !DISubprogram(name: "get_mut_unchecked<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>>", linkageName: "_RNvMso_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtBL_6option6OptionINtNtBL_6result6ResultuINtNtB7_5boxed3BoxDNtNtBL_3any3AnyNtNtBL_6marker4SendEL_EEEEE17get_mut_uncheckedCsfnYCCstO0CH_18mapped_static_race", scope: !217, file: !2459, line: 1487, type: !2802, scopeLine: 1487, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !280, retainedNodes: !2805)
 !2802 = !DISubroutineType(types: !2803)
 !2803 = !{!2804, !2747}
 !2804 = !DIDerivedType(tag: DW_TAG_pointer_type, name: "&mut core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>", baseType: !229, size: 64, align: 64, dwarfAddressSpace: 0)
@@ -10240,7 +10240,7 @@ attributes #12 = { noinline }
 !2808 = !DILocation(line: 1490, column: 25, scope: !2801)
 !2809 = !DILocation(line: 1490, column: 18, scope: !2801)
 !2810 = !DILocation(line: 1491, column: 6, scope: !2801)
-!2811 = distinct !DISubprogram(name: "get_mut_unchecked<std::sync::mutex::Mutex<alloc::vec::Vec<u8, alloc::alloc::Global>>>", linkageName: "_RNvMso_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtB7_3vec3VechEEE17get_mut_uncheckedCskT2QP9QPlNo_17mapped_stack_race", scope: !122, file: !2459, line: 1487, type: !2812, scopeLine: 1487, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !202, retainedNodes: !2815)
+!2811 = distinct !DISubprogram(name: "get_mut_unchecked<std::sync::mutex::Mutex<alloc::vec::Vec<u8, alloc::alloc::Global>>>", linkageName: "_RNvMso_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtB7_3vec3VechEEE17get_mut_uncheckedCsfnYCCstO0CH_18mapped_static_race", scope: !122, file: !2459, line: 1487, type: !2812, scopeLine: 1487, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !202, retainedNodes: !2815)
 !2812 = !DISubroutineType(types: !2813)
 !2813 = !{!2814, !2769}
 !2814 = !DIDerivedType(tag: DW_TAG_pointer_type, name: "&mut std::sync::mutex::Mutex<alloc::vec::Vec<u8, alloc::alloc::Global>>", baseType: !134, size: 64, align: 64, dwarfAddressSpace: 0)
@@ -10250,7 +10250,7 @@ attributes #12 = { noinline }
 !2818 = !DILocation(line: 1490, column: 25, scope: !2811)
 !2819 = !DILocation(line: 1490, column: 18, scope: !2811)
 !2820 = !DILocation(line: 1491, column: 6, scope: !2811)
-!2821 = distinct !DISubprogram(name: "get_mut_unchecked<std::thread::Inner>", linkageName: "_RNvMso_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcNtNtCs2bNvlddUlXM_3std6thread5InnerE17get_mut_uncheckedCskT2QP9QPlNo_17mapped_stack_race", scope: !15, file: !2459, line: 1487, type: !2822, scopeLine: 1487, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !106, retainedNodes: !2825)
+!2821 = distinct !DISubprogram(name: "get_mut_unchecked<std::thread::Inner>", linkageName: "_RNvMso_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcNtNtCs2bNvlddUlXM_3std6thread5InnerE17get_mut_uncheckedCsfnYCCstO0CH_18mapped_static_race", scope: !15, file: !2459, line: 1487, type: !2822, scopeLine: 1487, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !106, retainedNodes: !2825)
 !2822 = !DISubroutineType(types: !2823)
 !2823 = !{!2824, !2791}
 !2824 = !DIDerivedType(tag: DW_TAG_pointer_type, name: "&mut std::thread::Inner", baseType: !44, size: 64, align: 64, dwarfAddressSpace: 0)
@@ -10260,7 +10260,7 @@ attributes #12 = { noinline }
 !2828 = !DILocation(line: 1490, column: 25, scope: !2821)
 !2829 = !DILocation(line: 1490, column: 18, scope: !2821)
 !2830 = !DILocation(line: 1491, column: 6, scope: !2821)
-!2831 = distinct !DISubprogram(name: "inner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>>", linkageName: "_RNvMst_NtCs8RW06R9lH2S_5alloc4syncINtB5_4WeakINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtBM_6option6OptionINtNtBM_6result6ResultuINtNtB7_5boxed3BoxDNtNtBM_3any3AnyNtNtBM_6marker4SendEL_EEEEE5innerCskT2QP9QPlNo_17mapped_stack_race", scope: !1111, file: !2459, line: 1891, type: !2832, scopeLine: 1891, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !280, retainedNodes: !2851)
+!2831 = distinct !DISubprogram(name: "inner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>>", linkageName: "_RNvMst_NtCs8RW06R9lH2S_5alloc4syncINtB5_4WeakINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtBM_6option6OptionINtNtBM_6result6ResultuINtNtB7_5boxed3BoxDNtNtBM_3any3AnyNtNtBM_6marker4SendEL_EEEEE5innerCsfnYCCstO0CH_18mapped_static_race", scope: !1111, file: !2459, line: 1891, type: !2832, scopeLine: 1891, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !280, retainedNodes: !2851)
 !2832 = !DISubroutineType(types: !2833)
 !2833 = !{!2834, !2850}
 !2834 = !DICompositeType(tag: DW_TAG_structure_type, name: "Option<alloc::sync::WeakInner>", scope: !48, file: !2, size: 128, align: 64, elements: !2835, identifier: "6dc9cedcafc72503f757125063febe3")
@@ -10296,7 +10296,7 @@ attributes #12 = { noinline }
 !2864 = !DILocation(line: 1900, column: 17, scope: !2854)
 !2865 = !DILocation(line: 1898, column: 13, scope: !2831)
 !2866 = !DILocation(line: 1903, column: 6, scope: !2831)
-!2867 = distinct !DISubprogram(name: "inner<std::sync::mutex::Mutex<alloc::vec::Vec<u8, alloc::alloc::Global>>>", linkageName: "_RNvMst_NtCs8RW06R9lH2S_5alloc4syncINtB5_4WeakINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtB7_3vec3VechEEE5innerCskT2QP9QPlNo_17mapped_stack_race", scope: !1124, file: !2459, line: 1891, type: !2868, scopeLine: 1891, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !202, retainedNodes: !2871)
+!2867 = distinct !DISubprogram(name: "inner<std::sync::mutex::Mutex<alloc::vec::Vec<u8, alloc::alloc::Global>>>", linkageName: "_RNvMst_NtCs8RW06R9lH2S_5alloc4syncINtB5_4WeakINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtB7_3vec3VechEEE5innerCsfnYCCstO0CH_18mapped_static_race", scope: !1124, file: !2459, line: 1891, type: !2868, scopeLine: 1891, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !202, retainedNodes: !2871)
 !2868 = !DISubroutineType(types: !2869)
 !2869 = !{!2834, !2870}
 !2870 = !DIDerivedType(tag: DW_TAG_pointer_type, name: "&alloc::sync::Weak<std::sync::mutex::Mutex<alloc::vec::Vec<u8, alloc::alloc::Global>>>", baseType: !1124, size: 64, align: 64, dwarfAddressSpace: 0)
@@ -10316,7 +10316,7 @@ attributes #12 = { noinline }
 !2884 = !DILocation(line: 1900, column: 17, scope: !2874)
 !2885 = !DILocation(line: 1898, column: 13, scope: !2867)
 !2886 = !DILocation(line: 1903, column: 6, scope: !2867)
-!2887 = distinct !DISubprogram(name: "inner<std::thread::Inner>", linkageName: "_RNvMst_NtCs8RW06R9lH2S_5alloc4syncINtB5_4WeakNtNtCs2bNvlddUlXM_3std6thread5InnerE5innerCskT2QP9QPlNo_17mapped_stack_race", scope: !1137, file: !2459, line: 1891, type: !2888, scopeLine: 1891, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !106, retainedNodes: !2891)
+!2887 = distinct !DISubprogram(name: "inner<std::thread::Inner>", linkageName: "_RNvMst_NtCs8RW06R9lH2S_5alloc4syncINtB5_4WeakNtNtCs2bNvlddUlXM_3std6thread5InnerE5innerCsfnYCCstO0CH_18mapped_static_race", scope: !1137, file: !2459, line: 1891, type: !2888, scopeLine: 1891, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !106, retainedNodes: !2891)
 !2888 = !DISubroutineType(types: !2889)
 !2889 = !{!2834, !2890}
 !2890 = !DIDerivedType(tag: DW_TAG_pointer_type, name: "&alloc::sync::Weak<std::thread::Inner>", baseType: !1137, size: 64, align: 64, dwarfAddressSpace: 0)
@@ -10336,7 +10336,7 @@ attributes #12 = { noinline }
 !2904 = !DILocation(line: 1900, column: 17, scope: !2894)
 !2905 = !DILocation(line: 1898, column: 13, scope: !2887)
 !2906 = !DILocation(line: 1903, column: 6, scope: !2887)
-!2907 = distinct !DISubprogram(name: "new_unchecked", linkageName: "_RNvMsx_NtNtCs3p84KrD9aKt_4core3num7nonzeroNtB5_12NonZeroUsize13new_uncheckedCskT2QP9QPlNo_17mapped_stack_race", scope: !676, file: !2908, line: 53, type: !2909, scopeLine: 53, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !4, retainedNodes: !2911)
+!2907 = distinct !DISubprogram(name: "new_unchecked", linkageName: "_RNvMsx_NtNtCs3p84KrD9aKt_4core3num7nonzeroNtB5_12NonZeroUsize13new_uncheckedCsfnYCCstO0CH_18mapped_static_race", scope: !676, file: !2908, line: 53, type: !2909, scopeLine: 53, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !4, retainedNodes: !2911)
 !2908 = !DIFile(filename: "/rustc/e38fb306b7f5e65cca34df2dab1f0db15e1defb4/library/core/src/num/nonzero.rs", directory: "", checksumkind: CSK_MD5, checksum: "ba1226616482042b91a7917d627f93a7")
 !2909 = !DISubroutineType(types: !2910)
 !2910 = !{!676, !39}
@@ -10345,14 +10345,14 @@ attributes #12 = { noinline }
 !2913 = !DILocation(line: 53, column: 51, scope: !2907)
 !2914 = !DILocation(line: 55, column: 30, scope: !2907)
 !2915 = !DILocation(line: 56, column: 18, scope: !2907)
-!2916 = distinct !DISubprogram(name: "get", linkageName: "_RNvMsx_NtNtCs3p84KrD9aKt_4core3num7nonzeroNtB5_12NonZeroUsize3getCskT2QP9QPlNo_17mapped_stack_race", scope: !676, file: !2908, line: 75, type: !2917, scopeLine: 75, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !4, retainedNodes: !2919)
+!2916 = distinct !DISubprogram(name: "get", linkageName: "_RNvMsx_NtNtCs3p84KrD9aKt_4core3num7nonzeroNtB5_12NonZeroUsize3getCsfnYCCstO0CH_18mapped_static_race", scope: !676, file: !2908, line: 75, type: !2917, scopeLine: 75, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !4, retainedNodes: !2919)
 !2917 = !DISubroutineType(types: !2918)
 !2918 = !{!39, !676}
 !2919 = !{!2920}
 !2920 = !DILocalVariable(name: "self", arg: 1, scope: !2916, file: !2908, line: 75, type: !676)
 !2921 = !DILocation(line: 75, column: 34, scope: !2916)
 !2922 = !DILocation(line: 77, column: 18, scope: !2916)
-!2923 = distinct !DISubprogram(name: "alloc_zeroed", linkageName: "_RNvNtCs8RW06R9lH2S_5alloc5alloc12alloc_zeroedCskT2QP9QPlNo_17mapped_stack_race", scope: !74, file: !1581, line: 154, type: !2924, scopeLine: 154, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !4, retainedNodes: !2926)
+!2923 = distinct !DISubprogram(name: "alloc_zeroed", linkageName: "_RNvNtCs8RW06R9lH2S_5alloc5alloc12alloc_zeroedCsfnYCCstO0CH_18mapped_static_race", scope: !74, file: !1581, line: 154, type: !2924, scopeLine: 154, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !4, retainedNodes: !2926)
 !2924 = !DISubroutineType(types: !2925)
 !2925 = !{!257, !671}
 !2926 = !{!2927}
@@ -10362,7 +10362,7 @@ attributes #12 = { noinline }
 !2930 = !DILocation(line: 155, column: 49, scope: !2923)
 !2931 = !DILocation(line: 155, column: 14, scope: !2923)
 !2932 = !DILocation(line: 156, column: 2, scope: !2923)
-!2933 = distinct !DISubprogram(name: "exchange_malloc", linkageName: "_RNvNtCs8RW06R9lH2S_5alloc5alloc15exchange_mallocCskT2QP9QPlNo_17mapped_stack_race", scope: !74, file: !1581, line: 314, type: !2934, scopeLine: 314, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !4, retainedNodes: !2936)
+!2933 = distinct !DISubprogram(name: "exchange_malloc", linkageName: "_RNvNtCs8RW06R9lH2S_5alloc5alloc15exchange_mallocCsfnYCCstO0CH_18mapped_static_race", scope: !74, file: !1581, line: 314, type: !2934, scopeLine: 314, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !4, retainedNodes: !2936)
 !2934 = !DISubroutineType(types: !2935)
 !2935 = !{!257, !39, !39}
 !2936 = !{!2937, !2938, !2939, !2941}
@@ -10383,7 +10383,7 @@ attributes #12 = { noinline }
 !2951 = !DILocation(line: 317, column: 12, scope: !2942)
 !2952 = !DILocation(line: 317, column: 20, scope: !2942)
 !2953 = !DILocation(line: 320, column: 2, scope: !2933)
-!2954 = distinct !DISubprogram(name: "alloc", linkageName: "_RNvNtCs8RW06R9lH2S_5alloc5alloc5allocCskT2QP9QPlNo_17mapped_stack_race", scope: !74, file: !1581, line: 85, type: !2924, scopeLine: 85, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !4, retainedNodes: !2955)
+!2954 = distinct !DISubprogram(name: "alloc", linkageName: "_RNvNtCs8RW06R9lH2S_5alloc5alloc5allocCsfnYCCstO0CH_18mapped_static_race", scope: !74, file: !1581, line: 85, type: !2924, scopeLine: 85, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !4, retainedNodes: !2955)
 !2955 = !{!2956}
 !2956 = !DILocalVariable(name: "layout", arg: 1, scope: !2954, file: !1581, line: 85, type: !671)
 !2957 = !DILocation(line: 85, column: 21, scope: !2954)
@@ -10391,7 +10391,7 @@ attributes #12 = { noinline }
 !2959 = !DILocation(line: 86, column: 42, scope: !2954)
 !2960 = !DILocation(line: 86, column: 14, scope: !2954)
 !2961 = !DILocation(line: 87, column: 2, scope: !2954)
-!2962 = distinct !DISubprogram(name: "dealloc", linkageName: "_RNvNtCs8RW06R9lH2S_5alloc5alloc7deallocCskT2QP9QPlNo_17mapped_stack_race", scope: !74, file: !1581, line: 103, type: !2963, scopeLine: 103, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !4, retainedNodes: !2965)
+!2962 = distinct !DISubprogram(name: "dealloc", linkageName: "_RNvNtCs8RW06R9lH2S_5alloc5alloc7deallocCsfnYCCstO0CH_18mapped_static_race", scope: !74, file: !1581, line: 103, type: !2963, scopeLine: 103, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !4, retainedNodes: !2965)
 !2963 = !DISubroutineType(types: !2964)
 !2964 = !{null, !257, !671}
 !2965 = !{!2966, !2967}
@@ -10403,7 +10403,7 @@ attributes #12 = { noinline }
 !2971 = !DILocation(line: 104, column: 49, scope: !2962)
 !2972 = !DILocation(line: 104, column: 14, scope: !2962)
 !2973 = !DILocation(line: 105, column: 2, scope: !2962)
-!2974 = distinct !DISubprogram(name: "fence", linkageName: "_RNvNtNtCs3p84KrD9aKt_4core4sync6atomic5fenceCskT2QP9QPlNo_17mapped_stack_race", scope: !31, file: !1779, line: 2662, type: !2975, scopeLine: 2662, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !4, retainedNodes: !2977)
+!2974 = distinct !DISubprogram(name: "fence", linkageName: "_RNvNtNtCs3p84KrD9aKt_4core4sync6atomic5fenceCsfnYCCstO0CH_18mapped_static_race", scope: !31, file: !1779, line: 2662, type: !2975, scopeLine: 2662, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !4, retainedNodes: !2977)
 !2975 = !DISubroutineType(types: !2976)
 !2976 = !{null, !381}
 !2977 = !{!2978}
@@ -10417,7 +10417,7 @@ attributes #12 = { noinline }
 !2985 = !DILocation(line: 2668, column: 23, scope: !2974)
 !2986 = !DILocation(line: 2669, column: 23, scope: !2974)
 !2987 = !DILocation(line: 2673, column: 2, scope: !2974)
-!2988 = distinct !DISubprogram(name: "get_unchecked_mut<u8>", linkageName: "_RNvXs0_NtNtCs3p84KrD9aKt_4core5slice5indexjINtB5_10SliceIndexShE17get_unchecked_mutCskT2QP9QPlNo_17mapped_stack_race", scope: !2990, file: !2989, line: 174, type: !2992, scopeLine: 174, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !176, retainedNodes: !2994)
+!2988 = distinct !DISubprogram(name: "get_unchecked_mut<u8>", linkageName: "_RNvXs0_NtNtCs3p84KrD9aKt_4core5slice5indexjINtB5_10SliceIndexShE17get_unchecked_mutCsfnYCCstO0CH_18mapped_static_race", scope: !2990, file: !2989, line: 174, type: !2992, scopeLine: 174, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !176, retainedNodes: !2994)
 !2989 = !DIFile(filename: "/rustc/e38fb306b7f5e65cca34df2dab1f0db15e1defb4/library/core/src/slice/index.rs", directory: "", checksumkind: CSK_MD5, checksum: "05d32fa54efed7351250bd83b0024732")
 !2990 = !DINamespace(name: "{{impl}}", scope: !2991)
 !2991 = !DINamespace(name: "index", scope: !574)
@@ -10430,7 +10430,7 @@ attributes #12 = { noinline }
 !2998 = !DILocation(line: 174, column: 39, scope: !2988)
 !2999 = !DILocation(line: 176, column: 18, scope: !2988)
 !3000 = !DILocation(line: 177, column: 6, scope: !2988)
-!3001 = distinct !DISubprogram(name: "into<core::ptr::unique::Unique<u8>,core::ptr::non_null::NonNull<u8>>", linkageName: "_RNvXs1_NtCs3p84KrD9aKt_4core7convertINtNtNtB7_3ptr6unique6UniquehEINtB5_4IntoINtNtBD_8non_null7NonNullhEE4intoCskT2QP9QPlNo_17mapped_stack_race", scope: !3003, file: !3002, line: 536, type: !3005, scopeLine: 536, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !3009, retainedNodes: !3007)
+!3001 = distinct !DISubprogram(name: "into<core::ptr::unique::Unique<u8>,core::ptr::non_null::NonNull<u8>>", linkageName: "_RNvXs1_NtCs3p84KrD9aKt_4core7convertINtNtNtB7_3ptr6unique6UniquehEINtB5_4IntoINtNtBD_8non_null7NonNullhEE4intoCsfnYCCstO0CH_18mapped_static_race", scope: !3003, file: !3002, line: 536, type: !3005, scopeLine: 536, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !3009, retainedNodes: !3007)
 !3002 = !DIFile(filename: "/rustc/e38fb306b7f5e65cca34df2dab1f0db15e1defb4/library/core/src/convert/mod.rs", directory: "", checksumkind: CSK_MD5, checksum: "683eba2dc9f7658448a40e932af7d198")
 !3003 = !DINamespace(name: "{{impl}}", scope: !3004)
 !3004 = !DINamespace(name: "convert", scope: !23)
@@ -10444,7 +10444,7 @@ attributes #12 = { noinline }
 !3012 = !DILocation(line: 536, column: 13, scope: !3001)
 !3013 = !DILocation(line: 537, column: 9, scope: !3001)
 !3014 = !DILocation(line: 538, column: 6, scope: !3001)
-!3015 = distinct !DISubprogram(name: "into<&mut alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>>,core::ptr::non_null::NonNull<alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>>>>", linkageName: "_RNvXs1_NtCs3p84KrD9aKt_4core7convertQINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtB7_4cell10UnsafeCellINtNtB7_6option6OptionINtNtB7_6result6ResultuINtNtBE_5boxed3BoxDNtNtB7_3any3AnyNtNtB7_6marker4SendEL_EEEEEINtB5_4IntoINtNtNtB7_3ptr8non_null7NonNullBz_EE4intoCskT2QP9QPlNo_17mapped_stack_race", scope: !3003, file: !3002, line: 536, type: !3016, scopeLine: 536, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !3020, retainedNodes: !3018)
+!3015 = distinct !DISubprogram(name: "into<&mut alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>>,core::ptr::non_null::NonNull<alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>>>>", linkageName: "_RNvXs1_NtCs3p84KrD9aKt_4core7convertQINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtB7_4cell10UnsafeCellINtNtB7_6option6OptionINtNtB7_6result6ResultuINtNtBE_5boxed3BoxDNtNtB7_3any3AnyNtNtB7_6marker4SendEL_EEEEEINtB5_4IntoINtNtNtB7_3ptr8non_null7NonNullBz_EE4intoCsfnYCCstO0CH_18mapped_static_race", scope: !3003, file: !3002, line: 536, type: !3016, scopeLine: 536, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !3020, retainedNodes: !3018)
 !3016 = !DISubroutineType(types: !3017)
 !3017 = !{!220, !2546}
 !3018 = !{!3019}
@@ -10455,7 +10455,7 @@ attributes #12 = { noinline }
 !3023 = !DILocation(line: 536, column: 13, scope: !3015)
 !3024 = !DILocation(line: 537, column: 9, scope: !3015)
 !3025 = !DILocation(line: 538, column: 6, scope: !3015)
-!3026 = distinct !DISubprogram(name: "drop<u8,alloc::alloc::Global>", linkageName: "_RNvXs1_NtCs8RW06R9lH2S_5alloc7raw_vecINtB5_6RawVechENtNtNtCs3p84KrD9aKt_4core3ops4drop4Drop4dropCskT2QP9QPlNo_17mapped_stack_race", scope: !3027, file: !2651, line: 498, type: !3028, scopeLine: 498, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !198, retainedNodes: !3031)
+!3026 = distinct !DISubprogram(name: "drop<u8,alloc::alloc::Global>", linkageName: "_RNvXs1_NtCs8RW06R9lH2S_5alloc7raw_vecINtB5_6RawVechENtNtNtCs3p84KrD9aKt_4core3ops4drop4Drop4dropCsfnYCCstO0CH_18mapped_static_race", scope: !3027, file: !2651, line: 498, type: !3028, scopeLine: 498, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !198, retainedNodes: !3031)
 !3027 = !DINamespace(name: "{{impl}}", scope: !187)
 !3028 = !DISubroutineType(types: !3029)
 !3029 = !{null, !3030}
@@ -10475,7 +10475,7 @@ attributes #12 = { noinline }
 !3043 = !DILocation(line: 499, column: 27, scope: !3034)
 !3044 = !DILocation(line: 500, column: 22, scope: !3034)
 !3045 = !DILocation(line: 502, column: 6, scope: !3026)
-!3046 = distinct !DISubprogram(name: "drop", linkageName: "_RNvXs1_NtNtCs2bNvlddUlXM_3std3ffi5c_strNtB5_7CStringNtNtNtCs3p84KrD9aKt_4core3ops4drop4Drop4dropCskT2QP9QPlNo_17mapped_stack_race", scope: !3048, file: !3047, line: 769, type: !3049, scopeLine: 769, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !4, retainedNodes: !3052)
+!3046 = distinct !DISubprogram(name: "drop", linkageName: "_RNvXs1_NtNtCs2bNvlddUlXM_3std3ffi5c_strNtB5_7CStringNtNtNtCs3p84KrD9aKt_4core3ops4drop4Drop4dropCsfnYCCstO0CH_18mapped_static_race", scope: !3048, file: !3047, line: 769, type: !3049, scopeLine: 769, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !4, retainedNodes: !3052)
 !3047 = !DIFile(filename: "/rustc/e38fb306b7f5e65cca34df2dab1f0db15e1defb4/library/std/src/ffi/c_str.rs", directory: "", checksumkind: CSK_MD5, checksum: "f052c520b9bba56bff604cb2d6d0e585")
 !3048 = !DINamespace(name: "{{impl}}", scope: !57)
 !3049 = !DISubroutineType(types: !3050)
@@ -10487,7 +10487,7 @@ attributes #12 = { noinline }
 !3055 = !DILocation(line: 771, column: 14, scope: !3046)
 !3056 = !DILocation(line: 771, column: 13, scope: !3046)
 !3057 = !DILocation(line: 773, column: 6, scope: !3046)
-!3058 = distinct !DISubprogram(name: "from<core::alloc::AllocError>", linkageName: "_RNvXs2_NtCs3p84KrD9aKt_4core7convertNtNtB7_5alloc10AllocErrorINtB5_4FromBy_E4fromCskT2QP9QPlNo_17mapped_stack_race", scope: !3003, file: !3002, line: 544, type: !3059, scopeLine: 544, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !3063, retainedNodes: !3061)
+!3058 = distinct !DISubprogram(name: "from<core::alloc::AllocError>", linkageName: "_RNvXs2_NtCs3p84KrD9aKt_4core7convertNtNtB7_5alloc10AllocErrorINtB5_4FromBy_E4fromCsfnYCCstO0CH_18mapped_static_race", scope: !3003, file: !3002, line: 544, type: !3059, scopeLine: 544, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !3063, retainedNodes: !3061)
 !3059 = !DISubroutineType(types: !3060)
 !3060 = !{null, !620}
 !3061 = !{!3062}
@@ -10496,7 +10496,7 @@ attributes #12 = { noinline }
 !3064 = !DITemplateTypeParameter(name: "T", type: !620)
 !3065 = !DILocation(line: 544, column: 13, scope: !3058)
 !3066 = !DILocation(line: 546, column: 6, scope: !3058)
-!3067 = distinct !DISubprogram(name: "from<std::io::error::Error>", linkageName: "_RNvXs2_NtCs3p84KrD9aKt_4core7convertNtNtNtCs2bNvlddUlXM_3std2io5error5ErrorINtB5_4FromBy_E4fromCskT2QP9QPlNo_17mapped_stack_race", scope: !3003, file: !3002, line: 544, type: !3068, scopeLine: 544, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !1445, retainedNodes: !3070)
+!3067 = distinct !DISubprogram(name: "from<std::io::error::Error>", linkageName: "_RNvXs2_NtCs3p84KrD9aKt_4core7convertNtNtNtCs2bNvlddUlXM_3std2io5error5ErrorINtB5_4FromBy_E4fromCsfnYCCstO0CH_18mapped_static_race", scope: !3003, file: !3002, line: 544, type: !3068, scopeLine: 544, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !1445, retainedNodes: !3070)
 !3068 = !DISubroutineType(types: !3069)
 !3069 = !{!300, !300}
 !3070 = !{!3071}
@@ -10504,7 +10504,7 @@ attributes #12 = { noinline }
 !3072 = !DILocation(line: 544, column: 13, scope: !3067)
 !3073 = !DILocation(line: 545, column: 9, scope: !3067)
 !3074 = !DILocation(line: 546, column: 6, scope: !3067)
-!3075 = distinct !DISubprogram(name: "clone<alloc::sync::Arc<std::sync::mutex::Mutex<alloc::vec::Vec<u8, alloc::alloc::Global>>>>", linkageName: "_RNvXs8_NtCs3p84KrD9aKt_4core6optionINtB5_6OptionINtNtCs8RW06R9lH2S_5alloc4sync3ArcINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtBP_3vec3VechEEEENtNtB7_5clone5Clone5cloneCskT2QP9QPlNo_17mapped_stack_race", scope: !3076, file: !592, line: 1276, type: !3077, scopeLine: 1276, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !120, retainedNodes: !3080)
+!3075 = distinct !DISubprogram(name: "clone<alloc::sync::Arc<std::sync::mutex::Mutex<alloc::vec::Vec<u8, alloc::alloc::Global>>>>", linkageName: "_RNvXs8_NtCs3p84KrD9aKt_4core6optionINtB5_6OptionINtNtCs8RW06R9lH2S_5alloc4sync3ArcINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtBP_3vec3VechEEEENtNtB7_5clone5Clone5cloneCsfnYCCstO0CH_18mapped_static_race", scope: !3076, file: !592, line: 1276, type: !3077, scopeLine: 1276, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !120, retainedNodes: !3080)
 !3076 = !DINamespace(name: "{{impl}}", scope: !48)
 !3077 = !DISubroutineType(types: !3078)
 !3078 = !{!114, !3079}
@@ -10523,7 +10523,7 @@ attributes #12 = { noinline }
 !3091 = !DILocation(line: 1278, column: 29, scope: !3083)
 !3092 = !DILocation(line: 1278, column: 24, scope: !3083)
 !3093 = !DILocation(line: 1281, column: 6, scope: !3075)
-!3094 = distinct !DISubprogram(name: "report", linkageName: "_RNvXsC_NtCs2bNvlddUlXM_3std7processuNtB5_11Termination6reportCskT2QP9QPlNo_17mapped_stack_race", scope: !3096, file: !3095, line: 1828, type: !3098, scopeLine: 1828, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !4, retainedNodes: !3100)
+!3094 = distinct !DISubprogram(name: "report", linkageName: "_RNvXsC_NtCs2bNvlddUlXM_3std7processuNtB5_11Termination6reportCsfnYCCstO0CH_18mapped_static_race", scope: !3096, file: !3095, line: 1828, type: !3098, scopeLine: 1828, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !4, retainedNodes: !3100)
 !3095 = !DIFile(filename: "/rustc/e38fb306b7f5e65cca34df2dab1f0db15e1defb4/library/std/src/process.rs", directory: "", checksumkind: CSK_MD5, checksum: "af3deb4955b6b6f458d03bf15fd16325")
 !3096 = !DINamespace(name: "{{impl}}", scope: !3097)
 !3097 = !DINamespace(name: "process", scope: !9)
@@ -10534,7 +10534,7 @@ attributes #12 = { noinline }
 !3102 = !DILocation(line: 1828, column: 15, scope: !3094)
 !3103 = !DILocation(line: 1829, column: 9, scope: !3094)
 !3104 = !DILocation(line: 1830, column: 6, scope: !3094)
-!3105 = distinct !DISubprogram(name: "report", linkageName: "_RNvXsG_NtCs2bNvlddUlXM_3std7processNtB5_8ExitCodeNtB5_11Termination6reportCskT2QP9QPlNo_17mapped_stack_race", scope: !3096, file: !3095, line: 1862, type: !3106, scopeLine: 1862, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !4, retainedNodes: !3111)
+!3105 = distinct !DISubprogram(name: "report", linkageName: "_RNvXsG_NtCs2bNvlddUlXM_3std7processNtB5_8ExitCodeNtB5_11Termination6reportCsfnYCCstO0CH_18mapped_static_race", scope: !3096, file: !3095, line: 1862, type: !3106, scopeLine: 1862, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !4, retainedNodes: !3111)
 !3106 = !DISubroutineType(types: !3107)
 !3107 = !{!103, !3108}
 !3108 = !DICompositeType(tag: DW_TAG_structure_type, name: "ExitCode", scope: !3097, file: !2, size: 8, align: 8, elements: !3109, templateParams: !4, identifier: "3cd0e2b5be33c367134a2531f5f7f17")
@@ -10545,7 +10545,7 @@ attributes #12 = { noinline }
 !3113 = !DILocation(line: 1862, column: 15, scope: !3105)
 !3114 = !DILocation(line: 1863, column: 9, scope: !3105)
 !3115 = !DILocation(line: 1864, column: 6, scope: !3105)
-!3116 = distinct !DISubprogram(name: "deallocate", linkageName: "_RNvXs_NtCs8RW06R9lH2S_5alloc5allocNtB4_6GlobalNtNtCs3p84KrD9aKt_4core5alloc9Allocator10deallocateCskT2QP9QPlNo_17mapped_stack_race", scope: !3117, file: !1581, line: 235, type: !3118, scopeLine: 235, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !4, retainedNodes: !3120)
+!3116 = distinct !DISubprogram(name: "deallocate", linkageName: "_RNvXs_NtCs8RW06R9lH2S_5alloc5allocNtB4_6GlobalNtNtCs3p84KrD9aKt_4core5alloc9Allocator10deallocateCsfnYCCstO0CH_18mapped_static_race", scope: !3117, file: !1581, line: 235, type: !3118, scopeLine: 235, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !4, retainedNodes: !3120)
 !3117 = !DINamespace(name: "{{impl}}", scope: !74)
 !3118 = !DISubroutineType(types: !3119)
 !3119 = !{null, !1988, !601, !671}
@@ -10562,7 +10562,7 @@ attributes #12 = { noinline }
 !3130 = !DILocation(line: 239, column: 44, scope: !3116)
 !3131 = !DILocation(line: 239, column: 22, scope: !3116)
 !3132 = !DILocation(line: 241, column: 6, scope: !3116)
-!3133 = distinct !DISubprogram(name: "allocate", linkageName: "_RNvXs_NtCs8RW06R9lH2S_5alloc5allocNtB4_6GlobalNtNtCs3p84KrD9aKt_4core5alloc9Allocator8allocateCskT2QP9QPlNo_17mapped_stack_race", scope: !3117, file: !1581, line: 225, type: !3134, scopeLine: 225, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !4, retainedNodes: !3136)
+!3133 = distinct !DISubprogram(name: "allocate", linkageName: "_RNvXs_NtCs8RW06R9lH2S_5alloc5allocNtB4_6GlobalNtNtCs3p84KrD9aKt_4core5alloc9Allocator8allocateCsfnYCCstO0CH_18mapped_static_race", scope: !3117, file: !1581, line: 225, type: !3134, scopeLine: 225, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !4, retainedNodes: !3136)
 !3134 = !DISubroutineType(types: !3135)
 !3135 = !{!1971, !1988, !671}
 !3136 = !{!3137, !3138}
@@ -10572,7 +10572,7 @@ attributes #12 = { noinline }
 !3140 = !DILocation(line: 225, column: 24, scope: !3133)
 !3141 = !DILocation(line: 226, column: 9, scope: !3133)
 !3142 = !DILocation(line: 227, column: 6, scope: !3133)
-!3143 = distinct !DISubprogram(name: "from<u8>", linkageName: "_RNvXse_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullhEINtNtB9_7convert4FromINtNtB7_6unique6UniquehEE4fromCskT2QP9QPlNo_17mapped_stack_race", scope: !3144, file: !855, line: 562, type: !3005, scopeLine: 562, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !176, retainedNodes: !3145)
+!3143 = distinct !DISubprogram(name: "from<u8>", linkageName: "_RNvXse_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullhEINtNtB9_7convert4FromINtNtB7_6unique6UniquehEE4fromCsfnYCCstO0CH_18mapped_static_race", scope: !3144, file: !855, line: 562, type: !3005, scopeLine: 562, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !176, retainedNodes: !3145)
 !3144 = !DINamespace(name: "{{impl}}", scope: !21)
 !3145 = !{!3146}
 !3146 = !DILocalVariable(name: "unique", arg: 1, scope: !3143, file: !855, line: 562, type: !190)
@@ -10580,13 +10580,13 @@ attributes #12 = { noinline }
 !3148 = !DILocation(line: 565, column: 41, scope: !3143)
 !3149 = !DILocation(line: 565, column: 18, scope: !3143)
 !3150 = !DILocation(line: 566, column: 6, scope: !3143)
-!3151 = distinct !DISubprogram(name: "from<alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>>>", linkageName: "_RNvXsf_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtB9_4cell10UnsafeCellINtNtB9_6option6OptionINtNtB9_6result6ResultuINtNtBY_5boxed3BoxDNtNtB9_3any3AnyNtNtB9_6marker4SendEL_EEEEEEINtNtB9_7convert4FromQBT_E4fromCskT2QP9QPlNo_17mapped_stack_race", scope: !3144, file: !855, line: 572, type: !3016, scopeLine: 572, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !282, retainedNodes: !3152)
+!3151 = distinct !DISubprogram(name: "from<alloc::sync::ArcInner<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>>>", linkageName: "_RNvXsf_NtNtCs3p84KrD9aKt_4core3ptr8non_nullINtB5_7NonNullINtNtCs8RW06R9lH2S_5alloc4sync8ArcInnerINtNtB9_4cell10UnsafeCellINtNtB9_6option6OptionINtNtB9_6result6ResultuINtNtBY_5boxed3BoxDNtNtB9_3any3AnyNtNtB9_6marker4SendEL_EEEEEEINtNtB9_7convert4FromQBT_E4fromCsfnYCCstO0CH_18mapped_static_race", scope: !3144, file: !855, line: 572, type: !3016, scopeLine: 572, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !282, retainedNodes: !3152)
 !3152 = !{!3153}
 !3153 = !DILocalVariable(name: "reference", arg: 1, scope: !3151, file: !855, line: 572, type: !2546)
 !3154 = !DILocation(line: 572, column: 13, scope: !3151)
 !3155 = !DILocation(line: 574, column: 18, scope: !3151)
 !3156 = !DILocation(line: 575, column: 6, scope: !3151)
-!3157 = distinct !DISubprogram(name: "clone", linkageName: "_RNvXsk_NtCs2bNvlddUlXM_3std6threadNtB5_6ThreadNtNtCs3p84KrD9aKt_4core5clone5Clone5cloneCskT2QP9QPlNo_17mapped_stack_race", scope: !7, file: !390, line: 1030, type: !3158, scopeLine: 1030, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !4, retainedNodes: !3161)
+!3157 = distinct !DISubprogram(name: "clone", linkageName: "_RNvXsk_NtCs2bNvlddUlXM_3std6threadNtB5_6ThreadNtNtCs3p84KrD9aKt_4core5clone5Clone5cloneCsfnYCCstO0CH_18mapped_static_race", scope: !7, file: !390, line: 1030, type: !3158, scopeLine: 1030, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !4, retainedNodes: !3161)
 !3158 = !DISubroutineType(types: !3159)
 !3159 = !{!12, !3160}
 !3160 = !DIDerivedType(tag: DW_TAG_pointer_type, name: "&std::thread::Thread", baseType: !12, size: 64, align: 64, dwarfAddressSpace: 0)
@@ -10599,7 +10599,7 @@ attributes #12 = { noinline }
 !3167 = !DILocation(line: 1051, column: 5, scope: !3164)
 !3168 = !DILocation(line: 1030, column: 10, scope: !3164)
 !3169 = !DILocation(line: 1030, column: 15, scope: !3157)
-!3170 = distinct !DISubprogram(name: "clone<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>>", linkageName: "_RNvXsk_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtBL_6option6OptionINtNtBL_6result6ResultuINtNtB7_5boxed3BoxDNtNtBL_3any3AnyNtNtBL_6marker4SendEL_EEEEENtNtBL_5clone5Clone5cloneCskT2QP9QPlNo_17mapped_stack_race", scope: !3171, file: !2459, line: 1285, type: !3172, scopeLine: 1285, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !280, retainedNodes: !3174)
+!3170 = distinct !DISubprogram(name: "clone<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>>", linkageName: "_RNvXsk_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtBL_6option6OptionINtNtBL_6result6ResultuINtNtB7_5boxed3BoxDNtNtBL_3any3AnyNtNtBL_6marker4SendEL_EEEEENtNtBL_5clone5Clone5cloneCsfnYCCstO0CH_18mapped_static_race", scope: !3171, file: !2459, line: 1285, type: !3172, scopeLine: 1285, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !280, retainedNodes: !3174)
 !3171 = !DINamespace(name: "{{impl}}", scope: !16)
 !3172 = !DISubroutineType(types: !3173)
 !3173 = !{!217, !2738}
@@ -10617,7 +10617,7 @@ attributes #12 = { noinline }
 !3185 = !DILocation(line: 1312, column: 26, scope: !3177)
 !3186 = !DILocation(line: 1312, column: 9, scope: !3177)
 !3187 = !DILocation(line: 1313, column: 6, scope: !3170)
-!3188 = distinct !DISubprogram(name: "clone<std::sync::mutex::Mutex<alloc::vec::Vec<u8, alloc::alloc::Global>>>", linkageName: "_RNvXsk_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtB7_3vec3VechEEENtNtCs3p84KrD9aKt_4core5clone5Clone5cloneCskT2QP9QPlNo_17mapped_stack_race", scope: !3171, file: !2459, line: 1285, type: !3189, scopeLine: 1285, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !202, retainedNodes: !3191)
+!3188 = distinct !DISubprogram(name: "clone<std::sync::mutex::Mutex<alloc::vec::Vec<u8, alloc::alloc::Global>>>", linkageName: "_RNvXsk_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtB7_3vec3VechEEENtNtCs3p84KrD9aKt_4core5clone5Clone5cloneCsfnYCCstO0CH_18mapped_static_race", scope: !3171, file: !2459, line: 1285, type: !3189, scopeLine: 1285, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !202, retainedNodes: !3191)
 !3189 = !DISubroutineType(types: !3190)
 !3190 = !{!122, !2760}
 !3191 = !{!3192, !3193}
@@ -10634,7 +10634,7 @@ attributes #12 = { noinline }
 !3202 = !DILocation(line: 1312, column: 26, scope: !3194)
 !3203 = !DILocation(line: 1312, column: 9, scope: !3194)
 !3204 = !DILocation(line: 1313, column: 6, scope: !3188)
-!3205 = distinct !DISubprogram(name: "clone<std::thread::Inner>", linkageName: "_RNvXsk_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcNtNtCs2bNvlddUlXM_3std6thread5InnerENtNtCs3p84KrD9aKt_4core5clone5Clone5cloneCskT2QP9QPlNo_17mapped_stack_race", scope: !3171, file: !2459, line: 1285, type: !3206, scopeLine: 1285, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !106, retainedNodes: !3208)
+!3205 = distinct !DISubprogram(name: "clone<std::thread::Inner>", linkageName: "_RNvXsk_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcNtNtCs2bNvlddUlXM_3std6thread5InnerENtNtCs3p84KrD9aKt_4core5clone5Clone5cloneCsfnYCCstO0CH_18mapped_static_race", scope: !3171, file: !2459, line: 1285, type: !3206, scopeLine: 1285, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !106, retainedNodes: !3208)
 !3206 = !DISubroutineType(types: !3207)
 !3207 = !{!15, !2782}
 !3208 = !{!3209, !3210}
@@ -10651,7 +10651,7 @@ attributes #12 = { noinline }
 !3219 = !DILocation(line: 1312, column: 26, scope: !3211)
 !3220 = !DILocation(line: 1312, column: 9, scope: !3211)
 !3221 = !DILocation(line: 1313, column: 6, scope: !3205)
-!3222 = distinct !DISubprogram(name: "deref<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>>", linkageName: "_RNvXsl_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtBL_6option6OptionINtNtBL_6result6ResultuINtNtB7_5boxed3BoxDNtNtBL_3any3AnyNtNtBL_6marker4SendEL_EEEEENtNtNtBL_3ops5deref5Deref5derefCskT2QP9QPlNo_17mapped_stack_race", scope: !3171, file: !2459, line: 1321, type: !3223, scopeLine: 1321, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !280, retainedNodes: !3225)
+!3222 = distinct !DISubprogram(name: "deref<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>>", linkageName: "_RNvXsl_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtBL_6option6OptionINtNtBL_6result6ResultuINtNtB7_5boxed3BoxDNtNtBL_3any3AnyNtNtBL_6marker4SendEL_EEEEENtNtNtBL_3ops5deref5Deref5derefCsfnYCCstO0CH_18mapped_static_race", scope: !3171, file: !2459, line: 1321, type: !3223, scopeLine: 1321, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !280, retainedNodes: !3225)
 !3223 = !DISubroutineType(types: !3224)
 !3224 = !{!2620, !2738}
 !3225 = !{!3226}
@@ -10660,7 +10660,7 @@ attributes #12 = { noinline }
 !3228 = !DILocation(line: 1322, column: 10, scope: !3222)
 !3229 = !DILocation(line: 1322, column: 9, scope: !3222)
 !3230 = !DILocation(line: 1323, column: 6, scope: !3222)
-!3231 = distinct !DISubprogram(name: "drop<u8,alloc::alloc::Global>", linkageName: "_RNvXsm_NtCs8RW06R9lH2S_5alloc3vecINtB5_3VechENtNtNtCs3p84KrD9aKt_4core3ops4drop4Drop4dropCskT2QP9QPlNo_17mapped_stack_race", scope: !3232, file: !2635, line: 2320, type: !3233, scopeLine: 2320, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !198, retainedNodes: !3235)
+!3231 = distinct !DISubprogram(name: "drop<u8,alloc::alloc::Global>", linkageName: "_RNvXsm_NtCs8RW06R9lH2S_5alloc3vecINtB5_3VechENtNtNtCs3p84KrD9aKt_4core3ops4drop4Drop4dropCsfnYCCstO0CH_18mapped_static_race", scope: !3232, file: !2635, line: 2320, type: !3233, scopeLine: 2320, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !198, retainedNodes: !3235)
 !3232 = !DINamespace(name: "{{impl}}", scope: !183)
 !3233 = !DISubroutineType(types: !3234)
 !3234 = !{null, !2638}
@@ -10672,7 +10672,7 @@ attributes #12 = { noinline }
 !3240 = !DILocation(line: 2325, column: 32, scope: !3231)
 !3241 = !DILocation(line: 2325, column: 13, scope: !3231)
 !3242 = !DILocation(line: 2328, column: 6, scope: !3231)
-!3243 = distinct !DISubprogram(name: "drop<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>>", linkageName: "_RNvXsp_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtBL_6option6OptionINtNtBL_6result6ResultuINtNtB7_5boxed3BoxDNtNtBL_3any3AnyNtNtBL_6marker4SendEL_EEEEENtNtNtBL_3ops4drop4Drop4dropCskT2QP9QPlNo_17mapped_stack_race", scope: !3171, file: !2459, line: 1550, type: !2745, scopeLine: 1550, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !280, retainedNodes: !3244)
+!3243 = distinct !DISubprogram(name: "drop<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>>", linkageName: "_RNvXsp_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtBL_6option6OptionINtNtBL_6result6ResultuINtNtB7_5boxed3BoxDNtNtBL_3any3AnyNtNtBL_6marker4SendEL_EEEEENtNtNtBL_3ops4drop4Drop4dropCsfnYCCstO0CH_18mapped_static_race", scope: !3171, file: !2459, line: 1550, type: !2745, scopeLine: 1550, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !280, retainedNodes: !3244)
 !3244 = !{!3245}
 !3245 = !DILocalVariable(name: "self", arg: 1, scope: !3243, file: !2459, line: 1550, type: !2747)
 !3246 = !DILocation(line: 1550, column: 13, scope: !3243)
@@ -10682,7 +10682,7 @@ attributes #12 = { noinline }
 !3250 = !DILocation(line: 1591, column: 6, scope: !3243)
 !3251 = !DILocation(line: 1586, column: 9, scope: !3243)
 !3252 = !DILocation(line: 1589, column: 13, scope: !3243)
-!3253 = distinct !DISubprogram(name: "drop<std::sync::mutex::Mutex<alloc::vec::Vec<u8, alloc::alloc::Global>>>", linkageName: "_RNvXsp_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtB7_3vec3VechEEENtNtNtCs3p84KrD9aKt_4core3ops4drop4Drop4dropCskT2QP9QPlNo_17mapped_stack_race", scope: !3171, file: !2459, line: 1550, type: !2767, scopeLine: 1550, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !202, retainedNodes: !3254)
+!3253 = distinct !DISubprogram(name: "drop<std::sync::mutex::Mutex<alloc::vec::Vec<u8, alloc::alloc::Global>>>", linkageName: "_RNvXsp_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtB7_3vec3VechEEENtNtNtCs3p84KrD9aKt_4core3ops4drop4Drop4dropCsfnYCCstO0CH_18mapped_static_race", scope: !3171, file: !2459, line: 1550, type: !2767, scopeLine: 1550, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !202, retainedNodes: !3254)
 !3254 = !{!3255}
 !3255 = !DILocalVariable(name: "self", arg: 1, scope: !3253, file: !2459, line: 1550, type: !2769)
 !3256 = !DILocation(line: 1550, column: 13, scope: !3253)
@@ -10692,7 +10692,7 @@ attributes #12 = { noinline }
 !3260 = !DILocation(line: 1591, column: 6, scope: !3253)
 !3261 = !DILocation(line: 1586, column: 9, scope: !3253)
 !3262 = !DILocation(line: 1589, column: 13, scope: !3253)
-!3263 = distinct !DISubprogram(name: "drop<std::thread::Inner>", linkageName: "_RNvXsp_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcNtNtCs2bNvlddUlXM_3std6thread5InnerENtNtNtCs3p84KrD9aKt_4core3ops4drop4Drop4dropCskT2QP9QPlNo_17mapped_stack_race", scope: !3171, file: !2459, line: 1550, type: !2789, scopeLine: 1550, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !106, retainedNodes: !3264)
+!3263 = distinct !DISubprogram(name: "drop<std::thread::Inner>", linkageName: "_RNvXsp_NtCs8RW06R9lH2S_5alloc4syncINtB5_3ArcNtNtCs2bNvlddUlXM_3std6thread5InnerENtNtNtCs3p84KrD9aKt_4core3ops4drop4Drop4dropCsfnYCCstO0CH_18mapped_static_race", scope: !3171, file: !2459, line: 1550, type: !2789, scopeLine: 1550, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !106, retainedNodes: !3264)
 !3264 = !{!3265}
 !3265 = !DILocalVariable(name: "self", arg: 1, scope: !3263, file: !2459, line: 1550, type: !2791)
 !3266 = !DILocation(line: 1550, column: 13, scope: !3263)
@@ -10702,7 +10702,7 @@ attributes #12 = { noinline }
 !3270 = !DILocation(line: 1591, column: 6, scope: !3263)
 !3271 = !DILocation(line: 1586, column: 9, scope: !3263)
 !3272 = !DILocation(line: 1589, column: 13, scope: !3263)
-!3273 = distinct !DISubprogram(name: "call_once<(),closure-0>", linkageName: "_RNvXss_NtCs2bNvlddUlXM_3std5panicINtB5_16AssertUnwindSafeNCNCINvMNtB7_6threadNtB11_7Builder15spawn_uncheckedNCNvCskT2QP9QPlNo_17mapped_stack_race4main0uE00EINtNtNtCs3p84KrD9aKt_4core3ops8function6FnOnceuE9call_onceB1M_", scope: !3274, file: !943, line: 321, type: !1011, scopeLine: 321, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !3278, retainedNodes: !3275)
+!3273 = distinct !DISubprogram(name: "call_once<(),closure-0>", linkageName: "_RNvXss_NtCs2bNvlddUlXM_3std5panicINtB5_16AssertUnwindSafeNCNCINvMNtB7_6threadNtB11_7Builder15spawn_uncheckedNCNvCsfnYCCstO0CH_18mapped_static_race4main0uE00EINtNtNtCs3p84KrD9aKt_4core3ops8function6FnOnceuE9call_onceB1M_", scope: !3274, file: !943, line: 321, type: !1011, scopeLine: 321, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !3278, retainedNodes: !3275)
 !3274 = !DINamespace(name: "{{impl}}", scope: !944)
 !3275 = !{!3276, !3277}
 !3276 = !DILocalVariable(name: "self", arg: 1, scope: !3273, file: !943, line: 321, type: !947)
@@ -10713,7 +10713,7 @@ attributes #12 = { noinline }
 !3281 = !DILocation(line: 321, column: 43, scope: !3273)
 !3282 = !DILocation(line: 322, column: 9, scope: !3273)
 !3283 = !DILocation(line: 323, column: 6, scope: !3273)
-!3284 = distinct !DISubprogram(name: "from_error<std::thread::JoinHandle<()>,std::io::error::Error>", linkageName: "_RNvXsw_NtCs3p84KrD9aKt_4core6resultINtB5_6ResultINtNtCs2bNvlddUlXM_3std6thread10JoinHandleuENtNtNtBP_2io5error5ErrorENtNtNtB7_3ops3try3Try10from_errorCskT2QP9QPlNo_17mapped_stack_race", scope: !3285, file: !2513, line: 1506, type: !3286, scopeLine: 1506, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !459, retainedNodes: !3288)
+!3284 = distinct !DISubprogram(name: "from_error<std::thread::JoinHandle<()>,std::io::error::Error>", linkageName: "_RNvXsw_NtCs3p84KrD9aKt_4core6resultINtB5_6ResultINtNtCs2bNvlddUlXM_3std6thread10JoinHandleuENtNtNtBP_2io5error5ErrorENtNtNtB7_3ops3try3Try10from_errorCsfnYCCstO0CH_18mapped_static_race", scope: !3285, file: !2513, line: 1506, type: !3286, scopeLine: 1506, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !459, retainedNodes: !3288)
 !3285 = !DINamespace(name: "{{impl}}", scope: !241)
 !3286 = !DISubroutineType(types: !3287)
 !3287 = !{!423, !300}
@@ -10723,7 +10723,7 @@ attributes #12 = { noinline }
 !3291 = !DILocation(line: 1507, column: 13, scope: !3284)
 !3292 = !DILocation(line: 1507, column: 9, scope: !3284)
 !3293 = !DILocation(line: 1508, column: 6, scope: !3284)
-!3294 = distinct !DISubprogram(name: "from_error<core::ptr::non_null::NonNull<[u8]>,core::alloc::AllocError>", linkageName: "_RNvXsw_NtCs3p84KrD9aKt_4core6resultINtB5_6ResultINtNtNtB7_3ptr8non_null7NonNullShENtNtB7_5alloc10AllocErrorENtNtNtB7_3ops3try3Try10from_errorCskT2QP9QPlNo_17mapped_stack_race", scope: !3285, file: !2513, line: 1506, type: !3295, scopeLine: 1506, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !1982, retainedNodes: !3297)
+!3294 = distinct !DISubprogram(name: "from_error<core::ptr::non_null::NonNull<[u8]>,core::alloc::AllocError>", linkageName: "_RNvXsw_NtCs3p84KrD9aKt_4core6resultINtB5_6ResultINtNtNtB7_3ptr8non_null7NonNullShENtNtB7_5alloc10AllocErrorENtNtNtB7_3ops3try3Try10from_errorCsfnYCCstO0CH_18mapped_static_race", scope: !3285, file: !2513, line: 1506, type: !3295, scopeLine: 1506, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !1982, retainedNodes: !3297)
 !3295 = !DISubroutineType(types: !3296)
 !3296 = !{!1971, !620}
 !3297 = !{!3298}
@@ -10731,14 +10731,14 @@ attributes #12 = { noinline }
 !3299 = !DILocation(line: 1506, column: 19, scope: !3294)
 !3300 = !DILocation(line: 1507, column: 9, scope: !3294)
 !3301 = !DILocation(line: 1508, column: 6, scope: !3294)
-!3302 = distinct !DISubprogram(name: "into_result<core::ptr::non_null::NonNull<u8>,core::alloc::AllocError>", linkageName: "_RNvXsw_NtCs3p84KrD9aKt_4core6resultINtB5_6ResultINtNtNtB7_3ptr8non_null7NonNullhENtNtB7_5alloc10AllocErrorENtNtNtB7_3ops3try3Try11into_resultCskT2QP9QPlNo_17mapped_stack_race", scope: !3285, file: !2513, line: 1496, type: !3303, scopeLine: 1496, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !618, retainedNodes: !3305)
+!3302 = distinct !DISubprogram(name: "into_result<core::ptr::non_null::NonNull<u8>,core::alloc::AllocError>", linkageName: "_RNvXsw_NtCs3p84KrD9aKt_4core6resultINtB5_6ResultINtNtNtB7_3ptr8non_null7NonNullhENtNtB7_5alloc10AllocErrorENtNtNtB7_3ops3try3Try11into_resultCsfnYCCstO0CH_18mapped_static_race", scope: !3285, file: !2513, line: 1496, type: !3303, scopeLine: 1496, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !618, retainedNodes: !3305)
 !3303 = !DISubroutineType(types: !3304)
 !3304 = !{!610, !610}
 !3305 = !{!3306}
 !3306 = !DILocalVariable(name: "self", arg: 1, scope: !3302, file: !2513, line: 1496, type: !610)
 !3307 = !DILocation(line: 1496, column: 20, scope: !3302)
 !3308 = !DILocation(line: 1498, column: 6, scope: !3302)
-!3309 = distinct !DISubprogram(name: "into_result<std::sys::unix::thread::Thread,std::io::error::Error>", linkageName: "_RNvXsw_NtCs3p84KrD9aKt_4core6resultINtB5_6ResultNtNtNtNtCs2bNvlddUlXM_3std3sys4unix6thread6ThreadNtNtNtBS_2io5error5ErrorENtNtNtB7_3ops3try3Try11into_resultCskT2QP9QPlNo_17mapped_stack_race", scope: !3285, file: !2513, line: 1496, type: !3310, scopeLine: 1496, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !3320, retainedNodes: !3325)
+!3309 = distinct !DISubprogram(name: "into_result<std::sys::unix::thread::Thread,std::io::error::Error>", linkageName: "_RNvXsw_NtCs3p84KrD9aKt_4core6resultINtB5_6ResultNtNtNtNtCs2bNvlddUlXM_3std3sys4unix6thread6ThreadNtNtNtBS_2io5error5ErrorENtNtNtB7_3ops3try3Try11into_resultCsfnYCCstO0CH_18mapped_static_race", scope: !3285, file: !2513, line: 1496, type: !3310, scopeLine: 1496, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !3320, retainedNodes: !3325)
 !3310 = !DISubroutineType(types: !3311)
 !3311 = !{!3312, !3312}
 !3312 = !DICompositeType(tag: DW_TAG_structure_type, name: "Result<std::sys::unix::thread::Thread, std::io::error::Error>", scope: !241, file: !2, size: 192, align: 64, elements: !3313, identifier: "4ff89fd1b07fb31475b3bd96b1f0087c")
@@ -10759,7 +10759,7 @@ attributes #12 = { noinline }
 !3327 = !DILocation(line: 1496, column: 20, scope: !3309)
 !3328 = !DILocation(line: 1497, column: 9, scope: !3309)
 !3329 = !DILocation(line: 1498, column: 6, scope: !3309)
-!3330 = distinct !DISubprogram(name: "drop<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>>", linkageName: "_RNvXsw_NtCs8RW06R9lH2S_5alloc4syncINtB5_4WeakINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtBM_6option6OptionINtNtBM_6result6ResultuINtNtB7_5boxed3BoxDNtNtBM_3any3AnyNtNtBM_6marker4SendEL_EEEEENtNtNtBM_3ops4drop4Drop4dropCskT2QP9QPlNo_17mapped_stack_race", scope: !3171, file: !2459, line: 2035, type: !3331, scopeLine: 2035, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !280, retainedNodes: !3334)
+!3330 = distinct !DISubprogram(name: "drop<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>>", linkageName: "_RNvXsw_NtCs8RW06R9lH2S_5alloc4syncINtB5_4WeakINtNtCs3p84KrD9aKt_4core4cell10UnsafeCellINtNtBM_6option6OptionINtNtBM_6result6ResultuINtNtB7_5boxed3BoxDNtNtBM_3any3AnyNtNtBM_6marker4SendEL_EEEEENtNtNtBM_3ops4drop4Drop4dropCsfnYCCstO0CH_18mapped_static_race", scope: !3171, file: !2459, line: 2035, type: !3331, scopeLine: 2035, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !280, retainedNodes: !3334)
 !3331 = !DISubroutineType(types: !3332)
 !3332 = !{null, !3333}
 !3333 = !DIDerivedType(tag: DW_TAG_pointer_type, name: "&mut alloc::sync::Weak<core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<Any, alloc::alloc::Global>>>>>", baseType: !1111, size: 64, align: 64, dwarfAddressSpace: 0)
@@ -10785,7 +10785,7 @@ attributes #12 = { noinline }
 !3353 = !DILocation(line: 2048, column: 79, scope: !3337)
 !3354 = !DILocation(line: 2048, column: 57, scope: !3337)
 !3355 = !DILocation(line: 2048, column: 22, scope: !3337)
-!3356 = distinct !DISubprogram(name: "drop<std::sync::mutex::Mutex<alloc::vec::Vec<u8, alloc::alloc::Global>>>", linkageName: "_RNvXsw_NtCs8RW06R9lH2S_5alloc4syncINtB5_4WeakINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtB7_3vec3VechEEENtNtNtCs3p84KrD9aKt_4core3ops4drop4Drop4dropCskT2QP9QPlNo_17mapped_stack_race", scope: !3171, file: !2459, line: 2035, type: !3357, scopeLine: 2035, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !202, retainedNodes: !3360)
+!3356 = distinct !DISubprogram(name: "drop<std::sync::mutex::Mutex<alloc::vec::Vec<u8, alloc::alloc::Global>>>", linkageName: "_RNvXsw_NtCs8RW06R9lH2S_5alloc4syncINtB5_4WeakINtNtNtCs2bNvlddUlXM_3std4sync5mutex5MutexINtNtB7_3vec3VechEEENtNtNtCs3p84KrD9aKt_4core3ops4drop4Drop4dropCsfnYCCstO0CH_18mapped_static_race", scope: !3171, file: !2459, line: 2035, type: !3357, scopeLine: 2035, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !202, retainedNodes: !3360)
 !3357 = !DISubroutineType(types: !3358)
 !3358 = !{null, !3359}
 !3359 = !DIDerivedType(tag: DW_TAG_pointer_type, name: "&mut alloc::sync::Weak<std::sync::mutex::Mutex<alloc::vec::Vec<u8, alloc::alloc::Global>>>", baseType: !1124, size: 64, align: 64, dwarfAddressSpace: 0)
@@ -10811,7 +10811,7 @@ attributes #12 = { noinline }
 !3379 = !DILocation(line: 2048, column: 79, scope: !3363)
 !3380 = !DILocation(line: 2048, column: 57, scope: !3363)
 !3381 = !DILocation(line: 2048, column: 22, scope: !3363)
-!3382 = distinct !DISubprogram(name: "drop<std::thread::Inner>", linkageName: "_RNvXsw_NtCs8RW06R9lH2S_5alloc4syncINtB5_4WeakNtNtCs2bNvlddUlXM_3std6thread5InnerENtNtNtCs3p84KrD9aKt_4core3ops4drop4Drop4dropCskT2QP9QPlNo_17mapped_stack_race", scope: !3171, file: !2459, line: 2035, type: !3383, scopeLine: 2035, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !106, retainedNodes: !3386)
+!3382 = distinct !DISubprogram(name: "drop<std::thread::Inner>", linkageName: "_RNvXsw_NtCs8RW06R9lH2S_5alloc4syncINtB5_4WeakNtNtCs2bNvlddUlXM_3std6thread5InnerENtNtNtCs3p84KrD9aKt_4core3ops4drop4Drop4dropCsfnYCCstO0CH_18mapped_static_race", scope: !3171, file: !2459, line: 2035, type: !3383, scopeLine: 2035, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !106, retainedNodes: !3386)
 !3383 = !DISubroutineType(types: !3384)
 !3384 = !{null, !3385}
 !3385 = !DIDerivedType(tag: DW_TAG_pointer_type, name: "&mut alloc::sync::Weak<std::thread::Inner>", baseType: !1137, size: 64, align: 64, dwarfAddressSpace: 0)
@@ -10837,21 +10837,21 @@ attributes #12 = { noinline }
 !3405 = !DILocation(line: 2048, column: 79, scope: !3389)
 !3406 = !DILocation(line: 2048, column: 57, scope: !3389)
 !3407 = !DILocation(line: 2048, column: 22, scope: !3389)
-!3408 = distinct !DISubprogram(name: "call_once<fn(),()>", linkageName: "_RNvYFEuINtNtNtCs3p84KrD9aKt_4core3ops8function6FnOnceuE9call_onceCskT2QP9QPlNo_17mapped_stack_race", scope: !1949, file: !1948, line: 227, type: !1749, scopeLine: 227, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !3412, retainedNodes: !3409)
+!3408 = distinct !DISubprogram(name: "call_once<fn(),()>", linkageName: "_RNvYFEuINtNtNtCs3p84KrD9aKt_4core3ops8function6FnOnceuE9call_onceCsfnYCCstO0CH_18mapped_static_race", scope: !1949, file: !1948, line: 227, type: !1749, scopeLine: 227, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !3412, retainedNodes: !3409)
 !3409 = !{!3410, !3411}
 !3410 = !DILocalVariable(arg: 1, scope: !3408, file: !1948, line: 227, type: !294)
 !3411 = !DILocalVariable(arg: 2, scope: !3408, file: !1948, line: 227, type: !249)
 !3412 = !{!3413, !1957}
 !3413 = !DITemplateTypeParameter(name: "Self", type: !294)
 !3414 = !DILocation(line: 227, column: 5, scope: !3408)
-!3415 = distinct !DISubprogram(name: "call_once<closure-0,()>", linkageName: "_RNvYNCINvNtCs2bNvlddUlXM_3std2rt10lang_startuE0INtNtNtCs3p84KrD9aKt_4core3ops8function6FnOnceuE9call_onceCskT2QP9QPlNo_17mapped_stack_race", scope: !1949, file: !1948, line: 227, type: !3416, scopeLine: 227, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !1965, retainedNodes: !3418)
+!3415 = distinct !DISubprogram(name: "call_once<closure-0,()>", linkageName: "_RNvYNCINvNtCs2bNvlddUlXM_3std2rt10lang_startuE0INtNtNtCs3p84KrD9aKt_4core3ops8function6FnOnceuE9call_onceCsfnYCCstO0CH_18mapped_static_race", scope: !1949, file: !1948, line: 227, type: !3416, scopeLine: 227, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !1965, retainedNodes: !3418)
 !3416 = !DISubroutineType(types: !3417)
 !3417 = !{!103, !289}
 !3418 = !{!3419, !3420}
 !3419 = !DILocalVariable(arg: 1, scope: !3415, file: !1948, line: 227, type: !289)
 !3420 = !DILocalVariable(arg: 2, scope: !3415, file: !1948, line: 227, type: !249)
 !3421 = !DILocation(line: 227, column: 5, scope: !3415)
-!3422 = distinct !DISubprogram(name: "call_once<fn() -> usize,()>", linkageName: "_RNvYNvNtNtCs2bNvlddUlXM_3std10sys_common6thread9min_stackINtNtNtCs3p84KrD9aKt_4core3ops8function6FnOnceuE9call_onceCskT2QP9QPlNo_17mapped_stack_race", scope: !1949, file: !1948, line: 227, type: !3423, scopeLine: 227, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !3428, retainedNodes: !3425)
+!3422 = distinct !DISubprogram(name: "call_once<fn() -> usize,()>", linkageName: "_RNvYNvNtNtCs2bNvlddUlXM_3std10sys_common6thread9min_stackINtNtNtCs3p84KrD9aKt_4core3ops8function6FnOnceuE9call_onceCsfnYCCstO0CH_18mapped_static_race", scope: !1949, file: !1948, line: 227, type: !3423, scopeLine: 227, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !3428, retainedNodes: !3425)
 !3423 = !DISubroutineType(types: !3424)
 !3424 = !{!39, !647}
 !3425 = !{!3426, !3427}
@@ -10860,7 +10860,7 @@ attributes #12 = { noinline }
 !3428 = !{!3429, !1957}
 !3429 = !DITemplateTypeParameter(name: "Self", type: !647)
 !3430 = !DILocation(line: 227, column: 5, scope: !3422)
-!3431 = distinct !DISubprogram(name: "main", linkageName: "_RNvCskT2QP9QPlNo_17mapped_stack_race4main", scope: !215, file: !360, line: 5, type: !295, scopeLine: 5, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition | DISPFlagMainSubprogram, unit: !365, templateParams: !4, retainedNodes: !3432)
+!3431 = distinct !DISubprogram(name: "main", linkageName: "_RNvCsfnYCCstO0CH_18mapped_static_race4main", scope: !215, file: !360, line: 5, type: !295, scopeLine: 5, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition | DISPFlagMainSubprogram, unit: !365, templateParams: !4, retainedNodes: !3432)
 !3432 = !{!3433, !3435}
 !3433 = !DILocalVariable(name: "_child", scope: !3434, file: !360, line: 10, type: !431, align: 8)
 !3434 = distinct !DILexicalBlock(scope: !3431, file: !360, line: 10, column: 2)
@@ -10876,7 +10876,7 @@ attributes #12 = { noinline }
 !3444 = !DILocation(line: 20, column: 1, scope: !3431)
 !3445 = !DILocation(line: 20, column: 2, scope: !3431)
 !3446 = !DILocation(line: 5, column: 1, scope: !3431)
-!3447 = distinct !DISubprogram(name: "{{closure}}", linkageName: "_RNCNvCskT2QP9QPlNo_17mapped_stack_race4main0B3_", scope: !214, file: !360, line: 10, type: !1765, scopeLine: 10, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !4, retainedNodes: !3448)
+!3447 = distinct !DISubprogram(name: "{{closure}}", linkageName: "_RNCNvCsfnYCCstO0CH_18mapped_static_race4main0B3_", scope: !214, file: !360, line: 10, type: !1765, scopeLine: 10, flags: DIFlagPrototyped, spFlags: DISPFlagLocalToUnit | DISPFlagDefinition, unit: !365, templateParams: !4, retainedNodes: !3448)
 !3448 = !{!3449}
 !3449 = !DILocalVariable(arg: 1, scope: !3447, file: !360, line: 10, type: !213)
 !3450 = !DILocation(line: 10, column: 30, scope: !3447)
