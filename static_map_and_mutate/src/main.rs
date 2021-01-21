@@ -6,7 +6,7 @@ use std::thread;
 // We do this in order to test to observe how the Rust compiler maps the static variable
 
 fn main() {
-	static mut myvar: u8 = 8;
+	static mut myvar: u8 = 69;
 
 	// Fork off child
 	let child = thread::spawn(move || {
@@ -14,9 +14,9 @@ fn main() {
 
 		// Child thread access and mutate (increment)
 		unsafe {
-			println!("Child says: Before incrementing, myvar is {}", myvar);
+			//println!("Child says: Before incrementing, myvar is {}", myvar);
 			myvar += 1;  // Alter (increment) variable
-			println!("Child says: After incrementing, myvar is {}", myvar);
+			//println!("Child says: After incrementing, myvar is {}", myvar);
 		}
 	});
 
@@ -24,8 +24,8 @@ fn main() {
 
 	// Parent thread access and mutate (increment)
 	unsafe {
-		println!("Parent says: Before incrementing, myvar is {}", myvar);
+		//println!("Parent says: Before incrementing, myvar is {}", myvar);
 		myvar += 1;
-		println!("Parent says: After incrementing, myvar is {}", myvar);
+		//println!("Parent says: After incrementing, myvar is {}", myvar);
 	}
 }

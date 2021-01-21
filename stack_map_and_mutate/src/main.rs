@@ -6,21 +6,21 @@ use std::thread;
 // We do this in order to test to observe how the Rust compiler maps stack variables
 
 fn main() {
-	let mut myvar = 8 as u8;
+	let mut myvar = 69 as u8;
 
 	// Fork off child
 	let child = thread::spawn(move || {
 		// Thread function
 		// Child thread access
-		println!("Child says: Before increment, myvar is {}", myvar);
+		//println!("Child says: Before increment, myvar is {}", myvar);
 		myvar += 1;
-		println!("Child says: After increment, myvar is {}", myvar);
+		//println!("Child says: After increment, myvar is {}", myvar);
 	});
 
 	let _r = child.join();  // Join to avoid race condition
 
 	// Parent thread access
-	println!("Parent says: Before increment, myvar is {}", myvar);
+	//println!("Parent says: Before increment, myvar is {}", myvar);
 	myvar += 1;
-	println!("Parent says: After increment, myvar is {}", myvar);
+	//println!("Parent says: After increment, myvar is {}", myvar);
 }
