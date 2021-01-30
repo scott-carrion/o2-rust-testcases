@@ -1,4 +1,3 @@
-extern crate crossbeam;
 use std::thread;
 use std::sync::Arc;
 

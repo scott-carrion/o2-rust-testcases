@@ -1,0 +1,11 @@
+-Internally, crossbeam::crossbeam_queue::ArrayQueue<i32> is allocated (via alloc::sync::{same name as left}) as a set of std::sync::atomic::AtomicUsize, much like a std::vector has a default size in C/C++, and is then resized dynamically as more elements are pushed to it.
+
+-The chief interfaces of crossbeam::crossbeam_queue::ArrayQueue<i32> and crossbeam::crossbeam_queue::SegQueue<i32> internally use <core::cell::UnsafeCell<core::option::Option<core::result::Result<(), alloc::boxed::Box<dyn core::any::Any + core::marker::Send>>>>>::new to map variables across threads (i.e uses std::cell::UnsafeCell to interface with the mutable contents of the container (here, a vector) and the alloc::boxed::Box API to handle memory allocation) 
+
+-Found this by looking inside the calls to std::thread::Builder::spawn_unchecked(...), which, as we learned last week, is where the mapping and setup of threads actually takes place (callers to this areresponsible for passing down variables and checking physical constraints like memory, as stated last week)
+
+-Noticed that Arc usually requires the use of a std::sync::Mutex when using it for synchronization explicitly, and with crossbeam, the explicit use of it is not needed. But, in the LLVM IR, we can see that alloc::sync::ArcInner<std::sync::mutex::Mutex<alloc::vec::Vec<u8>>> is used internally to protect the mutable container. It is unknown if code in the std::sync::Mutex implementation causes this, or if it is purposefully used by crossbeam::crossbeam_queue::ArrayQueue<i32>
+
+-In essence, it seems that the crossbeam::crosbeam_queue::ArrayQueue and SegQueue essentially take care of synchronization for the user, making use of the already-included Arc and Mutex facets intelligently, handling mapping and cloning, along with the std::sync::atomic library to intelligently and seamlessly facilitate a thread-safe queue to the programmer.
+
+-Oh, also, verified that std::thread::spawn does indeed make a call to std::sys::unix::thread::Thread, i.e creates a native thread for your operating system, in this case, more than likely pthreads
