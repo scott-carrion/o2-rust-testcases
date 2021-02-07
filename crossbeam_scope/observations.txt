@@ -1,0 +1,41 @@
+Call to spawn: crossbeam_utils::thread::Scope::spawn()
+Very similar call sequence as seen before: 
+Within this call, std::thread::Thread::new and core::clone::Clone invoked, but thread not yet cleared to be scheduled by OS
+core::cell::UnsafeCell and alloc::sync::Arc used to do mapping, alloc::alloc::exchange_malloc for memory allocation, as we have seen before
+
+
+Call stack:
+main (line 21319)
+	Main function
+
+crossbeam_utils::thread::scope::<crossbeam_scope::main::{closure#0}
+	Call to scope. Uses crossbeam_utils::sync::wait_group::new and clones it to the child thread via core::clone::Clone
+	alloc::sync::Arc used here for mapping, some mapping done using std::Vec of std::Boxed items, probably the stack variables
+	Also makes some std::sync::Mutex and maps it to child thread using Arc, locks it after call to wait for some reason (not spinlock?)
+	Uses <crossbeam_utils::sync::wait_group::WaitGroup>::wait
+
+<crossbeam_utils::sync::wait_group::WaitGroup>::new ( and (...)::wait)
+	Acts very similar to a Barrier synchronization primitive, except it uses core::clone::Clone as a means of telling how many threads to await.
+	This means that you can clone the WaitGroup to register more threads to wait on dynamically, instead of needing to declare that at initialization
+	Dies on synchronization
+	Allows thread multiplexing: Thread can "choose" if it wants to continue when it reaches the WaitGroup or if it should stay blocked
+	Above scope function uses this internally to guarantee stack integrity (by blocking child threads), thus allowing parent stack elements to be accessed without needing "static"
+
+<crossbeam_utils::thread::Scope>::spawn::<crossbeam_scope::main::{closure#0}::{closure#0}
+	User-level API call for spawning thread within parent scope
+	Very similar call chain to before. Calls <crossbeam_utils::thread::Scope>::builder, and after doing that, sets up a JoinHandle for manual thread joining (crossbeam::thread::ScopedJoinHandle<()>)
+	Call to the builder is actually a clever wrapper for the std::thread::Builder, which goes through the usual spawn_unchecked process
+
+
+
+Didn't find any references to Spinlock in LLVM IR, except for some type definitions at the bottom of the file
+
+It does, however, relate to crossbeam_channel::waker. The below DICompositeType declarations mention SpinLock, and they are referenced to other DICompositeType declarations for crossbeam_channel::waker.
+No documentation or other mentions of "Spinlock" were found in any LLVM IR file
+
+
+!7562 = !DICompositeType(tag: DW_TAG_structure_type, name: "Spinlock<crossbeam_channel::flavors::zero::Inner>", scope: !321, file: !2, size: 896, align: 64, elements: !7563, templateParams: !7574, ide      ntifier: "b4d21b9a28b71ebb20bf1700848ce0ee")
+
+and
+
+!7449 = !DICompositeType(tag: DW_TAG_structure_type, name: "Spinlock<crossbeam_channel::waker::Waker>", scope: !321, file: !2, size: 448, align: 64, elements: !7450, templateParams: !7483, identifier:       "ddb8536ab39e5f9e8bbac5f73d52aef0")
