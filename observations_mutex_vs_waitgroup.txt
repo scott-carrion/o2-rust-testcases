@@ -1,0 +1,54 @@
+At first, calls constructor for mutex and waitgroup
+For mutex example, does same with arc and channel
+
+MUTEX EXAMPLE
+--------------
+
+After setting up, mutex example spawns thread. Parent thread blocks on waiting for response from channel (and also the lock for the other print message): <core::result::Result<usize, std::sync::mpsc::RecvError>>::unwrap
+
+In thread closure func for mutex example (std::thread::spawn::<mutex_test::main::{closure#0}):
+	-Mutex locked for data (<std::sync::mutex::Mutex<usize>>::lock)
+	-Uses core::result::Result to retrieve actual value of data for use in thread (<core::result::Result<std::sync::mutex::MutexGuard<usize>, std::sys_common::poison::PoisonError<std::sync::mutex::MutexGuard<usize>>>>::unwrap). If wrapped by Ok(), Mutex isn't poisoned. If wrapped by Err(), Mutex is poisoned, and the poisoned Mutex state error handling begins. It retrieves the value and stores it even though the user doesn't have strictly direct access to it, they need to dereference it (via <std::sync::mutex::MutexGuard<usize> as core::ops::deref::DerefMut>::deref_mut) to get its value. These sort of act like setters and getters in a basic sense
+	-Does the addition normally, using stored dereferenced value, adding it (llvm.uadd.with.overflow.i64), then storing it back in that same value (pretty standard assembly language stuff)
+	-We then send the result over the channel (error handling also there automatically)
+	-Cleanup begins, where internal MutexGuard object is deleted first, so that others waiting to lock mutex are unblocked (core::ptr::drop_in_place::<std::sync::mutex::MutexGuard<usize>>)
+
+
+Back in parent thread, the thread is unblocked upon it receiving a message over the channel, and then on receiving the lock (but by that time, all the threads must be done executing)
+
+
+WAITGROUP EXAMPLE
+------------------
+
+Right before we spawn each thread:
+	-We clone the WaitGroup to make parent thread await one more thread (<crossbeam_utils::sync::wait_group::WaitGroup as core::clone::Clone>::clone)
+	-We then use the WaitGroup to wait for all threads to complete (<crossbeam_utils::sync::wait_group::WaitGroup>::wait)
+
+In thread closure func:
+	-Non-atomic addition done, as normal (llvm.uadd.with.overflow.i8)
+	-Nothing surprising here. We then call drop to signal WaitGroup that a thread has returned (core::mem::drop::<crossbeam_utils::sync::wait_group::WaitGroup>)
+
+
+
+LLVM IR is blank declarations for all WaitGroup funcs... looking elsewhere...
+In crossbeam_utils LLVM IR file, we have definitions and implementations for the above mentioned functions. Listing what they do internally below...
+
+core::mem::drop::<crossbeam_utils::sync::wait_group::WaitGroup>
+	-Implementation of drop() for WaitGroup instances
+	-Allows user to do drop(wg) in the example
+	-Nothing special or interesting here, it literally just deletes the WaitGroup specified from memory
+	-This is the mechanism for telling blocked threads when to continue, assuming they don't just do it themselves
+
+
+<crossbeam_utils::sync::wait_group::WaitGroup as core::clone::Clone>::clone
+	-User does this to make threads blocked by a WaitGroup await one more thread
+	-Cloning process actually uses std::sync::Mutex (same MutexGuard process/wrapper as described above) with PoisonError handling via Result, referenced by alloc::sync::Arc, etc
+	-Interesting here: The process allocates for a wait_group::Inner object (sync::wait_group::Inner)
+	-Cloning obviously creates another reference to WaitGroup (wait_group::Inner) in memory, so that many threads may access it, but some internal counter is kept, as we see an addition
+	 (@llvm.uadd.with.overflow.i64)
+	-Standard Arc-Mutex cleanup process thereafter
+	
+
+<crossbeam_utils::sync::wait_group::WaitGroup>::wait
+	-Acquires the lock for a Mutex for a sync::waitgroup::Inner instance (standard Arc-Mutex process as seen before)
+	-Does nothing, cleans up and exits after
